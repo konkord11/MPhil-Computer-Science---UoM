@@ -1,0 +1,7 @@
+Althobaiti, M. J. 2023. ArPanEmo: An Open-Source Dataset for Fine-Grained Emotion Recognition in Arabic Online Content during COVID-19 Pandemic. Taif University. Available at: https://arxiv.org/abs/2305.17580
+Belay, Y., Haj Ahmed, H., Awadallah, A., and Cambria, E. 2025. CuLEmo: Cultural Lenses on Emotion. arXiv preprint arXiv:2503.10688.
+Booker, C. 2004. The Seven Basic Plots: Why We Tell Stories. Continuum International Publishing Group. https://www.academia.edu/40444461/THE_SEVEN_BASIC_PLOTS_Why_we_tell_stories
+Hamamra, B., Shoukri, R., and Abukhalil, A. 2025. War-related Trauma in Narratives of Gazans: Challenges, Difficulties, and Survival Coping. Psychiatry International, 6(3): 367–376. https://aclanthology.org/2025.nakbanlp-1.14/
+Jarrar, M., Habash, N., El-Haj, M., Haddad Haddad, A., et al. (eds.) 2025. Proceedings of the 1st International Workshop on Nakba Narratives as Language Resources (Nakba-NLP 2025). ACL/COLING 2025. https://aclanthology.org/2025.nakbanlp-1.0.pdf
+Mohammad, S. 2011. From Once Upon a Time to Happily Ever After: Tracking Emotions in Novels and Fairy Tales. In Proceedings of the ACL Workshop on Language Technology for Cultural Heritage, Social Sciences, and Humanities, pages 105–114.
+Nabhani, S., Borg, C., Micallef, K., and Al-Khatib, K. 2025. Integrating Argumentation Features for Enhanced Propaganda Detection in Arabic Narratives on the Israeli War on Gaza. In Proceedings of the 1st International Workshop on Nakba Narratives as Language Resources (Nakba-NLP 2025), pages 127–149.
