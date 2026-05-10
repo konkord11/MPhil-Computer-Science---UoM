@@ -1,0 +1,403 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative09_Pseudonymized",
+    "source_meta": {
+        "source_cluster_id": "SC09_GazaChildSurvivor_BurnInjury",
+        "source_type": "video_transcription",
+        "source_platform": "Short Video (public testimony)",
+        "original_author": "Public circulation source (archived for research use)",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (Gaza Strip; Northern variant suspected; exact locality uncertain)",
+        "collection_context_en": "A child survivor speaks about losing his entire family, surviving with burn injuries, and expressing religious coping, longing, and future-oriented educational aspirations.",
+        "collection_context_ar": "طفل ناجٍ يروي استشهاد عائلته بالكامل وبقاءه وحيداً مع إصابات حروق، ويعبّر عن التديّن كآلية صمود، والحنين لأسرته، والطموح للعودة للدراسة وتحقيق تفوق."
+    },
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "none_needed",
+        "replacement_scope": "n/a",
+        "contains_real_names": false,
+        "notes": "No personal names were present in the spoken content. Family relations are kept as-is. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Native Palestinian Arabic speaker; Gaza dialect familiarity."
+            },
+            {
+                "annotator_id": "A2",
+                "role": "Second annotator",
+                "profile_note": "Native Palestinian Arabic speaker; Gaza dialect familiarity."
+            }
+        ],
+        "adjudication": {
+            "status": "light_adjudication",
+            "note": "Annotators agreed on 5-span segmentation. Minor differences were limited to dialect-locality speculation (kept as 'uncertain') and English phrasing choices."
+        },
+        "interpretation_policy": {
+            "scope_note_en": "All affect and coping labels are applied as discourse-level interpretations grounded in the surface form of the utterance (lexical choices, repetition, self-positioning, and explicit wishes). They are not clinical diagnoses, do not infer hidden mental states, and avoid intensity scoring.",
+            "scope_note_ar": "جميع وسمات الانفعال/الصمود هنا قراءات خطابية مبنية على ظاهر القول (الألفاظ، التكرار، تموضع المتحدث، والرغبات المصرّح بها). ليست تشخيصاً سريرياً، ولا تفترض حالات نفسية غير مذكورة، ولا تتضمن أي تقييم للشدة.",
+            "sensitive_label_guidance": [
+                {
+                    "label": "survivor_guilt_possible",
+                    "allowed_evidence_en": "Explicit wish to have died with the deceased / to join them, paired with stated aloneness and bereavement.",
+                    "disallowed_inference_en": "No assumptions about suicidality, PTSD, depression, or any psychiatric diagnosis."
+                }
+            ]
+        }
+    },
+    "speaker_profile": {
+        "gender": "male",
+        "age_estimate": "child",
+        "origin": "Gaza Strip (exact area unclear from audio alone)",
+        "role_or_status": [
+            "Child Survivor",
+            "Injured Civilian"
+        ]
+    },
+    "approx_context": {
+        "location": "Gaza Strip",
+        "brief_summary_en": "A child survivor states he is the only one left from his family, describes burn injuries, expresses longing and religious hope, and frames resilience through returning to school and following his father's path to become an engineer.",
+        "brief_summary_ar": "طفل ناجٍ يذكر أنه بقي وحيداً بعد استشهاد عائلته، ويصف إصابات حروق، ويعبّر عن الشوق والأمل الديني، ويربط صموده بالعودة للمدرسة والتفوق واتباع طريق والده ليصبح مهندساً."
+    },
+    "segments": [
+        {
+            "segment_id": "Narrative09_seg01",
+            "start_time": null,
+            "end_time": null,
+            "spans": [
+                {
+                    "span_id": "N09_s01",
+                    "text_ar": "قاعد لحالي، استشهد كل عيلتي ما عدا أنا، متصاوب.",
+                    "text_en": "I’m sitting alone[I live by myself]. My whole family was martyred (killed), except me — I’m injured.",
+                    "event_frame": {
+                        "adversity_description": "Total family loss with the speaker as the sole survivor; the speaker is also injured.",
+                        "response_description": "Immediate self-positioning as the lone survivor, stated in a concise, factual register."
+                    },
+                    "affective_signals": {
+                        "affect_type": "grief_sadness",
+                        "justification": "Direct statement of total family loss and aloneness indicates grief with emotional heaviness."
+                    },
+                    "contextual_markers": {
+                        "religious_markers": [
+                            {
+                                "marker": "استشهد",
+                                "note": "Religious framing (Shahada) used in Palestinian discourse to attribute moral/spiritual meaning to war-related death."
+                            }
+                        ],
+                        "dialect_markers": [
+                            {
+                                "marker": "قاعد لحالي / متصاوب",
+                                "note": "Colloquial Palestinian usage indicating aloneness and injury."
+                            },
+                            {
+                                "marker": "عيلتي",
+                                "note": "Colloquial form for family/relatives (عائلتي)."
+                            }
+                        ],
+                        "trauma_markers": [
+                            {
+                                "marker": "Sole-survivor identity",
+                                "note": "Identity shift to solitary survival is explicitly declared."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "span_id": "N09_s02",
+                    "text_ar": "أنا حافظ من كتاب الله الكريم أربعطعشر (14) جزء. كنا نروح نطلع ع المطعم، نروح نزور اصحاب بابا، كنا نروح ع الشاليهات، نكّيف، (يبدأ بالبكاء ويشتد بكاءه وحرقته)..",
+                    "text_en": "I have memorized fourteen (14) parts (juz’) of the Holy Qur’an. We used to go out to restaurants, visit my dad’s friends, go to the beach chalets, and enjoy ourselves… (he begins crying; his crying intensifies).",
+                    "event_frame": {
+                        "adversity_description": "Abrupt contrast between remembered ordinary family life and current bereavement.",
+                        "response_description": "Recalling routine joys and moral identity (Qur’an memorization) as a resilience frame; emotional breakdown occurs mid-recollection."
+                    },
+                    "affective_signals": {
+                        "affect_type": "longing_yearning",
+                        "justification": "Nostalgic listing of past family activities paired with escalating crying indicates intense yearning for the lost life."
+                    },
+                    "contextual_markers": {
+                        "religious_markers": [
+                            {
+                                "marker": "حافظ من كتاب الله الكريم 14 جزء",
+                                "note": "Religious self-identification and moral grounding; often functions as coping/meaning-making."
+                            }
+                        ],
+                        "cultural_markers": [
+                            {
+                                "marker": "الشاليهات",
+                                "note": "Local leisure reference (Gaza coastal chalets), marking pre-trauma normalcy."
+                            },
+                            {
+                                "marker": "نكّيف",
+                                "note": "Gazan/Palestinian colloquial meaning ‘to enjoy ourselves / have a good time’."
+                            }
+                        ],
+                        "discourse_markers": [
+                            {
+                                "marker": "Crying escalation",
+                                "note": "Paralinguistic escalation indicates affective overload while narrating."
+                            },
+                            {
+                                "marker": "List structure",
+                                "note": "Enumerating memories is a common grief narration strategy that reconstructs pre-loss normalcy."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "span_id": "N09_s03",
+                    "text_ar": "مشتاقلهم كتير، لأمي وأبويا وإخواتي، (يقولها وهو يبكي).. نفسي… نفسي أروح معاهم ع الجنة.",
+                    "text_en": "I miss them a lot — my mother, my father, my siblings… (he says this while crying). I wish… I wish I had been martyred with them and gone with them to Paradise.",
+                    "event_frame": {
+                        "adversity_description": "Overwhelming longing for deceased family members; child expresses a wish to have died with them rather than remain alone.",
+                        "response_description": "Religious framing of reunion (‘Paradise’) used to express unbearable separation and aloneness."
+                    },
+                    "affective_signals": {
+                        "affect_type": "survivor_guilt_possible",
+                        "justification": "The expressed wish to have died with them (rather than remain alone) can be consistent with survivor guilt and/or a death-wish framing emerging from intense grief and isolation."
+                    },
+                    "contextual_markers": {
+                        "religious_markers": [
+                            {
+                                "marker": "الجنة",
+                                "note": "Religious eschatological reference; frames reunion and meaning-making in loss."
+                            }
+                        ],
+                        "dialect_markers": [
+                            {
+                                "marker": "مشتاقلهم",
+                                "note": "Colloquial form of ‘I miss them’ (مشتاق لهم)."
+                            },
+                            {
+                                "marker": "أبويا",
+                                "note": "Common spoken form for ‘my father’ (أبي)."
+                            }
+                        ],
+                        "discourse_markers": [
+                            {
+                                "marker": "Repetition (نفسي… نفسي)",
+                                "note": "Repetition reflects emotional strain and difficulty articulating the wish."
+                            }
+                        ],
+                        "trauma_markers": [
+                            {
+                                "marker": "Wish-to-join the deceased",
+                                "note": "A grief expression that may indicate unbearable separation; recorded as narrated without clinical diagnosis."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "span_id": "N09_s04",
+                    "text_ar": "تصاوبت في وجهي، انحرق، وايديا انحرقن، وضهري انحرق، بحتاج علاج ودوا عشان أتحسن وأطيب ان شاء الله.",
+                    "text_en": "I was injured in my face — it burned. My hands burned, and my back burned. I need treatment and medicine so I can get better and heal, Allah willing.",
+                    "event_frame": {
+                        "adversity_description": "Physical injury with burn trauma affecting face, hands, and back; ongoing need for medical care.",
+                        "response_description": "Health-oriented coping: requesting care and invoking hope through religious phrasing."
+                    },
+                    "affective_signals": {
+                        "affect_type": "fear_anxiety",
+                        "justification": "Focus on bodily injury and urgent need for treatment reflects vulnerability and health-related anxiety."
+                    },
+                    "contextual_markers": {
+                        "dialect_markers": [
+                            {
+                                "marker": "ايديا / ضهري / دوا / أطيب",
+                                "note": "Colloquial forms: my hands, my back, medicine, to heal."
+                            },
+                            {
+                                "marker": "انحرقن",
+                                "note": "Dialectal agreement/ending suggests northern Gaza variant; kept as 'suspected' not asserted."
+                            }
+                        ],
+                        "religious_markers": [
+                            {
+                                "marker": "إن شاء الله",
+                                "note": "Invocation of Allah’s will; commonly used to express hope and endurance in hardship."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "span_id": "N09_s05",
+                    "text_ar": "نفسي أرجع ع المدرسة وأكمل دراستي، وأكمل، وأكمل وأجتهد وأصير الأول ع القطاع، أضلني أكمل طريق أبوي وأدعيلهم، أضلني أروح أزورهم. وأكبر إن شاء الله وأطلع مهندس زيو.",
+                    "text_en": "I want to go back to school and continue my studies — keep going, keep going — work hard and become the top student in Gaza. I want to continue my father’s path and pray for them, keep visiting them. And when I grow up, Allah willing, I want to become an engineer like him [His father].",
+                    "event_frame": {
+                        "adversity_description": "Child survivor continues living with loss and injury while facing disrupted education and future uncertainty.",
+                        "response_description": "Future-oriented resilience through education, achievement, and filial continuity (following the father’s path), supported by prayer and religious hope."
+                    },
+                    "affective_signals": {
+                        "affect_type": "hope_future_orientation",
+                        "justification": "Repeated commitment to study, excel, and become an engineer expresses strong future orientation as a coping mechanism."
+                    },
+                    "contextual_markers": {
+                        "cultural_markers": [
+                            {
+                                "marker": "الأول ع القطاع",
+                                "note": "Local educational ambition often referencing top national ranking (e.g., tawjihi (high school graduation exam) culture of excellence)."
+                            },
+                            {
+                                "marker": "أكمل طريق أبوي / أطلع مهندس زيو",
+                                "note": "Strong filial role-modeling pattern (father as ideal), common in Gazan family narratives."
+                            }
+                        ],
+                        "religious_markers": [
+                            {
+                                "marker": "وأدعيلهم / إن شاء الله",
+                                "note": "Prayer and entrusting the future to Allah as intertwined resilience strategies."
+                            }
+                        ],
+                        "dialect_markers": [
+                            {
+                                "marker": "أضلني",
+                                "note": "Gazan/Palestinian continuity marker meaning ‘keep on / continue.’"
+                            },
+                            {
+                                "marker": "زيو",
+                                "note": "Colloquial ‘like him’ (زيّه / مثله)."
+                            }
+                        ],
+                        "discourse_markers": [
+                            {
+                                "marker": "Repetition (وأكمل، وأكمل)",
+                                "note": "Repetition functions as self-motivation and insistence under adversity."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "استشهد": {
+                "variants_ar": [
+                    "قُتل",
+                    "مات في الحرب",
+                    "قُتل ظلمًا"
+                ],
+                "meaning_en": "Was martyred (religious framing of death in conflict)."
+            },
+            "قاعد لحالي": {
+                "variants_ar": [
+                    "جالس وحدي",
+                    "لوحدي",
+                    "أعيش لوحدي"
+                ],
+                "meaning_en": "Sitting alone / by myself / living by myself."
+            },
+            "متصاوب": {
+                "variants_ar": [
+                    "مصاب",
+                    "مجروح"
+                ],
+                "meaning_en": "Injured."
+            },
+            "حافظ 14 جزء": {
+                "variants_ar": [
+                    "حافظ أربعة عشر جزءًا",
+                    "حافظ نص القرآن"
+                ],
+                "meaning_en": "Memorized 14 juz’ of the Qur’an."
+            },
+            "نكّيف": {
+                "variants_ar": [
+                    "نستمتع",
+                    "ننبسط"
+                ],
+                "meaning_en": "Enjoy ourselves / have a good time."
+            },
+            "الشاليهات": {
+                "variants_ar": [
+                    "منتجع الشاليهات",
+                    "شاليهات البحر"
+                ],
+                "meaning_en": "Beach chalets / seaside holiday cabins."
+            },
+            "مشتاقلهم": {
+                "variants_ar": [
+                    "مشتاق لهم",
+                    "أشتاق لهم"
+                ],
+                "meaning_en": "I miss them."
+            },
+            "أبويا": {
+                "variants_ar": [
+                    "أبي",
+                    "والدي"
+                ],
+                "meaning_en": "My father."
+            },
+            "نفسي": {
+                "variants_ar": [
+                    "أتمنى",
+                    "أرغب"
+                ],
+                "meaning_en": "I wish / I really want."
+            },
+            "الجنة": {
+                "variants_ar": [
+                    "الفردوس",
+                    "جنات النعيم"
+                ],
+                "meaning_en": "Paradise (religious afterlife reference)."
+            },
+            "ايديا": {
+                "variants_ar": [
+                    "يديّ",
+                    "يدي"
+                ],
+                "meaning_en": "My hands."
+            },
+            "ضهري": {
+                "variants_ar": [
+                    "ظهري"
+                ],
+                "meaning_en": "My back."
+            },
+            "دوا": {
+                "variants_ar": [
+                    "دواء",
+                    "علاج"
+                ],
+                "meaning_en": "Medicine / treatment."
+            },
+            "أَطِيْب": {
+                "variants_ar": [
+                    "أشفى",
+                    "أتحسن"
+                ],
+                "meaning_en": "Heal / recover."
+            },
+            "إن شاء الله": {
+                "variants_ar": [
+                    "بإذن الله",
+                    "بمشيئة الله عز وجل"
+                ],
+                "meaning_en": "Allah willing / Inshaallah(hope/faith framing). In this narrative, it is used to express hope and endurance in hardship."
+            },
+            "أضلني": {
+                "variants_ar": [
+                    "أستمر",
+                    "أظل",
+                    "أظلني",
+                    "أضل"
+                ],
+                "meaning_en": "Keep on / continue."
+            },
+            "زيو": {
+                "variants_ar": [
+                    "زيّه",
+                    "مثله"
+                ],
+                "meaning_en": "Like him."
+            }
+        }
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

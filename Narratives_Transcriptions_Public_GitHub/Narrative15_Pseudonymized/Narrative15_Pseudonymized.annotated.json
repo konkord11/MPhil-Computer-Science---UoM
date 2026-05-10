@@ -1,0 +1,705 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative15_Pseudonymized",
+    "source_meta": {
+        "source_cluster_id": "SC15_TankCrushing_FamilyLoss_CrawlRescue",
+        "source_type": "video_transcription",
+        "source_platform": "Short Video (public testimony / journalist repost)",
+        "original_author": "Public circulation source (archived for research use)",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (Gaza dialect)",
+        "reported_location": "a southern Gaza area according to video caption/context; exact incident location should be verified before publication",
+        "collection_context_en": "an adult woman gives a public testimony about a tank attack on her family and nearby civilians. She recounts the killing of her husband and two sons, her own injury, her attempts to protect and rescue her surviving children, and her unresolved appeal to know what happened to the bodies.",
+        "collection_context_ar": "امرأة بالغة تقدم شهادة عامة عن هجوم بالدبابات على عائلتها ومدنيين في محيطها. تروي استشهاد زوجها واثنين من أبنائها، وإصابتها، ومحاولاتها حماية وإنقاذ أطفالها الناجين، ثم سؤالها المفتوح عن مصير الجثامين."
+    },
+    "anonymization": {
+        "is_pseudonymized": true,
+        "strategy": "name_replacement_pool",
+        "replacement_scope": "within_dataset_consistent",
+        "contains_real_names": false,
+        "contains_minors": true,
+        "notes": "Pseudonymised public-release bundle. Internal reversibility metadata was removed for GitHub. Pool: Gaza_NamePool_v1.",
+        "pool_id": "Gaza_NamePool_v1"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Native Palestinian Arabic speaker; familiar with Gaza dialect, crisis testimony, and religious/cultural discourse markers."
+            }
+        ],
+        "adjudication": {
+            "status": "draft_annotation_ready_for_review",
+            "note": "Segmentation follows the corrected Arabic narrative and uses ASR only to approximate segment start/end times. Parenthetical explanations supplied by the user are not inserted into the narrative text; they are represented as markers, notes, or lexicon hints where analytically necessary."
+        },
+        "alignment_note": "Timestamps are approximate and based on Whisper/ASR boundaries. Segment text is taken from the user-corrected Arabic narrative, not from ASR wording.",
+        "selection_policy": "The full narrative is preserved in text_ar_full. Analytical segments cover the main event sequence and response shifts. Explanatory parentheticals are excluded from narrative text and moved into contextual markers or lexicon hints."
+    },
+    "speaker_profile": {
+        "gender": "female",
+        "age_estimate": "adult",
+        "origin": "Gaza Strip",
+        "role_or_status": [
+            "Mother",
+            "Wife",
+            "Civilian survivor",
+            "Eyewitness",
+            "Bereaved family member"
+        ]
+    },
+    "approx_context": {
+        "brief_summary_en": "an adult woman recounts a tank attack that killed her husband and two of her children and left her and her daughter severely injured. Her testimony moves from the moment of direct crushing and family separation to attempts to protect surviving children, crawling for help while invoking Allah, partial rescue by ambulance, and a final appeal to know the fate of the bodies.",
+        "brief_summary_ar": "تروي امرأة بالغة ما حدث معها ومع زوجها وأولادها أثناء هجوم بالدبابات أدى إلى استشهاد زوجها واثنين من أبنائها وإصابتها هي وابنتها بجروح بالغة. تنتقل الشهادة من لحظة الدهس والانفصال العائلي إلى محاولات حماية الأطفال الناجين، والزحف طلباً للنجاة مع الدعاء لله، ثم الوصول إلى الإسعاف والسؤال عن مصير الجثامين."
+    },
+    "text_ar_full": "الدبابة دعست على جوزي وأولادي، وبعدها عليا ضلت جاية، رفعت بنتي في إيدي الشمال ورفعت إيدي اليمين وصرت أحكي لهم: لأ، لأ. بعدها وقعت أنا وضليتني بالرمل. الدبابة دعست عليّا لنص ضهري، أنا وبنتي غرَزنا بالأرض. ضلينا محاصرين في الخيمة، صاروا يجرفوا بالبيوت والناس موجودة فيها. جارتي ريم كانت تحمل راية بيضا، ما لحقت توصل الخيمة إلا دبابتين جايات بشكل سريع؛ أول إشي استشهد جوزها، بعد شوي بتفاجأ إنه الرصاص بشكل كثيف جداً، تصاوبنا كلنا. المهم أجى أحمد حط حاله ورا ضهري، كأنه حدا شغّل كهربا في ضهري، بيرجف، بيرجف بشكل مش طبيعي. إلا دبابة جاية بشكل سريع، جوزي يا حرام راح رمى حاله فوق الأولاد التلاتة. الآن الدبابة بعد ما دعست علينا لفت ورايحت.. راحت ع ناحية الأسفلت. أولادي الاثنين.. محمد مشفتوش بالمرة. أحمد كان بينزف، بس شفت ظهره، مشفتش راسه. جوزي مع حلاة الروح الله يرحمه، إيده الشمال مبتورة لهنا، بيحكي لي: ليان حبيبتي، ليان سامحيني، مسامحاني؟ بحكي له: مسامحاك والله يا مازن. فش شوية إلا سامر ابني بيطلع من بين إخواته، لسه ملحقش الولد ييجي عندي، سمعت صوت دبابة. حكيتله سامر نام ورايا يا حبيبي، نام ورايا واعمل حالك ميت. إلا هو بيحكيلي: ليش؟ الدبابة جاية علينا؟ بحكيله: آه جاية. بيقولي: بدها تدعس علينا مرة ثانية؟ بعدها لفت حالها ورجعت. كان فيه مرة طالعة، بحكيلها: حبيبتي أمانة تساعديني، خذي ابني. حكتلي: والله لغير آخده. فبتطلع في بنتي أفقّدّها، لقيت رجلها اليمين متفجرة يعني. قلتلها: يلا يا لولو اخنقيني، حطي إيديكي برقبتي. وبلشت زحف، ضليت أزحف ما يقارب 700 متر. صرت أسرّخ بصوت عالي: يا رب، يا رب عشان خاطر سامر وليلى. صوتي يمكن وصل لسابع سما. ولا حد سمعني، ما كانش فيه ولا أي مخلوق، ما فيش إلا اليهود والدبابات. كان الدبّان يفوت في الجرح برجلي، قد ما أحرك رجلي، مش راضي يطلع. فكان هادا وجع كبير. بعدها تفاجأت إني أنا بالإسعاف، إلا واحد بيخبط بيقول لي: يختي متخافيش، خلص يا حبيبتي، خلص إنتي بالإسعاف. فتحت عينيّا لقيت أخويا، بحكيله: أنتَ محمد؟ أنت محمد؟ بحكيله سامر ولولو، سامر وين؟ بيحكيلي: والله يا أختي سامر بخير، الصليب جابه، هو اللي جابه، إجى عنا وحكالنا كل القصة. طيب وبنتي وين؟ لولو شفتوها؟ إلا هو بيحكيلي: والله لولو هيها بالمستشفى. أنا ابني الأكبر وابني الأصغر، وزوجي مازن القدومي، هو أصلاً سكان مخيم في غزة؛ كلهم استشهدوا. بدي أعرف إيش صار في الجتت! هل دفنوهم؟ جرفوهم؟ الكلاب أكلتهم زي باقي الناس اللي استشهدت وما حد عرف مصيرهم؟ وهادي.. هادي كل القصة.",
+    "segments": [
+        {
+            "segment_id": "Narrative15_s01",
+            "start_time": 0.0,
+            "end_time": 16.08,
+            "text_ar": "الدبابة دعست على جوزي وأولادي، وبعدها عليا ضلت جاية، رفعت بنتي في إيدي الشمال ورفعت إيدي اليمين وصرت أحكي لهم: لأ، لأ. بعدها وقعت أنا وضليتني بالرمل. الدبابة دعست عليّا لنص ضهري، أنا وبنتي غرَزنا بالأرض.",
+            "text_en": "The tank ran over my husband and my children, and then it kept coming toward me. I lifted my daughter with my left hand and raised my right hand, and I kept saying to them: “No, no.” Then I fell and stayed in the sand. The tank ran over me up to the middle of my back; my daughter and I were pressed into the ground.",
+            "event_frame": {
+                "adversity_description": "A tank runs over the speaker’s husband and children, then continues toward the speaker and her daughter, crushing them into the sand.",
+                "response_description": "The speaker raises one hand while holding her daughter with the other and pleads for the tank not to run them over."
+            },
+            "sabr_frame": {
+                "sabr_type": "protective_maternal_survival_under_direct_threat",
+                "features": [
+                    "bodily_protection",
+                    "pleading_to_survive",
+                    "maternal_shielding",
+                    "acute_life_threat"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "terror_and_protective_instinct",
+                "justification": "The raised hand, repeated 'لأ، لأ', and holding the daughter signal immediate fear, refusal of death, and protective maternal response."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "دعست",
+                        "note": "Gaza colloquial here means ran over/crushed, not simply stepped on."
+                    },
+                    {
+                        "marker": "غرَزنا بالأرض",
+                        "note": "Pressed/embedded into the ground or sand under the tank’s force."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "لأ، لأ",
+                        "note": "Minimal repeated refusal; functions as survival plea rather than ordinary negation."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative15_s02",
+            "start_time": 22.86,
+            "end_time": 42.06,
+            "text_ar": "ضلينا محاصرين في الخيمة، صاروا يجرفوا بالبيوت والناس موجودة فيها. جارتي ريم كانت تحمل راية بيضا، ما لحقت توصل الخيمة إلا دبابتين جايات بشكل سريع؛ أول إشي استشهد جوزها، بعد شوي بتفاجأ إنه الرصاص بشكل كثيف جداً، تصاوبنا كلنا.",
+            "text_en": "We remained trapped in the tent. They, meaning the Israeli forces, started bulldozing the houses while people were still inside them. My neighbour Reem was carrying a white flag; she had barely reached the tent when two tanks came quickly. First, her husband was martyred. Shortly after, I was shocked by the extremely heavy gunfire, and all of us were injured.",
+            "event_frame": {
+                "adversity_description": "Civilians are trapped while homes are bulldozed with people inside; a neighbour carrying a white flag is caught in an attack that kills her husband and injures the group.",
+                "response_description": "The speaker reconstructs the attack sequence while emphasizing civilian surrender signals and total exposure."
+            },
+            "sabr_frame": {
+                "sabr_type": "witnessing_under_siege",
+                "features": [
+                    "civilian_trappedness",
+                    "white_flag_marker",
+                    "sequence_reconstruction",
+                    "collective_injury"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "shock_and_besiegement",
+                "justification": "The sudden arrival of tanks, death of the neighbour’s husband, and collective injury produce a scene of trapped shock."
+            },
+            "contextual_markers": {
+                "cultural_markers": [
+                    {
+                        "marker": "راية بيضا",
+                        "note": "White flag; a visible civilian/surrender signal."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "ما لحقت توصل",
+                        "note": "She barely managed to reach; emphasizes speed and suddenness."
+                    },
+                    {
+                        "marker": "تصاوبنا",
+                        "note": "Gaza colloquial for 'we were injured'."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative15_s03",
+            "start_time": 42.06,
+            "end_time": 55.24,
+            "text_ar": "المهم أجى أحمد حط حاله ورا ضهري، كأنه حدا شغّل كهربا في ضهري، بيرجف، بيرجف بشكل مش طبيعي. إلا دبابة جاية بشكل سريع، جوزي يا حرام راح رمى حاله فوق الأولاد التلاتة.",
+            "text_en": "Then Ahmed came and put himself behind my back. It was as if someone had switched electricity on in my back; he was trembling, trembling in an unnatural way. Then a tank came quickly. My poor husband threw himself over the three children.",
+            "event_frame": {
+                "adversity_description": "A child hides behind his mother while shaking intensely from fear as another tank approaches quickly.",
+                "response_description": "The father throws himself over the children in an attempt to shield them with his body."
+            },
+            "sabr_frame": {
+                "sabr_type": "familial_sacrifice_and_embodied_protection",
+                "features": [
+                    "child_fear",
+                    "paternal_shielding",
+                    "protective_self_sacrifice",
+                    "acute_tank_threat"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "panic_and_sacrificial_protection",
+                "justification": "The child’s abnormal trembling signals terror, while the father’s bodily shielding signals sacrifice under imminent threat."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "حط حاله ورا ضهري",
+                        "note": "He placed/hid himself behind my back for protection."
+                    },
+                    {
+                        "marker": "يا حرام",
+                        "note": "Expression of pity/sorrow for what happened to the person."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "بيرجف، بيرجف",
+                        "note": "Repetition highlights visible fear and bodily shock."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative15_s04",
+            "start_time": 55.72,
+            "end_time": 77.96,
+            "text_ar": "الآن الدبابة بعد ما دعست علينا لفت ورايحت.. راحت ع ناحية الأسفلت. أولادي الاثنين، محمد مشفتوش بالمرة. أحمد كان بينزف، بس شفت ظهره، مشفتش راسه. جوزي مع حلاة الروح الله يرحمه. إيده الشمال مبتورة لهنا، بيحكي لي: ليان حبيبتي، ليان سامحيني، مسامحاني؟ بحكي له: مسامحاك والله يا مازن.",
+            "text_en": "After the tank had run over us, it turned and went toward the asphalt. My two sons—Muhammad, I did not see him at all. Ahmed was bleeding; I only saw his back, I did not see his head. My husband was in his last breaths, may Allah have mercy on him. His left arm was amputated up to here. He said to me: 'Layan, my beloved, Layan, forgive me. Do you forgive me?' I said to him: 'I forgive you, by Allah, Mazen.'",
+            "event_frame": {
+                "adversity_description": "The speaker sees or fails to see the bodies of her injured children and witnesses her husband dying with a severed arm.",
+                "response_description": "The dying husband asks for forgiveness; she grants it immediately, turning a death scene into a final act of relational and religious closure."
+            },
+            "sabr_frame": {
+                "sabr_type": "deathbed_forgiveness_and_relational_closure",
+                "features": [
+                    "last_breaths",
+                    "forgiveness_request",
+                    "spousal_closure",
+                    "dua_for_deceased"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "devastation_with_tender_closure",
+                "justification": "The graphic bodily injury is paired with intimate forgiveness and Allah’s mercy formula."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "الله يرحمه",
+                        "note": "May Allah have mercy on him; standard supplication for the deceased."
+                    },
+                    {
+                        "marker": "مسامحاك والله",
+                        "note": "Forgiveness confirmed with an oath by Allah; culturally and religiously significant at the point of death."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "مشفتوش بالمرة",
+                        "note": "I did not see him at all."
+                    },
+                    {
+                        "marker": "حلاة الروح",
+                        "note": "Local expression for the last breaths / final moments before death."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "سامحيني، مسامحاني؟",
+                        "note": "Asking close relatives for forgiveness before death reflects concern about meeting Allah without unresolved rights owed to others."
+                    }
+                ],
+                "gesture_markers": [
+                    {
+                        "marker": "إيده الشمال مبتورة لهنا",
+                        "note": "The speaker appears to indicate a point between the elbow and shoulder; this is treated as embodied testimony rather than inserted into the transcript."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative15_s05",
+            "start_time": 79.08,
+            "end_time": 96.0,
+            "text_ar": "فش شوية إلا سامر ابني بيطلع من بين إخواته، لسه ملحقش الولد ييجي عندي، سمعت صوت دبابة. حكيتله سامر نام ورايا يا حبيبي، نام ورايا واعمل حالك ميت. إلا هو بيحكيلي: ليش؟ الدبابة جاية علينا؟ بحكيله: آه جاية. بيقولي: بدها تدعس علينا مرة ثانية؟ بعدها لفت حالها ورجعت.",
+            "text_en": "A few moments later, my son Samer came out from between his siblings. He had barely managed to come to me when I heard the sound of a tank. I told him: 'Samer, lie behind me, my beloved. Lie behind me and pretend you are dead.' He said to me: 'Why? Is the tank coming toward us?' I told him: 'Yes, it is coming.' He said: 'Does it want to run over us again?' Then the tank turned around and came back.",
+            "event_frame": {
+                "adversity_description": "The surviving child emerges among his siblings just as another tank returns, raising fear of being crushed again.",
+                "response_description": "The mother instructs him to hide behind her and pretend to be dead, using the only remaining survival strategy available."
+            },
+            "sabr_frame": {
+                "sabr_type": "maternal_crisis_strategy",
+                "features": [
+                    "child_survival",
+                    "pretending_dead",
+                    "maternal_shielding",
+                    "rapid_instruction"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "terror_with_protective_control",
+                "justification": "Her instruction is terrifying but controlled: she manages the child’s behaviour to maximize survival."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "فش شوية",
+                        "note": "After only a short moment / shortly after."
+                    },
+                    {
+                        "marker": "ملحقش",
+                        "note": "Barely had time to."
+                    },
+                    {
+                        "marker": "اعمل حالك ميت",
+                        "note": "Pretend to be dead."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "Child question sequence",
+                        "note": "The child’s questions show direct awareness that the tank may run them over again."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative15_s06",
+            "start_time": 96.0,
+            "end_time": 101.82,
+            "text_ar": "كان فيه مرة طالعة، بحكيلها: حبيبتي أمانة تساعديني، خذي ابني. حكتلي: والله لغير آخده.",
+            "text_en": "There was a woman leaving. I said to her: 'My dear, please, help me. Take my son.' She told me: 'By Allah, I will take him.'",
+            "event_frame": {
+                "adversity_description": "The mother cannot secure all children herself under active threat and must entrust one child to a passing displaced woman.",
+                "response_description": "She prioritizes the child’s survival by appealing to another civilian woman, who accepts with an oath."
+            },
+            "sabr_frame": {
+                "sabr_type": "communal_rescue_under_collapse",
+                "features": [
+                    "entrusting_child",
+                    "female_solidarity",
+                    "urgent_appeal",
+                    "oath_of_help"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "desperate_trust",
+                "justification": "The plea 'أمانة تساعديني' and the oath 'والله لغير آخده' show urgent reliance on civilian solidarity."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "والله لغير آخده",
+                        "note": "Oath formula with emphatic commitment: by Allah, I will take him."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "مرة",
+                        "note": "Colloquial Gaza usage for 'woman'."
+                    },
+                    {
+                        "marker": "أمانة",
+                        "note": "Please / I entrust this to you; carries moral obligation."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative15_s07",
+            "start_time": 102.58,
+            "end_time": 128.48,
+            "text_ar": "فبتطلع في بنتي أفقّدّها، لقيت رجلها اليمين متفجرة يعني. قلتلها: يلا يا لولو اخنقيني، حطي إيديكي برقبتي. وبلشت زحف، ضليت أزحف ما يقارب 700 متر. صرت أسرّخ بصوت عالي: يا رب، يا رب عشان خاطر سامر وليلى. صوتي يمكن وصل لسابع سما. ولا حد سمعني، ما كانش فيه ولا أي مخلوق، ما فيش إلا اليهود والدبابات.",
+            "text_en": "I looked at my daughter to check on her and found that her right leg was shattered. I told her: 'Come on, Lolo, cling tightly to me; put your hands around my neck.' Then I began crawling. I kept crawling for almost 700 metres. I started screaming loudly: 'My Lord, my Lord, for the sake of Samer and Layla.' My voice may have reached the seventh sky. No one heard me. There was not a single living being there; there were only the Israeli soldiers and the tanks.",
+            "event_frame": {
+                "adversity_description": "The daughter’s leg is severely injured, the speaker herself is injured, and no civilian help is present in an area controlled by soldiers and tanks.",
+                "response_description": "The mother instructs her daughter to cling to her, crawls a long distance, and invokes Allah not for herself but for her children."
+            },
+            "sabr_frame": {
+                "sabr_type": "faith_based_maternal_endurance",
+                "features": [
+                    "crawling_rescue",
+                    "dua_under_extreme_injury",
+                    "child_prioritization",
+                    "absence_of_human_help"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "desperate_endurance_and_faith",
+                "justification": "The span combines severe injury and isolation with movement, prayer, and child-focused survival effort."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "يا رب",
+                        "note": "Direct invocation of Allah as Lord; plea for help under extreme distress."
+                    },
+                    {
+                        "marker": "صوتي يمكن وصل لسابع سما",
+                        "note": "Hyperbolic spiritual imagery indicating the intensity of prayer and shouting."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "أفقدها",
+                        "note": "To check on her / inspect her condition."
+                    },
+                    {
+                        "marker": "اخنقيني",
+                        "note": "Here means cling tightly around my neck, not literal choking."
+                    },
+                    {
+                        "marker": "ما كانش",
+                        "note": "Gaza-style emphatic negation. ما marks negation and final -ش reinforces it, signalling categorical absence: there was absolutely no one there, not merely few people."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "اليهود",
+                        "note": "In this testimony, the speaker uses 'Jews' to refer to Israeli soldiers/forces, a common local wartime shorthand; it should not be generalized as a statement about all Jews."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative15_s08",
+            "start_time": 128.7,
+            "end_time": 134.36,
+            "text_ar": "كان الدبان يفوت في الجرح برجلي، قد ما أحرك رجلي، مش راضي يطلع. فكان هادا وجع كبير.",
+            "text_en": "Flies were entering the wound in my leg. No matter how much I moved my leg, they would not come out. That was a great pain.",
+            "event_frame": {
+                "adversity_description": "The speaker experiences untreated exposed wounds while immobilized or crawling in the open.",
+                "response_description": "She reports the bodily pain directly, emphasizing the persistence of suffering after the initial attack."
+            },
+            "sabr_frame": {
+                "sabr_type": "bodily_suffering_persistence",
+                "features": [
+                    "untreated_wound",
+                    "exposure",
+                    "pain_description"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "physical_agony",
+                "justification": "The flies entering the wound and the inability to remove them foreground bodily suffering."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "الدبان",
+                        "note": "Flies."
+                    },
+                    {
+                        "marker": "يفوت",
+                        "note": "To enter/go inside."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative15_s09",
+            "start_time": 134.6,
+            "end_time": 160.1,
+            "text_ar": "بعدها تفاجأت إني أنا بالإسعاف، إلا واحد بيخبط بيقول لي: يختي متخافيش، خلص يا حبيبتي، خلص إنتي بالإسعاف. فتحت عينيّا لقيت أخويا، بحكيله: أنتَ محمد؟ أنت محمد؟ بحكيله سامر ولولو، سامر وين؟ بيحكيلي: والله يا أختي سامر بخير، الصليب جابه، هو اللي جابه، إجى عنا وحكالنا كل القصة. طيب وبنتي وين؟ لولو شفتوها؟ إلا هو بيحكيلي: والله لولو هيها بالمستشفى.",
+            "text_en": "Then I suddenly found myself in the ambulance. Someone was tapping and saying to me: 'Sister, do not be afraid. It is over, my dear. You are in the ambulance.' I opened my eyes and found my brother. I said to him: 'Are you Muhammad? Are you Muhammad?' I asked him about Samer and Lolo: 'Where is Samer?' He told me: 'By Allah, sister, Samer is fine. The Red Cross brought him; he came to us and told us the whole story.' I asked: 'And where is my daughter? Have you seen Lolo?' He told me: 'By Allah, Lolo is here in the hospital.'",
+            "event_frame": {
+                "adversity_description": "After losing consciousness or awareness, the speaker wakes in an ambulance while still cognitively searching for her children.",
+                "response_description": "She immediately asks about her children, briefly mistaking her brother for Muhammad, then receives partial reassurance that Samer and Layla are alive/in care."
+            },
+            "sabr_frame": {
+                "sabr_type": "maternal_search_after_rescue",
+                "features": [
+                    "post_trauma_disorientation",
+                    "child_search",
+                    "partial_reassurance",
+                    "ambulance_rescue"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "disorientation_with_fragile_hope",
+                "justification": "Mistaking her brother for her son, Muhammad, shows shock and hope, while her repeated questions reveal urgent maternal searching."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "والله يا أختي",
+                        "note": "Oath used to reassure her that the children are alive/in care."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "يختي",
+                        "note": "Colloquial 'my sister', used as a comforting form of address."
+                    },
+                    {
+                        "marker": "متخافيش",
+                        "note": "Do not be afraid; Gaza negated imperative."
+                    },
+                    {
+                        "marker": "إجى عنا",
+                        "note": "He came to us / arrived at our place."
+                    }
+                ],
+                "medical_markers": [
+                    {
+                        "marker": "الإسعاف",
+                        "note": "Ambulance/rescue vehicle context after the attack."
+                    },
+                    {
+                        "marker": "الصليب",
+                        "note": "Referring to the Red Cross / International Committee of the Red Cross (ICRC), as understood in local speech."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative15_s10",
+            "start_time": 160.1,
+            "end_time": 178.74,
+            "text_ar": "أنا ابني الأكبر وابني الأصغر، وزوجي مازن القدومي، هو أصلاً سكان مخيم في غزة؛ كلهم استشهدوا. بدي أعرف إيش صار في الجتت! هل دفنوهم؟ جرفوهم؟ الكلاب أكلتهم زي باقي الناس اللي استشهدت وما حد عرف مصيرهم؟",
+            "text_en": "My elder son and my younger son, and my husband is Mazen al-Qudumi. He is originally from a refugee camp in Gaza. All of them were martyred. I want to know what happened to the bodies. Did they bury them? Did they bulldoze them away? Did dogs eat them like the other people who were martyred and whose fate no one knew?",
+            "event_frame": {
+                "adversity_description": "The speaker identifies her martyred sons and husband and describes not knowing the fate of their bodies.",
+                "response_description": "She turns the testimony into an appeal for bodily dignity, recovery, burial, and knowledge of the dead."
+            },
+            "sabr_frame": {
+                "sabr_type": "dignity_of_the_dead_and_unresolved_loss",
+                "features": [
+                    "naming_the_dead",
+                    "body_recovery_appeal",
+                    "burial_uncertainty",
+                    "family_loss"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "grief_and_tormented_uncertainty",
+                "justification": "The questions about burial, bulldozing, and dogs eating bodies show unresolved grief and fear of post-mortem indignity."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "استشهدوا",
+                        "note": "They were martyred; frames death through Islamic and Palestinian martyrdom discourse."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "الجتت",
+                        "note": "Bodies/corpses; colloquial plural."
+                    },
+                    {
+                        "marker": "جرفوهم",
+                        "note": "Bulldozed/swept them away."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "مصير الجثامين",
+                        "note": "Knowing and burying the dead is central to family closure, religious duty, and dignity."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative15_s11",
+            "start_time": 182.8,
+            "end_time": 184.1,
+            "text_ar": "وهادي.. هادي كل القصة.",
+            "text_en": "And this is... this is the whole story.",
+            "event_frame": {
+                "adversity_description": "Narrative closure after recounting extreme bodily harm, family loss, survival, and uncertainty over the dead.",
+                "response_description": "The speaker closes with a minimal statement that compresses the event into a completed testimony."
+            },
+            "sabr_frame": {
+                "sabr_type": "testimonial_closure",
+                "features": [
+                    "minimal_closure",
+                    "witnessing",
+                    "story_completion"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "exhausted_closure",
+                "justification": "The short closing after a long traumatic sequence suggests emotional exhaustion and testimonial completion."
+            },
+            "contextual_markers": {
+                "discourse_markers": [
+                    {
+                        "marker": "كل القصة",
+                        "note": "Formulaic closure; marks the end of witness testimony."
+                    }
+                ]
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "دعست": {
+                "variants_ar": [
+                    "دهست",
+                    "داست"
+                ],
+                "meaning_en": "Ran over/crushed with a vehicle or tank."
+            },
+            "غرَزنا بالأرض": {
+                "variants_ar": [
+                    "انغرزنا",
+                    "دخلنا في الرمل"
+                ],
+                "meaning_en": "Were pressed/embedded into the ground or sand."
+            },
+            "ملحقش / ملحقتش": {
+                "variants_ar": [
+                    "لم ينجح في الوصول قبل أن يقطعه حدث آخر",
+                    "يا دوب",
+                    "تزامن وتداخل الأحداث الزمنية"
+                ],
+                "meaning_en": "Barely managed to / had no time to before another event interrupted."
+            },
+            "والله لغير آخده": {
+                "variants_ar": [
+                    "والله غير آخده",
+                    "والله لآخده"
+                ],
+                "meaning_en": "By Allah, I will definitely take him; emphatic oath of commitment."
+            },
+            "حط حاله ورا ضهري": {
+                "variants_ar": [
+                    "اختبأ ورا ضهري",
+                    "احتمى بظهري"
+                ],
+                "meaning_en": "He hid/placed himself behind my back for protection."
+            },
+            "مشفتوش بالمرة": {
+                "variants_ar": [
+                    "ما شفتوش أبداً",
+                    "لم أره مطلقاً"
+                ],
+                "meaning_en": "I did not see him at all."
+            },
+            "حلاة الروح": {
+                "variants_ar": [
+                    "حلاوة الروح",
+                    "آخر نفس",
+                    "الرمق الأخير"
+                ],
+                "meaning_en": "Final breaths / last moments before death."
+            },
+            "اعمل حالك ميت": {
+                "variants_ar": [
+                    "تظاهر بالموت",
+                    "اعمل نفسك ميت"
+                ],
+                "meaning_en": "Pretend to be dead."
+            },
+            "مَرَة": {
+                "variants_ar": [
+                    "امرأة",
+                    "ست",
+                    "مَرَة"
+                ],
+                "meaning_en": "Woman; common colloquial usage in Gaza."
+            },
+            "اخنقيني": {
+                "variants_ar": [
+                    "امسكي فيّ بقوة",
+                    "لفي إيديكي حول رقبتي"
+                ],
+                "meaning_en": "Cling tightly to me by putting your arms around my neck; not literal choking."
+            },
+            "الدبان": {
+                "variants_ar": [
+                    "الذباب"
+                ],
+                "meaning_en": "Flies."
+            },
+            "يفوت": {
+                "variants_ar": [
+                    "يدخل"
+                ],
+                "meaning_en": "To enter/go inside."
+            },
+            "إجى عنا": {
+                "variants_ar": [
+                    "جاء إلينا",
+                    "أجى عندنا",
+                    "وصل لعندنا"
+                ],
+                "meaning_en": "He came to us / arrived where we were."
+            },
+            "الجتت": {
+                "variants_ar": [
+                    "الجثث",
+                    "الجثامين"
+                ],
+                "meaning_en": "Bodies/corpses."
+            },
+            "جرفوهم": {
+                "variants_ar": [
+                    "ردموهم",
+                    "أزالوهم بالجرافات"
+                ],
+                "meaning_en": "Bulldozed them away / swept them away with bulldozers."
+            },
+            "ما كانش": {
+                "variants_ar": [
+                    "ما كانش",
+                    "مكانش",
+                    "لم يكن"
+                ],
+                "meaning_en": "There was not / there was absolutely no; Gaza-style emphatic negation where ما marks negation and final -ش reinforces categorical non-existence.",
+                "note_ar": "في لهجة غزة، ما هي أداة النفي، وإضافة الشين في آخر الكلمة المنفية تأتي لتشديد النفي وتأكيده. في السياق، ما كانش تعني انتفاء وجود أي شخص أو شيء بشكل قاطع، وليس مجرد قلة الوجود."
+            },
+            "ما فيش": {
+                "variants_ar": [
+                    "ما فيش",
+                    "فش",
+                    "لا يوجد"
+                ],
+                "meaning_en": "There is no / there is absolutely none; Gaza-style emphatic negation where ما marks negation and final -ش reinforces categorical absence.",
+                "note_ar": "ما فيش أو فش لا تدل على القلة، بل على نفي الوجود بصورة قطعية. في هذا السياق تعني أنه لم يكن هناك أي مخلوق أو أي شخص في المنطقة."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "maternal_survival_faith_endurance_body_dignity",
+        "paper_fit_ar": "تمثل هذه الرواية مثالاً قوياً على الصمود الأمومي تحت إصابة جسدية قصوى وفقد عائلي مباشر. يظهر الصبر هنا كفعل حماية وإنقاذ متتابع، لا كهدوء سلبي: حماية الأطفال، توجيه الطفل للتظاهر بالموت، الاستنجاد بامرأة لإنقاذ الابن، الزحف بالابنة المصابة، والدعاء لله من أجل الأبناء، ثم المطالبة بمعرفة مصير الجثامين.",
+        "paper_fit_en": "This narrative is a strong example of maternal resilience under extreme bodily injury and immediate family loss. Resilience is expressed through successive protective actions rather than emotional calmness: shielding children, instructing a child to pretend to be dead, entrusting a son to another woman, crawling with an injured daughter, invoking Allah for the children, and later demanding knowledge of the bodies."
+    },
+    "ethical_note": {
+        "risk_level": "very_high_sensitivity_minor_related_testimony",
+        "notes": [
+            "The testimony includes named children, ages, named deceased relatives, severe bodily injury, and uncertainty about bodies; these create heightened ethical sensitivity.",
+            "For public dataset release, replace family names and children’s names with consistent Palestinian pseudonyms or initials unless explicit consent exists for real-name publication.",
+            "In papers, quote only analytically necessary excerpts and avoid overexposing graphic details, especially those involving minors.",
+            "Do not use this testimony for individual psychological diagnosis; keep annotation focused on discourse structure, adversity framing, response strategies, cultural markers, and affective signal.",
+            "Keep a raw internal version and a separate de-identified research/public version."
+        ],
+        "recommended_public_version": "pseudonymized_or_excerpt_only"
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

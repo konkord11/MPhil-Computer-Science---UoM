@@ -1,0 +1,247 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative18_Pseudonymized",
+    "source_meta": {
+        "source_cluster_id": "SC18_GazaCity_Nourhan",
+        "source_type": "video_transcription",
+        "source_platform": "Short Video (public recitation / testimony repost)",
+        "original_author": "Public circulation source (archived for research use)",
+        "original_language": "ar",
+        "dialect": "Modern Standard Arabic (MSA)",
+        "collection_context_en": "An 18-year-old Qur’an memorizer in Gaza City opens by reciting Qur’an (Al-Hashr 59:21), then introduces herself as the daughter of a martyred father and recounts completing a full Qur’an recitation in one sitting at a mosque and again from a shelter center as part of a Qur’an-focused initiative. Despite profound loss and harsh conditions, she affirms steadfast continuation on the path of the martyrs and her late father, and expresses a future aspiration to complete the same recitation at Al-Aqsa Mosque—Allah willing, by Allah’s will.",
+        "collection_context_ar": "حافظة قرآن (١٨ عاماً) من مدينة غزة تبدأ بتلاوة من سورة الحشر (آية 21)، ثم تعرّف نفسها بأنها ابنة شهيد، وتذكر أنها سردت القرآن كاملاً في جلسة واحدة في مسجدها ثم تكرر ذلك من مركز لجوء وإيواء ضمن مشروع قرآني. رغم الفقد والظروف الصعبة تؤكد الاستمرار على درب الشهداء ودرب والدها، وتختم بطموح سرد القرآن كاملاً في باحات المسجد الأقصى بإذن الله."
+    },
+    "anonymization": {
+        "is_pseudonymized": true,
+        "strategy": "name_replacement_pool",
+        "replacement_scope": "within_dataset_consistent",
+        "contains_real_names": false,
+        "notes": "Pseudonymised public-release bundle. Internal reversibility metadata was removed for GitHub. Pool: Gaza_NamePool_v1.",
+        "pool_id": "Gaza_NamePool_v1"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Native Palestinian Arabic speaker; familiar with Gaza religious/public speech registers and various Gazan dialects."
+            }
+        ],
+        "adjudication": {
+            "status": "final_adjudication",
+            "note": "Segmentation follows three spans, preceded by a Qur’anic epigraph segment."
+        },
+        "alignment_note": "Segment timestamps are aligned approximately using ASR boundaries only; text content is taken exclusively from the user-corrected Arabic narrative."
+    },
+    "speaker_profile": {
+        "gender": "female",
+        "age": 18,
+        "origin": "Gaza City",
+        "register": [
+            "religious",
+            "formal",
+            "testimonial"
+        ],
+        "role_or_status": [
+            "Qur’an memorizer",
+            "daughter of a martyr",
+            "displaced/shelter resident"
+        ]
+    },
+    "approx_context": {
+        "location": "Gaza City (shelter/IDP center; earlier: her mosque)",
+        "brief_summary_en": "She begins with a Qur’anic verse (59:21), then identifies herself as a Qur’an memorizer and the daughter of a martyred father. She describes completing a full Qur’an recitation in one sitting at her mosque and again from within a shelter as part of a Qur’an initiative. Despite losing her main support (the family’s backbone) and enduring severe conditions, she affirms continued perseverance and loyalty to the path of the martyrs and her late father, concluding with a hopeful aspiration to complete the same recitation at Al-Aqsa Mosque—Allah willing, by Allah’s will.",
+        "brief_summary_ar": "تفتتح بتلاوة آية من سورة الحشر، ثم تعرّف نفسها بأنها حافظة للقرآن وابنة شهيد. تذكر أنها سردت القرآن كاملاً في جلسة واحدة في مسجدها ثم تعيد ذلك من مركز إيواء ضمن مشروع قرآني. رغم فقد السند وفقد الأحبة والظروف الصعبة تؤكد الاستمرار على درب الشهداء ودرب والدها، وتختم بطموح سرد القرآن كاملاً في باحات المسجد الأقصى بإذن الله."
+    },
+    "text_ar_full": "﴿ لَوْ أَنزَلْنَا هَـٰذَا ٱلْقُرْءَانَ عَلَىٰ جَبَلٍۢ لَّرَأَيْتَهُۥ خَـٰشِعاً مُّتَصَدِّعاً مِّنْ خَشْيَةِ ٱللَّهِ ۚ وَتِلْكَ ٱلْأَمْثَـٰلُ نَضْرِبُهَا لِلنَّاسِ لَعَلَّهُمْ يَتَفَكَّرُونَ ﴾ سورة الحشر، آية 21. أنا الحافظة لكتاب الله نورهان ابنة الشهيد ياسر الدقس، سردت القرآن كاملاً على جلسةٍ واحدة في مسجدي، وها أنا اليوم من داخل مركز اللجوء والإيواء، ضمن مشروع (طوفان القرآن همم الحفّاظ 3)، أسرد القرآن كاملاً على جلسةٍ واحدة، رُغم أننا فقدنا السند وفقدنا أغلى ما نملك في هذه الحياة ورُغم الظروف الصعب.. الصعبة التي نمر بها، إلّا أننا مستمرون وماضون على درب الشهداء وأننا ماضون على دربكَ يا والدي العزيز، رحمك الله. وإن شاء الله سنسرد القرآن الكريم كاملاً على جلسةٍ واحدة في باحات المسجد الأقصى بإذن الله عز وجل منتصرين.",
+    "segments": [
+        {
+            "segment_id": "Narrative18_s00",
+            "start_time": 8.02,
+            "end_time": 36.88,
+            "text_ar": "﴿ لَوْ أَنزَلْنَا هَـٰذَا ٱلْقُرْءَانَ عَلَىٰ جَبَلٍۢ لَّرَأَيْتَهُۥ خَـٰشِعاً مُّتَصَدِّعاً مِّنْ خَشْيَةِ ٱللَّهِ ۚ وَتِلْكَ ٱلْأَمْثَـٰلُ نَضْرِبُهَا لِلنَّاسِ لَعَلَّهُمْ يَتَفَكَّرُونَ ﴾ سورة الحشر، آية 21.",
+            "text_en": "[Qur’an 59:21] Had We sent down this Qur’an upon a mountain, you would have seen it humbled and splitting apart from fear of Allah. And these examples We present to the people so that they may reflect.",
+            "event_frame": {
+                "adversity_description": "The testimony is framed through a Qur’anic epigraph that foregrounds awe, humility, and fear of Allah as meaning-making under crisis.",
+                "response_description": "A reverent opening that anchors the narrative in Qur’anic authority and reflective contemplation."
+            },
+            "sabr_frame": {
+                "sabr_type": "quran_anchored_steadfastness",
+                "features": [
+                    "scriptural_framing",
+                    "reverence",
+                    "meaning_making"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "reverent_focus",
+                "justification": "Beginning with Qur’an indicates emotional containment and value-centered orientation."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "سورة الحشر، آية 21",
+                        "note": "Explicit verse attribution; strengthens scriptural framing."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative18_s01",
+            "start_time": 39.74,
+            "end_time": 60.88,
+            "text_ar": "أنا الحافظة لكتاب الله نورهان ابنة الشهيد ياسر الدقس، سردت القرآن كاملاً على جلسةٍ واحدة في مسجدي، وها أنا اليوم من داخل مركز اللجوء والإيواء، ضمن مشروع (طوفان القرآن همم الحفّاظ 3)، أسرد القرآن كاملاً على جلسةٍ واحدة،",
+            "text_en": "I am a memorizer of Allah’s Book, Nourhan, the daughter of the martyred Yasser al-Daqqas. I recited the entire Qur’an in a single sitting at my mosque, and today—inside a shelter and displacement center—within the initiative “Qur’an Flood: The Resolve of the Memorizers (3),” I am reciting the entire Qur’an in a single sitting.",
+            "event_frame": {
+                "adversity_description": "Displacement into a shelter and the disruption of normal religious and educational life alongside bereavement.",
+                "response_description": "Identity-based resilience: she asserts Qur’anic devotion and continuity of practice despite displacement."
+            },
+            "sabr_frame": {
+                "sabr_type": "purposeful_perseverance",
+                "features": [
+                    "identity_as_hafiza",
+                    "continuity_of_worship",
+                    "public_commitment"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "calm_pride_and_steadfastness",
+                "justification": "A formal self-introduction and structured achievement framing indicate controlled, confident endurance."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "الحافظة لكتاب الله",
+                        "note": "Self-positioning through Qur’anic devotion as a core identity."
+                    },
+                    {
+                        "marker": "الشهيد",
+                        "note": "Martyrdom status used as an honor-linked family reference in Gaza discourse."
+                    }
+                ],
+                "organization_markers": [
+                    {
+                        "marker": "مشروع (طوفان القرآن همم الحفّاظ 3)",
+                        "note": "Named initiative; treated as part of the spoken content."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative18_s02",
+            "start_time": 61.44,
+            "end_time": 80.86,
+            "text_ar": "رُغم أننا فقدنا السند وفقدنا أغلى ما نملك في هذه الحياة ورُغم الظروف الصعب.. الصعبة التي نمر بها، إلّا أننا مستمرون وماضون على درب الشهداء وأننا ماضون على دربكَ يا والدي العزيز، رحمك الله.",
+            "text_en": "Even though we have lost our support—the pillar we leaned on—and we have lost the most precious thing we possess in this life; and despite the hard… the difficult conditions we are living through—still, we continue and move forward on the path of the martyrs, and we move forward on your path, my dear father. May Allah have mercy on you.",
+            "event_frame": {
+                "adversity_description": "The loss of the family’s main support (her father) alongside profound bereavement under severe conditions.",
+                "response_description": "Steadfast continuation framed as loyalty to martyrs and filial devotion, ending with a mercy supplication for her father."
+            },
+            "sabr_frame": {
+                "sabr_type": "bereavement_sabr_with_moral_lineage",
+                "features": [
+                    "loss_acknowledgment",
+                    "continuation_commitment",
+                    "martyr_path_framing",
+                    "dua_for_deceased"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "controlled_grief_with_resolve",
+                "justification": "She names losses explicitly yet keeps a forward-moving stance and ends with a composed supplication."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "رحمك الله",
+                        "note": "Mercy supplication for the deceased; a standard Islamic condolence formula."
+                    }
+                ],
+                "disfluency_markers": [
+                    {
+                        "marker": "الصعب.. الصعبة",
+                        "note": "Self-repair emphasizing difficulty; preserved verbatim as spoken."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative18_s03",
+            "start_time": 81.32,
+            "end_time": 90.26,
+            "text_ar": "وإن شاء الله سنسرد القرآن الكريم كاملاً على جلسةٍ واحدة في باحات المسجد الأقصى بإذن الله عز وجل منتصرين.",
+            "text_en": "Allah willing, we will recite the Noble Qur’an in full in a single sitting in the courtyards of Al-Aqsa Mosque—by Allah’s will, the Mighty and Majestic—victorious.",
+            "event_frame": {
+                "adversity_description": "Ongoing displacement and loss, paired with restricted horizons and uncertainty about the future.",
+                "response_description": "Hope-driven religious aspiration: a future-oriented pledge grounded in Allah’s will (in shā’ Allah / bi-idhn Allah)."
+            },
+            "sabr_frame": {
+                "sabr_type": "hopeful_aspiration_grounded_in_faith",
+                "features": [
+                    "inshaAllah_future_orientation",
+                    "sacred_goal_setting",
+                    "victory_horizon"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "uplifted_hope",
+                "justification": "A future pledge tied to a sacred goal and victory language indicates elevated, stabilizing hope."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "وإن شاء الله",
+                        "note": "in shā’ Allah: a faith-based futurity marker contingent on Allah’s will."
+                    },
+                    {
+                        "marker": "بإذن الله عز وجل",
+                        "note": "bi-idhn Allah: faith-grounded causation; here best rendered as ‘by Allah’s will’ (not administrative ‘permission’)."
+                    }
+                ]
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "سردت/أسرد القرآن": {
+                "variants_ar": [
+                    "قرأت القرآن",
+                    "ختمت القرآن",
+                    "تليت القرآن كاملاً"
+                ],
+                "meaning_en": "Completed a full Qur’an recitation from memory (a formal phrasing used in Qur’anic circles)."
+            },
+            "السند": {
+                "variants_ar": [
+                    "سند",
+                    "دعامة",
+                    "ظهر",
+                    "عمود البيت"
+                ],
+                "meaning_en": "Support / backbone / pillar (here: her father as the family’s main support, not the hadith isnād)."
+            },
+            "الحافظة": {
+                "variants_ar": [
+                    "حافظة للقرآن",
+                    "حافظة لكتاب الله"
+                ],
+                "meaning_en": "Female Qur’an memorizer (ḥāfiẓa)."
+            },
+            "إن شاء الله / بإذن الله": {
+                "variants_ar": [
+                    "بمشيئة الله"
+                ],
+                "meaning_en": "Allah willing / by Allah’s will (faith-grounded futurity and causation)."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "quran_as_coping_and_identity_resilience",
+        "paper_fit_ar": "تجسد هذه الرواية آلية تكيّف دينية/معنوية تتمحور حول القرآن: تعريف الهوية كـ«حافظة»، واستمرار الفعل التعبدي كفعل مقاومة نفسية ومعنوية داخل مراكز الإيواء. تمتزج فيها لغة الفقد (فقد السند والأغلى - الأب) مع ثبات انفعالي وإصرار على الاستمرار، ثم تتحول إلى طموح مستقبلي مشروط بمشيئة الله (إن شاء الله/بإذن الله)، بما يعكس صموداً قائماً على المعنى والهدف.",
+        "paper_fit_en": "This narrative exemplifies Qur’an-centered coping as an identity-anchored resilience strategy: the speaker foregrounds her status as a memorizer [Qur’an memorizer] (ḥāfiẓa), maintains devotional continuity under displacement, explicitly acknowledges compounded losses (including loss of sanad [support] and loved ones - Her father), and reframes endurance as principled continuation on the ‘path of martyrs’ and filial legacy. The closing pledge—conditioned by in shā’ Allah / bi-idhn Allah—operationalizes faith-grounded futurity, linking personal grief to disciplined practice, emotional containment, and aspirational goal-setting."
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

@@ -1,0 +1,191 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative22_Pseudonymized",
+    "source_meta": {
+        "source_type": "video_testimony",
+        "original_language": "ar",
+        "dialect": "Palestinian Gazan Arabic (urban Gazan register)",
+        "temporal_proximity": "immediate_post_loss",
+        "collection_context_en": "A mother (approx. 40–45 years old) speaks immediately after losing her second son. The speech occurs beside his body, indicating acute temporal proximity to the event."
+    },
+    "speaker_profile": {
+        "gender": "female",
+        "age_estimate": "adult",
+        "role_or_status": [
+            "mother_of_two_martyrs"
+        ],
+        "dominant_affective_orientation": "faith-centered_steadfastness"
+    },
+    "segments": [
+        {
+            "segment_id": "Narrative22_s00",
+            "start_time": 0.0,
+            "end_time": 9.0,
+            "text_ar": "(زغاريد متواصلة للأم)",
+            "text_en": "(Continuous ululation by the mother.)",
+            "event_frame": {
+                "adversity_description": "Immediate presence of her son's body following his death.",
+                "response_description": "Ululation used as a cultural expression reframing death as martyrdom rather than defeat."
+            },
+            "sabr_frame": {
+                "sabr_type": "embodied_symbolic_sabr",
+                "features": [
+                    "ululation_as_honor_signal",
+                    "grief_transformed_into_pride",
+                    "cultural_reframing"
+                ]
+            },
+            "erel_layer": {
+                "embodied_signals": [
+                    "continuous_ululation",
+                    "raised_voice_authority",
+                    "directive_tone_to_crowd"
+                ],
+                "regulation_pattern": "shock_to_structure_transition",
+                "interpretation": "Physical vocalization (ululation) precedes structured religious language, indicating immediate embodied regulation followed by cognitive stabilization.",
+                "dominant_regulation_mode": "ritualized_strength_display"
+            },
+            "affective_signals": {
+                "affect_type": "stabilized_shock",
+                "dominant_valence": "controlled_strength",
+                "justification": "Instead of crying, she performs a culturally coded sound of honor, indicating immediate meaning-construction."
+            }
+        },
+        {
+            "segment_id": "Narrative22_s01",
+            "start_time": 9.0,
+            "end_time": 15.5,
+            "text_ar": "زغرتوا للشهدا هدول شهدا محدش يصرّخ،",
+            "text_en": "Ululate for the martyrs—these are martyrs. No one should scream.",
+            "event_frame": {
+                "adversity_description": "Women around her are crying in shock.",
+                "response_description": "She actively regulates the mourning environment and redirects grief toward martyrdom framing."
+            },
+            "sabr_frame": {
+                "sabr_type": "collective_emotion_regulation_sabr",
+                "features": [
+                    "crowd_stabilization",
+                    "martyrdom_reframing",
+                    "leadership_under_loss"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "assertive_steadfastness",
+                "dominant_valence": "strength_over_collapse",
+                "justification": "Imperative structure ('محدش يصرّخ') reflects emotional control rather than breakdown."
+            }
+        },
+        {
+            "segment_id": "Narrative22_s02",
+            "start_time": 15.5,
+            "end_time": 24.0,
+            "text_ar": "هي ابني التاني، ابني التاني. هي مجاهد ومحمد، ولادي شهدا، أنا أم شهدا،",
+            "text_en": "This is my second son—my second son. Mujahid and Mohammed—my sons are martyrs. I am the mother of martyrs.",
+            "event_frame": {
+                "adversity_description": "Loss of a second son (cumulative bereavement).",
+                "response_description": "Identity reconstruction from grieving mother to 'mother of martyrs.'"
+            },
+            "sabr_frame": {
+                "sabr_type": "identity_reconstitution_sabr",
+                "features": [
+                    "trauma_repetition_marker",
+                    "martyr_identity_claim",
+                    "self_redefinition"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "shock_integrated_with_pride",
+                "dominant_valence": "dignified_strength",
+                "justification": "Repetition signals shock processing, but ends in identity assertion ('أنا أم شهدا')."
+            }
+        },
+        {
+            "segment_id": "Narrative22_s03",
+            "start_time": 24.0,
+            "end_time": 52.0,
+            "text_ar": "أنا راضية والله العظيم راضية، الحمدلله الحمدلله الحمدلله، فدا فلسطين، فدا الئدس، الحمدلله، اللهم أجرني في مصيبتي واخلف لي خيراً منها، اللهم أجرني في مصيبتي واخلف لي خيراً منها، اللهم أجرني في مصيبتي واخلف لي خيراً منها، الحمدلله، الحمدلله، الحمدلله يا رب، الحمدلله يا رب.",
+            "text_en": "I am content—by Allah, truly content. Alhamdulillah, Alhamdulillah, Alhamdulillah. A sacrifice for Palestine—a sacrifice for Jerusalem. Alhamdulillah. O Allah, reward me in my affliction and replace it for me with something better. O Allah, reward me in my affliction and replace it for me with something better. O Allah, reward me in my affliction and replace it for me with something better. Alhamdulillah. Alhamdulillah. Alhamdulillah, my Lord. Alhamdulillah, my Lord.",
+            "event_frame": {
+                "adversity_description": "Immediate maternal loss under violent conditions.",
+                "response_description": "Verbal declaration of رضا (contentment), repetitive praise (ḥamd), and invocation of prophetic supplication."
+            },
+            "sabr_frame": {
+                "sabr_type": "theological_ritualized_sabr",
+                "features": [
+                    "explicit_riḍa_statement",
+                    "hamd_repetition_as_stabilizer",
+                    "prophetic_dua_activation",
+                    "sacrifice_reframing"
+                ]
+            },
+            "erel_layer": {
+                "embodied_signals": [
+                    "voice_repetition_rhythm",
+                    "steady_religious_chant_pattern"
+                ],
+                "regulation_pattern": "repetition_as_self_grounding",
+                "interpretation": "High-frequency repetition functions as rhythmic emotional containment rather than uncontrolled breakdown.",
+                "dominant_regulation_mode": "faith-centered_stabilization"
+            },
+            "affective_signals": {
+                "affect_type": "dominant_steadfastness_with_controlled_grief",
+                "dominant_valence": "faith_based_resilience",
+                "justification": "High-frequency repetition functions as cognitive and emotional stabilization. Her language centers on acceptance and gratitude rather than collapse."
+            }
+        }
+    ],
+    "coping_mechanisms": [
+        "religious_repetition",
+        "martyrdom_reframing",
+        "collective_emotion_regulation",
+        "identity_redefinition",
+        "prophetic_supplication"
+    ],
+    "shock_markers": {
+        "lexical_repetition": [
+            "ابني التاني",
+            "الحمدلله",
+            "أنا راضية",
+            "اللهم أجرني في مصيبتي"
+        ],
+        "interpretation": "Repetition operates as a grounding mechanism under acute trauma."
+    },
+    "lexicon_hints": {
+        "زغرتوا": {
+            "msa_equivalent": "زغردوا",
+            "meaning_en": "Ululate (produce a celebratory high-pitched trill).",
+            "note": "Gazan dialect plural imperative form."
+        },
+        "فدا": {
+            "msa_equivalent": "فداءً",
+            "meaning_en": "In sacrifice for / offered as sacrifice for.",
+            "note": "Used to frame martyrdom as intentional sacrifice."
+        },
+        "الئدس": {
+            "msa_equivalent": "القدس",
+            "meaning_en": "Jerusalem.",
+            "note": "Gazan pronunciation shifts the letter qaf (ق) to a glottal stop."
+        },
+        "اللهم أجرني في مصيبتي واخلف لي خيراً منها": {
+            "meaning_en": "O Allah, reward me in my affliction and replace it for me with something better.",
+            "source_note": "Prophetic supplication reported in Sahih Muslim.",
+            "function": "ritualized_coping_formula"
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "acute_bereavement_steadfastness",
+        "paper_fit_en": "This narrative demonstrates acute shock stabilization through religious ritual language, collective emotional regulation, and identity reframing. The mother’s dominant affect is steadfastness rather than collapse. Ululation, repetition of praise, and prophetic supplication function as immediate coping regulators transforming personal loss into collective meaning."
+    },
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "none_needed",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "n/a",
+        "contains_real_names": null,
+        "notes": "No replacements were required under the current manifest; this copy mirrors the source folder. Public-release bundle: reversibility metadata stripped for GitHub."
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

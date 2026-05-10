@@ -1,0 +1,149 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative02_Pseudonymized",
+    "source_meta": {
+        "source_cluster_id": "SC02_ForcedDisplacement_IG",
+        "source_type": "video_transcription",
+        "source_platform": "Instagram",
+        "original_author": "Journalist's Archive (provided with consent)",
+        "original_language": "ar",
+        "dialect": "Palestinian (Northern Gaza: Jabalia / Beit Lahia (Jabalian dialect))",
+        "collection_context_en": "Transcription of an Instagram video in which a displaced man describes psychological disorientation, economic exhaustion, and fear of death during forced evacuation.",
+        "collection_context_ar": "تفريغ لفيديو إنستغرام يصف فيه رجل نازح حالة التيه، العجز المادي، والخوف من الموت أثناء النزوح القسري."
+    },
+    "speaker_profile": {
+        "gender": "male",
+        "age_estimate": "adult",
+        "origin": "Northern Gaza Strip (Jabalia / Beit Lahia)"
+    },
+    "approx_context": {
+        "location": "Gaza City (during forced displacement towards the south)",
+        "brief_summary_en": "A displaced man expresses economic exhaustion, separation from meaningful social bonds, and a state of disorientation marked by fear of death during evacuation.",
+        "brief_summary_ar": "رجل نازح يعبّر عن الفقر، فقدان الروابط الاجتماعية، وحالة التيه والخوف من الموت أثناء النزوح."
+    },
+    "segments": [
+        {
+            "segment_id": "Narrative02_seg01",
+            "start_time": 0.0,
+            "end_time": 7.0,
+            "text_ar": "بنصيح على قلة المصاري، وعلى فراق الناس المْليحة… ومش عارفين حالنا وين رايحين… تايهين… والله تايهين.",
+            "text_en": "We are crying over the lack of money, and over being separated from the good people… We don’t know where we’re going… we’re lost… truly lost.",
+            "event_frame": {
+                "adversity_description": "Economic deprivation combined with forced separation from newly formed social bonds during displacement.",
+                "response_description": "Open expression of distress and explicit naming of disorientation and loss of direction."
+            },
+            "affective_signals": {
+                "affect_type": "distress_disorientation",
+                "justification": "Repeated reference to being lost ('تايهين') alongside crying reflects psychological disorientation under forced movement."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "بنصيح",
+                        "note": "We cry - Gazan colloquial usage indicating crying aloud or vocal distress rather than literal shouting (often written the same)."
+                    },
+                    {
+                        "marker": "قلة المصاري",
+                        "note": "Lack of money - Colloquial expression denoting economic incapacity, especially critical during displacement when movement depends on money."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "الناس المْليحة",
+                        "note": "The good people - Refers to meaningful social relationships formed during displacement, not merely moral goodness."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "والله",
+                        "note": "By Allah - Used to affirm sincerity and depth of suffering rather than as a filler expression."
+                    }
+                ],
+                "trauma_markers": [
+                    {
+                        "marker": "Cognitive disorientation",
+                        "note": "Loss of clear spatial and future reference points."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative02_seg02",
+            "start_time": 10.0,
+            "end_time": 15.5,
+            "text_ar": "يعني طالع… طالع يا عالِم نشوفه ولا ما نشوفه… يمكن نموت… يمكن يموت… يمكن أنا أموت… مش عارفين وين رايحين فينا.",
+            "text_en": "We’re leaving… leaving, and only Allah knows whether we’ll see each other again or not… maybe we’ll die… maybe he’ll die… maybe I’ll die… we don’t know where they’re taking us.",
+            "event_frame": {
+                "adversity_description": "Evacuation under constant threat of death with no clarity about destination or outcome.",
+                "response_description": "Verbal processing of possible death through repetition and uncertainty."
+            },
+            "affective_signals": {
+                "affect_type": "fear_anxiety",
+                "justification": "Repeated references to possible death reflect heightened survival anxiety and anticipation of loss."
+            },
+            "contextual_markers": {
+                "cultural_markers": [
+                    {
+                        "marker": "يا عالِم",
+                        "note": "Gazan/Levantine idiom meaning 'Only Allah knows' or 'who knows?', expressing surrender to uncertainty rather than addressing the world (يا عالَم)."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "Repetition of probability",
+                        "note": "Sequential listing of possible deaths (self and others) reflects rumination under threat."
+                    }
+                ],
+                "trauma_markers": [
+                    {
+                        "marker": "Anticipatory fear",
+                        "note": "Fear of death before its occurrence, common in forced evacuation contexts."
+                    }
+                ]
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "بنصيح": [
+                "نبكي",
+                "نصرخ من الألم"
+            ],
+            "قلة المصاري": [
+                "الفقر",
+                "عدم توفر المال"
+            ],
+            "الناس المْليحة": [
+                "الناس الطيبة",
+                "العلاقات الجيدة"
+            ],
+            "تايهين": [
+                "تائهين",
+                "ضائعين",
+                "مشتتين"
+            ],
+            "يا عالِم": [
+                "الله أعلم",
+                "من يدري",
+                "...لا ندري ما إذا"
+            ],
+            "طالع": [
+                "نازح",
+                "مغادر",
+                "خارج من المكان الذي انا فيه الان"
+            ]
+        }
+    },
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "none_needed",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "n/a",
+        "contains_real_names": null,
+        "notes": "No replacements were required under the current manifest; this copy mirrors the source folder. Public-release bundle: reversibility metadata stripped for GitHub."
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

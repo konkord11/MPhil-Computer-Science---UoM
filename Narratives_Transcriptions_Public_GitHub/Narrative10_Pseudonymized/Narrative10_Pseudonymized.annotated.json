@@ -1,0 +1,365 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative10_Pseudonymized",
+    "source_meta": {
+        "source_cluster_id": "SC10_TentCamp_Fire_Airstrike",
+        "source_type": "video_transcription",
+        "source_platform": "Short Video (public testimony / journalist repost)",
+        "original_author": "Public circulation source (archived for research use)",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (Gaza City – Shuja'iyya / Eastern Gaza dialect; most probable)",
+        "collection_context_en": "An older woman from a displacement camp recounts a strike that ignited multiple neighboring tents. She describes a brief moment of reassurance ('the bombing is far') followed by sudden shock, collective child-evacuation, and the moment she finds her daughter at the tent entrance with a fixed gaze. The account ends with camp-wide panic and mass arrival to hospital.",
+        "collection_context_ar": "امرأة كبيرة بالسن من مخيم نزوح تروي قصفاً أدى لاشتعال النار في خيم متجاورة. تبدأ بمحاولة طمأنة امرأة معها أن القصف بعيد، ثم تنتقل فجأة إلى صدمة الحريق ومحاولة نقل الأطفال لمكان آمن، ثم لحظة العثور على ابنتها مرمية على باب الخيمة بعينين شاخصتين، وتنتهي بوصف الفوضى العامة ووصول أعداد كبيرة للمستشفى."
+    },
+    "anonymization": {
+        "is_pseudonymized": true,
+        "strategy": "name_replacement_pool",
+        "replacement_scope": "within_dataset_consistent",
+        "contains_real_names": false,
+        "notes": "Pseudonymised public-release bundle. Internal reversibility metadata was removed for GitHub. Pool: Gaza_NamePool_v1.",
+        "pool_id": "Gaza_NamePool_v1"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Native Palestinian Arabic speaker; Gaza dialect familiarity."
+            },
+            {
+                "annotator_id": "A2",
+                "role": "Second annotator",
+                "profile_note": "Native Palestinian Arabic speaker; Gaza dialect familiarity."
+            }
+        ],
+        "adjudication": {
+            "status": "light_adjudication",
+            "note": "Annotators agreed on a 5-span segmentation aligned with narrative phase shifts (reassurance → shock/fire spread → child evacuation → discovery + emergency calling → camp-wide panic). Annotated by A2. Minor edits by annotator A1 focused on dialectal meanings (e.g., 'لَنا', 'نقيمهم', 'المربع') and first-person translation fidelity."
+        },
+        "alignment_note": "Span timestamps are derived from the provided ASR segment boundaries (approximate)."
+    },
+    "speaker_profile": {
+        "gender": "female",
+        "age_estimate": "older_adult",
+        "origin": "Gaza Strip (now in a displacement camp)",
+        "role_or_status": [
+            "Displaced Person",
+            "Mother",
+            "Eyewitness"
+        ]
+    },
+    "approx_context": {
+        "location": "Gaza Strip (displacement camp)",
+        "brief_summary_en": "An older mother narrates a sudden strike that sparked fire across neighboring tents. After initially reassuring someone that the bombing sounded far, she realizes the danger is immediate, evacuates children, then finds her daughter at the tent entrance with a fixed gaze and open mouth. She repeatedly calls for help and describes camp-wide panic and mass casualties reaching the hospital.",
+        "brief_summary_ar": "أم مسنّة تروي قصفاً أدى لاشتعال النار في خيم متجاورة. بعد محاولة طمأنة امرأة معها أن القصف بعيد، تكتشف فجأة أن الخطر بجوارهم، وتنقل الأطفال لمكان آمن، ثم تصدم برؤية ابنتها على باب الخيمة بعينين شاخصتين وفم مفتوح. تستغيث وتصف فوضى عامة ووصول أعداد كبيرة للمستشفى."
+    },
+    "text_ar_full": "بقلها بعيد هادا القصف، لَنا بتطلع هيك لقيت النار شايلة في الخيمة إلي جمبي والي جمبي والي جمبي، كل الخيم هادول مولعين... آه، بتطلع صرنا نحمل هالولاد ونقيمهم نشرد يعني عشان ميولعوش... بتطلع هيك لقيتها التانية هي مرمية على باب الخيمة ومبحلقة عينيها وفاتحة تمها... صرنا ننادي ونصرخ: يا هناء يا هناء، الحقوني يا ناس الحقوني... بنتي بنتي بنتي سايفة هيها ماتت... صاروا الناس يجروا... كل واحد بدو يشرد... هبّت في كل المخيم... هان كلو كلو هان عندهم في المستشفى، مربع كلو هبّت فيه.",
+    "segments": [
+        {
+            "segment_id": "Narrative10_seg01",
+            "start_time": 0.0,
+            "end_time": 37.2,
+            "spans": [
+                {
+                    "span_id": "N10_s01",
+                    "start_time": 0.0,
+                    "end_time": 7.22,
+                    "text_ar": "بقلها: بعيد هادا القصف… لَنا بتطلع هيك، لقيت النار شايلة في الخيمة اللي جنبي، واللي جنبي، واللي جنبي… كل الخيم هدول مولّعين.",
+                    "text_en": "I told her: “This bombing is far.” Then when I looked over there, I found the fire blazing in the tent next to me, and the next one, and the next one… all these tents are burning.",
+                    "event_frame": {
+                        "adversity_description": "A strike triggers rapid fire spread across adjacent tents in a displacement camp; the perceived distance of danger collapses into immediate threat.",
+                        "response_description": "A brief reassurance attempt ('it’s far') followed by sudden shock upon visual confirmation that the fire is right beside them."
+                    },
+                    "affective_signals": {
+                        "affect_type": "shock",
+                        "justification": "Abrupt shift from reassurance to vivid fire discovery; repetition ('and the next') reflects cognitive overload while tracking spread."
+                    },
+                    "contextual_markers": {
+                        "dialect_markers": [
+                            {
+                                "marker": "لَنا",
+                                "note": "Dialectal connector used here to mark a sudden transition into what she saw (≈ 'then/when I looked'). Not interpreted as a literal 'إلا أنا'."
+                            },
+                            {
+                                "marker": "شايلة",
+                                "note": "Gazan usage: fire ‘rising/blazing strongly’."
+                            }
+                        ],
+                        "discourse_markers": [
+                            {
+                                "marker": "Repetition (والي جمبي…)",
+                                "note": "Not filler: encodes rapid spread, inability to count, and cognitive overload while tracking escalation."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "span_id": "N10_s02",
+                    "start_time": 7.96,
+                    "end_time": 16.87,
+                    "text_ar": "آه… صرنا نحمل هالولاد ونقيمهم، نشرد يعني عشان ما يولعوش…",
+                    "text_en": "Ah… we started carrying the children and moving them to a safer place, fleeing so they wouldn’t catch fire…",
+                    "event_frame": {
+                        "adversity_description": "Immediate danger to children as fire spreads between tents.",
+                        "response_description": "Collective protective action: physically relocating children away from the burning area."
+                    },
+                    "affective_signals": {
+                        "affect_type": "fear_anxiety",
+                        "justification": "Urgent action sequence (carry → relocate → flee) reflects panic-driven protection under imminent threat."
+                    },
+                    "contextual_markers": {
+                        "dialect_markers": [
+                            {
+                                "marker": "نقيمهم",
+                                "note": "Here means ‘carry/relocate them to safety’ (move them out of the burning zone), not ‘wake them up’."
+                            },
+                            {
+                                "marker": "نشرد",
+                                "note": "Gazan colloquial for fleeing urgently, often implying panic and loss of control over the situation."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "span_id": "N10_s03",
+                    "start_time": 16.87,
+                    "end_time": 24.16,
+                    "text_ar": "بتطلع هيك… لقيتها مرمية على باب الخيمة، ومبحلقة عينيها… وفاتحة تمّها.",
+                    "text_en": "I looked—like this—and I found her (my daughter) lying at the tent entrance, her eyes fixed… and her mouth open.",
+                    "event_frame": {
+                        "adversity_description": "Discovery of the daughter in a likely fatal or severe state at close range after the fire/strike.",
+                        "response_description": "Freeze-like witness description focusing on bodily detail (eyes/mouth) rather than narrative ordering."
+                    },
+                    "affective_signals": {
+                        "affect_type": "numbness_freeze",
+                        "justification": "Shift from active rescue to precise, still visual detail suggests a moment of freezing/disbelief."
+                    },
+                    "contextual_markers": {
+                        "dialect_markers": [
+                            {
+                                "marker": "مرمية",
+                                "note": "Gazan term implying ‘thrown/laid on the ground’ due to impact, not resting by choice."
+                            },
+                            {
+                                "marker": "مبحلقة",
+                                "note": "Gazan colloquial: fixed stare / eyes wide and unblinking."
+                            },
+                            {
+                                "marker": "تمّها",
+                                "note": "Colloquial for ‘mouth’ (فمها)."
+                            }
+                        ],
+                        "trauma_markers": [
+                            {
+                                "marker": "Graphic stillness detail",
+                                "note": "Bodily stillness cues (fixed eyes/open mouth) often mark immediate recognition of death or severe harm."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "span_id": "N10_s04",
+                    "start_time": 24.3,
+                    "end_time": 29.89,
+                    "text_ar": "صرنا يا هناء يا هناء… الحقوني يا ناس الحقوني… بنتي بنتي بنتي… سايفة… هيها ماتت.",
+                    "text_en": "We started shouting: “Hanaa, Hanaa…” “Help me, people—help me…” “My daughter, my daughter, my daughter… she’s unconscious… here she is… she’s dead.”",
+                    "event_frame": {
+                        "adversity_description": "Acute maternal loss recognition amid chaos; uncertainty collapses into fatal confirmation in real time.",
+                        "response_description": "Emergency calling and public plea; speech shows oscillation between hope (unconscious) and finality (dead)."
+                    },
+                    "affective_signals": {
+                        "affect_type": "panic_plea",
+                        "justification": "High repetition + direct help-plea indicates panic, maternal alarm, and desperate social calling."
+                    },
+                    "contextual_markers": {
+                        "discourse_markers": [
+                            {
+                                "marker": "Elliptical speech",
+                                "note": "‘صرنا يا هناء…’ implies omitted action (‘we started calling/screaming’) and is typical in high-arousal narration."
+                            },
+                            {
+                                "marker": "Repetition (بنتي بنتي بنتي)",
+                                "note": "Repetition is functional (urgent escalation + shock expression), not ornamental."
+                            },
+                            {
+                                "marker": "Gesture/Deixis (هيها)",
+                                "note": "Likely pointing to the daughter's location/body during speech; treated as a gesture-linked deictic marker, not added as editorial text."
+                            }
+                        ],
+                        "lexical_markers": [
+                            {
+                                "marker": "الحقوني",
+                                "note": "Emergency plea meaning ‘help me now’ in camp/community discourse."
+                            },
+                            {
+                                "marker": "سايفة",
+                                "note": "Gazan usage often for unconsciousness; may precede final confirmation during chaos."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "span_id": "N10_s05",
+                    "start_time": 29.89,
+                    "end_time": 37.2,
+                    "text_ar": "صاروا الناس يجروا… كل واحد بدّه يشرد… هبّت في كل المخيم… هان كلو كلو هان عندهم في المستشفى… مربّع كلو هبّت فيه.",
+                    "text_en": "People started running… everyone wanted to flee… it spread through the whole camp… everyone is over there at the hospital… an entire block was swept by it.",
+                    "event_frame": {
+                        "adversity_description": "Camp-wide panic and mass harm following rapid fire spread/strike impact; surge of casualties to the hospital.",
+                        "response_description": "Collective framing: from personal loss to community catastrophe using totalizers and spatial anchoring (hospital / block)."
+                    },
+                    "affective_signals": {
+                        "affect_type": "exhaustion_overwhelm",
+                        "justification": "Totalizing language (‘all, all’) and compressed phrasing reflect overwhelm and perceived scale beyond individual containment."
+                    },
+                    "contextual_markers": {
+                        "dialect_markers": [
+                            {
+                                "marker": "هبّت",
+                                "note": "Gazan term for sudden spread/flare-up of fire/chaos."
+                            },
+                            {
+                                "marker": "مربّع",
+                                "note": "Block of adjacent dwellings. Here used metaphorically for the tent area, reflecting how displacement-camp life becomes a substitute ‘residential block’ with strong temporary social bonding."
+                            }
+                        ],
+                        "discourse_markers": [
+                            {
+                                "marker": "Totalizers (كلو كلو)",
+                                "note": "Often non-literal; used to convey magnitude and mass-casualty perception under shock."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "بعيد هادا القصف": {
+                "variants_ar": [
+                    "القصف بعيد",
+                    "شكله بعيد",
+                    "صوته بعيد"
+                ],
+                "meaning_en": "The bombing is far (initial reassurance / misperceived distance)."
+            },
+            "لَنا": {
+                "variants_ar": [
+                    "لما (أحياناً تُكتب هكذا)",
+                    "وقت ما",
+                    "إلا أنا"
+                ],
+                "meaning_en": "Then/when I looked there (dialectal connector; sudden transition marker)."
+            },
+            "بتطلع هيك": {
+                "variants_ar": [
+                    "نظرت هناك",
+                    "لفّيت راسي",
+                    "طلّيت",
+                    "نظرت للجانب"
+                ],
+                "meaning_en": "I looked like this / I glanced/turned my head suddenly (visual deixis)."
+            },
+            "النار شايلة": {
+                "variants_ar": [
+                    "النار مولّعة بقوة",
+                    "النار قوية",
+                    "النار مرتفعة"
+                ],
+                "meaning_en": "The fire is blazing strongly / rising."
+            },
+            "الخيم مولّعين": {
+                "variants_ar": [
+                    "الخيم مشتعلة",
+                    "الخيم مولّعة",
+                    "الخيم بتحترق"
+                ],
+                "meaning_en": "The tents are burning (on fire)."
+            },
+            "نقيمهم": {
+                "variants_ar": [
+                    "ننقلهم",
+                    "نحملهم ونطلعهم",
+                    "نوديهم لمكان أمان"
+                ],
+                "meaning_en": "Move/relocate them to safety (carry them away)."
+            },
+            "نشرد": {
+                "variants_ar": [
+                    "نهرب",
+                    "نبعد عن الخطر",
+                    "نجري",
+                    "نبعد بسرعة"
+                ],
+                "meaning_en": "Flee/run away urgently."
+            },
+            "مرمية": {
+                "variants_ar": [
+                    "مطروحة",
+                    "ملقاة",
+                    "واقعة على الأرض"
+                ],
+                "meaning_en": "Lying/thrown on the ground (not by choice)."
+            },
+            "مبحلقة": {
+                "variants_ar": [
+                    "شاخصة",
+                    "محدقة",
+                    "فاتحة عينيها على الآخر"
+                ],
+                "meaning_en": "Staring / fixed gaze (wide, unblinking eyes)."
+            },
+            "فاتحة تمّها": {
+                "variants_ar": [
+                    "فاتحة فمها",
+                    "تمها مفتوح"
+                ],
+                "meaning_en": "Her mouth is open."
+            },
+            "الحقوني": {
+                "variants_ar": [
+                    "ساعدوني",
+                    "أنقذوني",
+                    "الحقوني يا ناس"
+                ],
+                "meaning_en": "Help me / save me (urgent plea)."
+            },
+            "سايفة": {
+                "variants_ar": [
+                    "مغشي عليها",
+                    "فاقدة الوعي",
+                    "مغمى عليها"
+                ],
+                "meaning_en": "Unconscious / fainted."
+            },
+            "هبّت": {
+                "variants_ar": [
+                    "انتشرت فجأة",
+                    "ولّعت بسرعة",
+                    "اشتعلت فجأة وبسرعة"
+                ],
+                "meaning_en": "Suddenly spread/flared up (fire/chaos)."
+            },
+            "المخيم": {
+                "variants_ar": [
+                    "مخيم النزوح",
+                    "مكان الخيام"
+                ],
+                "meaning_en": "Displacement camp."
+            },
+            "مربّع": {
+                "variants_ar": [
+                    "بلوك",
+                    "حي",
+                    "منطقة متجاورة"
+                ],
+                "meaning_en": "A block/cluster area; here used to describe the tent zone as a temporary ‘residential block’ with strong social cohesion."
+            }
+        }
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

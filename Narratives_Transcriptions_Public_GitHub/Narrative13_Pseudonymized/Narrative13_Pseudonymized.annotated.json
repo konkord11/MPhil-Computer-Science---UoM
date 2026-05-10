@@ -1,0 +1,490 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative13_Pseudonymized",
+    "source_meta": {
+        "source_cluster_id": "SC_AidSite_ChildTestimony_USAidRoute",
+        "source_type": "video_transcription",
+        "source_platform": "Press testimony / public video",
+        "original_author": "Public circulation source (archived for research use)",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (Gaza dialect)",
+        "collection_context_en": "A boy, likely no older than 12, speaks to the press outside a hospital shortly after surviving or witnessing deadly violence linked to an aid-distribution route associated in his testimony with American aid. He describes deception, encirclement by military force, random shooting, humiliation, civilian deaths, and the killing of medics and rescue workers. He also frames the event through dignity, refusal of humiliation, and faith-based steadfastness.",
+        "collection_context_ar": "طفل لا يبدو أنه يتجاوز 12 عاماً يتحدث للصحافة على باب مستشفى بعد وقت قصير من نجاته أو مشاهدته لحدث دموي مرتبط بمسار توزيع مساعدات يربطه في شهادته بالمساعدات الأمريكية. يصف الخداع، والتطويق العسكري، وإطلاق النار العشوائي، والذل، وسقوط المدنيين، واستهداف الطواقم الطبية والإنقاذ، ثم يعيد تأطير التجربة من خلال الكرامة والصمود والإيمان بالله."
+    },
+    "anonymization": {
+        "is_pseudonymized": true,
+        "strategy": "name_replacement_pool",
+        "replacement_scope": "within_dataset_consistent",
+        "contains_real_names": false,
+        "notes": "Pseudonymised public-release bundle. Internal reversibility metadata was removed for GitHub. Pool: Gaza_NamePool_v1.",
+        "pool_id": "Gaza_NamePool_v1"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Native Palestinian Arabic speaker; familiar with Gaza war discourse and child testimony registers."
+            }
+        ],
+        "adjudication": {
+            "status": "draft_annotation",
+            "note": "The full narrative is preserved in the raw text. Only analytically salient spans with relatively clear adversity-response structure are foregrounded below. Some disfluent or unclear stretches are intentionally not promoted to analytical spans, but remain part of the source narrative."
+        },
+        "alignment_note": "Span timestamps are aligned approximately using ASR segment boundaries only; textual content is taken from the corrected Arabic narrative, not from ASR output."
+    },
+    "speaker_profile": {
+        "gender": "male",
+        "age_estimate": "child",
+        "origin": "Gaza Strip",
+        "role_or_status": [
+            "Child eyewitness",
+            "Bereaved family member",
+            "Civilian survivor/witness"
+        ]
+    },
+    "approx_context": {
+        "location": "Hospital entrance, Gaza",
+        "brief_summary_en": "A child recounts going to collect aid after being told to receive ration coupons and boxes, despite not trusting the occupier. He describes waiting through the night under surrounding military threat, appeals to Arab and European audiences to see Gaza’s humiliation, insists that Gazans refuse degradation, states that their strength comes from Allah rather than weapons, recalls losing his mother and brother, describes civilians and medics being killed, and ends by warning others not to go for aid that is not worth dying for.",
+        "brief_summary_ar": "يروي طفل ذهابه إلى موقع المساعدات بعد أن قيل لهم إنهم سيستلمون كابونات وكرتونات، رغم أنه لم يثق بالمحتل. يصف الانتظار طوال الليل تحت تطويق عسكري كامل، ويناشد الدول العربية والأوروبية أن ترى ما يجري من إذلال وتجويع، ويؤكد أن أهل غزة لا يقبلون الذل وأن قوتهم بالله لا بالسلاح. ثم يذكر فقد أمه وأخيه، ويتحدث عن مقتل المدنيين واستهداف الأطباء والإسعاف والدفاع المدني، وينتهي بتحذير الناس من الذهاب إلى مساعدات لا تستحق التضحية بالأرواح."
+    },
+    "text_ar_full": "اسمي سامي، سامي خالد العطار، ق قالوا الجيش تبع اليهود قالوا روحوا استلموا كابونات هاضا اول مرة مصدقنهمش لأنهم محتلين يعني بنوخدش منهم دقيقة على بعضها لأنهم عدوين، رحنا توجهنا عليهم، لما رحنا عساس يعطونا كرتونة باحترامنا بأدب طلعوا أوسخ من الأوسخين، منضلنا من من السبعة بالليل لحد الفجر، الدبابات من هينا، الي الب.. البحر من هين، اليهود من هين، الكوات من هين، الأباتشي من هين، من وين بدك تتلقاها، شوفوا يا دول الأوروبية شوفونا، شوفوا يا الدول العربية شوفونا، يعمي مننزل، احنا بني آدمين زيكو، لو مش زيكو، هي اليوم وزعوا بعرفش من وين طريق.. ولا بنعرف أكل، ولا شرب، يعني احنا شعب غزة الصامد ليوم الدين، وأقول للجيش الإسرائيلي ما تقدر على شعب غزة، شعب غزة قوته بالله انتو قوتكم بالسلاح، احنا قوتنا بالله، احنا شعبٌ عظيم، بس مس منعمل لكل بني آدم ولكل غزة منحول، لانو محتل كزاب هاضا، الصحافة الي زيكو نزّلو، محاصرة غزة، بأصعب قوتهم ما يقدرولنا، احنا شعبٌ عظيم، بنقول للشباب ميروحوش، اللي ينعن ابوها الكابونة، ولا تيجي منهم زل، يا بتيجي باحترام يا بلاش، هي أَمي راحت، وقبل، اخوي في هادي الحرب راح، والله يعلم مين بدو يروح. الحين مش ضامنين رواحنا بس أقول لأمريكان، وأقول لكل دول العربية: احنا يعمي بننزلش، ما بنهين كرامتنا، افتحولنا المعبر حياكو الله، بدناش نروح ع تبعتكو الله يخلف عليكو، بتكون ماشي عالخط زي ما بقولولك، كزابين، ماشيين عالخط، تلاقيه الي جنبك بموت، والي أمك بتموت، ال أخوك بتموت، يا راجل ازا الدكتور مش مسموحلو يموت بموت، الصليب يراجل بقصفوهم، بقصفو ايش اقلك، الاسعافات، ال تعون الدفاع المدني، مبخلوش اشي إلا يقصفوه، هاضا وين، والله لو انتو، والله لو لو ايش بمكان واحد رمينا عليهم صاروخ، ليقلبوا الدنيا، والله لو اننا رخاص لهالدرجة، مش لاقيين الناس في هادا الشعب كلو، شايف تحولوا مش لاقيين لقمة ياكلوها يراجل، وين، والله ربنا ما قال، مش من حقنا نعيش زي الناس، زي دول، هي الشنتة، وهي كيس الطحين، هي كيس الطحين، هي كيسين واحد لابوي وواحد إلي، هيهن، ولا ماسكين أي اشي، ولا ولا مسدس ولا رايحين نكاتل، مدنيين احنا، مش عساكر، احنا مدنيين مش عساكر، لما وصلنا كنا قاعدين .. صارت إطلاق نار، تقول قامت القيامة، مش عارفين ايش في، يعمي كلنا ولاد المدنيين، مفش حدا عسكري راح هناك ولا توجه الهم بخدشة، صاروا يطمّو مش عارفين ايش، والله ميروحوا نصيحتي يعمي اللي اللي بدو يفقد اخوه حرام يروح عشان كابونة بتسواش خمسين شيكل والله حرام نروح نضحي بأرواحنا",
+    "segments": [
+        {
+            "segment_id": "Narrative_Ahmed_AidSite_s01",
+            "start_time": 0.0,
+            "end_time": 16.52,
+            "text_ar": "اسمي سامي، سامي خالد العطار، قالوا الجيش تبع اليهود قالوا روحوا استلموا كابونات، هاضا أول مرة مصدقنهمش لأنهم محتلين، يعني بنوخدش منهم دقيقة على بعضها لأنهم عدوين، رحنا توجهنا عليهم.",
+            "text_en": "My name is Sami, Sami Khaled al-Attar. The Jewish army told us to go receive ration coupons. I did not believe them in the first place because they are occupiers; we do not trust them even for a moment because they are enemies. Still, we went toward them.",
+            "event_frame": {
+                "adversity_description": "The child frames the aid call as coming from a hostile occupying force that cannot be trusted.",
+                "response_description": "He explicitly states distrust and enemy-recognition, yet recounts moving toward the site anyway, indicating coerced necessity rather than genuine trust."
+            },
+            "affective_signals": {
+                "affect_type": "suspicion_under_necessity",
+                "justification": "The span combines explicit distrust ('مصدقنهمش', 'عدوين') with compelled movement toward the aid point."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "مصدقنهمش",
+                        "note": "Gaza negation with final -ش; means 'I do not believe them'."
+                    },
+                    {
+                        "marker": "بنوخدش منهم دقيقة على بعضها",
+                        "note": "Idiomatic speech meaning 'we do not trust them in anything, not even for a moment / not even in the smallest matter'."
+                    },
+                    {
+                        "marker": "كابونات",
+                        "note": "Local usage for ration coupons / aid entitlement slips."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "Child self-identification at opening",
+                        "note": "The testimony begins with direct naming, which is common in unmediated press testimony and signals immediacy rather than crafted narration."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative_Ahmed_AidSite_s02",
+            "start_time": 17.18,
+            "end_time": 35.44,
+            "text_ar": "لما رحنا عساس يعطونا كرتونة باحترامنا بأدب طلعوا أوسخ من الأوسخين، منضلنا من السبعة بالليل لحد الفجر، الدبابات من هينا، البحر من هين، اليهود من هين، الكوات من هين، الأباتشي من هين، من وين بدك تتلقاها.",
+            "text_en": "When we went, supposedly they were going to give us a box respectfully and decently, but they turned out filthier than the filthiest. We stayed from seven at night until dawn. Tanks were on this side, the sea on that side, the soldiers on this side, the quadcopters on this side, the Apache helicopters on this side—where were you supposed to take it from?",
+            "event_frame": {
+                "adversity_description": "The aid route is reframed as deception, prolonged waiting, and total military encirclement from multiple directions.",
+                "response_description": "The child uses bitter irony and a rhetorical question to communicate betrayal, impossibility, and sensory overload."
+            },
+            "affective_signals": {
+                "affect_type": "betrayal_and_overwhelm",
+                "justification": "The promised respectful distribution collapses into encirclement and impossible exposure from every direction."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "عساس",
+                        "note": "Colloquial for 'as if / supposedly / on the basis that'."
+                    },
+                    {
+                        "marker": "أوسخ من الأوسخين",
+                        "note": "Hyperbolic colloquial insult; here it also carries a child's darkly ironic phrasing."
+                    },
+                    {
+                        "marker": "من وين بدك تتلقاها",
+                        "note": "Idiomatic rhetorical question meaning 'from where were you even supposed to receive it / survive it'."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "Enumerative spatial listing",
+                        "note": "The repeated 'من هين' structure maps full encirclement and panic through deictic positioning."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative_Ahmed_AidSite_s03",
+            "start_time": 35.78,
+            "end_time": 51.24,
+            "text_ar": "شوفوا يا دول الأوروبية شوفونا، شوفوا يا الدول العربية شوفونا، يعمي مننزل، احنا بني آدمين زيكو، ولا بنعرف أكل، ولا شرب، يعني احنا شعب غزة الصامد ليوم الدين.",
+            "text_en": "Look at us, European countries—look at us. Look at us, Arab countries—look at us. Man, we are being humiliated. We are human beings like you. We do not even know food, nor drink. We are the people of Gaza, steadfast until the Day of Judgment.",
+            "event_frame": {
+                "adversity_description": "The child frames the event as public humiliation, deprivation, and abandonment before Arab and European audiences.",
+                "response_description": "He shifts from plea ('look at us') to dignity assertion ('we are human beings like you') and then to collective steadfastness."
+            },
+            "affective_signals": {
+                "affect_type": "humiliation_to_collective_defiance",
+                "justification": "The span moves from exposure and moral appeal to reassertion of equal humanity and sumud."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "مننزل",
+                        "note": "From the speaker's own gloss and context: being humiliated / degraded."
+                    },
+                    {
+                        "marker": "زيكو",
+                        "note": "Gaza colloquial for 'like you'."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "شعب غزة الصامد ليوم الدين",
+                        "note": "Strong collective endurance formula linking present suffering to moral-historical steadfastness."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "Direct address to external audiences",
+                        "note": "The child turns from witness account to public moral appeal."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative_Ahmed_AidSite_s04",
+            "start_time": 51.8,
+            "end_time": 75.52,
+            "text_ar": "وأقول للجيش الإسرائيلي ما تقدر على شعب غزة، شعب غزة قوته بالله، انتو قوتكم بالسلاح، احنا قوتنا بالله، احنا شعبٌ عظيم، لانو محتل كزاب هاضا، بأصعب قوتهم ما يقدرولنا، احنا شعبٌ عظيم.",
+            "text_en": "And I say to the Israeli army: you cannot defeat the people of Gaza. The people of Gaza draw their strength from Allah; your strength comes from weapons, our strength comes from Allah. We are a great people. This occupier is a liar. Even with their harshest force, they still cannot break us. We are a great people.",
+            "event_frame": {
+                "adversity_description": "The armed asymmetry is explicitly named: the other side has weapons and force, while Gaza faces occupation and deception.",
+                "response_description": "The child responds through faith-based power reversal, collective dignity assertion, and refusal of psychological defeat."
+            },
+            "affective_signals": {
+                "affect_type": "faith_based_defiance",
+                "justification": "Military inferiority is answered not with surrender but with a counter-frame grounded in Allah, dignity, and collective greatness."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "قوته بالله / قوتنا بالله",
+                        "note": "Faith as the primary source of strength; explicit tawakkul-based contrast."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "كزاب",
+                        "note": "Dialectal form of 'كذاب' (liar), preserved as spoken."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "احنا شعبٌ عظيم",
+                        "note": "Collective dignity formula; central to sumud discourse."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative_Ahmed_AidSite_s05",
+            "start_time": 79.52,
+            "end_time": 105.3,
+            "text_ar": "ولا تيجي منهم ذل، يا بتيجي باحترام يا بلاش. هي أمي راحت، وقبل اخوي في هادي الحرب راح، والله يعلم مين بدو يروح. الحين مش ضامنين رواحنا. بس أقول لأمريكان، وأقول لكل دول العربية: احنا يعمي بننزلش، ما بنهين كرامتنا، افتحولنا المعبر حياكو الله، بدناش نروح ع تبعتكو الله يخلف عليكو، بتكون ماشي عالخط زي ما بقولولك، كزابين، ماشيين عالخط.",
+            "text_en": "No humiliation should come from them. Either it comes with dignity, or not at all. My mother is gone, and before that my brother in this war is gone, and Allah knows who will go next. Right now we are not even guaranteed our own lives. But I say to the Americans, and I say to all the Arab states: we do not humiliate ourselves, we do not insult our dignity. Open the crossing for us, may Allah reward you. We do not want to go to your aid route. You walk exactly along the line they tell you—liars—walking on the line.",
+            "event_frame": {
+                "adversity_description": "The child connects the aid route to humiliation, personal bereavement, and radical insecurity about who may die next.",
+                "response_description": "He transforms loss into a dignity-based refusal: either aid comes with respect, or it should be rejected entirely."
+            },
+            "affective_signals": {
+                "affect_type": "bereavement_with_dignity_assertion",
+                "justification": "Personal loss intensifies the testimony, but the dominant response is principled refusal of humiliation and insistence on dignity."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "والله يعلم",
+                        "note": "Invokes divine knowledge in the face of radical uncertainty."
+                    },
+                    {
+                        "marker": "حياكو الله / الله يخلف عليكو",
+                        "note": "Polite religious-social formulae embedded even within refusal and protest."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "بننزلش",
+                        "note": "Gaza negated form meaning 'we do not debase/humiliate ourselves'."
+                    },
+                    {
+                        "marker": "تبعتكو",
+                        "note": "Colloquial for 'your thing/your route/your arrangement'."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "Shift from collective political speech to intimate loss and back again",
+                        "note": "The span compresses public protest and private bereavement into a single response frame."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative_Ahmed_AidSite_s06",
+            "start_time": 106.08,
+            "end_time": 123.78,
+            "text_ar": "تلاقيه الي جنبك بموت، والي أمك بتموت، ال أخوك بتموت، يا راجل ازا الدكتور مش مسموحلو يموت بموت، الصليب يراجل بقصفوهم، الاسعافات، ال تعون الدفاع المدني، مبخلوش اشي إلا يقصفوه، هاضا وين.",
+            "text_en": "You find the one next to you dying, and your mother dying, and your brother dying. Man, if even the doctor—who is not supposed to die—is dying; the Red Cross, they shell them; the ambulances, the civil defense teams—they leave nothing without shelling it. Where does this happen?",
+            "event_frame": {
+                "adversity_description": "The child describes indiscriminate death around him and extends the account to those normally protected: doctors, ambulances, and civil defense.",
+                "response_description": "He reframes the event as moral abnormality and universal scandal through the closing rhetorical question."
+            },
+            "affective_signals": {
+                "affect_type": "horror_and_moral_disbelief",
+                "justification": "The piling of deaths culminates not only in fear but in stunned moral disbelief ('هاضا وين')."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "هاضا وين",
+                        "note": "Not literal location-seeking; means 'where in the world does something like this happen?'."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "الدكتور مش مسموحلو",
+                        "note": "Reflects vernacular awareness that medics and humanitarian actors are supposed to be protected."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "Escalating death-list",
+                        "note": "Neighbour → mother → brother → doctor → aid/rescue teams; this scaling intensifies the moral accusation."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative_Ahmed_AidSite_s07",
+            "start_time": 130.08,
+            "end_time": 162.34,
+            "text_ar": "والله لو بمكان واحد رمينا عليهم صاروخ ليقلبوا الدنيا. والله لو اننا رخاص لهالدرجة، شايف هادا الشعب كلو مش لاقيين لقمة ياكلوها. مش من حقنا نعيش زي الناس، زي دول؟ هي الشنتة، وهي كيس الطحين، هي كيسين واحد لابوي وواحد إلي، ولا ماسكين أي اشي، ولا مسدس ولا رايحين نكاتل، مدنيين احنا، مش عساكر، احنا مدنيين مش عساكر.",
+            "text_en": "By Allah, if in one place we had fired a single rocket at them, they would have turned the whole world upside down. Are we really this cheap? Look—this whole people cannot even find a bite to eat. Is it not our right to live like people, like these states? Here is the bag, and here is the sack of flour—two sacks, one for my father and one for me. We are not holding anything, not a weapon, not even a gun, and we were not going to fight. We are civilians, not soldiers. We are civilians, not soldiers.",
+            "event_frame": {
+                "adversity_description": "The child combines mass hunger, unequal valuation of Palestinian life, and the civilian nature of those seeking aid.",
+                "response_description": "He uses contrastive argumentation and material demonstration (bag, flour sacks) to insist on civilian innocence and basic human entitlement."
+            },
+            "affective_signals": {
+                "affect_type": "injured_dignity_with_civilian_assertion",
+                "justification": "The dominant move is not panic but argument: we are hungry civilians carrying food, not armed fighters."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "والله",
+                        "note": "Oath marker that heightens sincerity and moral force."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "الشنتة",
+                        "note": "Colloquial for bag/satchel."
+                    },
+                    {
+                        "marker": "مش لاقيين لقمة",
+                        "note": "Idiomatic expression of severe hunger and deprivation."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "Demonstrative indexing ('هي... وهي...')",
+                        "note": "Likely accompanied by pointing to actual aid items; materially anchors innocence."
+                    },
+                    {
+                        "marker": "Repetition ('مدنيين احنا، مش عساكر')",
+                        "note": "A strong self-exculpatory and dignity-protective refrain."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative_Ahmed_AidSite_s08",
+            "start_time": 163.12,
+            "end_time": 185.14,
+            "text_ar": "لما وصلنا كنا قاعدين، صارت إطلاق نار، تقول قامت القيامة، مش عارفين ايش في، يعمي كلنا ولاد المدنيين، مفش حدا عسكري راح هناك ولا توجه الهم بخدشة، صاروا يطمّو مش عارفين ايش، والله ميروحوا، نصيحتي يعمي اللي بدو يفقد اخوه حرام يروح عشان كابونة بتسواش خمسين شيكل، والله حرام نروح نضحي بأرواحنا.",
+            "text_en": "When we arrived, we were just sitting there. Then shooting started—it was like the Day of Judgment. We did not know what was happening. Man, all of us were civilians' children. No military person went there, and no one did anything to them, not even a scratch. Then they started bulldozing and covering things—I do not even know what exactly. By Allah, no one should go. My advice, man: whoever wants to lose his brother should go. It is forbidden to go for a coupon not worth even fifty shekels. By Allah, it is wrong for us to sacrifice our lives.",
+            "event_frame": {
+                "adversity_description": "The child describes the transition from passive waiting to sudden mass shooting and subsequent burial/covering operations, with no military target present.",
+                "response_description": "He converts witness testimony into direct warning and practical anti-return advice: the aid is not worth the risk of death."
+            },
+            "affective_signals": {
+                "affect_type": "shock_to_protective_warning",
+                "justification": "The span begins in apocalyptic shock and ends in explicit community-protective advice."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "تقول قامت القيامة",
+                        "note": "Qiyama imagery used idiomatically to describe catastrophic chaos."
+                    },
+                    {
+                        "marker": "والله",
+                        "note": "Oath marker reinforcing sincerity and urgency."
+                    },
+                    {
+                        "marker": "حرام",
+                        "note": "Moral-religious evaluation used to reject the risk-benefit logic of the aid route."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "مفش",
+                        "note": "Gaza colloquial for 'there is no / no one'."
+                    },
+                    {
+                        "marker": "يطمّو",
+                        "note": "Colloquial verb for burying/covering over with earth, here linked to bulldozing."
+                    },
+                    {
+                        "marker": "كابونة",
+                        "note": "Aid coupon / ration entitlement; here degraded as worthless compared with life."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "Advice turn",
+                        "note": "The testimony shifts from narration to explicit public warning ('نصيحتي')."
+                    }
+                ]
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "كابونة / كابونات": {
+                "variants_ar": [
+                    "كابونة",
+                    "كابونات",
+                    "قسيمة",
+                    "كوبون مساعدات",
+                    "ration coupon"
+                ],
+                "meaning_en": "Ration coupon / aid entitlement slip; in context, shorthand for the aid distribution offer."
+            },
+            "بنوخدش منهم دقيقة على بعضها": {
+                "variants_ar": [
+                    "ما بنصدقهمش",
+                    "ما بنوخدش منهم كلمة",
+                    "ما بنثق فيهم"
+                ],
+                "meaning_en": "We do not trust them at all, not even in the smallest thing."
+            },
+            "عساس": {
+                "variants_ar": [
+                    "ع أساس",
+                    "كأنهم",
+                    "supposedly"
+                ],
+                "meaning_en": "On the pretense/basis that; supposedly."
+            },
+            "مننزل / بننزلش": {
+                "variants_ar": [
+                    "بننذل",
+                    "ما بننذل",
+                    "ما بنهين حالنا",
+                    "we are humiliated / we do not humiliate ourselves"
+                ],
+                "meaning_en": "To be humiliated/debased; in negated form, to refuse humiliation."
+            },
+            "زيكو": {
+                "variants_ar": [
+                    "زيكم",
+                    "مثلَكم"
+                ],
+                "meaning_en": "Like you."
+            },
+            "قوتنا بالله": {
+                "variants_ar": [
+                    "الله قوتنا",
+                    "نتقوّى بالله"
+                ],
+                "meaning_en": "Our strength comes from Allah."
+            },
+            "كزاب": {
+                "variants_ar": [
+                    "كذاب"
+                ],
+                "meaning_en": "Liar."
+            },
+            "يا بتيجي باحترام يا بلاش": {
+                "variants_ar": [
+                    "إما باحترام أو بلاها",
+                    "يا باحترام يا ما بدنا"
+                ],
+                "meaning_en": "Either it comes with dignity/respect, or not at all."
+            },
+            "هاضا وين": {
+                "variants_ar": [
+                    "وين بصير هيك",
+                    "وين في العالم هيك"
+                ],
+                "meaning_en": "Where in the world does this happen?"
+            },
+            "الشنتة": {
+                "variants_ar": [
+                    "الشنطة",
+                    "الحقيبة",
+                    "bag"
+                ],
+                "meaning_en": "Bag / satchel."
+            },
+            "مفش": {
+                "variants_ar": [
+                    "ما فيش",
+                    "فش"
+                ],
+                "meaning_en": "There is no / no one."
+            },
+            "يطمّو": {
+                "variants_ar": [
+                    "يردموا",
+                    "يغطّوا بالتراب",
+                    "bury/cover over"
+                ],
+                "meaning_en": "To cover/bury over, often with earth or rubble."
+            },
+            "تقول قامت القيامة": {
+                "variants_ar": [
+                    "كأن القيامة قامت",
+                    "كأن الدنيا انتهت"
+                ],
+                "meaning_en": "It was like the Day of Judgment; an idiom for catastrophic chaos."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "child_witness_dignity_refusal_faith_sumud",
+        "paper_fit_ar": "هذه الرواية عالية القيمة لأنها تُظهر كيف يعيد طفل صغير بناء معنى المجزرة عبر محاور متداخلة: الخداع، الذل، الكرامة، الصمود، والإيمان بالله. وهي مهمة بشكل خاص لأنها لا تكتفي بوصف الحدث، بل تنتقل سريعاً إلى خطاب أخلاقي وسياسي وتحذيري موجّه للعالم ولأهل غزة معاً. كما أنها تقدّم مثالاً قوياً على coupling واضح بين adversity وresponse داخل خطاب طفل تحت الصدمة.",
+        "paper_fit_en": "This narrative is especially valuable because it shows how a young child reconstructs a mass-casualty aid-site event through intertwined frames of deception, humiliation, dignity, steadfastness, and faith in Allah. It does not remain descriptive; it quickly becomes moral address, collective self-definition, and protective warning. The testimony offers a strong example of adversity-response coupling under acute shock, while also highlighting child discourse as a distinctive site of resilience, dignity preservation, and public witnessing."
+    },
+    "editorial_note": {
+        "note_en": "The full testimony is preserved in the raw narrative. Not all stretches are foregrounded analytically. Selection prioritizes spans with relatively clear adversity-response structure, affective shifts, or culturally salient coping/dignity markers. Highly disfluent or semantically opaque stretches remain part of the data and should not be treated as removable noise.",
+        "note_ar": "الرواية كاملة محفوظة في النص الخام. لم يتم إبراز كل المقاطع تحليلياً. اختيار السبانز هنا يركّز على المقاطع الأوضح من حيث coupling بين adversity وresponse، أو التحول الوجداني، أو حضور مؤشرات الكرامة/الإيمان/الصمود. المقاطع الأشد تلعثماً أو غموضاً تبقى جزءاً من البيانات ولا تُعامل كضجيج قابل للحذف."
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

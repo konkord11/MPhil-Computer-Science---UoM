@@ -1,0 +1,279 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative06_Pseudonymized",
+    "source_meta": {
+        "source_cluster_id": "SC06_GazaSurvivors_FamilyA",
+        "source_type": "video_transcription",
+        "source_platform": "Video_Interview",
+        "original_author": "Journalist's Archive (given with consent)",
+        "original_language": "ar",
+        "dialect": "Palestinian (Gaza City - Shuja'iyya/Eastern Gaza Dialect)",
+        "collection_context_en": "A father recounts the moments following an airstrike on his home that killed his family and children, including a long-awaited son born after 18 years with daughters.",
+        "collection_context_ar": "أب يروي تفاصيل استهداف منزله واستشهاد عائلته وأطفاله، ومن بينهم ابنه الذي رزق به بعد 18 عاماً بعد إنجاب بنات."
+    },
+    "speaker_profile": {
+        "gender": "male",
+        "age_estimate": "adult",
+        "origin": "Gaza City"
+    },
+    "approx_context": {
+        "location": "Gaza City",
+        "brief_summary_en": "A grieving father describes the destruction of his home and the loss of his family and children, highlighting the death of his long-awaited son after 18 years with daughters, and appealing against regional and global silence on what is happening in Gaza.",
+        "brief_summary_ar": " أب مكلوم يصف قصف منزله وفقدان أفراد عائلته وأطفاله، متحدثاً عن فقدان ابنه الذي جاء بعد 18 سنة بعد إنجاب بنات، ومناشداً كسر الصمت العربي والدولي عما يحدث في غزة."
+    },
+    "segments": [
+        {
+            "segment_id": "Narrative06_seg01",
+            "start_time": 0.0,
+            "end_time": 10.45,
+            "text_ar": "ضربوا قزيفة على الضار فيها يمكن ستين نفر كلهم اغلبيتهم يعني نساء واطفال. أُوووو... وقالوا لي بعد هيك ضربوها صاروخ زنانة اف-16 مش عارفين. وقعت كل الضار ع الاطفال.",
+            "text_en": "They fired a shell at the house; there were maybe sixty people inside, most of them women and children. Aaaand… (pause) they told me afterwards they hit it again —maybe with a drone missile or an F-16, we don’t know. The whole house collapsed on the children.",
+            "event_frame": {
+                "adversity_description": "Mass-casualty strike on a residential home sheltering many civilians (approx. 60), mostly women and children; followed by a second strike and complete destruction.",
+                "response_description": "The speaker narrates weapon-type uncertainty (drone vs. F-16) while recounting the sequence of events, as part of processing the incident."
+            },
+            "affective_signals": {
+                "affect_type": "shock",
+                "justification": "Immediate recounting of numbers, targets, and weapon types alongside the collapse narrative suggests acute shock and overwhelm."
+            },
+            "contextual_markers": {
+                "cultural_markers": [
+                    {
+                        "marker": "نفر",
+                        "note": "Gazan everyday counting term used for groups/people in crowded collective contexts."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "قزيفة",
+                        "note": "Colloquial usage for 'shell' (standard: قذيفة)."
+                    },
+                    {
+                        "marker": "الضار",
+                        "note": "Colloquial form of الدار/البيت."
+                    },
+                    {
+                        "marker": "زنانة",
+                        "note": "Local Gaza term for a drone, associated with its constant buzzing sound."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "Prolonged vowel elongation (أُوووو...)",
+                        "note": "Vocal elongation and pause before continuing, often observed in trauma narration when the speaker struggles to proceed verbally."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative06_seg02",
+            "start_time": 10.45,
+            "end_time": 22.1,
+            "text_ar": "وهذا ابني أشرف أجانا بعد بعد تمنطاعشر(١٨) سنة ع تلات بنات. يعني هو هو بقاوم هادا؟! هو ضرب صواريخ ع إسرائيل؟! ايش عمل هادا؟ طفل طفل، ملوش دعوة في حدا.",
+            "text_en": "And this is my son ِAshraf; after eighteen years [of marriage] and after having three daughters, Allah finally granted us our first son. I mean, is he a fighter?! Did he fire rockets at Israel?! What did he do? He’s just a child—he has nothing to do with anyone.",
+            "event_frame": {
+                "adversity_description": "Killing of the speaker’s first male child, born after eighteen years of marriage and after having three daughters.",
+                "response_description": "Rhetorical questioning explicitly rejects any militarised framing of the child and confronts the logic of accusation."
+            },
+            "affective_signals": {
+                "affect_type": "anger_indignation",
+                "justification": "Strong indignation is expressed through repeated rhetorical questions that directly reference common accusations used to justify violence and killing of civillians."
+            },
+            "contextual_markers": {
+                "cultural_markers": [
+                    {
+                        "marker": "أجانا بعد تمنطاعشر سنة ع تلات بنات",
+                        "note": "Indicates a long wait for the first male child after having daughters, significantly intensifying the sense of loss."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "تمنطاعشر",
+                        "note": "Colloquial Gazan form for 'eighteen' (standard: ثمانية عشر)."
+                    },
+                    {
+                        "marker": "هادا/ملوش",
+                        "note": "Common spoken Palestinian forms (this/he has no...)."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative06_seg03",
+            "start_time": 22.1,
+            "end_time": 35.8,
+            "text_ar": "حسبنا الله، قتلوا قتلوا الضمير اللي عندي الحي. راح امنية حياتي راحت. تمنطاعشر سنة لمّن اجالي هادا الولد ع تلات بنات. واخته كمان اسمها مرام. برضو معاه. يعني ولد وبنت راحولي. حسبنا الله ونعم الوكيل.",
+            "text_en": "Allah is sufficient for us; they killed the living conscience I had. My life’s wish is gone. Eighteen years until this boy came after three girls. And his sister too—Maram—she’s with him. I lost a boy and a girl. Allah is sufficient for us, and [He is] the best Disposer of affairs.",
+            "event_frame": {
+                "adversity_description": "Loss of the son born after 18 years and the simultaneous loss of his sister.",
+                "response_description": "Religious invocation is used as an immediate coping and meaning-making response in the face of unbearable loss."
+            },
+            "affective_signals": {
+                "affect_type": "despair_hopelessness",
+                "justification": "Statements expressing collapse of purpose (‘my life’s wish is gone’) and intense inner rupture signal profound despair."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "حسبنا الله ونعم الوكيل",
+                        "note": "Common religious framing expressing entrusting justice and endurance to Allah."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "برضو",
+                        "note": "Widely used spoken term in Gaza meaning 'also/as well'."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative06_seg04",
+            "start_time": 35.8,
+            "end_time": 46.5,
+            "text_ar": "يعني بنناشد الدول العربية وينهم وينهم القاعدين نايمين في الصمت تبعهم.... يطلعوا. وين أحرار العالم؟ حسبنا الله ونعم الوكيل بس. هي اللي بنقوله.",
+            "text_en": "We appeal to the Arab countries—where are they? Where are those sitting, sleeping in their silence? Let them come out. Where are the free people of the world? Allah is sufficient for us, and [He is] the best Disposer of affairs—that’s all. That’s all we can say.",
+            "event_frame": {
+                "adversity_description": "Perceived abandonment and silence from regional and international actors amid mass civilian harm in Gaza.",
+                "response_description": "Public appeal for solidarity paired with resignation to religious utterance and praying as the remaining available response."
+            },
+            "affective_signals": {
+                "affect_type": "exhaustion_overwhelm",
+                "justification": "Repetition (‘where are they’) and shift from personal loss to collective appeal indicates emotional depletion and overwhelm."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "تبعهم",
+                        "note": "Colloquial possessive form meaning 'their/associated with them' (الصمت تبعهم = صمتهم)."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "Collective address shift",
+                        "note": "Movement from personal narration to broader public appeal."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative06_seg05",
+            "start_time": 46.5,
+            "end_time": 56.4,
+            "text_ar": " أكم فرد ضايل داخل البيت تحت الركام؟ (الصحفي يسأل)، (فيرد الرجل) كلهم اطفال. يمكن سبعة تمانية من العيلة كلهم. كلهم اطفال يعني صغار. كلهم يعني من العشر سنين وتحت.",
+            "text_en": "(Interviewer: How many are still inside the house under the rubble?) All of them are children. Maybe seven or eight from my family—all of them. All young children. All of them are ten years old and under.",
+            "event_frame": {
+                "adversity_description": "Multiple children remain under rubble during the immediate aftermath and ongoing rescue uncertainty.",
+                "response_description": "Demographic emphasis (children, ages) foregrounds civilian harm and the scale of loss."
+            },
+            "affective_signals": {
+                "affect_type": "shock",
+                "justification": "Grim numerical and age-focused reporting while the situation is still unfolding indicates stunned, ongoing shock."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "أكم",
+                        "note": "Spoken form of 'كم' used in Palestinian Arabic."
+                    },
+                    {
+                        "marker": "عيلة",
+                        "note": "Colloquial form for عائلة."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "كلهم من العشر سنين وتحت",
+                        "note": "Emphasises that all victims referenced here are very young children (≤10 years old)."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative06_seg06",
+            "start_time": 56.4,
+            "end_time": 66.5,
+            "text_ar": "حسبنا الله ونعم الوكيل بس، حسبنا الله ونعم الوكيل بس. (رجل بجوارهم): ربنا يصبرنا بس، بعوض الله هذا قدرنا. (يختم الرجل): يا رب.",
+            "text_en": "Allah is sufficient for us, and [He is] the best Disposer of affairs, that’s all—Allah is sufficient for us, and [He is] the best Disposer of affairss. (Another man nearby: May Allah grant us patience; Allah will compensate us; this is our destiny.) (The father concludes): Ameen.",
+            "event_frame": {
+                "adversity_description": "Continuation of catastrophic loss in the immediate aftermath, with communal presence during grief.",
+                "response_description": "Communal meaning-making through religious language around patience (sabr) and destiny (qadar) as a survival response."
+            },
+            "affective_signals": {
+                "affect_type": "grief_sadness",
+                "justification": "Repetitive religious utterances and concluding supplication reflect acute grief expressed through spiritual framing."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "ربنا يصبرنا / بعوض الله / هذا قدرنا",
+                        "note": "Religious expressions foregrounding patience and destiny; often used for endurance and meaning-making under loss."
+                    }
+                ]
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "قزيفة": [
+                "قذيفة"
+            ],
+            "الضار": [
+                "الدار",
+                "البيت"
+            ],
+            "ع": [
+                "على"
+            ],
+            "نفر": [
+                "شخص",
+                "فرد"
+            ],
+            "تمنطاعشر": [
+                "ثمانية عشر",
+                "18",
+                "١٨"
+            ],
+            "زنانة": [
+                "طائرة استطلاع",
+                "درون"
+            ],
+            "تبعهم": [
+                "الخاص بهم"
+            ],
+            "أكم": [
+                "كم"
+            ],
+            "عيلة": [
+                "عائلة",
+                "أسرة"
+            ],
+            "هيك": [
+                "هيكا",
+                "هيكد"
+            ],
+            "هادا": [
+                "هذا",
+                "هاد",
+                "هاض",
+                "هاضا"
+            ],
+            "برضو": [
+                "كمان",
+                "كذلك"
+            ]
+        }
+    },
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "none_needed",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "n/a",
+        "contains_real_names": null,
+        "notes": "No replacements were required under the current manifest; this copy mirrors the source folder. Public-release bundle: reversibility metadata stripped for GitHub."
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

@@ -1,0 +1,291 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative11_Pseudonymized",
+    "source_meta": {
+        "source_cluster_id": "SC11_Shujaiyya_TripleStrike_FirstResponders",
+        "source_type": "video_transcription",
+        "source_platform": "Short Video (public testimony / journalist repost)",
+        "original_author": "Public circulation source (archived for research use)",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (Gaza Strip; Shuja'iyya / Eastern Gaza dialect)",
+        "collection_context_en": "A field testimony from Shuja'iyya describing a location struck by three missiles, including a reported third strike affecting people who came to provide aid. The speaker then shifts to collective steadfastness discourse and ends with a repeated crowd chant.",
+        "collection_context_ar": "شهادة ميدانية من الشجاعية تصف استهداف موقع بثلاثة صواريخ، مع رواية عن صاروخ ثالث أصاب من قدموا للإسعاف. ينتقل المتحدث بعدها إلى خطاب جماعي عن الثبات وينتهي بهتاف جماعي متكرر."
+    },
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "none_needed",
+        "replacement_scope": "n/a",
+        "contains_real_names": false,
+        "notes": "No personal names are present. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Native Palestinian Arabic speaker; Gaza dialect familiarity."
+            },
+            {
+                "annotator_id": "A2",
+                "role": "Second annotator",
+                "profile_note": "Native Palestinian Arabic speaker; Gaza dialect familiarity."
+            }
+        ],
+        "adjudication": {
+            "status": "light_adjudication",
+            "note": "Segmentation follows the 5 spans specified by the annotator. Text is kept verbatim; unclear token(s) flagged in notes without normalizing."
+        }
+    },
+    "speaker_profile": {
+        "gender": "male",
+        "age_estimate": "adult",
+        "origin": "Shuja'iyya, Gaza City (as narrated)",
+        "role_or_status": [
+            "Eyewitness / Survivor (as narrated)",
+            "Resident (as narrated)"
+        ]
+    },
+    "approx_context": {
+        "location": "Shuja'iyya, Gaza City",
+        "brief_summary_en": "The speaker reports a house being hit by multiple missiles, including a reported third strike affecting people who came to provide aid. He then asserts collective steadfastness in Shuja'iyya/Gaza and ends with a crowd chant invoking Allah.",
+        "brief_summary_ar": "يروي المتحدث استهداف منزل بعدة صواريخ، مع ذكر ضربة ثالثة أصابت من قدموا للإسعاف. ثم يؤكد الثبات الجماعي في الشجاعية/غزة وينهي بهتاف جماعي يتضمن ذكر الله."
+    },
+    "text_ar_full": "تم استهدافها بتلات سواريخ، خبطوها أول صاروخين، اجت الناس تسعف، فراحوا خبطوا التالت في الناس، يعني خبطوا، نزلوا الصارو.. الصاروخ التالت، خبطوه في الناس الي جاية تسعف، يعني في غير النازحين اجت الناس كمان تسعف، فنزلوها كمان مرة، فاحنا بنقول للاحتلال وبنقول للدول المطبعة معهم انو احنا مش حنسيب غزة وبالأخص هينا صامدين في الشجاعية، وتل [كلمة غير مفهومة] ناس لسا مطلعوهاش من تحت السقف، وبرغم الإبادة وبرغم الجرائم وبرغم الدمار انو احنا هانا صامدين، وحنضلنا صامدين في غزة، غصب أنف الحاقدين، الله أكبر ولله الحمد، الله أكبر ولله الحمد.",
+    "segments": [
+        {
+            "segment_id": "Narrative11_seg01",
+            "start_time": 0.0,
+            "end_time": 41.92,
+            "spans": [
+                {
+                    "span_id": "N11_s01",
+                    "start_time": 0.0,
+                    "end_time": 15.44,
+                    "text_ar": "تم استهدافها بتلات صواريخ، خبطوها أول صاروخين، اجت الناس تسعف، فراحوا خبطوا التالت في الناس، يعني خبطوا، نزلوا الصا الصاروخ التالت، خبطوه في الناس الي جاية تسعف، يعني في غير النازحين اجت الناس كمان تسعف، فنزلوها كمان مرة.",
+                    "text_en": "It was hit with three missiles; they struck it with the first two. People came to provide aid, then the third strike hit the people—meaning, they launched the third missile and it struck those coming to give aid. Besides the displaced, others also came to help, and it was struck again (as narrated).",
+                    "event_frame": {
+                        "adversity_description": "Reported multi-strike sequence, including reported harm to people arriving to provide first aid, and repeated striking while multiple civilian groups are present.",
+                        "response_description": "Witness-style sequencing (counting and re-stating) to emphasize escalation and perceived targeting of helpers."
+                    },
+                    "affective_signals": {
+                        "affect_type": "anger_indignation",
+                        "justification": "Repeated re-stating and emphasis on hitting responders suggests indignation and heightened arousal."
+                    },
+                    "contextual_markers": {
+                        "dialect_markers": [
+                            {
+                                "marker": "بتلات",
+                                "note": "Colloquial pronunciation of 'ثلاث' in Gaza speech."
+                            },
+                            {
+                                "marker": "خبطوها/خبطوه",
+                                "note": "Gazan colloquial for 'hit/struck (by bombing)'."
+                            },
+                            {
+                                "marker": "نزلوا الصاروخ",
+                                "note": "Colloquial: launched/dropped the missile."
+                            }
+                        ],
+                        "discourse_markers": [
+                            {
+                                "marker": "يعني",
+                                "note": "Marker used to restate/clarify under stress."
+                            },
+                            {
+                                "marker": "Self-repair (الصا الصاروخ)",
+                                "note": "Speech disruption typical under high arousal; kept verbatim."
+                            }
+                        ],
+                        "asr_notes": [
+                            {
+                                "token": "الصا",
+                                "note": "Non-lexical/unclear fragment during self-repair; kept verbatim."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "span_id": "Narrative11_s02",
+                    "start_time": 15.78,
+                    "end_time": 23.5,
+                    "text_ar": "فاحنا بنقول للاحتلال وبنقول للدول المطبعة معهم انو احنا مش حنسيب غزة وبالأخص هينا صامدين في الشجاعية.",
+                    "text_en": "So we say to the occupation, and to the states normalized with them, that we will not leave Gaza—especially, here we are steadfast in Shuja'iyya.",
+                    "event_frame": {
+                        "adversity_description": "Displacement pressure and continued threat context (as narrated).",
+                        "response_description": "Collective stance-taking through a 'we' address, anchored to place (Shuja'iyya) as resilience discourse."
+                    },
+                    "affective_signals": {
+                        "affect_type": "defiance",
+                        "justification": "Direct address + refusal to leave indicates collective defiance."
+                    },
+                    "contextual_markers": {
+                        "dialect_markers": [
+                            {
+                                "marker": "هين/هانا/هان/هون",
+                                "note": "Gazan deictic variants meaning 'here / here we are' (kept as spoken form per clip)."
+                            }
+                        ],
+                        "lexical_markers": [
+                            {
+                                "marker": "الدول المطبعة معهم",
+                                "note": "As spoken: normalized 'with them' (contextually understood by speaker). 'المطبعة' is a colloquial term for 'the normalized states' (the countries that have normalized relations with Israel)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "span_id": "Narrative11_s03",
+                    "start_time": 23.92,
+                    "end_time": 26.22,
+                    "text_ar": "وتل [كلمة غير مفهومة - ممكن قصده 'تَم' يعني متبقي] ناس لسا مطلعوهاش من تحت السقف.",
+                    "text_en": "And there are still people they haven’t pulled out from under the roof (rubble) yet. (One unclear token kept as-is.)",
+                    "event_frame": {
+                        "adversity_description": "Ongoing entrapment under collapsed structures; rescue still incomplete (as narrated).",
+                        "response_description": "Urgent highlighting of unfinished recovery/rescue."
+                    },
+                    "affective_signals": {
+                        "affect_type": "distress_urgency",
+                        "justification": "Reference to people still trapped implies acute urgency."
+                    },
+                    "contextual_markers": {
+                        "asr_notes": [
+                            {
+                                "token": "وتل",
+                                "note": "Unclear token; kept verbatim rather than normalized."
+                            }
+                        ],
+                        "lexical_markers": [
+                            {
+                                "marker": "تحت السقف",
+                                "note": "Local shorthand for being trapped under collapsed roof/rubble."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "span_id": "Narrative11_s04",
+                    "start_time": 26.3,
+                    "end_time": 36.14,
+                    "text_ar": "وبرغم الإبادة وبرغم الجرائم وبرغم الدمار انو احنا هانا صامدين، وحنضلنا صامدين في غزة، غصب أنف الحاقدين.",
+                    "text_en": "Despite the extermination (genocide), despite the crimes (war crimes), despite the destruction (war damage)—we are steadfast here, and we will remain steadfast in Gaza, against the will of the haters.",
+                    "event_frame": {
+                        "adversity_description": "Extreme loss and destruction framed through moral-evaluative language (as narrated).",
+                        "response_description": "Rhetorical repetition + commitment to remain ('حنضلنا') as resilience performance."
+                    },
+                    "affective_signals": {
+                        "affect_type": "steadfastness_pride",
+                        "justification": "Repeated 'صامدين' + future-continuative pledge indicates resolve."
+                    },
+                    "contextual_markers": {
+                        "dialect_markers": [
+                            {
+                                "marker": "حنضلنا",
+                                "note": "Gazan future-continuative meaning 'we will remain/stay' (نضل = stay). 'حنضلنا' is a common phrase in Palestinian Arabic dialect used to express the collective commitment to stay in Gaza despite the danger, war, and forced displacement."
+                            },
+                            {
+                                "marker": "غصب أنف",
+                                "note": "Spoken/stress formulation; kept verbatim (no normalization to 'رغم أنف')."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "span_id": "N11_s05",
+                    "start_time": 36.52,
+                    "end_time": 41.92,
+                    "text_ar": "الله أكبر ولله الحمد، الله أكبر ولله الحمد.",
+                    "text_en": "Allahu Akbar, wa lillahi al-hamd. Allahu Akbar, wa lillahi al-hamd. (crowd chant around the speaker).",
+                    "event_frame": {
+                        "adversity_description": "High arousal after the described incident (as narrated).",
+                        "response_description": "Collective chanting invoking Allah as communal cohesion and meaning-making."
+                    },
+                    "affective_signals": {
+                        "affect_type": "collective_religious_coping",
+                        "justification": "Group chant functions as solidarity and coping; can also index 'Allah is greater than their [Israeli] injustice and aggression' in local interpretation."
+                    },
+                    "contextual_markers": {
+                        "religious_markers": [
+                            {
+                                "marker": "الله أكبر ولله الحمد",
+                                "note": "Religious formula; collective coping and morale regulation."
+                            }
+                        ],
+                        "discourse_markers": [
+                            {
+                                "marker": "Crowd chant",
+                                "note": "Attributed to surrounding people; repeated twice in the clip."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "خبطوها/خبطوه": {
+                "variants_ar": [
+                    "ضربوها",
+                    "استهدفوها",
+                    "قصّفوها",
+                    "أصابوها"
+                ],
+                "meaning_en": "Hit/struck (by bombing) — Gaza colloquial."
+            },
+            "بتلات": {
+                "variants_ar": [
+                    "بثلاث",
+                    "ثلاثة"
+                ],
+                "meaning_en": "Three (colloquial rendering)."
+            },
+            "نزلوا الصاروخ": {
+                "variants_ar": [
+                    "أطلقوا الصاروخ",
+                    "رموا الصاروخ",
+                    "أسقطوا الصاروخ"
+                ],
+                "meaning_en": "Launched/dropped the missile (colloquial phrasing)."
+            },
+            "هانا": {
+                "variants_ar": [
+                    "هنا",
+                    "هان",
+                    "هُون",
+                    "هِين"
+                ],
+                "meaning_en": "Here (deictic anchoring variants)."
+            },
+            "نضلنا/حنضلنا": {
+                "variants_ar": [
+                    "نبقى",
+                    "نستمر بالبقاء",
+                    "نظل",
+                    "رح نضلنا",
+                    "حنظلنا",
+                    "هنضلنا"
+                ],
+                "meaning_en": "Remain/stay/keep on (نضل = stay)."
+            },
+            "غصب أنف": {
+                "variants_ar": [
+                    "رغم أنف",
+                    "رغما عن ارادة",
+                    "غصبًا عن"
+                ],
+                "meaning_en": "Against someone’s will (spoken/stress variation). Correct phrase is: رغم لأنف الحاقدين"
+            },
+            "الله أكبر ولله الحمد": {
+                "variants_ar": [
+                    "الله أكبر والحمد لله"
+                ],
+                "meaning_en": "Allahu Akbar, wa lillahi al-hamd (religious chant; collective coping). Meaning: Allah is the greatest and all praise is due to Allah"
+            }
+        }
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

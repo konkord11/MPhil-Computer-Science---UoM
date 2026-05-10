@@ -1,0 +1,462 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative12_Pseudonymized",
+    "source_meta": {
+        "source_cluster_id": "SC12_BeitLahia_SiblingLoss_RepeatedStrikes",
+        "source_type": "video_transcription",
+        "source_platform": "Short Video (public testimony / journalist repost)",
+        "original_author": "Public circulation source (archived for research use)",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (North Gaza – Beit Lahia / Lahawani dialect)",
+        "collection_context_en": "A young woman from Beit Lahia recounts repeated strikes and the loss of her brother (Tariq). She narrates the immediate aftermath: hiding under a hit car to prevent hitting by fragments, seeing bodies and blood, calling for help at the roundabout, carrying her brother with her uncle, and pleading with doctors because she believes 'there is breath in him'.",
+        "collection_context_ar": "شابة من بيت لاهيا تروي قصفاً متكرراً وفقدان أخيها (طارق). تصف الاختباء تحت سيارة مقصوفة هربا من الشظايا، رؤية أشلاء ودم، الاستغاثة عند الدوار، حمل أخيها مع عمها لمسافة طويلة، ثم الإلحاح على الأطباء لأنها مقتنعة أنه «فيه نفس»."
+    },
+    "anonymization": {
+        "is_pseudonymized": true,
+        "strategy": "name_replacement_pool",
+        "replacement_scope": "within_dataset_consistent",
+        "contains_real_names": false,
+        "notes": "Pseudonymised public-release bundle. Internal reversibility metadata was removed for GitHub. Pool: Gaza_NamePool_v1.",
+        "pool_id": "Gaza_NamePool_v1"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Native Palestinian Arabic speaker; North Gaza/Beit Lahia dialect familiarity."
+            },
+            {
+                "annotator_id": "A2",
+                "role": "Second annotator",
+                "profile_note": "Native Palestinian Arabic speaker; Shuja'iyya dialect familiarity; provided an alternative listening-based transcription."
+            }
+        ],
+        "adjudication": {
+            "status": "light_adjudication",
+            "note": "Span segmentation follows the user's 8-span plan, aligned to ASR segment time boundaries. A short montage/report intro is separated as Span00 to avoid mixing edited report clips with the narrative core."
+        },
+        "alignment_note": "Span timestamps are derived from the provided ASR segment boundaries (approximate). Parenthetical text is treated as editorial/explanatory (not part of narrative) as stated by the user."
+    },
+    "speaker_profile": {
+        "gender": "female",
+        "age_estimate": "adult",
+        "origin": "Beit Lahia, North Gaza",
+        "role_or_status": [
+            "Resident",
+            "Sister",
+            "Eyewitness"
+        ]
+    },
+    "approx_context": {
+        "location": "Beit Lahia, North Gaza",
+        "brief_summary_en": "She recounts a strike on neighbors' yard, urges her brother Tariq to flee by car, then they are hit within moments. She sees bodies and blood, hides under a car, later finds Tariq on the ground, calls for help at the roundabout, carries him with her uncle, and pleads in hospital insisting he still has breath—until doctors confirm his death.",
+        "brief_summary_ar": "تروي قصف حوش الجيران وتنادي طارق ليفلت بالسيارة، ثم يأتي القصف سريعاً. تصف أشلاء ودم، الاختباء تحت سيارة، ثم إيجاد طارق على الأرض، الاستغاثة عند الدوار وعدم استجابة أحد، حمله مع عمها، ثم الإلحاح في المستشفى على فحص النبض لأنها تشعر أن «فيه نفس» إلى أن يؤكد الأطباء وفاته."
+    },
+    "text_ar_full": "قلتله لا هادا مش مستشهد، أنا حسيت النفس فيه، استشهد أخوكي.. أنا شلته جبته من الدار فيه نفس، فيه نفس، فيه نفس، والله كان فيه نفس، (قولي الله يرحمه، قولي الله يرحمه، آ آ راح عنده ربه، بده يروح عند ربه الحمدلله=امرأة تواسيها).. قصفوا حوش جيرانا، أنا قلت طارق، اطلع يخويا في السيارة، انفد بروحك، احنا بنجيك جراي، أخدنا وصلنا السيارة، فشي غمضة عين، قصفونا، تطلعت عن عالشارع، شهدااء، مقطّعين، دم، هان تخبينا تحت تحت في السيارة، خواتي شردوا عبيت ستي وأنا وأخويا ضلينا لحالنا، أول هواية كانت أمي وأختي متصاوبات، احنا مكناش نعرف، دخلوا راحوا يسعفوا حالهم، امي وهي رايحة شافتنا انو احنا بخير، بعديها صارت كمان ضربة، زعق عليا، أنا قعدت أصرخ، قال.. قلي يختي تسرخيش، تسرخيش والله، انتي بخير؟ انتي بخير يختي؟، قصفونا كمان مرة، هادي التالتة؟ هلقيت أنا أنا بتطلع فيه، لقيت طارق عالأرض، طارق، لا يا حبيبي قوم يا حبيبي، لا يا حبيبي تضحكش عليا، انت قلتلي انا بخير، وقفت عالدوار انا، كلو كان تقريباً 30 أو أكتر، شهيد مقطعين، دم، طلعت عالدوار أزعق، أقوّم في الشهداء، ولكو قوموا ساعدونا، أخويا بين ايديا، محدش رد عليا، ولا حد رد عليا، قلت لعمي مسكتو وقلتلو عمي فش الا انا وياك، شاله من صدره وانا شلته من رجليه، ضلينا نمشي ل يمكن تقريباً 100 متر، 200 متر، فش هانا مواصلات، قلت لعمي بهِمش لسا طارق فيه النفس، رحنا على المستشفى، طلعوه عالسرير، اجا الدكتور مقربش عليه، قلنا هادا مستشهد، قلتله لا هادا مش مستشهد، انا حسيت النفس فيه، رحت جبت كمان دكتور، قلتله اخويا فيه نفس، فحص عينيه قلي يختي مقلوبات عينيه، فش فيه روح، جبت كمان واحد قلتله امانة آخر مرة، افحصله بس نبضه، اعمله ضغط صناعي، اعمله أيّا اشي، أيّا اشي، رجعله النبض الي فيه والله كان فيه نفس، قلي يختي مات أخوكي، استشهد اخوكي.",
+    "segments": [
+        {
+            "segment_id": "Narrative12_seg01",
+            "start_time": 0.0,
+            "end_time": 158.52,
+            "spans": [
+                {
+                    "span_id": "Narrative12_s00",
+                    "start_time": 0.0,
+                    "end_time": 12.72,
+                    "text_ar": "قلتله لا هادا مش مستشهد… أنا حسيت النفس فيه… قولي الله يرحمه…(امرأة بجوارها تواسيها)، الحمدلله.",
+                    "text_en": "I told him: 'No, he’s not martyred… I felt breath in him…' (A nearby woman consoles her)'Praise be to Allah.'",
+                    "event_frame": {
+                        "adversity_description": "Montage/report-style opening built from narrative fragments; immediate denial of death and insistence on breath.",
+                        "response_description": "Acute denial + repeated insistence ('فيه نفس') while receiving social/religious consolation."
+                    },
+                    "affective_signals": {
+                        "affect_type": "denial_shock",
+                        "justification": "Starts from the death-confrontation point; repetition and refusal indicate acute shock/denial."
+                    },
+                    "contextual_markers": {
+                        "editorial_parentheses": [
+                            {
+                                "marker": "(...=امرأة تواسيها)",
+                                "note": "Explanatory caption in video; not part of the speaker's narrative."
+                            }
+                        ],
+                        "dialect_markers": [
+                            {
+                                "marker": "فيه نفس",
+                                "note": "North Gaza colloquial: 'he is still breathing / there is still life'."
+                            }
+                        ]
+                    },
+                    "notes": "This span is treated as montage/report intro (optional). Main narrative begins in Span01."
+                },
+                {
+                    "span_id": "Narrative12_s01",
+                    "start_time": 12.72,
+                    "end_time": 27.62,
+                    "text_ar": "قصفوا حوش جيرانا… أنا قلت طارق… اطلع يخويا في الصيارة/السيارة… انفد بروحك… احنا بنجيك جراي.",
+                    "text_en": "They bombed our neighbors’ yard… I called, 'Tariq… get in the car… save yourself… we’ll come running behind you.'",
+                    "event_frame": {
+                        "adversity_description": "Initial strike near home; immediate threat and urgency to escape.",
+                        "response_description": "Protective urging and rapid decision-making to flee by car; calling brother by name."
+                    },
+                    "affective_signals": {
+                        "affect_type": "urgent_alarm",
+                        "justification": "Command-like imperatives ('انفد بروحك') and rushing indicate high urgency."
+                    },
+                    "contextual_markers": {
+                        "dialect_markers": [
+                            {
+                                "marker": "الصيارة",
+                                "note": "North Gaza/Beit Lahia variant for 'السيارة'. Kept verbatim; not normalized."
+                            },
+                            {
+                                "marker": "انفد بروحك",
+                                "note": "Colloquial: 'save yourself / escape now'."
+                            },
+                            {
+                                "marker": "جراي",
+                                "note": "Colloquial: running behind / quickly after."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "span_id": "Narrative12_s02",
+                    "start_time": 27.64,
+                    "end_time": 36.9,
+                    "text_ar": "أخدنا وصلنا الصيارة… فش/فشي غمضة عين… قصفونا… تطلعت ع الشارع… شهداااء… مقطّعين… دم.",
+                    "text_en": "We reached the car… in a blink… they hit us… I looked out to the street… martyrs… torn apart… blood.",
+                    "event_frame": {
+                        "adversity_description": "A rapid follow-up strike occurs almost immediately after reaching the car; graphic scene in the street.",
+                        "response_description": "Witness shock marked by listing of visual horrors (bodies/blood)."
+                    },
+                    "affective_signals": {
+                        "affect_type": "horror_shock",
+                        "justification": "Compressed, image-heavy listing ('شهدا… دم') reflects acute shock."
+                    },
+                    "contextual_markers": {
+                        "dialect_markers": [
+                            {
+                                "marker": "فشي غمضة عين",
+                                "note": "North Gaza phrasing: 'in no time / in a blink'."
+                            },
+                            {
+                                "marker": "مقطّعين",
+                                "note": "Colloquial: torn into pieces (graphic)."
+                            }
+                        ],
+                        "discourse_markers": [
+                            {
+                                "marker": "Elongation (دممم / شهداااء)",
+                                "note": "Prosodic shock marker; intensifies the scene."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "span_id": "Narrative12_s03",
+                    "start_time": 37.46,
+                    "end_time": 44.52,
+                    "text_ar": "هان تخبينا تحت… تحت… في الصيارة… خواتي شردوا ع بيت ستي… وأنا وأخوي ضلينا لحالنا.",
+                    "text_en": "Here we hid under… under the car… my sisters ran to my grandma’s house… me and my brother stayed alone.",
+                    "event_frame": {
+                        "adversity_description": "Immediate shrapnel danger after strike; chaotic family separation.",
+                        "response_description": "Improvised sheltering under the car; family members disperse to perceived safer places."
+                    },
+                    "affective_signals": {
+                        "affect_type": "fear_survival_mode",
+                        "justification": "Repetition ('تحت… تحت') and hiding indicate survival response."
+                    },
+                    "contextual_markers": {
+                        "dialect_markers": [
+                            {
+                                "marker": "هان",
+                                "note": "North Gaza deictic 'here' variant."
+                            },
+                            {
+                                "marker": "شردوا",
+                                "note": "Fled suddenly and chaotically."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "span_id": "Narrative12_s04",
+                    "start_time": 44.58,
+                    "end_time": 53.46,
+                    "text_ar": "أول هواية كانت أمي وأختي متصاوبات… احنا مكناش نعرف… دخلوا راحوا يسعفوا حالهم… امي وهي رايحة شافتنا انو احنا بخير.",
+                    "text_en": "The first thing was: my mom and sister were injured… we didn’t know… they went to treat themselves… and as mom was going, she saw we were okay.",
+                    "event_frame": {
+                        "adversity_description": "Multiple family injuries amid continued danger; incomplete information and confusion.",
+                        "response_description": "Self-aid/peer-aid actions; brief reassurance through visual confirmation."
+                    },
+                    "affective_signals": {
+                        "affect_type": "confusion_worry",
+                        "justification": "Not knowing injuries + scattered self-aid reflects confusion and worry."
+                    },
+                    "contextual_markers": {
+                        "dialect_markers": [
+                            {
+                                "marker": "هواية",
+                                "note": "North Gaza usage: 'a lot/very' or 'the first big thing' depending on context; kept as spoken."
+                            },
+                            {
+                                "marker": "متصاوبات",
+                                "note": "Colloquial: injured."
+                            },
+                            {
+                                "marker": "مكناش",
+                                "note": "Colloquial negation: 'we weren't'."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "span_id": "Narrative12_s05",
+                    "start_time": 53.52,
+                    "end_time": 77.18,
+                    "text_ar": "بعديها صارت كمان ضربة… زعق عليا… أنا قعدت أصرخ… قلي يختي تسرخيش… والله انتي بخير… قصفونا كمان مرة… هادي التالتة… لقيت طارق ع الأرض… لا يا حبيبي… انت قلتلي انا بخير.",
+                    "text_en": "Then another strike happened… he shouted at me… I started screaming… he said: 'sister, don’t scream… you’re okay'… then they hit us again… this is the third one… I found Tariq on the ground… 'no, my dear… you told me I’m okay.'",
+                    "event_frame": {
+                        "adversity_description": "Repeated strikes; sudden deterioration from 'we’re okay' to finding brother down.",
+                        "response_description": "Panic + attempted reassurance, followed by discovery and emotional confrontation with the contradiction ('you said I'm okay')."
+                    },
+                    "affective_signals": {
+                        "affect_type": "panic_to_grief_shock",
+                        "justification": "Scream/command 'تسرخيش' then sudden discovery produces a sharp affective collapse."
+                    },
+                    "contextual_markers": {
+                        "dialect_markers": [
+                            {
+                                "marker": "بعديها",
+                                "note": "North Gaza: 'after that'."
+                            },
+                            {
+                                "marker": "تسرخيش",
+                                "note": "Colloquial negative imperative: 'don't scream' (kept as spoken)."
+                            },
+                            {
+                                "marker": "هلقيت",
+                                "note": "Colloquial: 'now/at that moment'."
+                            }
+                        ],
+                        "discourse_markers": [
+                            {
+                                "marker": "هادي التالتة",
+                                "note": "Meaning: This is the third one: On-the-fly counting under stress; cognitive tracking."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "span_id": "Narrative12_s06",
+                    "start_time": 77.46,
+                    "end_time": 95.3,
+                    "text_ar": "وقفت ع الدوار أنا… كلو كان تقريباً 30 أو أكتر… شهيد مقطعين… دم… طلعت ع الدوار أزعّق… ولكو قوموا ساعدونا… أخويا بين ايديا… محدش رد عليا… ولا حد رد عليا.",
+                    "text_en": "I stood at the roundabout… there were about 30 or more… martyrs torn apart… blood… I went to the roundabout and shouted at them [people on the ground]: 'Hey, get up and help us!'… my brother in my hands… no one answered me… no one answered me.",
+                    "event_frame": {
+                        "adversity_description": "Mass-casualty scene at a public junction; perceived absence of help while carrying a wounded/dead sibling.",
+                        "response_description": "Public calling and attempted mobilization ('ولكو قوموا') met with silence/non-response."
+                    },
+                    "affective_signals": {
+                        "affect_type": "desperation_overwhelm",
+                        "justification": "Repeated 'ولا حد رد عليا' conveys abandonment and desperation amid overload."
+                    },
+                    "contextual_markers": {
+                        "dialect_markers": [
+                            {
+                                "marker": "الدوار",
+                                "note": "Local landmark (roundabout), anchors the event spatially (Beit Lahia roundabout)."
+                            },
+                            {
+                                "marker": "ولكو",
+                                "note": "Hey(shouting): Strong urging/command used to push people to act quickly."
+                            }
+                        ],
+                        "discourse_markers": [
+                            {
+                                "marker": "Repetition (ولا حد رد عليا)",
+                                "note": "Emphasis on silence/helplessness; not filler."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "span_id": "Narrative12_s07",
+                    "start_time": 97.14,
+                    "end_time": 117.1,
+                    "text_ar": "قلت لعمي… مسكتو وقلتلو عمي فش إلا انا وياك… شاله من صدره وانا شلته من رجليه… ضلينا نمشي… 100 متر 200 متر… فش هانا مواصلات… قلت لعمي بهِمش لسا طارق فيه النفس.",
+                    "text_en": "I told my uncle… I grabbed him and said: 'uncle, it’s just me and you'… he carried him [Tariq] from the chest and I carried him from the legs… we kept walking… 100, 200 meters… there’s no transport here… I told my uncle: 'it doesn’t matter[exaution from the long distance], Tariq still has breath.'",
+                    "event_frame": {
+                        "adversity_description": "No transport/ambulance access; manual carrying over distance under crisis conditions.",
+                        "response_description": "Dyadic rescue effort (speaker + uncle) and continued hope/denial anchored in 'فيه نفس'."
+                    },
+                    "affective_signals": {
+                        "affect_type": "strained_hope_determination",
+                        "justification": "Physical effort + 'بهِمش… فيه النفس' signals determined rescue mixed with denial/hope."
+                    },
+                    "contextual_markers": {
+                        "dialect_markers": [
+                            {
+                                "marker": "فش",
+                                "note": "North Gaza: 'there is not / no'."
+                            },
+                            {
+                                "marker": "هانا",
+                                "note": "Local variant of 'here'."
+                            },
+                            {
+                                "marker": "شلته",
+                                "note": "Gaza: carried/lifted."
+                            },
+                            {
+                                "marker": "بهِمش",
+                                "note": "Northern dialect negation with final -ش: A known Lahawani feature. Means: 'it doesn't matter'."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "span_id": "Narrative12_s08",
+                    "start_time": 117.48,
+                    "end_time": 158.52,
+                    "text_ar": "رحنا على المستشفى… طلعوه ع السرير… اجا الدكتور مقربش عليه… قلنا هادا مستشهد… قلتله لا… انا حسيت النفس فيه… جبت كمان دكتور… فحص عينيه… قلي يختي مقلوبات عينيه… فش فيه روح… جبت كمان واحد… امانة آخر مرة… افحصله بس نبضه… اعمله ضغط صناعي… أيّا اشي… قلي يختي مات أخوكي… استشهد أخوكي.",
+                    "text_en": "We went to the hospital… they put him on the bed… the doctor didn’t even come close… they said: 'he’s martyred'… I said: 'no… I felt breath in him'… I brought another doctor… he checked his eyes… said: 'sister, his eyes are turned'… 'there’s no soul[life] in him'… I begged another one: 'please, one last time—check his pulse, do CPR, do anything'… he said: 'sister, your brother died… your brother was martyred.'",
+                    "event_frame": {
+                        "adversity_description": "Hospital confirmation of death after frantic attempts; repeated professional refusal/diagnosis confronts the speaker’s belief.",
+                        "response_description": "Persistent pleading for re-checks and intervention (pulse/CPR) until final confirmation triggers acceptance."
+                    },
+                    "affective_signals": {
+                        "affect_type": "pleading_to_collapse",
+                        "justification": "Escalating requests ('أمانة… آخر مرة… أيّا اشي') indicate pleading before forced acceptance."
+                    },
+                    "contextual_markers": {
+                        "dialect_markers": [
+                            {
+                                "marker": "مقربش عليه",
+                                "note": "Negation with -ش; 'didn't come close to him'."
+                            },
+                            {
+                                "marker": "مقلوبات عينيه",
+                                "note": "Popular diagnostic phrase used to indicate death."
+                            },
+                            {
+                                "marker": "أيّا اشي",
+                                "note": "Beit Lahia/North Gaza: 'anything at all' (desperation marker)."
+                            }
+                        ],
+                        "medical_markers": [
+                            {
+                                "marker": "ضغط صناعي",
+                                "note": "Speaker means CPR/ventilation and resuscitation attempt."
+                            },
+                            {
+                                "marker": "افحصله بس نبضه",
+                                "note": "Pulse check request."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "الصيّارة": {
+                "variants_ar": [
+                    "السيارة"
+                ],
+                "meaning_en": "The car (North Gaza/Beit Lahia variant). Kept as spoken; not normalized in the narrative text."
+            },
+            "فشي غمضة عين": {
+                "variants_ar": [
+                    "فش غمضة عين",
+                    "برمشة عين",
+                    "بغمضة عين",
+                    "يا دوب"
+                ],
+                "meaning_en": "In a blink / immediately."
+            },
+            "هان/هانا/هون/هين": {
+                "variants_ar": [
+                    "هنا"
+                ],
+                "meaning_en": "Here (deictic variants)."
+            },
+            "شردوا": {
+                "variants_ar": [
+                    "هربوا",
+                    "فزعوا",
+                    "طلعوا يركضوا"
+                ],
+                "meaning_en": "Fled quickly in panic."
+            },
+            "شِلتُه": {
+                "variants_ar": [
+                    "حملته",
+                    "رفعته"
+                ],
+                "meaning_en": "I carried/lifted him."
+            },
+            "فش": {
+                "variants_ar": [
+                    "ما في",
+                    "لا يوجد"
+                ],
+                "meaning_en": "There is no / not available / no."
+            },
+            "بِهِمِّش": {
+                "variants_ar": [
+                    "بهمّش",
+                    "مش مهم",
+                    "ما بهم",
+                    "لا يهم"
+                ],
+                "meaning_en": "It doesn’t matter. (Northern negation with -ش)."
+            },
+            "تسرخيش": {
+                "variants_ar": [
+                    "تصرخيش",
+                    "لا تصرخي",
+                    "لا تبكي"
+                ],
+                "meaning_en": "Don’t scream/cry."
+            },
+            "ولكو": {
+                "variants_ar": [
+                    "اشارة تنبيه للجماعة",
+                    "يا جماعة",
+                    "يا أنتم"
+                ],
+                "meaning_en": "A strong urging call: 'hey you / come on'."
+            },
+            "فيه نفس": {
+                "variants_ar": [
+                    "ما زال يتنفس",
+                    "لسة بيتنفس",
+                    "فيه روح"
+                ],
+                "meaning_en": "He is still breathing / there is still life / he is still alive."
+            },
+            "مقربش عليه": {
+                "variants_ar": [
+                    "ما قرب عليه",
+                    "لم يقترب منه"
+                ],
+                "meaning_en": "He didn’t come close to him."
+            },
+            "أيّا اشي": {
+                "variants_ar": [
+                    "أي شيء",
+                    "أي اشي"
+                ],
+                "meaning_en": "Anything at all."
+            }
+        }
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

@@ -1,0 +1,285 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative14_Pseudonymized",
+    "source_meta": {
+        "source_cluster_id": "SC14_Jabalia_FaithSabr",
+        "source_type": "video_transcription",
+        "source_platform": "Short Video (public testimony / journalist repost)",
+        "original_author": "Public circulation source (archived for research use)",
+        "original_language": "ar",
+        "dialect": "Primarily Modern Standard Arabic with North Gaza-local insertions",
+        "collection_context_en": "A 37-year-old man delivers a funeral supplication and faith-based message. The speech foregrounds religious patience (sabr), acceptance of divine decree (qadar), and exclusive reliance on Allah without expecting action from any human actor, while also expressing moral disappointment with global inaction.",
+        "collection_context_ar": "رجل (٣٧ عاماً) يلقي خطاب دعاء ونعي يغلب عليه الفصحى، ويؤكد الصبر الإيماني الخالص والتسليم لقضاء الله وقدره والتوكل على الله وحده دون انتظار أي ردة فعل من البشر، مع إشارة لخذلان العالم أمام القتل."
+    },
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "none_needed",
+        "replacement_scope": "n/a",
+        "contains_real_names": false,
+        "notes": "No personal names are present. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Native Palestinian Arabic speaker; experienced with Gaza discourse styles and religious registers."
+            }
+        ],
+        "adjudication": {
+            "status": "final_adjudication",
+            "note": "Segments reflect five clear rhetorical units (دعاء/تسليم/توكل/خطاب أخلاقي/عودة للصبر)."
+        },
+        "alignment_note": "Segment timestamps are aligned to the provided ASR boundaries (approximate)."
+    },
+    "speaker_profile": {
+        "gender": "male",
+        "age": 37,
+        "register": [
+            "religious",
+            "supplicatory",
+            "moral-address"
+        ],
+        "language_mix": [
+            "MSA",
+            "North Gaza colloquial insertions"
+        ]
+    },
+    "approx_context": {
+        "location": "North Gaza (reported context: Jabalia)",
+        "brief_summary_en": "He opens with repeated supplication for Gaza, then declares full acceptance of Allah’s decree and asks for steadfast patience. He frames Allah alone as protector and helper, explicitly rejecting reliance on any worldly actor. He then addresses listeners with a moral statement about the worthlessness of any nation that witnesses the killing of children and remains silent, before returning to Qur’anic language of divine mercy and concluding with repeated calls for sabr.",
+        "brief_summary_ar": "يفتتح بدعاء متكرر لأهل غزة، ثم يصرّح بالرضا بقضاء الله وقدره والتسليم له، ويسأل الله أن يفرغ عليهم صبراً. بعد ذلك يعلن التوكل الكامل على الله وحده بوصفه المولى والناصر والمعين، وينفي الشكوى إلى البشر. ثم ينتقل لخطاب أخلاقي ينهى الناس عن انتظار الغرب أو العرب، ويصف خذلان العالم أمام قتل الأطفال والأشلاء والدماء، قبل أن يعود للغة الرحمة والصلوات والصبر ويختم بتكرار «صبرا يا الله»."
+    },
+    "text_ar_full": "اللهم أمّن على أهلِ غزة، اللهم أمّن على أهلِ غزة، اللهم ارحمهم، اللهم إنهم في حبلِ جوارك، اللهم تقبّلهم يا الله. يا رب رضيت بقضائك وقدرك وسلّمت تسليماً، يا رب تقبّلهم يا الله في الشهداء، أفرغ علينا صبراً، الحمد لله. يا رب حملتنا ما لا طاقة لنا به، وأنت ربنا أنت مولانا أنت ناصرنا، أنت معيننا على القوم الظالمين، لا شكوى ولا ملجأ ولا منجى منك إلا إليك، وحدك يا الله، لا نشكو لعالم.. تستنوش يا جماعة لا عالم غربي ولا عربي، لا خيرَ في أمةٍ ترى أشلاء دماء أبنائها وأطفالها يقتّلون صباحَ مساء ولا مجيب.. أولئك عليهم صلوات من ربهم، يا رب صلِّ علينا يا رب، واللهِ رضينا يا رب، اللهم أنزل رحماتك علينا يا رب، صبراً يا رب صبراً. صبراً يا الله، صبراً يا الله، صبراً.",
+    "segments": [
+        {
+            "segment_id": "Narrative14_s01",
+            "start_time": 0.0,
+            "end_time": 12.58,
+            "text_ar": "اللهم أمّن على أهلِ غزة، اللهم أمّن على أهلِ غزة، اللهم ارحمهم، اللهم إنهم في حبلِ جوارك، اللهم تقبّلهم يا الله.",
+            "text_en": "O Allah, grant safety to the people of Gaza—grant safety to the people of Gaza. O Allah, have mercy on them. O Allah, they are within the bond of Your protection. O Allah, accept them, O Allah.",
+            "event_frame": {
+                "adversity_description": "Collective suffering and death in Gaza as the immediate backdrop of the supplication.",
+                "response_description": "A devotional opening characterized by repeated supplication, mercy requests, and appeals for divine protection, directing the discourse exclusively toward Allah."
+            },
+            "sabr_frame": {
+                "sabr_type": "faith_sabr",
+                "features": [
+                    "dua",
+                    "rahma_request",
+                    "exclusive_turn_to_allah"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "reverent_grief_containment",
+                "justification": "The opening is controlled and prayer-centered rather than accusatory or chaotic."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "اللهم",
+                        "note": "Supplicatory formula; high religious register."
+                    },
+                    {
+                        "marker": "يا الله",
+                        "note": "O Allah. Direct invocation emphasizing exclusive reliance."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative14_s02",
+            "start_time": 12.58,
+            "end_time": 21.8,
+            "text_ar": "يا رب رضيت بقضائك وقدرك وسلّمت تسليماً، يا رب تقبّلهم يا الله في الشهداء، أفرغ علينا صبراً، الحمد لله.",
+            "text_en": "My Lord, I am content with Your decree and destiny, and I surrender myself in full submission. My Lord, accept them among the martyrs. Pour upon us a profound and encompassing patience. All praise is due to Allah.",
+            "event_frame": {
+                "adversity_description": "Immediate confrontation with loss reframed through divine decree (qada’a and qadar).",
+                "response_description": "Explicit acceptance (رضا/تسليم) + request for sabr + praise (حمد)."
+            },
+            "sabr_frame": {
+                "sabr_type": "theological_sabr",
+                "features": [
+                    "rida_bi_qadaa_wa_qadar",
+                    "tasleem_complete_submission",
+                    "ihtisab_for_divine_reward",
+                    "quranic_supplication_for_sabr"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "acceptance_under_shock",
+                "justification": "States رضيت… وسلمت… with direct الدعاء للصبر—core faith-based coping."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "قضائك وقدرك",
+                        "note": "Doctrinal framing of adversity as divine decree."
+                    },
+                    {
+                        "marker": "أفرغ علينا صبراً",
+                        "note": "Qur’anic supplication (Al-Baqarah 2:250; Al-A‘raf 7:126). The verb 'afrigh' (pour out) conveys abundance and total immersion in patience, not merely emotional endurance."
+                    },
+                    {
+                        "marker": "الحمد لله",
+                        "note": "Praise amid calamity; hallmark of devotional endurance."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative14_s03",
+            "start_time": 21.8,
+            "end_time": 37.58,
+            "text_ar": "يا رب حملتنا ما لا طاقة لنا به، وأنت ربنا أنت مولانا أنت ناصرنا، أنت معيننا على القوم الظالمين، لا شكوى ولا ملجأ ولا منجى منك إلا إليك، وحدك يا الله، لا نشكو لعالم..",
+            "text_en": "My Lord, You have burdened us with what we have no strength to bear. Yet You are our Lord—You are our Guardian, our Patron, our Supporter. You are the One who grants us aid against wrongdoing. There is no refuge and no escape from You except toward You alone, O Allah. We do not lodge our complaint with the world.",
+            "event_frame": {
+                "adversity_description": "Overwhelming burden and powerlessness described as beyond human capacity.",
+                "response_description": "Total tawakkul: Allah as sole refuge; explicit severing of reliance on humans."
+            },
+            "sabr_frame": {
+                "sabr_type": "faith_sabr",
+                "features": [
+                    "tawakkul_only_allah",
+                    "no_human_expectation",
+                    "duality_min_ila_ik"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "spiritual_surrender_with_moral_strength",
+                "justification": "Moves from weakness (لا طاقة) to exclusive reliance (وحدك يا الله) without hysteria."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "أنت مولانا",
+                        "note": "Protection/guardianship frame; classic devotional register."
+                    },
+                    {
+                        "marker": "لا ملجأ ولا منجى منك إلا إليك",
+                        "note": "Formula expressing exclusive refuge in Allah."
+                    }
+                ],
+                "thematic_markers": [
+                    {
+                        "marker": "لا نشكو لعالم",
+                        "note": "Explicit rejection of complaint to humans; aligns with 'no expectation except Allah' framing."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative14_s04",
+            "start_time": 37.58,
+            "end_time": 51.08,
+            "text_ar": "تستنوش يا جماعة لا عالم غربي ولا عربي، لا خيرَ في أمةٍ ترى أشلاء دماء أبنائها وأطفالها يقتّلون صباحَ مساء ولا مجيب..",
+            "text_en": "Don’t wait, everyone—not for a Western world and not for an Arab one. There is no good in a nation that sees the torn flesh and blood of its sons and children being killed morning and evening—and no one responds.",
+            "event_frame": {
+                "adversity_description": "Ongoing killing and global inaction framed as a moral collapse.",
+                "response_description": "A moral exhortation that discourages reliance on geopolitical actors and frames global silence as ethical failure, while maintaining composure rather than reactive rage."
+            },
+            "sabr_frame": {
+                "sabr_type": "faith_sabr_with_moral_witness",
+                "features": [
+                    "no_waiting_for_people",
+                    "ethical_indictment_without_hysterics",
+                    "steadfast_address"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "moral_anger_controlled",
+                "justification": "Critique is strong but not explosive; it stays within a sermon-like tone."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "تستنوش",
+                        "note": "Gaza colloquial insertion meaning 'don’t wait/expect'."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "لا عالم غربي ولا عربي",
+                        "note": "Parallel negation emphasizes total withdrawal of expectation from humans."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative14_s05",
+            "start_time": 51.38,
+            "end_time": 58.96,
+            "text_ar": "أولئك عليهم صلوات من ربهم، يا رب صلِّ علينا يا رب، واللهِ رضينا يا رب، اللهم أنزل رحماتك علينا يا رب، صبراً يا رب صبراً. صبراً يا الله، صبراً يا الله، صبراً.",
+            "text_en": "Those upon whom are blessings and mercy from their Lord (Qur’anic echo, Al-Baqarah 2:157). My Lord, send Your blessings upon us. By Allah, we are content, my Lord. O Allah, send down Your mercies upon us—grant us patience, my Lord, patience. Patience, O Allah. Patience, O Allah. Patience.",
+            "event_frame": {
+                "adversity_description": "Continuing bereavement and exhaustion seek closure in divine mercy and reward framing.",
+                "response_description": "Returns to Qur’anic reward language + repeated sabr invocations to stabilize the self/community."
+            },
+            "sabr_frame": {
+                "sabr_type": "faith_sabr",
+                "features": [
+                    "quranic_reward_frame",
+                    "rida",
+                    "dua_for_rahma",
+                    "repetition_for_stabilization"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "devotional_resolve",
+                "justification": "Ends with rhythmic repetition of sabr to reinforce steadfastness."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "أولئك عليهم صلوات من ربهم ورحمة",
+                        "note": "Qur’anic echo (ٍSurah al-Baqarah 2:157) framing reward for sabr."
+                    },
+                    {
+                        "marker": "والله رضينا",
+                        "note": "Explicit satisfaction (رضا) as a doctrinal stance in grief."
+                    },
+                    {
+                        "marker": "صبراً يا الله",
+                        "note": "Repetitive invocation; spiritual grounding."
+                    }
+                ]
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "تستنوش": {
+                "variants_ar": [
+                    "ما تستنوا",
+                    "تستنوش",
+                    "لا تستنوا",
+                    "لا تنتظروا"
+                ],
+                "meaning_en": "Don’t wait / don’t expect (Gaza colloquial insertion)."
+            },
+            "لا ملجأ ولا منجى منك إلا إليك": {
+                "variants_ar": [
+                    "لا ملجأ ولا منجى منك إلا إليك"
+                ],
+                "meaning_en": "No refuge or escape from You except to You (exclusive reliance)."
+            },
+            "أفرغ علينا صبراً": {
+                "variants_ar": [
+                    "صبِّرنا",
+                    "اللهم صُبَّ علينا صبراً كثيراً"
+                ],
+                "meaning_en": "Pour upon us patience (Qur’anic phrasing (ٍSurah al-Baqarah 2:250))."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "faith_based_sabr_and_tawakkul",
+        "paper_fit_ar": "هذه الرواية تمثل «الصبر الإيماني الخالص» في غزة: رضا وتسليم واحتساب، وتوكل على الله وحده دون انتظار فعل من بشر. تمتزج فيها لغة الدعاء الفصيح مع إدراج لهجي (تستنوش) عند التحول إلى خطاب أخلاقي يرفض التعويل على العالم، ثم العودة لصيغ الصبر والرحمة؛ وهذا يجعلها نموذجاً عالي الدلالة للصمود الديني كإستراتيجية معنى وتحمّل.",
+        "paper_fit_en": "This narrative represents a high-intensity instance of theological sabr in crisis discourse. Unlike resilience framed as coping or resistance, this case centers on rida (contentment with divine decree), tasleem (total submission), and ihtisab (seeking divine reward). The speaker explicitly withdraws expectation from all human actors and redirects reliance exclusively toward Allah, while articulating moral disappointment without emotional collapse. The discourse integrates Qur’anic supplication, doctrinal tawakkul, and controlled ethical protest, making it a prototypical example of faith-based resilience in Gaza’s crisis narratives."
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

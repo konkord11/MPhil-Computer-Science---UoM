@@ -1,0 +1,121 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative04_Pseudonymized",
+    "source_meta": {
+        "source_cluster_id": "SC02_DisplacementGaza_IG",
+        "source_type": "video_transcription",
+        "source_platform": "Instagram",
+        "original_author": "Journalist's Archive (provided with consent)",
+        "original_language": "ar",
+        "dialect": "Palestinian (Gaza – Northern dialect)",
+        "collection_context_en": "Transcription of an Instagram video in which a civilian speaker protests the injustice of repeated displacement and questions the open-ended duration of the war.",
+        "collection_context_ar": "تفريغ لفيديو إنستغرام يظهر فيه مواطن مدني يستنكر ظلم النزوح المتكرر ويتساءل عن أمد الحرب واستمرارها."
+    },
+    "speaker_profile": {
+        "gender": "male",
+        "age_estimate": "adult",
+        "origin": "Gaza Strip"
+    },
+    "approx_context": {
+        "location": "Gaza Strip – repeated internal displacement",
+        "brief_summary_en": "A civilian speaker denounces collective punishment and repeated displacement, emphasizing civilian innocence and expressing exhaustion with the indefinite continuation of the war.",
+        "brief_summary_ar": "متحدث مدني يندد بالعقاب الجماعي والنزوح المتكرر، ويؤكد براءة المدنيين، معبّرًا عن الإنهاك من استمرار الحرب دون أفق زمني."
+    },
+    "segments": [
+        {
+            "segment_id": "Narrative04_seg01",
+            "text_ar": "احنا ايش ذنبنا احنا كمواطنين؟ لا النا لا في الطين ولا في العجين. بمعنى انه احنا لا النا لا في حماس ولا النا في السياسة ولا في ما يحزنون.",
+            "text_en": "What have we done wrong as citizens? We have nothing to do with this at all. Meaning, we have nothing to do with Hamas, nothing to do with politics, or any of that.",
+            "event_frame": {
+                "adversity_description": "Being subjected to repeated displacement and violence despite civilian status and lack of political or militant involvement.",
+                "response_description": "Explicit moral distancing through idiomatic negation to assert civilian innocence."
+            },
+            "affective_signals": {
+                "affect_type": "anger_indignation",
+                "justification": "The speaker expresses moral outrage rooted in perceived injustice rather than hostility, emphasizing wrongful treatment of civilians."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "لا النا",
+                        "note": "Gazan colloquial negation used repeatedly to assert non-involvement and innocence."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "لا النا لا في الطين ولا في العجين",
+                        "note": "Local idiom meaning complete non-involvement; culturally encodes innocence and moral distance from blame."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "Repetition",
+                        "note": "Repeated negation ('لا النا') functions as rhetorical reinforcement under stress."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative04_seg02",
+            "text_ar": "ايش ذنبنا احنا كمواطنين مدنيين ننزح من مكان لمكان؟ احنا لوكتيش؟ لمتى؟ يعني احنا بنقلك احنا يعني مطوّلة معنا القصة هاي؟ الى الى متى يعني… إلى متى النزوح؟",
+            "text_en": "What have we done wrong as civilians, forced to move from one place to another? Until when? For how long? I mean, we’re telling you—are we really stuck with this story dragging on? Until… until when… when will this displacement end?",
+            "event_frame": {
+                "adversity_description": "Temporal uncertainty and psychological exhaustion caused by indefinite displacement.",
+                "response_description": "Expression of exhaustion through repetitive questioning of time and duration."
+            },
+            "affective_signals": {
+                "affect_type": "exhaustion_fatigue",
+                "justification": "The repeated temporal questions and verbal breakdown indicate cognitive and emotional depletion."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "لوكتيش",
+                        "note": "Northern Gaza dialectal form meaning 'until when / for how long', signaling urgency and local identity."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "مطوّلة معنا القصة هاي",
+                        "note": "Colloquial framing of prolonged suffering as an endlessly dragging 'story', expressing temporal despair."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "Stuttering (الى الى)",
+                        "note": "Speech disruption reflecting emotional overload and the limits of verbal endurance."
+                    }
+                ]
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "لا النا": [
+                "ملناش",
+                "مالنا",
+                "ليس لنا علاقة"
+            ],
+            "لوكتيش": [
+                "لمتى",
+                "إلى متى"
+            ],
+            "مطوّلة معنا": [
+                "مستمرة معنا",
+                "مكملة معنا"
+            ]
+        }
+    },
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "none_needed",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "n/a",
+        "contains_real_names": null,
+        "notes": "No replacements were required under the current manifest; this copy mirrors the source folder. Public-release bundle: reversibility metadata stripped for GitHub."
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

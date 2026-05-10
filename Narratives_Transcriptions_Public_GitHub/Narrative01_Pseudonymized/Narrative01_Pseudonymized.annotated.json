@@ -1,0 +1,333 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative01_Pseudonymized",
+    "source_meta": {
+        "source_cluster_id": "SC01_GazaSurvivors_IG",
+        "source_type": "video_transcription",
+        "source_platform": "Instagram",
+        "original_author": "Journalist's Archive (provided with consent)",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (North Gaza – Beit Lahia / Beit Hanoun, Lahawani/Hanouni variants)",
+        "collection_context_en": "A young survivor from North Gaza recounts that her entire family was killed in a strike moments after she left home for a routine errand. She narrates the interviewer exchange, return to the destroyed block, repeated pleas to rescue her mother, and discovery of multiple mutilated family members.",
+        "collection_context_ar": "ناجية شابة من شمال غزة تروي استشهاد عائلتها بالكامل بعد دقائق من خروجها من البيت لمشوار عادي. تسرد سؤال الصحفي، عودتها للمربّع المدمّر، إلحاحها على إنقاذ أمها، ثم خروج أفراد عائلتها ممزقين تحت الردم."
+    },
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "retain_source_as_provided",
+        "replacement_scope": "n/a",
+        "contains_real_names": "none_detected",
+        "notes": "No personal names, surnames, or uniquely identifying individual details are explicitly present in the narrative text. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Native Palestinian Arabic speaker with North Gaza dialect familiarity."
+            }
+        ],
+        "adjudication": {
+            "status": "single_pass_aligned",
+            "note": "Schema upgraded from v1.1 to v1.2 while preserving original timing boundaries and meaning."
+        },
+        "alignment_note": "Span timestamps follow original segment-level timings and are kept approximate to source ASR boundaries."
+    },
+    "speaker_profile": {
+        "gender": "female",
+        "age_estimate": "youth",
+        "origin": "Northern Gaza Strip (Beit Lahia / Beit Hanoun)",
+        "role_or_status": [
+            "Resident",
+            "Sole survivor",
+            "Eyewitness"
+        ]
+    },
+    "approx_context": {
+        "location": "Gaza Strip (North Gaza area)",
+        "brief_summary_en": "She explains that her whole family was killed in a strike that hit their residential block minutes after she left to buy rice seasoning. Returning to devastation, she searches for her mother, witnesses multiple relatives brought out in pieces, and ends with a collective plea to stop the war.",
+        "brief_summary_ar": "توضح أن عائلتها كلها استشهدت في قصف أصاب المربّع السكني بعد دقائق من خروجها لشراء بهار رز. عند عودتها وجدت الدمار، وأخذت تبحث عن أمها، ثم شاهدت خروج أقاربها وأهلها ممزقين، وتختم بنداء جماعي لوقف الحرب."
+    },
+    "text_ar_full": "أنا قبل عشرين يوم استشهدوا كل أهلي. كل أهلك استشهدوا؟ الصحفي يسأل. ردت عليه: كل أهلي… ما ضلّتش إلا أنا لحالي. الناجية الوحيدة كنت أنا من أهلي. كنت قبل الضربة بخمس دقايق. أمي قايلالي: روحي عالدكانة، اشتريلي بهار رز عشان أطبخ. فردّيت عَ كلام أمي. وصلت الدكانة من هان. خبطوا المربّع وأنا برّة الدار. فوصلت أنا الدار من هانا. لقيت كل المربّع نازل. ف يعني… انصدمت. صرت أنا أقول لهم: فيش حد! صاروا يقولوا الناس: مين في الدار استشهدلك؟ صرت أقول لهم: ولا حد في الدار غير أمي. بس طلعولي أمي. طلعوا خالتي على الشيّالة. فقلت: أكيد هم كلهم شهداء. طلعوا أمي مقطّعة. طلعوا أبوي مقطّع. طلعوا أختي الصغيرة مقطّعة. أخويا… ضايل لي أخو تحت الردم. وش أقول لك كمان أكتر من هيك؟ حقّتهم… أصلاً كمان يوقفولنا الحرب. الناس مش قادرة تتحمّل أكتر من هيك تعيش.",
+    "segments": [
+        {
+            "segment_id": "Narrative01_seg01",
+            "start_time": 0.0,
+            "end_time": 58.1,
+            "spans": [
+                {
+                    "span_id": "Narrative01_s01",
+                    "start_time": 0.0,
+                    "end_time": 2.54,
+                    "text_ar": "أنا قبل عشرين يوم استشهدوا كل أهلي.",
+                    "text_en": "Twenty days ago, my entire family was martyred (killed).",
+                    "event_frame": {
+                        "adversity_description": "Total loss of the family unit in one strike event.",
+                        "response_description": "Direct declarative reporting of catastrophic loss using martyrdom framing."
+                    },
+                    "affective_signals": {
+                        "affect_type": "grief_sadness",
+                        "justification": "Concise statement naming complete family loss."
+                    },
+                    "contextual_markers": {
+                        "religious_markers": [
+                            {
+                                "marker": "استشهدوا",
+                                "note": "Martyrdom framing (Shahada) in Palestinian war-loss discourse."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "span_id": "Narrative01_s02",
+                    "start_time": 3.24,
+                    "end_time": 7.83,
+                    "text_ar": "كل أهلك استشهدوا؟ الصحفي يسأل. ردت عليه: كل أهلي… ما ضلّتش إلا أنا لحالي. الناجية الوحيدة كنت أنا من أهلي.",
+                    "text_en": "\"All your family were martyred?\" the interviewer asked. \"All my family... no one remained except me.\" I was my family's only survivor.",
+                    "event_frame": {
+                        "adversity_description": "External confirmation of complete family loss and survivor isolation.",
+                        "response_description": "Repetition and self-identification as sole survivor."
+                    },
+                    "affective_signals": {
+                        "affect_type": "shock",
+                        "justification": "Repetition and framing as lone survivor indicate acute shock."
+                    },
+                    "contextual_markers": {
+                        "dialect_markers": [
+                            {
+                                "marker": "ما ضلّتش إلا أنا لحالي",
+                                "note": "Gazan colloquial negation signaling absolute isolation."
+                            }
+                        ],
+                        "trauma_markers": [
+                            {
+                                "marker": "الناجية الوحيدة",
+                                "note": "Identity compression into sole-survivor status."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "span_id": "Narrative01_s03",
+                    "start_time": 7.83,
+                    "end_time": 14.41,
+                    "text_ar": "كنت قبل الضربة بخمس دقايق. أمي قايلالي: روحي عالدكانة، اشتريلي بهار رز عشان أطبخ. فردّيت عَ كلام أمي.",
+                    "text_en": "It was five minutes before the strike. My mother told me: \"Go to the shop and buy rice seasoning so I can cook.\" I followed what my mother told me.",
+                    "event_frame": {
+                        "adversity_description": "Ordinary domestic routine immediately precedes mass loss.",
+                        "response_description": "Memory anchors trauma onset to a mundane family instruction."
+                    },
+                    "affective_signals": {
+                        "affect_type": "confusion_disorientation",
+                        "justification": "Ordinary detail retention highlights abrupt rupture from normal life."
+                    },
+                    "contextual_markers": {
+                        "dialect_markers": [
+                            {
+                                "marker": "عالدكانة",
+                                "note": "Colloquial for 'to the small neighborhood shop'."
+                            }
+                        ],
+                        "cultural_markers": [
+                            {
+                                "marker": "بهار رز",
+                                "note": "Everyday cooking item emphasizing domestic normalcy before the strike."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "span_id": "Narrative01_s04",
+                    "start_time": 14.41,
+                    "end_time": 25.38,
+                    "text_ar": "وصلت الدكانة من هان. خبطوا المربّع وأنا برّة الدار. فوصلت أنا الدار من هانا. لقيت كل المربّع نازل. ف يعني… انصدمت.",
+                    "text_en": "I had just reached the shop from here. They hit the block while I was outside the house. When I returned home from there, I found the whole block collapsed. I mean... I was shocked.",
+                    "event_frame": {
+                        "adversity_description": "Near-immediate strike on the residential block while speaker is briefly away.",
+                        "response_description": "Rapid return and direct encounter with large-scale destruction."
+                    },
+                    "affective_signals": {
+                        "affect_type": "shock",
+                        "justification": "She explicitly names shock after visual confirmation of collapse."
+                    },
+                    "contextual_markers": {
+                        "dialect_markers": [
+                            {
+                                "marker": "هان/هانا",
+                                "note": "North Gaza deictic variants ('here')."
+                            },
+                            {
+                                "marker": "خبطوا",
+                                "note": "Colloquial verb for a strike/hit."
+                            }
+                        ],
+                        "cultural_markers": [
+                            {
+                                "marker": "المربّع",
+                                "note": "Residential block as social/familial living unit."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "span_id": "Narrative01_s05",
+                    "start_time": 27.5,
+                    "end_time": 33.24,
+                    "text_ar": "صرت أنا أقول لهم: فيش حد! صاروا يقولوا الناس: مين في الدار استشهدلك؟ صرت أقول لهم: ولا حد في الدار غير أمي. بس طلعولي أمي.",
+                    "text_en": "I kept telling them: \"There is no one!\" People asked: \"Who in the house was martyred for you?\" I kept saying: \"No one in the house except my mother. Just bring my mother out.\"",
+                    "event_frame": {
+                        "adversity_description": "Rescue-scene uncertainty over who is alive or dead beneath rubble.",
+                        "response_description": "Narrowed focus and repeated plea centered on locating the mother."
+                    },
+                    "affective_signals": {
+                        "affect_type": "fear_anxiety",
+                        "justification": "Urgent repetition reflects escalating panic and attachment to maternal survival."
+                    },
+                    "contextual_markers": {
+                        "dialect_markers": [
+                            {
+                                "marker": "فيش حد",
+                                "note": "Gazan colloquial negation: no one / nobody."
+                            },
+                            {
+                                "marker": "طلعولي",
+                                "note": "Bring out for me (urgent rescue request)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "span_id": "Narrative01_s06",
+                    "start_time": 33.74,
+                    "end_time": 45.6,
+                    "text_ar": "طلعوا خالتي على الشيّالة. فقلت: أكيد هم كلهم شهداء. طلعوا أمي مقطّعة. طلعوا أبوي مقطّع. طلعوا أختي الصغيرة مقطّعة. أخويا… ضايل لي أخو تحت الردم.",
+                    "text_en": "They brought my aunt out on the stretcher. I said: they are surely all martyrs. They brought out my mother torn apart. My father torn apart. My little sister torn apart. My brother... one brother is still under the rubble.",
+                    "event_frame": {
+                        "adversity_description": "Sequential witnessing of mutilated close relatives and unresolved entrapment of brother.",
+                        "response_description": "Death interpretation via religious framing while continuing to track remaining family under rubble."
+                    },
+                    "affective_signals": {
+                        "affect_type": "despair_hopelessness",
+                        "justification": "Graphic loss accumulation and unresolved uncertainty intensify despair."
+                    },
+                    "contextual_markers": {
+                        "religious_markers": [
+                            {
+                                "marker": "شهداء",
+                                "note": "Martyrdom framing to name mass family death."
+                            }
+                        ],
+                        "dialect_markers": [
+                            {
+                                "marker": "الشيّالة",
+                                "note": "Gazan colloquial term for stretcher."
+                            },
+                            {
+                                "marker": "ضايل لي",
+                                "note": "Colloquial for 'still remaining for me'."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "span_id": "Narrative01_s07",
+                    "start_time": 49.38,
+                    "end_time": 58.1,
+                    "text_ar": "وش أقول لك كمان أكتر من هيك؟ حقّتهم… أصلاً كمان يوقفولنا الحرب. الناس مش قادرة تتحمّل أكتر من هيك تعيش.",
+                    "text_en": "What more can I tell you than this? They should... really stop this war for us. People cannot bear to keep living like this.",
+                    "event_frame": {
+                        "adversity_description": "Ongoing collective civilian exhaustion under repeated wartime loss.",
+                        "response_description": "Shift from personal testimony to public plea for ending the war."
+                    },
+                    "affective_signals": {
+                        "affect_type": "exhaustion_overwhelm",
+                        "justification": "Linguistic fatigue and collective appeal express emotional depletion."
+                    },
+                    "contextual_markers": {
+                        "dialect_markers": [
+                            {
+                                "marker": "حقّتهم / حقّيتهم",
+                                "note": "North Gaza expression meaning: they ought to / they must."
+                            }
+                        ],
+                        "discourse_markers": [
+                            {
+                                "marker": "وش أقول لك كمان",
+                                "note": "Rhetorical closure marker indicating limit of narratable pain."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "هانا": {
+                "variants_ar": [
+                    "هنا",
+                    "هون",
+                    "هان"
+                ],
+                "meaning_en": "Here (North Gaza deictic variants)."
+            },
+            "بهار رز": {
+                "variants_ar": [
+                    "توابل رز",
+                    "نوع من البهارات",
+                    "توابل"
+                ],
+                "meaning_en": "Rice seasoning / spice mix for rice."
+            },
+            "الشيّالة": {
+                "variants_ar": [
+                    "نقالة",
+                    "حمالة"
+                ],
+                "meaning_en": "Emergency stretcher."
+            },
+            "الدار": {
+                "variants_ar": [
+                    "البيت",
+                    "المنزل"
+                ],
+                "meaning_en": "Home / house."
+            },
+            "حقّتهم / حقّيتهم": {
+                "variants_ar": [
+                    "يجدر بهم",
+                    "يجب عليهم",
+                    "المفروض أنهم"
+                ],
+                "meaning_en": "They ought to / they should."
+            },
+            "فيش": {
+                "variants_ar": [
+                    "فش",
+                    "ما في",
+                    "لا يوجد"
+                ],
+                "meaning_en": "There is no / none."
+            },
+            "خبطوا": {
+                "variants_ar": [
+                    "قصفوا",
+                    "ضربوا",
+                    "استهدفوا"
+                ],
+                "meaning_en": "They struck / bombed."
+            },
+            "ضايل لي": {
+                "variants_ar": [
+                    "باقي لي",
+                    "متبقي لي"
+                ],
+                "meaning_en": "Still remaining for me."
+            }
+        }
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

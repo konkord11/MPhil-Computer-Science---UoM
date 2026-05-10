@@ -1,0 +1,175 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative03_Pseudonymized",
+    "source_meta": {
+        "source_cluster_id": "SC03_ForcedDisplacement_IG",
+        "source_type": "video_transcription",
+        "source_platform": "Instagram",
+        "original_author": "Journalist's Archive (provided with consent)",
+        "original_language": "ar",
+        "dialect": "Palestinian (Northern Gaza: Jabalia dialect)",
+        "collection_context_en": "Transcription of an Instagram video in which an elderly displaced man describes the physical, financial, and moral exhaustion of repeated displacement using a car-drawn cart.",
+        "collection_context_ar": "تفريغ لفيديو إنستغرام يتحدث فيه رجل مسن من جباليا عن الإنهاك الجسدي والمادي والأخلاقي للنزوح المتكرر باستخدام العربة."
+    },
+    "speaker_profile": {
+        "gender": "male",
+        "age_estimate": "older_adult",
+        "origin": "Northern Gaza Strip (Jabalia)"
+    },
+    "approx_context": {
+        "location": "Gaza Strip (during forced displacement)",
+        "brief_summary_en": "An elderly displaced man from Jabalia expresses collective exhaustion, financial collapse, and uncertainty during forced displacement, while repeatedly anchoring his endurance in Islamic faith.",
+        "brief_summary_ar": "رجل نازح مسن من جباليا يعبّر عن الإنهاك الجماعي، الانهيار المادي، وضبابية المصير أثناء النزوح، مع التمسك بالصبر والإيمان بالله."
+    },
+    "segments": [
+        {
+            "segment_id": "Narrative03_seg01",
+            "start_time": 0.0,
+            "end_time": 11.22,
+            "text_ar": "بنقولهم: خلّصونا، اتعبنا، اتعبنا… أكتر من هيك مش قادرين، والله أكتر من هيك محنا قادرين. الحمد لله رب العالمين، إن شاء الله بتخلّص على خير وسلامة.",
+            "text_en": "We keep saying to them: ‘End this for us. We are exhausted, truly exhausted… we cannot endure more than this. By Allah, we cannot endure more.’ Praise be to Allah, Lord of the Worlds. If Allah wills, it will end in goodness and safety.",
+            "event_frame": {
+                "adversity_description": "Extreme physical and psychological exhaustion resulting from prolonged war and repeated displacement.",
+                "response_description": "A collective plea for an end to suffering immediately followed by faith-based stabilization."
+            },
+            "affective_signals": {
+                "affect_type": "exhaustion_overwhelm",
+                "justification": "Repeated declarations of incapacity (‘اتعبنا’ / ‘مش قادرين’) indicate total depletion of physical and emotional reserves."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "خلّصونا",
+                        "note": "Collective appeal meaning ‘end the war and its consequences’, not a request for individual rescue."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "الحمد لله رب العالمين",
+                        "note": "Islamic expression of gratitude used here as an act of endurance rather than contentment."
+                    },
+                    {
+                        "marker": "إن شاء الله",
+                        "note": "Faith-based future orientation acting as a 'safety valve' against collapse, signaling hope despite exhaustion."
+                    }
+                ],
+                "trauma_markers": [
+                    {
+                        "marker": "Collective fatigue",
+                        "note": "Speaker frames exhaustion as communal rather than personal."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative03_seg02",
+            "start_time": 11.22,
+            "end_time": 23.24,
+            "text_ar": "دفعنا الألفين شيكل للعرباية، ومتوكلين على الله. والله ويعلم الله إنّا أخدناهن دِين، ويعلم الله العلي العظيم منا عارف كيف بدنا ندبّر حالنا في الأكل وفي الشرب، ومش عارفين إيش بدنا نسوي في حياتنا أصلًا.",
+            "text_en": "We paid two thousand shekels for the cart, and we place our trust in Allah. Allah knows—and Allah, the Most High, knows—that we took this money as debt, and that we do not know how we will manage food and drink, nor what we are doing with our lives at all.",
+            "event_frame": {
+                "adversity_description": "Severe financial strain caused by displacement costs, debt, and the collapse of basic living conditions.",
+                "response_description": "Explicit articulation of Tawakkul (placing trust in Allah) amid economic uncertainty."
+            },
+            "affective_signals": {
+                "affect_type": "fear_anxiety",
+                "justification": "Uncertainty around food, water, and life direction reflects ongoing survival anxiety."
+            },
+            "contextual_markers": {
+                "cultural_markers": [
+                    {
+                        "marker": "الألفين شيكل للعرباية",
+                        "note": "Represents inflated displacement costs and the normalization of animal-drawn carts due to fuel scarcity."
+                    },
+                    {
+                        "marker": "أخدناهن دِين",
+                        "note": "Indicates forced indebtedness as a survival strategy, carrying social and moral weight."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "متوكلين على الله",
+                        "note": "Islamic concept of Tawakkul: active reliance on Allah in the absence of material guarantees."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative03_seg03",
+            "start_time": 23.3,
+            "end_time": 38.12,
+            "text_ar": "ونسأل الله العلي القدير إنه ربنا يعيننا ويعين غيرينا وغيرينا وغيرينا. هي إحنا، الحمد لله، لقينا الناس اللي تعطينا. الله أعلم بكرة… هسة كيف بدنا نروح، والله ما احنا عارفين إيش بدنا ناكل أو إيش بدنا نشرب. هينا، الحمد لله على كل اشي.",
+            "text_en": "We ask Allah, the Most High, the All-Powerful, to help us and to help others, and others, and others. Here we are—praise be to Allah—we found people who give and support us. Allah alone knows about tomorrow… where we will go next. By Allah, we do not know what we will eat or drink. Yet here we are—praise be to Allah for everything.",
+            "event_frame": {
+                "adversity_description": "Total uncertainty regarding destination, sustenance, and continuity of life.",
+                "response_description": "Expansion from personal hardship to collective prayer and recognition of social solidarity."
+            },
+            "affective_signals": {
+                "affect_type": "resilient_acceptance",
+                "justification": "Persistent praise of Allah and concern for others despite deprivation reflects faith-based resilience."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "نسأل الله العلي القدير",
+                        "note": "Invocation of Allah emphasizing both transcendence and power, common in supplicatory resilience."
+                    },
+                    {
+                        "marker": "الله أعلم",
+                        "note": "Islamic acknowledgment of uncertainty placed within divine knowledge rather than despair."
+                    },
+                    {
+                        "marker": "الحمد لله على كل اشي",
+                        "note": "Expression of gratitude in hardship, signaling moral steadfastness rather than denial."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "لقينا الناس اللي تعطينا",
+                        "note": "Highlights informal social support networks (takaful) replacing absent institutions."
+                    }
+                ]
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "خلّصونا": [
+                "أنهوا الحرب",
+                "فكّوا الأزمة"
+            ],
+            "العرباية": [
+                "العربية",
+                "السيارة",
+                "عربة",
+                "عربة تجرها دابة"
+            ],
+            "دِين": [
+                "قرض",
+                "استدانة"
+            ],
+            "متوكلين على الله": [
+                "نعتمد على الله",
+                "نضع أمرنا بين يدي الله"
+            ],
+            "الله أعلم": [
+                "يعلم الله وحده"
+            ],
+            "الحمد لله على كل اشي": [
+                "الشكر لله رغم كل شيء"
+            ]
+        }
+    },
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "none_needed",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "n/a",
+        "contains_real_names": null,
+        "notes": "No replacements were required under the current manifest; this copy mirrors the source folder. Public-release bundle: reversibility metadata stripped for GitHub."
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

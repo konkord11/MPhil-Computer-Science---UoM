@@ -1,0 +1,568 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative08_Pseudonymized",
+    "source_meta": {
+        "source_cluster_id": "SC08_AlShifa_Siege_MedicalStaff",
+        "source_type": "video_transcription",
+        "source_platform": "Press Interview",
+        "original_author": "Journalist's Archive (provided with consent)",
+        "original_language": "ar",
+        "dialect": "Palestinian (Gaza City – Shuja'iyya / Northern Gaza variant; medical professional speech)",
+        "collection_context_en": "Video interview in the courtyard of Al-Shifa Hospital. A senior nurse describes the raid/siege context, detention of medical staff, the reported shooting of released detainees, and the enforced disappearance of her husband (a paramedic).",
+        "collection_context_ar": "مقابلة مصوّرة في ساحة مستشفى الشفاء. ممرضة/حكيمة تروي سياق الاقتحام/الحصار، واحتجاز الطواقم الطبية، وروايتها عن إطلاق النار على بعض المفرَج عنهم، واختفاء زوجها (مسعف) بعد اعتقاله.",
+        "consent_status": "documented_consent_journalist_and_speakers"
+    },
+    "speaker_profile": {
+        "gender": "female",
+        "age_estimate": "adult",
+        "origin": "Shuja'iyya, Gaza City",
+        "role": "Medical nurse (Hakima)",
+        "anonymization_status": "real_names",
+        "anonymization_notes": "Internal working copy retains the publicly stated husband name/kunya as presented in the interview."
+    },
+    "approx_context": {
+        "location": "Al-Shifa Hospital courtyard, Gaza City",
+        "brief_summary_en": "A displaced nurse holding a medical uniform describes the detention of medical staff, the reported shooting of some detainees after release (as narrated), and her lack of information about her husband's whereabouts after his arrest. She ends with an appeal to humanitarian bodies and the wider public.",
+        "brief_summary_ar": "ممرضة نازحة تحمل زيًا طبيًا تروي احتجاز الطواقم الطبية، وروايتها عن إطلاق النار على بعض المفرَج عنهم (كما تذكر)، وعدم معرفتها بمكان زوجها بعد اعتقاله، وتختتم بمناشدة جهات إنسانية والعالم."
+    },
+    "segments": [
+        {
+            "segment_id": "Narrative08_seg01",
+            "start_time": 0.0,
+            "end_time": 17.02,
+            "text_ar": "أنا حكيمة كنت هِنا في مستشفى الشفاء، وزوجي كان لابس هاي البلوزة... كنا كلنا متطوعين في خدمة شعبنا، خدمة ابنائنا، نساعد الجرحى ونساعد المرضى.",
+            "text_en": "I am a senior nurse (hakima). I was here at Al-Shifa Hospital, and my husband was wearing this uniform… we were all volunteers serving our people—serving our children—helping the wounded and helping patients.",
+            "event_frame": {
+                "adversity_description": "Medical work carried out under extreme insecurity in a hospital setting during crisis conditions.",
+                "response_description": "The speaker foregrounds professional duty and humanitarian identity ('serving our people') as a stable self-definition while recounting harm and loss."
+            },
+            "affective_signals": {
+                "affect_type": "professional_identity_assertion",
+                "justification": "She introduces herself through role and service, using work-as-duty language before moving into the traumatic sequence."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "هاي",
+                        "meaning_en": "This (spoken demonstrative).",
+                        "note": "Common spoken Palestinian Arabic form used in Gaza discourse."
+                    }
+                ],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "حكيمة",
+                        "meaning_en": "Senior nurse / experienced nurse (Gazan usage).",
+                        "note": "Local occupational term; functions as a status-and-skill identity marker."
+                    },
+                    {
+                        "marker": "البلوزة",
+                        "meaning_en": "Medical uniform top / scrubs top.",
+                        "note": "Held as physical evidence of medical identity and non-combatant professional role."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "Topic break / interrupted speech",
+                        "meaning_en": "Abrupt shift mid-sentence while narrating.",
+                        "note": "Signals cognitive load and difficulty continuing a traumatic account."
+                    }
+                ],
+                "protected_status_markers": [
+                    {
+                        "status_type": "medical_staff",
+                        "evidence_ar": "أنا حكيمة... نساعد الجرحى ونساعد المرضى",
+                        "note_en": "Speaker asserts a medical-care role, positioning self and colleagues as healthcare workers."
+                    },
+                    {
+                        "status_type": "patient",
+                        "evidence_ar": "نساعد المرضى",
+                        "note_en": "Explicit reference to patients as the care recipients, reinforcing medical-civilian context."
+                    }
+                ],
+                "humiliation_markers": []
+            },
+            "resilience_functions": [
+                "professional_ethos_assertion",
+                "protected_status_assertion",
+                "meaning_making_under_loss"
+            ]
+        },
+        {
+            "segment_id": "Narrative08_seg02",
+            "start_time": 17.02,
+            "end_time": 32.92,
+            "text_ar": "وكمان برضو بيتنا احنا انهدم، وراح بيتنا، واحنا أقمنا هنا نزوح في مستشفى الشفاء. هادي كانت بلوزته لابسها قبل ما هم يعتقلوه. هم نزلونا كده من المبنى التخصصي.",
+            "text_en": "Also, our house was destroyed—our home is gone—and we stayed displaced here in Al-Shifa Hospital. This was the uniform he wore before they detained him. They brought us down like this from the specialized building.",
+            "event_frame": {
+                "adversity_description": "Loss of home (destruction) followed by displacement into a hospital space and subsequent detention of medical staff (as narrated).",
+                "response_description": "The speaker constructs a sequence of cumulative loss (home → displacement → detention), using the uniform as a continuity anchor and evidence marker."
+            },
+            "affective_signals": {
+                "affect_type": "grief_sadness",
+                "justification": "Home-loss is stated as a major rupture ('home is gone') before moving to detention; the narrative pace suggests heavy emotional load."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "برضو",
+                        "meaning_en": "Also / as well.",
+                        "note": "Common Gaza spoken connective used to accumulate events."
+                    },
+                    {
+                        "marker": "راح بيتنا",
+                        "meaning_en": "Our home is gone (colloquial: completely lost/destroyed).",
+                        "note": "Everyday Gaza phrasing for total home loss; not merely relocation."
+                    },
+                    {
+                        "marker": "هادي",
+                        "meaning_en": "This (feminine demonstrative).",
+                        "note": "Spoken form used while pointing/holding an item."
+                    },
+                    {
+                        "marker": "كده",
+                        "meaning_en": "Like this / in this manner (colloquial).",
+                        "note": "Indexes immediacy and embodied recall of how they were moved."
+                    }
+                ],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "نزوح",
+                        "meaning_en": "Forced displacement.",
+                        "note": "Key crisis-context term used to frame the hospital as shelter."
+                    },
+                    {
+                        "marker": "المبنى التخصصي",
+                        "meaning_en": "Specialized building (hospital block).",
+                        "note": "Place anchor; supports spatial grounding of the account."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "Cumulative listing",
+                        "meaning_en": "Stacking losses in sequence (home → displacement → detention).",
+                        "note": "A discourse pattern that conveys escalation without needing intensity scales."
+                    }
+                ],
+                "protected_status_markers": [
+                    {
+                        "status_type": "medical_staff",
+                        "evidence_ar": "بلوزته... قبل ما هم يعتقلوه",
+                        "note_en": "Uniform referenced as proof-of-role while describing detention."
+                    }
+                ],
+                "humiliation_markers": []
+            },
+            "resilience_functions": [
+                "meaning_making_under_loss",
+                "witness_positioning"
+            ]
+        },
+        {
+            "segment_id": "Narrative08_seg03",
+            "start_time": 32.92,
+            "end_time": 68.72,
+            "text_ar": "نزلونا احنا كادر طبي خمسين واحد... أخدوا منا خمسة وتلاتين ورجعوا خمسطعش. والخمسطعش اللي رجعوهم قدام عيني طلعوا أربعة وطخوهم بعد... بعد ما أفرجوا عنهم.",
+            "text_en": "They brought us down—fifty medical staff. They took thirty-five and returned fifteen. And those fifteen they returned—right in front of my eyes—they brought four out and shot them after… after they had released them.",
+            "event_frame": {
+                "adversity_description": "Detention and selection of medical staff (counts reported by the speaker), and a report of lethal harm to some individuals after an apparent release (as narrated).",
+                "response_description": "Eyewitness positioning ('in front of my eyes') and stuttered temporal sequencing ('after… after') function as credibility/processing strategies while describing a rapidly shifting danger landscape."
+            },
+            "affective_signals": {
+                "affect_type": "shock",
+                "justification": "Repetition and disrupted timing ('after… after') alongside precise counts is consistent with stunned processing during testimony."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "خمسطعش",
+                        "meaning_en": "Fifteen (Gaza spoken form).",
+                        "note": "Dialectal numeral form; useful for dialect-preserving modeling."
+                    },
+                    {
+                        "marker": "طخوهم",
+                        "meaning_en": "Shot them (colloquial).",
+                        "note": "Levantine/Gazan verb for shooting; high-salience crisis verb."
+                    }
+                ],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "كادر طبي",
+                        "meaning_en": "Medical staff cadre.",
+                        "note": "Explicit protected-role assertion and institutional identity marker."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "قدام عيني",
+                        "meaning_en": "In front of my eyes (direct witnessing).",
+                        "note": "Direct witness marker; anchors account as primary observation."
+                    },
+                    {
+                        "marker": "Repetition (بعد... بعد)",
+                        "meaning_en": "Stuttered repetition while narrating time order.",
+                        "note": "A processing marker during traumatic recall; supports event sequencing analysis."
+                    }
+                ],
+                "protected_status_markers": [
+                    {
+                        "status_type": "medical_staff",
+                        "evidence_ar": "نزلونا احنا كادر طبي خمسين واحد",
+                        "note_en": "Speaker explicitly identifies the detained group as medical staff."
+                    }
+                ],
+                "humiliation_markers": []
+            },
+            "resilience_functions": [
+                "witness_positioning",
+                "protected_status_assertion",
+                "meaning_making_under_loss"
+            ]
+        },
+        {
+            "segment_id": "Narrative08_seg04",
+            "start_time": 68.72,
+            "end_time": 85.28,
+            "text_ar": "هذه كمان كانت لزوجي... زوجي عبد العزيز كالي أبو مصطفى ضابط مسعف في الخدمات الطبية العسكرية. أخدوه واعتقلوه. ما بعرف وين هلقيت بلاده. ما بعرف عنه حاجة.",
+            "text_en": "This also belonged to my husband… my husband Abd al-Aziz Kaly (Abu Mustafa), a paramedic officer in military medical services. They took him and detained him. I don’t know where his whereabouts are now. I know nothing about him.",
+            "event_frame": {
+                "adversity_description": "Detention and ongoing lack of information about the husband’s whereabouts (as narrated).",
+                "response_description": "Idiomatic uncertainty ('where are his lands/whereabouts') frames enforced absence as total loss of trace; professional title is used to reaffirm role and identity."
+            },
+            "affective_signals": {
+                "affect_type": "fear_anxiety",
+                "justification": "Repeated 'I don’t know' and absence of information about a close family member signals sustained fear and uncertainty."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "هلقيت",
+                        "meaning_en": "Now / at the moment.",
+                        "note": "Gazan/Levantine time marker."
+                    },
+                    {
+                        "marker": "وين بلاده",
+                        "meaning_en": "Where is he / what are his whereabouts? (idiom).",
+                        "note": "Northern Gaza idiom indicating total loss of contact/trace."
+                    }
+                ],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "ضابط مسعف",
+                        "meaning_en": "Paramedic officer.",
+                        "note": "Role title supporting protected-status assertion (medical function)."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "Identity anchoring via role",
+                        "meaning_en": "Naming the role to stabilize meaning.",
+                        "note": "A discourse strategy: identity persists even when the person is missing."
+                    }
+                ],
+                "protected_status_markers": [
+                    {
+                        "status_type": "medical_staff",
+                        "evidence_ar": "ضابط مسعف في الخدمات الطبية",
+                        "note_en": "Speaker foregrounds the husband’s medical function as the key identity dimension."
+                    },
+                    {
+                        "status_type": "detainee",
+                        "evidence_ar": "أخدوه واعتقلوه",
+                        "note_en": "Detention marker framing the husband as a detainee with unknown location."
+                    }
+                ],
+                "humiliation_markers": []
+            },
+            "resilience_functions": [
+                "protected_status_assertion",
+                "public_appeal",
+                "meaning_making_under_loss"
+            ]
+        },
+        {
+            "segment_id": "Narrative08_seg05",
+            "start_time": 85.28,
+            "end_time": 110.42,
+            "text_ar": "وهم لما أخدوه شلحوهم كل أواعيهم. وين حقوق العالم؟ وين حقوقنا احنا؟ احنا بنخدم الناس، ليش بتئزونا؟ احنا أشّو أشّو احنا جريمتنا؟",
+            "text_en": "And when they took him, they stripped them of all their clothes. Where are the world’s rights? Where are our rights? We serve people—why are you harming us? What… what is our crime?",
+            "event_frame": {
+                "adversity_description": "Reported forced stripping and degradation during detention (as narrated), alongside perceived denial of basic rights.",
+                "response_description": "Rhetorical questioning frames harm as unjustifiable; service-to-people is invoked as moral boundary and legitimacy claim."
+            },
+            "affective_signals": {
+                "affect_type": "anger_indignation",
+                "justification": "Repeated moral questioning ('what is our crime?') and rights-language indicates indignation and protest."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "بتئزونا",
+                        "meaning_en": "You are harming/abusing us (dialectal pronunciation).",
+                        "note": "Gazan spoken form; often used as a plea highlighting innocence."
+                    },
+                    {
+                        "marker": "أشّو",
+                        "meaning_en": "What? (Northern Gaza variant).",
+                        "note": "Repetition ('أشّو أشّو') can mark distress and speech breakdown."
+                    },
+                    {
+                        "marker": "أواعيهم",
+                        "meaning_en": "Their clothes (colloquial).",
+                        "note": "Spoken plural clothing term used in Gaza."
+                    }
+                ],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "وين حقوق العالم؟",
+                        "meaning_en": "Where are the world’s rights? (rights-language appeal).",
+                        "note": "Positions the plea in a global moral register without making legal determinations."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "Rhetorical questions",
+                        "meaning_en": "Questions used to challenge justification and assert innocence.",
+                        "note": "A stable discourse pattern for moral boundary-setting under adversity."
+                    }
+                ],
+                "protected_status_markers": [
+                    {
+                        "status_type": "medical_staff",
+                        "evidence_ar": "احنا بنخدم الناس",
+                        "note_en": "Service-to-people frames the group as care providers and non-combatants."
+                    }
+                ],
+                "humiliation_markers": [
+                    {
+                        "type": "forced_stripping",
+                        "evidence_ar": "شلحوهم كل أواعيهم",
+                        "note_en": "Forced stripping as narrated; framed as a dignity-violating humiliation practice."
+                    }
+                ]
+            },
+            "resilience_functions": [
+                "moral_boundary_setting",
+                "professional_ethos_assertion",
+                "assertion_of_innocence"
+            ]
+        },
+        {
+            "segment_id": "Narrative08_seg06",
+            "start_time": 110.42,
+            "end_time": 133.52,
+            "text_ar": "يا ريت أنا بطالب الصليب الأحمر، بطالب الدول كلها، بطالب كل دول العالم: عرّفوني وين زوجي راح؟! وإيش جريمته؟ ... وين العالم؟ وين الناس؟ وين الأمة؟ اصحوا يا أمة، اصحوا يا عالم، اصحوا يا ناس.",
+            "text_en": "I appeal to the Red Cross, to all countries, to the whole world: tell me where my husband went! And what is his crime? … Where is the world? Where are people? Where is the Ummah? Wake up, Ummah—wake up, world—wake up, people.",
+            "event_frame": {
+                "adversity_description": "Ongoing uncertainty about the husband’s fate and perceived abandonment by institutions and wider publics.",
+                "response_description": "Escalation from information-seeking to collective awakening appeal; the repeated imperatives function as endurance-through-address (speaking outward when nothing else is available)."
+            },
+            "affective_signals": {
+                "affect_type": "exhaustion_overwhelm",
+                "justification": "Repetitive calls ('wake up') and shift from details to broad address indicate reaching the limits of endurance."
+            },
+            "contextual_markers": {
+                "dialect_markers": [],
+                "religious_markers": [
+                    {
+                        "marker": "الأمة",
+                        "meaning_en": "Ummah (the broader Muslim community).",
+                        "note": "Invoking the Ummah frames the appeal as kinship-based collective responsibility."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "الصليب الأحمر",
+                        "meaning_en": "Red Cross (humanitarian body).",
+                        "note": "Institutional appeal marker used as a legitimacy-seeking strategy."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "اصحوا (imperative repetition)",
+                        "meaning_en": "Wake up (repeated command as plea).",
+                        "note": "A discourse pattern of public appeal and collective address under extreme powerlessness."
+                    }
+                ],
+                "protected_status_markers": [
+                    {
+                        "status_type": "detainee",
+                        "evidence_ar": "عرّفوني وين زوجي راح",
+                        "note_en": "Information-seeking about a detainee/missing person framed as unknown whereabouts."
+                    }
+                ],
+                "humiliation_markers": []
+            },
+            "resilience_functions": [
+                "public_appeal",
+                "collective_identity_invocation",
+                "meaning_making_under_loss"
+            ]
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "حكيمة": {
+                "meaning_en": "Senior nurse / experienced nurse (Gaza usage).",
+                "variants_ar": [
+                    "ممرضة",
+                    "ممرضة متمرسة",
+                    "مُمرِّضة"
+                ],
+                "gloss_note": "Often used in Gaza to denote a skilled/experienced nurse."
+            },
+            "البلوزة": {
+                "meaning_en": "Medical uniform top / scrubs top (upper garment).",
+                "variants_ar": [
+                    "زي طبي",
+                    "قميص",
+                    "بلوزة التمريض"
+                ],
+                "gloss_note": "In this narrative, it functions as an identity/proof object."
+            },
+            "راحت بيتنا / راح بيتنا": {
+                "meaning_en": "Our home is gone (destroyed / lost completely).",
+                "variants_ar": [
+                    "انهدم بيتنا",
+                    "تدمر بيتنا",
+                    "خسرنا بيتنا"
+                ],
+                "gloss_note": "Colloquial Gaza phrasing for total home loss."
+            },
+            "نزوح": {
+                "meaning_en": "Forced displacement.",
+                "variants_ar": [
+                    "تهجير",
+                    "تشريد"
+                ],
+                "gloss_note": "Crisis key term indicating moving without choice to seek shelter."
+            },
+            "كادر طبي": {
+                "meaning_en": "Medical staff cadre / healthcare personnel.",
+                "variants_ar": [
+                    "طاقم طبي",
+                    "كوادر طبية",
+                    "أعضاء الطواقم الطبية"
+                ],
+                "gloss_note": "Strong protected-status assertion marker."
+            },
+            "خمسطعش": {
+                "meaning_en": "Fifteen (dialectal numeral form).",
+                "variants_ar": [
+                    "خمسة عشر",
+                    "15",
+                    "١٥"
+                ],
+                "gloss_note": "Useful for dialect-preserving ASR/LLM alignment."
+            },
+            "قدام عيني": {
+                "meaning_en": "In front of my eyes (direct witnessing).",
+                "variants_ar": [
+                    "أمام عيني",
+                    "أمام عيني مباشرة",
+                    "شفت بعيني"
+                ],
+                "gloss_note": "Eyewitness positioning marker."
+            },
+            "طخوهم": {
+                "meaning_en": "Shot them (colloquial).",
+                "variants_ar": [
+                    "أطلقوا النار عليهم",
+                    "اعدموهم بالرصاص",
+                    "قتلوهم بالرصاص"
+                ],
+                "gloss_note": "High-salience violence verb in Gaza oral narratives."
+            },
+            "هلقيت": {
+                "meaning_en": "Now / at the moment.",
+                "variants_ar": [
+                    "هلأ",
+                    "الآن",
+                    "هسا",
+                    "هالحين",
+                    "هسة"
+                ],
+                "gloss_note": "Time marker common in Gaza/Levant speech."
+            },
+            "وين بلاده": {
+                "meaning_en": "Where is he? / Where are his whereabouts? (idiom: loss of trace).",
+                "variants_ar": [
+                    "أين هو",
+                    "وينه",
+                    "وين مكانه",
+                    "وين راح",
+                    "وين أراضيه"
+                ],
+                "gloss_note": "Northern Gaza idiom used for missing/detained people."
+            },
+            "شلحوهم": {
+                "meaning_en": "They forcibly stripped them of clothes (forced undressing).",
+                "variants_ar": [
+                    "جردوهم من الملابس",
+                    "عرّوهم",
+                    "خلعوهم"
+                ],
+                "gloss_note": "Humiliation marker with strong cultural/religious dignity implications."
+            },
+            "أواعيهم": {
+                "meaning_en": "Their clothes (colloquial).",
+                "variants_ar": [
+                    "ملابسهم",
+                    "هدومهم"
+                ],
+                "gloss_note": "Spoken plural clothing term."
+            },
+            "بتئزونا": {
+                "meaning_en": "You are harming/abusing us (dialectal).",
+                "variants_ar": [
+                    "تؤذوننا",
+                    "تضروننا",
+                    "بتأذونا"
+                ],
+                "gloss_note": "Often used as innocence/plea language."
+            },
+            "أشّو": {
+                "meaning_en": "What? (Northern Gaza variant of 'shu/eish').",
+                "variants_ar": [
+                    "شو",
+                    "إيش",
+                    "ماذا"
+                ],
+                "gloss_note": "Repetition (أشّو أشّو) can mark distress and speech disruption."
+            },
+            "الأمة": {
+                "meaning_en": "Ummah (broader Muslim community).",
+                "variants_ar": [
+                    "أمة الإسلام",
+                    "المسلمين"
+                ],
+                "gloss_note": "Collective identity invocation used in appeals."
+            },
+            "اصحوا": {
+                "meaning_en": "Wake up (imperative plea).",
+                "variants_ar": [
+                    "استيقظوا",
+                    "قوموا",
+                    "أفيقوا"
+                ],
+                "gloss_note": "Repetitive imperative used for collective awakening appeals."
+            }
+        }
+    },
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "none_needed",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "n/a",
+        "contains_real_names": null,
+        "notes": "No replacements were required under the current manifest; this copy mirrors the source folder. Public-release bundle: reversibility metadata stripped for GitHub."
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

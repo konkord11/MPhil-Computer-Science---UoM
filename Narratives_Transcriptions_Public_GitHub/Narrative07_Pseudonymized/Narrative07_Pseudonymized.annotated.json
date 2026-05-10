@@ -1,0 +1,267 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative07_Pseudonymized",
+    "source_meta": {
+        "source_cluster_id": "SC07_GazaSurvivors_FamilyB",
+        "source_type": "video_transcription",
+        "source_platform": "Video_Interview",
+        "original_author": "Journalist's Archive (standard use only)",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (Gaza Strip; mixed urban realizations with phonological variation)",
+        "collection_context_en": "A young girl recounts the death of her father and multiple family members, describing what she witnessed and her longing to see her father again. The testimony includes crying and a prolonged silence.",
+        "collection_context_ar": "طفلة تروي استشهاد والدها وعدد من أفراد عائلتها، وتصف ما رأته بعينيها وشوقها الشديد لوالدها. تتخلل الرواية لحظات صمت وبكاء."
+    },
+    "speaker_profile": {
+        "gender": "female",
+        "age_estimate": "child",
+        "origin": "Gaza Strip (exact locality not disclosed for anonymization)"
+    },
+    "approx_context": {
+        "location": "Gaza Strip (Rafah referenced)",
+        "brief_summary_en": "A child describes losing her father and multiple relatives, focusing on her longing to see her father and the loss of the household’s main provider, followed by crying and silence.",
+        "brief_summary_ar": "طفلة تصف فقدان والدها وعددًا كبيرًا من أقاربها، وتتمحور روايتها حول شوقها لرؤية والدها وفقدان سند البيت، ثم تنتهي بصمت وبكاء."
+    },
+    "segments": [
+        {
+            "segment_id": "Narrative07_seg01",
+            "start_time": 0.0,
+            "end_time": 12.86,
+            "text_ar": "بدي أقلك اشي واحد يا عمو، أنا أبويا است.. مات من رفح من يوم الاتنين اللي فات فات. أنا كنت... نفسي أشوفه بس، وهو كان نفسه يشوفنا.",
+            "text_en": "I want to tell you one thing, uncle: my father… died in Rafah last Monday. I just wanted to see him, and he also wanted to see us.",
+            "event_frame": {
+                "adversity_description": "Recent death of the father (Rafah referenced), with unfulfilled mutual desire for a final reunion.",
+                "response_description": "Direct expression of longing and loss, with hesitation consistent with emotional overload."
+            },
+            "affective_signals": {
+                "affect_type": "grief_sadness",
+                "justification": "The speaker repeatedly expresses longing to see her father, with noticeable hesitation and broken phrasing."
+            },
+            "contextual_markers": {
+                "discourse_markers": [
+                    {
+                        "marker": "Hesitation / cut-off speech",
+                        "note": "Interrupted phrasing (است.. مات) and pauses indicate difficulty continuing."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative07_seg02",
+            "start_time": 13.58,
+            "end_time": 21.76,
+            "text_ar": "وأنا شفت قدّام عيني إخواتي وهو مرميّين ع الأرض. لأنه أنا شفتهم إخواتي بس كان نفسي أشوف أبويا.",
+            "text_en": "I saw, right in front of me, my siblings and him lying on the ground. I saw my siblings, but I still wished I could see my father.",
+            "event_frame": {
+                "adversity_description": "Witnessing close family members lying on the ground in the immediate aftermath of genocide.",
+                "response_description": "Fragmented recounting with pronoun confusion while prioritising longing for the father."
+            },
+            "affective_signals": {
+                "affect_type": "shock",
+                "justification": "Graphic witnessing combined with disorganised phrasing and repeated ‘I saw’ signals acute shock."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "قدّام",
+                        "note": "Often realised with glottal stop (Hamza instead of Qaf) in some Gaza female speech; common spoken form."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "Pronoun drift",
+                        "note": "‘هو مرميّين’ reflects speech disruption under distress (not corrected to preserve verbatim authenticity)."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative07_seg03",
+            "start_time": 22.74,
+            "end_time": 32.58,
+            "text_ar": "راح من عنا عشر شُهَدا. وكان نفسي أشوف بالزات أبويا. هو اللي كان يصرف علينا، هو كان كل البيت.",
+            "text_en": "We lost ten martyrs from our family. And I especially wished I could see my father. He was the one who provided for us—he was the whole house.",
+            "event_frame": {
+                "adversity_description": "Large-scale family loss (ten deaths) and the loss of the household’s primary provider.",
+                "response_description": "Meaning-making through framing the father as the household’s core support and safety."
+            },
+            "affective_signals": {
+                "affect_type": "grief_sadness",
+                "justification": "The father is described as ‘the whole house,’ indicating attachment, safety, and profound loss."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "بالزات",
+                        "note": "Colloquial form of 'بالذات' (especially)."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "شُهَدا / استشهد",
+                        "note": "Common religious-communal framing for war death in Gaza narratives."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative07_seg04",
+            "start_time": 32.58,
+            "end_time": 46.05,
+            "text_ar": "كان كلهم يقولوا: فش إلا ضل [اسم محذوف لأسباب تتعلق بإغفاء الهوية]، بس يخلص الحرب إحنا بنشوفه، وهي ربنا أخده. بس نفسي كان أشوفه.",
+            "text_en": "They used to say: ‘No one is left except No one is left except [Name redacted for anonymization]; once the war ends, we’ll see him.’ But then Allah took him. I still just wanted to see him.",
+            "event_frame": {
+                "adversity_description": "Loss of the remaining hoped-for family member after expectations of reunion post-war.",
+                "response_description": "Hope is expressed and then collapses, framed through religious language (‘Allah took him’) - meaning that he died later."
+            },
+            "affective_signals": {
+                "affect_type": "despair_hopelessness",
+                "justification": "The sequence of anticipated reunion followed by loss signals collapse of hope."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "ربنا أخده",
+                        "note": "Religious framing of death (Allah’s decree), often used for endurance amid loss."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "فش",
+                        "note": "Spoken Gaza form meaning 'there is no'."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative07_seg05",
+            "start_time": 51.96,
+            "end_time": 61.34,
+            "text_ar": "الصحفي: يعني انتي أبوكي استشهد؟\nالبنت: آه، وإخواتي وأعمامي وعمتي وابن عمتي كلهم استشهدوا. فش النا أي حدّا في الضار.",
+            "text_en": "Journalist: So your father was martyred?\nGirl: Yes—and my siblings, my uncles, my aunt, and my cousin all were martyred. We have no one left in the house.",
+            "event_frame": {
+                "adversity_description": "Confirmation of multiple family deaths and perceived total family disappearance from the home.",
+                "response_description": "Direct confirmation, using cumulative listing to convey scale of loss."
+            },
+            "affective_signals": {
+                "affect_type": "exhaustion_overwhelm",
+                "justification": "Listing many losses in a single breath reflects overwhelm and emotional saturation."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "الضار",
+                        "note": "Colloquial form of الدار/البيت."
+                    },
+                    {
+                        "marker": "فش النا",
+                        "note": "Spoken structure expressing total absence of support."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative07_seg06",
+            "start_time": 63.32,
+            "end_time": 72.22,
+            "text_ar": "الصحفي: انتي عند مين عايشة هلقيت؟\nالبنت: أنا عند أهلي، عند إمي وأخويا. جوز أختي استشهد، وهي أختي عنا برضو، وأولادها كلهم مصّاوبين.",
+            "text_en": "Journalist: Who are you living with now? Girl: I’m with my family—with my mother and my brother. My sister’s husband was martyred, my sister is with us too, and all her children are injured.",
+            "event_frame": {
+                "adversity_description": "Disrupted living situation and continued injuries within the extended family network.",
+                "response_description": "Shifts to current survival arrangements and caregiving burden."
+            },
+            "affective_signals": {
+                "affect_type": "fear_anxiety",
+                "justification": "Ongoing uncertainty about living arrangements and injured children indicates sustained anxiety."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "هلقيت",
+                        "note": "Spoken Palestinian form meaning 'now'."
+                    },
+                    {
+                        "marker": "مصّاوبين",
+                        "note": "Colloquial form meaning 'injured' (standard: مصابين)."
+                    },
+                    {
+                        "marker": "برضو",
+                        "note": "Common spoken term meaning 'also'."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative07_seg07",
+            "start_time": 72.22,
+            "end_time": 75.3,
+            "text_ar": "ثم صمتت الفتاة وأجهشت بالبكاء.",
+            "text_en": "Then the girl fell silent and burst into tears.",
+            "event_frame": {
+                "adversity_description": "Emotional collapse during testimony.",
+                "response_description": "Silence and crying function as non-verbal expression when speech becomes impossible."
+            },
+            "affective_signals": {
+                "affect_type": "grief_sadness",
+                "justification": "Prolonged silence and sobbing indicate intense grief beyond verbal expression."
+            },
+            "contextual_markers": {
+                "discourse_markers": [
+                    {
+                        "marker": "Traumatic silence",
+                        "note": "Silence occurring at a peak of emotional load."
+                    },
+                    {
+                        "marker": "Speech termination",
+                        "note": "Narrative ends without verbal closure, replaced by crying."
+                    },
+                    {
+                        "marker": "Crying / sobbing",
+                        "note": "Audible crying as a paralinguistic marker of grief."
+                    }
+                ]
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "بالزات": [
+                "بالذات"
+            ],
+            "الضار": [
+                "الدار",
+                "البيت"
+            ],
+            "فش": [
+                "لا يوجد"
+            ],
+            "هلقيت": [
+                "الآن",
+                "حالياً"
+            ],
+            "مصّاوبين": [
+                "مصابين",
+                "متصاوبين"
+            ],
+            "إخواتي": [
+                "إخوتي"
+            ]
+        }
+    },
+    "quality_flags": [
+        "child_speech",
+        "high_disfluency",
+        "contains_crying_and_silence"
+    ],
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "none_needed",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "n/a",
+        "contains_real_names": null,
+        "notes": "No replacements were required under the current manifest; this copy mirrors the source folder. Public-release bundle: reversibility metadata stripped for GitHub."
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}
