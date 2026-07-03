@@ -16,7 +16,7 @@
         "strategy": "name_replacement_pool",
         "replacement_scope": "within_dataset_consistent",
         "contains_real_names": false,
-        "notes": "Pseudonymised public-release bundle. Internal reversibility metadata was removed for GitHub. Pool: Gaza_NamePool_v1.",
+        "notes": "Person names and identifying tokens in this tree are replaced using Gaza_NamePool_v1 with dataset-consistent mappings. Original strings are retained only in Narratives_Transcriptions. Follow Project_Research_Documentation/protocols/mphil_uom_ethics_and_governance.txt for storage, consent scope, and thesis use. Public-release bundle: reversibility metadata stripped for GitHub.",
         "pool_id": "Gaza_NamePool_v1"
     },
     "annotation_meta": {
@@ -358,6 +358,7 @@
             }
         }
     },
+    "text_en_full": "I told her: “This bombing is far.” Then when I looked over there, I found the fire blazing in the tent next to me, and the next one, and the next one… all these tents are burning. Ah… we started carrying the children and moving them to a safer place, fleeing so they wouldn’t catch fire… I looked—like this—and I found her (my daughter) lying at the tent entrance, her eyes fixed… and her mouth open. We started shouting: “Hanaa, Hanaa…” “Help me, people—help me…” “My daughter, my daughter, my daughter… she’s unconscious… here she is… she’s dead.” People started running… everyone wanted to flee… it spread through the whole camp… everyone is over there at the hospital… an entire block was swept by it.",
     "public_release": {
         "intended_use": "public_github",
         "reversibility_in_bundle": false

@@ -1,0 +1,294 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative05A_Pseudonymized",
+    "source_meta": {
+        "source_cluster_id": "SC05_FBWrittenTestimony_Archive",
+        "source_type": "text",
+        "source_platform": "Facebook",
+        "original_author": "Archive contributor (pseudonymised)",
+        "original_language": "ar",
+        "dialect": "Palestinian (Northern Gaza – Beit Lahia, Lahwani)",
+        "collection_context_en": "Multi-episode written testimony posted on Facebook during the War on Gaza (Al-Aqsa Flood period). Independent SABR narrative from a multi-part Facebook written testimony (War on Gaza). Six sub-narratives (Narrative05A–F) share one original post; each is processed separately.",
+        "collection_context_ar": "شهادة مكتوبة متعددة المقاطع نُشرت على فيسبوك خلال حرب غزة (فترة طوفان الأقصى). رواية SABR مستقلة من شهادة مكتوبة متعددة المقاطع على فيسبوك (حرب غزة). ست روايات فرعية (Narrative05A–F) من منشور واحد؛ تُعالَج كل منها على حدة.",
+        "fb_post_cluster": "Narrative05_FacebookFragments",
+        "fb_fragment_letter": "A"
+    },
+    "speaker_profile": {
+        "gender": "male",
+        "age_estimate": "adult",
+        "origin": "Beit Lahia, Northern Gaza"
+    },
+    "approx_context": {
+        "location": "Al-Amal School, Beit Lahia, Northern Gaza",
+        "brief_summary_en": "A first-person written account describing the siege of Al-Amal School, where Karim al-Nabulsi (23) was shot by an Israeli sniper, bled to death without medical aid, and was buried inside the school due to the impossibility of evacuation.",
+        "brief_summary_ar": "رواية مكتوبة بضمير المتكلم تصف حصار مدرسة الأمل، حيث أُصيب كريم النابلسي (23 عامًا) برصاص قنّاص إسرائيلي، ونزف حتى الاستشهاد دون إسعاف، ودُفن داخل المدرسة بسبب استحالة الخروج."
+    },
+    "segments": [
+        {
+            "segment_id": "Narrative05A_seg01",
+            "span_index": 1,
+            "text_ar": "قبل سنتين كنا محاصَرين في مدرسة الأمل، كنا مشتهين شربة ميّة، وكنا نستنى اليوم الكامل لما نفوت الحمّام.",
+            "text_en": "Two years ago, we were besieged inside Al-Amal School. We were craving even a sip of water, and we would wait an entire day just to be allowed to use the bathroom.",
+            "event_frame": {
+                "adversity_description": "Severe deprivation of water and sanitation during a prolonged military siege of a civilian shelter.",
+                "response_description": "Matter-of-fact narration of bodily deprivation as a normalized condition under siege."
+            },
+            "affective_signals": {
+                "affect_type": "physical_exhaustion",
+                "justification": "Focus on thirst and basic bodily needs reflects extreme physical depletion under prolonged confinement."
+            },
+            "contextual_markers": {
+                "cultural_markers": [
+                    {
+                        "marker": "مدرسة الأمل",
+                        "note": "A civilian school repurposed as a shelter during bombardment."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "Temporal anchoring (قبل سنتين)",
+                        "note": "Positions the trauma as persistent and enduring in memory."
+                    }
+                ]
+            },
+            "sabr_frame": {
+                "sabr_type": "siege_deprivation_of_basic_needs",
+                "features": [
+                    "water_deprivation",
+                    "sanitation_control",
+                    "school_shelter_siege",
+                    "bodily_exhaustion"
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative05A_seg02",
+            "span_index": 2,
+            "text_ar": "القنّاص طخ كريم وهو متحاصر معنا في بركس المدرسة، وضلّ ينزف لحد ما استشهد، لأنه ما كان حد يقدر يتحرّك من مكانه.",
+            "text_en": "A sniper shot Karim while he was besieged with us inside the school barracks. He kept bleeding until he was martyred, because no one was able to move from their place.",
+            "event_frame": {
+                "adversity_description": "Sniper violence combined with enforced immobility and the absence of medical aid.",
+                "response_description": "Witnessing death under total helplessness."
+            },
+            "affective_signals": {
+                "affect_type": "helplessness_horror",
+                "justification": "The inability to intervene or provide aid intensifies the traumatic impact."
+            },
+            "contextual_markers": {
+                "cultural_markers": [
+                    {
+                        "marker": "بركس المدرسة",
+                        "note": "Zinc-sheet structure indicating extreme physical vulnerability."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "استشهد",
+                        "note": "Islamic framing of death as Shahada (martyrdom), providing moral and spiritual meaning."
+                    }
+                ]
+            },
+            "sabr_frame": {
+                "sabr_type": "helpless_witnessing_of_sniper_death",
+                "features": [
+                    "sniper_shooting",
+                    "bleeding_without_aid",
+                    "forced_immobility",
+                    "martyrdom_frame"
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative05A_seg03",
+            "span_index": 3,
+            "text_ar": "ضلّ كريم مرمي جنبنا، ونِمنا وصحينا وهو نايم جنبنا. تخيّل تصحى الصبح وشهيد نايم جنبك.",
+            "text_en": "Karim remained lying beside us. We slept and woke up with him still next to us. Imagine waking up in the morning with a martyr lying beside you.",
+            "event_frame": {
+                "adversity_description": "Forced coexistence with the body of a deceased companion due to lethal conditions outside the shelter.",
+                "response_description": "Direct cognitive confrontation with death through physical proximity."
+            },
+            "affective_signals": {
+                "affect_type": "shock_desensitization",
+                "justification": "Normalization of death through sustained proximity reflects trauma saturation."
+            },
+            "contextual_markers": {
+                "discourse_markers": [
+                    {
+                        "marker": "Direct address (تخيّل)",
+                        "note": "Invites the reader into an embodied experience of trauma."
+                    }
+                ]
+            },
+            "sabr_frame": {
+                "sabr_type": "forced_proximity_to_martyr_body",
+                "features": [
+                    "corpse_proximity",
+                    "sleeping_beside_dead",
+                    "trauma_saturation",
+                    "direct_reader_address"
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative05A_seg04",
+            "span_index": 4,
+            "text_ar": "صلّينا عليه، ودفنّاه بنفس المدرسة، لأنه ما كان حد يقدر يطلع برا المدرسة.",
+            "text_en": "We prayed over him and buried him inside the school itself, because no one could leave the school.",
+            "event_frame": {
+                "adversity_description": "Improvised burial conducted under siege conditions and lethal external threat.",
+                "response_description": "Religious ritual enacted as a form of dignity, closure, and moral endurance."
+            },
+            "affective_signals": {
+                "affect_type": "resigned_resilience",
+                "justification": "Performing funeral rites under fire reflects moral endurance rather than recovery."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "صلّينا عليه",
+                        "note": "Islamic funeral prayer (Salat al-Janazah) as a culturally grounded resilience practice."
+                    }
+                ]
+            },
+            "sabr_frame": {
+                "sabr_type": "burial_dignity_under_school_siege",
+                "features": [
+                    "funeral_prayer",
+                    "improvised_burial",
+                    "school_burial",
+                    "ritual_preservation"
+                ]
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "متحاصَرين": {
+                "variants_ar": [
+                    "محاصَرين",
+                    "محبوسين",
+                    "مطوّقين"
+                ],
+                "meaning_en": "Besieged / encircled / trapped.",
+                "note_ar": "يشير إلى الحصار وفقدان القدرة على الحركة."
+            },
+            "مشتهين شربة ميّة": {
+                "variants_ar": [
+                    "عطشانين جدًا",
+                    "بحاجة لميّة",
+                    "ما في ميّة"
+                ],
+                "meaning_en": "Craving a sip of water; extreme thirst.",
+                "note_ar": "تعبير عن حرمان شديد من الماء."
+            },
+            "بركس": {
+                "variants_ar": [
+                    "غرفة من ألواح الزينكو",
+                    "سقيفة",
+                    "مظلّة المدرسة",
+                    "هيكل معدني"
+                ],
+                "meaning_en": "Zinc-sheet barrack/shed or fragile school shelter structure.",
+                "note_ar": "بنية هشة داخل المدرسة/المأوى تزيد الإحساس بالخطر."
+            },
+            "طخ": {
+                "variants_ar": [
+                    "أطلق النار",
+                    "استهدف بالرصاص"
+                ],
+                "meaning_en": "Shot / fired at.",
+                "note_ar": "فعل عامي لإطلاق النار."
+            },
+            "استشهد / شهيد": {
+                "variants_ar": [
+                    "قُتل ظلمًا",
+                    "مات في القصف",
+                    "مات برصاص الاحتلال"
+                ],
+                "meaning_en": "Was martyred / martyr; religious-moral framing of death.",
+                "note_ar": "تأطير ديني-فلسطيني للموت تحت العدوان."
+            },
+            "نِمنا وصحينا": {
+                "variants_ar": [
+                    "بات معنا",
+                    "ضلّ معنا طول الليل"
+                ],
+                "meaning_en": "We slept and woke up; remained through the night.",
+                "note_ar": "يؤكد استمرار قرب الجسد/الحدث على مدى الليل."
+            },
+            "صلّينا عليه": {
+                "variants_ar": [
+                    "أدّينا صلاة الجنازة",
+                    "صلّوا عليه صلاة الميت"
+                ],
+                "meaning_en": "We performed the funeral prayer over him.",
+                "note_ar": "صلاة الجنازة كحفظ للكرامة الدينية."
+            },
+            "دفنّاه": {
+                "variants_ar": [
+                    "واريْناه التراب",
+                    "عملنا له قبر"
+                ],
+                "meaning_en": "We buried him.",
+                "note_ar": "مواراة الميت رغم ظروف الحصار والخطر."
+            }
+        }
+    },
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "name_replacement_pool",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "n/a",
+        "contains_real_names": false,
+        "notes": "Facebook fragment from a six-part post; pseudonymised per Project_Research_Documentation/schemas/fragment_bundle_narrative05.json. Source fragment file: N05A_Karim_TXT_FB.json. Public-release bundle: reversibility metadata stripped for GitHub."
+    },
+    "text_ar_full": "قبل سنتين كنا محاصَرين في مدرسة الأمل، كنا مشتهين شربة ميّة، وكنا نستنى اليوم الكامل لما نفوت الحمّام. القنّاص طخ كريم وهو متحاصر معنا في بركس المدرسة، وضلّ ينزف لحد ما استشهد، لأنه ما كان حد يقدر يتحرّك من مكانه. ضلّ كريم مرمي جنبنا، ونِمنا وصحينا وهو نايم جنبنا. تخيّل تصحى الصبح وشهيد نايم جنبك. صلّينا عليه، ودفنّاه بنفس المدرسة، لأنه ما كان حد يقدر يطلع برا المدرسة.",
+    "text_en_full": "Two years ago, we were besieged inside Al-Amal School. We were craving even a sip of water, and we would wait an entire day just to be allowed to use the bathroom. A sniper shot Karim while he was besieged with us inside the school barracks. He kept bleeding until he was martyred, because no one was able to move from their place. Karim remained lying beside us. We slept and woke up with him still next to us. Imagine waking up in the morning with a martyr lying beside you. We prayed over him and buried him inside the school itself, because no one could leave the school.",
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Gaza dialect, crisis testimony, and SABR annotation conventions."
+            }
+        ],
+        "adjudication": {
+            "status": "schema_normalized_ready_for_review",
+            "note": "Updated to ensure full Arabic and English narrative texts, SABR frames, structured lexicon, and v1.2-compatible fields."
+        },
+        "alignment_note": "Written testimony segments do not include timestamps unless present in the source. Segment order is preserved from the input JSON.",
+        "selection_policy": "All existing segments/spans are preserved as annotatable units. Full Arabic and English texts are generated from ordered units if absent.",
+        "schema_update_note": "This file was updated to include text_ar_full, text_en_full, SABR frames for all annotatable units, and structured lexicon_hints.",
+        "fb_post_sub_narrative": "Narrative05A",
+        "source_fragment_file": "N05A_Karim_TXT_FB.json"
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "school_siege_sniper_death_burial_dignity",
+        "paper_fit_ar": "تُظهر هذه الرواية كيف يتحول المأوى المدرسي إلى مكان حصار وموت ودفن اضطراري. يتجلى الصمود في أداء صلاة الجنازة ودفن الشهيد داخل المدرسة رغم انعدام القدرة على الخروج.",
+        "paper_fit_en": "This narrative shows a school shelter becoming a site of siege, death, and improvised burial. Resilience is expressed through preserving funeral prayer and burial dignity despite confinement and lethal threat."
+    },
+    "ethical_note": {
+        "risk_level": "high_sensitivity_sniper_death_burial_in_school",
+        "notes": [
+            "Contains death by sniper fire, inability to provide aid, proximity to a body, and improvised burial.",
+            "Names are pseudonymized according to the uploaded file metadata.",
+            "School/shelter label should remain pseudonymized for public release.",
+            "Do not use this testimony for psychological diagnosis."
+        ],
+        "recommended_public_version": "pseudonymized_public_version_with_context_review"
+    },
+    "schema_compliance_note": {
+        "version": "SABR_v1.2_prototype",
+        "updates_applied": [
+            "ensured text_ar_full",
+            "ensured text_en_full",
+            "ensured sabr_frame on every annotatable unit",
+            "normalized lexicon_hints.expected_variants",
+            "added/updated analysis_note_for_paper and ethical_note where missing"
+        ]
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

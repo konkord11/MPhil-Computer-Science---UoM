@@ -1,0 +1,289 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative26_Pseudonymized",
+    "source_meta": {
+        "source_id": "N26",
+        "source_type": "video_transcription",
+        "source_platform": "Public short video testimony",
+        "original_language": "ar",
+        "dialect": "Arabic, primarily Modern Standard Arabic / formal religious register",
+        "reported_context": "A child from Gaza, approximately 10–12 years old, speaks in clear formal Arabic about enduring war through الحمد, الصبر, الثبات, and trust that the hardship is an امتحان from Allah.",
+        "collection_context_en": "A young Gazan child speaks in a formal religious register, framing suffering as a test from Allah and presenting patience, steadfastness, and continued endurance as the expected response.",
+        "collection_context_ar": "طفل من غزة يتحدث بالفصحى/بلغة دينية واضحة، ويؤطر المعاناة بوصفها امتحاناً من الله، ويقدّم الصبر والثبات والاستمرار بوصفها استجابة مطلوبة."
+    },
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "minor_no_personal_names_present",
+        "contains_real_names": false,
+        "contains_minors": true,
+        "notes": "No personal names are present. Because the speaker is a minor, public release should avoid face, voice, location, school, family, or other identifying details. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "n/a"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Palestinian crisis narratives and Islamic religious discourse."
+            }
+        ],
+        "adjudication": {
+            "status": "draft_annotation_ready_for_review",
+            "note": "Whisper output is used only for approximate timestamps. Segment text follows the corrected user-provided transcript. Because the narrative is short, it is divided into two discourse-level spans."
+        },
+        "alignment_note": "Timestamps are approximate and mapped from ASR boundaries; corrected Arabic text is used for analysis.",
+        "selection_policy": "Two spans capture the main movement: religious framing of hardship as prescribed endurance, then continuation and divine-test framing."
+    },
+    "speaker_profile": {
+        "gender": "unknown",
+        "age_estimate": "child",
+        "origin": "Gaza Strip / Palestinian context",
+        "role_or_status": [
+            "Child speaker",
+            "Civilian",
+            "Public testimony speaker"
+        ]
+    },
+    "approx_context": {
+        "brief_summary_en": "A Gazan child speaks in formal religious Arabic, saying that even while drowning they say praise be to Allah. The child frames hardship through Islamic concepts of duty, patience, and steadfastness, and describes the war as a test from Allah that they hope to pass by Allah’s permission.",
+        "brief_summary_ar": "يتحدث طفل من غزة بالفصحى وبسياق ديني واضح، فيقول إنهم حتى وهم يغرقون يقولون الحمد لله. يؤطر الطفل المعاناة بمفاهيم إسلامية مثل الصبر والثبات والابتلاء، ويصف الحرب بوصفها امتحاناً من الله يرجون النجاح فيه بإذنه."
+    },
+    "text_ar_full": "نغرقُ ونقول الحمدلله، كتب علينا الجهاد كما كتب علينا الصيام فكتب علينا الصبر والثبات، فرغم كل الآلام ورغم كل الجراح ورغم كل الصعاب مستمرون، ونحن نحمد الله أننا في موطن لا يوجد فيه أحد، نُمتحَن ولكننا بإذن الله ناجحون.",
+    "segments": [
+        {
+            "segment_id": "N26_s01",
+            "start_time": 0.0,
+            "end_time": 7.58,
+            "text_ar": "نغرقُ ونقول الحمدلله، كتب علينا الجهاد كما كتب علينا الصيام فكتب علينا الصبر والثبات.",
+            "text_en": "We drown and say praise be to Allah. Struggle was written upon us as fasting was written upon us, so patience and steadfastness were written upon us.",
+            "event_frame": {
+                "adversity_description": "The child describes extreme hardship through the image of drowning and frames wartime burden as something imposed upon them.",
+                "response_description": "The response is الحمد لله, together with religious framing of endurance as an obligation linked to patience and steadfastness."
+            },
+            "sabr_frame": {
+                "sabr_type": "faith_based_endurance_as_prescribed_duty",
+                "features": [
+                    "hamd_under_suffering",
+                    "religious_duty_frame",
+                    "sabr",
+                    "steadfastness",
+                    "child_religious_register"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "devotional_resolve",
+                "justification": "The child pairs the image of drowning with الحمدلله and presents patience and steadfastness as written duties, showing religiously grounded resolve."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "الحمدلله",
+                        "note": "Praise be to Allah; used despite hardship, indicating faith-based endurance."
+                    },
+                    {
+                        "marker": "كتب علينا",
+                        "note": "Was written/prescribed upon us; Qur'anic-style phrasing that frames hardship and endurance as divinely decreed or obligatory."
+                    },
+                    {
+                        "marker": "الجهاد",
+                        "note": "In this testimony, the term functions as a religious framing of struggle/endurance under crisis rather than an operational or instructional statement."
+                    },
+                    {
+                        "marker": "الصيام",
+                        "note": "Fasting; used as a religious analogy for prescribed duty and discipline."
+                    },
+                    {
+                        "marker": "الصبر والثبات",
+                        "note": "Patience and steadfastness; central Islamic and Palestinian resilience terms."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "نغرقُ ونقول الحمدلله",
+                        "note": "Contrastive structure: suffering is paired with praise, making the phrase a compact expression of faith-based resilience."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N26_s02",
+            "start_time": 7.88,
+            "end_time": 21.72,
+            "text_ar": "فرغم كل الآلام ورغم كل الجراح ورغم كل الصعاب مستمرون، ونحن نحمد الله أننا في موطن لا يوجد فيه أحد، نُمتحَن ولكننا بإذن الله ناجحون.",
+            "text_en": "Despite all the pain, despite all the wounds, and despite all the hardships, we continue. We praise Allah that we are in a place where there is no one. We are being tested, but by Allah’s permission we will succeed.",
+            "event_frame": {
+                "adversity_description": "The child names pain, wounds, and hardships, and frames the situation as an ongoing divine test.",
+                "response_description": "The child asserts continuation, praises Allah, and expresses confidence that they will succeed in the test by Allah’s permission."
+            },
+            "sabr_frame": {
+                "sabr_type": "divine_test_frame_with_continued_sumud",
+                "features": [
+                    "pain_wounds_hardship",
+                    "continuation",
+                    "hamd",
+                    "divine_test",
+                    "success_by_allah_permission"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "hopeful_steadfastness",
+                "justification": "The repeated 'رغم' acknowledges suffering, while 'مستمرون' and 'بإذن الله ناجحون' convert hardship into a test that can be passed."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "نحمد الله",
+                        "note": "We praise Allah; continued gratitude within hardship."
+                    },
+                    {
+                        "marker": "نُمتحَن",
+                        "note": "We are being tested; frames war and hardship as divine امتحان/ابتلاء."
+                    },
+                    {
+                        "marker": "بإذن الله",
+                        "note": "By Allah’s permission; places success and endurance under divine will."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "رغم كل الآلام ورغم كل الجراح ورغم كل الصعاب",
+                        "note": "Tripled repetition of 'despite' builds a cumulative adversity frame."
+                    },
+                    {
+                        "marker": "مستمرون",
+                        "note": "We continue; concise marker of persistence and sumud."
+                    }
+                ],
+                "interpretive_note": [
+                    {
+                        "marker": "موطن لا يوجد فيه أحد",
+                        "note": "The phrase is preserved as supplied. It may require later verification from audio/context because it is semantically unusual; it may indicate isolation, abandonment, or a place where no external protector/helper is present."
+                    }
+                ]
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "نغرق": {
+                "variants_ar": [
+                    "نغرقُ",
+                    "نغرق في المعاناة",
+                    "نغرق في الألم"
+                ],
+                "meaning_en": "We drown; metaphor for being overwhelmed by suffering."
+            },
+            "الحمدلله": {
+                "variants_ar": [
+                    "الحمد لله",
+                    "نحمد الله",
+                    "الشكر لله"
+                ],
+                "meaning_en": "Praise be to Allah; expression of gratitude and faith even under hardship."
+            },
+            "كتب علينا": {
+                "variants_ar": [
+                    "فُرض علينا",
+                    "قُدّر علينا",
+                    "كُتب لنا"
+                ],
+                "meaning_en": "Was written/prescribed/decreed upon us; religious phrasing of duty or destiny."
+            },
+            "الجهاد": {
+                "variants_ar": [
+                    "المجاهدة",
+                    "النضال",
+                    "مواجهة الابتلاء",
+                    "الصبر على الشدة"
+                ],
+                "meaning_en": "Struggle/striving; in this narrative it functions as a faith-based frame for enduring hardship, not as operational instruction."
+            },
+            "الصيام": {
+                "variants_ar": [
+                    "الصوم",
+                    "فريضة الصيام"
+                ],
+                "meaning_en": "Fasting; used as analogy for prescribed religious duty."
+            },
+            "الصبر": {
+                "variants_ar": [
+                    "التحمل",
+                    "الاحتساب",
+                    "الثبات أمام البلاء"
+                ],
+                "meaning_en": "Patience/endurance; central religious and resilience concept."
+            },
+            "الثبات": {
+                "variants_ar": [
+                    "الصمود",
+                    "عدم الانكسار",
+                    "الاستقامة"
+                ],
+                "meaning_en": "Steadfastness; remaining firm under pressure."
+            },
+            "مستمرون": {
+                "variants_ar": [
+                    "ماضون",
+                    "نواصل",
+                    "لن نتوقف",
+                    "صامدون"
+                ],
+                "meaning_en": "We continue; marker of persistence and steadfastness."
+            },
+            "نُمتحَن": {
+                "variants_ar": [
+                    "نُبتلى",
+                    "نُختبر",
+                    "نمر بابتلاء"
+                ],
+                "meaning_en": "We are being tested; divine-test framing."
+            },
+            "بإذن الله": {
+                "variants_ar": [
+                    "بمشيئة الله",
+                    "إن شاء الله",
+                    "بتوفيق الله"
+                ],
+                "meaning_en": "By Allah’s permission/will."
+            },
+            "ناجحون": {
+                "variants_ar": [
+                    "سننجح",
+                    "سنثبت",
+                    "سنفوز في الامتحان"
+                ],
+                "meaning_en": "We will succeed; here means passing the moral/spiritual test."
+            },
+            "أجر الصابرين": {
+                "variants_ar": [
+                    "ثواب الصابرين",
+                    "أجر الصبر",
+                    "يوفى الصابرون أجرهم بغير حساب"
+                ],
+                "meaning_en": "Reward of the patient; Islamic concept of immense divine reward for patience."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "child_faith_based_sumud_divine_test_sabr",
+        "paper_fit_ar": "تمثل هذه الرواية القصيرة مثالاً مكثفاً على الصمود الديني لدى طفل من غزة. يقدّم الطفل الحرب لا فقط بوصفها ألماً وجراحاً وصعاباً، بل بوصفها امتحاناً وابتلاءً يمكن النجاح فيه بالصبر والثبات والحمد. الأهمية هنا أن المتحدث طفل، ومع ذلك يستخدم سجلاً فصيحاً دينياً يربط المعاناة بمفاهيم التكليف، والابتلاء، والأجر، والثبات.",
+        "paper_fit_en": "This short narrative is a compact example of faith-based sumud expressed by a Gazan child. The child presents war not only as pain, wounds, and hardship, but as a divine test that can be passed through patience, steadfastness, and praise to Allah."
+    },
+    "ethical_note": {
+        "risk_level": "high_sensitivity_minor_wartime_religious_testimony",
+        "notes": [
+            "The speaker is a child, approximately 10–12 years old; protect identity and avoid face, voice, school, family, or location identifiers in public release.",
+            "No personal names are included in the text.",
+            "The term 'الجهاد' should be annotated as a religious/discursive frame of struggle and endurance in this testimony, not as operational instruction.",
+            "Do not use this testimony for psychological diagnosis; annotation should focus on discourse structure, adversity framing, response strategies, religious markers, and affective signal.",
+            "Because the narrative is short and rhetorically polished, later review should verify whether the child is speaking spontaneously, reciting, or repeating a prepared statement."
+        ],
+        "recommended_public_version": "deidentified_text_excerpt_only"
+    },
+    "text_en_full": "We drown and say praise be to Allah. Struggle was written upon us as fasting was written upon us, so patience and steadfastness were written upon us. Despite all the pain, despite all the wounds, and despite all the hardships, we continue. We praise Allah that we are in a place where there is no one. We are being tested, but by Allah’s permission we will succeed.",
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

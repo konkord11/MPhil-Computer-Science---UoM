@@ -1,0 +1,395 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative21_Pseudonymized",
+    "source_meta": {
+        "source_type": "written_public_testimony",
+        "source_platform": "Public social media post / written final will",
+        "original_author": "كريم النابلسي",
+        "original_language": "ar",
+        "register": "Modern Standard Arabic with religious, national, and testimonial rhetoric",
+        "dialect": "Arabic, primarily MSA",
+        "collection_context_ar": "وصية مكتوبة علنية يقدّم فيها الكاتب احتمال قتله بوصفه محاولة لإسكات صوته الصحفي، ويستعيد دوره شاهداً وصوتاً لأبناء شعبه، ويوصي بفلسطين وأطفالها، ثم يوصي بأهله، ولا سيما أبنائه ووالدته وزوجته.",
+        "collection_context_en": "A public written final will in which the author frames his anticipated killing as an attempt to silence his journalistic voice, reflects on his role as a witness for his people, calls for continued commitment to Palestine and its children, and entrusts his family to public care and prayer."
+    },
+    "anonymization": {
+        "is_pseudonymized": true,
+        "strategy": "name_replacement_pool",
+        "contains_real_names": false,
+        "contains_minors": true,
+        "notes": "Person names and identifying tokens in this tree are replaced using Gaza_NamePool_v1 with dataset-consistent mappings. Original strings are retained only in Narratives_Transcriptions. Follow Project_Research_Documentation/protocols/mphil_uom_ethics_and_governance.txt for storage, consent scope, and thesis use. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "within_dataset_consistent"
+    },
+    "annotation_meta": {
+        "status": "draft_annotation_ready_for_review",
+        "alignment_note": "Written narrative; timestamps not applicable.",
+        "selection_policy": "Segmentation follows discourse shifts: final message, life mission, witness testimony, collective recommendation, call to action, family bequests, maternal invocation, and spouse tribute."
+    },
+    "speaker_profile": {
+        "gender": "male",
+        "age_estimate": "adult",
+        "role_or_status": [
+            "Journalist",
+            "Public witness",
+            "Father",
+            "Husband",
+            "Son",
+            "Public figure"
+        ]
+    },
+    "approx_context": {
+        "brief_summary_ar": "يكتب صحفي فلسطيني وصية علنية أخيرة يقدّم فيها احتمال قتله بوصفه محاولة لإسكات صوته. يعرض حياته بوصفها واجب شهادة ونقل للحقيقة، ويوصي بفلسطين وأطفالها، ويدعو إلى مواصلة طريق الحرية والكرامة، ثم يوصي بأبنائه ووالدته وزوجته.",
+        "brief_summary_en": "A Palestinian journalist writes a final public will that frames his possible killing as an attempt to silence his voice. He presents his life as a duty of witness and truth-telling, asks people not to abandon Palestine and its children, calls for continued commitment to freedom and dignity, and entrusts his children, mother, and wife to public care and prayer."
+    },
+    "segments": [
+        {
+            "segment_id": "Narrative21_s01",
+            "timestamp_status": "written_text_no_timestamp",
+            "text_ar": "هذه وصيّتي، ورسالتي الأخيرة. إن وصلَتكم كلماتي هذه، فاعلموا أن إسرائيل قد نجحت في قتلي وإسكات صوتي. بداية السلام عليكم ورحمة الله وبركاته.",
+            "text_en": "This is my will, and my final message. If these words reach you, know that Israel has succeeded in killing me and silencing my voice. To begin: peace be upon you, and Allah’s mercy and blessings.",
+            "event_frame": {
+                "adversity_description": "The author anticipates death and frames it as an intentional silencing of his voice.",
+                "response_description": "He turns the possibility of death into a written final testimony addressed to the public, opening with an Islamic greeting."
+            },
+            "sabr_frame": {
+                "sabr_type": "final_testimony_against_silencing",
+                "features": [
+                    "anticipatory_death_statement",
+                    "voice_silencing_frame",
+                    "public_address",
+                    "religious_opening"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "solemn_resolve",
+                "justification": "The wording presents death as expected yet transforms it into a final act of speech and witness."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "السلام عليكم ورحمة الله وبركاته",
+                        "note": "Islamic greeting meaning: Peace be upon you, and Allah’s mercy and blessings."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "هذه وصيّتي، ورسالتي الأخيرة",
+                        "note": "Explicit final-will framing; positions the text as posthumous or near-posthumous testimony."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative21_s02",
+            "timestamp_status": "written_text_no_timestamp",
+            "text_ar": "يعلم الله أنني بذلت كل ما أملك من جهدٍ وقوة، لأكون سندًا وصوتًا لأبناء شعبي، مذ فتحت عيني على الحياة في أزقّة وحارات مخيّم جباليا للاجئين، وكان أملي أن يمدّ الله في عمري حتى أعود مع أهلي وأحبّتي إلى بلدتنا الأصلية عسقلان المحتلة \"المجدل\" لكن مشيئة الله كانت أسبق، وحكمه نافذ.",
+            "text_en": "Allah knows that I gave all the effort and strength I had to be a support and a voice for the people of my nation, ever since I opened my eyes to life in the alleys and neighbourhoods of Jabalia refugee camp. My hope was that Allah would extend my life until I returned with my family and loved ones to our original town, occupied Ashkelon, 'Al-Majdal'; but Allah’s will came first, and His decree is effective.",
+            "event_frame": {
+                "adversity_description": "The author situates his life within refugee displacement, interrupted return, and the anticipation that his life may end before return is fulfilled.",
+                "response_description": "He defines his life mission as being a support and voice for his people, while accepting divine decree."
+            },
+            "sabr_frame": {
+                "sabr_type": "life_mission_under_displacement_and_divine_decree",
+                "features": [
+                    "refugee_origin",
+                    "right_of_return_memory",
+                    "journalistic_voice",
+                    "acceptance_of_divine_decree"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "longing_with_religious_acceptance",
+                "justification": "The speaker expresses hope to return to the original town, followed by acceptance that Allah’s will prevailed."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "يعلم الله",
+                        "note": "Allah knows; an appeal to divine witness and sincerity."
+                    },
+                    {
+                        "marker": "مشيئة الله كانت أسبق، وحكمه نافذ",
+                        "note": "Allah’s will came first, and His decree is effective; indicates religious acceptance of fate."
+                    }
+                ],
+                "cultural_historical_markers": [
+                    {
+                        "marker": "مخيّم جباليا للاجئين",
+                        "note": "Refugee-camp origin marker, linking the testimony to displacement and collective Palestinian history."
+                    },
+                    {
+                        "marker": "عسقلان المحتلة \"المجدل\"",
+                        "note": "Original-town / return marker; connects personal biography to Palestinian dispossession and memory."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative21_s03",
+            "timestamp_status": "written_text_no_timestamp",
+            "text_ar": "عشتُ الألم بكل تفاصيله، وذُقت الوجع والفقد مرارًا، ورغم ذلك لم أتوانَ يومًا عن نقل الحقيقة كما هي، بلا تزوير أو تحريف، عسى أن يكون الله شاهدًا على من سكتوا ومن قبلوا بقتلنا، ومن حاصروا أنفاسنا ولم تُحرّك أشلاء أطفالنا ونسائنا في قلوبهم ساكنًا ولم يُوقِفوا المذبحة التي يتعرّض لها شعبنا منذ أكثر من عام ونصف.",
+            "text_en": "I lived pain in all its details, and tasted grief and loss repeatedly. Even so, I never hesitated to convey the truth as it is, without falsification or distortion, hoping that Allah would be witness over those who stayed silent, those who accepted our killing, those who besieged our breaths, and those whose hearts were not moved by the remains of our children and women and who did not stop the massacre that our people have endured for more than a year and a half.",
+            "event_frame": {
+                "adversity_description": "The author describes repeated pain, loss, killing, siege, and the killing of children and women amid silence and complicity.",
+                "response_description": "He commits to truth-telling without distortion and invokes Allah as witness against silence and complicity."
+            },
+            "sabr_frame": {
+                "sabr_type": "truth_witnessing_under_mass_genocide",
+                "features": [
+                    "pain_and_loss",
+                    "journalistic_truth_claim",
+                    "anti_silence_accusation",
+                    "divine_witness"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "moral_grief_and_indictment",
+                "justification": "The segment combines grief over loss with moral accusation against silence, complicity, and failure to stop the massacre."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "عسى أن يكون الله شاهدًا",
+                        "note": "May Allah be witness; invokes divine witnessing where human accountability has failed."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "بلا تزوير أو تحريف",
+                        "note": "Truthfulness formula; reinforces journalistic integrity and testimonial credibility."
+                    },
+                    {
+                        "marker": "من سكتوا ومن قبلوا... ومن حاصروا",
+                        "note": "Parallel accusatory structure identifying layers of responsibility."
+                    }
+                ],
+                "ethical_sensitivity_markers": [
+                    {
+                        "marker": "أشلاء أطفالنا ونسائنا",
+                        "note": "Graphic reference to civilian victims; should be quoted cautiously in public research excerpts."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative21_s04",
+            "timestamp_status": "written_text_no_timestamp",
+            "text_ar": "أوصيكم بفلسطين، درةَ تاجِ المسلمين، ونبضَ قلبِ كلِّ حرٍّ في هذا العالم. أوصيكم بأهلها، وبأطفالها المظلومين الصغار، الذين لم يُمهلهم العُمرُ ليحلموا ويعيشوا في أمانٍ وسلام، فقد سُحِقَت أجسادهم الطاهرة بآلاف الأطنان من القنابل والصواريخ الإسرائيلية، فتمزّقت، وتبعثرت أشلاؤهم على الجدران.",
+            "text_en": "I entrust Palestine to you: the jewel in the crown of Muslims and the heartbeat of every free person in this world. I entrust its people to you, and its oppressed little children, who were not given enough life to dream and live in safety and peace. Their pure bodies were crushed by thousands of tons of Israeli bombs and missiles, torn apart, and their remains scattered across walls.",
+            "event_frame": {
+                "adversity_description": "The author highlights Palestine’s suffering and the killing of children whose lives and dreams were cut short.",
+                "response_description": "He transforms his will into a collective ethical command: to remember and protect Palestine, its people, and its children."
+            },
+            "sabr_frame": {
+                "sabr_type": "collective_bequest_of_palestine_and_children",
+                "features": [
+                    "وصية_repetition",
+                    "children_as_moral_center",
+                    "collective_address",
+                    "sacralized_palestine"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "protective_grief_and_collective_love",
+                "justification": "The repeated bequest foregrounds children and Palestine as objects of love, protection, and moral duty."
+            },
+            "contextual_markers": {
+                "cultural_religious_markers": [
+                    {
+                        "marker": "درة تاج المسلمين",
+                        "note": "Metaphor sacralising Palestine in a Muslim collective imagination."
+                    },
+                    {
+                        "marker": "نبض قلب كل حر",
+                        "note": "Universalizes Palestine beyond a single religious or national audience."
+                    }
+                ],
+                "ethical_sensitivity_markers": [
+                    {
+                        "marker": "أشلاؤهم على الجدران",
+                        "note": "Highly graphic child-related imagery; analytically meaningful but should be minimized in public excerpts."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative21_s05",
+            "timestamp_status": "written_text_no_timestamp",
+            "text_ar": "أوصيكم ألّا تُسكتكم القيود، ولا تُقعِدكم الحدود، وكونوا جسورًا نحو تحرير البلاد والعباد، حتى تشرق شمسُ الكرامة والحرية على بلادنا السليبة.",
+            "text_en": "I urge you not to let chains silence you, nor borders make you sit still. Be bridges toward the liberation of the land and the people, until the sun of dignity and freedom rises over our stolen land.",
+            "event_frame": {
+                "adversity_description": "The text identifies constraints—chains, borders, stolen land—as obstacles to liberation and dignity.",
+                "response_description": "The author calls readers to act as bridges toward freedom, refusing silencing or immobility."
+            },
+            "sabr_frame": {
+                "sabr_type": "mobilizing_resilience_and_refusal_of_silencing",
+                "features": [
+                    "anti_silencing",
+                    "anti_border_constraint",
+                    "bridge_metaphor",
+                    "freedom_and_dignity"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "defiant_hope",
+                "justification": "The segment moves from restriction to dawn imagery, converting constraint into collective movement."
+            },
+            "contextual_markers": {
+                "metaphor_markers": [
+                    {
+                        "marker": "كونوا جسورًا",
+                        "note": "Bridge metaphor for solidarity and action."
+                    },
+                    {
+                        "marker": "شمس الكرامة والحرية",
+                        "note": "Sunrise metaphor for liberation and restored dignity."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative21_s06",
+            "timestamp_status": "written_text_no_timestamp",
+            "text_ar": "أُوصيكم بأهلي خيرًا، أوصيكم بقُرّة عيني، ابنتي الحبيبة نورهان، التي لم تسعفني الأيّام لأراها تكبر كما كنتُ أحلم. وأوصيكم بابني الغالي عماد، الذي تمنيت أن أكون له عونًا ورفيق دربٍ حتى يشتدّ عوده، فيحمل عني الهمّ، ويُكمل الرسالة.",
+            "text_en": "I entrust my family to you with goodness. I entrust to you the apple of my eye, my beloved daughter Nourhan, whom the days did not allow me to see grow as I had dreamed. And I entrust to you my dear son Imad, for whom I had wished to be a support and companion on the road until he grew strong, carried the burden after me, and continued the message.",
+            "event_frame": {
+                "adversity_description": "The author anticipates separation from his children and the loss of future fatherhood.",
+                "response_description": "He entrusts his children to the community and frames the son as a possible carrier of the message."
+            },
+            "sabr_frame": {
+                "sabr_type": "parental_bequest_and_interrupted_fatherhood",
+                "features": [
+                    "children_named",
+                    "interrupted_parental_future",
+                    "entrusting_family",
+                    "continuation_of_message"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "tender_sorrow_and_protective_concern",
+                "justification": "The language of 'apple of my eye' and unrealized dreams expresses intimate parental grief."
+            },
+            "contextual_markers": {
+                "cultural_markers": [
+                    {
+                        "marker": "قُرّة عيني",
+                        "note": "Arabic expression of deep love, often used for children or partners."
+                    },
+                    {
+                        "marker": "يشتدّ عوده",
+                        "note": "Idiom meaning to grow strong/mature."
+                    }
+                ],
+                "ethical_sensitivity_markers": [
+                    {
+                        "marker": "أسماء الأطفال",
+                        "note": "Children are named in the public will; derived datasets should consider pseudonymizing child names."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative21_s07",
+            "timestamp_status": "written_text_no_timestamp",
+            "text_ar": "أوصيكم بوالدتي الحبيبة، التي ببركة دعائها وصلتُ لما وصلت إليه، وكانت دعواتها حصني، ونورها طريقي. أدعو الله أن يُربط على قلبها، ويجزيها عنّي خير الجزاء.",
+            "text_en": "I entrust to you my beloved mother, through the blessing of whose prayers I reached where I reached. Her prayers were my fortress, and her light was my path. I ask Allah to strengthen her heart and reward her on my behalf with the best reward.",
+            "event_frame": {
+                "adversity_description": "The author anticipates his mother’s bereavement and emotional burden.",
+                "response_description": "He honours her prayers as protective force and prays for Allah to strengthen her heart after his death."
+            },
+            "sabr_frame": {
+                "sabr_type": "maternal_blessing_and_prayer_for_bereavement",
+                "features": [
+                    "mother_bequest",
+                    "dua_as_protection",
+                    "heart_strengthening",
+                    "filial_gratitude"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "filial_gratitude_and_concern",
+                "justification": "The author presents the mother’s prayers as his fortress and asks Allah to bind her heart after his loss."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "ببركة دعائها",
+                        "note": "By the blessing of her prayers; connects success/protection to maternal supplication."
+                    },
+                    {
+                        "marker": "يُربط على قلبها",
+                        "note": "Prayer for Allah to strengthen or steady her heart in grief."
+                    }
+                ],
+                "metaphor_markers": [
+                    {
+                        "marker": "دعواتها حصني، ونورها طريقي",
+                        "note": "Prayers as protective fortress and her existence as a guiding light through his way in life."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative21_s08",
+            "timestamp_status": "written_text_no_timestamp",
+            "text_ar": "وأوصيكم كذلك برفيقة العمر، زوجتي الحبيبة أم عماد رنا، التي فرّقتنا الحرب لأيامٍ وشهورٍ طويلة، لكنها بقيت على العهد، ثابتة كجذع زيتونة لا ينحني، صابرة محتسبة.",
+            "text_en": "I also entrust to you my life companion, my beloved wife, Um Imad, Bayan, from whom the war separated me for long days and months. Yet she remained faithful to the covenant, steadfast like the trunk of an olive tree that does not bend, patient and seeking Allah’s reward.",
+            "event_frame": {
+                "adversity_description": "War separates the author from his wife for long periods and leaves her facing the burden of his possible death.",
+                "response_description": "He honours her steadfastness, patience, and faithfulness, representing her through the olive tree metaphor."
+            },
+            "sabr_frame": {
+                "sabr_type": "spousal_steadfastness_under_war_separation",
+                "features": [
+                    "wife_bequest",
+                    "war_separation",
+                    "olive_tree_metaphor",
+                    "sabr_ihtisab"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "love_pride_and_reverence",
+                "justification": "The segment combines marital affection with admiration for the wife’s steadfast patience."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "صابرة محتسبة",
+                        "note": "Patient and seeking reward from Allah; Islamic phrasing for endurance with faith."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "ثابتة كجذع زيتونة لا ينحني",
+                        "note": "Olive tree metaphor; culturally Palestinian symbol of rootedness, endurance, and land attachment."
+                    },
+                    {
+                        "marker": "أم عماد",
+                        "note": "Kunya naming form identifying the wife relationally as mother of Imad [their oldest son]."
+                    }
+                ]
+            }
+        }
+    ],
+    "analysis_note_for_paper": {
+        "theme_tag": "final_will_journalistic_witness_religious_resilience_collective_bequest",
+        "paper_fit_ar": "تمثل هذه الوصية مثالاً واضحاً على انتقال الصمود من النجاة الجسدية إلى الشهادة الأخلاقية بعد الموت. يستخدم الكاتب بنية الوصية لتحويل قتله المتوقع إلى فعل كلامي مستمر: يعرّف نفسه صوتاً لشعبه، يستدعي الله شاهداً على الحقيقة والخذلان، يوصي بفلسطين وأطفالها، ثم يربط الفقد الشخصي بالمسؤولية الجماعية تجاه أسرته ورسالة التحرير والكرامة. يظهر الصبر هنا في استمرار الصوت لا في غياب الألم.",
+        "paper_fit_en": "This written will is a strong example of resilience as posthumous testimonial continuity rather than emotional calmness. The author transforms anticipated death into an ongoing speech act: he frames himself as a voice for his people, invokes Allah as witness, entrusts Palestine and its children to the audience, and links personal family loss to collective responsibility, dignity, and freedom."
+    },
+    "ethical_note": {
+        "risk_level": "high_sensitivity_public_figure_family_and_children_named",
+        "notes": [
+            "The author is a public figure and the text is public, but the will names children and family members; derived datasets should minimize unnecessary identifying details.",
+            "Graphic references to children’s bodies should be quoted only when analytically necessary and with care.",
+            "This text should not be used for individual psychological diagnosis; annotation should focus on discourse structure, adversity framing, response strategies, cultural/religious markers, and affective signal.",
+            "Because the text is a written public statement, preserve its register and avoid dialect normalization issues that apply to spoken Gaza narratives."
+        ],
+        "recommended_public_version": "public_figure_name_may_be_retained_with_governance; family_details_pseudonymized"
+    },
+    "text_ar_full": "هذه وصيّتي، ورسالتي الأخيرة. إن وصلَتكم كلماتي هذه، فاعلموا أن إسرائيل قد نجحت في قتلي وإسكات صوتي. بداية السلام عليكم ورحمة الله وبركاته. يعلم الله أنني بذلت كل ما أملك من جهدٍ وقوة، لأكون سندًا وصوتًا لأبناء شعبي، مذ فتحت عيني على الحياة في أزقّة وحارات مخيّم جباليا للاجئين، وكان أملي أن يمدّ الله في عمري حتى أعود مع أهلي وأحبّتي إلى بلدتنا الأصلية عسقلان المحتلة \"المجدل\" لكن مشيئة الله كانت أسبق، وحكمه نافذ. عشتُ الألم بكل تفاصيله، وذُقت الوجع والفقد مرارًا، ورغم ذلك لم أتوانَ يومًا عن نقل الحقيقة كما هي، بلا تزوير أو تحريف، عسى أن يكون الله شاهدًا على من سكتوا ومن قبلوا بقتلنا، ومن حاصروا أنفاسنا ولم تُحرّك أشلاء أطفالنا ونسائنا في قلوبهم ساكنًا ولم يُوقِفوا المذبحة التي يتعرّض لها شعبنا منذ أكثر من عام ونصف. أوصيكم بفلسطين، درةَ تاجِ المسلمين، ونبضَ قلبِ كلِّ حرٍّ في هذا العالم. أوصيكم بأهلها، وبأطفالها المظلومين الصغار، الذين لم يُمهلهم العُمرُ ليحلموا ويعيشوا في أمانٍ وسلام، فقد سُحِقَت أجسادهم الطاهرة بآلاف الأطنان من القنابل والصواريخ الإسرائيلية، فتمزّقت، وتبعثرت أشلاؤهم على الجدران. أوصيكم ألّا تُسكتكم القيود، ولا تُقعِدكم الحدود، وكونوا جسورًا نحو تحرير البلاد والعباد، حتى تشرق شمسُ الكرامة والحرية على بلادنا السليبة. أُوصيكم بأهلي خيرًا، أوصيكم بقُرّة عيني، ابنتي الحبيبة نورهان، التي لم تسعفني الأيّام لأراها تكبر كما كنتُ أحلم. وأوصيكم بابني الغالي عماد، الذي تمنيت أن أكون له عونًا ورفيق دربٍ حتى يشتدّ عوده، فيحمل عني الهمّ، ويُكمل الرسالة. أوصيكم بوالدتي الحبيبة، التي ببركة دعائها وصلتُ لما وصلت إليه، وكانت دعواتها حصني، ونورها طريقي. أدعو الله أن يُربط على قلبها، ويجزيها عنّي خير الجزاء. وأوصيكم كذلك برفيقة العمر، زوجتي الحبيبة أم عماد رنا، التي فرّقتنا الحرب لأيامٍ وشهورٍ طويلة، لكنها بقيت على العهد، ثابتة كجذع زيتونة لا ينحني، صابرة محتسبة.",
+    "text_en_full": "This is my will, and my final message. If these words reach you, know that Israel has succeeded in killing me and silencing my voice. To begin: peace be upon you, and Allah’s mercy and blessings. Allah knows that I gave all the effort and strength I had to be a support and a voice for the people of my nation, ever since I opened my eyes to life in the alleys and neighbourhoods of Jabalia refugee camp. My hope was that Allah would extend my life until I returned with my family and loved ones to our original town, occupied Ashkelon, 'Al-Majdal'; but Allah’s will came first, and His decree is effective. I lived pain in all its details, and tasted grief and loss repeatedly. Even so, I never hesitated to convey the truth as it is, without falsification or distortion, hoping that Allah would be witness over those who stayed silent, those who accepted our killing, those who besieged our breaths, and those whose hearts were not moved by the remains of our children and women and who did not stop the massacre that our people have endured for more than a year and a half. I entrust Palestine to you: the jewel in the crown of Muslims and the heartbeat of every free person in this world. I entrust its people to you, and its oppressed little children, who were not given enough life to dream and live in safety and peace. Their pure bodies were crushed by thousands of tons of Israeli bombs and missiles, torn apart, and their remains scattered across walls. I urge you not to let chains silence you, nor borders make you sit still. Be bridges toward the liberation of the land and the people, until the sun of dignity and freedom rises over our stolen land. I entrust my family to you with goodness. I entrust to you the apple of my eye, my beloved daughter Nourhan, whom the days did not allow me to see grow as I had dreamed. And I entrust to you my dear son Imad, for whom I had wished to be a support and companion on the road until he grew strong, carried the burden after me, and continued the message. I entrust to you my beloved mother, through the blessing of whose prayers I reached where I reached. Her prayers were my fortress, and her light was my path. I ask Allah to strengthen her heart and reward her on my behalf with the best reward. I also entrust to you my life companion, my beloved wife, Um Imad, Bayan, from whom the war separated me for long days and months. Yet she remained faithful to the covenant, steadfast like the trunk of an olive tree that does not bend, patient and seeking Allah’s reward.",
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

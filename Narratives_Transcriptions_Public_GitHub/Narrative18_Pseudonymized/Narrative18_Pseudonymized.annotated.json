@@ -16,7 +16,7 @@
         "strategy": "name_replacement_pool",
         "replacement_scope": "within_dataset_consistent",
         "contains_real_names": false,
-        "notes": "Pseudonymised public-release bundle. Internal reversibility metadata was removed for GitHub. Pool: Gaza_NamePool_v1.",
+        "notes": "Person names and identifying tokens in this tree are replaced using Gaza_NamePool_v1 with dataset-consistent mappings. Original strings are retained only in Narratives_Transcriptions. Follow Project_Research_Documentation/protocols/mphil_uom_ethics_and_governance.txt for storage, consent scope, and thesis use. Public-release bundle: reversibility metadata stripped for GitHub.",
         "pool_id": "Gaza_NamePool_v1"
     },
     "annotation_meta": {
@@ -240,6 +240,7 @@
         "paper_fit_ar": "تجسد هذه الرواية آلية تكيّف دينية/معنوية تتمحور حول القرآن: تعريف الهوية كـ«حافظة»، واستمرار الفعل التعبدي كفعل مقاومة نفسية ومعنوية داخل مراكز الإيواء. تمتزج فيها لغة الفقد (فقد السند والأغلى - الأب) مع ثبات انفعالي وإصرار على الاستمرار، ثم تتحول إلى طموح مستقبلي مشروط بمشيئة الله (إن شاء الله/بإذن الله)، بما يعكس صموداً قائماً على المعنى والهدف.",
         "paper_fit_en": "This narrative exemplifies Qur’an-centered coping as an identity-anchored resilience strategy: the speaker foregrounds her status as a memorizer [Qur’an memorizer] (ḥāfiẓa), maintains devotional continuity under displacement, explicitly acknowledges compounded losses (including loss of sanad [support] and loved ones - Her father), and reframes endurance as principled continuation on the ‘path of martyrs’ and filial legacy. The closing pledge—conditioned by in shā’ Allah / bi-idhn Allah—operationalizes faith-grounded futurity, linking personal grief to disciplined practice, emotional containment, and aspirational goal-setting."
     },
+    "text_en_full": "[Qur’an 59:21] Had We sent down this Qur’an upon a mountain, you would have seen it humbled and splitting apart from fear of Allah. And these examples We present to the people so that they may reflect. I am a memorizer of Allah’s Book, Nourhan, the daughter of the martyred Yasser al-Daqqas. I recited the entire Qur’an in a single sitting at my mosque, and today—inside a shelter and displacement center—within the initiative “Qur’an Flood: The Resolve of the Memorizers (3),” I am reciting the entire Qur’an in a single sitting. Even though we have lost our support—the pillar we leaned on—and we have lost the most precious thing we possess in this life; and despite the hard… the difficult conditions we are living through—still, we continue and move forward on the path of the martyrs, and we move forward on your path, my dear father. May Allah have mercy on you. Allah willing, we will recite the Noble Qur’an in full in a single sitting in the courtyards of Al-Aqsa Mosque—by Allah’s will, the Mighty and Majestic—victorious.",
     "public_release": {
         "intended_use": "public_github",
         "reversibility_in_bundle": false

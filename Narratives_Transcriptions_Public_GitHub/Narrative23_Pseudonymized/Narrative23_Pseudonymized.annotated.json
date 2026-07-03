@@ -1,0 +1,685 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative23_Pseudonymized",
+    "source_meta": {
+        "source_cluster_id": "SC23_Fighter_FinalFarewell_SelfRecorded_UnderSiege",
+        "source_type": "video_transcription",
+        "source_platform": "Self-recorded short video / public circulation source",
+        "original_author": "Unspecified Palestinian fighter in the provided text",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (Gaza dialect)",
+        "register": "Spoken Gaza dialect with humour, religious expressions, farewell language, and combat-context references",
+        "reported_context": "A Palestinian fighter records a final video message while he and others are besieged/encircled in a location very close to the enemy. The speaker appears to expect martyrdom and addresses family members directly before he is reportedly killed.",
+        "collection_context_en": "A self-recorded final farewell by a Palestinian fighter during active combat and siege. The speaker jokes, laughs, reassures his family, mentions nearby aircraft and missiles, reports the martyrdom of companions, and gives family-care instructions while framing possible death through divine decree and funeral prayer.",
+        "collection_context_ar": "وصية وداع مصوّرة ذاتياً لمقاوم فلسطيني أثناء القتال والحصار في مكان قريب جداً من العدو. يخاطب أهله مباشرة، يضحك ويمزح رغم اقتراب الخطر، يطمئنهم، يذكر الطيران والصواريخ القريبة، يشير إلى استشهاد رفاق، ويوصي إخوته وأبناءه بالعائلة مع تأطير الموت بقضاء الله وصلاة الغائب."
+    },
+    "anonymization": {
+        "is_pseudonymized": true,
+        "strategy": "name_replacement_pool",
+        "replacement_scope": "within_dataset_consistent",
+        "contains_real_names": false,
+        "contains_minors": "possible",
+        "notes": "Person names and identifying tokens in this tree are replaced using Gaza_NamePool_v1 with dataset-consistent mappings. Original strings are retained only in Narratives_Transcriptions. Follow Project_Research_Documentation/protocols/mphil_uom_ethics_and_governance.txt for storage, consent scope, and thesis use. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Native/near-native Palestinian Arabic annotation context; familiar with Gaza dialect, crisis testimony, religious formulae, and wartime discourse markers."
+            }
+        ],
+        "adjudication": {
+            "status": "draft_annotation_ready_for_review",
+            "note": "Segmentation follows the corrected Arabic narrative supplied by the user. Whisper output is used only for approximate timestamps. Parenthetical explanations are not inserted into the narrative text; they are represented as contextual markers and lexicon hints."
+        },
+        "alignment_note": "Timestamps are approximate and based on Whisper/ASR boundaries. Segment text is taken from the corrected narrative, not from ASR wording.",
+        "selection_policy": "The full narrative is preserved in text_ar_full. Analytical segments cover the main shifts: comic reassurance, battle proximity, family instructions, martyrdom reports, divine decree, final farewell, and immediate missile/explosion normalisation."
+    },
+    "speaker_profile": {
+        "gender": "male",
+        "age_estimate": "adult",
+        "origin": "Gaza Strip / Palestinian context",
+        "role_or_status": [
+            "Palestinian fighter",
+            "Besieged combatant",
+            "Family member",
+            "Self-recording speaker",
+            "Anticipating death / martyrdom"
+        ]
+    },
+    "approx_context": {
+        "brief_summary_en": "A Palestinian fighter records a final farewell message while besieged near the enemy during active combat. He reassures his children, relatives, and siblings through humour and laughter, mentions helicopters, a nearby aircraft/missile threat, and the martyrdom of companions, then frames his possible death through Allah’s decree. He gives family-care instructions, identifies the message as a farewell will, and normalizes a nearby F16 missile sound by joking and telling the person beside him not to be afraid.",
+        "brief_summary_ar": "يسجّل مقاوم فلسطيني وصية وداع أخيرة وهو محاصر قرب العدو أثناء القتال. يطمئن أبناءه وأقاربه وإخوته عبر الضحك والسخرية، ويشير إلى المروحية والصاروخ القريب واستشهاد رفاق، ثم يؤطر احتمال موته بقضاء الله. يوصي إخوته وأبناءه بالعائلة، ويصف الرسالة بأنها وصية مودّع، ثم يتعامل مع صوت صاروخ F16 قريب بروح ساخرة وعبارة تطمين لصاحبه."
+    },
+    "text_ar_full": "تطمنوش يا ولادي ويا بناتي ويا عيالي، ويختي ويا خواني، الأمور كويسة تمام والحمدلله. المروحي هيو فوق وهي المشلّط هاضا جاييني. الأمور كويسة إن شاء الله بتخلص ووضعنا كويس فش أي مشكلة إن شاء الله، الشباب بتشتغل. ويا سالم أخوي دير بالك ع حالك وعماد. الوحش استشهد الله يرحمه، والزلمة اللي كنت عنده سبع شهور قصفوه استشهد، الحمدلله. وأمورنا الحمدلله كويسة، هينا بنشتغل. ربنا كاتبلنا نروّح بنروّح، مش كاتبلنا بتقرولي باي باي صلاة الغائب من حمد. دير بالك.. دير. يا كريم دير بالك على خواتك. يلا هي وصية مودّع شكلها. طب يا عيالي سلموا على الولاد وديروا بالكو وسمر ونادر. هي صاروخ خليك خليك F16 نزل، دِب، خليك عادي.",
+    "segments": [
+        {
+            "segment_id": "Narrative23_s01",
+            "start_time": 0.0,
+            "end_time": 7.04,
+            "text_ar": "تطمنوش يا ولادي ويا بناتي ويا عيالي، ويختي ويا خواني، الأمور كويسة تمام والحمدلله.",
+            "text_en": "Do not be reassured, my sons, my daughters, my family, my sister, and my brothers. Things are completely fine, praise be to Allah.",
+            "event_frame": {
+                "adversity_description": "The speaker is in a life-threatening combat situation but opens by addressing family members directly.",
+                "response_description": "He uses ironic reassurance and praise to Allah to manage fear and soften the expected farewell."
+            },
+            "sabr_frame": {
+                "sabr_type": "ironic_reassurance_under_imminent_death",
+                "features": [
+                    "family_address",
+                    "dark_humour",
+                    "ironic_reassurance",
+                    "hamd_under_threat"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "defiant_calm_with_gallows_humour",
+                "justification": "The phrase 'تطمنوش' reverses expected reassurance; laughter and الحمدلله indicate an attempt to face danger through humour and faith."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "الحمدلله",
+                        "note": "Praise be to Allah; frames the situation through faith even under imminent threat."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "تطمنوش",
+                        "note": "Literally 'do not be reassured'; here used ironically instead of the expected 'اطمنوا'. It signals awareness that death is near while maintaining humour."
+                    },
+                    {
+                        "marker": "يختي / خواني",
+                        "note": "Gaza/Levantine colloquial forms for 'my sister / my brothers'."
+                    },
+                    {
+                        "marker": "عيالي",
+                        "note": "My family / my children / my household, depending on context."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "laughing while reassuring",
+                        "note": "Humour functions as affect regulation and farewell softening."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative23_s02",
+            "start_time": 7.76,
+            "end_time": 11.22,
+            "text_ar": "المروحي هيو فوق، وهي المشلّط هاضا جاييني.",
+            "text_en": "The helicopter is right above [us], and this cheeky/troublemaking one here is coming toward me.",
+            "event_frame": {
+                "adversity_description": "A helicopter is present overhead while the speaker is in a besieged combat setting very close to danger.",
+                "response_description": "While acknowledging the nearby helicopter, the speaker jokes with a companion who is approaching him, using humour to maintain composure in a setting of imminent death."
+            },
+            "sabr_frame": {
+                "sabr_type": "humour_as_coping_under_imminent_threat",
+                "features": [
+                    "helicopter_presence",
+                    "combat_proximity",
+                    "companion_joking",
+                    "gallows_humour",
+                    "affect_regulation"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "composed_gallows_humour",
+                "justification": "The speaker is under real threat from the surrounding combat situation and overhead helicopter, but his joke about his approaching friend 'المشلّط' shows humour as a coping mechanism rather than panic."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "المروحي",
+                        "note": "Helicopter; colloquial shortened form."
+                    },
+                    {
+                        "marker": "هيو فوق",
+                        "note": "There it is above; deictic pointing to the helicopter’s immediate presence overhead."
+                    },
+                    {
+                        "marker": "المشلّط",
+                        "note": "Colloquial joking label roughly meaning cheeky/troublemaking/bad-boy-like; here used playfully about the speaker’s nearby companion who is approaching him while he records."
+                    },
+                    {
+                        "marker": "جاييني",
+                        "note": "Coming toward me; here refers to the nearby companion approaching the speaker, not to the helicopter or an incoming projectile."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "joking with a companion during danger",
+                        "note": "The humour is directed at the companion, while the wider threat remains real. This supports analysis of laughter and joking as coping/affect regulation under imminent death."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative23_s03",
+            "start_time": 12.64,
+            "end_time": 18.42,
+            "text_ar": "الأمور كويسة إن شاء الله بتخلص ووضعنا كويس فش أي مشكلة إن شاء الله، الشباب بتشتغل.",
+            "text_en": "Things are fine; Allah willing, it will end. Our situation is good; there is no problem, Allah willing. The guys are working.",
+            "event_frame": {
+                "adversity_description": "The speaker remains in an active combat/siege situation.",
+                "response_description": "He repeatedly reassures the audience, invokes Allah’s will, and frames the group as still functioning."
+            },
+            "sabr_frame": {
+                "sabr_type": "operational_reassurance_with_religious_framing",
+                "features": [
+                    "repeated_reassurance",
+                    "inshallah",
+                    "group_functioning",
+                    "denial_of_problem"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "controlled_reassurance",
+                "justification": "The repeated 'كويسة' and 'إن شاء الله' create a controlled surface of calm despite evident danger."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "إن شاء الله",
+                        "note": "Allah willing; repeated to frame the outcome as dependent on divine will."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "فش أي مشكلة",
+                        "note": "There is no problem; Gaza negation with 'فش'."
+                    },
+                    {
+                        "marker": "الشباب بتشتغل",
+                        "note": "The guys are working; in this context likely the fighters are continuing their task/engagement."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "repeated reassurance",
+                        "note": "May function more to comfort family than to describe objective safety."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative23_s04",
+            "start_time": 18.7,
+            "end_time": 22.4,
+            "text_ar": "ويا سالم أخوي دير بالك ع حالك وعماد.",
+            "text_en": "And Salim, my brother, take care of yourself and Tareq.",
+            "event_frame": {
+                "adversity_description": "The speaker anticipates possible absence or death and turns to practical family instructions.",
+                "response_description": "He instructs his brother to take care of himself and Tareq."
+            },
+            "sabr_frame": {
+                "sabr_type": "family_care_instruction_in_final_farewell",
+                "features": [
+                    "direct_family_address",
+                    "care_instruction",
+                    "anticipated_absence",
+                    "brother_responsibility"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "protective_concern",
+                "justification": "The direct instruction 'دير بالك' signals care and transfer of responsibility."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "دير بالك ع حالك",
+                        "note": "Take care of yourself; common Palestinian colloquial care formula."
+                    }
+                ],
+                "ethical_sensitivity_markers": [
+                    {
+                        "marker": "family names",
+                        "note": "Names are included in the raw narrative; public release should review whether to pseudonymize or minimize them."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative23_s05",
+            "start_time": 22.88,
+            "end_time": 31.4,
+            "text_ar": "الوحش استشهد الله يرحمه، والزلمة اللي كنت عنده سبع شهور قصفوه استشهد، الحمدلله. وأمورنا الحمدلله كويسة، هينا بنشتغل.",
+            "text_en": "Al-Wahsh was martyred, may Allah have mercy on him. And the man I had stayed with for seven months—they bombed him, he was martyred, praise be to Allah. Our situation, praise be to Allah, is good. Here we are, working.",
+            "event_frame": {
+                "adversity_description": "The speaker reports the martyrdom of a companion and another man after bombing.",
+                "response_description": "He responds with mercy prayers, الحمدلله, and a return to ongoing action."
+            },
+            "sabr_frame": {
+                "sabr_type": "martyrdom_reporting_with_continued_action",
+                "features": [
+                    "companion_martyrdom",
+                    "dua_for_dead",
+                    "hamd_after_loss",
+                    "continuing_work"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "grief_contained_by_faith_and_task_focus",
+                "justification": "Deaths are acknowledged, but the speaker quickly returns to الحمدلله and 'هينا بنشتغل', suggesting contained grief and task continuity."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "استشهد",
+                        "note": "Was martyred; death framed through martyrdom discourse."
+                    },
+                    {
+                        "marker": "الله يرحمه",
+                        "note": "May Allah have mercy on him; supplication for the dead."
+                    },
+                    {
+                        "marker": "الحمدلله",
+                        "note": "Praise be to Allah; used after reporting loss, indicating faith-based acceptance."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "الزلمة",
+                        "note": "The man; common colloquial expression."
+                    },
+                    {
+                        "marker": "هينا بنشتغل",
+                        "note": "Here we are, working/continuing; indicates ongoing action despite loss."
+                    }
+                ],
+                "notes": [
+                    {
+                        "marker": "سبع شهور",
+                        "note": "User-corrected narrative says seven months; ASR incorrectly recognized three months."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative23_s06",
+            "start_time": 32.98,
+            "end_time": 38.7,
+            "text_ar": "ربنا كاتبلنا نروّح بنروّح، مش كاتبلنا بتقرولي باي باي صلاة الغائب من حمد.",
+            "text_en": "If our Lord has decreed for us to go back, we will go back. If He has not decreed it for us, you can read me goodbye—perform the absentee funeral prayer from Hamad.",
+            "event_frame": {
+                "adversity_description": "The speaker openly considers death and the possibility that his body may not return to family.",
+                "response_description": "He frames survival or death as Allah’s decree and jokingly instructs family to perform the absentee funeral prayer."
+            },
+            "sabr_frame": {
+                "sabr_type": "death_acceptance_with_funeral_humour",
+                "features": [
+                    "divine_decree",
+                    "possible_non_return",
+                    "absentee_funeral_prayer",
+                    "gallows_humour"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "fatalistic_acceptance_with_humour",
+                "justification": "The speaker directly names non-return and funeral prayer while laughing and saying 'باي باي'."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "ربنا كاتبلنا",
+                        "note": "If Allah has written/decreed for us; frames fate as divine decree."
+                    },
+                    {
+                        "marker": "صلاة الغائب",
+                        "note": "Absentee funeral prayer performed for a deceased person whose body is not physically present."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "نروّح",
+                        "note": "To go home/return."
+                    },
+                    {
+                        "marker": "بتقرولي باي باي",
+                        "note": "Literally 'you can read me bye-bye'; humorous colloquial mixing of Arabic and English around death/farewell."
+                    },
+                    {
+                        "marker": "حمد",
+                        "note": "Hamad City in a southern Gaza area, Gaza Strip"
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "laughter around funeral prayer",
+                        "note": "Humour softens explicit death talk and converts fear into performative courage."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative23_s07",
+            "start_time": 39.84,
+            "end_time": 44.64,
+            "text_ar": "دير بالك.. دير. يا كريم دير بالك على خواتك. يلا هي وصية مودّع شكلها.",
+            "text_en": "Take care... take care. Karim, take care of your sisters. Alright, this looks like a farewell will.",
+            "event_frame": {
+                "adversity_description": "The speaker recognizes the message may be his final will.",
+                "response_description": "He assigns protective responsibility to Karim for his sisters and explicitly names the video as a farewell will."
+            },
+            "sabr_frame": {
+                "sabr_type": "explicit_final_will_and_family_transfer",
+                "features": [
+                    "care_transfer",
+                    "siblings_protection",
+                    "farewell_will_label",
+                    "anticipated_martyrdom"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "tender_responsibility_with_resigned_humour",
+                "justification": "The repeated 'دير بالك' and explicit 'وصية مودّع' show serious care beneath the joking tone."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "خواتك",
+                        "note": "Your sisters; local colloquial form for female siblings."
+                    },
+                    {
+                        "marker": "وصية مودّع",
+                        "note": "A farewell will/testament; explicitly frames the video as a final message."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "دير بالك.. دير",
+                        "note": "Interrupted repetition signals urgency and emotional weight."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative23_s08",
+            "start_time": 45.96,
+            "end_time": 49.96,
+            "text_ar": "طب يا عيالي سلموا على الولاد وديروا بالكو وسمر ونادر، هي صاروخ.",
+            "text_en": "Alright, my family, send my greetings to the children and take care of yourselves—Samar and Nader. Here is a missile.",
+            "event_frame": {
+                "adversity_description": "The farewell continues while a missile is audibly near.",
+                "response_description": "The speaker sends greetings and care instructions, then calmly identifies the missile."
+            },
+            "sabr_frame": {
+                "sabr_type": "family_farewell_interrupted_by_missile",
+                "features": [
+                    "greetings_to_children",
+                    "care_instruction",
+                    "nearby_missile",
+                    "calm_identification_of_threat"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "calm_under_immediate_threat",
+                "justification": "The transition from family greetings to 'هي صاروخ' occurs without panic, indicating habituation to danger."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "سلموا على الولاد",
+                        "note": "Send greetings to the children."
+                    },
+                    {
+                        "marker": "ديروا بالكو",
+                        "note": "Take care of yourselves."
+                    },
+                    {
+                        "marker": "هي صاروخ",
+                        "note": "Here is a missile / that is a missile; deictic immediate threat marker."
+                    }
+                ],
+                "ethical_sensitivity_markers": [
+                    {
+                        "marker": "family names",
+                        "note": "Names may identify relatives; review before public release."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative23_s09",
+            "start_time": 49.96,
+            "end_time": 55.06,
+            "text_ar": "خليك خليك F16 نزل، دِب، خليك عادي.",
+            "text_en": "Stay where you are, stay where you are. An F16 [missile] came down—boom. Stay normal.",
+            "event_frame": {
+                "adversity_description": "An F16 missile or airstrike sound occurs close to the speaker and those nearby.",
+                "response_description": "He instructs the person beside him not to panic, imitates the explosion sound, and normalizes the danger."
+            },
+            "sabr_frame": {
+                "sabr_type": "danger_habituation_and_comic_explosion_imitation",
+                "features": [
+                    "near_airstrike",
+                    "imperative_calm",
+                    "sound_imitation",
+                    "normalising_danger"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "adrenaline_humour_and_composure",
+                "justification": "The speaker imitates the explosion and says 'خليك عادي', showing habituated composure and comic regulation under immediate threat."
+            },
+            "contextual_markers": {
+                "combat_context_markers": [
+                    {
+                        "marker": "F16 نزل",
+                        "note": "A missile/strike from an F16 fighter jet is coming down or has just come down nearby, according to the speaker’s phrasing."
+                    },
+                    {
+                        "marker": "دِب",
+                        "note": "Onomatopoeic imitation of an explosion, roughly 'boom'."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "خليك",
+                        "note": "Stay / remain; repeated as an instruction to the person beside him."
+                    },
+                    {
+                        "marker": "خليك عادي",
+                        "note": "Stay normal / do not panic; implies they have become accustomed to such sounds."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "explosion imitation with laughter",
+                        "note": "Humour and sound mimicry are used to manage fear in real time."
+                    }
+                ]
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "تطمنوش": {
+                "variants_ar": [
+                    "اطمنوش",
+                    "لا تطمنوا",
+                    "اطمنوا"
+                ],
+                "meaning_en": "Literally 'do not be reassured'; in this narrative it is used ironically instead of 'be reassured', signalling imminent danger/death with humour."
+            },
+            "عيالي": {
+                "variants_ar": [
+                    "أهلي",
+                    "أولادي",
+                    "أبنائي",
+                    "عيلتي"
+                ],
+                "meaning_en": "My family / my children / my household, depending on context."
+            },
+            "يختي": {
+                "variants_ar": [
+                    "يا أختي",
+                    "أختي"
+                ],
+                "meaning_en": "My sister / O my sister."
+            },
+            "خواني": {
+                "variants_ar": [
+                    "إخواني",
+                    "أخوتي"
+                ],
+                "meaning_en": "My brothers."
+            },
+            "المروحي": {
+                "variants_ar": [
+                    "المروحية",
+                    "الطيران المروحي",
+                    "الهليكوبتر"
+                ],
+                "meaning_en": "Helicopter."
+            },
+            "هيو فوق": {
+                "variants_ar": [
+                    "ها هو فوقنا",
+                    "هناك فوق"
+                ],
+                "meaning_en": "There it is above; deictic pointing to immediate proximity."
+            },
+            "المشلّط": {
+                "variants_ar": [
+                    "المشاكس",
+                    "المشاغب",
+                    "الباد بوي بالمزح"
+                ],
+                "meaning_en": "Joking label roughly meaning mischievous/troublemaking/bad-boy-like; exact referent depends on the speaker's context."
+            },
+            "فش": {
+                "variants_ar": [
+                    "ما فيش",
+                    "لا يوجد",
+                    "ما في"
+                ],
+                "meaning_en": "There is no; Gaza/Palestinian negation."
+            },
+            "الشباب بتشتغل": {
+                "variants_ar": [
+                    "الشباب شغالة",
+                    "الشباب مستمرة",
+                    "المجموعة تعمل"
+                ],
+                "meaning_en": "The guys are working/continuing; in this context likely the fighters are continuing their task."
+            },
+            "دير بالك": {
+                "variants_ar": [
+                    "انتبه",
+                    "خلي بالك",
+                    "اعتنِ ب"
+                ],
+                "meaning_en": "Take care / pay attention / look after."
+            },
+            "استشهد": {
+                "variants_ar": [
+                    "ارتقى شهيداً",
+                    "قُتل"
+                ],
+                "meaning_en": "Was martyred; death framed through Islamic martyrdom discourse."
+            },
+            "الله يرحمه": {
+                "variants_ar": [
+                    "رحمه الله",
+                    "الله يرحمو"
+                ],
+                "meaning_en": "May Allah have mercy on him."
+            },
+            "ربنا كاتبلنا": {
+                "variants_ar": [
+                    "إذا الله كاتب لنا",
+                    "إذا ربنا مقدّر لنا",
+                    "لو مكتوب لنا"
+                ],
+                "meaning_en": "If Allah has written/decreed for us."
+            },
+            "نروّح": {
+                "variants_ar": [
+                    "نرجع",
+                    "نعود إلى البيت"
+                ],
+                "meaning_en": "To return/go home."
+            },
+            "صلاة الغائب": {
+                "variants_ar": [
+                    "صلاة الجنازة على الغائب",
+                    "جنازة الغائب"
+                ],
+                "meaning_en": "Absentee funeral prayer for a deceased person whose body is not present."
+            },
+            "حمد": {
+                "variants_ar": [
+                    "مدينة حمد",
+                    "حمد في منطقة جنوبية في غزة"
+                ],
+                "meaning_en": "Hamad City in a southern Gaza area, according to user context."
+            },
+            "خواتك": {
+                "variants_ar": [
+                    "أخواتك",
+                    "أخواتك البنات"
+                ],
+                "meaning_en": "Your sisters."
+            },
+            "وصية مودّع": {
+                "variants_ar": [
+                    "وصية أخيرة",
+                    "رسالة وداع",
+                    "وصية شهيد"
+                ],
+                "meaning_en": "A farewell will / final testament."
+            },
+            "F16 نزل": {
+                "variants_ar": [
+                    "صاروخ F16 نازل",
+                    "صاروخ حربي",
+                    "قصف من إف 16"
+                ],
+                "meaning_en": "A missile/strike from an F16 fighter jet is coming down or has landed nearby."
+            },
+            "دِب": {
+                "variants_ar": [
+                    "بووم",
+                    "بووف",
+                    "صوت الانفجار"
+                ],
+                "meaning_en": "Onomatopoeic imitation of an explosion: boom."
+            },
+            "خليك عادي": {
+                "variants_ar": [
+                    "لا تخاف",
+                    "خليك طبيعي",
+                    "ما تخافش"
+                ],
+                "meaning_en": "Stay normal / do not panic; implies habituation to nearby explosions."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "combat_farewell_gallows_humour_divine_decree_family_responsibility",
+        "paper_fit_ar": "تمثل هذه الرواية شكلاً مختلفاً من الصمود الخطابي، حيث يظهر الصمود في لحظة وداع مقاتل محاصر لا من خلال الهدوء الكامل، بل عبر المزاح والسخرية والتطمين المقلوب. يواجه المتحدث احتمال الموت بلغة قضاء الله وصلاة الغائب، وينقل المسؤولية العائلية إلى إخوته وأبنائه، ويحوّل أصوات الطيران والصواريخ إلى مادة للضحك والتطبيع النفسي. لذلك فهي مثال مهم على الضحك كآلية تنظيم وجداني في لحظة الخطر القريب جداً.",
+        "paper_fit_en": "This narrative represents a distinct form of resilience in a combatant farewell. Resilience is not expressed as emotional calmness alone, but through gallows humour, inverted reassurance, divine-decree framing, and practical transfer of family responsibility. The speaker turns helicopters, missiles, martyrdom reports, and even absentee funeral prayer into a register of joking composure, making laughter a real-time affect-regulation strategy under immediate threat."
+    },
+    "ethical_note": {
+        "risk_level": "high_sensitivity_combatant_final_message",
+        "notes": [
+            "The narrative involves a combatant, family names, active fighting, martyrdom, and a final farewell. Treat as high sensitivity.",
+            "For public release, review whether names of family members should be pseudonymized or replaced with roles.",
+            "Avoid operational details if any are visible in the original video; the current annotation should not add tactical details beyond the user-provided text.",
+            "Do not treat the speaker’s laughter as absence of fear or trauma; annotate it as affect regulation, gallows humour, and farewell performance.",
+            "This annotation is for discourse and cultural-emotional analysis only and does not endorse or instruct violence."
+        ],
+        "recommended_public_version": "pseudonymized_family_names_and_no_operational_details"
+    },
+    "text_en_full": "Do not be reassured, my sons, my daughters, my family, my sister, and my brothers. Things are completely fine, praise be to Allah. The helicopter is right above [us], and this cheeky/troublemaking one here is coming toward me. Things are fine; Allah willing, it will end. Our situation is good; there is no problem, Allah willing. The guys are working. And Salim, my brother, take care of yourself and Tareq. Al-Wahsh was martyred, may Allah have mercy on him. And the man I had stayed with for seven months—they bombed him, he was martyred, praise be to Allah. Our situation, praise be to Allah, is good. Here we are, working. If our Lord has decreed for us to go back, we will go back. If He has not decreed it for us, you can read me goodbye—perform the absentee funeral prayer from Hamad. Take care... take care. Karim, take care of your sisters. Alright, this looks like a farewell will. Alright, my family, send my greetings to the children and take care of yourselves—Samar and Nader. Here is a missile. Stay where you are, stay where you are. An F16 [missile] came down—boom. Stay normal.",
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

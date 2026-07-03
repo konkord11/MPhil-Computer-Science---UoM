@@ -1,0 +1,236 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative05C_Pseudonymized",
+    "source_meta": {
+        "source_cluster_id": "SC05_FBWrittenTestimony_Archive",
+        "source_type": "text",
+        "source_platform": "Facebook",
+        "original_author": "Archive contributor (pseudonymised)",
+        "original_language": "ar",
+        "dialect": "Palestinian (Northern Gaza – Beit Lahia, Lahwani)",
+        "collection_context_en": "Multi-episode written testimony posted on Facebook during the War on Gaza (Al-Aqsa Flood period). Independent SABR narrative from a multi-part Facebook written testimony (War on Gaza). Six sub-narratives (Narrative05A–F) share one original post; each is processed separately.",
+        "collection_context_ar": "شهادة مكتوبة متعددة المقاطع نُشرت على فيسبوك خلال حرب غزة (فترة طوفان الأقصى). رواية SABR مستقلة من شهادة مكتوبة متعددة المقاطع على فيسبوك (حرب غزة). ست روايات فرعية (Narrative05A–F) من منشور واحد؛ تُعالَج كل منها على حدة.",
+        "fb_post_cluster": "Narrative05_FacebookFragments",
+        "fb_fragment_letter": "C"
+    },
+    "speaker_profile": {
+        "gender": "male",
+        "age_estimate": "adult",
+        "origin": "Beit Lahia, Northern Gaza"
+    },
+    "approx_context": {
+        "location": "Streets of Gaza City (post-release from Al-Amal School area)",
+        "brief_summary_en": "After prolonged naked detention in freezing conditions, the narrator is released and reunites with his mother, who had lost hope of his return. The reunion marks a collapse of despair into maternal relief.",
+        "brief_summary_ar": "بعد احتجاز طويل وهو عارٍ في البرد القارس، يُفرَج عن الراوي ويعود إلى والدته التي كانت قد فقدت الأمل بعودته، لتتحول الصدمة إلى احتضان أمومي يعيد المعنى وسط الخراب."
+    },
+    "segments": [
+        {
+            "segment_id": "Narrative05C_seg01",
+            "text_ar": "وأنا ضليتني مكلبش من أذان العصر لأذان الفجر لما أخلو سبيلي اليهود وأنا عريان وميت من السقعه ومرهق من شدة الجوع والعطش.",
+            "text_en": "I remained handcuffed from the afternoon call to prayer until the dawn call to prayer, when the Israeli soldiers released me. I was naked, freezing to the point of collapse, and exhausted from extreme hunger and thirst.",
+            "event_frame": {
+                "adversity_description": "Extended detention with physical restraint, forced nudity, exposure to freezing temperatures, and deprivation of food and water.",
+                "response_description": "Endurance of bodily suffering measured through sacred time rather than clock time."
+            },
+            "affective_signals": {
+                "affect_type": "physical_exhaustion",
+                "justification": "The narrative foregrounds bodily collapse through cold, hunger, thirst, and prolonged immobilization."
+            },
+            "contextual_markers": {
+                "cultural_markers": [
+                    {
+                        "marker": "مكلبش",
+                        "note": "Colloquial Gazan term indicating handcuffing and total loss of bodily agency."
+                    },
+                    {
+                        "marker": "ميت من السقعه",
+                        "note": "Dialectal expression where cold is framed as lethal, not merely uncomfortable."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "من أذان العصر لأذان الفجر",
+                        "note": "Use of the Muslim's call to prayer (Athan/Azan/Adhan) as a sacred temporal measure, mapping suffering onto a religious timeline."
+                    }
+                ]
+            },
+            "sabr_frame": {
+                "sabr_type": "detention_suffering_measured_by_prayer_time",
+                "features": [
+                    "handcuffing",
+                    "forced_nudity",
+                    "cold_hunger_thirst",
+                    "adhan_timeframe"
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative05C_seg02",
+            "text_ar": "رحت على أمي وأنا عريان، لقيتها نايمة في الطرقات ليس لديها شي يغطي جسدها من البرد.",
+            "text_en": "I went to my mother while still naked and found her sleeping in the streets with nothing to cover her body from the cold.",
+            "event_frame": {
+                "adversity_description": "Total collapse of shelter and safety; the mother figure rendered homeless and exposed.",
+                "response_description": "Shock arising from the reversal of protection roles."
+            },
+            "affective_signals": {
+                "affect_type": "distress",
+                "justification": "The narrator’s pain shifts from his own body to the sight of maternal vulnerability."
+            },
+            "contextual_markers": {
+                "cultural_markers": [
+                    {
+                        "marker": "نايمة في الطرقات",
+                        "note": "In Gazan culture, a mother sleeping in public space signifies extreme displacement and social rupture."
+                    }
+                ]
+            },
+            "sabr_frame": {
+                "sabr_type": "maternal_vulnerability_after_shelter_collapse",
+                "features": [
+                    "homeless_mother",
+                    "street_sleeping",
+                    "role_reversal",
+                    "cold_exposure"
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative05C_seg03",
+            "text_ar": "وعندما رأتني هلعت وأخدتني بالحضن والدموع لأنها كانت فاقدة الأمل بأني أرجع إلى أحضانها.",
+            "text_en": "When she saw me, she panicked and pulled me into her arms, crying, because she had lost all hope that I would return to her embrace.",
+            "event_frame": {
+                "adversity_description": "Maternal belief in irreversible loss following prolonged absence.",
+                "response_description": "Embrace as a protective and meaning-restoring act."
+            },
+            "affective_signals": {
+                "affect_type": "relief",
+                "justification": "The embrace marks a release from despair into survival and reunion."
+            },
+            "contextual_markers": {
+                "cultural_markers": [
+                    {
+                        "marker": "أخدتني بالحضن",
+                        "note": "The maternal embrace (ḥuḍn) functions as the last remaining form of shelter after the loss of home."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "فاقدة الأمل",
+                        "note": "Explicit articulation of hopelessness preceding the moment of reunion."
+                    }
+                ]
+            },
+            "sabr_frame": {
+                "sabr_type": "maternal_embrace_after_return_from_presumed_loss",
+                "features": [
+                    "reunion",
+                    "maternal_relief",
+                    "embrace_as_shelter",
+                    "hope_restored"
+                ]
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "مكلبش": {
+                "variants_ar": [
+                    "مقيّد",
+                    "مربوط",
+                    "مكبّل"
+                ],
+                "meaning_en": "Handcuffed / shackled.",
+                "note_ar": "لفظ دارج للتقييد وفقدان السيطرة على الجسد."
+            },
+            "ميت من السقعه": {
+                "variants_ar": [
+                    "متجمّد من البرد",
+                    "يكاد يموت من البرد"
+                ],
+                "meaning_en": "Freezing to the point of collapse/death.",
+                "note_ar": "تصوير البرد كخطر قاتل لا مجرد انزعاج."
+            },
+            "من أذان العصر لأذان الفجر": {
+                "variants_ar": [
+                    "ساعات طويلة",
+                    "من المساء حتى الصباح"
+                ],
+                "meaning_en": "From the afternoon call to prayer to the dawn call; a long sacred time interval.",
+                "note_ar": "قياس زمن المعاناة بأوقات الصلاة."
+            },
+            "نايمة في الطرقات": {
+                "variants_ar": [
+                    "بلا مأوى",
+                    "تفترش الشارع"
+                ],
+                "meaning_en": "Sleeping in the streets / without shelter.",
+                "note_ar": "انهيار المأوى وتحول الشارع إلى مكان نوم."
+            },
+            "أخدتني بالحضن": {
+                "variants_ar": [
+                    "احتضنتني بشغف",
+                    " ضمّتني بقوة"
+                ],
+                "meaning_en": "She embraced/held me tightly.",
+                "note_ar": "الحضن الأمومي كمأوى معنوي بعد فقدان البيت."
+            }
+        }
+    },
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "name_replacement_pool",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "n/a",
+        "contains_real_names": false,
+        "notes": "Facebook fragment from a six-part post; pseudonymised per Project_Research_Documentation/schemas/fragment_bundle_narrative05.json. Source fragment file: N05C_DetentionReturnToMother_TXT_FB.json. Public-release bundle: reversibility metadata stripped for GitHub."
+    },
+    "text_ar_full": "وأنا ضليتني مكلبش من أذان العصر لأذان الفجر لما أخلو سبيلي اليهود وأنا عريان وميت من السقعه ومرهق من شدة الجوع والعطش. رحت على أمي وأنا عريان، لقيتها نايمة في الطرقات ليس لديها شي يغطي جسدها من البرد. وعندما رأتني هلعت وأخدتني بالحضن والدموع لأنها كانت فاقدة الأمل بأني أرجع إلى أحضانها.",
+    "text_en_full": "I remained handcuffed from the afternoon call to prayer until the dawn call to prayer, when the Israeli soldiers released me. I was naked, freezing to the point of collapse, and exhausted from extreme hunger and thirst. I went to my mother while still naked and found her sleeping in the streets with nothing to cover her body from the cold. When she saw me, she panicked and pulled me into her arms, crying, because she had lost all hope that I would return to her embrace.",
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Gaza dialect, crisis testimony, and SABR annotation conventions."
+            }
+        ],
+        "adjudication": {
+            "status": "schema_normalized_ready_for_review",
+            "note": "Updated to ensure full Arabic and English narrative texts, SABR frames, structured lexicon, and v1.2-compatible fields."
+        },
+        "alignment_note": "Written testimony segments do not include timestamps unless present in the source. Segment order is preserved from the input JSON.",
+        "selection_policy": "All existing segments/spans are preserved as annotatable units. Full Arabic and English texts are generated from ordered units if absent.",
+        "schema_update_note": "This file was updated to include text_ar_full, text_en_full, SABR frames for all annotatable units, and structured lexicon_hints.",
+        "fb_post_sub_narrative": "Narrative05C",
+        "source_fragment_file": "N05C_DetentionReturnToMother_TXT_FB.json"
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "detention_exposure_maternal_reunion",
+        "paper_fit_ar": "تجمع الرواية بين التعذيب الجسدي بالبرد والتعرية والجوع وبين عودة الابن إلى حضن الأم. يصبح الحضن الأمومي مأوى أخيراً بعد انهيار البيت والأمان.",
+        "paper_fit_en": "This narrative combines bodily suffering through cold, nudity, hunger, and detention with the son’s return to his mother’s embrace. The maternal embrace becomes a final shelter after the collapse of home and safety."
+    },
+    "ethical_note": {
+        "risk_level": "high_sensitivity_detention_exposure_maternal_distress",
+        "notes": [
+            "Contains detention, forced nudity, exposure to cold, hunger/thirst, and maternal homelessness/distress.",
+            "Names are pseudonymized in source metadata.",
+            "Public release should preserve pseudonymization and avoid adding identifying details.",
+            "Do not use this testimony for psychological diagnosis."
+        ],
+        "recommended_public_version": "pseudonymized_public_version_with_context_review"
+    },
+    "schema_compliance_note": {
+        "version": "SABR_v1.2_prototype",
+        "updates_applied": [
+            "ensured text_ar_full",
+            "ensured text_en_full",
+            "ensured sabr_frame on every annotatable unit",
+            "normalized lexicon_hints.expected_variants",
+            "added/updated analysis_note_for_paper and ethical_note where missing"
+        ]
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

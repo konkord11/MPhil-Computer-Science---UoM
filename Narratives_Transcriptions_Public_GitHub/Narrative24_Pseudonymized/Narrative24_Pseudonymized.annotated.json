@@ -1,0 +1,462 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative24_Pseudonymized",
+    "source_meta": {
+        "source_id": "N24",
+        "source_type": "video_transcription",
+        "source_platform": "Public short video testimony",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (Gaza dialect) with elevated political rhetoric",
+        "reported_context": "A Palestinian man speaks beside the rubble of his recently bombed home, where many civilians were reportedly present. He refers to people taken to hospital, people still under the rubble, and declares refusal to be humiliated, broken, or displaced.",
+        "collection_context_en": "A survivor speaks beside the rubble of his recently bombed home. He describes uncertainty about survivors and people under the rubble, addresses Western powers sarcastically, and asserts that Palestinians will not be humiliated, broken, or forced to leave their homes.",
+        "collection_context_ar": "شاهد/ناجٍ يتحدث بجانب ركام بيته المقصوف حديثاً بعد قصف منزل كان يضم عدداً كبيراً من المدنيين. يصف عدم معرفة من بقي حياً ومن بقي تحت الركام، ثم يوجّه خطاباً ساخراً للعالم الغربي، ويؤكد رفض الذل والانكسار والرحيل عن البيت والأرض."
+    },
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "no_personal_names_present",
+        "contains_real_names": false,
+        "contains_minors": true,
+        "notes": "No personal names are given in the transcript. The narrative includes references to children, women, civilian casualties, a destroyed home, and people under rubble. For public excerpts, avoid adding identifying location or family details not present in the transcript. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "n/a"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Gaza dialect and crisis narratives."
+            }
+        ],
+        "adjudication": {
+            "status": "draft_annotation_ready_for_review",
+            "note": "Whisper output is used only for timestamps. Segment text follows the corrected user-provided transcript."
+        },
+        "alignment_note": "Timestamps are approximate and mapped from ASR boundaries; corrected Arabic text is used for analysis.",
+        "selection_policy": "Full narrative preserved. Segmentation follows discourse shifts: casualty uncertainty, family-directed survivor search, moral indictment, collective defiance, refusal to leave the destroyed home, and survival-from-rubble address."
+    },
+    "speaker_profile": {
+        "gender": "male",
+        "age_estimate": "adult",
+        "origin": "Gaza Strip / Palestinian context",
+        "role_or_status": [
+            "Civilian survivor",
+            "Eyewitness",
+            "Homeowner or resident",
+            "Public speaker after bombing"
+        ]
+    },
+    "approx_context": {
+        "brief_summary_en": "A Palestinian man speaks beside the rubble of his recently bombed home, which reportedly contained many civilians. He describes the uncertainty of who reached the hospital and who remains under the rubble, condemns Western powers with bitter sarcasm, and declares that the Palestinian people will not be humiliated, broken, or displaced. He insists that he will sleep in his destroyed home and not leave, framing return to the ruins as an act of Palestinian steadfastness against displacement.",
+        "brief_summary_ar": "يتحدث رجل فلسطيني بجانب ركام بيته المقصوف حديثاً، وكان المنزل يضم عدداً كبيراً من المدنيين بحسب روايته. يصف عدم اليقين حول من وصل إلى المستشفى ومن بقي تحت الركام، ثم يوجّه إدانة ساخرة للعالم الغربي، ويؤكد أن الشعب الفلسطيني لن يُذل ولن يُكسر ولن يرحل. يصرّ على أنه سيبيت في بيته المهدم ولن يتركه، فيتحول الرجوع إلى الركام إلى صورة من صور الثبات الفلسطيني في مواجهة التهجير."
+    },
+    "text_ar_full": "اللي طلع ع المستشفى 8، اللي بعرفه أنا 8، ولكن شو في عندي تحت؟ البيت فيه كان 200، البيت كان فيه 200، مات أطفال نساء آمنين. يعني أنا لما صارت القصف بقول مين عايش؟ بس يقول اسمه لأنه كتار، يابا مين عايش؟ يعني بكل صراحة.. هنيئاً لهذا العالم الحر، هنيئاً لأوروبا، هنيئاً للاتحاد الأوروبي، هنيئاً لأمريكا باستقوائكم على الأطفال والنساء. إذا بيعتقدوا إنو الشعب الفلسطيني سيُذل أو يُكسَر لا والله، واللهِ لن يُذل ولن يُكسَر ولن نرحل من هنا، أنا الليلة سأبات في بيتي المهدم ولن أرحل. إلا.. أنا خرجت من تحت الركام، انظر يا بايدن. كل الصواريخ والطائرات وحاملات الطائرات التي أتت إلى غزة لقتلنا، أنا خرجت من تحت الركام.",
+    "segments": [
+        {
+            "segment_id": "N24_s01",
+            "start_time": 4.8,
+            "end_time": 16.32,
+            "text_ar": "اللي طلع ع المستشفى 8، اللي بعرفه أنا 8، ولكن شو في عندي تحت؟ البيت فيه كان 200، البيت كان فيه 200، مات أطفال نساء آمنين.",
+            "text_en": "The ones who reached the hospital are eight; the ones I know of are eight. But what do I have underneath [the rubble]? The house had 200 people in it; the house had 200 people in it. Children and women civilians were killed.",
+            "event_frame": {
+                "adversity_description": "The speaker stands beside the rubble of his bombed home and reports a small known number taken to hospital while many others may remain under the rubble of a house that reportedly contained around 200 civilians, including children and women.",
+                "response_description": "He counts aloud, repeats the number of people in the house, and foregrounds the civilian status of the victims."
+            },
+            "sabr_frame": {
+                "sabr_type": "mass_casualty_accounting_under_rubble",
+                "features": [
+                    "survivor_counting",
+                    "rubble_uncertainty",
+                    "civilian_victim_framing",
+                    "repetition_of_scale"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "shock_and_moral_outrage",
+                "justification": "The repeated number '200' and the question 'what do I have underneath?' signal shock, uncertainty, and moral distress."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "اللي طلع ع المستشفى",
+                        "note": "Those who were taken/reached the hospital; colloquial phrasing."
+                    },
+                    {
+                        "marker": "شو في عندي تحت؟",
+                        "note": "What is there down there? In context, the speaker is standing beside/pointing to the rubble of his destroyed home and referring to people still underneath."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "البيت فيه كان 200، البيت كان فيه 200",
+                        "note": "Repetition emphasizes the scale of the disaster and the speaker’s disbelief."
+                    }
+                ],
+                "ethical_sensitivity_markers": [
+                    {
+                        "marker": "أطفال نساء آمنين",
+                        "note": "References children and women as civilians; quote with care in public excerpts."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N24_s02",
+            "start_time": 17.24,
+            "end_time": 28.68,
+            "text_ar": "يعني أنا لما صارت القصف بقول مين عايش؟ بس يقول اسمه لأنه كتار، يابا مين عايش؟",
+            "text_en": "When the bombing happened, I was saying: who is alive? Just say their name, because there are so many. My children, who is alive?",
+            "event_frame": {
+                "adversity_description": "Immediately after the bombing, the speaker cannot determine who survived because there are too many people affected.",
+                "response_description": "He calls out to identify survivors by name, addressing his children/family with the Gazan vocative 'يابا' and repeating the survival question."
+            },
+            "sabr_frame": {
+                "sabr_type": "survivor_identification_after_bombing",
+                "features": [
+                    "search_for_survivors",
+                    "name_calling",
+                    "family_vocative",
+                    "confusion_after_blast",
+                    "overwhelming_numbers"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "panic_and_family_directed_disorientation",
+                "justification": "Repeated questioning about who is alive, together with the fatherly vocative 'يابا', shows urgent panic, disorientation, and family-directed searching after the strike."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "مين عايش؟",
+                        "note": "Who is alive? A direct survival-check question."
+                    },
+                    {
+                        "marker": "يابا",
+                        "note": "In Gaza, a father may call his children 'يابا' as an affectionate/emotional vocative, roughly meaning 'my children' or 'my sons/daughters' in this context. It is not necessarily a literal address to the speaker’s father. Similar kinship reversal appears when an uncle addresses a nephew as 'يا خال/يا خالي'."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "بس يقول اسمه",
+                        "note": "Name-based survivor identification under mass-casualty confusion."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N24_s03",
+            "start_time": 29.5,
+            "end_time": 40.32,
+            "text_ar": "يعني بكل صراحة.. هنيئاً لهذا العالم الحر، هنيئاً لأوروبا، هنيئاً للاتحاد الأوروبي، هنيئاً لأمريكا باستقوائكم على الأطفال والنساء.",
+            "text_en": "Honestly... Congratulations to this free world; congratulations to Europe; congratulations to the European Union; congratulations to USA for overpowering children and women.",
+            "event_frame": {
+                "adversity_description": "The speaker frames the attack on civilians as enabled or tolerated by powerful international actors.",
+                "response_description": "He uses bitter sarcasm to morally indict the 'free world', Europe, the European Union, and USA."
+            },
+            "sabr_frame": {
+                "sabr_type": "sarcastic_moral_indictment_of_global_powers",
+                "features": [
+                    "bitter_sarcasm",
+                    "international_address",
+                    "civilian_protection_failure",
+                    "moral_accusation"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "anger_and_bitter_sarcasm",
+                "justification": "The repeated 'هنيئاً' is not congratulatory; it is sarcastic condemnation of power used against children and women."
+            },
+            "contextual_markers": {
+                "discourse_markers": [
+                    {
+                        "marker": "هنيئاً... هنيئاً... هنيئاً",
+                        "note": "Repetition creates a sarcastic indictment rather than genuine praise."
+                    },
+                    {
+                        "marker": "العالم الحر",
+                        "note": "Politically charged phrase used ironically to challenge the moral claims of Western powers."
+                    }
+                ],
+                "cultural_political_markers": [
+                    {
+                        "marker": "باستقوائكم على الأطفال والنساء",
+                        "note": "Accuses powerful actors of overpowering vulnerable civilians."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N24_s04",
+            "start_time": 41.1,
+            "end_time": 52.67,
+            "text_ar": "إذا بيعتقدوا إنو الشعب الفلسطيني سيُذل أو يُكسَر لا والله، واللهِ لن يُذل ولن يُكسَر ولن نرحل من هنا.",
+            "text_en": "If they think the Palestinian people will be humiliated or broken—no, by Allah. By Allah, they will not be humiliated, they will not be broken, and we will not leave here.",
+            "event_frame": {
+                "adversity_description": "The speaker addresses attempts to humiliate, break, or displace the Palestinian people.",
+                "response_description": "He rejects humiliation, breaking, and displacement through oath-based collective defiance."
+            },
+            "sabr_frame": {
+                "sabr_type": "collective_defiance_against_humiliation_and_displacement",
+                "features": [
+                    "refusal_of_humiliation",
+                    "refusal_of_brokenness",
+                    "refusal_to_leave",
+                    "collective_identity",
+                    "oath_intensification"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "defiant_resolve",
+                "justification": "The oath 'والله' and repeated negations 'لن' strongly assert steadfastness and refusal to be displaced."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "لا والله، واللهِ",
+                        "note": "Oath by Allah; intensifies certainty and moral seriousness."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "لن يُذل ولن يُكسَر ولن نرحل",
+                        "note": "Parallel negation sequence; central resilience/steadfastness (sumud) formulation."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "الشعب الفلسطيني",
+                        "note": "Shifts from individual survivor to collective national identity."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N24_s05",
+            "start_time": 52.67,
+            "end_time": 60.02,
+            "text_ar": "أنا الليلة سأبات في بيتي المهدم ولن أرحل. إلا.. أنا خرجت من تحت الركام.",
+            "text_en": "Tonight I will sleep in my destroyed home, and I will not leave. I came out from under the rubble.",
+            "event_frame": {
+                "adversity_description": "The speaker’s home has just been destroyed, people have died or remain under its rubble, and the place is still unsafe.",
+                "response_description": "He declares that he will spend the night in the destroyed home and refuses to leave it, turning return to the ruins into an act of steadfastness against displacement."
+            },
+            "sabr_frame": {
+                "sabr_type": "sumud_in_destroyed_home_against_displacement",
+                "features": [
+                    "destroyed_home",
+                    "sleeping_in_rubble",
+                    "refusal_to_leave",
+                    "return_to_ruins",
+                    "anti_displacement_sumud",
+                    "survival_from_rubble"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "steadfast_attachment_and_defiant_sumud",
+                "justification": "Choosing to sleep in the destroyed home after surviving its rubble expresses attachment to place and refusal of forced displacement, a recurring Palestinian form of sumud."
+            },
+            "contextual_markers": {
+                "cultural_markers": [
+                    {
+                        "marker": "بيتي المهدم",
+                        "note": "The destroyed home is not only evidence of loss; it becomes a site of attachment, return, and refusal of displacement."
+                    },
+                    {
+                        "marker": "سأبات في بيتي المهدم",
+                        "note": "A strong sumud marker: Palestinians often return to or remain near their homes even after destruction, refusing displacement as long as possible."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "لن أرحل",
+                        "note": "Explicit anti-displacement declaration, tied specifically to refusing to leave the destroyed home."
+                    },
+                    {
+                        "marker": "خرجت من تحت الركام",
+                        "note": "Survival-from-rubble statement; becomes evidence of endurance."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N24_s06",
+            "start_time": 60.86,
+            "end_time": 70.6,
+            "text_ar": "انظر يا بايدن. كل الصواريخ والطائرات وحاملات الطائرات التي أتت إلى غزة لقتلنا، أنا خرجت من تحت الركام.",
+            "text_en": "Look, Biden. All the missiles, aircraft, and aircraft carriers that came to Gaza to kill us—I came out from under the rubble.",
+            "event_frame": {
+                "adversity_description": "The speaker references massive military power—missiles, aircraft, and aircraft carriers—brought to Gaza to kill them.",
+                "response_description": "He directly addresses Biden and repeats that he emerged from under the rubble, turning survival into defiant testimony."
+            },
+            "sabr_frame": {
+                "sabr_type": "survival_as_defiant_testimony_to_power",
+                "features": [
+                    "direct_address_to_power",
+                    "military_asymmetry",
+                    "survival_refrain",
+                    "witnessing_after_rubble"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "defiance_and_moral_challenge",
+                "justification": "The direct address to Biden and repetition of survival challenges the power of weapons to erase the speaker."
+            },
+            "contextual_markers": {
+                "political_markers": [
+                    {
+                        "marker": "انظر يا بايدن",
+                        "note": "Direct address to a named political leader (Joe Biden - US President at the time of the interview); functions as public accusation and witnessing."
+                    },
+                    {
+                        "marker": "الصواريخ والطائرات وحاملات الطائرات",
+                        "note": "Lists overwhelming military force to contrast with the survivor’s emergence from rubble."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "أنا خرجت من تحت الركام",
+                        "note": "Repeated refrain; frames survival itself as resistance and testimony."
+                    }
+                ]
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "طلع ع المستشفى": {
+                "variants_ar": [
+                    "وصل المستشفى",
+                    "راح على المستشفى",
+                    "تم نقله إلى المستشفى"
+                ],
+                "meaning_en": "Reached / was taken to the hospital."
+            },
+            "شو في عندي تحت": {
+                "variants_ar": [
+                    "ماذا يوجد تحت الركام",
+                    "مين لسه تحت",
+                    "مين تحت البيت المقصوف"
+                ],
+                "meaning_en": "What/who is still under the rubble at my place."
+            },
+            "الركام": {
+                "variants_ar": [
+                    "الأنقاض",
+                    "تحت البيت المهدم",
+                    "الردم"
+                ],
+                "meaning_en": "Rubble / debris of a destroyed building."
+            },
+            "مين عايش": {
+                "variants_ar": [
+                    "من بقي حياً",
+                    "مين لسة حي",
+                    "من نجا"
+                ],
+                "meaning_en": "Who is alive / who survived."
+            },
+            "يابا": {
+                "variants_ar": [
+                    "يا أولادي",
+                    "يا ولادي",
+                    "يا أبنائي"
+                ],
+                "meaning_en": "Gazan affectionate/emotional vocative. Although literally related to 'father', a father can use it to call his children, similar to 'my children' or 'my sons/daughters' in context.",
+                "note_ar": "في غزة ممكن الأب ينادي أبناءه بـ'يابا' بمعنى يا أولادي/يا ولادي او يا ايني او بنتي، وليس المقصود دائماً الأب حرفياً. وهذا من استعمالات القرابة العكسية الشائعة، مثل أن الخال يقول لابن أخته يا خال أو يا خالي."
+            },
+            "هنيئاً": {
+                "variants_ar": [
+                    "مبروك عليكم",
+                    "تهانينا"
+                ],
+                "meaning_en": "Congratulations; used sarcastically here as moral condemnation."
+            },
+            "العالم الحر": {
+                "variants_ar": [
+                    "العالم الغربي",
+                    "الدول التي تدعي الحرية"
+                ],
+                "meaning_en": "The free world; used ironically to criticize Western moral claims."
+            },
+            "استقوائكم": {
+                "variants_ar": [
+                    "تجبّركم",
+                    "قوتكم على الضعفاء",
+                    "استعراض القوة"
+                ],
+                "meaning_en": "Overpowering / using superior force against the vulnerable."
+            },
+            "سيُذل": {
+                "variants_ar": [
+                    "سينذل",
+                    "ينهان",
+                    "يُهان"
+                ],
+                "meaning_en": "Will be humiliated."
+            },
+            "يُكسَر": {
+                "variants_ar": [
+                    "ينكسر",
+                    "تُكسر إرادته",
+                    "ينهزم نفسيا"
+                ],
+                "meaning_en": "Will be broken; psychologically or collectively defeated."
+            },
+            "لن نرحل": {
+                "variants_ar": [
+                    "مش رح نطلع",
+                    "لن نغادر",
+                    "لن نترك المكان"
+                ],
+                "meaning_en": "We will not leave; refusal of displacement."
+            },
+            "سأبات في بيتي المهدم": {
+                "variants_ar": [
+                    "سأنام في بيتي المدمر",
+                    "سأبقى في البيت المهدم",
+                    "سأقضي الليل في منزلي المهدوم",
+                    "لن أترك بيتي ولو كان مهدماً"
+                ],
+                "meaning_en": "I will spend the night in my destroyed home; an anti-displacement and home-attachment stance.",
+                "note_ar": "ليست مجرد جملة وصفية، بل علامة صمود مكاني: البقاء أو الرجوع إلى البيت المهدّم رغم القصف والخطر، ورفض ترك المكان بما يخدم مخططات التهجير."
+            },
+            "خرجت من تحت الركام": {
+                "variants_ar": [
+                    "طلعت من تحت الأنقاض",
+                    "نجوت من تحت الركام",
+                    "خرجت حيا من تحت البيت المدمر",
+                    "نجوت من قصف المنزل"
+                ],
+                "meaning_en": "I came out from under the rubble / survived the rubble."
+            },
+            "حاملات الطائرات": {
+                "variants_ar": [
+                    "البوارج الحربية",
+                    "القوات البحرية الضخمة"
+                ],
+                "meaning_en": "Aircraft carriers; symbol of overwhelming military power."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "rubble_survival_refusal_to_leave_collective_defiance",
+        "paper_fit_ar": "تمثل هذه الرواية مثالاً مركزياً على الصمود بوصفه رفضاً للذل والانكسار والتهجير بعد النجاة من تحت الركام. يبدأ المتحدث من عدّ الناجين والمفقودين تحت بيته المقصوف، ثم ينتقل إلى اتهام ساخر للعالم الغربي، قبل أن يصوغ عبارة صمود واضحة: لن يُذل الشعب الفلسطيني، ولن يُكسر، ولن يرحل. يصبح البيت المهدم هنا مكاناً للثبات لا مجرد أثر للدمار: فإصراره على المبيت في بيته المهدم وعدم الرحيل منه يعكس ممارسة فلسطينية متكررة للعودة إلى البيوت أو ما تبقى منها، ومقاومة مشاريع التهجير عبر التمسك بالمكان حتى بعد تدميره. وتكرار عبارة 'خرجت من تحت الركام' يحوّل النجاة نفسها إلى شهادة وتحدٍّ أخلاقي للقوة العسكرية.",
+        "paper_fit_en": "This narrative is a central example of resilience as refusal of humiliation, brokenness, and displacement after survival from rubble. The speaker moves from counting survivors and unknown victims beneath his bombed home to a sarcastic indictment of Western powers, then formulates an explicit resilience claim: Palestinians will not be humiliated, broken, or forced to leave. The destroyed home becomes a site of steadfast attachment rather than only a trace of destruction: his insistence on sleeping in the ruined home and not leaving reflects a recurring Palestinian practice of returning to homes or what remains of them, resisting displacement through attachment to place. The repeated phrase 'I came out from under the rubble' turns survival itself into testimony and moral defiance."
+    },
+    "ethical_note": {
+        "risk_level": "high_sensitivity_mass_casualty_rubble_testimony",
+        "notes": [
+            "The narrative includes mass-casualty claims, children and women as victims, a destroyed home, and people potentially under rubble.",
+            "No personal names are present, but public release should avoid adding location/family identifiers not present in the source.",
+            "Numerical claims such as 8 and 200 should be treated as speaker-reported, not independently verified, unless corroborated elsewhere.",
+            "Do not use the testimony for psychological diagnosis; annotation should remain focused on discourse structure, adversity framing, response strategies, cultural markers, and affective signal.",
+            "Graphic or casualty-related excerpts should be quoted minimally and only when analytically necessary."
+        ],
+        "recommended_public_version": "safe_for_deidentified_release_after_source_review"
+    },
+    "text_en_full": "The ones who reached the hospital are eight; the ones I know of are eight. But what do I have underneath [the rubble]? The house had 200 people in it; the house had 200 people in it. Children and women civilians were killed. When the bombing happened, I was saying: who is alive? Just say their name, because there are so many. My children, who is alive? Honestly... Congratulations to this free world; congratulations to Europe; congratulations to the European Union; congratulations to USA for overpowering children and women. If they think the Palestinian people will be humiliated or broken—no, by Allah. By Allah, they will not be humiliated, they will not be broken, and we will not leave here. Tonight I will sleep in my destroyed home, and I will not leave. I came out from under the rubble. Look, Biden. All the missiles, aircraft, and aircraft carriers that came to Gaza to kill us—I came out from under the rubble.",
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

@@ -1,0 +1,242 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative05E_Pseudonymized",
+    "source_meta": {
+        "source_cluster_id": "SC05_FBWrittenTestimony_Archive",
+        "source_type": "text",
+        "source_platform": "Facebook",
+        "original_author": "Archive contributor (pseudonymised)",
+        "original_language": "ar",
+        "dialect": "Palestinian (Northern Gaza – Beit Lahia, Lahwani)",
+        "collection_context_en": "Multi-episode written testimony posted on Facebook during the War on Gaza (Al-Aqsa Flood period). Independent SABR narrative from a multi-part Facebook written testimony (War on Gaza). Six sub-narratives (Narrative05A–F) share one original post; each is processed separately.",
+        "collection_context_ar": "شهادة مكتوبة متعددة المقاطع نُشرت على فيسبوك خلال حرب غزة (فترة طوفان الأقصى). رواية SABR مستقلة من شهادة مكتوبة متعددة المقاطع على فيسبوك (حرب غزة). ست روايات فرعية (Narrative05A–F) من منشور واحد؛ تُعالَج كل منها على حدة.",
+        "fb_post_cluster": "Narrative05_FacebookFragments",
+        "fb_fragment_letter": "E"
+    },
+    "speaker_profile": {
+        "gender": "male",
+        "age_estimate": "adult",
+        "origin": "Beit Lahia, Northern Gaza"
+    },
+    "approx_context": {
+        "location": "Streets of Gaza City (near displacement routes)",
+        "brief_summary_en": "The narrator recounts the final moments with his close friend Imad, who is critically wounded by shelling. Under sniper threat, the narrator retrieves him and remains by his side, guiding him through the Shahada at the moment of death.",
+        "brief_summary_ar": "يروي الراوي آخر لحظاته مع صديقه عماد قبل إصابته بقذيفة. تحت خطر القناص يسحبه إلى مكان أكثر أماناً، ويبقى بجانبه وهو ينازع، ثم يلقنه الشهادتين في لحظة الموت."
+    },
+    "segments": [
+        {
+            "segment_id": "N05E_seg01",
+            "text_ar": "وأنا أمشي معه ولا أعلم أنها آخر ساعات ودقائق وتواني لي مع صديقي عماد. أفطرنا أنا وعماد، وجلسنا نتبادل الهموم والحكايات، وآخر حديثنا قال لي عماد: سأذهب إلى مكان وأرجعلك.",
+            "text_en": "I was walking with him, unaware that these were my final hours, minutes, and seconds with my friend Imad. Imad and I had breakfast together, and we sat exchanging worries and stories. At the end of our conversation, Imad said to me: ‘I’m going somewhere and I’ll come back to you.’",
+            "event_frame": {
+                "adversity_description": "Fragile normalcy preceding sudden loss; the cruelty of ordinary moments before catastrophe.",
+                "response_description": "Social bonding and mutual sharing of burdens as a stabilizing practice."
+            },
+            "affective_signals": {
+                "affect_type": "attachment_closeness",
+                "justification": "Shared meals and exchange of worries indicate emotional closeness that amplifies later trauma."
+            },
+            "contextual_markers": {
+                "cultural_markers": [
+                    {
+                        "marker": "نتبادل الهموم والحكايات",
+                        "note": "Sharing worries as a collective coping practice; emotional survival through companionship."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "Retrospective framing",
+                        "note": "The narrator frames the moment as meaningful only in hindsight, signaling narrative rupture."
+                    }
+                ]
+            },
+            "sabr_frame": {
+                "sabr_type": "ordinary_companionship_before_final_loss",
+                "features": [
+                    "shared_meal",
+                    "friendship",
+                    "exchange_of_worries",
+                    "retrospective_last_moments"
+                ]
+            }
+        },
+        {
+            "segment_id": "N05E_seg02",
+            "text_ar": "مسافة ما ذهب عماد، أُلقيت قذيفة بجانبه. جاء صديقي فادي البحيري يقول لي: عماد تصاوب، روحله شوفه قبل ما يستشهد. رحت لعماد وهوه مرمي في الطريق، لا أحد قادر يوصله لأنه في قنّاص.",
+            "text_en": "Shortly after Imad left, a shell landed beside him. My friend Fadi al-Bahri came and told me: ‘Imad has been hit—go see him before he is martyred.’ I went to Imad and found him lying in the road; no one could reach him because of a sniper.",
+            "event_frame": {
+                "adversity_description": "Sudden shelling followed by enforced immobility due to sniper threat.",
+                "response_description": "Urgent call to witness and respond despite extreme danger."
+            },
+            "affective_signals": {
+                "affect_type": "panic_urgency",
+                "justification": "Immediate escalation from normalcy to life-threatening emergency."
+            },
+            "contextual_markers": {
+                "cultural_markers": [
+                    {
+                        "marker": "روحله شوفه قبل ما يستشهد",
+                        "note": "Urgent call to be present at the moment of death; witnessing as a communal and moral duty."
+                    }
+                ],
+                "trauma_markers": [
+                    {
+                        "marker": "Sniper zone",
+                        "note": "Spaces where rescue becomes lethal, intensifying moral injury."
+                    }
+                ]
+            },
+            "sabr_frame": {
+                "sabr_type": "urgent_rescue_under_shelling_and_sniper_threat",
+                "features": [
+                    "shelling",
+                    "friend_wounded",
+                    "sniper_zone",
+                    "moral_urgency"
+                ]
+            }
+        },
+        {
+            "segment_id": "N05E_seg03",
+            "text_ar": "فذهبت بسرعة وسحبت عماد إلى مكان آمن نوعًا ما، وهوه ينازع وينظر بعيني ويودّعني. فقلت له: انطق الشهادتين يا عماد. فنطق الشهادتين مرتين، وصعدت روحه إلى السماء.",
+            "text_en": "I rushed over and dragged Imad to a place that was somewhat safer. He was struggling for his life, looking into my eyes as if saying goodbye. I told him: ‘Recite the Shahada, Imad.’ He recited it twice, and his soul rose to the sky.",
+            "event_frame": {
+                "adversity_description": "Imminent death under direct threat; bodily collapse at the limits of rescue.",
+                "response_description": "Spiritual accompaniment and guidance at the moment of death."
+            },
+            "affective_signals": {
+                "affect_type": "sacred_grief",
+                "justification": "Grief intertwined with religious meaning-making and moral agency."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "انطق الشهادتين",
+                        "note": "Guiding the dying to recite the Shahada (There is no god but Allah); an act of religious care and ultimate companionship."
+                    },
+                    {
+                        "marker": "صعدت روحه إلى السماء",
+                        "note": "Faith-based framing of death as return to Allah, transforming loss into spiritual transition."
+                    }
+                ],
+                "relational_markers": [
+                    {
+                        "marker": "النظر في العين / الوداع",
+                        "note": "Non-verbal farewell marking final human connection."
+                    }
+                ]
+            },
+            "sabr_frame": {
+                "sabr_type": "spiritual_accompaniment_at_moment_of_death",
+                "features": [
+                    "dragging_to_safer_place",
+                    "dying_friend",
+                    "shahada_prompt",
+                    "soul_to_sky"
+                ]
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "نتبادل الهموم": {
+                "variants_ar": [
+                    "نشارك همومنا",
+                    "نحكي عن وجعنا لبعضنا البعض"
+                ],
+                "meaning_en": "We share/exchange worries.",
+                "note_ar": "ممارسة تضامن عاطفي بين الأصدقاء."
+            },
+            "تصاوب": {
+                "variants_ar": [
+                    "انصاب",
+                    "أُصيب"
+                ],
+                "meaning_en": "Was hit / wounded.",
+                "note_ar": "لهجة فلسطينية بمعنى أُصيب."
+            },
+            "مرمي في الطريق": {
+                "variants_ar": [
+                    "ملقى على الأرض",
+                    "ساقط في الشارع"
+                ],
+                "meaning_en": "Lying/thrown on the road.",
+                "note_ar": "وصف انكشاف الجسد وعدم القدرة على الإسعاف."
+            },
+            "انطق الشهادتين": {
+                "variants_ar": [
+                    "قل الشهادة",
+                    "ردد الشهادة"
+                ],
+                "meaning_en": "Recite the two testimonies of faith.",
+                "note_ar": "تلقين الشهادة للمحتضر كرفقة دينية أخيرة."
+            },
+            "صعدت روحه إلى السماء": {
+                "variants_ar": [
+                    "توفي",
+                    "انتقل إلى رحمة الله",
+                    "استشهد"
+                ],
+                "meaning_en": "His soul rose to the sky; faith-based death transition.",
+                "note_ar": "تأطير ديني للموت كارتقاء/عودة إلى الله."
+            }
+        }
+    },
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "name_replacement_pool",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "n/a",
+        "contains_real_names": false,
+        "notes": "Facebook fragment from a six-part post; pseudonymised per Project_Research_Documentation/schemas/fragment_bundle_narrative05.json. Source fragment file: N05E_Imad_TXT_FB.json. Public-release bundle: reversibility metadata stripped for GitHub."
+    },
+    "text_ar_full": "وأنا أمشي معه ولا أعلم أنها آخر ساعات ودقائق وتواني لي مع صديقي عماد. أفطرنا أنا وعماد، وجلسنا نتبادل الهموم والحكايات، وآخر حديثنا قال لي عماد: سأذهب إلى مكان وأرجعلك. مسافة ما ذهب عماد، أُلقيت قذيفة بجانبه. جاء صديقي فادي البحيري يقول لي: عماد تصاوب، روحله شوفه قبل ما يستشهد. رحت لعماد وهوه مرمي في الطريق، لا أحد قادر يوصله لأنه في قنّاص. فذهبت بسرعة وسحبت عماد إلى مكان آمن نوعًا ما، وهوه ينازع وينظر بعيني ويودّعني. فقلت له: انطق الشهادتين يا عماد. فنطق الشهادتين مرتين، وصعدت روحه إلى السماء.",
+    "text_en_full": "I was walking with him, unaware that these were my final hours, minutes, and seconds with my friend Imad. Imad and I had breakfast together, and we sat exchanging worries and stories. At the end of our conversation, Imad said to me: ‘I’m going somewhere and I’ll come back to you.’ Shortly after Imad left, a shell landed beside him. My friend Fadi al-Bahri came and told me: ‘Imad has been hit—go see him before he is martyred.’ I went to Imad and found him lying in the road; no one could reach him because of a sniper. I rushed over and dragged Imad to a place that was somewhat safer. He was struggling for his life, looking into my eyes as if saying goodbye. I told him: ‘Recite the Shahada, Imad.’ He recited it twice, and his soul rose to the sky.",
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Gaza dialect, crisis testimony, and SABR annotation conventions."
+            }
+        ],
+        "adjudication": {
+            "status": "schema_normalized_ready_for_review",
+            "note": "Updated to ensure full Arabic and English narrative texts, SABR frames, structured lexicon, and v1.2-compatible fields."
+        },
+        "alignment_note": "Written testimony segments do not include timestamps unless present in the source. Segment order is preserved from the input JSON.",
+        "selection_policy": "All existing segments/spans are preserved as annotatable units. Full Arabic and English texts are generated from ordered units if absent.",
+        "schema_update_note": "This file was updated to include text_ar_full, text_en_full, SABR frames for all annotatable units, and structured lexicon_hints.",
+        "fb_post_sub_narrative": "Narrative05E",
+        "source_fragment_file": "N05E_Imad_TXT_FB.json"
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "friendship_final_moments_shahada",
+        "paper_fit_ar": "تقدم الرواية الصداقة بوصفها إطاراً للصمود؛ من تبادل الهموم إلى سحب الصديق المصاب وتلقينه الشهادة. هنا تصبح الرفقة الدينية والأخلاقية آخر استجابة ممكنة أمام الموت.",
+        "paper_fit_en": "The narrative frames friendship as a form of resilience, moving from shared worries to dragging the wounded friend to relative safety and prompting the Shahada. Religious and moral companionship becomes the final possible response to death."
+    },
+    "ethical_note": {
+        "risk_level": "high_sensitivity_friend_death_shahada",
+        "notes": [
+            "Contains death of a close friend, shelling, sniper threat, and final moments before death.",
+            "Names are pseudonymized in source metadata.",
+            "Religious death-care expressions should be interpreted as meaning-making, not absence of distress.",
+            "Do not use this testimony for psychological diagnosis."
+        ],
+        "recommended_public_version": "pseudonymized_public_version_with_context_review"
+    },
+    "schema_compliance_note": {
+        "version": "SABR_v1.2_prototype",
+        "updates_applied": [
+            "ensured text_ar_full",
+            "ensured text_en_full",
+            "ensured sabr_frame on every annotatable unit",
+            "normalized lexicon_hints.expected_variants",
+            "added/updated analysis_note_for_paper and ethical_note where missing"
+        ]
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

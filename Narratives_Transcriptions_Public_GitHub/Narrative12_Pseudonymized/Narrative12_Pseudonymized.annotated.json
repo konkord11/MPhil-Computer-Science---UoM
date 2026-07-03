@@ -16,7 +16,7 @@
         "strategy": "name_replacement_pool",
         "replacement_scope": "within_dataset_consistent",
         "contains_real_names": false,
-        "notes": "Pseudonymised public-release bundle. Internal reversibility metadata was removed for GitHub. Pool: Gaza_NamePool_v1.",
+        "notes": "Person names and identifying tokens in this tree are replaced using Gaza_NamePool_v1 with dataset-consistent mappings. Original strings are retained only in Narratives_Transcriptions. Follow Project_Research_Documentation/protocols/mphil_uom_ethics_and_governance.txt for storage, consent scope, and thesis use. Public-release bundle: reversibility metadata stripped for GitHub.",
         "pool_id": "Gaza_NamePool_v1"
     },
     "annotation_meta": {
@@ -455,6 +455,7 @@
             }
         }
     },
+    "text_en_full": "I told him: 'No, he’s not martyred… I felt breath in him…' (A nearby woman consoles her)'Praise be to Allah.' They bombed our neighbors’ yard… I called, 'Tariq… get in the car… save yourself… we’ll come running behind you.' We reached the car… in a blink… they hit us… I looked out to the street… martyrs… torn apart… blood. Here we hid under… under the car… my sisters ran to my grandma’s house… me and my brother stayed alone. The first thing was: my mom and sister were injured… we didn’t know… they went to treat themselves… and as mom was going, she saw we were okay. Then another strike happened… he shouted at me… I started screaming… he said: 'sister, don’t scream… you’re okay'… then they hit us again… this is the third one… I found Tariq on the ground… 'no, my dear… you told me I’m okay.' I stood at the roundabout… there were about 30 or more… martyrs torn apart… blood… I went to the roundabout and shouted at them [people on the ground]: 'Hey, get up and help us!'… my brother in my hands… no one answered me… no one answered me. I told my uncle… I grabbed him and said: 'uncle, it’s just me and you'… he carried him [Tariq] from the chest and I carried him from the legs… we kept walking… 100, 200 meters… there’s no transport here… I told my uncle: 'it doesn’t matter[exaution from the long distance], Tariq still has breath.' We went to the hospital… they put him on the bed… the doctor didn’t even come close… they said: 'he’s martyred'… I said: 'no… I felt breath in him'… I brought another doctor… he checked his eyes… said: 'sister, his eyes are turned'… 'there’s no soul[life] in him'… I begged another one: 'please, one last time—check his pulse, do CPR, do anything'… he said: 'sister, your brother died… your brother was martyred.'",
     "public_release": {
         "intended_use": "public_github",
         "reversibility_in_bundle": false

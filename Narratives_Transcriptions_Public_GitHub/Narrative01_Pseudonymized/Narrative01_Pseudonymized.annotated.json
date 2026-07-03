@@ -15,7 +15,7 @@
         "is_pseudonymized": false,
         "strategy": "retain_source_as_provided",
         "replacement_scope": "n/a",
-        "contains_real_names": "none_detected",
+        "contains_real_names": false,
         "notes": "No personal names, surnames, or uniquely identifying individual details are explicitly present in the narrative text. Public-release bundle: reversibility metadata stripped for GitHub.",
         "pool_id": "Gaza_NamePool_v1"
     },
@@ -31,7 +31,9 @@
             "status": "single_pass_aligned",
             "note": "Schema upgraded from v1.1 to v1.2 while preserving original timing boundaries and meaning."
         },
-        "alignment_note": "Span timestamps follow original segment-level timings and are kept approximate to source ASR boundaries."
+        "alignment_note": "Span timestamps follow original segment-level timings and are kept approximate to source ASR boundaries.",
+        "selection_policy": "All existing segments/spans are preserved as annotatable units. Full Arabic and English texts are generated from ordered units if absent.",
+        "schema_update_note": "This file was updated to include text_ar_full, text_en_full, SABR frames for all annotatable units, and structured lexicon_hints."
     },
     "speaker_profile": {
         "gender": "female",
@@ -76,6 +78,15 @@
                                 "note": "Martyrdom framing (Shahada) in Palestinian war-loss discourse."
                             }
                         ]
+                    },
+                    "sabr_frame": {
+                        "sabr_type": "total_family_loss_martyrdom_frame",
+                        "features": [
+                            "complete_family_loss",
+                            "martyrdom_language",
+                            "catastrophic_opening",
+                            "direct_testimony"
+                        ]
                     }
                 },
                 {
@@ -105,6 +116,15 @@
                                 "note": "Identity compression into sole-survivor status."
                             }
                         ]
+                    },
+                    "sabr_frame": {
+                        "sabr_type": "sole_survivor_identity_after_family_loss",
+                        "features": [
+                            "sole_survivor",
+                            "repetition",
+                            "survivor_isolation",
+                            "interviewer_confirmation"
+                        ]
                     }
                 },
                 {
@@ -133,6 +153,15 @@
                                 "marker": "بهار رز",
                                 "note": "Everyday cooking item emphasizing domestic normalcy before the strike."
                             }
+                        ]
+                    },
+                    "sabr_frame": {
+                        "sabr_type": "ordinary_domestic_routine_before_catastrophe",
+                        "features": [
+                            "routine_errand",
+                            "maternal_instruction",
+                            "domestic_normalcy",
+                            "abrupt_rupture"
                         ]
                     }
                 },
@@ -167,6 +196,15 @@
                                 "note": "Residential block as social/familial living unit."
                             }
                         ]
+                    },
+                    "sabr_frame": {
+                        "sabr_type": "return_to_destroyed_block_and_shock",
+                        "features": [
+                            "residential_block_collapse",
+                            "near_miss",
+                            "visual_shock",
+                            "spatial_deixis"
+                        ]
                     }
                 },
                 {
@@ -193,6 +231,15 @@
                                 "marker": "طلعولي",
                                 "note": "Bring out for me (urgent rescue request)."
                             }
+                        ]
+                    },
+                    "sabr_frame": {
+                        "sabr_type": "maternal_rescue_plea_under_rubble_uncertainty",
+                        "features": [
+                            "mother_focus",
+                            "urgent_rescue_request",
+                            "rubble_uncertainty",
+                            "panic_repetition"
                         ]
                     }
                 },
@@ -227,6 +274,15 @@
                                 "note": "Colloquial for 'still remaining for me'."
                             }
                         ]
+                    },
+                    "sabr_frame": {
+                        "sabr_type": "kinship_loss_mutilation_and_unresolved_rubble",
+                        "features": [
+                            "family_members_recovered",
+                            "mutilated_bodies",
+                            "martyrdom_frame",
+                            "brother_under_rubble"
+                        ]
                     }
                 },
                 {
@@ -256,6 +312,15 @@
                                 "note": "Rhetorical closure marker indicating limit of narratable pain."
                             }
                         ]
+                    },
+                    "sabr_frame": {
+                        "sabr_type": "collective_exhaustion_and_war_end_plea",
+                        "features": [
+                            "rhetorical_closure",
+                            "public_appeal",
+                            "civilian_exhaustion",
+                            "collective_suffering"
+                        ]
                     }
                 }
             ]
@@ -269,7 +334,8 @@
                     "هون",
                     "هان"
                 ],
-                "meaning_en": "Here (North Gaza deictic variants)."
+                "meaning_en": "Here (North Gaza deictic variants).",
+                "note_ar": "إشارة مكانية في لهجة شمال غزة."
             },
             "بهار رز": {
                 "variants_ar": [
@@ -277,21 +343,24 @@
                     "نوع من البهارات",
                     "توابل"
                 ],
-                "meaning_en": "Rice seasoning / spice mix for rice."
+                "meaning_en": "Rice seasoning / spice mix for rice.",
+                "note_ar": "تفصيل منزلي يومي يبرز عادية اللحظة قبل القصف."
             },
             "الشيّالة": {
                 "variants_ar": [
                     "نقالة",
                     "حمالة"
                 ],
-                "meaning_en": "Emergency stretcher."
+                "meaning_en": "Emergency stretcher.",
+                "note_ar": "لفظ دارج للنقالة/الحمالة في سياق الإسعاف."
             },
             "الدار": {
                 "variants_ar": [
                     "البيت",
                     "المنزل"
                 ],
-                "meaning_en": "Home / house."
+                "meaning_en": "Home / house.",
+                "note_ar": "البيت بوصفه وحدة عائلية ومكانية."
             },
             "حقّتهم / حقّيتهم": {
                 "variants_ar": [
@@ -299,7 +368,8 @@
                     "يجب عليهم",
                     "المفروض أنهم"
                 ],
-                "meaning_en": "They ought to / they should."
+                "meaning_en": "They ought to / they should.",
+                "note_ar": "تعبير في شمال غزة بمعنى المفروض/يجب."
             },
             "فيش": {
                 "variants_ar": [
@@ -307,7 +377,8 @@
                     "ما في",
                     "لا يوجد"
                 ],
-                "meaning_en": "There is no / none."
+                "meaning_en": "There is no / none.",
+                "note_ar": "نفي غزّي يدل على انعدام الشيء."
             },
             "خبطوا": {
                 "variants_ar": [
@@ -315,16 +386,44 @@
                     "ضربوا",
                     "استهدفوا"
                 ],
-                "meaning_en": "They struck / bombed."
+                "meaning_en": "They struck / bombed.",
+                "note_ar": "فعل دارج للقصف أو الضرب."
             },
             "ضايل لي": {
                 "variants_ar": [
                     "باقي لي",
                     "متبقي لي"
                 ],
-                "meaning_en": "Still remaining for me."
+                "meaning_en": "Still remaining for me.",
+                "note_ar": "تعبير دارج يدل على البقية المتبقية من العائلة/الأشياء."
             }
         }
+    },
+    "text_en_full": "Twenty days ago, my entire family was martyred (killed). \"All your family were martyred?\" the interviewer asked. \"All my family... no one remained except me.\" I was my family's only survivor. It was five minutes before the strike. My mother told me: \"Go to the shop and buy rice seasoning so I can cook.\" I followed what my mother told me. I had just reached the shop from here. They hit the block while I was outside the house. When I returned home from there, I found the whole block collapsed. I mean... I was shocked. I kept telling them: \"There is no one!\" People asked: \"Who in the house was martyred for you?\" I kept saying: \"No one in the house except my mother. Just bring my mother out.\" They brought my aunt out on the stretcher. I said: they are surely all martyrs. They brought out my mother torn apart. My father torn apart. My little sister torn apart. My brother... one brother is still under the rubble. What more can I tell you than this? They should... really stop this war for us. People cannot bear to keep living like this.",
+    "analysis_note_for_paper": {
+        "theme_tag": "sole_survivor_family_loss_domestic_routine_to_rubble",
+        "paper_fit_ar": "تمثل هذه الرواية مثالاً واضحاً على الانتقال المفاجئ من الحياة المنزلية اليومية إلى الفقد الكلي. بهار الرز والدكانة وتعليمات الأم ليست تفاصيل عابرة؛ بل تؤكد أن المجزرة قطعت لحظة مدنية عادية. يتشكل الصبر هنا في صورة شهادة مباشرة ونداء جماعي لوقف الحرب، لا في هدوء عاطفي.",
+        "paper_fit_en": "This narrative shows an abrupt shift from ordinary domestic life to total family loss. The rice seasoning, the shop, and the mother’s instruction mark civilian normalcy immediately before catastrophe. Resilience appears not as emotional calm, but as testimony, survival, and a final collective plea to stop the war."
+    },
+    "ethical_note": {
+        "risk_level": "very_high_sensitivity_sole_survivor_family_mutilation",
+        "notes": [
+            "Contains sole-survivor testimony, complete family loss, graphic references to mutilated bodies, and a relative still under rubble.",
+            "No explicit personal names are present, but public excerpts should avoid adding identifying details.",
+            "Graphic details should be quoted minimally and only when analytically necessary.",
+            "Do not use this testimony for psychological diagnosis; focus on discourse, adversity framing, response strategies, contextual markers, and affect."
+        ],
+        "recommended_public_version": "deidentified_or_excerpt_only_with_graphic_detail_minimization"
+    },
+    "schema_compliance_note": {
+        "version": "SABR_v1.2_prototype",
+        "updates_applied": [
+            "ensured text_ar_full",
+            "ensured text_en_full",
+            "ensured sabr_frame on every annotatable unit",
+            "normalized lexicon_hints.expected_variants",
+            "added/updated analysis_note_for_paper and ethical_note where missing"
+        ]
     },
     "public_release": {
         "intended_use": "public_github",

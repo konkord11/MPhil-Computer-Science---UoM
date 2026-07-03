@@ -1,0 +1,208 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative05D_Pseudonymized",
+    "source_meta": {
+        "source_cluster_id": "SC05_FBWrittenTestimony_Archive",
+        "source_type": "text",
+        "source_platform": "Facebook",
+        "original_author": "Archive contributor (pseudonymised)",
+        "original_language": "ar",
+        "dialect": "Palestinian (Northern Gaza – Beit Lahia, Lahwani)",
+        "collection_context_en": "Multi-episode written testimony posted on Facebook during the War on Gaza (Al-Aqsa Flood period). Independent SABR narrative from a multi-part Facebook written testimony (War on Gaza). Six sub-narratives (Narrative05A–F) share one original post; each is processed separately.",
+        "collection_context_ar": "شهادة مكتوبة متعددة المقاطع نُشرت على فيسبوك خلال حرب غزة (فترة طوفان الأقصى). رواية SABR مستقلة من شهادة مكتوبة متعددة المقاطع على فيسبوك (حرب غزة). ست روايات فرعية (Narrative05A–F) من منشور واحد؛ تُعالَج كل منها على حدة.",
+        "fb_post_cluster": "Narrative05_FacebookFragments",
+        "fb_fragment_letter": "D"
+    },
+    "speaker_profile": {
+        "gender": "male",
+        "age_estimate": "adult",
+        "origin": "Beit Lahia, Northern Gaza"
+    },
+    "approx_context": {
+        "location": "Streets surrounding Al-Amal School, Gaza City",
+        "brief_summary_en": "After release from detention, the narrator spends the night on the streets facing hunger and freezing cold, while anxiously awaiting the fate of other detained youths. Upon their return, the group immediately shifts into collective survival mode, searching for minimal sustenance.",
+        "brief_summary_ar": "بعد الإفراج من الاحتجاز، يبيت الراوي في الشارع تحت الجوع والبرد، وهو لا يعرف مصير بقية الشباب الذين كانوا معه. وعندما يعودون خائفين وبردانين وجائعين، يبدأ مع صديقه عماد بالبحث عن أي شيء يبلّ ريقهم ويعينهم على احتمال الجوع."
+    },
+    "segments": [
+        {
+            "segment_id": "N05D_seg01",
+            "text_ar": "وأنا أفترشت الطرقات ونمت بجوعي والبرد يصارعني حتى طلع الصباح، وإحنا لا نعلم شي عن باقي الشباب اللي كانوا معنا.",
+            "text_en": "I laid myself on the streets and slept in hunger, with the cold fighting me until morning, while we knew nothing about the rest of the young men who had been with us.",
+            "event_frame": {
+                "adversity_description": "Exposure to cold and starvation combined with uncertainty regarding the fate of detained companions.",
+                "response_description": "Endurance through immobility and waiting; survival reduced to bodily persistence."
+            },
+            "affective_signals": {
+                "affect_type": "physical_exhaustion",
+                "justification": "Focus on hunger, cold, and waiting through the night reflects extreme bodily depletion and suspended agency."
+            },
+            "contextual_markers": {
+                "cultural_markers": [
+                    {
+                        "marker": "أفترشت الطرقات",
+                        "note": "Using the street as a sleeping surface; signals total loss of shelter (Sakan) and exposure of the body to public space."
+                    },
+                    {
+                        "marker": "البرد يصارعني",
+                        "note": "Personification of cold as an active adversary, framing the environment itself as a hostile force."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "Temporal suspension (حتى طلع الصباح)",
+                        "note": "Marks survival as waiting rather than acting; time is endured rather than controlled."
+                    }
+                ]
+            },
+            "sabr_frame": {
+                "sabr_type": "street_survival_under_hunger_cold_and_uncertainty",
+                "features": [
+                    "street_sleeping",
+                    "hunger",
+                    "cold_personification",
+                    "uncertain_fate_of_youth"
+                ]
+            }
+        },
+        {
+            "segment_id": "N05D_seg02",
+            "text_ar": "مرت تلات ساعات وإذا بالشباب يأتوا إلينا كلهم خائفين وبردانين والجوع دابحهم. فأخدنا نبحث أنا وصديقي عماد عن أي شي نبلّ ريقنا فيه ونصبر جوعنا.",
+            "text_en": "Three hours passed, and then the young men came back to us—frightened, freezing, and slaughtered by hunger. My friend Imad and I began searching for anything to moisten our throats and endure the hunger.",
+            "event_frame": {
+                "adversity_description": "Collective physical collapse marked by fear, cold exposure, and acute hunger.",
+                "response_description": "Immediate transition to collective survival behavior through foraging."
+            },
+            "affective_signals": {
+                "affect_type": "determined_endurance",
+                "justification": "Despite exhaustion, the group initiates survival-oriented action focused on minimal bodily sustenance."
+            },
+            "contextual_markers": {
+                "cultural_markers": [
+                    {
+                        "marker": "الجوع دابحهم",
+                        "note": "Gazan idiom portraying hunger as a violent, bodily assault rather than a passive condition."
+                    },
+                    {
+                        "marker": "نبلّ ريقنا / نصبر جوعنا",
+                        "note": "Expressions of Sabr (endurance) applied to bodily hunger; survival framed as postponement rather than satisfaction."
+                    }
+                ],
+                "relational_markers": [
+                    {
+                        "marker": "أنا وصديقي عماد",
+                        "note": "Peer-based solidarity replacing institutional or familial support in post-detention survival."
+                    }
+                ]
+            },
+            "sabr_frame": {
+                "sabr_type": "collective_foraging_to_endure_hunger",
+                "features": [
+                    "youth_return",
+                    "collective_fear",
+                    "search_for_sustenance",
+                    "peer_solidarity"
+                ]
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "أفترشت الطرقات": {
+                "variants_ar": [
+                    "نمت في الشارع",
+                    "بلا مأوى"
+                ],
+                "meaning_en": "I slept/lay on the streets; no shelter.",
+                "note_ar": "افتراش الطريق علامة فقدان المأوى والحماية."
+            },
+            "البرد يصارعني": {
+                "variants_ar": [
+                    "البرد قاتل",
+                    "الصقيع يأكل الجسد"
+                ],
+                "meaning_en": "The cold was fighting me; personification of cold as an enemy.",
+                "note_ar": "تشخيص البرد كعدو مباشر للجسد."
+            },
+            "الجوع دابحهم": {
+                "variants_ar": [
+                    "الجوع قاتل",
+                    "الجوع لا يُحتمل"
+                ],
+                "meaning_en": "Hunger was killing/slaughtering them; severe hunger.",
+                "note_ar": "تصوير الجوع كعنف جسدي."
+            },
+            "نبلّ ريقنا": {
+                "variants_ar": [
+                    "نروي عطشنا"
+                ],
+                "meaning_en": "Moisten our throats; get minimal drink/relief.",
+                "note_ar": "تعبير عن حد أدنى من النجاة لا الشبع."
+            },
+            "نصبر جوعنا": {
+                "variants_ar": [
+                    "نحتمل الجوع",
+                    "نؤجل الأكل"
+                ],
+                "meaning_en": "Endure/postpone hunger.",
+                "note_ar": "تطبيق الصبر على الحاجة الجسدية الملحّة."
+            }
+        }
+    },
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "name_replacement_pool",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "n/a",
+        "contains_real_names": false,
+        "notes": "Facebook fragment from a six-part post; pseudonymised per Project_Research_Documentation/schemas/fragment_bundle_narrative05.json. Source fragment file: N05D_StreetsHungerYouthReturn_TXT_FB.json. Public-release bundle: reversibility metadata stripped for GitHub."
+    },
+    "text_ar_full": "وأنا أفترشت الطرقات ونمت بجوعي والبرد يصارعني حتى طلع الصباح، وإحنا لا نعلم شي عن باقي الشباب اللي كانوا معنا. مرت تلات ساعات وإذا بالشباب يأتوا إلينا كلهم خائفين وبردانين والجوع دابحهم. فأخدنا نبحث أنا وصديقي عماد عن أي شي نبلّ ريقنا فيه ونصبر جوعنا.",
+    "text_en_full": "I laid myself on the streets and slept in hunger, with the cold fighting me until morning, while we knew nothing about the rest of the young men who had been with us. Three hours passed, and then the young men came back to us—frightened, freezing, and slaughtered by hunger. My friend Imad and I began searching for anything to moisten our throats and endure the hunger.",
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Gaza dialect, crisis testimony, and SABR annotation conventions."
+            }
+        ],
+        "adjudication": {
+            "status": "schema_normalized_ready_for_review",
+            "note": "Updated to ensure full Arabic and English narrative texts, SABR frames, structured lexicon, and v1.2-compatible fields."
+        },
+        "alignment_note": "Written testimony segments do not include timestamps unless present in the source. Segment order is preserved from the input JSON.",
+        "selection_policy": "All existing segments/spans are preserved as annotatable units. Full Arabic and English texts are generated from ordered units if absent.",
+        "schema_update_note": "This file was updated to include text_ar_full, text_en_full, SABR frames for all annotatable units, and structured lexicon_hints.",
+        "fb_post_sub_narrative": "Narrative05D",
+        "source_fragment_file": "N05D_StreetsHungerYouthReturn_TXT_FB.json"
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "street_survival_hunger_cold_peer_solidarity",
+        "paper_fit_ar": "ترصد الرواية البقاء في الشارع تحت الجوع والبرد وانتظار مصير الشباب المعتقلين. يتحول الصمود إلى بحث جماعي عن الحد الأدنى من الماء والطعام لتأجيل الانهيار.",
+        "paper_fit_en": "This narrative traces street survival under hunger, cold, and uncertainty about detained youth. Resilience appears as collective searching for minimal sustenance to delay bodily collapse."
+    },
+    "ethical_note": {
+        "risk_level": "medium_high_sensitivity_hunger_cold_street_survival",
+        "notes": [
+            "Contains homelessness, hunger, cold exposure, and uncertainty about detained youth.",
+            "Names are pseudonymized in source metadata.",
+            "Avoid adding identifiable place or person details beyond those already pseudonymized.",
+            "Do not use this testimony for psychological diagnosis."
+        ],
+        "recommended_public_version": "pseudonymized_public_version"
+    },
+    "schema_compliance_note": {
+        "version": "SABR_v1.2_prototype",
+        "updates_applied": [
+            "ensured text_ar_full",
+            "ensured text_en_full",
+            "ensured sabr_frame on every annotatable unit",
+            "normalized lexicon_hints.expected_variants",
+            "added/updated analysis_note_for_paper and ethical_note where missing"
+        ]
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

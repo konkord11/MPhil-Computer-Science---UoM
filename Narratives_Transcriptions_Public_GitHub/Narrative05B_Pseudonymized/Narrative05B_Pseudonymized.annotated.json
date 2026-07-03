@@ -1,0 +1,253 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative05B_Pseudonymized",
+    "source_meta": {
+        "source_cluster_id": "SC05_FBWrittenTestimony_Archive",
+        "source_type": "text",
+        "source_platform": "Facebook",
+        "original_author": "Archive contributor (pseudonymised)",
+        "original_language": "ar",
+        "dialect": "Palestinian (Northern Gaza – Beit Lahia, Lahwani)",
+        "collection_context_en": "Multi-episode written testimony posted on Facebook during the War on Gaza (Al-Aqsa Flood period). Independent SABR narrative from a multi-part Facebook written testimony (War on Gaza). Six sub-narratives (Narrative05A–F) share one original post; each is processed separately.",
+        "collection_context_ar": "شهادة مكتوبة متعددة المقاطع نُشرت على فيسبوك خلال حرب غزة (فترة طوفان الأقصى). رواية SABR مستقلة من شهادة مكتوبة متعددة المقاطع على فيسبوك (حرب غزة). ست روايات فرعية (Narrative05A–F) من منشور واحد؛ تُعالَج كل منها على حدة.",
+        "fb_post_cluster": "Narrative05_FacebookFragments",
+        "fb_fragment_letter": "B"
+    },
+    "speaker_profile": {
+        "gender": "male",
+        "age_estimate": "adult",
+        "origin": "Beit Lahia, Northern Gaza"
+    },
+    "approx_context": {
+        "location": "Al-Amal School courtyard, Beit Lahia",
+        "brief_summary_en": "A written first-person account describing a mass detention and public strip search carried out by Israeli forces in a school courtyard during extreme winter conditions, deliberately conducted in front of female relatives.",
+        "brief_summary_ar": "رواية مكتوبة بضمير المتكلم تصف اعتقالًا جماعيًا وتعرية قسرية نفذتها قوات الاحتلال في ساحة مدرسة خلال ذروة البرد، وأمام النساء من العائلة."
+    },
+    "segments": [
+        {
+            "segment_id": "Narrative05B_seg01",
+            "span_index": 1,
+            "text_ar": "بنفس اليوم اللي دفنا فيه كريم، إجت قوات الاحتلال وحاصرت المدرسة من جميع الاتجاهات، وخلّونا واقفين في البرد.",
+            "text_en": "On the same day we buried Karim, the occupation forces (IDF) arrived and surrounded the school from all directions, forcing us to stand outside in the cold.",
+            "event_frame": {
+                "adversity_description": "Immediate re-escalation of violence following burial, involving encirclement and exposure to extreme cold.",
+                "response_description": "Passive endurance under sudden renewed threat."
+            },
+            "affective_signals": {
+                "affect_type": "shock_exhaustion",
+                "justification": "The temporal overlap between burial and renewed violence reflects cumulative trauma and physical depletion."
+            },
+            "contextual_markers": {
+                "discourse_markers": [
+                    {
+                        "marker": "Temporal overlap (بنفس اليوم)",
+                        "note": "Signals absence of recovery time between traumatic events."
+                    }
+                ]
+            },
+            "sabr_frame": {
+                "sabr_type": "renewed_encirclement_after_burial",
+                "features": [
+                    "no_recovery_time",
+                    "school_encirclement",
+                    "cold_exposure",
+                    "cumulative_trauma"
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative05B_seg02",
+            "span_index": 2,
+            "text_ar": "شلحونا في عزّ الأربعينية، وإحنا كان إلنا أكتر من أسبوع لا بناكل ولا بنشرب، وفوق كل هالخوف.",
+            "text_en": "They stripped us naked during the peak of the forty-day winter cold, while we had gone for over a week without food or water, on top of all that fear.",
+            "event_frame": {
+                "adversity_description": "Weaponization of environmental extremes (cold), starvation, and forced nudity.",
+                "response_description": "Endurance of compounded physical and psychological assault."
+            },
+            "affective_signals": {
+                "affect_type": "physical_suffering",
+                "justification": "Explicit reference to hunger, thirst, cold, and fear indicates severe bodily distress."
+            },
+            "contextual_markers": {
+                "cultural_markers": [
+                    {
+                        "marker": "عزّ الأربعينية",
+                        "note": "Local expression referring to the coldest period of winter; indicates deliberate exposure to harsh conditions."
+                    },
+                    {
+                        "marker": "شلحونا",
+                        "note": "Colloquial term for forced stripping; carries strong connotations of humiliation and violation of bodily sanctity."
+                    }
+                ]
+            },
+            "sabr_frame": {
+                "sabr_type": "humiliation_through_forced_nudity_cold_and_starvation",
+                "features": [
+                    "forced_stripping",
+                    "winter_exposure",
+                    "hunger_thirst",
+                    "bodily_humiliation"
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative05B_seg03",
+            "span_index": 3,
+            "text_ar": "اعتقلوا الطفل قبل العجوز، وهانوا المرأة قبل ما يهينوا الرجل، وهانوا الرجل وداسوا على كرامته.",
+            "text_en": "They arrested children before the elderly, humiliated women before humiliating men, and trampled on the men’s dignity.",
+            "event_frame": {
+                "adversity_description": "Indiscriminate detention and systematic humiliation across age and gender.",
+                "response_description": "Moral witnessing of a collapse in social and human boundaries."
+            },
+            "affective_signals": {
+                "affect_type": "moral_outrage",
+                "justification": "The structured contrast between child, woman, and man highlights ethical violation rather than physical harm alone."
+            },
+            "contextual_markers": {
+                "discourse_markers": [
+                    {
+                        "marker": "Parallel structure (الطفل / المرأة / الرجل)",
+                        "note": "Rhetorical sequencing emphasizes total societal breakdown."
+                    }
+                ]
+            },
+            "sabr_frame": {
+                "sabr_type": "societal_humiliation_across_age_gender",
+                "features": [
+                    "child_detention",
+                    "women_humiliation",
+                    "dignity_trampling",
+                    "parallel_moral_indictment"
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative05B_seg04",
+            "span_index": 4,
+            "text_ar": "شلحونا قدّام نسوانا وخواتنا وأمّهاتنا، وقعدن يودّعن فينا كأنه آخر لقاء.",
+            "text_en": "They stripped us in front of our women, our sisters, and our mothers, and the women began saying goodbye as if it were the last meeting.",
+            "event_frame": {
+                "adversity_description": "Public humiliation enacted in front of female relatives to maximize psychological harm.",
+                "response_description": "Collective anticipation of death or disappearance."
+            },
+            "affective_signals": {
+                "affect_type": "humiliation_despair",
+                "justification": "The act of farewell indicates perceived finality and loss of bodily and social protection."
+            },
+            "contextual_markers": {
+                "cultural_markers": [
+                    {
+                        "marker": "نسوانا وخواتنا وأمّهاتنا",
+                        "note": "Invocation of female kin emphasizes violation of honor (ʿird - العٍرض) and social sanctity."
+                    },
+                    {
+                        "marker": "قعدن يودّعن",
+                        "note": "Feminine plural verb form reflecting Lahwani dialect and collective female presence."
+                    }
+                ]
+            },
+            "sabr_frame": {
+                "sabr_type": "family_witnessed_humiliation_and_final_farewell",
+                "features": [
+                    "public_stripping",
+                    "female_kin_witnessing",
+                    "honour_violation",
+                    "farewell_as_if_death"
+                ]
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "شلحونا": {
+                "variants_ar": [
+                    "عرّونا",
+                    "أجبرونا على خلع ملابسنا"
+                ],
+                "meaning_en": "They stripped us / forced us to remove clothes.",
+                "note_ar": "تعرية قسرية تحمل دلالة إهانة وانتهاك جسدي."
+            },
+            "عزّ الأربعينية": {
+                "variants_ar": [
+                    "ذروة الشتاء",
+                    "أبرد أيام السنة"
+                ],
+                "meaning_en": "Peak of the forty-day winter cold; coldest part of winter.",
+                "note_ar": "تعبير محلي عن ذروة البرد."
+            },
+            "قعدن يودّعن": {
+                "variants_ar": [
+                    "بدأن بتوديعنا",
+                    "سلّمن علينا كأنه الوداع الأخير"
+                ],
+                "meaning_en": "They began saying goodbye; feminine plural dialect form.",
+                "note_ar": "صيغة مؤنث جمع تعكس حضور النساء في لحظة وداع محتملة."
+            },
+            "داسوا على كرامته": {
+                "variants_ar": [
+                    "أهانوه بشدة",
+                    "سحقوا كرامته"
+                ],
+                "meaning_en": "They trampled on his dignity.",
+                "note_ar": "تعبير عن سحق الكرامة والإذلال."
+            }
+        }
+    },
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "name_replacement_pool",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "n/a",
+        "contains_real_names": false,
+        "notes": "Facebook fragment from a six-part post; pseudonymised per Project_Research_Documentation/schemas/fragment_bundle_narrative05.json. Source fragment file: N05B_StripSearchSchool_TXT_FB.json. Public-release bundle: reversibility metadata stripped for GitHub."
+    },
+    "text_ar_full": "بنفس اليوم اللي دفنا فيه كريم، إجت قوات الاحتلال وحاصرت المدرسة من جميع الاتجاهات، وخلّونا واقفين في البرد. شلحونا في عزّ الأربعينية، وإحنا كان إلنا أكتر من أسبوع لا بناكل ولا بنشرب، وفوق كل هالخوف. اعتقلوا الطفل قبل العجوز، وهانوا المرأة قبل ما يهينوا الرجل، وهانوا الرجل وداسوا على كرامته. شلحونا قدّام نسوانا وخواتنا وأمّهاتنا، وقعدن يودّعن فينا كأنه آخر لقاء.",
+    "text_en_full": "On the same day we buried Karim, the occupation forces (IDF) arrived and surrounded the school from all directions, forcing us to stand outside in the cold. They stripped us naked during the peak of the forty-day winter cold, while we had gone for over a week without food or water, on top of all that fear. They arrested children before the elderly, humiliated women before humiliating men, and trampled on the men’s dignity. They stripped us in front of our women, our sisters, and our mothers, and the women began saying goodbye as if it were the last meeting.",
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Gaza dialect, crisis testimony, and SABR annotation conventions."
+            }
+        ],
+        "adjudication": {
+            "status": "schema_normalized_ready_for_review",
+            "note": "Updated to ensure full Arabic and English narrative texts, SABR frames, structured lexicon, and v1.2-compatible fields."
+        },
+        "alignment_note": "Written testimony segments do not include timestamps unless present in the source. Segment order is preserved from the input JSON.",
+        "selection_policy": "All existing segments/spans are preserved as annotatable units. Full Arabic and English texts are generated from ordered units if absent.",
+        "schema_update_note": "This file was updated to include text_ar_full, text_en_full, SABR frames for all annotatable units, and structured lexicon_hints.",
+        "fb_post_sub_narrative": "Narrative05B",
+        "source_fragment_file": "N05B_StripSearchSchool_TXT_FB.json"
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "forced_stripping_humiliation_gendered_witnessing",
+        "paper_fit_ar": "تركز الرواية على الإذلال الجسدي والاجتماعي عبر التعرية القسرية والبرد والجوع، خصوصاً أمام النساء والأمهات والأخوات. الصمود هنا يظهر في الشهادة الأخلاقية التي تفضح انتهاك الكرامة.",
+        "paper_fit_en": "The narrative centers on bodily and social humiliation through forced stripping, cold, and hunger, especially before mothers, sisters, and female relatives. Resilience appears as moral witnessing against the violation of dignity."
+    },
+    "ethical_note": {
+        "risk_level": "very_high_sensitivity_forced_nudity_humiliation",
+        "notes": [
+            "Contains forced nudity, detention/humiliation, and gendered witnessing by female relatives.",
+            "Treat as highly sensitive because it involves bodily violation and dignity/honour harm.",
+            "Avoid unnecessary graphic or sensational presentation in public excerpts.",
+            "Do not use this testimony for psychological diagnosis."
+        ],
+        "recommended_public_version": "pseudonymized_excerpt_only"
+    },
+    "schema_compliance_note": {
+        "version": "SABR_v1.2_prototype",
+        "updates_applied": [
+            "ensured text_ar_full",
+            "ensured text_en_full",
+            "ensured sabr_frame on every annotatable unit",
+            "normalized lexicon_hints.expected_variants",
+            "added/updated analysis_note_for_paper and ethical_note where missing"
+        ]
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

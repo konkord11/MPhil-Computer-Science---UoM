@@ -176,6 +176,8 @@
         "theme_tag": "acute_bereavement_steadfastness",
         "paper_fit_en": "This narrative demonstrates acute shock stabilization through religious ritual language, collective emotional regulation, and identity reframing. The mother’s dominant affect is steadfastness rather than collapse. Ululation, repetition of praise, and prophetic supplication function as immediate coping regulators transforming personal loss into collective meaning."
     },
+    "text_ar_full": "(زغاريد متواصلة للأم) زغرتوا للشهدا هدول شهدا محدش يصرّخ، هي ابني التاني، ابني التاني. هي مجاهد ومحمد، ولادي شهدا، أنا أم شهدا، أنا راضية والله العظيم راضية، الحمدلله الحمدلله الحمدلله، فدا فلسطين، فدا الئدس، الحمدلله، اللهم أجرني في مصيبتي واخلف لي خيراً منها، اللهم أجرني في مصيبتي واخلف لي خيراً منها، اللهم أجرني في مصيبتي واخلف لي خيراً منها، الحمدلله، الحمدلله، الحمدلله يا رب، الحمدلله يا رب.",
+    "text_en_full": "(Continuous ululation by the mother.) Ululate for the martyrs—these are martyrs. No one should scream. This is my second son—my second son. Mujahid and Mohammed—my sons are martyrs. I am the mother of martyrs. I am content—by Allah, truly content. Alhamdulillah, Alhamdulillah, Alhamdulillah. A sacrifice for Palestine—a sacrifice for Jerusalem. Alhamdulillah. O Allah, reward me in my affliction and replace it for me with something better. O Allah, reward me in my affliction and replace it for me with something better. O Allah, reward me in my affliction and replace it for me with something better. Alhamdulillah. Alhamdulillah. Alhamdulillah, my Lord. Alhamdulillah, my Lord.",
     "anonymization": {
         "is_pseudonymized": false,
         "strategy": "none_needed",

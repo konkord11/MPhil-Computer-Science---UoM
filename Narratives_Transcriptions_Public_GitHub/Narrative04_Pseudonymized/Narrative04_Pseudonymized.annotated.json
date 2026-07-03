@@ -106,6 +106,8 @@
             ]
         }
     },
+    "text_ar_full": "احنا ايش ذنبنا احنا كمواطنين؟ لا النا لا في الطين ولا في العجين. بمعنى انه احنا لا النا لا في حماس ولا النا في السياسة ولا في ما يحزنون. ايش ذنبنا احنا كمواطنين مدنيين ننزح من مكان لمكان؟ احنا لوكتيش؟ لمتى؟ يعني احنا بنقلك احنا يعني مطوّلة معنا القصة هاي؟ الى الى متى يعني… إلى متى النزوح؟",
+    "text_en_full": "What have we done wrong as citizens? We have nothing to do with this at all. Meaning, we have nothing to do with Hamas, nothing to do with politics, or any of that. What have we done wrong as civilians, forced to move from one place to another? Until when? For how long? I mean, we’re telling you—are we really stuck with this story dragging on? Until… until when… when will this displacement end?",
     "anonymization": {
         "is_pseudonymized": false,
         "strategy": "none_needed",

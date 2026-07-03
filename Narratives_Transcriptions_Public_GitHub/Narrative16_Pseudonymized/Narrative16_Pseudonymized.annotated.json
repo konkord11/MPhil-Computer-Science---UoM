@@ -1,0 +1,576 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative16_Pseudonymized",
+    "source_meta": {
+        "source_cluster_id": "SC16_TwinBirthCertificates",
+        "source_type": "video_transcription",
+        "source_platform": "Short Video (public testimony / journalist repost)",
+        "original_author": "Public circulation source (archived for research use)",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (Gaza dialect)",
+        "reported_location": "Gaza / Rafah displacement context; hospital scenes include Al-Aqsa Martyrs Hospital according to testimony. Exact incident location should be verified before publication.",
+        "collection_context_en": "A young father gives a public testimony after his wife and newborn twins were killed shortly after birth. He speaks while holding the twins’ new clothes and birth certificates, moving between the day of the strike, the moment he identified the bodies, and earlier memories of pregnancy, naming, displacement, and interrupted family plans.",
+        "collection_context_ar": "أب شاب يقدّم شهادة عامة بعد استشهاد زوجته وطفليه التوأم بعد وقت قصير من ولادتهما. يتحدث وهو يمسك ملابس المواليد وشهادات الميلاد، وينتقل بين يوم القصف، ولحظة رؤية الجثامين، وذكريات الحمل والتسمية والنزوح وتعطّل خطط العائلة."
+    },
+    "anonymization": {
+        "is_pseudonymized": true,
+        "strategy": "name_replacement_pool",
+        "replacement_scope": "within_dataset_consistent",
+        "contains_real_names": false,
+        "contains_minors": true,
+        "notes": "Person names and identifying tokens in this tree are replaced using Gaza_NamePool_v1 with dataset-consistent mappings. Original strings are retained only in Narratives_Transcriptions. Follow Project_Research_Documentation/protocols/mphil_uom_ethics_and_governance.txt for storage, consent scope, and thesis use. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Native Palestinian Arabic speaker; familiar with Gaza dialect, crisis testimony, religious/cultural discourse, and bereavement narratives."
+            }
+        ],
+        "alignment_note": "Whisper alignment is reliable only for the opening part of the video and then degrades into repeated erroneous tokens. Exact timestamps are therefore used where available for early spans, while later spans are marked as timestamp_unavailable_whisper_failed_after_opening and should be manually aligned if precise timecoding is required.",
+        "selection_policy": "The full narrative is preserved in text_ar_full. Analytical segments cover the main adversity-response shifts, including bereavement, naming, material objects, flashback, religious consolation, and الحمد despite devastation."
+    },
+    "speaker_profile": {
+        "gender": "male",
+        "age_estimate": "adult",
+        "origin": "Gaza Strip",
+        "role_or_status": [
+            "Father",
+            "Husband",
+            "Civilian bereaved family member",
+            "Eyewitness / survivor through absence from strike location"
+        ]
+    },
+    "approx_context": {
+        "brief_summary_en": "A young father recounts losing his wife and newborn twins shortly after their birth, while holding their unused clothes and birth certificates. The testimony moves between grief over objects prepared for family life, the shock of seeing his wife and children dead, memories of pregnancy and naming the twins, the phone call informing him that his home had been bombed, and a closing expression of devastation followed by praise to Allah.",
+        "brief_summary_ar": "يروي أب شاب فقدان زوجته وطفليه التوأم بعد وقت قصير من ولادتهما، وهو يمسك ملابسهم الجديدة وشهادات ميلادهم. تنتقل الشهادة بين الحزن على أشياء كانت مُعدّة للحياة، وصدمة رؤية الزوجة والأطفال بعد استشهادهم، وذكريات الحمل وتسمية التوأم، واتصال إبلاغه بقصف البيت، ثم خاتمة تجمع بين الانكسار الشديد والحمد لله."
+    },
+    "background_context": {
+        "marriage_and_displacement_ar": "تزوجا في يوليو 2023، وكان موعد سفرهما إلى مكان إقامة الزوج في الإمارات يوم 12 أكتوبر 2023. بسبب العدوان على غزة لم يستطيعا السفر واضطرا للنزوح من غزة إلى رفح. تطوعت الزوجة في أحد المستشفيات حتى موعد ولادتها في 10 أغسطس 2024.",
+        "marriage_and_displacement_en": "They married in July 2023 and were due to travel to the husband’s place of residence in the UAE on 12 October 2023. Because of the war on Gaza, they could not travel and were displaced from Gaza to Rafah. The wife volunteered in a hospital until giving birth on 10 August 2024."
+    },
+    "text_ar_full": "كان نفسها تشوف ال... شهادات الميلاد يعني.. تعونهم. فكنت أنا أمزح معها إنه أنا سميتهم غير الأسامي اللي انتي بدك إياهم وكزا.. بس أنا سميتهم زي ما هي بدها يعني. كنت أرن عليها إنه أطمنها إنه أنا سميتهم زي ما هي حابة إني أسميهم. دخلت جوا.. لقيتها مكفنة والأطفال، واحد مش مبين إله أيّ اشي. كانوا رافضين يخلوني أشوفهم.. صممت إني أنا بدي أشوفهم يعني. أواعيهم لسه ما لبسوهم.. والله ما لبسوهم لسه. هيهم.. هيهم.. لسه زي ما همّا.. هيهم.. هيهم. كانت زوجتي في بداية أيامنا في رفح، كانت.. اكتشفنا إنه هي حامل يعني. وبعد فترة اكتشفنا برضو إنها هي حامل في توأم، فكانت فرحة الله بيعلم فيها يعني.. كتير حلوة. ع صلاة الفجر.. ولدَت. يوم استشهادها.. قبلها بيوم يعني روحت على البيت، تاني يوم أنا رحت أجيب شهادات الميلاد. وأنا في الطريق أجاني اتصال إنه محمد.. إنتَ وين؟ قلت له: أنا عند شهداء الأقصى والله. قال لي: بدي إياك شوي. قلت له: بس خليني شوي والله بدي أودي الأغراض ع البيت، هيكا أودّي شهادات الأطفال. قال لي: مبروك وكزا.. بس محمد.. إنتَ قصفوا البيت تبعك! طب مرتي وأولادي؟! صرت أزعّق بشكل هستيري. فالناس التمت عليّ فقالوا لي: إنت اللي.. الأم والأولاد؟! أنا ع باب المستشفى بقولهم آه. قالوا لي: هيهم هيهم جوا جوا تعال. رامي وليان.. تِعْبَت كتير لحتى تلاقي اسمين نفس ال.. يعني نفس ال.. الوزن. كنت أحاول قدر الإمكان إني أفرّحها وأفرّح الأولاد، إنه ما أخلّي شي ينقص عليهم وكزا. كل قطعة من هدول وراها حكاية.. كل قطعة. الدنيا سودا.. ما في حياة.. ما في حياة!! كسروني.. كسروا فرحتي.. ما ضل لي حد. الحمد لله رب العالمين.",
+    "segments": [
+        {
+            "segment_id": "Narrative16_s01",
+            "start_time": 0.0,
+            "end_time": 9.6,
+            "timestamp_status": "aligned_from_whisper",
+            "text_ar": "كان نفسها تشوف ال... شهادات الميلاد يعني.. تعونهم. فكنت أنا أمزح معها إنه أنا سميتهم غير الأسامي اللي انتي بدك إياهم وكزا.. بس أنا سميتهم زي ما هي بدها يعني.",
+            "text_en": "She had wanted to see the birth certificates—their birth certificates. I used to joke with her that I had named them different names from the ones she wanted and so on, but I actually named them the way she wanted.",
+            "event_frame": {
+                "adversity_description": "The birth certificates become documents the mother wanted to see but never could because she was killed shortly after birth.",
+                "response_description": "The father recalls an intimate joking exchange about naming, preserving the mother’s preference after her death."
+            },
+            "sabr_frame": {
+                "sabr_type": "bereavement_through_unfulfilled_family_ritual",
+                "features": [
+                    "birth_certificates",
+                    "naming_memory",
+                    "unfulfilled_maternal_wish",
+                    "intimate_recall"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "tender_grief",
+                "justification": "The father’s memory of joking about the names turns ordinary parental anticipation into a painful marker of absence."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "تعونهم",
+                        "note": "Colloquial possessive form meaning 'their/the ones belonging to them'."
+                    },
+                    {
+                        "marker": "بدك إياهم",
+                        "note": "Gaza/Levantine phrasing for 'you want them'."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "ال...",
+                        "note": "Hesitation and interruption while referring to the birth certificates, consistent with grief and crying."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative16_s02",
+            "start_time": 12.52,
+            "end_time": 16.56,
+            "timestamp_status": "aligned_from_whisper",
+            "text_ar": "كنت أرن عليها إنه أطمنها إنه أنا سميتهم زي ما هي حابة إني أسميهم.",
+            "text_en": "I was calling her to reassure her that I had named them the way she wanted me to name them.",
+            "event_frame": {
+                "adversity_description": "The father is still acting within the ordinary expectation of postpartum communication, unaware or before fully processing the killing.",
+                "response_description": "He tries to reassure his wife by confirming that he respected her chosen names."
+            },
+            "sabr_frame": {
+                "sabr_type": "interrupted_care_routine",
+                "features": [
+                    "phone_call",
+                    "postpartum_reassurance",
+                    "naming_as_care"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "anticipatory_care_turning_to_grief",
+                "justification": "A caring act—calling to reassure her—becomes tragic because she cannot receive the reassurance."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "أرن عليها",
+                        "note": "Colloquial for 'I call her by phone'."
+                    },
+                    {
+                        "marker": "أطمنها",
+                        "note": "To reassure her / make her feel at ease."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative16_s03",
+            "start_time": 21.0,
+            "end_time": 34.02,
+            "timestamp_status": "aligned_from_whisper",
+            "text_ar": "دخلت جوا.. لقيتها مكفنة والأطفال، واحد مش مبين إله أيّ اشي. كانوا رافضين يخلوني أشوفهم.. صممت إني أنا بدي أشوفهم يعني.",
+            "text_en": "I went inside. I found her shrouded, and the children—one of them did not have anything recognizable showing. They had refused to let me see them, but I insisted that I wanted to see them.",
+            "event_frame": {
+                "adversity_description": "The father sees his wife shrouded and confronts the unrecognizable state of one newborn child’s body.",
+                "response_description": "Despite others trying to prevent him from seeing them, he insists on witnessing and identifying his wife and children."
+            },
+            "sabr_frame": {
+                "sabr_type": "witnessing_the_dead_against_protective_barriers",
+                "features": [
+                    "shrouded_body",
+                    "newborn_body_damage",
+                    "insistence_on_witnessing",
+                    "fatherhood_after_death"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "shock_and_compelled_witnessing",
+                "justification": "The father’s insistence on seeing them reflects a need for recognition and closure despite traumatic visual exposure."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "مش مبين إله أيّ اشي",
+                        "note": "Nothing was recognizable/visible enough to identify; can imply severe disfigurement or remains."
+                    },
+                    {
+                        "marker": "بدي أشوفهم",
+                        "note": "I want to see them; direct insistence on witnessing."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "مكفنة",
+                        "note": "Shrouded for burial; culturally and religiously linked to death rites."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative16_s04",
+            "start_time": 36.44,
+            "end_time": 43.18,
+            "timestamp_status": "aligned_from_whisper",
+            "text_ar": "أواعيهم لسه ما لبسوهم.. والله ما لبسوهم لسه. هيهم.. هيهم.. لسه زي ما همّا.. هيهم.. هيهم.",
+            "text_en": "Their clothes—they still had not worn them. By Allah, they still had not worn them. Here they are, here they are, still just as they were. Here they are, here they are.",
+            "event_frame": {
+                "adversity_description": "The twins’ new clothes remain unused because they were killed before ordinary newborn care and dressing could unfold.",
+                "response_description": "The father repeatedly displays and refers to the clothes as material proof of the future that was prepared but never lived."
+            },
+            "sabr_frame": {
+                "sabr_type": "material_objects_as_bereavement_evidence",
+                "features": [
+                    "unused_baby_clothes",
+                    "repetition",
+                    "object_witnessing",
+                    "collapsed_future"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "raw_grief_and_disbelief",
+                "justification": "The repeated 'هيهم' and oath by Allah foreground disbelief and the unbearable contrast between prepared clothes and dead newborns."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "والله",
+                        "note": "Oath by Allah intensifying sincerity and emotional force."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "أواعيهم",
+                        "note": "Their clothes; common colloquial form."
+                    },
+                    {
+                        "marker": "هيهم",
+                        "note": "Here they are; deictic pointing to the visible baby clothes."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "هيهم.. هيهم",
+                        "note": "Repetition functions as grief display and object-indexing, likely accompanied by handling the clothes."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative16_s05",
+            "start_time": null,
+            "end_time": null,
+            "timestamp_status": "timestamp_unavailable_whisper_failed_after_opening",
+            "text_ar": "كانت زوجتي في بداية أيامنا في رفح، كانت.. اكتشفنا إنه هي حامل يعني. وبعد فترة اكتشفنا برضو إنها هي حامل في توأم، فكانت فرحة الله بيعلم فيها يعني.. كتير حلوة. ع صلاة الفجر.. ولدَت.",
+            "text_en": "At the beginning of our days in Rafah, we found out that my wife was pregnant. After a while, we also found out that she was pregnant with twins. It was a joy that Allah knows the size of—very beautiful. Around Fajr prayer, she gave birth.",
+            "event_frame": {
+                "adversity_description": "The memory of pregnancy and birth is recalled after the deaths, making the joy retrospectively painful.",
+                "response_description": "The father returns to the beginning of hope: pregnancy, twins, overwhelming joy, and birth around Fajr."
+            },
+            "sabr_frame": {
+                "sabr_type": "flashback_to_interrupted_joy",
+                "features": [
+                    "pregnancy_memory",
+                    "twin_discovery",
+                    "fajr_time_marker",
+                    "retrospective_grief"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "bittersweet_memory_and_grief",
+                "justification": "The father describes enormous joy while crying in a narrative whose outcome is already known."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "الله بيعلم فيها",
+                        "note": "Allah knows how great it was; idiom expressing emotional magnitude beyond ordinary description."
+                    },
+                    {
+                        "marker": "ع صلاة الفجر",
+                        "note": "Cultural-religious time marker meaning around dawn/Fajr prayer."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "كانت.. اكتشفنا",
+                        "note": "Hesitation and restart while moving into flashback."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative16_s06",
+            "start_time": null,
+            "end_time": null,
+            "timestamp_status": "timestamp_unavailable_whisper_failed_after_opening",
+            "text_ar": "يوم استشهادها.. قبلها بيوم يعني روحت على البيت، تاني يوم أنا رحت أجيب شهادات الميلاد. وأنا في الطريق أجاني اتصال إنه محمد.. إنتَ وين؟ قلت له: أنا عند شهداء الأقصى والله. قال لي: بدي إياك شوي. قلت له: بس خليني شوي والله بدي أودي الأغراض ع البيت، هيكا أودّي شهادات الأطفال. قال لي: مبروك وكزا.. بس محمد.. إنتَ قصفوا البيت تبعك! طب مرتي وأولادي؟! صرت أزعّق بشكل هستيري.",
+            "text_en": "On the day she was martyred—the day before, I had gone home. The next day I went to get the birth certificates. On the way I received a call: 'Mohammad, where are you?' I said: 'I am at Al-Aqsa Martyrs Hospital, by Allah.' He said: 'I need you for a bit.' I said: 'Just give me a little time; by Allah I need to take the things home, the children’s certificates.' He said: 'Congratulations and so on, but Mohammad—your house was bombed!' I said: 'What about my wife and children?' I began screaming hysterically.",
+            "event_frame": {
+                "adversity_description": "While carrying out a routine parental task—collecting birth certificates—the father is told that his home has been bombed.",
+                "response_description": "His first response is to ask about his wife and children, then he breaks into hysterical screaming."
+            },
+            "sabr_frame": {
+                "sabr_type": "bureaucratic_birth_ritual_collides_with_death_news",
+                "features": [
+                    "birth_certificates",
+                    "phone_call",
+                    "house_bombing",
+                    "family_search"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "catastrophic_shock",
+                "justification": "The ordinary task of collecting birth certificates is abruptly interrupted by the news of bombing, triggering frantic concern and screaming."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "والله",
+                        "note": "Oath by Allah used in ordinary speech and intensified by crisis."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "بدي إياك شوي",
+                        "note": "I need you for a moment / I want to talk to you."
+                    },
+                    {
+                        "marker": "أزعّق",
+                        "note": "To scream/shout loudly."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "مبروك وكزا.. بس",
+                        "note": "The call moves from socially expected congratulations to catastrophic news."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative16_s07",
+            "start_time": null,
+            "end_time": null,
+            "timestamp_status": "timestamp_unavailable_whisper_failed_after_opening",
+            "text_ar": "فالناس التمت عليّ فقالوا لي: إنت اللي.. الأم والأولاد؟! أنا ع باب المستشفى بقولهم آه. قالوا لي: هيهم هيهم جوا جوا تعال.",
+            "text_en": "People gathered around me and said: 'Are you the one—the mother and the children?' I was at the hospital door and said: 'Yes.' They told me: 'They are there, inside, inside—come.'",
+            "event_frame": {
+                "adversity_description": "The father becomes publicly identifiable through a circulating tragedy: the mother and children killed while he was away obtaining documents.",
+                "response_description": "He confirms his identity and is directed inside to see the bodies."
+            },
+            "sabr_frame": {
+                "sabr_type": "public_recognition_of_private_loss",
+                "features": [
+                    "crowd_gathering",
+                    "elliptic_reference",
+                    "hospital_threshold",
+                    "publicly_known_tragedy"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "disoriented_public_grief",
+                "justification": "The fragmentary question 'إنت اللي.. الأم والأولاد؟' shows how his private loss has already become a public story."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "التمت عليّ",
+                        "note": "People gathered around me."
+                    },
+                    {
+                        "marker": "هيهم",
+                        "note": "There they are / here they are; deictic expression pointing toward the bodies."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "إنت اللي.. الأم والأولاد؟",
+                        "note": "Elliptical shorthand for a known tragedy; speakers rely on shared context rather than a full sentence."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative16_s08",
+            "start_time": null,
+            "end_time": null,
+            "timestamp_status": "timestamp_unavailable_whisper_failed_after_opening",
+            "text_ar": "رامي وليان.. تِعْبَت كتير لحتى تلاقي اسمين نفس ال.. يعني نفس ال.. الوزن. كنت أحاول قدر الإمكان إني أفرّحها وأفرّح الأولاد، إنه ما أخلّي شي ينقص عليهم وكزا. كل قطعة من هدول وراها حكاية.. كل قطعة.",
+            "text_en": "Rami and Layan... she worked so hard to find two names with the same... the same rhythm. I tried as much as I could to make her happy and make the children happy, so that nothing would be missing for them. Every piece of these has a story behind it—every piece.",
+            "event_frame": {
+                "adversity_description": "The children’s names and clothes become remnants of an imagined family life that has been destroyed.",
+                "response_description": "The father preserves the mother’s naming labour and the story behind each item as evidence of love and preparation."
+            },
+            "sabr_frame": {
+                "sabr_type": "memory_preservation_through_names_and_objects",
+                "features": [
+                    "twin_names",
+                    "maternal_naming_labor",
+                    "baby_clothes",
+                    "object_memory"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "grief_with_love_preservation",
+                "justification": "He anchors grief in the names and clothes, preserving the care invested in the children before their deaths."
+            },
+            "contextual_markers": {
+                "discourse_markers": [
+                    {
+                        "marker": "نفس ال.. يعني نفس ال.. الوزن",
+                        "note": "Hesitation and self-repair while explaining that the mother wanted names with a similar rhythm/metrical balance."
+                    },
+                    {
+                        "marker": "كل قطعة... كل قطعة",
+                        "note": "Repetition emphasizes that each item carries a distinct memory."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "اسمين نفس الوزن",
+                        "note": "Care in choosing aesthetically matched twin names; shows parental anticipation and emotional investment."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative16_s09",
+            "start_time": null,
+            "end_time": null,
+            "timestamp_status": "timestamp_unavailable_whisper_failed_after_opening",
+            "text_ar": "الدنيا سودا.. ما في حياة.. ما في حياة!! كسروني.. كسروا فرحتي.. ما ضل لي حد. الحمد لله رب العالمين.",
+            "text_en": "The world is black. There is no life. There is no life. They broke me. They broke my joy. I have no one left. Praise be to Allah, Lord of the worlds.",
+            "event_frame": {
+                "adversity_description": "The father describes total existential collapse: life has gone dark, joy has been broken, and he feels left with no one.",
+                "response_description": "Despite this devastation, he closes with الحمد لله رب العالمين, maintaining praise to Allah without denying grief."
+            },
+            "sabr_frame": {
+                "sabr_type": "devastation_without_religious_abandonment",
+                "features": [
+                    "world_darkening",
+                    "broken_joy",
+                    "total_loss",
+                    "hamd_after_devastation"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "utter_devastation_with_faith_retention",
+                "justification": "The span explicitly states despair and brokenness, then closes with praise to Allah, showing faith retained alongside grief rather than replacing it."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "الحمد لله رب العالمين",
+                        "note": "Praise be to Allah, Lord of the worlds; in this context, an expression of faith retained even after catastrophic loss."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "ما في حياة",
+                        "note": "There is no life; expression of existential emptiness rather than literal biological claim."
+                    },
+                    {
+                        "marker": "ما ضل لي حد",
+                        "note": "I have no one left."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "ما في حياة.. ما في حياة",
+                        "note": "Repetition intensifies the sense of total collapse."
+                    },
+                    {
+                        "marker": "كسروني.. كسروا فرحتي",
+                        "note": "Parallel phrasing links personal breaking with the destruction of joy."
+                    }
+                ]
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "تعونهم": {
+                "variants_ar": [
+                    "تبعونهم",
+                    "خاصتهم",
+                    "اللي إلهم"
+                ],
+                "meaning_en": "Their / belonging to them."
+            },
+            "أرن عليها": {
+                "variants_ar": [
+                    "أتصل عليها",
+                    "أكلمها بالتليفون"
+                ],
+                "meaning_en": "To call her by phone."
+            },
+            "مش مبين إله أي اشي": {
+                "variants_ar": [
+                    "مش مبين منه اشي",
+                    "ما في ملامح واضحة",
+                    "غير قابل للتعرف"
+                ],
+                "meaning_en": "Nothing recognizable was visible; no identifiable features remained."
+            },
+            "أواعيهم": {
+                "variants_ar": [
+                    "ملابسهم",
+                    "هدومهم"
+                ],
+                "meaning_en": "Their clothes."
+            },
+            "هيهم": {
+                "variants_ar": [
+                    "ها هم",
+                    "ها هي",
+                    "أمامكم"
+                ],
+                "meaning_en": "Here they are / there they are, often accompanied by pointing or showing."
+            },
+            "الله بيعلم فيها": {
+                "variants_ar": [
+                    "الله بيعلم قديش",
+                    "فرحة كبيرة جداً",
+                    "لا توصف"
+                ],
+                "meaning_en": "Allah knows how great it was; idiom for emotional magnitude beyond expression."
+            },
+            "ع صلاة الفجر": {
+                "variants_ar": [
+                    "وقت الفجر",
+                    "قرب صلاة الفجر"
+                ],
+                "meaning_en": "Around Fajr prayer / at dawn."
+            },
+            "أزعّق": {
+                "variants_ar": [
+                    "أصرخ",
+                    "أصيح"
+                ],
+                "meaning_en": "To scream or shout loudly."
+            },
+            "التمت عليّ": {
+                "variants_ar": [
+                    "تجمعت حولي",
+                    "اجتمعت عليّ"
+                ],
+                "meaning_en": "People gathered around me."
+            },
+            "نفس الوزن": {
+                "variants_ar": [
+                    "نفس الإيقاع",
+                    "نفس النغمة",
+                    "متناسقين"
+                ],
+                "meaning_en": "Same rhythm/metrical balance; aesthetically matching names."
+            },
+            "ما في حياة": {
+                "variants_ar": [
+                    "ما فيش حياة",
+                    "الحياة انتهت",
+                    "الدنيا سودا"
+                ],
+                "meaning_en": "There is no life; expression of existential devastation."
+            },
+            "ما ضل لي حد": {
+                "variants_ar": [
+                    "ما بقي لي أحد",
+                    "فقدت أهلي",
+                    "لم يبق لي أحد"
+                ],
+                "meaning_en": "I have no one left."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "father_bereavement_birth_certificates_unused_clothes_hamd_after_loss",
+        "paper_fit_ar": "تمثل هذه الرواية مثالاً قوياً على تحوّل رموز الحياة والبداية الجديدة، مثل شهادات الميلاد وملابس المواليد والأسماء، إلى شواهد فقد وصدمة. تظهر الصلابة هنا في فعل الشهادة وحفظ الذاكرة: الأب يصرّ على رؤية زوجته وأطفاله، يحفظ أسماءهم كما أرادت الأم، يعرض الملابس غير المستخدمة، ثم يختم انهياره الوجداني بالحمد لله، فيجمع النص بين الانكسار الكامل وعدم التخلي عن الإيمان.",
+        "paper_fit_en": "This narrative is a strong example of how symbols of life and beginning—birth certificates, newborn clothes, and chosen names—become evidence of loss. Resilience appears not as calmness but as testimonial memory-work: the father insists on seeing his wife and children, preserves the names chosen by the mother, displays the unused clothes, and closes intense devastation with praise to Allah."
+    },
+    "ethical_note": {
+        "risk_level": "very_high_sensitivity_newborn_and_family_loss",
+        "notes": [
+            "The testimony includes newborn children, named children, birth certificates, unused baby clothes, named spouse, and graphic reference to an unrecognizable body; these create heightened ethical sensitivity.",
+            "For public dataset release, replace the wife’s and children’s names with consistent Palestinian pseudonyms or initials unless explicit consent exists for real-name publication.",
+            "In papers, quote only analytically necessary excerpts and avoid overexposing graphic details involving newborn children.",
+            "Avoid using visible documents, faces, names, or baby clothes as public-release identifiers unless rights and consent are clear.",
+            "Do not use this testimony for individual psychological diagnosis; keep annotation focused on discourse structure, adversity framing, response strategies, cultural markers, and affective signal.",
+            "Keep a raw internal version and a separate de-identified research/public version."
+        ],
+        "recommended_public_version": "pseudonymized_or_excerpt_only"
+    },
+    "text_en_full": "She had wanted to see the birth certificates—their birth certificates. I used to joke with her that I had named them different names from the ones she wanted and so on, but I actually named them the way she wanted. I was calling her to reassure her that I had named them the way she wanted me to name them. I went inside. I found her shrouded, and the children—one of them did not have anything recognizable showing. They had refused to let me see them, but I insisted that I wanted to see them. Their clothes—they still had not worn them. By Allah, they still had not worn them. Here they are, here they are, still just as they were. Here they are, here they are. At the beginning of our days in Rafah, we found out that my wife was pregnant. After a while, we also found out that she was pregnant with twins. It was a joy that Allah knows the size of—very beautiful. Around Fajr prayer, she gave birth. On the day she was martyred—the day before, I had gone home. The next day I went to get the birth certificates. On the way I received a call: 'Mohammad, where are you?' I said: 'I am at Al-Aqsa Martyrs Hospital, by Allah.' He said: 'I need you for a bit.' I said: 'Just give me a little time; by Allah I need to take the things home, the children’s certificates.' He said: 'Congratulations and so on, but Mohammad—your house was bombed!' I said: 'What about my wife and children?' I began screaming hysterically. People gathered around me and said: 'Are you the one—the mother and the children?' I was at the hospital door and said: 'Yes.' They told me: 'They are there, inside, inside—come.' Rami and Layan... she worked so hard to find two names with the same... the same rhythm. I tried as much as I could to make her happy and make the children happy, so that nothing would be missing for them. Every piece of these has a story behind it—every piece. The world is black. There is no life. There is no life. They broke me. They broke my joy. I have no one left. Praise be to Allah, Lord of the worlds.",
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

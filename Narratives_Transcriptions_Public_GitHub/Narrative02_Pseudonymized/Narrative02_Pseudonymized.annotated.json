@@ -134,6 +134,8 @@
             ]
         }
     },
+    "text_ar_full": "بنصيح على قلة المصاري، وعلى فراق الناس المْليحة… ومش عارفين حالنا وين رايحين… تايهين… والله تايهين. يعني طالع… طالع يا عالِم نشوفه ولا ما نشوفه… يمكن نموت… يمكن يموت… يمكن أنا أموت… مش عارفين وين رايحين فينا.",
+    "text_en_full": "We are crying over the lack of money, and over being separated from the good people… We don’t know where we’re going… we’re lost… truly lost. We’re leaving… leaving, and only Allah knows whether we’ll see each other again or not… maybe we’ll die… maybe he’ll die… maybe I’ll die… we don’t know where they’re taking us.",
     "anonymization": {
         "is_pseudonymized": false,
         "strategy": "none_needed",

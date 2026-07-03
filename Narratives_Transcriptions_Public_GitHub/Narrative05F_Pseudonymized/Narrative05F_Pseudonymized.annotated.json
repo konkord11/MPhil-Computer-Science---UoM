@@ -1,0 +1,226 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative05F_Pseudonymized",
+    "source_meta": {
+        "source_cluster_id": "SC05_FBWrittenTestimony_Archive",
+        "source_type": "text",
+        "source_platform": "Facebook",
+        "original_author": "Archive contributor (pseudonymised)",
+        "original_language": "ar",
+        "dialect": "Gaza – Beit Lahia (Lahwani)",
+        "collection_context_en": "Multi-story written testimony posted on Facebook during the War on Gaza (Al-Aqsa Flood period). Independent SABR narrative from a multi-part Facebook written testimony (War on Gaza). Six sub-narratives (Narrative05A–F) share one original post; each is processed separately.",
+        "collection_context_ar": "شهادة مكتوبة متعددة القصص نُشرت على فيسبوك خلال حرب غزة (فترة طوفان الأقصى). رواية SABR مستقلة من شهادة مكتوبة متعددة المقاطع على فيسبوك (حرب غزة). ست روايات فرعية (Narrative05A–F) من منشور واحد؛ تُعالَج كل منها على حدة.",
+        "fb_post_cluster": "Narrative05_FacebookFragments",
+        "fb_fragment_letter": "F"
+    },
+    "speaker_profile": {
+        "gender": "male",
+        "age_estimate": "adult",
+        "origin": "Beit Lahia, Northern Gaza"
+    },
+    "approx_context": {
+        "location": "Sidewalk burial site, Beit Lahia / Gaza City",
+        "brief_summary_en": "After Imad’s death, his parents and siblings arrive to say farewell as a grave is dug for him on the sidewalk. With no shroud available, the community performs funeral prayers and buries him under extreme conditions that strip burial of its expected dignity, while preserving its spiritual meaning.",
+        "brief_summary_ar": "بعد استشهاد عماد، حضر والداه وإخوته لوداعه بينما كان قبره يُحفَر على الرصيف. في ظل غياب أي كفن، أُقيمت صلاة الجنازة ودُفن في ظروف قاسية تنتهك كرامة الدفن الإنساني لكنها تحافظ على معناه الروحي."
+    },
+    "segments": [
+        {
+            "segment_id": "N05F_seg01",
+            "text_ar": "فجاءت أمه وأبيه وأخوته يودعونه، ونحن نحفر على الرصيف قبر لشهيد عماد.",
+            "text_en": "His mother, father, and siblings came to bid him farewell, while we were digging a grave for the martyr Imad on the sidewalk.",
+            "event_frame": {
+                "adversity_description": "Improvised burial in a public space due to the impossibility of evacuation or access to cemeteries.",
+                "response_description": "Collective participation in farewell and burial despite degrading and unsafe conditions."
+            },
+            "affective_signals": {
+                "affect_type": "grief_sadness",
+                "justification": "The convergence of family farewell and grave digging in a public space signals acute grief under forced conditions."
+            },
+            "contextual_markers": {
+                "cultural_markers": [
+                    {
+                        "marker": "نحفر على الرصيف قبر",
+                        "note": "Burial on a sidewalk indicates the collapse of spatial, social, and ritual norms surrounding death."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "شهيد",
+                        "note": "Martyrdom framing preserves moral and spiritual dignity despite material degradation."
+                    }
+                ]
+            },
+            "sabr_frame": {
+                "sabr_type": "sidewalk_grave_and_family_farewell",
+                "features": [
+                    "improvised_grave",
+                    "public_space_burial",
+                    "family_farewell",
+                    "martyrdom_frame"
+                ]
+            }
+        },
+        {
+            "segment_id": "N05F_seg02",
+            "text_ar": "وجئنا نكفّن عماد، لم نجد أي قطعة قماش نكفّن عماد بها.",
+            "text_en": "We attempted to shroud Imad, but we could not find a single piece of cloth to wrap him in.",
+            "event_frame": {
+                "adversity_description": "Total absence of basic burial materials under siege and displacement conditions.",
+                "response_description": "Confrontation with the stripping of burial rites down to their bare minimum."
+            },
+            "affective_signals": {
+                "affect_type": "horror_trauma",
+                "justification": "The inability to perform even the most basic burial practice intensifies the sense of dehumanization."
+            },
+            "contextual_markers": {
+                "cultural_markers": [
+                    {
+                        "marker": "لم نجد أي قطعة قماش",
+                        "note": "Signals extreme material deprivation and the erosion of funerary dignity."
+                    }
+                ],
+                "trauma_markers": [
+                    {
+                        "marker": "ritual_breakdown",
+                        "note": "The failure of expected burial rituals under catastrophic conditions."
+                    }
+                ]
+            },
+            "sabr_frame": {
+                "sabr_type": "absence_of_shroud_and_ritual_deprivation",
+                "features": [
+                    "no_shroud",
+                    "material_deprivation",
+                    "burial_rite_breakdown",
+                    "funerary_dignity_loss"
+                ]
+            }
+        },
+        {
+            "segment_id": "N05F_seg03",
+            "text_ar": "وجئنا نصلي عليه، فأمَّ به الشهيد شحدة قحمان، وودعناه ودفناه أنا والشهيد شحدة قحمان، وإنا لله وإنا إليه راجعون.",
+            "text_en": "We came to pray over him, and the martyr [was killed later] Shehda Qahman led the funeral prayer. Then we bid him farewell and buried him, saying: ‘Indeed, we belong to Allah, and to Him we shall return.’",
+            "event_frame": {
+                "adversity_description": "Burial under conditions that deny safety, privacy, and dignity.",
+                "response_description": "Reassertion of religious order and meaning through prayer and Qur’anic utterance."
+            },
+            "affective_signals": {
+                "affect_type": "resigned_resilience",
+                "justification": "Despite the brutality of circumstances, faith-based rituals restore moral coherence and endurance."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "صلاة الجنازة",
+                        "note": "Islamic funeral rite performed even in the absence of material prerequisites."
+                    },
+                    {
+                        "marker": "إنا لله وإنا إليه راجعون",
+                        "note": "Qur’anic expression of surrender and meaning-making in loss."
+                    }
+                ],
+                "resilience_markers": [
+                    {
+                        "marker": "faith_preservation_under_ruin",
+                        "note": "Maintaining spiritual practice despite the collapse of physical and social structures."
+                    }
+                ]
+            },
+            "sabr_frame": {
+                "sabr_type": "funeral_prayer_and_istirja_under_ruin",
+                "features": [
+                    "janazah_prayer",
+                    "burial_under_threat",
+                    "istirja",
+                    "faith_preservation_under_ruin"
+                ]
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "الرصيف": {
+                "variants_ar": [
+                    "الشارع",
+                    "جانب الطريق"
+                ],
+                "meaning_en": "Sidewalk / side of the road.",
+                "note_ar": "دفن على الرصيف يدل على انهيار المكان الطبيعي للدفن."
+            },
+            "نكفّن": {
+                "variants_ar": [
+                    "نلف بقماش أبيض",
+                    "نغطي الميت",
+                    "نجهز للدفن"
+                ],
+                "meaning_en": "To shroud the dead body.",
+                "note_ar": "التكفين جزء من كرامة الدفن في الإسلام."
+            },
+            "صلاة الجنازة": {
+                "variants_ar": [
+                    "الصلاة عليه",
+                    "صلاة الميت"
+                ],
+                "meaning_en": "Islamic funeral prayer.",
+                "note_ar": "طقس ديني لحفظ المعنى والكرامة عند الموت."
+            }
+        }
+    },
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "name_replacement_pool",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "n/a",
+        "contains_real_names": false,
+        "notes": "Facebook fragment from a six-part post; pseudonymised per Project_Research_Documentation/schemas/fragment_bundle_narrative05.json. Source fragment file: N05F_ImadBurialSidewalk_TXT_FB.json. Public-release bundle: reversibility metadata stripped for GitHub."
+    },
+    "text_ar_full": "فجاءت أمه وأبيه وأخوته يودعونه، ونحن نحفر على الرصيف قبر لشهيد عماد. وجئنا نكفّن عماد، لم نجد أي قطعة قماش نكفّن عماد بها. وجئنا نصلي عليه، فأمَّ به الشهيد شحدة قحمان، وودعناه ودفناه أنا والشهيد شحدة قحمان، وإنا لله وإنا إليه راجعون.",
+    "text_en_full": "His mother, father, and siblings came to bid him farewell, while we were digging a grave for the martyr Imad on the sidewalk. We attempted to shroud Imad, but we could not find a single piece of cloth to wrap him in. We came to pray over him, and the martyr [was killed later] Shehda Qahman led the funeral prayer. Then we bid him farewell and buried him, saying: ‘Indeed, we belong to Allah, and to Him we shall return.’",
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Gaza dialect, crisis testimony, and SABR annotation conventions."
+            }
+        ],
+        "adjudication": {
+            "status": "schema_normalized_ready_for_review",
+            "note": "Updated to ensure full Arabic and English narrative texts, SABR frames, structured lexicon, and v1.2-compatible fields."
+        },
+        "alignment_note": "Written testimony segments do not include timestamps unless present in the source. Segment order is preserved from the input JSON.",
+        "selection_policy": "All existing segments/spans are preserved as annotatable units. Full Arabic and English texts are generated from ordered units if absent.",
+        "schema_update_note": "This file was updated to include text_ar_full, text_en_full, SABR frames for all annotatable units, and structured lexicon_hints.",
+        "fb_post_sub_narrative": "Narrative05F",
+        "source_fragment_file": "N05F_ImadBurialSidewalk_TXT_FB.json"
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "sidewalk_burial_no_shroud_funeral_prayer",
+        "paper_fit_ar": "تصف الرواية انهيار شروط الدفن الطبيعي: قبر على الرصيف ولا كفن. ومع ذلك يحافظ المجتمع على الصلاة والوداع والاسترجاع، فيبقى المعنى الديني قائماً رغم خراب الظروف.",
+        "paper_fit_en": "This narrative describes the collapse of normal burial conditions: a grave on the sidewalk and no shroud. Yet the community preserves prayer, farewell, and istirja, maintaining religious meaning despite the ruin of circumstances."
+    },
+    "ethical_note": {
+        "risk_level": "high_sensitivity_improvised_burial_no_shroud",
+        "notes": [
+            "Contains improvised burial, lack of shroud, and funeral rites under extreme conditions.",
+            "Names are pseudonymized in source metadata.",
+            "Burial details should be handled respectfully and without sensationalism.",
+            "Do not use this testimony for psychological diagnosis."
+        ],
+        "recommended_public_version": "pseudonymized_public_version_with_context_review"
+    },
+    "schema_compliance_note": {
+        "version": "SABR_v1.2_prototype",
+        "updates_applied": [
+            "ensured text_ar_full",
+            "ensured text_en_full",
+            "ensured sabr_frame on every annotatable unit",
+            "normalized lexicon_hints.expected_variants",
+            "added/updated analysis_note_for_paper and ethical_note where missing"
+        ]
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

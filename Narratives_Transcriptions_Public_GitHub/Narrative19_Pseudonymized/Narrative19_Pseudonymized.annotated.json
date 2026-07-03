@@ -1,0 +1,590 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative19_Pseudonymized",
+    "source_meta": {
+        "source_id": "N19",
+        "source_type": "video_transcription",
+        "source_platform": "Public short video testimony / journalist interview",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (Jabalia / North Gaza dialect)",
+        "reported_context": "A civilian man from Jabalia, speaks after multiple massacres affecting members of his family. He stresses that the victims were civilians, describes people being killed while beginning an ordinary dawn routine, and recounts the extreme difficulty of identifying and burying fragmented remains.",
+        "collection_context_en": "A civilian man from Jabalia describes waking around the first call to prayer to several massacres affecting four a family households. He repeatedly asserts that the victims were civilians, frames their daily life as ordinary human survival, says many were killed that day, and describes how fragmented remains were separated and buried by weight because people could not identify the bodies.",
+        "collection_context_ar": "رجل مدني من جباليا يصف الاستيقاظ على الآذان الأول على عدة مجازر أصابت أربع دور من عائلة عائلة. يكرر أن الضحايا كلهم مدنيون، ويؤطر حياتهم اليومية كحياة بشر عاديين يسعون للصلاة وشرب الماء والأكل والعيش، ثم يصف كثرة الشهداء وصعوبة التعرف على الأشلاء حتى تم توزيعها ودفنها بالوزن."
+    },
+    "anonymization": {
+        "is_pseudonymized": true,
+        "strategy": "name_replacement_pool",
+        "contains_real_names": false,
+        "contains_minors": true,
+        "notes": "Person names and identifying tokens in this tree are replaced using Gaza_NamePool_v1 with dataset-consistent mappings. Original strings are retained only in Narratives_Transcriptions. Follow Project_Research_Documentation/protocols/mphil_uom_ethics_and_governance.txt for storage, consent scope, and thesis use. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "within_dataset_consistent"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Gaza dialect, North Gaza/Jabalia expressions, crisis testimony, and religious/cultural discourse markers."
+            }
+        ],
+        "adjudication": {
+            "status": "draft_annotation_ready_for_review",
+            "note": "Whisper output is used only for approximate timestamps. Segment text follows the corrected user-provided transcript. Parenthetical user explanations are represented as contextual markers and lexicon hints, not inserted into the narrative text."
+        },
+        "alignment_note": "Timestamps are approximate and mapped from ASR boundaries; corrected Arabic text is used for analysis.",
+        "selection_policy": "Full narrative preserved. Segmentation follows discourse shifts: waking to massacres, civilian ordinary-life framing, casualty scale and land attachment, active recovery of bodies, remains-by-weight identification, and final civilian-status insistence."
+    },
+    "speaker_profile": {
+        "gender": "male",
+        "age_estimate": "adult",
+        "origin": "Jabalia, North Gaza",
+        "role_or_status": [
+            "Civilian survivor",
+            "Eyewitness",
+            "Bereaved community member",
+            "Public speaker after massacre"
+        ]
+    },
+    "approx_context": {
+        "brief_summary_en": "A civilian man from Jabalia describes waking around the first call to prayer to several massacres affecting four a family households. He insists that the victims were civilians living an ordinary dawn routine—praying, seeking water, food, and survival. He reports a large number of deaths that day, while affirming that they remain on their land and in their homes. In response to the reporter’s questions, he describes ongoing recovery of bodies from the rubble and the traumatic process of separating fragmented remains by weight because no one could identify individuals.",
+        "brief_summary_ar": "يروي رجل مدني من جباليا أنه استيقظ قرب أذان الفجر الأول على عدة مجازر أصابت أربع دور من عائلة عائلة. يؤكد أن الضحايا مدنيون كانوا يعيشون صباحاً عادياً: صلاة، وسعي لشرب الماء والأكل والعيش. يذكر كثرة الشهداء في ذلك اليوم، ثم يؤكد البقاء في الأرض والدار مهما حدث. وبسؤال المراسل، يصف استمرار إخراج الشهداء من تحت الأنقاض، ثم يروي مشهد توزيع الأشلاء ودفنها بالوزن بسبب عدم القدرة على التعرف على أصحابها."
+    },
+    "text_ar_full": "ولا اشي، صحينا على الآدان الأول، أربع مجازر، لدار عائلة الأربعة، وكلهم مدنيين، كلنا مدنيين. ولا.. يعني صاحيين الساعة أربعة بنصلي وزينا زي أيّا إنسان، بنسعى نشرب مية، نسعى ناكل، نسعى نعيش. مات منّا يمكن 100 أو 150 اليوم، هدولا اليوم، غير طول الحرب، فالحمدلله هينا بأرضنا وهينا بدارنا واللي بده يصير يصير. في شهدا تحت الأنقاض؟ آه، قاعدين بطلعوا، هاضا استشهد الساعة أربعة. بقولوا وزّنتوا الشهدا اليوم؟ آه.. وزّناهم.. وزعناهم وزن، ولا.. كله مقطّع. مثلاً.. ولاد أبو سامي عنده أربع ولاد، مفش كله قطع، كله مفتفت، قسّمناهم أربع أكوام وكل واحد بحرام، بحرام، بحرام، وخدوهم ادفنوهم.. سجّل هادا ع اسمه وهاضا ع اسمه وهاضا ع اسمه.. بالوزن، فش حد عرف حد. آه.. أشلاء كلهم. ايش المقصود محدش عارف. احنا مدنيين، كلهم مدنيين، احنا كل دار عائلة مدنيين.",
+    "segments": [
+        {
+            "segment_id": "N19_s01",
+            "start_time": 0.0,
+            "end_time": 7.36,
+            "text_ar": "ولا اشي، صحينا على الآدان الأول، أربع مجازر، لدار عائلة الأربعة، وكلهم مدنيين، كلنا مدنيين.",
+            "text_en": "Nothing at all. We woke up at the first call to prayer: four massacres, against the four a family households. All of them were civilians; all of us are civilians.",
+            "event_frame": {
+                "adversity_description": "The speaker describes waking at the first call to prayer to four massacres affecting four a family households.",
+                "response_description": "He immediately frames the victims and the community as civilians, countering any implied military justification."
+            },
+            "sabr_frame": {
+                "sabr_type": "civilian_status_assertion_after_massacre",
+                "features": [
+                    "dawn_attack",
+                    "family_households_targeted",
+                    "civilian_repetition",
+                    "moral_innocence_claim"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "shock_and_bitter_disbelief",
+                "justification": "The opening 'ولا اشي' and repeated 'مدنيين' convey disbelief that ordinary sleeping civilians were attacked."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "ولا اشي",
+                        "note": "Literally 'nothing'; here means nothing unusual was happening, emphasizing that the situation had seemed ordinary before the massacre."
+                    },
+                    {
+                        "marker": "صحينا",
+                        "note": "We woke up."
+                    },
+                    {
+                        "marker": "الآدان",
+                        "note": "Dialectal pronunciation of الآذان, the call to prayer."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "الآدان الأول",
+                        "note": "First call to prayer; places the event in a dawn religious/time frame."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "كلهم مدنيين، كلنا مدنيين",
+                        "note": "Repetition foregrounds civilian identity as the key moral frame."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N19_s02",
+            "start_time": 8.62,
+            "end_time": 15.36,
+            "text_ar": "ولا.. يعني صاحيين الساعة أربعة بنصلي وزينا زي أيّا إنسان، بنسعى نشرب مية، نسعى ناكل، نسعى نعيش.",
+            "text_en": "We were awake at four o’clock [4 a.m.], praying, and we are like any human being: trying to drink water, trying to eat, trying to live.",
+            "event_frame": {
+                "adversity_description": "The attack is contrasted with an ordinary civilian dawn routine: prayer, water, food, and basic survival.",
+                "response_description": "The speaker humanizes the victims by emphasizing their ordinary needs and equal humanity."
+            },
+            "sabr_frame": {
+                "sabr_type": "ordinary_life_humanisation_under_attack",
+                "features": [
+                    "ordinary_dawn_routine",
+                    "prayer",
+                    "water_and_food_needs",
+                    "basic_human_life_claim"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "wounded_humanisation",
+                "justification": "The repeated 'نسعى' and phrase 'زينا زي أيّا إنسان' insist on basic humanity and ordinary life under attack."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "زينا زي أيّا إنسان",
+                        "note": "Like any human being; emphasizes ordinary civilian humanity."
+                    },
+                    {
+                        "marker": "مية",
+                        "note": "Water; colloquial Palestinian/Gazan form."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "نسعى نشرب، نسعى ناكل، نسعى نعيش",
+                        "note": "Parallel repetition frames civilian life as a struggle for basic survival."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "بنصلي",
+                        "note": "We were praying; emphasizes the ordinary dawn religious routine."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N19_s03",
+            "start_time": 16.5,
+            "end_time": 25.24,
+            "text_ar": "مات منّا يمكن 100 أو 150 اليوم، هدولا اليوم، غير طول الحرب، فالحمدلله هينا بأرضنا وهينا بدارنا واللي بده يصير يصير.",
+            "text_en": "Maybe 100 or 150 of us died today—these are only today, apart from the whole war. So praise be to Allah, we are here on our land and here in our home, and whatever is going to happen, let it happen.",
+            "event_frame": {
+                "adversity_description": "The speaker reports a very large number of deaths that day, separate from deaths throughout the war.",
+                "response_description": "He responds with praise to Allah and an explicit statement of remaining on the land and in the home despite what may come."
+            },
+            "sabr_frame": {
+                "sabr_type": "sumud_on_land_after_mass_death",
+                "features": [
+                    "mass_death_scale",
+                    "hamd_after_loss",
+                    "land_attachment",
+                    "home_attachment",
+                    "fatalistic_endurance"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "grief_with_defiant_resignation",
+                "justification": "The casualty estimate is followed by 'الحمدلله', staying on the land, and 'اللي بده يصير يصير', combining grief, faith, and refusal to leave."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "الحمدلله",
+                        "note": "Praise be to Allah; used after mass death, indicating faith-based endurance rather than absence of grief."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "هدولا اليوم",
+                        "note": "These are today; refers to this day’s martyrs/deaths, separate from the wider war."
+                    },
+                    {
+                        "marker": "هينا بأرضنا وهينا بدارنا",
+                        "note": "Here we are on our land and in our home; strong place-attachment and anti-displacement marker."
+                    },
+                    {
+                        "marker": "اللي بده يصير يصير",
+                        "note": "Whatever is going to happen, let it happen; conveys resignation under total exposure while remaining steadfast."
+                    }
+                ],
+                "ethical_sensitivity_markers": [
+                    {
+                        "marker": "100 أو 150",
+                        "note": "Speaker-reported estimate indicating scale; should not be treated as verified without corroboration."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N19_s04",
+            "start_time": 25.46,
+            "end_time": 30.7,
+            "text_ar": "في شهدا تحت الأنقاض؟ آه، قاعدين بطلعوا، هاضا استشهد الساعة أربعة.",
+            "text_en": "Are there martyrs under the rubble? Yes, they are still pulling them out. This one was martyred at four o’clock.",
+            "event_frame": {
+                "adversity_description": "Martyrs remain under the rubble and are still being recovered at the time of the interview.",
+                "response_description": "The speaker answers the reporter’s question and points to a specific martyr recovered from the massacre."
+            },
+            "sabr_frame": {
+                "sabr_type": "ongoing_body_recovery_from_rubble",
+                "features": [
+                    "martyrs_under_rubble",
+                    "ongoing_recovery",
+                    "pointing_to_dead",
+                    "immediacy_of_loss"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "raw_bereavement_and_disbelief",
+                "justification": "The immediacy of 'قاعدين بطلعوا' and pointing to someone martyred at four o’clock grounds the testimony in active recovery and fresh grief."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "شهدا / استشهد",
+                        "note": "Martyrs / was martyred; frames death through Palestinian-Islamic martyrdom discourse."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "قاعدين بطلعوا",
+                        "note": "They are still pulling them out / recovering them now."
+                    },
+                    {
+                        "marker": "هاضا",
+                        "note": "This one; deictic pointing to a specific victim."
+                    }
+                ],
+                "interaction_markers": [
+                    {
+                        "marker": "في شهدا تحت الأنقاض؟",
+                        "note": "Reporter question included in the narrative; marks interview format."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N19_s05",
+            "start_time": 31.54,
+            "end_time": 35.62,
+            "text_ar": "بقولوا وزّنتوا الشهدا اليوم؟ آه.. وزّناهم.. وزعناهم وزن، ولا.. كله مقطّع.",
+            "text_en": "They ask: did you weigh the martyrs today? Yes... we weighed them... we distributed them by weight. Everything was cut up.",
+            "event_frame": {
+                "adversity_description": "The bodies are so fragmented that ordinary identification and burial practices are disrupted.",
+                "response_description": "The speaker describes weighing/distributing remains by weight as a desperate procedure for burial."
+            },
+            "sabr_frame": {
+                "sabr_type": "burial_under_body_fragmentation",
+                "features": [
+                    "weighing_remains",
+                    "fragmented_bodies",
+                    "burial_disruption",
+                    "mass_death_management"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "horror_and_numb_practicality",
+                "justification": "The extreme phrase 'وزعناهم وزن' is delivered as practical necessity, showing shock mixed with forced procedural action."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "وزّناهم",
+                        "note": "We weighed them; here refers to weighing fragmented remains because identification was impossible."
+                    },
+                    {
+                        "marker": "وزعناهم وزن",
+                        "note": "We distributed/separated them by weight; a traumatic workaround for burial."
+                    },
+                    {
+                        "marker": "كله مقطّع",
+                        "note": "All cut up / fragmented into pieces."
+                    }
+                ],
+                "ethical_sensitivity_markers": [
+                    {
+                        "marker": "weighing remains",
+                        "note": "Highly graphic and sensitive; quote only if analytically necessary."
+                    }
+                ],
+                "interaction_markers": [
+                    {
+                        "marker": "بقولوا / وزّنتوا الشهدا اليوم؟",
+                        "note": "Reporter/interlocutor question prompting explanation of burial process."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N19_s06",
+            "start_time": 36.56,
+            "end_time": 51.46,
+            "text_ar": "مثلاً.. ولاد أبو سامي عنده أربع ولاد، مفش كله قطع، كله مفتفت، قسّمناهم أربع أكوام وكل واحد بحرام، بحرام، بحرام، وخدوهم ادفنوهم.. سجّل هادا ع اسمه وهاضا ع اسمه وهاضا ع اسمه.. بالوزن، فش حد عرف حد.",
+            "text_en": "For example... Abu Sami’s children—he had four children. There was nothing intact; everything was pieces, completely fragmented. We divided them into four piles, each one in a blanket, a blanket, a blanket, and they took them to bury them. Register this one under his name, and that one under his name, and that one under his name... by weight. No one could recognize anyone.",
+            "event_frame": {
+                "adversity_description": "The remains of children are fragmented beyond recognition, preventing normal identification and burial.",
+                "response_description": "The community divides remains into piles, wraps them in blankets, records names, and proceeds with burial despite uncertainty."
+            },
+            "sabr_frame": {
+                "sabr_type": "dignity_of_burial_under_unrecognisable_remains",
+                "features": [
+                    "child_victims",
+                    "unrecognisable_remains",
+                    "blanket_wrapping",
+                    "name_registration",
+                    "burial_dignity_under_constraint"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "traumatic_horror_with_burial_duty",
+                "justification": "The description of fragmented children’s remains is paired with the effort to wrap, name, and bury them, showing horror alongside moral duty toward the dead."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "مفش",
+                        "note": "There is none / nothing; Gaza negation indicating absence of intact bodies."
+                    },
+                    {
+                        "marker": "مفتفت",
+                        "note": "Fragmented into very small pieces."
+                    },
+                    {
+                        "marker": "أربع أكوام",
+                        "note": "Four piles; refers to dividing remains into burial portions."
+                    },
+                    {
+                        "marker": "بحرام",
+                        "note": "In Gaza dialect, حرام with a still/soft initial ḥ refers to a heavy sleeping cover/blanket; here used because shrouds were unavailable or insufficient."
+                    },
+                    {
+                        "marker": "فش حد عرف حد",
+                        "note": "No one could recognize anyone; total collapse of visual identification."
+                    }
+                ],
+                "cultural_religious_markers": [
+                    {
+                        "marker": "ادفنوهم",
+                        "note": "Burial remains a religious and social obligation even when identification is impossible."
+                    },
+                    {
+                        "marker": "سجّل هادا ع اسمه",
+                        "note": "Name registration attempts to preserve identity and dignity amid bodily fragmentation."
+                    }
+                ],
+                "ethical_sensitivity_markers": [
+                    {
+                        "marker": "children’s fragmented remains",
+                        "note": "Very high sensitivity; avoid public quotation unless essential and consider paraphrase."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N19_s07",
+            "start_time": 52.2,
+            "end_time": 61.56,
+            "text_ar": "أشلاء كلهم. آه.. ايش المقصود محدش عارف. احنا مدنيين، كلهم مدنيين، احنا كل دار عائلة مدنيين.",
+            "text_en": "They were all remains. Yes... what was the point? No one knows. We are civilians; all of them are civilians. All of the a family household are civilians.",
+            "event_frame": {
+                "adversity_description": "The bodies are reduced to remains and the speaker cannot identify any meaningful military objective or purpose.",
+                "response_description": "He closes by returning to the central claim: they are civilians, all of them are civilians."
+            },
+            "sabr_frame": {
+                "sabr_type": "civilian_status_reassertion_after_bodily_erasure",
+                "features": [
+                    "remains_frame",
+                    "moral_questioning",
+                    "civilian_reassertion",
+                    "family_household_innocence"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "moral_bewilderment_and_insistent_innocence",
+                "justification": "The phrase 'ايش المقصود محدش عارف' expresses moral bewilderment, followed by repeated civilian-status assertion."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "محدش عارف",
+                        "note": "No one knows; Gaza/Palestinian negation with -sh."
+                    },
+                    {
+                        "marker": "احنا",
+                        "note": "We; colloquial form anchoring collective identity."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "احنا مدنيين، كلهم مدنيين",
+                        "note": "Repeated civilian-status claim; forms the moral core of the testimony."
+                    },
+                    {
+                        "marker": "ايش المقصود",
+                        "note": "What was the point/purpose? A rhetorical question challenging the logic of the attack."
+                    }
+                ],
+                "ethical_sensitivity_markers": [
+                    {
+                        "marker": "أشلاء كلهم",
+                        "note": "Graphic remains reference; use cautiously in public excerpts."
+                    }
+                ]
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "ولا اشي": {
+                "variants_ar": [
+                    "ولا شيء",
+                    "ما كان في شيء",
+                    "الوضع كان عادي"
+                ],
+                "meaning_en": "Nothing unusual was happening; the situation seemed ordinary before the attack."
+            },
+            "صحينا": {
+                "variants_ar": [
+                    "استيقظنا",
+                    "قمنا من النوم"
+                ],
+                "meaning_en": "We woke up."
+            },
+            "الآدان": {
+                "variants_ar": [
+                    "الآذان",
+                    "أذان الفجر"
+                ],
+                "meaning_en": "The call to prayer; dialectal pronunciation."
+            },
+            "دار مقاط": {
+                "variants_ar": [
+                    "بيت عائلة عائلة",
+                    "دور عائلة عائلة",
+                    "منازل عائلة عائلة"
+                ],
+                "meaning_en": "The a family family household(s)."
+            },
+            "زينا زي أيّا إنسان": {
+                "variants_ar": [
+                    "مثلنا مثل أي إنسان",
+                    "إحنا بشر عاديين",
+                    "كأي ناس مدنيين"
+                ],
+                "meaning_en": "Like any human being; emphasizes ordinary civilian humanity."
+            },
+            "مية": {
+                "variants_ar": [
+                    "ماء",
+                    "مي"
+                ],
+                "meaning_en": "Water."
+            },
+            "هدولا": {
+                "variants_ar": [
+                    "هؤلاء",
+                    "دول",
+                    "هدول"
+                ],
+                "meaning_en": "These; used for a nearby plural referent."
+            },
+            "هينا بأرضنا وهينا بدارنا": {
+                "variants_ar": [
+                    "نحن باقون في أرضنا وبيتنا",
+                    "إحنا هون بأرضنا ودارنا",
+                    "لن نترك أرضنا"
+                ],
+                "meaning_en": "Here we are on our land and in our home; strong place-attachment and anti-displacement stance."
+            },
+            "اللي بده يصير يصير": {
+                "variants_ar": [
+                    "ما سيحدث فليحدث",
+                    "اللي يصير يصير",
+                    "لم يعد يهم ما سيحدث"
+                ],
+                "meaning_en": "Whatever is going to happen, let it happen; fatalistic endurance while remaining steadfast."
+            },
+            "قاعدين بطلعوا": {
+                "variants_ar": [
+                    "ما زالوا يخرجونهم",
+                    "يتم إخراجهم الآن",
+                    "لسه بطلعوا فيهم"
+                ],
+                "meaning_en": "They are still pulling them out / recovering them now."
+            },
+            "وزّناهم": {
+                "variants_ar": [
+                    "قمنا بوزنهم",
+                    "وزنّا الأشلاء"
+                ],
+                "meaning_en": "We weighed them; here refers to weighing fragmented remains."
+            },
+            "وزعناهم وزن": {
+                "variants_ar": [
+                    "قسّمناهم بالوزن",
+                    "وزّعنا الأشلاء حسب الوزن"
+                ],
+                "meaning_en": "We distributed/separated the remains by weight."
+            },
+            "كله مقطّع": {
+                "variants_ar": [
+                    "كله أشلاء",
+                    "ممزق بالكامل",
+                    "قطع"
+                ],
+                "meaning_en": "All cut up / fragmented into pieces."
+            },
+            "مفش": {
+                "variants_ar": [
+                    "ما فيش",
+                    "لا يوجد",
+                    "لا شيء"
+                ],
+                "meaning_en": "There is none / there is no; Gaza-style negation."
+            },
+            "مفتفت": {
+                "variants_ar": [
+                    "مفتت",
+                    "قطع صغيرة جداً",
+                    "متناثر"
+                ],
+                "meaning_en": "Fragmented into very small pieces."
+            },
+            "بحرام": {
+                "variants_ar": [
+                    "بغطاء",
+                    "ببطانية ثقيلة",
+                    "بغطاء نوم"
+                ],
+                "meaning_en": "In a heavy blanket/sleeping cover; used here because shrouds were not sufficient or available."
+            },
+            "فش حد عرف حد": {
+                "variants_ar": [
+                    "لا أحد عرف أحداً",
+                    "لم يتمكن أحد من التعرف على أحد",
+                    "استحال التعرف عليهم"
+                ],
+                "meaning_en": "No one could recognize anyone."
+            },
+            "محدش عارف": {
+                "variants_ar": [
+                    "لا أحد يعرف",
+                    "ما حدا عارف",
+                    "فش حد عارف"
+                ],
+                "meaning_en": "No one knows."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "civilian_massacre_burial_dignity_remains_by_weight_sumud",
+        "paper_fit_ar": "تمثل هذه الرواية مثالاً بالغ الأهمية على الصمود المدني بعد مجزرة جماعية في جباليا. يبدأ المتحدث بتثبيت إطار المدنية: الضحايا كانوا نائمين أو يستعدون لصلاة الفجر ويسعون للماء والطعام والحياة مثل أي إنسان. ثم ينتقل إلى صمود مكاني واضح: 'هينا بأرضنا وهينا بدارنا واللي بده يصير يصير'. أكثر ما يميز الرواية هو وصف دفن الأشلاء بالوزن، حيث تنهار إمكانية التعرف على الجثامين، لكن يبقى واجب الدفن والتسمية ومحاولة حفظ الكرامة. لذلك تكشف الرواية أن الصمود هنا ليس فقط رفض الرحيل، بل أيضاً الإصرار على إنسانية المدنيين وكرامة الشهداء رغم التمزق الجسدي وفشل التعرف.",
+        "paper_fit_en": "This narrative is a highly significant example of civilian resilience after a mass-casualty event in Jabalia. The speaker first anchors the moral frame in civilian identity: the victims were waking for dawn prayer and seeking water, food, and life like any human being. He then articulates place-based sumud: remaining on the land and in the home regardless of what happens. The most distinctive element is the account of burial by weight, where bodily identification collapses but the community still tries to preserve dignity through wrapping, naming, and burial. Resilience here is not only refusal to leave, but also insistence on civilian humanity and the dignity of the dead despite bodily fragmentation."
+    },
+    "ethical_note": {
+        "risk_level": "very_high_sensitivity_mass_casualty_fragmented_remains_children",
+        "notes": [
+            "The narrative includes mass-casualty claims, children, family names, bodies under rubble, and graphic descriptions of fragmented remains.",
+            "Family identifiers such as a family and Abu Sami should be reviewed before public release; consider pseudonymization or role-based references unless names are essential and publicly documented.",
+            "Numerical claims such as 100 or 150 should be treated as speaker-reported estimates, not independently verified figures, unless corroborated elsewhere.",
+            "Graphic details about body fragmentation and burial by weight are analytically important but should be quoted minimally and carefully.",
+            "Do not use this testimony for psychological diagnosis; annotation should focus on discourse structure, adversity framing, response strategies, cultural/religious markers, affective signal, and ethical handling of remains."
+        ],
+        "recommended_public_version": "pseudonymized_or_excerpt_only_with_graphic_detail_minimization"
+    },
+    "text_en_full": "Nothing at all. We woke up at the first call to prayer: four massacres, against the four a family households. All of them were civilians; all of us are civilians. We were awake at four o’clock [4 a.m.], praying, and we are like any human being: trying to drink water, trying to eat, trying to live. Maybe 100 or 150 of us died today—these are only today, apart from the whole war. So praise be to Allah, we are here on our land and here in our home, and whatever is going to happen, let it happen. Are there martyrs under the rubble? Yes, they are still pulling them out. This one was martyred at four o’clock. They ask: did you weigh the martyrs today? Yes... we weighed them... we distributed them by weight. Everything was cut up. For example... Abu Sami’s children—he had four children. There was nothing intact; everything was pieces, completely fragmented. We divided them into four piles, each one in a blanket, a blanket, a blanket, and they took them to bury them. Register this one under his name, and that one under his name, and that one under his name... by weight. No one could recognize anyone. They were all remains. Yes... what was the point? No one knows. We are civilians; all of them are civilians. All of the a family household are civilians.",
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

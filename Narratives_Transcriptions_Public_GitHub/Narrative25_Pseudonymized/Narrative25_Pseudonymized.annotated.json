@@ -1,0 +1,710 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative25_Pseudonymized",
+    "source_meta": {
+        "source_id": "N25",
+        "source_type": "video_transcription",
+        "source_platform": "Public interview / video testimony",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (Gaza dialect) with religious register",
+        "reported_context": "An adult released prisoner from Gaza recounts learning, on the day of his release, that his brother Salim had been martyred the previous day. The testimony moves from the shock of receiving the news to memories of Salim’s care for the narrator’s daughters, his rescue of another person from a burning tent, and the narrator’s final expression of grief without resentment toward Allah’s decree.",
+        "collection_context_en": "A released Palestinian prisoner describes arriving at Nasser Hospital after release while searching for his brother Salim among journalists and family. Instead of being welcomed by him, he is told that Salim was martyred the previous day. The narrator’s joy of release disappears and is replaced by grief, qahr, memories of Salim’s role in the family, and a faith-based attempt to reconcile deep sorrow with acceptance of Allah’s decree.",
+        "collection_context_ar": "أسير محرر من غزة يروي لحظة وصوله إلى مستشفى ناصر بعد الإفراج عنه وهو يبحث عن أخيه سالم بين الصحفيين والأهل، ثم يُخبَر بأن سالم استشهد في اليوم السابق. تختفي فرحة الإفراج لتحل محلها صدمة وقهر وحزن على سالم، ثم يستعيد الراوي دور سالم في رعاية بناته وإنقاذ أحد الناس من النار، ويختم برضا ديني بقضاء الله مع تأكيد أن الرضا لا يلغي الحزن والبكاء."
+    },
+    "anonymization": {
+        "is_pseudonymized": true,
+        "strategy": "name_replacement_pool",
+        "contains_real_names": false,
+        "contains_minors": true,
+        "notes": "Person names and identifying tokens in this tree are replaced using Gaza_NamePool_v1 with dataset-consistent mappings. Original strings are retained only in Narratives_Transcriptions. Follow Project_Research_Documentation/protocols/mphil_uom_ethics_and_governance.txt for storage, consent scope, and thesis use. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "within_dataset_consistent"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Palestinian/Gazan dialect, Islamic grief discourse, and SABR annotation conventions."
+            }
+        ],
+        "adjudication": {
+            "status": "draft_annotation_ready_for_review",
+            "note": "Whisper output is used only for approximate timestamps. The corrected Arabic transcript supplied in the DOCX is treated as the source of truth. Parenthetical explanations are represented as notes/markers rather than inserted into spoken text."
+        },
+        "alignment_note": "Timestamps are approximate and mapped from ASR boundaries; corrected Arabic text is used for analysis.",
+        "selection_policy": "Segmentation follows major discourse shifts: receiving news of martyrdom, collapse of release joy, family role of the deceased brother, rescue testimony, moral/religious praise of Salim, protective supplication and self-questioning, and final grief-with-ridha formulation."
+    },
+    "speaker_profile": {
+        "gender": "male",
+        "age_estimate": "adult",
+        "origin": "Gaza City / Gaza Strip",
+        "role_or_status": [
+            "Released prisoner",
+            "Bereaved brother",
+            "Father",
+            "Public testimony speaker"
+        ]
+    },
+    "approx_context": {
+        "brief_summary_en": "An adult released prisoner from Gaza recounts how, upon arriving at Nasser Hospital after release, he searched for his brother Salim and was told that Salim had been martyred the previous day. The shock erased the joy of release and dominated his memory of the day. He recalls Salim as a brother, friend, substitute father to his daughters during imprisonment, rescuer of a man from a burning tent, and a man of Qur’an. The testimony ends with the narrator expressing intense grief and qahr while explicitly rejecting resentment and affirming acceptance of Allah’s decree.",
+        "brief_summary_ar": "يروي أسير محرر بالغ من غزة أنه عند وصوله إلى مستشفى ناصر بعد الإفراج عنه كان يبحث عن أخيه سالم، فأُخبر أن سالم استشهد في اليوم السابق. غابت فرحة الإفراج وسيطر مشهد سالم على كل شيء. يستعيد الراوي سالماً بوصفه أخاً وصديقاً وأباً بديلاً لبناته في غيابه، ومنقذاً لرجل من خيمة مشتعلة، ورجلاً حافظاً للقرآن عاملاً به. وتنتهي الرواية بتعبير شديد عن الحزن والقهر مع نفي السخط وتأكيد الرضا بقضاء الله."
+    },
+    "text_ar_full": "كان خبر استشهاد سالم أسبق، كيف عرفتوا؟ هان العجب، أخخخ.. الله يرحمك يا سالم، سالم.. كنت بجلس في الكرسي اللي هو خلف الشباك، وأول ما وصلت باب مستشفى ناصر الباص بدّه يدخل في الباب، كنت بحاول إني أسترق النظرات للصحفيين الموجودين، لعلّي إني أجد سالم. للأسف أحد الشبان الموجودين بينادي عليا: يا أبو رامي يا أبو رامي. تطلعت من الشباك، مش إنتَ أبو رامي أخو سالم؟ بقوله: آه وين سالم؟ وين مش شايفه. إلا هو بيقولي سالم استشهد امبارح. ما حكى هالكلمة.. من طولي قعدت ع الكرسي. يعني أنا كنت أقول الإفراج حلم ولا علم؟ نسيت الإفراج واللهِ نسيت الفرحة، إنا لله وإنا إليه راجعون. غابت عني فرحة الإفراج ولا أخفيكم ما عدت أتذكر أحد من أهلي، مشهد سالم خيّم، مشهد سالم سيطر ع كل شيء، مش قادر أصدق. سالم كان نِعم الأخ، كان نِعم الصديق، وكان لبناتي نعم الأب في غيابي، نعم العم، لدرجة إنه بناتي متعلقين فيه أكتر مني. بنتي ليان امبارح صحيَت من النوم في الليل مفزوعة بتنادي ع سالم، إيش بقدر أقدملها أنا؟ هي بدهاش إياني هلقيت، هي بدها عمها سالم. سالم اللي بياخدها في عز الحرب، بينزل فيها ع البحر عشان يحجزلها لنش، بتقولي يا بابا: سالم، عمو سالم أخدني حجزلي السفينة عشان يركبني في السفينة. مبارح إجا أحد الزائرين المهنئين يقول: إنتوا ما بتعرفونيش، أنا ربنا نجّى أبويا من الموت على إيد سالم. كيف؟ قال في الخيمة اللي انقصفت في مستشفى شهداء الأقصى، أنا أبويا كان في قلب الخيمة بيولّع، سالم دخل عليه طلعوا من قلب النار. هادا سالم. سالم كان حافظ للقرآن وأحسب إنه كان يعمل بالقرآن خصوصاً في هذه الحرب. سالم وأنا أنظر إلى صوره عجيب عجيب، أجمل مما عرفت، أطيب مما عرفت، أحن مما عرفت. والله كنت أعوّذه بالله صبح مساء، أستودعه عند الله، حتى إني شككت في نفسي في ذلك اليوم، يوم الإفراج قلت أنا معقول امبارح أنا مش محوّط سالم؟ معقول أنا مش محصّن سالم؟ معقول معقول... لكن قدَر الله نافذ. إن القلب ليحزن وإن العين لتدمع وإنا على فراق سالم لمحزونون، لكن ما نقول إلا ما يرضي ربنا. إنا لله وإنا إليه راجعون. ما هي إلا رحمة أودعها الله قلبي، لا أبكي جزعاً أبداً والله، لا أبكي سخطاً والعياذ بالله. رضينا يا رب، ومن رضي فله الرضا.",
+    "segments": [
+        {
+            "segment_id": "N25_s01",
+            "start_time": 0.0,
+            "end_time": 12.0,
+            "text_ar": "كان خبر استشهاد سالم أسبق، كيف عرفتوا؟ هان العجب، أخخخ.. الله يرحمك يا سالم، سالم.",
+            "text_en": "The news of Salim’s martyrdom came first. How did you find out? Here is the astonishing part... ahh... May Allah have mercy on you, Salim. Salim.",
+            "event_frame": {
+                "adversity_description": "The narrator introduces the moment of learning that his brother Salim had been martyred before he could experience the joy of release.",
+                "response_description": "He opens with a sigh of qahr, invokes Allah’s mercy on Salim, and repeats his brother’s name as an address of grief."
+            },
+            "sabr_frame": {
+                "sabr_type": "qahr_and_dua_at_news_of_martyrdom",
+                "features": [
+                    "martyrdom_news",
+                    "qahr_sigh",
+                    "dua_for_the_dead",
+                    "name_repetition",
+                    "grief_before_release_joy"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "qahr_and_shocked_grief",
+                "justification": "The sigh 'أخخخ', the phrase 'هان العجب', and the repeated address to Salim mark an immediate collapse into grief and qahr."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "استشهاد",
+                        "note": "Death framed as martyrdom within Palestinian-Islamic discourse."
+                    },
+                    {
+                        "marker": "الله يرحمك",
+                        "note": "Supplication asking Allah to have mercy on the deceased."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "أخخخ",
+                        "note": "A sigh of qahr, grief, and crushed helplessness; stronger than a simple sigh."
+                    },
+                    {
+                        "marker": "سالم، سالم",
+                        "note": "Name repetition functions as direct address to the absent/martyred brother."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "هان العجب",
+                        "note": "Here is the astonishing/strange part; introduces the painful turning point."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N25_s02",
+            "start_time": 13.54,
+            "end_time": 44.6,
+            "text_ar": "كنت بجلس في الكرسي اللي هو خلف الشباك، وأول ما وصلت باب مستشفى ناصر الباص بدّه يدخل في الباب، كنت بحاول إني أسترق النظرات للصحفيين الموجودين، لعلّي إني أجد سالم. للأسف أحد الشبان الموجودين بينادي عليا: يا أبو رامي يا أبو رامي. تطلعت من الشباك، مش إنتَ أبو رامي أخو سالم؟ بقوله: آه وين سالم؟ وين مش شايفه. إلا هو بيقولي سالم استشهد امبارح. ما حكى هالكلمة.. من طولي قعدت ع الكرسي.",
+            "text_en": "I was sitting on the chair behind the window. When we reached the gate of Nasser Hospital and the bus was about to enter, I was trying to steal glances at the journalists there, hoping to find Salim. Sadly, one of the young men called out to me: Abu Rami, Abu Rami. I looked out the window. Aren’t you Abu Rami, Salim’s brother? I said: yes, where is Salim? Where is he? I don’t see him. Then he told me: Salim was martyred yesterday. He had not even finished that word before I sank straight back into the chair.",
+            "event_frame": {
+                "adversity_description": "At the exact moment of arrival after release, the narrator searches for his brother and is abruptly told that Salim was martyred the previous day.",
+                "response_description": "The narrator physically collapses into the chair, unable to absorb the news."
+            },
+            "sabr_frame": {
+                "sabr_type": "release_arrival_transformed_into_martyrdom_shock",
+                "features": [
+                    "released_prisoner_arrival",
+                    "searching_for_brother",
+                    "abrupt_martyrdom_news",
+                    "bodily_collapse",
+                    "joy_interrupted"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "acute_shock_and_bodily_collapse",
+                "justification": "The narrator moves from actively searching for Salim to immediately sitting down when told 'سالم استشهد امبارح', indicating acute shock."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "بدّه يدخل",
+                        "note": "It was about to enter; Gaza/Levantine colloquial future/intention marker."
+                    },
+                    {
+                        "marker": "تطلعت من الشباك",
+                        "note": "I looked out from the window."
+                    },
+                    {
+                        "marker": "وين سالم؟ وين مش شايفه",
+                        "note": "Repeated searching question; expresses expectation that Salim should be present."
+                    },
+                    {
+                        "marker": "من طولي قعدت ع الكرسي",
+                        "note": "Literally from my standing/height I sat down; idiomatically, he collapsed straight back into the chair from shock."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "يا أبو رامي يا أبو رامي",
+                        "note": "Repeated call increases tension before the news is delivered."
+                    },
+                    {
+                        "marker": "ما حكى هالكلمة",
+                        "note": "The narrator emphasizes that the word/news was barely uttered before the shock overwhelmed him."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "أخو سالم",
+                        "note": "Brotherhood identity is the frame through which the narrator is recognized."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N25_s03",
+            "start_time": 46.22,
+            "end_time": 73.36,
+            "text_ar": "يعني أنا كنت أقول الإفراج حلم ولا علم؟ نسيت الإفراج واللهِ نسيت الفرحة، إنا لله وإنا إليه راجعون. غابت عني فرحة الإفراج ولا أخفيكم ما عدت أتذكر أحد من أهلي، مشهد سالم خيّم، مشهد سالم سيطر ع كل شيء، مش قادر أصدق.",
+            "text_en": "I used to say: is release a dream or reality? I forgot the release, by Allah, I forgot the joy. Truly, we belong to Allah and to Him we return. The joy of release disappeared from me, and I do not hide from you that I no longer remembered anyone from my family. The image of Salim overshadowed everything; the image of Salim took over everything. I cannot believe it.",
+            "event_frame": {
+                "adversity_description": "The expected joy of release is erased by the news of Salim’s martyrdom.",
+                "response_description": "The narrator reframes the day through loss, recites istirja, and describes Salim’s image as dominating consciousness."
+            },
+            "sabr_frame": {
+                "sabr_type": "release_joy_erased_by_bereavement",
+                "features": [
+                    "release_joy_loss",
+                    "istirja",
+                    "intrusive_image",
+                    "grief_over_family_reunion",
+                    "disbelief"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "overwhelming_grief_and_disbelief",
+                "justification": "Phrases such as 'نسيت الإفراج', 'غابت عني فرحة الإفراج', and 'مش قادر أصدق' show that bereavement displaced all joy."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "إنا لله وإنا إليه راجعون",
+                        "note": "Islamic formula of return to Allah used upon death and calamity."
+                    },
+                    {
+                        "marker": "واللهِ",
+                        "note": "Oath by Allah intensifying sincerity."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "حلم ولا علم",
+                        "note": "Expression meaning: is this a dream or real? Used because release from occupation prisons felt almost unbelievable."
+                    },
+                    {
+                        "marker": "ما عدت أتذكر",
+                        "note": "I no longer remembered; expresses cognitive narrowing under shock."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "مشهد سالم خيّم / سيطر ع كل شيء",
+                        "note": "Metaphor of an image overshadowing all perception; grief dominates the release scene."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N25_s04",
+            "start_time": 75.06,
+            "end_time": 114.2,
+            "text_ar": "سالم كان نِعم الأخ، كان نِعم الصديق، وكان لبناتي نعم الأب في غيابي، نعم العم، لدرجة إنه بناتي متعلقين فيه أكتر مني. بنتي ليان امبارح صحيَت من النوم في الليل مفزوعة بتنادي ع سالم، إيش بقدر أقدملها أنا؟ هي بدهاش إياني هلقيت، هي بدها عمها سالم. سالم اللي بياخدها في عز الحرب، بينزل فيها ع البحر عشان يحجزلها لنش، بتقولي يا بابا: سالم، عمو سالم أخدني حجزلي السفينة عشان يركبني في السفينة.",
+            "text_en": "Salim was the best brother, the best friend, and for my daughters he was the best father in my absence—the best uncle—so much that my daughters were more attached to him than to me. My daughter Layan woke up yesterday at night frightened, calling for Salim. What can I offer her? She does not want me now; she wants her uncle Salim. Salim was the one who would take her in the middle of the war, take her down to the sea to reserve a small boat for her. She would tell me: Dad, Salim, Uncle Salim took me and reserved the ship for me so I could ride it.",
+            "event_frame": {
+                "adversity_description": "Salim’s martyrdom leaves a relational void for the narrator’s daughters, especially a child who wakes frightened and asks for her uncle rather than her newly released father.",
+                "response_description": "The narrator honours Salim’s caregiving role and acknowledges his own inability to replace what Salim provided."
+            },
+            "sabr_frame": {
+                "sabr_type": "family_care_void_after_martyrdom",
+                "features": [
+                    "substitute_fatherhood",
+                    "uncle_child_attachment",
+                    "family_role_loss",
+                    "child_fear",
+                    "care_memory"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "tender_sorrow_and_protective_helplessness",
+                "justification": "The question 'إيش بقدر أقدملها أنا؟' shows paternal helplessness in the face of the child’s need for Salim."
+            },
+            "contextual_markers": {
+                "cultural_markers": [
+                    {
+                        "marker": "نعم الأب في غيابي، نعم العم",
+                        "note": "Kinship caregiving: Salim acted as a father-like figure for the narrator’s daughters during imprisonment."
+                    },
+                    {
+                        "marker": "البنات متعلقين فيه أكتر مني",
+                        "note": "Attachment to the uncle reveals Salim’s central family role."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "بدهاش إياني هلقيت",
+                        "note": "She does not want me now; Gaza/Palestinian negation and temporal marker."
+                    },
+                    {
+                        "marker": "عز الحرب",
+                        "note": "The peak/intensity of war."
+                    },
+                    {
+                        "marker": "لنش",
+                        "note": "Small boat/launch boat; in the child’s speech becomes 'السفينة' as an imagined ship."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "إيش بقدر أقدملها أنا؟",
+                        "note": "Rhetorical question expressing helplessness before the child’s grief and attachment."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N25_s05",
+            "start_time": 114.84,
+            "end_time": 136.9,
+            "text_ar": "مبارح إجا أحد الزائرين المهنئين يقول: إنتوا ما بتعرفونيش، أنا ربنا نجّى أبويا من الموت على إيد سالم. كيف؟ قال في الخيمة اللي انقصفت في مستشفى شهداء الأقصى، أنا أبويا كان في قلب الخيمة بيولّع، سالم دخل عليه طلعوا من قلب النار. هادا سالم.",
+            "text_en": "Yesterday, one of the visitors who came to congratulate us said: you do not know me; Allah saved my father from death at Salim’s hands. How? He said: in the tent that was bombed at Al-Aqsa Martyrs Hospital, my father was inside the tent burning, and Salim went in and pulled him out from the heart of the fire. That is Salim.",
+            "event_frame": {
+                "adversity_description": "The testimony recalls a bombing/fire in a hospital tent where a man was burning and at risk of death.",
+                "response_description": "Salim is remembered as someone who entered danger to rescue another person, turning memory of him into moral witness."
+            },
+            "sabr_frame": {
+                "sabr_type": "witnessing_the_martyred_as_rescuer",
+                "features": [
+                    "rescue_from_fire",
+                    "third_party_testimony",
+                    "moral_witness",
+                    "community_gratitude",
+                    "martyr_character_evidence"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "grief_mixed_with_pride_and_reverence",
+                "justification": "The narrator repeats 'هادا سالم' after recounting the rescue, presenting Salim’s courage as evidence of his character."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "ربنا نجّى",
+                        "note": "Allah saved; frames survival as divine rescue through Salim’s action."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "ما بتعرفونيش",
+                        "note": "You do not know me; Palestinian/Gazan negation with final -sh."
+                    },
+                    {
+                        "marker": "على إيد سالم",
+                        "note": "At Salim’s hands / through Salim."
+                    },
+                    {
+                        "marker": "بيولّع",
+                        "note": "Burning / on fire."
+                    },
+                    {
+                        "marker": "من قلب النار",
+                        "note": "From the heart of the fire; intensifies the danger of the rescue."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "هادا سالم",
+                        "note": "Evaluative closure: this is who Salim was."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N25_s06",
+            "start_time": 137.5,
+            "end_time": 152.54,
+            "text_ar": "سالم كان حافظ للقرآن وأحسب إنه كان يعمل بالقرآن خصوصاً في هذه الحرب. سالم وأنا أنظر إلى صوره عجيب عجيب، أجمل مما عرفت، أطيب مما عرفت، أحن مما عرفت.",
+            "text_en": "Salim had memorized the Qur’an, and I believe he acted according to the Qur’an, especially in this war. When I look at his photos—Salim is astonishing, astonishing: more beautiful than I knew, kinder than I knew, more tender than I knew.",
+            "event_frame": {
+                "adversity_description": "The narrator continues to process the loss by looking at Salim’s photos after his martyrdom.",
+                "response_description": "He constructs Salim’s memory through Qur’anic devotion, moral action, beauty, kindness, and tenderness."
+            },
+            "sabr_frame": {
+                "sabr_type": "moral_beautification_of_the_martyr_memory",
+                "features": [
+                    "quranic_character",
+                    "moral_praise",
+                    "photo_gazing",
+                    "posthumous_beautification",
+                    "tenderness"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "reverent_love_and_bereaved_idealisation",
+                "justification": "The repeated 'عجيب' and comparative praise 'أجمل/أطيب/أحن مما عرفت' show reverent love shaped by grief."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "حافظ للقرآن",
+                        "note": "Memorizer of the Qur’an; marker of religious status and moral respect."
+                    },
+                    {
+                        "marker": "يعمل بالقرآن",
+                        "note": "Acts according to the Qur’an; moral embodiment of religious teaching."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "عجيب عجيب",
+                        "note": "Repetition conveys amazement and reverence."
+                    },
+                    {
+                        "marker": "أجمل/أطيب/أحن مما عرفت",
+                        "note": "Escalating comparative praise after death; memory is intensified by loss."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N25_s07",
+            "start_time": 153.24,
+            "end_time": 169.96,
+            "text_ar": "والله كنت أعوّذه بالله صبح مساء، أستودعه عند الله، حتى إني شككت في نفسي في ذلك اليوم، يوم الإفراج قلت أنا معقول امبارح أنا مش محوّط سالم؟ معقول أنا مش محصّن سالم؟ معقول معقول... لكن قدَر الله نافذ.",
+            "text_en": "By Allah, I used to seek Allah’s protection for him morning and evening, and entrust him to Allah. I even doubted myself that day, the day of release. I said: is it possible that yesterday I did not surround Salim with protection? Is it possible that I did not fortify Salim? Is it possible, is it possible... But Allah’s decree is carried out.",
+            "event_frame": {
+                "adversity_description": "The narrator struggles with the thought that his protective prayers may not have prevented Salim’s death.",
+                "response_description": "He moves from self-questioning and ritual protection language to acceptance that Allah’s decree is ultimately in force."
+            },
+            "sabr_frame": {
+                "sabr_type": "protective_supplication_self_questioning_and_qadar_acceptance",
+                "features": [
+                    "protective_dua",
+                    "entrusting_to_allah",
+                    "self_doubt",
+                    "qadar",
+                    "transition_to_acceptance"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "anguished_self_questioning_with_faith_acceptance",
+                "justification": "Repeated 'معقول' shows agonized self-questioning, while 'لكن قدر الله نافذ' shifts the frame to divine decree."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "أعوّذه بالله",
+                        "note": "To seek Allah’s protection for someone through supplication/adhkar."
+                    },
+                    {
+                        "marker": "أستودعه عند الله",
+                        "note": "Entrusting a loved one to Allah’s protection."
+                    },
+                    {
+                        "marker": "قدَر الله نافذ",
+                        "note": "Allah’s decree is carried out; acceptance of divine destiny."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "محوّط / محصّن سالم",
+                        "note": "Protecting/fortifying Salim through religious supplications and protective formulas."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "معقول... معقول",
+                        "note": "Repetition signals disbelief, self-doubt, and searching for causality after loss."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N25_s08",
+            "start_time": 171.04,
+            "end_time": 194.16,
+            "text_ar": "إن القلب ليحزن وإن العين لتدمع وإنا على فراق سالم لمحزونون، لكن ما نقول إلا ما يرضي ربنا. إنا لله وإنا إليه راجعون. ما هي إلا رحمة أودعها الله قلبي، لا أبكي جزعاً أبداً والله، لا أبكي سخطاً والعياذ بالله. رضينا يا رب، ومن رضي فله الرضا.",
+            "text_en": "The heart grieves, the eye sheds tears, and over parting from Salim we are truly sorrowful, but we say only what pleases our Lord. Truly, we belong to Allah and to Him we return. It is only mercy that Allah placed in my heart. I do not cry out of despair, never, by Allah; I do not cry out of resentment—Allah forbid. We are content, my Lord, and whoever is content will receive contentment.",
+            "event_frame": {
+                "adversity_description": "The narrator faces the enduring grief of separation from Salim after martyrdom.",
+                "response_description": "He legitimizes sorrow and tears while refusing جزع and سخط, expressing ridha with Allah’s decree."
+            },
+            "sabr_frame": {
+                "sabr_type": "grief_without_sakhat_ridha_with_qadar",
+                "features": [
+                    "prophetic_grief_formula",
+                    "tears_legitimized",
+                    "no_sakhat",
+                    "ridha",
+                    "istirja",
+                    "faith_based_emotional_regulation"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "deep_grief_with_devotional_acceptance",
+                "justification": "The narrator explicitly states grief and tears while insisting he does not cry from resentment, ending with 'رضينا يا رب'."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "إن القلب ليحزن وإن العين لتدمع",
+                        "note": "Prophetic grief formula legitimizing sadness and tears while maintaining submission to Allah."
+                    },
+                    {
+                        "marker": "ما نقول إلا ما يرضي ربنا",
+                        "note": "Speech discipline under grief: only saying what pleases Allah."
+                    },
+                    {
+                        "marker": "إنا لله وإنا إليه راجعون",
+                        "note": "Istirja formula for calamity and death."
+                    },
+                    {
+                        "marker": "لا أبكي جزعاً / لا أبكي سخطاً",
+                        "note": "Distinguishes grief from despair or resentment against Allah’s decree."
+                    },
+                    {
+                        "marker": "رضينا يا رب، ومن رضي فله الرضا",
+                        "note": "Ridha: contentment with Allah’s decree and the belief that acceptance brings divine contentment."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "لكن",
+                        "note": "Pivot from sorrow to faith-bound speech and acceptance."
+                    },
+                    {
+                        "marker": "أبداً والله",
+                        "note": "Oath/intensifier rejecting the interpretation of crying as despair or resentment."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "الحزن لا ينافي الرضا",
+                        "note": "Core interpretive marker: the narrator shows that internal grief and qahr can coexist with religious acceptance."
+                    }
+                ]
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "هان العجب": {
+                "variants_ar": [
+                    "هنا العجب",
+                    "هون العجب",
+                    "الغريب هنا"
+                ],
+                "meaning_en": "Here is the astonishing/strange part; introduces the painful turning point."
+            },
+            "أخخخ": {
+                "variants_ar": [
+                    "آخ",
+                    "أخ",
+                    "تنهيدة قهر"
+                ],
+                "meaning_en": "A sigh of qahr, crushed grief, and helpless pain; stronger than a neutral sigh."
+            },
+            "القهر": {
+                "variants_ar": [
+                    "قهر الرجال",
+                    "الوجع الداخلي",
+                    "الانكسار الداخلي دون اعتراض على الله"
+                ],
+                "meaning_en": "Qahr: a culturally strong Arabic concept of crushed anguish, humiliation, helplessness, and internal oppression; not easily captured by one English word."
+            },
+            "الإفراج حلم ولا علم": {
+                "variants_ar": [
+                    "حلم ولا حقيقة",
+                    "هل هذا حلم أم واقع",
+                    "مش مصدق الإفراج"
+                ],
+                "meaning_en": "Is the release a dream or reality? Indicates disbelief because release from prison felt extremely unlikely."
+            },
+            "من طولي قعدت ع الكرسي": {
+                "variants_ar": [
+                    "وقعت على الكرسي من الصدمة",
+                    "انهرت وجلست فوراً"
+                ],
+                "meaning_en": "I immediately sank/collapsed back into the chair from shock."
+            },
+            "مشهد صالح خيّم": {
+                "variants_ar": [
+                    "مشهد سالم سيطر",
+                    "صورة سالم غطت على كل شيء"
+                ],
+                "meaning_en": "The image/scene of Salim overshadowed everything."
+            },
+            "بدهاش إياني هلقيت": {
+                "variants_ar": [
+                    "لا تريدني الآن",
+                    "هي لا تريدني حالياً"
+                ],
+                "meaning_en": "She does not want me now; Gaza/Palestinian negation with -sh."
+            },
+            "عز الحرب": {
+                "variants_ar": [
+                    "ذروة الحرب",
+                    "أوج الحرب",
+                    "اشتداد الحرب"
+                ],
+                "meaning_en": "The height/intensity of the war."
+            },
+            "لنش": {
+                "variants_ar": [
+                    "قارب",
+                    "مركب صغير",
+                    "launch boat"
+                ],
+                "meaning_en": "A small boat/launch boat."
+            },
+            "ربنا نجّى": {
+                "variants_ar": [
+                    "الله أنقذ",
+                    "نجاه الله",
+                    "ربنا أنجاه"
+                ],
+                "meaning_en": "Allah saved/rescued."
+            },
+            "على إيد صالح": {
+                "variants_ar": [
+                    "بواسطة سالم",
+                    "على يد سالم",
+                    "من خلال سالم"
+                ],
+                "meaning_en": "Through Salim / at Salim's hands."
+            },
+            "بيولّع": {
+                "variants_ar": [
+                    "يحترق",
+                    "مشتعل",
+                    "النار ماسكة فيه"
+                ],
+                "meaning_en": "Burning / on fire."
+            },
+            "من قلب النار": {
+                "variants_ar": [
+                    "من وسط النار",
+                    "من داخل النار"
+                ],
+                "meaning_en": "From the heart/middle of the fire; emphasizes extreme danger."
+            },
+            "حافظ للقرآن": {
+                "variants_ar": [
+                    "حافظ القرآن",
+                    "حافظ كتاب الله"
+                ],
+                "meaning_en": "One who has memorized the Qur'an."
+            },
+            "يعمل بالقرآن": {
+                "variants_ar": [
+                    "يطبق القرآن",
+                    "يتخلق بأخلاق القرآن"
+                ],
+                "meaning_en": "Acts according to the Qur'an; embodies Qur'anic ethics."
+            },
+            "أعوّذه بالله": {
+                "variants_ar": [
+                    "أحصنه بالأذكار",
+                    "أرقيه",
+                    "أدعو الله أن يحفظه"
+                ],
+                "meaning_en": "I seek Allah's protection for him through supplications/adhkar."
+            },
+            "أستودعه عند الله": {
+                "variants_ar": [
+                    "أستودعه الله",
+                    "أتركه في حفظ الله"
+                ],
+                "meaning_en": "I entrust him to Allah's protection."
+            },
+            "محوّط / محصّن": {
+                "variants_ar": [
+                    "محمي بالأذكار",
+                    "مرقي",
+                    "محفوظ بالدعاء"
+                ],
+                "meaning_en": "Spiritually protected/fortified through supplication and remembrance."
+            },
+            "قدر الله نافذ": {
+                "variants_ar": [
+                    "قضاء الله نافذ",
+                    "ما قدره الله واقع",
+                    "حكم الله ماضٍ"
+                ],
+                "meaning_en": "Allah's decree is carried out and cannot be prevented."
+            },
+            "إن القلب ليحزن وإن العين لتدمع": {
+                "variants_ar": [
+                    "القلب يحزن والعين تدمع",
+                    "حزن مشروع دون اعتراض"
+                ],
+                "meaning_en": "Prophetic grief formula: the heart grieves and the eye tears, but without saying what displeases Allah."
+            },
+            "جزع": {
+                "variants_ar": [
+                    "هلع",
+                    "اعتراض يائس",
+                    "فقدان الصبر"
+                ],
+                "meaning_en": "Despairing anguish/impatience in calamity."
+            },
+            "سخط": {
+                "variants_ar": [
+                    "اعتراض على قضاء الله",
+                    "عدم رضا",
+                    "غضب من القدر"
+                ],
+                "meaning_en": "Resentment or discontent toward Allah's decree."
+            },
+            "رضينا يا رب": {
+                "variants_ar": [
+                    "قبلنا بقضاء الله",
+                    "رضينا بحكم الله"
+                ],
+                "meaning_en": "We are content/accepting, my Lord; expression of ridha with Allah's decree."
+            },
+            "ومن رضي فله الرضا": {
+                "variants_ar": [
+                    "من رضي بقضاء الله نال الرضا",
+                    "الرضا جزاء الرضا"
+                ],
+                "meaning_en": "Whoever is content receives contentment; religious maxim about acceptance."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "released_prisoner_brother_martyrdom_grief_ridha_qahr",
+        "paper_fit_ar": "تمثل هذه الرواية مثالاً قوياً على تداخل القهر والحزن مع الرضا الديني. خصوصيتها أن فرحة الإفراج من الأسر تُمحى فوراً بخبر استشهاد الأخ، فينتقل الراوي من لحظة يفترض أن تكون لحظة خلاص وفرح إلى صدمة فقد مركزية. الصمود هنا لا يظهر في إنكار الحزن، بل في تنظيمه دينياً: الدعاء للميت، الاسترجاع، استحضار قدر الله، ثم التمييز بين البكاء رحمةً وبين البكاء جزعاً أو سخطاً. كما تكشف الرواية دور الشهيد داخل العائلة والمجتمع: أخ وصديق وأب بديل للبنات ومنقذ للآخرين. لذلك فهي مثال مهم على أن الرضا بقضاء الله في خطاب غزة لا يلغي القهر الداخلي، بل يمنحه إطاراً أخلاقياً ودينياً يمنع تحوله إلى سخط.",
+        "paper_fit_en": "This narrative is a strong example of qahr and grief coexisting with religious acceptance. Its distinctive feature is that the joy of release from prison is immediately erased by news of the brother’s martyrdom, transforming a moment of liberation into a scene of bereavement. Resilience is not expressed through denial of sadness, but through religious regulation of grief: supplication for the dead, istirja, acceptance of qadar, and a careful distinction between crying as mercy and crying as despair or resentment. The narrative also frames the martyr as a family and community caregiver: brother, friend, substitute father to the daughters, and rescuer of others. It shows that ridha in Gazan discourse does not erase internal qahr; rather, it gives it an ethical and theological frame that prevents it from becoming sakhat."
+    },
+    "ethical_note": {
+        "risk_level": "high_sensitivity_bereavement_released_prisoner_minor_family_reference",
+        "notes": [
+            "The narrative contains real names, family relations, a child’s name, imprisonment/release context, martyrdom, and intense bereavement.",
+            "The speaker’s estimated age should be represented simply as adult, as requested.",
+            "For public release, consider pseudonymizing family members and the child’s name unless there is explicit clearance to retain them.",
+            "The testimony includes religious grief expressions and should not be misread as absence of distress; the narrator explicitly expresses sorrow, tears, and qahr while rejecting resentment toward Allah.",
+            "Do not use this testimony for psychological diagnosis; annotation should focus on discourse structure, adversity framing, response strategies, religious/cultural markers, and affective signal."
+        ],
+        "recommended_public_version": "pseudonymized_family_names_or_excerpt_only"
+    },
+    "text_en_full": "The news of Salim’s martyrdom came first. How did you find out? Here is the astonishing part... ahh... May Allah have mercy on you, Salim. Salim. I was sitting on the chair behind the window. When we reached the gate of Nasser Hospital and the bus was about to enter, I was trying to steal glances at the journalists there, hoping to find Salim. Sadly, one of the young men called out to me: Abu Rami, Abu Rami. I looked out the window. Aren’t you Abu Rami, Salim’s brother? I said: yes, where is Salim? Where is he? I don’t see him. Then he told me: Salim was martyred yesterday. He had not even finished that word before I sank straight back into the chair. I used to say: is release a dream or reality? I forgot the release, by Allah, I forgot the joy. Truly, we belong to Allah and to Him we return. The joy of release disappeared from me, and I do not hide from you that I no longer remembered anyone from my family. The image of Salim overshadowed everything; the image of Salim took over everything. I cannot believe it. Salim was the best brother, the best friend, and for my daughters he was the best father in my absence—the best uncle—so much that my daughters were more attached to him than to me. My daughter Layan woke up yesterday at night frightened, calling for Salim. What can I offer her? She does not want me now; she wants her uncle Salim. Salim was the one who would take her in the middle of the war, take her down to the sea to reserve a small boat for her. She would tell me: Dad, Salim, Uncle Salim took me and reserved the ship for me so I could ride it. Yesterday, one of the visitors who came to congratulate us said: you do not know me; Allah saved my father from death at Salim’s hands. How? He said: in the tent that was bombed at Al-Aqsa Martyrs Hospital, my father was inside the tent burning, and Salim went in and pulled him out from the heart of the fire. That is Salim. Salim had memorized the Qur’an, and I believe he acted according to the Qur’an, especially in this war. When I look at his photos—Salim is astonishing, astonishing: more beautiful than I knew, kinder than I knew, more tender than I knew. By Allah, I used to seek Allah’s protection for him morning and evening, and entrust him to Allah. I even doubted myself that day, the day of release. I said: is it possible that yesterday I did not surround Salim with protection? Is it possible that I did not fortify Salim? Is it possible, is it possible... But Allah’s decree is carried out. The heart grieves, the eye sheds tears, and over parting from Salim we are truly sorrowful, but we say only what pleases our Lord. Truly, we belong to Allah and to Him we return. It is only mercy that Allah placed in my heart. I do not cry out of despair, never, by Allah; I do not cry out of resentment—Allah forbid. We are content, my Lord, and whoever is content will receive contentment.",
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}
