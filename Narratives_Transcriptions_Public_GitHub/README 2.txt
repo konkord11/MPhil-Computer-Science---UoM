@@ -12,6 +12,6 @@ Regenerate from the private workspace:
   python3 scripts/export_public_github_corpus.py
   (optional: --full-folder --include-binary-media — only after ethics review)
 
-Narrative folders in this bundle: 34
+Narrative folders in this bundle: 30
 
-Skipped (no canonical annotation file): 11 — see PENDING_ANNOTATION_no_SABR_file_yet.txt
+Skipped (no canonical annotation file): 12 — see PENDING_ANNOTATION_no_SABR_file_yet.txt

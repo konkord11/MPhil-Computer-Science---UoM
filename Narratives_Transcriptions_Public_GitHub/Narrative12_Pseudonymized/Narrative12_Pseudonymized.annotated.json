@@ -94,7 +94,7 @@
                     "span_id": "Narrative12_s01",
                     "start_time": 12.72,
                     "end_time": 27.62,
-                    "text_ar": "قصفوا حوش جيرانا… أنا قلت طارق… اطلع يخويا في الصيارة/السيارة… انفد بروحك… احنا بنجيك جراي.",
+                    "text_ar": "قصفوا حوش جيرانا… أنا قلت طارق… اطلع يخويا في السيارة… انفد بروحك… احنا بنجيك جراي.",
                     "text_en": "They bombed our neighbors’ yard… I called, 'Tariq… get in the car… save yourself… we’ll come running behind you.'",
                     "event_frame": {
                         "adversity_description": "Initial strike near home; immediate threat and urgency to escape.",
@@ -107,8 +107,8 @@
                     "contextual_markers": {
                         "dialect_markers": [
                             {
-                                "marker": "الصيارة",
-                                "note": "North Gaza/Beit Lahia variant for 'السيارة'. Kept verbatim; not normalized."
+                                "marker": "الصيّارة",
+                                "note": "In Gaza dialects (especially North Gaza), people say 'الصيّارة' instead of 'السيارة' when speaking, not when writing. Written narrative text uses 'السيارة'."
                             },
                             {
                                 "marker": "انفد بروحك",
@@ -125,7 +125,7 @@
                     "span_id": "Narrative12_s02",
                     "start_time": 27.64,
                     "end_time": 36.9,
-                    "text_ar": "أخدنا وصلنا الصيارة… فش/فشي غمضة عين… قصفونا… تطلعت ع الشارع… شهداااء… مقطّعين… دم.",
+                    "text_ar": "أخدنا وصلنا السيارة… فش/فشي غمضة عين… قصفونا… تطلعت ع الشارع… شهداااء… مقطّعين… دم.",
                     "text_en": "We reached the car… in a blink… they hit us… I looked out to the street… martyrs… torn apart… blood.",
                     "event_frame": {
                         "adversity_description": "A rapid follow-up strike occurs almost immediately after reaching the car; graphic scene in the street.",
@@ -137,6 +137,10 @@
                     },
                     "contextual_markers": {
                         "dialect_markers": [
+                            {
+                                "marker": "الصيّارة",
+                                "note": "In Gaza dialects (especially North Gaza), people say 'الصيّارة' instead of 'السيارة' when speaking, not when writing. Written narrative text uses 'السيارة'."
+                            },
                             {
                                 "marker": "فشي غمضة عين",
                                 "note": "North Gaza phrasing: 'in no time / in a blink'."
@@ -158,7 +162,7 @@
                     "span_id": "Narrative12_s03",
                     "start_time": 37.46,
                     "end_time": 44.52,
-                    "text_ar": "هان تخبينا تحت… تحت… في الصيارة… خواتي شردوا ع بيت ستي… وأنا وأخوي ضلينا لحالنا.",
+                    "text_ar": "هان تخبينا تحت… تحت… في السيارة… خواتي شردوا ع بيت ستي… وأنا وأخوي ضلينا لحالنا.",
                     "text_en": "Here we hid under… under the car… my sisters ran to my grandma’s house… me and my brother stayed alone.",
                     "event_frame": {
                         "adversity_description": "Immediate shrapnel danger after strike; chaotic family separation.",
@@ -170,6 +174,10 @@
                     },
                     "contextual_markers": {
                         "dialect_markers": [
+                            {
+                                "marker": "الصيّارة",
+                                "note": "In Gaza dialects (especially North Gaza), people say 'الصيّارة' instead of 'السيارة' when speaking, not when writing. Written narrative text uses 'السيارة'."
+                            },
                             {
                                 "marker": "هان",
                                 "note": "North Gaza deictic 'here' variant."
@@ -367,7 +375,7 @@
                 "variants_ar": [
                     "السيارة"
                 ],
-                "meaning_en": "The car (North Gaza/Beit Lahia variant). Kept as spoken; not normalized in the narrative text."
+                "meaning_en": "Spoken Gaza/North Gaza form of 'السيارة' (the car). Used in speech; written narrative text uses 'السيارة'."
             },
             "فشي غمضة عين": {
                 "variants_ar": [

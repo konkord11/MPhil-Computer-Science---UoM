@@ -1,0 +1,489 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative28_Pseudonymized",
+    "source_meta": {
+        "source_id": "N28",
+        "source_type": "video_transcription",
+        "source_platform": "Public interview / video testimony",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (Gaza City dialect)",
+        "reported_context": "A child from Gaza City, estimated age 12–15, recounts surviving after being presumed dead, shrouded, and prayed over while still alive. He then describes being taken into surgery and later being shot while injured in hospital, followed by humiliation when he asked for water.",
+        "collection_context_en": "A child survivor describes a sequence of near-death events: in a hospital overwhelmed by casualties and lacking functioning equipment, he was presumed dead, shrouded, and included in a funeral prayer while still alive. After he opened the shroud and screamed with others, he was taken into surgery. He then reports that Israeli soldiers entered Al-Ma'madani hospital while he was injured on a bed, one ordered another to kill him, he was shot, and when he asked for water they poured water on him and spat before withdrawing.",
+        "collection_context_ar": "طفل من مدينة غزة يروي سلسلة من النجاة من الموت: في مستشفى مكتظ بالشهداء والمصابين وبدون أجهزة كافية، اعتُبر ميتاً فكُفّن وصُلّي عليه وهو لا يزال حياً. بعد أن فتح الكفن وصرخ مع الناس أُدخل إلى العملية. ثم يروي أن جنود الاحتلال دخلوا مستشفى المعمداني وهو مصاب على السرير، وأن أحدهم قال للآخر: «ريّحه» بمعنى اقتله، ثم أُطلق عليه النار، وعندما طلب الماء صبّوا عليه الماء وتفلوا عليه قبل أن ينسحبوا."
+    },
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "minor_identity_minimization",
+        "contains_real_names": false,
+        "contains_minor": true,
+        "age_public_label": "minor/adolescent",
+        "notes": "No personal names are present. Because the speaker is a child/adolescent and the testimony includes severe violence, hospital injury, shrouding while alive, and humiliation, public release should avoid facial/voice identifiers, exact age where unnecessary, and any additional location details beyond those already essential to the narrative context. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "n/a"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Gazan dialect, child testimony, Islamic death/funeral vocabulary, and SABR annotation conventions."
+            }
+        ],
+        "adjudication": {
+            "status": "draft_annotation_ready_for_review",
+            "note": "Whisper output is used only for approximate timestamps. The corrected Arabic transcript supplied in the DOCX is treated as the source of truth. Interviewer questions and gesture/explanation notes are preserved as metadata or discourse context rather than treated as the child’s uninterrupted narrative."
+        },
+        "alignment_note": "Timestamps are approximate and mapped from ASR boundaries. The narrative is segmented according to the annotator-provided four-span structure in the source file.",
+        "selection_policy": "Segmentation follows four discourse units: funeral-prayer confusion while presumed dead, hospital triage/shrouding and awakening, shooting order while injured on the hospital bed, and post-shooting water humiliation/spitting."
+    },
+    "speaker_profile": {
+        "gender": "male",
+        "age_estimate": "child",
+        "origin": "Gaza City",
+        "role_or_status": [
+            "Child survivor",
+            "Hospital patient",
+            "Presumed-dead survivor",
+            "Eyewitness and victim of direct violence"
+        ]
+    },
+    "approx_context": {
+        "brief_summary_en": "A child survivor from Gaza recounts being presumed dead in an overwhelmed hospital, shrouded and prayed over while still alive, then opening the shroud and screaming with others before being taken into surgery. He later describes Israeli soldiers entering Al-Ma'madani hospital while he was already injured on a bed, one telling another to kill him, and then being shot. When he asked for water, he says they poured water on him and spat before leaving.",
+        "brief_summary_ar": "يروي طفل من غزة أنه اعتُبر ميتاً في مستشفى مكتظ وعاجز، فكُفّن وصُلّي عليه وهو لا يزال حياً، ثم فتح الكفن وصرخ مع الناس فأُدخل إلى العملية. بعد ذلك يصف دخول جنود الاحتلال إلى مستشفى المعمداني وهو مصاب على السرير، وأمر أحدهم الآخر بقتله، ثم إطلاق النار عليه. وعندما طلب الماء يقول إنهم صبّوا الماء عليه وتفلوا عليه قبل أن ينسحبوا."
+    },
+    "text_ar_full": "كنت فاهم إنهم بيصلوا عليك جنازة في هادي اللحظة؟ تسأله المذيعة. يومئ برأسه: لأ، لأ. فكرت أنا نايم جنبيهم وهما بيصلوا وين؟ عَ الميتين مش عليا. طلعوا بيصلوا علينا كلنا جميعاً، كل إ.. إل مستشهدين. كيف فكروك استشهدت و.. كفنوك وأنت واعي؟ ايش إللي صار؟ تسأله المذيعة. في المستشفى فش عاد جهازات إنهم يعرفوا إنه هاض ميت أو لأ. بيزعقوا بيزعقوا، بيلاقوه ميت فـ بيرجعوا يحطوه وين؟ على هنا... بيروحوا بيكفنوه. فأنا لما هيك.. فتحت الكفن، مش عارف كيف، هيك آه. صاروا الناس يصوتوا يصوتوا، آه صرت أصوت معاهم. بالأخير أجوا دخلوني عملية، وبعد العمليات طخوني اليهود. كيف طخوك اليهود؟ تسأله المذيعة. كنت ع السرير آه، خشوا اليهود المعمداني. اليهودي لليهودي إيش قله؟ ريّحه ريّحه، يعني اقتله اقتله، عشان بقى هادي مكسورة، وهادي مكسورة، وراسي ملفوف، وهاد فيها.. وحدة دم. ريحه يعني اقتله؟ كان بحكي للز.. لل.. للجندي إللي معه اقتله؟ وبعد هيك؟ يجيب الطفل: طخني. أطلق عليك النار وطخك؟ تسأل المذيعة. آه، إ.. بعد هيك طلبت منهم مية س.. قعدوا يكبوا علي المي ويتّفوا، وبعد هيك انسحبوا.",
+    "text_en_full": "“Did you understand that they were praying your funeral prayer at that moment?” the presenter asked. He shook his head: “No, no. I thought I was lying next to them, and where were they praying? Over the dead, not over me. It turned out they were praying over all of us together, all the martyrs.” “How did they think you had been martyred and shroud you while you were conscious? What happened?” the presenter asked. “In the hospital there were no longer devices to know whether this person was dead or not. They would shout and shout; if they found him dead, they would take him back and put him where? Here... then they would go and shroud him. So when I did this... I opened the shroud. I do not know how, like this, yes. People started screaming and screaming, and I started screaming with them. In the end they came and took me into surgery, and after the operations the Israeli soldiers shot me.” “How did the Israeli soldiers shoot you?” the presenter asked. “I was on the bed, yes. The Israeli soldiers entered Al-Ma'madani hospital. What did one soldier say to the other? ‘Finish him off, finish him off’—meaning kill him, kill him—because this was broken, and this was broken, and my head was wrapped, and this one had a blood unit.” “So ‘finish him off’ means kill him? He was telling the soldier with him to kill you? And after that?” The child answered: “He shot me.” “He opened fire on you and shot you?” the presenter asked. “Yes. After that I asked them for water... they kept pouring water on me and spitting, and then they withdrew.”",
+    "segments": [
+        {
+            "segment_id": "N28_s01",
+            "start_time": 0.0,
+            "end_time": 12.68,
+            "text_ar": "كنت فاهم إنهم بيصلوا عليك جنازة في هادي اللحظة؟ تسأله المذيعة. يومئ برأسه: لأ، لأ. فكرت أنا نايم جنبيهم وهما بيصلوا وين؟ عَ الميتين مش عليا. طلعوا بيصلوا علينا كلنا جميعاً، كل إ.. إل مستشهدين.",
+            "text_en": "“Did you understand that they were praying your funeral prayer at that moment?” the presenter asked. He shook his head: “No, no. I thought I was lying next to them, and where were they praying? Over the dead, not over me. It turned out they were praying over all of us together, all the martyrs.”",
+            "event_frame": {
+                "adversity_description": "The child realizes that he was included among people presumed dead and was being prayed over in a funeral context while still alive.",
+                "response_description": "He initially tries to make sense of the scene by assuming the prayer is for the dead people around him, then recognizes that he too had been grouped with the martyrs."
+            },
+            "sabr_frame": {
+                "sabr_type": "misrecognition_as_dead_and_survival_confusion",
+                "features": [
+                    "funeral_prayer_while_alive",
+                    "presumed_dead",
+                    "child_disorientation",
+                    "collective_martyrdom_frame",
+                    "survival_at_boundary_of_death"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "confused_shock",
+                "justification": "The child’s repeated negation 'لأ، لأ' and his effort to explain that the prayer was 'عَ الميتين مش عليا' show confused shock at being treated as dead."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "بيصلوا عليك جنازة",
+                        "note": "Reference to Islamic funeral prayer; here intensified because it is performed while the child is still alive."
+                    },
+                    {
+                        "marker": "مستشهدين",
+                        "note": "Martyrdom framing for those killed in the hospital/casualty context."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "هادي اللحظة",
+                        "note": "Gazan/Palestinian colloquial form meaning 'this moment'."
+                    },
+                    {
+                        "marker": "عَ الميتين مش عليا",
+                        "note": "Colloquial contrast: over the dead people, not over me."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "لأ، لأ",
+                        "note": "Repeated negation and head gesture mark refusal/confusion rather than a stable recollection."
+                    },
+                    {
+                        "marker": "كل إ.. إل مستشهدين",
+                        "note": "Hesitation/stutter suggests distress and difficulty narrating the event."
+                    }
+                ],
+                "gesture_markers": [
+                    {
+                        "marker": "يومئ برأسه",
+                        "note": "Head gesture reinforces the child’s denial/confusion when answering the presenter."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N28_s02",
+            "start_time": 12.7,
+            "end_time": 47.46,
+            "text_ar": "كيف فكروك استشهدت و.. كفنوك وأنت واعي؟ ايش إللي صار؟ تسأله المذيعة. في المستشفى فش عاد جهازات إنهم يعرفوا إنه هاض ميت أو لأ. بيزعقوا بيزعقوا، بيلاقوه ميت فـ بيرجعوا يحطوه وين؟ على هنا... بيروحوا بيكفنوه. فأنا لما هيك.. فتحت الكفن، مش عارف كيف، هيك آه. صاروا الناس يصوتوا يصوتوا، آه صرت أصوت معاهم. بالأخير أجوا دخلوني عملية، وبعد العمليات طخوني اليهود.",
+            "text_en": "“How did they think you had been martyred and shroud you while you were conscious? What happened?” the presenter asked. “In the hospital there were no longer devices to know whether this person was dead or not. They would shout and shout; if they found him dead, they would take him back and put him where? Here... then they would go and shroud him. So when I did this... I opened the shroud. I do not know how, like this, yes. People started screaming and screaming, and I started screaming with them. In the end they came and took me into surgery, and after the operations the Israeli soldiers shot me.”",
+            "event_frame": {
+                "adversity_description": "Hospital collapse leads to the child being misclassified as dead, shrouded while conscious, and later shot after surgery.",
+                "response_description": "The child physically opens the shroud, screams with the crowd, is taken to surgery, and recounts the transition from survival to another violent attack."
+            },
+            "sabr_frame": {
+                "sabr_type": "survival_from_erroneous_shrouding_under_medical_collapse",
+                "features": [
+                    "hospital_system_collapse",
+                    "lack_of_devices",
+                    "shrouded_alive",
+                    "opening_the_shroud",
+                    "collective_screaming",
+                    "surgery_then_shooting"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "terror_and_disorientation",
+                "justification": "The sequence of being shrouded alive, not knowing how he opened the shroud, and joining the screaming indicates terror and fragmented memory."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "استشهدت / كفنوك",
+                        "note": "Martyrdom and shrouding language normally belongs to death rituals, creating a boundary-collapse between living patient and corpse."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "فش عاد جهازات",
+                        "note": "There were no longer devices/equipment; 'جهازات' is a child/nonstandard plural of أجهزة and should be preserved as spoken evidence."
+                    },
+                    {
+                        "marker": "هاض",
+                        "note": "Gazan/Palestinian form of 'this'."
+                    },
+                    {
+                        "marker": "بيزعقوا بيزعقوا",
+                        "note": "They shout and shout; used here as a crude responsiveness check in the absence of hospital equipment."
+                    },
+                    {
+                        "marker": "يصوتوا",
+                        "note": "To scream/cry out loudly; common Palestinian colloquial usage."
+                    },
+                    {
+                        "marker": "طخوني",
+                        "note": "They shot me; colloquial verb for shooting."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "مش عارف كيف",
+                        "note": "Memory gap/disorientation marker after extreme trauma."
+                    },
+                    {
+                        "marker": "صاروا الناس يصوتوا يصوتوا... صرت أصوت معاهم",
+                        "note": "Collective panic becomes the child’s cue for survival and self-announcement."
+                    }
+                ],
+                "clinical_observation_caution": [
+                    {
+                        "marker": "fragmented_recall",
+                        "note": "Frequent hesitation, repetition, and forgetting may reflect trauma impact, but should not be treated as a clinical diagnosis."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N28_s03",
+            "start_time": 47.52,
+            "end_time": 61.92,
+            "text_ar": "كيف طخوك اليهود؟ تسأله المذيعة. كنت ع السرير آه، خشوا اليهود المعمداني. اليهودي لليهودي إيش قله؟ ريّحه ريّحه، يعني اقتله اقتله، عشان بقى هادي مكسورة، وهادي مكسورة، وراسي ملفوف، وهاد فيها.. وحدة دم.",
+            "text_en": "“How did the Israeli soldiers shoot you?” the presenter asked. “I was on the bed, yes. The Israeli soldiers entered Al-Ma'madani hospital. What did one soldier say to the other? ‘Finish him off, finish him off’—meaning kill him, kill him—because this was broken, and this was broken, and my head was wrapped, and this one had a blood unit.”",
+            "event_frame": {
+                "adversity_description": "The child describes being immobilized and visibly injured on a hospital bed when Israeli soldiers entered and one ordered another to kill him.",
+                "response_description": "He reconstructs the scene through bodily pointing to injuries and a quoted command, using repetition to communicate the threat."
+            },
+            "sabr_frame": {
+                "sabr_type": "injured_child_targeted_in_hospital_bed",
+                "features": [
+                    "hospital_invasion",
+                    "injured_on_bed",
+                    "order_to_kill",
+                    "visible_bodily_injury",
+                    "child_testimony_under_fragmented_memory"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "fear_and_bodily_vulnerability",
+                "justification": "The child emphasizes being on a bed with broken limbs, a wrapped head, and a blood unit while hearing the order 'ريّحه ريّحه'."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "خشوا",
+                        "note": "They entered; Gazan/Palestinian colloquial verb."
+                    },
+                    {
+                        "marker": "طخوك",
+                        "note": "Shot you; colloquial verb for shooting."
+                    },
+                    {
+                        "marker": "هادي / هاد",
+                        "note": "Deictic pointing to injured body parts."
+                    },
+                    {
+                        "marker": "وحدة دم",
+                        "note": "Blood unit / blood bag, marking the child as actively injured and receiving treatment."
+                    }
+                ],
+                "cultural_political_markers": [
+                    {
+                        "marker": "اليهود",
+                        "note": "In Gazan colloquial speech this often refers to Israeli soldiers/Israelis in the conflict context, not to all Jewish people globally. English rendering uses 'Israeli soldiers' to avoid overgeneralization."
+                    },
+                    {
+                        "marker": "المعمداني",
+                        "note": "Al-Ma'madani / Al-Ahli Baptist Hospital; hospital setting heightens the violation because the child was a patient."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "ريّحه ريّحه",
+                        "note": "Quoted repeated command interpreted in the transcript as 'kill him'; repetition conveys casualness and contempt for life."
+                    }
+                ],
+                "gesture_markers": [
+                    {
+                        "marker": "يشير إلى يده / رجله / رأسه / وحدة الدم",
+                        "note": "Body-pointing anchors fragmented memory in visible injuries."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N28_s04",
+            "start_time": 61.94,
+            "end_time": 75.54,
+            "text_ar": "ريحه يعني اقتله؟ كان بحكي للز.. لل.. للجندي إللي معه اقتله؟ وبعد هيك؟ يجيب الطفل: طخني. أطلق عليك النار وطخك؟ تسأل المذيعة. آه، إ.. بعد هيك طلبت منهم مية س.. قعدوا يكبوا علي المي ويتّفوا، وبعد هيك انسحبوا.",
+            "text_en": "“So ‘finish him off’ means kill him? He was telling the soldier with him to kill you? And after that?” The child answered: “He shot me.” “He opened fire on you and shot you?” the presenter asked. “Yes. After that I asked them for water... they kept pouring water on me and spitting, and then they withdrew.”",
+            "event_frame": {
+                "adversity_description": "After being ordered killed and shot, the injured child asks for water but is subjected to humiliation through water being poured on him and spitting.",
+                "response_description": "The child gives a minimal, fragmented confirmation of being shot and then describes humiliation rather than care when requesting water."
+            },
+            "sabr_frame": {
+                "sabr_type": "post_shooting_humiliation_after_request_for_water",
+                "features": [
+                    "child_shot",
+                    "request_for_water",
+                    "denial_of_care",
+                    "pouring_water",
+                    "spitting",
+                    "withdrawal_after_abuse"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "humiliated_pain_and_fear",
+                "justification": "The child’s terse 'طخني' and description of water being poured on him and spitting after he asked for water show humiliation layered onto physical pain."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "طخني",
+                        "note": "He shot me; blunt colloquial confirmation."
+                    },
+                    {
+                        "marker": "مية / المي",
+                        "note": "Water; Gazan/Palestinian colloquial."
+                    },
+                    {
+                        "marker": "قعدوا يكبوا",
+                        "note": "They kept pouring; prolonged/repeated action."
+                    },
+                    {
+                        "marker": "يتّفوا",
+                        "note": "They spit; humiliation and degradation marker."
+                    },
+                    {
+                        "marker": "بعد هيك",
+                        "note": "After that; colloquial sequential marker."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "للز.. لل.. للجندي",
+                        "note": "Interviewer’s self-repair mirrors difficulty clarifying the reported command."
+                    },
+                    {
+                        "marker": "آه، إ..",
+                        "note": "Hesitation before recounting the water/spitting episode, consistent with distressed recall."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "طلبت منهم مية",
+                        "note": "Asking for water while injured should conventionally trigger care; the response becomes a scene of degradation."
+                    }
+                ]
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "جنازة": {
+                "variants_ar": [
+                    "صلاة جنازة",
+                    "صلاة الميت",
+                    "الصلاة على الميت"
+                ],
+                "meaning_en": "Funeral prayer / funeral context; here shocking because the child was alive while being prayed over."
+            },
+            "فش عاد جهازات": {
+                "variants_ar": [
+                    "ما فيش أجهزة",
+                    "لم تعد هناك أجهزة",
+                    "لا توجد أجهزة"
+                ],
+                "meaning_en": "There were no devices/equipment left. 'جهازات' is a nonstandard child form of أجهزة and should be preserved as spoken evidence."
+            },
+            "هاض / هاد / هادي": {
+                "variants_ar": [
+                    "هذا",
+                    "هذه",
+                    "هدا"
+                ],
+                "meaning_en": "This; Gazan/Palestinian deictic forms."
+            },
+            "بيزعقوا": {
+                "variants_ar": [
+                    "بيصرخوا",
+                    "ينادوا بصوت عالي",
+                    "يزعقوا عليه"
+                ],
+                "meaning_en": "They shout/yell; in context, people shout at injured bodies to check responsiveness."
+            },
+            "بيلاقوه ميت": {
+                "variants_ar": [
+                    "يجدوه ميتاً",
+                    "يعتبرونه ميتاً",
+                    "لا يستجيب"
+                ],
+                "meaning_en": "They find him dead / treat him as dead after no response."
+            },
+            "بيكفنوه / كفنوك": {
+                "variants_ar": [
+                    "يلفونه بالكفن",
+                    "يجهزونه للدفن",
+                    "يكفنوه"
+                ],
+                "meaning_en": "They shroud him; Islamic burial preparation."
+            },
+            "فتحت الكفن": {
+                "variants_ar": [
+                    "فتحت الكفر كما ورد في ASR",
+                    "أزحت الكفن",
+                    "طلعت من الكفن"
+                ],
+                "meaning_en": "I opened the shroud; decisive survival marker while presumed dead."
+            },
+            "يصوتوا": {
+                "variants_ar": [
+                    "يصرخوا",
+                    "يصيحوا",
+                    "يرفعوا صوتهم"
+                ],
+                "meaning_en": "To scream/cry out loudly; common Palestinian colloquial usage."
+            },
+            "طخ / طخوني / طخني": {
+                "variants_ar": [
+                    "أطلق النار",
+                    "أصابني بالرصاص",
+                    "رماني بالرصاص"
+                ],
+                "meaning_en": "Shoot / shot me; colloquial verb."
+            },
+            "خشوا": {
+                "variants_ar": [
+                    "دخلوا",
+                    "اقتحموا"
+                ],
+                "meaning_en": "They entered; colloquial, often used for forceful entry in context."
+            },
+            "المعمداني": {
+                "variants_ar": [
+                    "مستشفى المعمداني",
+                    "المستشفى الأهلي المعمداني"
+                ],
+                "meaning_en": "Al-Ma'madani / Al-Ahli Baptist Hospital."
+            },
+            "اليهود": {
+                "variants_ar": [
+                    "الإسرائيليين",
+                    "جنود الاحتلال",
+                    "الجنود الإسرائيليون"
+                ],
+                "meaning_en": "In Gazan colloquial conflict speech, often used to mean Israeli soldiers/Israelis, not Jewish people globally. Translate carefully as 'Israeli soldiers' in this context."
+            },
+            "ريّحه / ريحه": {
+                "variants_ar": [
+                    "اقتله",
+                    "خلّص عليه",
+                    "أجهز عليه"
+                ],
+                "meaning_en": "Finish him off / kill him; used here as a contemptuous command."
+            },
+            "وحدة دم": {
+                "variants_ar": [
+                    "كيس دم",
+                    "وحدة نقل دم",
+                    "blood unit"
+                ],
+                "meaning_en": "Blood unit/blood bag; evidence the child was actively injured and under treatment."
+            },
+            "مية / المي": {
+                "variants_ar": [
+                    "ماء",
+                    "مياه"
+                ],
+                "meaning_en": "Water; Palestinian colloquial."
+            },
+            "يكبوا علي المي": {
+                "variants_ar": [
+                    "يسكبوا علي الماء",
+                    "يصُبّوا عليّ الماء"
+                ],
+                "meaning_en": "They poured water on me; humiliation rather than giving water to drink."
+            },
+            "يتّفوا": {
+                "variants_ar": [
+                    "يبصقوا",
+                    "يتفلوا"
+                ],
+                "meaning_en": "They spit; degradation/humiliation marker."
+            },
+            "انسحبوا": {
+                "variants_ar": [
+                    "غادروا",
+                    "تراجعوا",
+                    "خرجوا"
+                ],
+                "meaning_en": "They withdrew/left."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "child_survival_shrouded_alive_hospital_violence_degradation",
+        "paper_fit_ar": "تمثل هذه الرواية حالة شديدة الحساسية من تداخل النجاة، وانهيار النظام الطبي، والعنف داخل فضاء يفترض أنه للعلاج. الصمود هنا لا يظهر كتعبير لغوي منظم بقدر ما يظهر في مجرد البقاء: الطفل يُعامل كميت، يُكفّن ويُصلّى عليه، ثم يفتح الكفن ويصرخ ليُعاد إدخاله إلى العلاج. لكن النجاة لا تنهي الألم؛ تتحول إلى جولة جديدة من العنف عندما يصف إطلاق النار عليه وهو مصاب على سرير المستشفى، ثم إذلاله بعد طلب الماء. من منظور SABR، تكشف الرواية عن نمط «النجاة عند حافة الموت» حيث يصبح الصوت/الصراخ، وفتح الكفن، والقدرة على سرد ما حدث، مؤشرات بقاء وسط انهيار كامل للأجهزة الطبية والأخلاقية. كما تتطلب الرواية حساسية خاصة لأن المتحدث طفل ويظهر في كلامه تكرار وتلعثم ونسيان، وهي تُعامل هنا كعلامات خطابية على صعوبة السرد لا كتشخيص نفسي.",
+        "paper_fit_en": "This narrative is a highly sensitive case of survival, medical-system collapse, and violence within a space that should be protective. Resilience is not expressed as polished verbal strength; it appears as bare survival. The child is treated as dead, shrouded, and prayed over, then opens the shroud and screams in order to be returned to treatment. Yet survival does not end the harm; it becomes another round of violence when he describes being shot while injured on a hospital bed and then humiliated after asking for water. Within SABR, the narrative exemplifies 'survival at the boundary of death': opening the shroud, screaming, and later narrating the event become signs of persistence amid the collapse of medical and moral order. The child’s repetition, hesitation, and forgetting should be treated as discourse evidence of difficulty narrating trauma, not as clinical diagnosis."
+    },
+    "ethical_note": {
+        "risk_level": "very_high_sensitivity_minor_extreme_violence_hospital_context",
+        "notes": [
+            "The speaker is a child/adolescent and the testimony includes severe injury, being presumed dead, shrouding while alive, funeral prayer, shooting in hospital, denial/degradation after asking for water, and spitting.",
+            "Do not include images, voice, exact identity, or unnecessary identifying details in any public release.",
+            "The term 'اليهود' is preserved in Arabic because it is part of the child’s spoken Gazan dialect, but English translation should render the context as Israeli soldiers to avoid implying all Jewish people.",
+            "The child’s nonstandard forms such as 'جهازات' and fragmented recall should be preserved as evidence of age, distress, and speech context; they should not be mocked or overcorrected.",
+            "This annotation is for discourse, adversity-response framing, contextual markers, and affective signal. It must not be used for individual psychological diagnosis."
+        ],
+        "recommended_public_version": "highly_pseudonymized_excerpt_only_or_restricted_access"
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

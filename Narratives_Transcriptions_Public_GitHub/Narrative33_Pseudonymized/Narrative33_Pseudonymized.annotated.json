@@ -1,0 +1,510 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative33_Pseudonymized",
+    "source_meta": {
+        "source_id": "N33",
+        "source_type": "pasted_transcription_with_whisper_timestamps",
+        "source_platform": "Unspecified public/video source",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (Gaza City dialect; qaf often realized as hamza in the speaker's style)",
+        "reported_context": "A bereaved mother from Gaza City recounts sitting with her three children, preparing dinner and putting them to sleep, then briefly going downstairs to bring something requested by her daughter. During that moment, the third floor was targeted and collapsed onto her children. She survived from under the rubble by what she describes as a miracle, then woke after treatment asking about her children. She was initially told they were alive in the stitching room, but gradually understood from her brother’s silence, crying, and inability to look at her that all three had been martyred together.",
+        "collection_context_en": "The speaker, Nadia al-Ghazzawi, says she was sitting with her three children, Sirin, Maya, and Iyad. She had prepared their bedding, fed them dinner, and put them to sleep. When one daughter asked for an item from the second floor, the speaker went downstairs. At that moment the third floor of the neighbours’ building was targeted and collapsed onto the children on the third floor. Nadia says she was pulled from the rubble by a miracle. After treatment, she woke up asking where her children were and was told with confidence that they were alive but being stitched. After a long wait, her brother entered the hospital. She held him with extreme urgency, but he would not answer clearly or look into her eyes. She sensed that one of her children had gone, thanked Allah, and asked who remained. His crying intensified. She then asked who remained to keep Nadia company in her loneliness until he finally admitted that all three children had been martyred at once.",
+        "collection_context_ar": "تروي نادية الغزاوي أنها كانت جالسة مع أطفالها الثلاثة سيرين ومايا وإياد، جهزت لهم الفراش والعشاء ونوّمتهم، ثم طلبت منها ابنتها غرضاً موجوداً في الطابق الثاني. بمجرد أن نزلت لإحضاره، استُهدف الطابق الثالث من بيت الجيران، فسقط على أطفالها الموجودين في الطابق الثالث. تقول إنها خرجت من تحت الردم بأعجوبة، وبعد العلاج استيقظت تسأل عن أطفالها، فأخبروها بثقة أنهم أحياء وفي غرفة التغريز. لاحقاً، عندما دخل أخوها المستشفى وتمسكت به بلهفة، لم يستطع الإجابة أو النظر في عينيها، فشعرت أن أحد أطفالها استشهد، ثم بدأت تسأله من بقي من أولادها حتى اعترف لها أخيراً أن أطفالها الثلاثة استشهدوا مرة واحدة."
+    },
+    "anonymization": {
+        "is_pseudonymized": true,
+        "strategy": "name_replacement_pool",
+        "contains_real_names": false,
+        "contains_minors": true,
+        "contains_deceased_children": true,
+        "notes": "Person names and identifying tokens in this tree are replaced using Gaza_NamePool_v1 with dataset-consistent mappings. Original strings are retained only in Narratives_Transcriptions. Follow Project_Research_Documentation/protocols/mphil_uom_ethics_and_governance.txt for storage, consent scope, and thesis use. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "within_dataset_consistent"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Gazan dialect, bereaved-mother narratives, Islamic grief discourse, and SABR annotation conventions."
+            }
+        ],
+        "adjudication": {
+            "status": "draft_annotation_ready_for_review",
+            "note": "The corrected Arabic transcription supplied by the user is treated as the source of truth. Whisper timestamps are used only for approximate timing. The speaker's qaf-to-hamza pronunciation is preserved in key dialect notes rather than over-normalized."
+        },
+        "alignment_note": "Timestamps are approximate and mapped to the Whisper output. Some ASR forms are inaccurate; corrected transcript controls wording and meaning.",
+        "selection_policy": "Segmentation follows the main discourse shifts: domestic routine and inability to continue; moment of targeting and survival from rubble; waking and false reassurance; brother’s silence and the speaker’s inferred loss; final confirmation that all three children were martyred at once."
+    },
+    "speaker_profile": {
+        "gender": "female",
+        "age_estimate": "adult",
+        "origin": "Gaza City",
+        "role_or_status": [
+            "Bereaved mother",
+            "Bombing survivor",
+            "Eyewitness",
+            "Public testimony speaker"
+        ]
+    },
+    "approx_context": {
+        "brief_summary_en": "An adult mother from Gaza City recounts preparing her three children for sleep, briefly leaving them to bring an item requested by her daughter, and then surviving a strike that collapsed the third floor onto them. After being rescued from under the rubble and receiving treatment, she wakes up asking about her children and is falsely reassured that they are alive in the stitching room. Her brother’s silence, crying, and avoidance of eye contact lead her to infer that one or more of her children have died. She responds with الحمد لله and a theological formula of return to Allah before finally learning that all three children were martyred together.",
+        "brief_summary_ar": "تروي أم بالغة من مدينة غزة أنها كانت قد جهزت أطفالها الثلاثة للعشاء والنوم، ثم نزلت للحظة لإحضار غرض طلبته ابنتها، فاستُهدف الطابق الثالث وسقط على أطفالها. نجت هي من تحت الردم بأعجوبة، وبعد العلاج استيقظت تسأل عن أطفالها، فأخبروها أنهم أحياء في غرفة التغريز. من صمت أخيها وبكائه وتجنبه النظر في عينيها، بدأت تدرك أن أحد أطفالها أو أكثر قد استشهد. تستجيب بالحمد لله وبصيغة إيمانية أن الله أعطاها وأخذ منها، ثم تعرف أخيراً أن أطفالها الثلاثة استشهدوا مرة واحدة."
+    },
+    "text_ar_full": "كنت ئاعدة مع أولادي.. مش ئادرة أكمل. بكاء. كنت ئاعدة مع أولادي التلاتة سيرين ومايا وإياد، فارشالهم ومعشياهم وأمورهم تمام، فرشتلهم ونيمتهم. بلحظة بنتي بتطلب مني غرض، هادا الغرض موجود بالطابق التاني، مجرد ما أنا نزلت أجيب هادا الغرض استهدفوا الطابق التالت من جيراننا، هال هيل على أولادي الموجودين بالطابق التالت، طبعاً أنا طلعت من تحت الردم بأعجوبة. بعد ما تلقيت العلاج، صحيت فبحكيلهم وين أولادي طمنوني عليهم. حكولي بكل ثقة إنو أولادك التلاتة عايشين، ولكن بتغرزوا بغرفة التغريز. لحد وين ووين ما دخل أخوي المستشفى، مسكته بلهفة مش طبيعية، صرت احكيله أولادي صارلهم ساعة وساعتين بيحكولي بغرفة التغريز، كل ما أسأله أولادي مش راضي يجاوبني. حسيت انه كل ما بسأله وين أولادي وبعيط انه في حدا من أولادي راح. خلص هيك اجاني إحساس. فئلتله الحمدلله ربنا اعطاني إياه وربنا اخده مني، مين ضل من ولادي؟ ئعد ع الارض أخويا وصار يعيط أكتر وأكتر ومش ئادر يحط عينيه في عيني. صرت احكيله الحمدلله راح اتنين من ولادي، مين ضل يونّس نادية في وحدتها؟ لحد وين ووين لما اعترفلي انه أولادي التلاتة استشهدوا مرة وحدة.",
+    "text_en_full": "I was sitting with my children... I cannot continue. Crying. I was sitting with my three children, Sirin, Maya, and Iyad. I had prepared their bedding, fed them dinner, and everything was fine. I prepared their bedding and put them to sleep. Suddenly my daughter asked me for something; that thing was on the second floor. As soon as I went down to bring it, they targeted the third floor of our neighbours’ building. It collapsed completely onto my children who were on the third floor. Of course, I came out from under the rubble by a miracle. After I received treatment, I woke up and said to them: where are my children? Reassure me about them. They told me with complete confidence that my three children were alive, but they were being stitched in the stitching room. After a long wait, my brother entered the hospital. I grabbed him with an unnatural urgency and began telling him: my children have been there for an hour or two, and they keep telling me they are in the stitching room. Every time I asked him about my children, he would not answer me. I felt that every time I asked where my children were and cried, it meant that one of my children had gone. That was it; I had this feeling. So I said to him: praise be to Allah, our Lord gave him to me and our Lord took him from me. Who remains of my children? My brother sat on the ground and started crying more and more, unable to put his eyes in mine. I began saying to him: praise be to Allah, two of my children are gone; who remains to keep Nadia company in her loneliness? After a long while, he finally admitted to me that my three children had been martyred all at once.",
+    "segments": [
+        {
+            "segment_id": "N33_s01",
+            "start_time": 0.0,
+            "end_time": 16.67,
+            "text_ar": "كنت ئاعدة مع أولادي.. مش ئادرة أكمل. بكاء. كنت ئاعدة مع أولادي التلاتة سيرين ومايا وإياد، فارشالهم ومعشياهم وأمورهم تمام، فرشتلهم ونيمتهم.",
+            "text_en": "I was sitting with my children... I cannot continue. Crying. I was sitting with my three children, Sirin, Maya, and Iyad. I had prepared their bedding, fed them dinner, and everything was fine. I prepared their bedding and put them to sleep.",
+            "event_frame": {
+                "adversity_description": "The speaker begins with a memory of ordinary domestic care immediately before catastrophe, but breaks down and cannot continue at first.",
+                "response_description": "She anchors the children in routine maternal care: bedding, dinner, and sleep, while her crying marks the unbearable return to that final ordinary moment."
+            },
+            "sabr_frame": {
+                "sabr_type": "domestic_memory_before_catastrophic_loss",
+                "features": [
+                    "maternal_care",
+                    "ordinary_routine_before_strike",
+                    "children_named",
+                    "speech_breakdown",
+                    "crying",
+                    "last_safe_moment"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "acute_grief_and_maternal_tenderness",
+                "justification": "The phrase 'مش ئادرة أكمل' and crying show acute grief, while bedding and feeding details foreground maternal tenderness."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "ئاعدة / ئادرة",
+                        "note": "Gaza City-style qaf-to-hamza realization: قاعدة/قادرة."
+                    },
+                    {
+                        "marker": "فارشالهم / فرشتلهم",
+                        "note": "Prepared bedding for them; maternal domestic-care verb."
+                    },
+                    {
+                        "marker": "معشياهم",
+                        "note": "Had fed them dinner."
+                    },
+                    {
+                        "marker": "التلاتة",
+                        "note": "Colloquial form of الثلاثة."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "مش ئادرة أكمل",
+                        "note": "Speech-halting marker showing the emotional limit of narration."
+                    },
+                    {
+                        "marker": "بكاء",
+                        "note": "Crying is part of the testimonial performance and should be treated as affective evidence."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "فرشتلهم ونيمتهم",
+                        "note": "Mother’s final care act before the strike."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N33_s02",
+            "start_time": 16.67,
+            "end_time": 32.88,
+            "text_ar": "بلحظة بنتي بتطلب مني غرض، هادا الغرض موجود بالطابق التاني، مجرد ما أنا نزلت أجيب هادا الغرض استهدفوا الطابق التالت من جيراننا، هال هيل على أولادي الموجودين بالطابق التالت، طبعاً أنا طلعت من تحت الردم بأعجوبة.",
+            "text_en": "Suddenly my daughter asked me for something; that thing was on the second floor. As soon as I went down to bring it, they targeted the third floor of our neighbours’ building. It collapsed completely onto my children who were on the third floor. Of course, I came out from under the rubble by a miracle.",
+            "event_frame": {
+                "adversity_description": "A brief ordinary errand separates the speaker from her children at the moment the targeted floor collapses onto them.",
+                "response_description": "She narrates survival from under the rubble as miraculous, highlighting the painful randomness of her survival and their death."
+            },
+            "sabr_frame": {
+                "sabr_type": "miraculous_survival_after_momentary_separation",
+                "features": [
+                    "brief_errand",
+                    "targeted_floor",
+                    "collapse_onto_children",
+                    "under_rubble_survival",
+                    "miracle_frame",
+                    "maternal_separation_at_moment_of_strike"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "shock_and_survivor_disbelief",
+                "justification": "The timing 'مجرد ما أنا نزلت' and 'طلعت من تحت الردم بأعجوبة' highlight the shock of surviving because of a momentary separation."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "هادا",
+                        "note": "Gazan/Palestinian colloquial demonstrative: this."
+                    },
+                    {
+                        "marker": "التاني / التالت",
+                        "note": "Colloquial forms for second/third."
+                    },
+                    {
+                        "marker": "هال هيل",
+                        "note": "Gazan expression meaning collapsed/fell down completely, often used for a ceiling or wall collapse."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "من جيراننا",
+                        "note": "Neighbouring-house spatial frame; catastrophe enters through shared residential proximity."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "بلحظة / مجرد ما",
+                        "note": "Temporal compression: the catastrophe happens immediately after an ordinary request."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "بأعجوبة",
+                        "note": "Miracle frame for survival from rubble."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N33_s03",
+            "start_time": 32.92,
+            "end_time": 53.36,
+            "text_ar": "بعد ما تلقيت العلاج، صحيت فبحكيلهم وين أولادي طمنوني عليهم. حكولي بكل ثقة إنو أولادك التلاتة عايشين، ولكن بتغرزوا بغرفة التغريز. لحد وين ووين ما دخل أخوي المستشفى، مسكته بلهفة مش طبيعية، صرت احكيله أولادي صارلهم ساعة وساعتين بيحكولي بغرفة التغريز، كل ما أسأله أولادي مش راضي يجاوبني.",
+            "text_en": "After I received treatment, I woke up and said to them: where are my children? Reassure me about them. They told me with complete confidence that my three children were alive, but they were being stitched in the stitching room. After a long wait, my brother entered the hospital. I grabbed him with an unnatural urgency and began telling him: my children have been there for an hour or two, and they keep telling me they are in the stitching room. Every time I asked him about my children, he would not answer me.",
+            "event_frame": {
+                "adversity_description": "After treatment, the speaker is kept in uncertainty about her children's fate through reassurance that they are alive and receiving stitches.",
+                "response_description": "She repeatedly asks for reassurance and then turns to her brother with intense urgency when the delay becomes unbearable."
+            },
+            "sabr_frame": {
+                "sabr_type": "suspended_maternal_uncertainty_after_rescue",
+                "features": [
+                    "waking_after_treatment",
+                    "asking_about_children",
+                    "false_or_protective_reassurance",
+                    "waiting",
+                    "urgent_brother_contact",
+                    "non_answer_as_signal"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "anxious_suspicion_and_urgent_need_for_truth",
+                "justification": "The repeated questions, 'طمنوني عليهم', and grabbing her brother 'بلهفة مش طبيعية' show urgent anxiety and rising suspicion."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "صحيت فبحكيلهم",
+                        "note": "I woke up and said to them; colloquial sequential narration."
+                    },
+                    {
+                        "marker": "طمنوني عليهم",
+                        "note": "Reassure me about them; strong maternal plea for survival confirmation."
+                    },
+                    {
+                        "marker": "لحد وين ووين",
+                        "note": "After a long while / after a duration felt as long."
+                    },
+                    {
+                        "marker": "مش راضي يجاوبني",
+                        "note": "He would not answer me; non-response becomes evidence."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "غرفة التغريز",
+                        "note": "Stitching/suturing room; here used as a protective explanation to delay telling her the children had died."
+                    },
+                    {
+                        "marker": "أخوي",
+                        "note": "Brother as trusted family mediator from whom she seeks truth."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "بكل ثقة",
+                        "note": "She emphasizes that the reassurance was convincing, increasing the later rupture."
+                    },
+                    {
+                        "marker": "ساعة وساعتين",
+                        "note": "Waiting time becomes emotionally unbearable."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N33_s04",
+            "start_time": 53.68,
+            "end_time": 68.8,
+            "text_ar": "حسيت انه كل ما بسأله وين أولادي وبعيط انه في حدا من أولادي راح. خلص هيك اجاني إحساس. فئلتله الحمدلله ربنا اعطاني إياه وربنا اخده مني، مين ضل من ولادي؟ ئعد ع الارض أخويا وصار يعيط أكتر وأكتر ومش ئادر يحط عينيه في عيني.",
+            "text_en": "I felt that every time I asked where my children were and cried, it meant that one of my children had gone. That was it; I had this feeling. So I said to him: praise be to Allah, our Lord gave him to me and our Lord took him from me. Who remains of my children? My brother sat on the ground and started crying more and more, unable to put his eyes in mine.",
+            "event_frame": {
+                "adversity_description": "The speaker begins to infer death from her brother’s inability to answer and from the emotional atmosphere around her.",
+                "response_description": "She pre-emptively turns to الحمد لله and a theological formula of divine giving and taking before asking who remains alive."
+            },
+            "sabr_frame": {
+                "sabr_type": "preemptive_hamd_and_qadar_acceptance_before_confirmation",
+                "features": [
+                    "intuition_of_loss",
+                    "brother_silence",
+                    "hamd",
+                    "divine_giving_and_taking",
+                    "question_who_remains",
+                    "avoidance_of_eye_contact"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "anticipatory_grief_with_faith_acceptance",
+                "justification": "Before hearing the full truth, she says 'الحمدلله ربنا اعطاني إياه وربنا اخده مني' while trying to identify who remains."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "الحمدلله",
+                        "note": "Praise be to Allah; used before final confirmation of loss."
+                    },
+                    {
+                        "marker": "ربنا اعطاني إياه وربنا اخده مني",
+                        "note": "Theological framing of children as entrusted by Allah and returned to Allah."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "حدا من أولادي راح",
+                        "note": "One of my children has gone; euphemistic colloquial way to indicate death/martyrdom."
+                    },
+                    {
+                        "marker": "خلص هيك اجاني إحساس",
+                        "note": "That was it; I just got this feeling. Intuitive realization without explicit confirmation."
+                    },
+                    {
+                        "marker": "ئعد / ئادر",
+                        "note": "Qaf-to-hamza realization for قعد/قادر."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "مين ضل من ولادي؟",
+                        "note": "Question shifts from whether there was death to who, if anyone, survived."
+                    },
+                    {
+                        "marker": "مش ئادر يحط عينيه في عيني",
+                        "note": "Avoided eye contact functions as nonverbal confirmation of unbearable truth."
+                    }
+                ],
+                "affect_markers": [
+                    {
+                        "marker": "صار يعيط أكتر وأكتر",
+                        "note": "Brother’s increasing crying intensifies the speaker’s realization."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N33_s05",
+            "start_time": 69.86,
+            "end_time": 80.16,
+            "text_ar": "صرت احكيله الحمدلله راح اتنين من ولادي، مين ضل يونّس نادية في وحدتها؟ لحد وين ووين لما اعترفلي انه أولادي التلاتة استشهدوا مرة وحدة.",
+            "text_en": "I began saying to him: praise be to Allah, two of my children are gone; who remains to keep Nadia company in her loneliness? After a long while, he finally admitted to me that my three children had been martyred all at once.",
+            "event_frame": {
+                "adversity_description": "The speaker moves from believing two children may have died to learning that all three children were martyred at once.",
+                "response_description": "She voices loneliness directly, asking who remains to keep her company, while still repeating الحمد لله."
+            },
+            "sabr_frame": {
+                "sabr_type": "total_child_loss_and_loneliness_under_hamd",
+                "features": [
+                    "all_three_children_martyred",
+                    "simultaneous_loss",
+                    "maternal_loneliness",
+                    "need_for_companionship",
+                    "delayed_truth",
+                    "hamd_during_confirmation"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "devastating_loneliness_with_controlled_hamd",
+                "justification": "The question 'مين ضل يونّس نادية في وحدتها؟' directly expresses loneliness after total child loss, while 'الحمدلله' maintains religious composure."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "الحمدلله",
+                        "note": "Repeated praise formula during the unfolding realization of total loss."
+                    },
+                    {
+                        "marker": "استشهدوا",
+                        "note": "Martyrdom framing for the death of all three children."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "يونّس نادية في وحدتها",
+                        "note": "Keep Nadia company in her loneliness; deeply relational expression of maternal solitude after child loss."
+                    },
+                    {
+                        "marker": "لحد وين ووين",
+                        "note": "After a long while; emphasizes delay before the truth was admitted."
+                    },
+                    {
+                        "marker": "مرة وحدة",
+                        "note": "All at once / in one moment; emphasizes simultaneity of loss."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "لما اعترفلي",
+                        "note": "The verb 'admitted' frames the truth as painful and initially withheld to protect her."
+                    }
+                ]
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "ئاعدة / ئادرة / فئلتله / ئعد": {
+                "variants_ar": [
+                    "قاعدة",
+                    "قادرة",
+                    "فقلت له",
+                    "قعد"
+                ],
+                "meaning_en": "Qaf pronounced as hamza in Gaza City speech patterns; preserve as dialect evidence when relevant.",
+                "note_ar": "من سمات لهجة بعض النساء في مدينة غزة ومناطق من القطاع قلب القاف همزة، مع احتمال بقاء القاف في كلمات أخرى مثل الطابق."
+            },
+            "فارشالهم / فرشتلهم": {
+                "variants_ar": [
+                    "جهزت لهم الفراش",
+                    "فرشت لهم مكان النوم"
+                ],
+                "meaning_en": "Prepared bedding/sleeping space for them."
+            },
+            "معشياهم": {
+                "variants_ar": [
+                    "أطعمتهم العشاء",
+                    "عشّيتهم"
+                ],
+                "meaning_en": "Fed them dinner."
+            },
+            "هال هيل": {
+                "variants_ar": [
+                    "وقع بالكامل",
+                    "انهار",
+                    "سقط عليهم"
+                ],
+                "meaning_en": "Collapsed/fell down completely; Gazan expression often used for a ceiling or wall collapse."
+            },
+            "الطابق التالت من جيراننا": {
+                "variants_ar": [
+                    "الطابق الثالث من بيت الجيران",
+                    "دور الجيران الثالث"
+                ],
+                "meaning_en": "The third floor of the neighbours' house/building."
+            },
+            "طلعت من تحت الردم بأعجوبة": {
+                "variants_ar": [
+                    "خرجت من تحت الأنقاض بمعجزة",
+                    "نجوت بأعجوبة"
+                ],
+                "meaning_en": "I came out from under the rubble by a miracle."
+            },
+            "طمنوني عليهم": {
+                "variants_ar": [
+                    "طمئنوني عنهم",
+                    "أخبروني أنهم بخير"
+                ],
+                "meaning_en": "Reassure me about them."
+            },
+            "بتغرزوا بغرفة التغريز": {
+                "variants_ar": [
+                    "يخيطون جراحهم",
+                    "في غرفة الخياطة",
+                    "في غرفة تضميد/تغريز الجروح"
+                ],
+                "meaning_en": "They are being stitched in the suturing room; here used as protective reassurance."
+            },
+            "لحد وين ووين": {
+                "variants_ar": [
+                    "بعد وقت طويل",
+                    "بعد انتظار طويل",
+                    "إلى أن"
+                ],
+                "meaning_en": "After a long while / after a prolonged wait."
+            },
+            "مسكته بلهفة مش طبيعية": {
+                "variants_ar": [
+                    "تمسكت به بقلق شديد",
+                    "أمسكته بعجلة ولهفة"
+                ],
+                "meaning_en": "I grabbed him with abnormal urgency."
+            },
+            "حدا من أولادي راح": {
+                "variants_ar": [
+                    "أحد أولادي استشهد",
+                    "أحدهم مات",
+                    "فقدت أحد أولادي"
+                ],
+                "meaning_en": "One of my children has gone / died / been martyred."
+            },
+            "ربنا أعطاني إياه وربنا أخده مني": {
+                "variants_ar": [
+                    "لله ما أعطى ولله ما أخذ",
+                    "الله أعطى والله أخذ"
+                ],
+                "meaning_en": "Allah gave him to me and Allah took him from me; qadar/entrustment frame."
+            },
+            "مش قادر يحط عينيه في عيني": {
+                "variants_ar": [
+                    "لا يستطيع النظر في عيني",
+                    "يتجنب النظر إلي"
+                ],
+                "meaning_en": "He could not look me in the eyes; nonverbal sign of withheld tragic truth."
+            },
+            "مين ضل يونّس نادية في وحدتها": {
+                "variants_ar": [
+                    "من بقي ليؤنس وحدتي",
+                    "من بقي معي",
+                    "من سيخفف وحدتي"
+                ],
+                "meaning_en": "Who remains to keep Nadia company in her loneliness?"
+            },
+            "استشهدوا مرة وحدة": {
+                "variants_ar": [
+                    "استشهدوا جميعاً في لحظة واحدة",
+                    "راحوا كلهم معاً"
+                ],
+                "meaning_en": "They were all martyred at once."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "maternal_domestic_routine_child_loss_hamd_loneliness",
+        "paper_fit_ar": "تمثل Narrative33 مثالاً شديد الوضوح على انتقال الخطاب من الذاكرة المنزلية الحميمة إلى الفقد الكلي ثم إلى محاولة ضبط الفاجعة عبر الحمد والتسليم. تبدأ الرواية من لحظة أمومية عادية: عشاء، فراش، نوم، وطلب صغير من الابنة. قوة المشهد تأتي من أن نجاة الأم حدثت لأنها غادرت للحظة لإحضار غرض، بينما انهار الطابق على أطفالها. بعد النجاة، لا تسأل عن نفسها بل عن الأطفال، فتدخل في حالة انتظار وتعليق عاطفي عبر جملة «أولادك التلاتة عايشين ولكن بتغرزوا». الذروة في الرواية ليست فقط معرفة الخبر، بل طريقة معرفته: صمت الأخ، بكاؤه، وعجزه عن النظر في عينيها. من منظور SABR، الاستجابة المركزية تظهر في قولها «الحمدلله ربنا أعطاني إياه وربنا أخده مني»، حيث تدخل صيغة الحمد والقدر قبل اكتمال الاعتراف بالحقيقة. ومع ذلك، لا تلغي هذه الصيغة الألم؛ فالسؤال «مين ضل يونّس نادية في وحدتها؟» يكشف وحدة أمومية عميقة بعد فقد الأطفال الثلاثة دفعة واحدة.",
+        "paper_fit_en": "Narrative33 is a clear example of movement from intimate domestic memory to total child loss and then to an attempt to regulate catastrophe through hamd and surrender to Allah's decree. The narrative begins with ordinary mothering: dinner, bedding, sleep, and a small request from a daughter. Its force lies in the fact that the mother survived because she left for a moment to bring an item, while the floor collapsed onto her children. After survival, she does not ask about herself; she asks about the children and enters a suspended state created by the reassurance that they are alive in the stitching room. The emotional peak is not only the news itself, but how she learns it: her brother's silence, crying, and inability to look into her eyes. In SABR terms, the central response appears in 'praise be to Allah, our Lord gave him to me and our Lord took him from me,' where hamd and qadar framing precede full confirmation. Yet this does not cancel pain; the question 'who remains to keep Nadia company in her loneliness?' reveals deep maternal loneliness after losing all three children at once."
+    },
+    "ethical_note": {
+        "risk_level": "very_high_sensitivity_bereaved_mother_minor_children_total_child_loss",
+        "notes": [
+            "The narrative contains the speaker's real name and the names of three deceased children.",
+            "The speaker’s age is represented only as adult, with no numeric age range, as requested.",
+            "For public release, pseudonymize all personal names and avoid exact location/family combinations that make the speaker searchable.",
+            "The narrative includes intense maternal grief, crying, child death, rubble survival, and possible protective withholding of death information by relatives/medical staff.",
+            "The repeated الحمد لله and qadar framing should not be interpreted as absence of grief; the same passage includes crying, loneliness, and nonverbal collapse.",
+            "Do not use this testimony for psychological diagnosis; annotation should focus on discourse structure, adversity framing, response strategies, contextual markers, and affective signal."
+        ],
+        "recommended_public_version": "pseudonymized_or_restricted_access_with_short_excerpts_only"
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

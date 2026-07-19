@@ -1,0 +1,476 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative34_Pseudonymized",
+    "source_meta": {
+        "source_id": "N34",
+        "source_type": "pasted_transcription_with_whisper_timestamps",
+        "source_platform": "Unspecified public/video source",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (Gaza City dialect)",
+        "reported_context": "An adult speaker from Gaza City speaks in a state of qahr under war, loss, fire, deprivation, and perceived abandonment. He addresses silent external actors and, according to the source note, also directs his anger toward Gaza leaders outside the Strip, while ultimately turning the scene into collective supplication to Allah.",
+        "collection_context_en": "The speaker stands near a targeted location with fire visible and expresses qahr, moral outrage, and religious accountability. He says people in Gaza are dying 'a million deaths' every day while women, children, elderly people, and young men are being killed. He contrasts this with Western countries living normally and says no one feels the suffering of Gaza. He names basic needs such as aid, gas, and coupons, then asks who cares about those dying. The speech shifts from accusation to divine justice: those responsible will be questioned on the Day of Judgment, Allah will hold them accountable, and the reward of the people is with Allah. The scene ends with raised hands and a collective chant of 'Ya Rabb' asking Allah for mercy.",
+        "collection_context_ar": "يقف المتحدث قرب مكان مستهدف تشتعل منه النيران ويعبّر عن قهر وغضب أخلاقي ورجاء ديني. يقول إن الناس في غزة يموتون كل يوم «مليون موتة»، وإن النساء والأطفال والشيوخ والشباب يموتون ولا أحد يشعر بهم. يقارن بين حالهم وبين الدول الغربية التي تعيش بصورة طبيعية، ويذكر الاحتياجات الأساسية مثل المساعدات والغاز والكابونات، ثم يسأل عن الناس الأبرياء الذين يموتون. ينتقل الخطاب بعد ذلك من الاتهام إلى العدالة الإلهية: سيُسألون يوم القيامة، والله سيحاسبهم، وأجر الناس عند الله. وينتهي المشهد برفع اليدين والدعاء الجماعي: يا رب ارحمنا."
+    },
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "no_personal_names_present",
+        "contains_real_names": false,
+        "contains_minors": false,
+        "notes": "No personal names are present. The narrative contains a public anger/supplication scene in a highly sensitive wartime context. Avoid identifying the exact scene/location unless needed and ethically justified. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "n/a"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Palestinian/Gazan dialect, qahr discourse, Islamic accountability language, and SABR annotation conventions."
+            }
+        ],
+        "adjudication": {
+            "status": "draft_annotation_ready_for_review",
+            "note": "Corrected Arabic text supplied by the user is treated as the source of truth. Whisper timestamps are used only for approximate timing. Gesture notes are preserved as contextual markers rather than inserted into the spoken text."
+        },
+        "alignment_note": "Timestamps are approximate and mapped from the Whisper segment boundaries. Some ASR words are inaccurate; the corrected transcript controls wording and meaning.",
+        "selection_policy": "Segmentation follows discourse shifts: divine accountability opening; collective dying and moral refusal; indictment of global indifference and material deprivation; renewed Day-of-Judgment accountability; reward with Allah and collective supplication."
+    },
+    "speaker_profile": {
+        "gender": "male",
+        "age_estimate": "adult",
+        "origin": "Gaza City",
+        "role_or_status": [
+            "Civilian public speaker",
+            "Eyewitness near targeted location",
+            "Collective grief and supplication leader"
+        ]
+    },
+    "approx_context": {
+        "brief_summary_en": "An adult man in Gaza City speaks from a scene of destruction and fire, saying that people in Gaza are dying repeatedly every day while the world lives normally and does not feel their suffering. His speech moves between qahr, moral outrage, appeal for basic needs, accusation of abandonment, religious accountability on the Day of Judgment, and collective dua. The affective pattern is not only anger; it is moral pain that turns upward toward Allah when worldly accountability fails.",
+        "brief_summary_ar": "يتحدث رجل بالغ من مدينة غزة من مشهد دمار ونيران، قائلاً إن الناس في غزة يموتون كل يوم مرات كثيرة بينما العالم يعيش بشكل طبيعي ولا يشعر بمعاناتهم. ينتقل خطابه بين القهر والغضب الأخلاقي وطلب الاحتياجات الأساسية واتهام الصمت والخذلان، ثم يحوّل المشهد إلى مساءلة دينية يوم القيامة ودعاء جماعي. الإشارة الشعورية ليست غضباً فقط، بل ألم أخلاقي يتحول إلى الله عندما تغيب العدالة في الدنيا."
+    },
+    "text_ar_full": "واللهِ لتسألوا يوم القيامة ع كل اللي بصير فينا. كل يوم بنموت مليون موتة، هادا مين بقوله؟ هادا مين بيرضاه؟ وهو يشير إلى مكان مستهدف وتشتعل منه النيران. الدول الغرب قاعدين وعايشين ومبسوطين واحنا كل يوم بنموت نساء وأطفال وشيوخ وشباب ولا واحد حاسس فينا. يضرب كفيه قهراً. بس بدنا مساعدات وبدنا غاز وبدنا كابونات ولا واحد حاسس فينا. واللي بموت؟ يسأله أحد الناس. ولا واحد حاسس في الناس البريئة اللي قاعدة بتموت. والله لتسألوا يوم القيامة ع كل اللي بيصير فينا، والله غير يحاسبكوا يوم القيامة، فوق عند ربنا أجرنا كله فوق بدنا إياه عند الله. يا رب ارحمنا من عندك يا رب، يا رب. يرفع كفيه للسماء مناجياً. قولوا يا رب يا عالَم. يااا رب. يهتف الجميع مردداً خلفه. قولوا يا رب ارحمنا.",
+    "text_en_full": "By Allah, you will be questioned on the Day of Judgment about everything that is happening to us. Every day we die a million deaths. Who accepts this? Who would be pleased with this? He points toward a targeted place from which fire is burning. The Western countries are sitting, living, and enjoying themselves, while every day we are dying: women, children, elderly people, and young men, and not one person feels us. He strikes his palms together in qahr. We only want aid, we want gas, and we want coupons, and not one person feels us. 'And the one who dies?' someone asks him. Not one person feels the innocent people who are dying. By Allah, you will be questioned on the Day of Judgment about everything happening to us. By Allah, He will hold you accountable on the Day of Judgment. Up there, with our Lord, all our reward is above; we want it with Allah. My Lord, have mercy on us from Yourself, my Lord, my Lord. He raises his palms to the sky in supplication. Say: my Lord, O people. 'Yaa Rabb,' everyone chants after him. Say: my Lord, have mercy on us.",
+    "segments": [
+        {
+            "segment_id": "N34_s01",
+            "start_time": 0.0,
+            "end_time": 10.46,
+            "text_ar": "واللهِ لتسألوا يوم القيامة ع كل اللي بصير فينا. كل يوم بنموت مليون موتة، هادا مين بقوله؟ هادا مين بيرضاه؟",
+            "text_en": "By Allah, you will be questioned on the Day of Judgment about everything that is happening to us. Every day we die a million deaths. Who accepts this? Who would be pleased with this?",
+            "event_frame": {
+                "adversity_description": "The speaker names repeated daily dying and unbearable suffering under ongoing attack.",
+                "response_description": "He opens with an oath and shifts immediately to divine accountability, presenting the suffering as something no moral conscience should accept."
+            },
+            "sabr_frame": {
+                "sabr_type": "qahr_as_moral_accountability_before_allah",
+                "features": [
+                    "oath_by_allah",
+                    "day_of_judgment_accountability",
+                    "million_deaths_metaphor",
+                    "moral_refusal",
+                    "rhetorical_questions",
+                    "collective_suffering"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "moral_qahr_and_outrage",
+                "justification": "The oath, 'مليون موتة', and repeated rhetorical questions frame the emotion as qahr and moral outrage rather than simple anger."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "واللهِ",
+                        "note": "Oath by Allah intensifying the truth-claim and emotional force."
+                    },
+                    {
+                        "marker": "لتسألوا يوم القيامة",
+                        "note": "Day-of-Judgment accountability frame; worldly injustice is redirected to divine judgment."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "ع كل اللي بصير فينا",
+                        "note": "About everything happening to us; colloquial Palestinian/Gazan phrasing."
+                    },
+                    {
+                        "marker": "هادا",
+                        "note": "Gazan/Palestinian demonstrative: this."
+                    },
+                    {
+                        "marker": "بيرضاه",
+                        "note": "Would accept/be pleased with it; colloquial rhetorical verb."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "هادا مين بقوله؟ هادا مين بيرضاه؟",
+                        "note": "Paired rhetorical questions reject the legitimacy of the suffering."
+                    },
+                    {
+                        "marker": "كل يوم بنموت مليون موتة",
+                        "note": "Hyperbolic repetition of death to describe living under constant threat."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N34_s02",
+            "start_time": 11.18,
+            "end_time": 22.64,
+            "text_ar": "الدول الغرب قاعدين وعايشين ومبسوطين واحنا كل يوم بنموت نساء وأطفال وشيوخ وشباب ولا واحد حاسس فينا.",
+            "text_en": "The Western countries are sitting, living, and enjoying themselves, while every day we are dying: women, children, elderly people, and young men, and not one person feels us.",
+            "event_frame": {
+                "adversity_description": "The speaker describes repeated civilian death across gender and age groups while external actors live normally.",
+                "response_description": "He constructs a contrast between global comfort and Gazan death, turning personal pain into an indictment of indifference."
+            },
+            "sabr_frame": {
+                "sabr_type": "collective_civilian_suffering_against_global_indifference",
+                "features": [
+                    "west_as_external_audience",
+                    "civilian_categories",
+                    "daily_death",
+                    "no_one_feels_us",
+                    "moral_contrast",
+                    "qahr_gesture"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "anguished_indignation",
+                "justification": "The contrast between 'قاعدين وعايشين ومبسوطين' and 'احنا كل يوم بنموت' conveys wounded indignation at perceived global indifference."
+            },
+            "contextual_markers": {
+                "cultural_political_markers": [
+                    {
+                        "marker": "الدول الغرب",
+                        "note": "Colloquial reference to Western countries as a perceived audience of accountability."
+                    },
+                    {
+                        "marker": "نساء وأطفال وشيوخ وشباب",
+                        "note": "Enumeration of civilian categories emphasizes indiscriminate collective suffering."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "قاعدين وعايشين ومبسوطين",
+                        "note": "Colloquial sequence portraying external normal life and comfort."
+                    },
+                    {
+                        "marker": "ولا واحد حاسس فينا",
+                        "note": "No one feels us; Gazan/Palestinian idiom for lack of empathy or recognition."
+                    }
+                ],
+                "gesture_markers": [
+                    {
+                        "marker": "يضرب كفيه قهراً",
+                        "note": "Striking the palms together is a visible qahr gesture, showing helpless anger and crushed pain."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N34_s03",
+            "start_time": 23.08,
+            "end_time": 32.82,
+            "text_ar": "بس بدنا مساعدات وبدنا غاز وبدنا كابونات ولا واحد حاسس فينا. واللي بموت؟ ولا واحد حاسس في الناس البريئة اللي قاعدة بتموت.",
+            "text_en": "We only want aid, we want gas, and we want coupons, and not one person feels us. 'And the one who dies?' Not one person feels the innocent people who are dying.",
+            "event_frame": {
+                "adversity_description": "The speaker links mass death with deprivation of basic survival needs such as aid, gas, and coupons.",
+                "response_description": "He repeats the lack-of-empathy refrain and broadens the frame from material deprivation to innocent people dying."
+            },
+            "sabr_frame": {
+                "sabr_type": "survival_needs_and_unrecognized_innocent_death",
+                "features": [
+                    "aid",
+                    "gas",
+                    "coupons",
+                    "basic_needs",
+                    "innocent_people_dying",
+                    "repetition_of_no_one_feels_us",
+                    "collective_abandonment"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "desperate_plea_and_collective_abandonment",
+                "justification": "The repeated 'بدنا' and 'ولا واحد حاسس' express desperate need and the feeling that suffering is unseen."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "بدنا",
+                        "note": "We want/need; repeated to mark basic survival demands."
+                    },
+                    {
+                        "marker": "كابونات",
+                        "note": "Aid coupons/vouchers or ration cards in humanitarian distribution context."
+                    },
+                    {
+                        "marker": "اللي قاعدة بتموت",
+                        "note": "People who are continuously dying; colloquial progressive construction."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "ولا واحد حاسس فينا / ولا واحد حاسس في الناس البريئة",
+                        "note": "Refrain of abandonment; repetition builds collective grievance."
+                    },
+                    {
+                        "marker": "واللي بموت؟",
+                        "note": "Interruption/question from another person that redirects attention from supplies to death itself."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "مساعدات / غاز / كابونات",
+                        "note": "Material markers of siege and humanitarian dependency."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N34_s04",
+            "start_time": 33.46,
+            "end_time": 47.26,
+            "text_ar": "والله لتسألوا يوم القيامة ع كل اللي بيصير فينا، والله غير يحاسبكوا يوم القيامة، فوق عند ربنا أجرنا كله فوق بدنا إياه عند الله.",
+            "text_en": "By Allah, you will be questioned on the Day of Judgment about everything happening to us. By Allah, He will hold you accountable on the Day of Judgment. Up there, with our Lord, all our reward is above; we want it with Allah.",
+            "event_frame": {
+                "adversity_description": "The speaker experiences worldly abandonment and lack of accountability for suffering.",
+                "response_description": "He transfers the claim for justice and recompense to Allah, emphasizing divine questioning, divine accounting, and reward stored with Allah."
+            },
+            "sabr_frame": {
+                "sabr_type": "divine_justice_when_worldly_accountability_fails",
+                "features": [
+                    "repeated_oath",
+                    "day_of_judgment",
+                    "divine_accountability",
+                    "reward_with_allah",
+                    "vertical_orientation",
+                    "moral_witnessing"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "faith_anchored_moral_defiance",
+                "justification": "The speaker does not only plead; he asserts that Allah will account for the injustice and that the people's reward remains with Allah."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "يوم القيامة",
+                        "note": "Eschatological accountability frame; justice deferred to the afterlife."
+                    },
+                    {
+                        "marker": "الله غير يحاسبكوا",
+                        "note": "Allah will hold you accountable; moral-religious accounting, not an operational threat."
+                    },
+                    {
+                        "marker": "فوق عند ربنا",
+                        "note": "Vertical orientation toward Allah/heaven as the place of reward and justice."
+                    },
+                    {
+                        "marker": "أجرنا كله فوق",
+                        "note": "Reward/recompense stored with Allah; suffering is given religious meaning."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "يحاسبكوا",
+                        "note": "Hold you accountable; Palestinian/Gazan plural object suffix."
+                    },
+                    {
+                        "marker": "بدنا إياه عند الله",
+                        "note": "We want it with Allah; colloquial phrasing of seeking reward/recompense from Allah."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "والله... والله",
+                        "note": "Repeated oath intensifies certainty and moral pressure."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N34_s05",
+            "start_time": 48.28,
+            "end_time": 56.9,
+            "text_ar": "يا رب ارحمنا من عندك يا رب، يا رب. قولوا يا رب يا عالَم. يااا رب. قولوا يا رب ارحمنا.",
+            "text_en": "My Lord, have mercy on us from Yourself, my Lord, my Lord. Say: my Lord, O people, say: 'Yaa Rabb.', my Lord, have mercy on us.",
+            "event_frame": {
+                "adversity_description": "After moral accusation and deprivation, the speaker turns to Allah as the remaining source of mercy.",
+                "response_description": "He raises his hands and leads those around him in collective supplication, transforming qahr into communal dua."
+            },
+            "sabr_frame": {
+                "sabr_type": "collective_dua_as_affect_regulation_under_qahr",
+                "features": [
+                    "dua",
+                    "raising_hands",
+                    "crowd_response",
+                    "ya_rabb_repetition",
+                    "mercy_request",
+                    "communal_emotional_regulation"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "pleading_hope_through_collective_supplication",
+                "justification": "The repeated 'يا رب' and call for others to repeat it mark a shift from accusation to pleading hope and communal reliance on Allah."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "يا رب ارحمنا",
+                        "note": "Direct supplication asking Allah for mercy."
+                    },
+                    {
+                        "marker": "من عندك",
+                        "note": "Mercy requested directly from Allah’s side/source."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "قولوا يا رب",
+                        "note": "Leader-crowd call-and-response, turning individual distress into collective prayer."
+                    },
+                    {
+                        "marker": "يااا رب",
+                        "note": "Elongated vocalization of supplication and distress."
+                    },
+                    {
+                        "marker": "يا عالَم",
+                        "note": "Addressing the people/world (عالَم = people), not Allah as All-Knowing (عالِم); calling the crowd into the dua."
+                    }
+                ],
+                "gesture_markers": [
+                    {
+                        "marker": "يرفع كفيه للسماء مناجياً",
+                        "note": "Raising palms to the sky is a conventional embodied form of Islamic supplication."
+                    },
+                    {
+                        "marker": "يهتف الجميع مردداً خلفه",
+                        "note": "Collective repetition amplifies communal emotion and shared reliance on Allah."
+                    }
+                ]
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "واللهِ لتسألوا يوم القيامة": {
+                "variants_ar": [
+                    "ستُسألون يوم القيامة",
+                    "الله سيحاسبكم",
+                    "مساءلة أمام الله"
+                ],
+                "meaning_en": "By Allah, you will be questioned on the Day of Judgment; religious accountability frame."
+            },
+            "كل يوم بنموت مليون موتة": {
+                "variants_ar": [
+                    "نموت كل يوم مرات كثيرة",
+                    "نعيش موتاً متكرراً"
+                ],
+                "meaning_en": "We die a million deaths every day; hyperbolic expression of repeated suffering under war."
+            },
+            "هادا مين بقوله؟ هادا مين بيرضاه؟": {
+                "variants_ar": [
+                    "من يقبل هذا؟",
+                    "من يرضى بهذا؟"
+                ],
+                "meaning_en": "Who accepts this? Who would be pleased with this? Rhetorical moral refusal."
+            },
+            "الدول الغرب": {
+                "variants_ar": [
+                    "دول الغرب",
+                    "الدول الغربية",
+                    "العالم الغربي"
+                ],
+                "meaning_en": "Western countries; perceived external audience of moral accountability."
+            },
+            "ولا واحد حاسس فينا": {
+                "variants_ar": [
+                    "لا أحد يشعر بنا",
+                    "لا أحد يحس بمعاناتنا"
+                ],
+                "meaning_en": "No one feels us / no one feels our suffering; abandonment refrain."
+            },
+            "كابونات": {
+                "variants_ar": [
+                    "كوبونات",
+                    "بطاقات مساعدات",
+                    "قسائم مساعدات"
+                ],
+                "meaning_en": "Aid coupons/vouchers or ration cards."
+            },
+            "الناس البريئة اللي قاعدة بتموت": {
+                "variants_ar": [
+                    "المدنيون الأبرياء الذين يموتون",
+                    "الأبرياء يموتون"
+                ],
+                "meaning_en": "The innocent people who are dying; civilian innocence frame."
+            },
+            "فوق عند ربنا": {
+                "variants_ar": [
+                    "عند الله",
+                    "في الآخرة",
+                    "عند رب العالمين"
+                ],
+                "meaning_en": "Above with our Lord; vertical religious orientation toward Allah and the afterlife."
+            },
+            "أجرنا كله فوق": {
+                "variants_ar": [
+                    "ثوابنا عند الله",
+                    "أجرنا محفوظ عند الله"
+                ],
+                "meaning_en": "Our reward is with Allah; suffering recompensed by divine reward."
+            },
+            "يا رب ارحمنا من عندك": {
+                "variants_ar": [
+                    "اللهم ارحمنا",
+                    "يا رب أنزل رحمتك علينا"
+                ],
+                "meaning_en": "My Lord, have mercy on us from Yourself; direct supplication for mercy."
+            },
+            "قولوا يا رب": {
+                "variants_ar": [
+                    "رددوا يا رب",
+                    "ادعوا يا رب"
+                ],
+                "meaning_en": "Say 'my Lord'; call-and-response invitation to collective supplication."
+            },
+            "قهر": {
+                "variants_ar": [
+                    "وجع مقهور",
+                    "غضب عاجز",
+                    "حسرة",
+                    "انكسار داخلي"
+                ],
+                "meaning_en": "Qahr: crushed anguish, helpless anger, and morally wounded pain."
+            },
+            "يا عالَم": {
+                "variants_ar": [
+                    "يا ناس",
+                    "يا جماعة"
+                ],
+                "meaning_en": "O people / O world; addressing the crowd or humanity (عالَم), not Allah as All-Knowing (عالِم)."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "qahr_moral_accountability_collective_dua_gaza_city",
+        "paper_fit_ar": "تمثل Narrative34 مثالاً مهماً على القهر الأخلاقي الجماعي الذي ينتقل من اتهام العالم بالصمت إلى مساءلة دينية ثم دعاء جماعي. المتحدث لا يصف حزناً فردياً فقط، بل يتكلم باسم الناس: «احنا»، «فينا»، «الناس البريئة». تتكرر عبارة «ولا واحد حاسس فينا» كعلامة خطابية على الخذلان وغياب الشاهد الخارجي. في المقابل، لا تنتهي الرواية عند الغضب؛ تتحول إلى إطار أخروي: «لتسألوا يوم القيامة» و«أجرنا كله فوق». هذا الانتقال مهم لسابر لأنه يظهر كيف يعمل الدين كإطار للعدالة عندما تفشل العدالة الأرضية، وكيف يتحول القهر إلى مناجاة جماعية عبر «قولوا يا رب». المشهد مناسب جداً لتحليل affective signals مثل القهر، الغضب الأخلاقي، الرجاء، والاعتماد على الله.",
+        "paper_fit_en": "Narrative34 is an important example of collective moral qahr moving from accusation of global silence to religious accountability and then collective supplication. The speaker does not narrate only individual sadness; he speaks in the collective: 'we,' 'us,' and 'the innocent people.' The repeated phrase 'no one feels us' functions as a discourse marker of abandonment and the absence of external witnessing. Yet the narrative does not end in anger. It turns to an eschatological frame: 'you will be questioned on the Day of Judgment' and 'our reward is above.' This transition is valuable for SABR because it shows religion functioning as a justice framework when earthly justice fails, and shows qahr becoming communal dua through 'say: Ya Rabb.' The scene is especially useful for analysing affective signals such as qahr, moral outrage, hope, and reliance on Allah."
+    },
+    "ethical_note": {
+        "risk_level": "high_sensitivity_public_distress_wartime_anger_collective_supplication",
+        "notes": [
+            "The testimony includes intense public anger, moral accusation, deprivation, civilian death, and collective supplication.",
+            "No personal names are present, but the scene/location may be identifying if video imagery is used; avoid publishing faces or exact geolocation unless ethically justified.",
+            "The phrase 'الله غير يحاسبكوا يوم القيامة' should be interpreted as a religious moral-accountability frame, not as an operational threat.",
+            "The speaker’s political targets should be described carefully. The source note says he addresses the silent world and Gaza leaders abroad; the transcript itself explicitly references Western countries and uses broad second-person accountability language.",
+            "Do not flatten the affect to 'anger' only. The speech also contains qahr, helplessness, plea for basic needs, moral witnessing, reliance on Allah, and collective hope through dua."
+        ],
+        "recommended_public_version": "pseudonymized_scene_description_with_no_faces_or_exact_location"
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

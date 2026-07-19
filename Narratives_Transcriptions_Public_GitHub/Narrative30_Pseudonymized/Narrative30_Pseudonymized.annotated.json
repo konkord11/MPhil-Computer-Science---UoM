@@ -1,0 +1,740 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative30_Pseudonymized",
+    "source_meta": {
+        "source_id": "Narrative30",
+        "source_type": "pasted_transcription_with_whisper_timestamps",
+        "source_platform": "public/video source",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (Jabalia dialect)",
+        "reported_context": "A bereaved mother and bombing survivor recounts being told that her four daughters and Walid were martyred, describes an unexpected feeling of divine tranquility at the moment of the news, reconstructs the bombing and her own serious injuries, and remembers each daughter through affection, personality, light, and continuing spiritual presence.",
+        "collection_context_en": "The speaker recalls receiving the news that her four daughters and Walid were martyred. She describes the moment as difficult, but says she felt something from the sky descend and wipe over her chest, bringing sakina and reassurance rather than immediate felt catastrophe. She later reconstructs waking up injured in a strange place, learning that the adjacent home/apartment was bombed, that the family fell from the fifth floor, and that all were martyred at the same moment while she survived with severe injuries. The second half of the narrative turns to loving remembrance of the daughters, moments of wishing one had remained, reframing that wish because the surviving child would have died of grief, and maintaining an ongoing bond through photos, videos, memories, and the belief that their souls remain with her.",
+        "collection_context_ar": "تستعيد المتحدثة لحظة إخبارها باستشهاد بناتها الأربع ووليد، وتصف أن اللحظة كانت صعبة لكنها شعرت بشيء من السماء نزل ومسح على صدرها، فلم تشعر بالفاجعة والفقد كما توقعت، بل شعرت بسكينة وطمأنينة. ثم تعيد بناء ما حدث بعد أن استيقظت مصابة في مكان غريب، وعرفت لاحقاً أن الشقة/الدار المجاورة قُصفت وأن العائلة طارت من الطابق الخامس، فاستشهدوا جميعاً في اللحظة نفسها بينما نجت هي بإصابات بالغة. في النصف الثاني تتحول الرواية إلى تذكّر حميم لبناتها الأربع، وتذبذب بين تمني بقاء واحدة تؤنس وحدتها وبين إدراك أن بقاء واحدة كان سيحمل قهراً لا يُحتمل، ثم تؤكد استمرار العلاقة بهن عبر الصور والفيديوهات والذكريات وحضور أرواحهن معها."
+    },
+    "anonymization": {
+        "is_pseudonymized": true,
+        "strategy": "name_replacement_pool",
+        "contains_real_names": false,
+        "contains_minors": true,
+        "contains_deceased_children": true,
+        "notes": "Person names and identifying tokens in this tree are replaced using Gaza_NamePool_v1 with dataset-consistent mappings. Original strings are retained only in Narratives_Transcriptions. Follow Project_Research_Documentation/protocols/mphil_uom_ethics_and_governance.txt for storage, consent scope, and thesis use. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "within_dataset_consistent"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Palestinian/Gazan dialect, Islamic grief discourse, bereaved-mother narratives, and SABR annotation conventions."
+            }
+        ],
+        "adjudication": {
+            "status": "draft_annotation_ready_for_review",
+            "note": "Corrected Arabic text provided by the user is treated as the source of truth. Whisper timestamps are used only for approximate timing. Names are preserved in this internal version because they appear in the provided text."
+        },
+        "alignment_note": "Span timestamps are approximate and mapped from the Whisper segment boundaries. Some ASR words are inaccurate; corrected transcript controls wording and meaning.",
+        "selection_policy": "Segmentation follows discourse shifts: receiving the news and divine sakina; amnesia/waking after injury; reconstructed bombing and bodily injury; portraits of the daughters; longing for one survivor and family-as-homeland framing; retrospective interpretation of the daughters’ unusual joy; and continuing bond through images, memory, and souls."
+    },
+    "speaker_profile": {
+        "gender": "female",
+        "age_estimate": "adult",
+        "origin": "Gaza Strip / Palestinian context",
+        "role_or_status": [
+            "Bereaved mother",
+            "Bombing survivor",
+            "Severely injured survivor",
+            "Public testimony speaker"
+        ]
+    },
+    "approx_context": {
+        "brief_summary_en": "A bereaved mother recounts the moment she was told that her four daughters and Walid had been martyred. Despite the severity of the news, she describes a divinely sourced sakina descending and wiping over her chest. She then reconstructs fragmented memory after waking injured in a strange place and later learning that the bombing threw the family from the fifth floor, killing them all at the same moment while she survived with serious injuries. She remembers each daughter individually and reflects on loneliness, the unbearable possibility of one child surviving without her sisters, the daughters’ strange joy in their last month, and their continuing presence through photos, videos, memories, and souls.",
+        "brief_summary_ar": "تروي أم مفجوعة لحظة إخبارها باستشهاد بناتها الأربع ووليد. ورغم قسوة الخبر، تصف سكينة من الله نزلت ومسحت على صدرها. ثم تستعيد ذاكرة متقطعة بعد أن استيقظت مصابة في مكان غريب، وعرفت لاحقاً أن القصف رمى العائلة من الطابق الخامس فاستشهدوا جميعاً في اللحظة نفسها بينما نجت هي بإصابات خطيرة. تتذكر كل بنت بملامحها الخاصة، ثم تتأمل وحدتها، واستحالة بقاء واحدة منهن دون أخواتها، وفرحتهن الغريبة في الشهر الأخير، واستمرار حضورهن معها عبر الصور والفيديوهات والذكريات والأرواح."
+    },
+    "text_ar_full": "قالي يابا بناتك استشهدوا، قلتلو يابا الأربعة؟ قالي الأربعة، قلتلو ووليد؟ قالي وليد.. وليد استشهد، اللحظة هادي كانت صعبة، بس سبحان الله حسيت إشي من السما، إشي نزل مسح ع صدري، محسيتش في فاجعة، محسيتش في فقد، حسيت بسَكينة، حسيت بطمأنينة. ناسية كل اللحظات مش ذاكرة ولا إشي، من أق.. قبل أربع ساعات الي بفتكره بالزبط، إني يومها المغرب صحيت، فتحت عينيا مكنتش قادرة أفتح، لقيت لبسي غريب، في مكان غريب، بحكيلهم وين أنا؟ ايش صاير؟ حكولي يا سجى انتي مصابة قصفوا الدار الي جمبيكي وانتي تصاوبتي. بعد فترة استرجعت الأحداث مع أهلي ايش صار، حكولي الساعة تنتين ورُبِع انقصفت الشقة عندك كلكوا طرتوا، طرتوا من الشقة كلياتكوا من الطابق الخامس نزلتوا ع الأرض، كلهم استشهدوا بنفس اللحظة، لكن انتي وقعتي نصك هيك على ال.. الأرض ونصي اليمين على الفرشة، نص الشمال تضرر كتير الحمدلله، ايه.. رجلي كانت جراحة غائرة، إيدي، وجهي.. وجهي فيه بلاتين، وإيدي ورجلي. اللحظات الأولى الدكاترة حكوا لأهلي سجى حتفقد رجلها، تفقد ايدها، تفقد نظرها. بناتي كانوا أربع نجمات، أربع أرواح، مغابش نورهم يوم، عندي بنتي الكبيرة رندة، زكية كتير، شاطرة، متفوقة، إي.. محبوبة للكل، كانوا معلماتها في المدرسة يقولولي: بنتك عبقرية، حرام تكون أك.. أقل من دكتورة، بنرضلهاش تكون دك.. إلا دكتورة، كنا نحكيلها رندة. البنت التانية داليا، داليا الأميرة، كنت أحكي عنها داليا الأميرة من كتر مهي أميرة، محبوبة، ضحوكة، حلوة، مرحة. بنتي التالتة، بنت قلبي، تالا، كان عندها أصحاب أكبر من عمرها، كانت مشاكسة، زكية، قوية، قد حالها. بنتي الرابعة جنى، جنى الكل يقولي، تلات سنوات عمرها: جنى ملاك نازل من السما، أجتني الرابعة كنت أحكي هادي أول.. كأنها أول فرحة بحياتي، من كتر ما كنت فرحانة فيها. بتيجي أوقات كتير بحكي: يا رب لو خليتلي وحدة تونّس وحدتي، تعينني، تكون يعني ت.. ثم تصمت وتبكي. بس برجع بحكي لو ضلت وحدة.. كانت ماتت قهر، حزن ع خواتها، كانت متحملتش، كنت أحكي عائلتي وطن وأنا من دونهم غربة. بتزكر آخر شهر إلهم، بتزكر فرحتهم، فرحتهم كانت غريبة واللهِ أتطلع فيهم وأصفن: ايش مالهم؟ ليش هيك فرحانات؟ ليش هيك ك.. كأنهم عارفات حالهم، شوف الواحد لما يكون رايح ع رحلة حلوة كيف فرحته، كيف مبسوط، كانوا هيك. كل يوم بصحى بشوف الصور، بشوف الفيديوهات، بشوف الزكريات، لأ.. هدول حياتي، حياتي عايشين معايا فكل لحظة ما فارقونيش، بصحى بحكي معهم، بسترجع كل تفصيلة، كل لحظة، كل موقف، بقول هما ما فارقونيش هما رحلوا جسد لكن أرواحهم ضايلة معايا، حياتهم ضايلة معايا، مفارقونيش لحظة.",
+    "text_en_full": "He told me, “Yaba, your daughters were martyred.” I said to him, “Yaba, all four?” He said, “All four.” I said, “And Walid?” He said, “Walid... Walid was martyred.” That moment was difficult, but subhan Allah, I felt something from the sky, something came down and wiped over my chest. I did not feel catastrophe. I did not feel loss. I felt sakina; I felt reassurance. I have forgotten all the moments; I do not remember anything. From about four hours earlier, what I remember exactly is that at sunset that day I woke up. I opened my eyes; I could not open them properly. I found my clothes strange, and I was in a strange place. I said to them, “Where am I? What is happening?” They told me, “Saja, you are injured. They bombed the house next to you and you were wounded.” After a while, I reconstructed with my family what had happened. They told me: at quarter past two, the apartment near you was bombed. All of you flew out; all of you flew from the apartment, from the fifth floor down to the ground. They were all martyred at the same moment. But you fell with half of you on the ground and your right half on the mattress. The left side was badly damaged, praise be to Allah. My leg had a deep wound, my hand, my face... there is platinum in my face, and in my hand and leg. In the first moments, the doctors told my family: Saja will lose her leg, lose her hand, lose her sight. My daughters were four stars, four souls; their light never disappeared for a day. My eldest daughter, Randa, was very smart, clever, excellent, loved by everyone. Her teachers at school would tell me: your daughter is a genius; it would be unfair for her to be anything less than a doctor. We would not accept for her to be anything but a doctor. We used to call her Dr. Randa. The second girl was Dalia, Dalia the princess. I used to call her Dalia the princess because she was such a princess: loved, laughing, beautiful, cheerful. My third daughter, the daughter of my heart, Tala, had friends older than her age. She was mischievous, smart, strong, and able to stand on her own. My fourth daughter was Jana. Everyone would tell me—she was three years old—Jana is an angel descended from the sky. When she came to me as the fourth, I used to say this was like the first joy of my life, because of how happy I was with her. Many times I say: my Lord, if only You had left me one to comfort my loneliness, to help me, to be... then she fell silent and cried. But then I go back and say: if one had remained, she would have died of qahr, grief over her sisters. She would not have been able to bear it. I used to say: my family is a homeland, and without them I am in exile. I remember their last month. I remember their joy. Their joy was strange, by Allah. I would look at them and stare: what is with them? Why are they so happy? Why are they like this—as if they knew. You know when someone is going on a beautiful trip, how joyful and happy they are? They were like that. Every day I wake up and look at the pictures, look at the videos, look at the memories. No... these are my life. My life. They live with me in every moment; they have not left me. I wake up and speak with them. I retrieve every detail, every moment, every incident. I say: they have not left me. They departed in body, but their souls remain with me. Their lives remain with me. They have not left me for a moment.",
+    "segments": [
+        {
+            "segment_id": "Narrative30_s01",
+            "start_time": 0.06,
+            "end_time": 17.86,
+            "text_ar": "قالي يابا بناتك استشهدوا، قلتلو يابا الأربعة؟ قالي الأربعة، قلتلو ووليد؟ قالي وليد.. وليد استشهد، اللحظة هادي كانت صعبة، بس سبحان الله حسيت إشي من السما، إشي نزل مسح ع صدري، محسيتش في فاجعة، محسيتش في فقد، حسيت بسَكينة، حسيت بطمأنينة.",
+            "text_en": "He told me, “Yaba, your daughters were martyred.” I said to him, “Yaba, all four?” He said, “All four.” I said, “And Walid?” He said, “Walid... Walid was martyred.” That moment was difficult, but subhan Allah, I felt something from the sky, something came down and wiped over my chest. I did not feel catastrophe. I did not feel loss. I felt sakina; I felt reassurance.",
+            "event_frame": {
+                "adversity_description": "The speaker receives direct confirmation that all four daughters and Walid were martyred.",
+                "response_description": "Instead of describing immediate collapse, she frames the moment through an unexpected divine sakina descending and wiping over her chest, producing reassurance."
+            },
+            "sabr_frame": {
+                "sabr_type": "divinely_felt_sakina_at_news_of_total_family_loss",
+                "features": [
+                    "news_of_martyrdom",
+                    "four_daughters_martyred",
+                    "additional_family_member_martyred",
+                    "subhan_allah",
+                    "sakina",
+                    "reassurance",
+                    "divine_touch_metaphor"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "devotional_calm_after_shock",
+                "justification": "Although she says the moment was difficult, she emphasizes 'محسيتش في فاجعة، محسيتش في فقد' and names 'سكينة' and 'طمأنينة' as the dominant felt state."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "استشهدوا / استشهد",
+                        "note": "Martyrdom framing for the deaths of the daughters and Walid."
+                    },
+                    {
+                        "marker": "سبحان الله",
+                        "note": "Religious exclamation before describing an extraordinary feeling of divine tranquility."
+                    },
+                    {
+                        "marker": "إشي من السما",
+                        "note": "Metaphoric divine-source framing: comfort is experienced as coming from above/from Allah."
+                    },
+                    {
+                        "marker": "سكينة / طمأنينة",
+                        "note": "Religious-emotional vocabulary of tranquility and reassurance under calamity."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "يابا",
+                        "note": "Palestinian/Gazan kinship vocative used affectionately in multiple directions."
+                    },
+                    {
+                        "marker": "محسيتش",
+                        "note": "Palestinian/Gazan negation with final -sh: I did not feel."
+                    },
+                    {
+                        "marker": "هادي",
+                        "note": "Colloquial 'this'."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "الأربعة؟ / الأربعة",
+                        "note": "Call-and-response confirmation intensifies the shock of total loss."
+                    },
+                    {
+                        "marker": "إشي نزل مسح ع صدري",
+                        "note": "Embodied metaphor of divine consolation calming the chest/heart."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative30_s02",
+            "start_time": 23.7,
+            "end_time": 39.82,
+            "text_ar": "ناسية كل اللحظات مش ذاكرة ولا إشي، من أق.. قبل أربع ساعات الي بفتكره بالزبط، إني يومها المغرب صحيت، فتحت عينيا مكنتش قادرة أفتح، لقيت لبسي غريب، في مكان غريب، بحكيلهم وين أنا؟ ايش صاير؟ حكولي يا سجى انتي مصابة قصفوا الدار الي جمبيكي وانتي تصاوبتي.",
+            "text_en": "I have forgotten all the moments; I do not remember anything. From about four hours earlier, what I remember exactly is that at sunset that day I woke up. I opened my eyes; I could not open them properly. I found my clothes strange, and I was in a strange place. I said to them, “Where am I? What is happening?” They told me, “Saja, you are injured. They bombed the house next to you and you were wounded.”",
+            "event_frame": {
+                "adversity_description": "The speaker wakes after the strike with memory gaps, visual difficulty, strange clothing, strange surroundings, and serious injury.",
+                "response_description": "She reconstructs the immediate aftermath through fragmented memory and basic orientation questions."
+            },
+            "sabr_frame": {
+                "sabr_type": "fragmented_waking_after_bombing_survival",
+                "features": [
+                    "memory_gap",
+                    "waking_in_unknown_place",
+                    "disorientation",
+                    "injury_awareness",
+                    "bombing_context",
+                    "survival_after_unconsciousness"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "disorientation_and_bodily_shock",
+                "justification": "The phrases 'مش ذاكرة ولا إشي', 'لبسي غريب', 'مكان غريب', and 'وين أنا؟ ايش صاير؟' show disorientation after injury."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "ولا إشي",
+                        "note": "Nothing at all; colloquial absolute negation."
+                    },
+                    {
+                        "marker": "مكنتش قادرة",
+                        "note": "I was not able; Palestinian/Gazan negation."
+                    },
+                    {
+                        "marker": "تصاوبتي",
+                        "note": "You were injured/wounded; Gazan colloquial form."
+                    },
+                    {
+                        "marker": "الدار الي جمبيكي",
+                        "note": "The house next to you; domestic spatial frame."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "من أق.. قبل أربع ساعات",
+                        "note": "Self-repair and temporal searching reflect fragmented recall."
+                    },
+                    {
+                        "marker": "وين أنا؟ ايش صاير؟",
+                        "note": "Orientation questions mark awakening into trauma."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative30_s03",
+            "start_time": 44.24,
+            "end_time": 75.08,
+            "text_ar": "بعد فترة استرجعت الأحداث مع أهلي ايش صار، حكولي الساعة تنتين ورُبِع انقصفت الشقة عندك كلكوا طرتوا، طرتوا من الشقة كلياتكوا من الطابق الخامس نزلتوا ع الأرض، كلهم استشهدوا بنفس اللحظة، لكن انتي وقعتي نصك هيك على ال.. الأرض ونصي اليمين على الفرشة، نص الشمال تضرر كتير الحمدلله، ايه.. رجلي كانت جراحة غائرة، إيدي، وجهي.. وجهي فيه بلاتين، وإيدي ورجلي. اللحظات الأولى الدكاترة حكوا لأهلي سجى حتفقد رجلها، تفقد ايدها، تفقد نظرها.",
+            "text_en": "After a while, I reconstructed with my family what had happened. They told me: at quarter past two, the apartment near you was bombed. All of you flew out; all of you flew from the apartment, from the fifth floor down to the ground. They were all martyred at the same moment. But you fell with half of you on the ground and your right half on the mattress. The left side was badly damaged, praise be to Allah. My leg had a deep wound, my hand, my face... there is platinum in my face, and in my hand and leg. In the first moments, the doctors told my family: Saja will lose her leg, lose her hand, lose her sight.",
+            "event_frame": {
+                "adversity_description": "The bombing throws the family from the fifth floor; all family members die at the same moment while the speaker survives with severe injuries and risk of losing limbs and sight.",
+                "response_description": "She reconstructs the event through relatives’ account and narrates bodily injury with repeated الحمد لله, framing survival and damage together."
+            },
+            "sabr_frame": {
+                "sabr_type": "bodily_survival_after_total_family_martyrdom",
+                "features": [
+                    "reconstructed_event",
+                    "bombed_apartment",
+                    "fall_from_fifth_floor",
+                    "simultaneous_family_martyrdom",
+                    "severe_bodily_injury",
+                    "medical_prognosis",
+                    "hamd_in_injury_narration"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "traumatic_reconstruction_with_controlled_gratitude",
+                "justification": "The speaker describes extreme injury and mass death through a reconstructed sequence, while inserting 'الحمدلله' after bodily damage."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "استشهدوا",
+                        "note": "Martyrdom framing applied to family members killed in the bombing."
+                    },
+                    {
+                        "marker": "الحمدلله",
+                        "note": "Praise formula appears even while naming severe injury, indicating religious regulation of trauma."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "كلكوا / كلياتكوا",
+                        "note": "All of you; Gazan/Palestinian plural forms."
+                    },
+                    {
+                        "marker": "طرتوا",
+                        "note": "You flew/were thrown; colloquial description of blast force."
+                    },
+                    {
+                        "marker": "نصك / نصي اليمين / نص الشمال",
+                        "note": "Embodied spatial description of how the body landed and was damaged."
+                    },
+                    {
+                        "marker": "حتفقد",
+                        "note": "Will lose; colloquial future marker."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "بعد فترة استرجعت الأحداث",
+                        "note": "Signals delayed reconstruction rather than direct immediate memory."
+                    },
+                    {
+                        "marker": "وجهِي.. وجهي",
+                        "note": "Repetition marks difficulty narrating bodily injury."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative30_s04",
+            "start_time": 79.84,
+            "end_time": 128.48,
+            "text_ar": "بناتي كانوا أربع نجمات، أربع أرواح، مغابش نورهم يوم، عندي بنتي الكبيرة رندة، زكية كتير، شاطرة، متفوقة، إي.. محبوبة للكل، كانوا معلماتها في المدرسة يقولولي: بنتك عبقرية، حرام تكون أك.. أقل من دكتورة، بنرضلهاش تكون دك.. إلا دكتورة، كنا نحكيلها رندة. البنت التانية داليا، داليا الأميرة، كنت أحكي عنها داليا الأميرة من كتر مهي أميرة، محبوبة، ضحوكة، حلوة، مرحة. بنتي التالتة، بنت قلبي، تالا، كان عندها أصحاب أكبر من عمرها، كانت مشاكسة، زكية، قوية، قد حالها. بنتي الرابعة جنى، جنى الكل يقولي، تلات سنوات عمرها: جنى ملاك نازل من السما، أجتني الرابعة كنت أحكي هادي أول.. كأنها أول فرحة بحياتي، من كتر ما كنت فرحانة فيها.",
+            "text_en": "My daughters were four stars, four souls; their light never disappeared for a day. My eldest daughter, Randa, was very smart, clever, excellent, loved by everyone. Her teachers at school would tell me: your daughter is a genius; it would be unfair for her to be anything less than a doctor. We would not accept for her to be anything but a doctor. We used to call her Dr. Randa. The second girl was Dalia, Dalia the princess. I used to call her Dalia the princess because she was such a princess: loved, laughing, beautiful, cheerful. My third daughter, the daughter of my heart, Tala, had friends older than her age. She was mischievous, smart, strong, and able to stand on her own. My fourth daughter was Jana. Everyone would tell me—she was three years old—Jana is an angel descended from the sky. When she came to me as the fourth, I used to say this was like the first joy of my life, because of how happy I was with her.",
+            "event_frame": {
+                "adversity_description": "The daughters are absent through death, but the speaker turns to detailed individualized remembrance.",
+                "response_description": "She restores each daughter’s personhood through affectionate portraits, school achievement, nicknames, temperament, beauty, and light imagery."
+            },
+            "sabr_frame": {
+                "sabr_type": "individualized_remembrance_as_dignity_preservation",
+                "features": [
+                    "four_daughters",
+                    "stars_and_souls_metaphor",
+                    "light_metaphor",
+                    "individual_personhood",
+                    "motherly_pride",
+                    "affectionate_nicknames",
+                    "child_dignity_preservation"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "tender_love_and_bereaved_pride",
+                "justification": "The daughters are remembered not only as victims but as brilliant, beloved, joyful, strong, and angelic individuals."
+            },
+            "contextual_markers": {
+                "religious_cultural_markers": [
+                    {
+                        "marker": "أربع نجمات، أربع أرواح",
+                        "note": "Poetic spiritualized remembrance; the daughters are framed as light and souls rather than only bodies lost."
+                    },
+                    {
+                        "marker": "ملاك نازل من السما",
+                        "note": "Angel-from-the-sky metaphor for the youngest child, combining innocence and heavenly imagery."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "مغابش",
+                        "note": "Did not disappear; Palestinian/Gazan negation with -sh."
+                    },
+                    {
+                        "marker": "بنرضلهاش",
+                        "note": "We would not accept for her; colloquial negation with -sh."
+                    },
+                    {
+                        "marker": "قد حالها",
+                        "note": "Capable, strong, able to handle herself."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "بنتي الكبيرة / البنت التانية / بنتي التالتة / بنتي الرابعة",
+                        "note": "Structured enumeration preserves each daughter’s individuality."
+                    },
+                    {
+                        "marker": "رندة / داليا الأميرة",
+                        "note": "Affectionate naming practices retain aspirations and relational intimacy."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative30_s05",
+            "start_time": 133.9,
+            "end_time": 150.72,
+            "text_ar": "بتيجي أوقات كتير بحكي: يا رب لو خليتلي وحدة تونّس وحدتي، تعينني، تكون يعني ت.. ثم تصمت وتبكي. بس برجع بحكي لو ضلت وحدة.. كانت ماتت قهر، حزن ع خواتها، كانت متحملتش، كنت أحكي عائلتي وطن وأنا من دونهم غربة.",
+            "text_en": "Many times I say: my Lord, if only You had left me one to comfort my loneliness, to help me, to be... then she fell silent and cried. But then I go back and say: if one had remained, she would have died of qahr, grief over her sisters. She would not have been able to bear it. I used to say: my family is a homeland, and without them I am in exile.",
+            "event_frame": {
+                "adversity_description": "The speaker faces absolute maternal loneliness after the death of all daughters.",
+                "response_description": "She oscillates between wishing one daughter had survived and reframing that wish by imagining the unbearable grief that surviving daughter would have carried."
+            },
+            "sabr_frame": {
+                "sabr_type": "maternal_loneliness_reframed_through_protective_meaning",
+                "features": [
+                    "wish_for_one_survivor",
+                    "silence_and_tears",
+                    "qahr",
+                    "protective_reframing",
+                    "family_as_homeland",
+                    "exile_without_family"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "loneliness_qahr_and_protective_sorrow",
+                "justification": "The unfinished sentence, silence, crying, and phrase 'عائلتي وطن وأنا من دونهم غربة' express loneliness and qahr while the speaker tries to protect the imagined surviving daughter from grief."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "يا رب",
+                        "note": "Direct address to Allah in the form of intimate lament and wish."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "تونّس وحدتي",
+                        "note": "To keep me company in my loneliness; culturally dense expression of companionship against isolation."
+                    },
+                    {
+                        "marker": "ضلت",
+                        "note": "Remained / survived."
+                    },
+                    {
+                        "marker": "متحملتش",
+                        "note": "She would not have been able to bear it; colloquial negation."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "عائلتي وطن وأنا من دونهم غربة",
+                        "note": "Family-as-homeland metaphor; loss of family becomes exile even without geographic displacement."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "ت.. ثم تصمت وتبكي",
+                        "note": "Broken speech and silence mark the limit of verbal expression."
+                    },
+                    {
+                        "marker": "بس برجع بحكي",
+                        "note": "Cognitive-emotional pivot from longing to protective reinterpretation."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative30_s06",
+            "start_time": 151.22,
+            "end_time": 166.54,
+            "text_ar": "بتزكر آخر شهر إلهم، بتزكر فرحتهم، فرحتهم كانت غريبة واللهِ أتطلع فيهم وأصفن: ايش مالهم؟ ليش هيك فرحانات؟ ليش هيك ك.. كأنهم عارفات حالهم، شوف الواحد لما يكون رايح ع رحلة حلوة كيف فرحته، كيف مبسوط، كانوا هيك.",
+            "text_en": "I remember their last month. I remember their joy. Their joy was strange, by Allah. I would look at them and stare: what is with them? Why are they so happy? Why are they like this—as if they knew. You know when someone is going on a beautiful trip, how joyful and happy they are? They were like that.",
+            "event_frame": {
+                "adversity_description": "The speaker retrospectively interprets the daughters’ last month and unusual joy before death.",
+                "response_description": "She transforms pre-loss happiness into a sign-like memory, as if they were knowingly preparing for a beautiful journey."
+            },
+            "sabr_frame": {
+                "sabr_type": "retrospective_spiritual_meaning_of_pre_martyrdom_joy",
+                "features": [
+                    "last_month_memory",
+                    "unusual_joy",
+                    "as_if_they_knew",
+                    "journey_metaphor",
+                    "pre_martyrdom_signification",
+                    "bereaved_meaning_making"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "wondering_grief_with_spiritualized_meaning",
+                "justification": "The speaker repeatedly asks why they were so happy, then compares them to someone going on a beautiful journey."
+            },
+            "contextual_markers": {
+                "religious_cultural_markers": [
+                    {
+                        "marker": "كأنهم عارفات حالهم",
+                        "note": "Retrospective sense that the daughters somehow knew or were prepared; common bereavement meaning-making pattern."
+                    },
+                    {
+                        "marker": "رحلة حلوة",
+                        "note": "Beautiful journey metaphor; implies death/martyrdom as transition rather than only annihilation."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "أتطلع فيهم وأصفن",
+                        "note": "I would look at them and stare/space out; colloquial reflective gaze."
+                    },
+                    {
+                        "marker": "ايش مالهم؟",
+                        "note": "What is with them? Gazan/Palestinian expression of puzzled observation."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "فرحتهم... فرحتهم",
+                        "note": "Repetition foregrounds joy as the key remembered signal."
+                    },
+                    {
+                        "marker": "واللهِ",
+                        "note": "Oath/intensifier used to authenticate the memory."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative30_s07",
+            "start_time": 167.32,
+            "end_time": 186.14,
+            "text_ar": "كل يوم بصحى بشوف الصور، بشوف الفيديوهات، بشوف الزكريات، لأ.. هدول حياتي، حياتي عايشين معايا فكل لحظة ما فارقونيش، بصحى بحكي معهم، بسترجع كل تفصيلة، كل لحظة، كل موقف، بقول هما ما فارقونيش هما رحلوا جسد لكن أرواحهم ضايلة معايا، حياتهم ضايلة معايا، مفارقونيش لحظة.",
+            "text_en": "Every day I wake up and look at the pictures, look at the videos, look at the memories. No... these are my life. My life. They live with me in every moment; they have not left me. I wake up and speak with them. I retrieve every detail, every moment, every incident. I say: they have not left me. They departed in body, but their souls remain with me. Their lives remain with me. They have not left me for a moment.",
+            "event_frame": {
+                "adversity_description": "The daughters are physically absent after death, leaving the mother in daily bereavement.",
+                "response_description": "She sustains an ongoing bond through photos, videos, memories, speech to them, and belief in the continuing presence of their souls."
+            },
+            "sabr_frame": {
+                "sabr_type": "continuing_bonds_through_memory_and_spiritual_presence",
+                "features": [
+                    "daily_remembrance",
+                    "photos_and_videos",
+                    "speaking_to_the_dead",
+                    "souls_remain",
+                    "body_soul_distinction",
+                    "ongoing_presence",
+                    "memory_as_life"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "enduring_love_and_continuing_attachment",
+                "justification": "The repeated insistence 'ما فارقونيش' and 'أرواحهم ضايلة معايا' shows ongoing attachment rather than closure."
+            },
+            "contextual_markers": {
+                "religious_cultural_markers": [
+                    {
+                        "marker": "رحلوا جسد لكن أرواحهم ضايلة معايا",
+                        "note": "Body-soul distinction allows continued relational presence after death."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "هدول حياتي",
+                        "note": "These are my life; colloquial demonstrative with existential intensity."
+                    },
+                    {
+                        "marker": "ما فارقونيش / مفارقونيش",
+                        "note": "They have not left me; Gazan/Palestinian negation with final -sh."
+                    },
+                    {
+                        "marker": "ضايلة معايا",
+                        "note": "Remaining with me; colloquial marker of ongoing presence."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "كل تفصيلة، كل لحظة، كل موقف",
+                        "note": "Triadic repetition emphasizes exhaustive memory retrieval."
+                    },
+                    {
+                        "marker": "لأ.. هدول حياتي، حياتي",
+                        "note": "Self-correction from memories to life; refuses to reduce daughters to the past."
+                    }
+                ]
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "يابا": {
+                "variants_ar": [
+                    "يا بابا",
+                    "يا ابني",
+                    "يا بنتي",
+                    "يا حبيبي/يا حبيبتي"
+                ],
+                "meaning_en": "Affectionate kinship vocative used in Palestinian/Gazan speech across directions, not always literally 'father'.",
+                "note_ar": "تُقال من الأب للأبناء أو من الأبناء للأب أو للتحبب والتقريب في الخطاب."
+            },
+            "استشهدوا / استشهد": {
+                "variants_ar": [
+                    "استشهدن",
+                    "قُتلوا",
+                    "راحوا شهداء"
+                ],
+                "meaning_en": "Were martyred / killed; religious-national framing of death."
+            },
+            "إشي من السما": {
+                "variants_ar": [
+                    "شيء من السماء",
+                    "راحة من الله",
+                    "طمأنينة من ربنا"
+                ],
+                "meaning_en": "Something from the sky/heaven; a felt divine source of comfort and reassurance.",
+                "note_ar": "المقصود شعور مريح وطمأنينة من الله."
+            },
+            "مسح ع صدري": {
+                "variants_ar": [
+                    "شرح صدري",
+                    "هدّأ قلبي",
+                    "سكّن صدري"
+                ],
+                "meaning_en": "Wiped over my chest; embodied metaphor of divine calming."
+            },
+            "محسيتش": {
+                "variants_ar": [
+                    "ما حسيت",
+                    "لم أشعر"
+                ],
+                "meaning_en": "I did not feel; Palestinian/Gazan negation."
+            },
+            "سكينة": {
+                "variants_ar": [
+                    "طمأنينة",
+                    "هدوء من الله",
+                    "ثبات القلب"
+                ],
+                "meaning_en": "Sakina; divinely granted tranquility and steadiness."
+            },
+            "طمأنينة": {
+                "variants_ar": [
+                    "راحة",
+                    "أمان داخلي",
+                    "هدوء"
+                ],
+                "meaning_en": "Reassurance / inner calm."
+            },
+            "تصاوبتي": {
+                "variants_ar": [
+                    "أُصبتِ",
+                    "انجرحتِ",
+                    "تضررتِ"
+                ],
+                "meaning_en": "You were wounded/injured; Gazan colloquial."
+            },
+            "طرتوا": {
+                "variants_ar": [
+                    "انقذفتم",
+                    "تطايرتم",
+                    "رماكم الانفجار"
+                ],
+                "meaning_en": "You flew/were thrown by the blast."
+            },
+            "كلكوا / كلياتكوا": {
+                "variants_ar": [
+                    "كلكم",
+                    "جميعكم"
+                ],
+                "meaning_en": "All of you; Palestinian/Gazan plural forms."
+            },
+            "جراحة غائرة": {
+                "variants_ar": [
+                    "جرح عميق",
+                    "إصابة عميقة"
+                ],
+                "meaning_en": "Deep wound."
+            },
+            "بلاتين": {
+                "variants_ar": [
+                    "شرائح بلاتين",
+                    "تثبيت معدني",
+                    "صفائح معدنية"
+                ],
+                "meaning_en": "Platinum/metal surgical implants or plates."
+            },
+            "أربع نجمات، أربع أرواح": {
+                "variants_ar": [
+                    "أربع نجوم",
+                    "أربع أرواح جميلة",
+                    "نورهن حاضر"
+                ],
+                "meaning_en": "Four stars, four souls; poetic affectionate remembrance of the daughters."
+            },
+            "مغابش نورهم يوم": {
+                "variants_ar": [
+                    "لم يغب نورهم",
+                    "نورهم حاضر",
+                    "كانوا نور البيت"
+                ],
+                "meaning_en": "Their light never disappeared; continuing light metaphor."
+            },
+            "داليا الأميرة": {
+                "variants_ar": [
+                    "داليا الجميلة",
+                    "الأميرة داليا"
+                ],
+                "meaning_en": "Dalia the princess; affectionate nickname."
+            },
+            "بنت قلبي": {
+                "variants_ar": [
+                    "حبيبة قلبي",
+                    "ابنة قلبي"
+                ],
+                "meaning_en": "Daughter of my heart; intimate maternal phrase."
+            },
+            "قد حالها": {
+                "variants_ar": [
+                    "قوية",
+                    "تعتمد على نفسها",
+                    "واعية"
+                ],
+                "meaning_en": "Strong/capable/able to handle herself."
+            },
+            "ملاك نازل من السما": {
+                "variants_ar": [
+                    "ملاك من السماء",
+                    "طفلة ملائكية"
+                ],
+                "meaning_en": "An angel descended from the sky; innocence and heavenly imagery."
+            },
+            "تونّس وحدتي": {
+                "variants_ar": [
+                    "تؤنسني",
+                    "تخفف وحدتي",
+                    "تكون رفيقتي"
+                ],
+                "meaning_en": "To keep me company in my loneliness."
+            },
+            "قهر": {
+                "variants_ar": [
+                    "حزن ساحق",
+                    "وجع داخلي",
+                    "انكسار داخلي"
+                ],
+                "meaning_en": "Qahr; crushed grief, helpless anguish, and internally heavy sorrow."
+            },
+            "عائلتي وطن وأنا من دونهم غربة": {
+                "variants_ar": [
+                    "أهلي وطني",
+                    "من غير عائلتي أنا غريبة",
+                    "العائلة وطن"
+                ],
+                "meaning_en": "My family is a homeland, and without them I am in exile; family-loss-as-exile metaphor."
+            },
+            "أصفن": {
+                "variants_ar": [
+                    "أسرح",
+                    "أتأمل بصمت",
+                    "أحدق"
+                ],
+                "meaning_en": "To stare/space out in reflection."
+            },
+            "كأنهم عارفات حالهم": {
+                "variants_ar": [
+                    "كأنهم كانوا يعرفون",
+                    "كأنهم مستشعرات شيئاً",
+                    "كأنهم مهيآت"
+                ],
+                "meaning_en": "As if they knew; retrospective sign-reading of pre-death joy."
+            },
+            "رحلة حلوة": {
+                "variants_ar": [
+                    "مشوار جميل",
+                    "انتقال جميل",
+                    "رحلة سعيدة"
+                ],
+                "meaning_en": "Beautiful journey; metaphor used to interpret the daughters' final joy."
+            },
+            "الزكريات": {
+                "variants_ar": [
+                    "الذكريات",
+                    "الصور واللحظات"
+                ],
+                "meaning_en": "Memories; dialectal/phonological realization preserving spoken style."
+            },
+            "ما فارقونيش / مفارقونيش": {
+                "variants_ar": [
+                    "لم يفارقوني",
+                    "ما تركوني",
+                    "ما غابوا عني"
+                ],
+                "meaning_en": "They have not left me; continuing bond expression."
+            },
+            "رحلوا جسد لكن أرواحهم ضايلة معايا": {
+                "variants_ar": [
+                    "أجسادهم رحلت وأرواحهم باقية",
+                    "أرواحهم معي",
+                    "غاب الجسد وبقيت الروح"
+                ],
+                "meaning_en": "They departed in body but their souls remain with me; body-soul continuing-presence frame."
+            },
+            "ضايلة معايا": {
+                "variants_ar": [
+                    "باقية معي",
+                    "موجودة معي",
+                    "حاضرة معي"
+                ],
+                "meaning_en": "Remaining with me / still present with me."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "bereaved_mother_divine_sakina_continuing_bonds_family_as_homeland",
+        "paper_fit_ar": "تمثل Narrative30 مثالاً بالغ القوة على تداخل الصدمة الجسدية والفقد الكلي مع السكينة الدينية وروابط الذاكرة المستمرة. تبدأ الرواية بلحظة إبلاغ قاسية باستشهاد البنات الأربع ووليد، لكن الاستجابة الأولى لا تُصاغ كانهيار فقط، بل كتجربة سكينة: «إشي من السما» نزل ومسح على صدرها. بعد ذلك تظهر ذاكرة مفككة للنجاة من القصف، ثم إعادة بناء الحدث عبر كلام الأهل، وفيها يتجاور موت العائلة الكامل مع نجاة جسدية مثخنة بالإصابات. الجزء الأوسط يحافظ على كرامة البنات عبر وصف كل واحدة بملامحها الخاصة، وهذا مهم لسابر لأنه يحول الضحايا من أرقام إلى ذوات. أما الذروة الشعورية فتظهر في قولها إنها كانت تتمنى بقاء واحدة تؤنس وحدتها، ثم تعيد تأويل ذلك بأن الواحدة لو بقيت لماتت قهراً على أخواتها. عبارة «عائلتي وطن وأنا من دونهم غربة» تقدم نموذجاً قوياً لفقد الأسرة بوصفه اغتراباً وجودياً. في الختام، لا تُغلق الرواية الفقد، بل تبنيه كرابطة مستمرة: الصور والفيديوهات والذكريات ليست ماضياً فقط، بل حياة حاضرة، والأجساد رحلت لكن الأرواح باقية معها.",
+        "paper_fit_en": "Narrative30 is a powerful example of bodily trauma, total family loss, divine sakina, and continuing bonds. It begins with the devastating confirmation that the speaker’s four daughters and Walid were martyred, yet the first response is not framed only as collapse; it is described as a divine calm, 'something from the sky' that came down and wiped over her chest. The narrative then moves through fragmented memory of waking injured, delayed reconstruction of the bombing through relatives’ accounts, and severe bodily injury after the family’s simultaneous death. The middle section preserves the daughters’ dignity by individualizing each child through personality, aspiration, beauty, and affection. The emotional peak appears when the speaker wishes that one daughter had remained to comfort her loneliness, then reinterprets that wish by imagining that the survivor would have died of qahr over her sisters. The phrase 'my family is a homeland, and without them I am in exile' is a strong cultural metaphor for family loss as existential displacement. The final section refuses closure: photos, videos, and memories are not merely past records but living presence; bodies departed, but souls remain with her."
+    },
+    "ethical_note": {
+        "risk_level": "very_high_sensitivity_bereaved_mother_minor_children_severe_injury",
+        "notes": [
+            "The narrative includes real names of children/family members, the speaker’s name, martyrdom of four daughters and Walid, severe bodily injuries, risk of losing limb/sight, and intense maternal grief.",
+            "For public release, pseudonymize all personal names and avoid exact ages, highly searchable combinations, or unnecessary identifying details.",
+            "The phrase 'سكينة' and repeated religious framing should not be misread as absence of pain. The narrative also contains silence, crying, qahr, loneliness, and ongoing grief.",
+            "Do not use this testimony for individual psychological diagnosis. Annotation should focus on discourse structure, adversity framing, response strategies, religious/cultural markers, and affective signal.",
+            "Because children are central to the narrative, use heightened minimization and avoid image, voice, or face identifiers in public artifacts."
+        ],
+        "recommended_public_version": "pseudonymized_or_restricted_access_with_short_excerpts_only"
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

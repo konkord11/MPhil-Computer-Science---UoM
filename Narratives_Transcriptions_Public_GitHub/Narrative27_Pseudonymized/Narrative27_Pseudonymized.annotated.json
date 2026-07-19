@@ -8,7 +8,7 @@
         "original_language": "ar",
         "dialect": "Arabic, mostly Modern Standard Arabic / Qur'anic religious register with light Palestinian colloquial forms",
         "reported_context": "An adult Gazan mother, a hafiza of the Qur'an and mother of four martyrs, speaks about continuing Qur'an memorization and revision after the loss of her daughters. She frames Qur'an memorization as a source of patience, divine facilitation, attachment to her children, and endurance through catastrophe.",
-        "collection_context_en": "An adult Palestinian mother introduces herself as a memorizer of the Qur'an who recited the Qur'an in one sitting and continues her memorization-revision journey. She is also the mother of four martyrs. Her daughters were also memorizing the Qur'an and were in the stage of تثبيت. She says that the Qur'an both stabilizes her and affects her emotionally because she finds her daughters in every page, verse, word, and similar passage. She concludes that without knowing Allah's words, they would not have been able to endure the catastrophe and loss of children.",
+        "collection_context_en": "An adult Palestinian mother introduces herself as a memorizer of the Qur'an who recited the Qur'an in one sitting and continues her journey of consolidating it in memory. She is also the mother of four martyrs. Her daughters were also memorizing the Qur'an and were in the stage of consolidating it in memory. She says that the Qur'an both stabilizes her and affects her emotionally because she finds her daughters in every page, verse, word, and similar passage. She concludes that without knowing Allah's words, they would not have been able to endure the catastrophe and loss of children.",
         "collection_context_ar": "أم فلسطينية بالغة من غزة تعرّف نفسها بأنها حافظة لكتاب الله وسردت القرآن الكريم في جلسة واحدة، وهي مستمرة في مسيرة تثبيت الحفظ. وهي أيضاً أم لأربعة شهداء. تذكر أن بناتها كنّ حافظات لكتاب الله وسائرات في مرحلة التثبيت. تصف كيف تجد بناتها في كل صفحة وآية وكلمة ومتشابه من القرآن، وأن هذا يثبتها لكنه يؤثر فيها عاطفياً، ثم تؤكد أن معرفة كلمات الله هي ما أعانها على الصبر على الفاجعة وفقد الأبناء."
     },
     "anonymization": {
@@ -48,7 +48,7 @@
         ]
     },
     "approx_context": {
-        "brief_summary_en": "An adult Gazan mother and Qur'an memorizer describes continuing her memorization revision after the martyrdom of her four daughters/children. She says the process is not difficult because Allah facilitates it, but what affects her most is finding her daughters in every page, verse, word, and similar passage of the Qur'an. For her, the Qur'an is both a site of grief and a source of stabilization. She frames patience after the catastrophe and loss of children as made possible through knowing Allah's words.",
+        "brief_summary_en": "An adult Gazan mother and Qur'an memorizer describes continuing to consolidate the Qur'an in memory after the martyrdom of her four daughters/children. She says the process is not difficult because Allah facilitates it, but what affects her most is finding her daughters in every page, verse, word, and similar passage of the Qur'an. For her, the Qur'an is both a site of grief and a source of stabilization. She frames patience after the catastrophe and loss of children as made possible through knowing Allah's words.",
         "brief_summary_ar": "تتحدث أم بالغة من غزة، حافظة لكتاب الله وأم لأربعة شهداء، عن استمرارها في تثبيت حفظ القرآن بعد فقد بناتها/أبنائها. تقول إن إعادة التثبيت ليست صعبة لأن الله ييسر الأمور، لكن أكثر ما يتعبها أنها تجد بناتها في كل صفحة وآية وكلمة ومتشابه من القرآن. يصبح القرآن عندها مكاناً للذكرى والحزن، وفي الوقت نفسه مصدراً للتثبيت والصبر. وتؤكد أن معرفة كلمات الله هي ما أعانها على الصبر على الفاجعة وفقد الأبناء."
     },
     "text_ar_full": "معكم الحافظة أم سامي الحواري، سردت القرآن الكريم الحمدلله على جلسة واحدة، مستمرة في مسيرة التثبيت، أم لأربعة شهداء، بناتي الحمدلله حافظات كتاب الله وكانوا سايرات على مرحلة التثبيت، الحمدلله رب العالمين، لا توجد صعوبة في إعادة تثبيت الحفظ، لأن الله سبحانه وتعالى ييسر الأمور، لكن أكثر ما يتعبني أن الحمدلله رب العالمين أجد بناتي في كل صفحات القرآن، لي معهم ذكريات في كل آية، وفي كل كلمة، وفي كل متشابه، هذا الأمر يثبتني ولكنه يؤثر فيّ. الحمدلله رب العالمين الذي ربط ذكر أبنائي بكتابه وحفظ كتابه، حفظ كتاب الله من أعظم النعم التي يمن الله بها على الإنسان، لأن حفظ كتاب الله يحفظك، ولولا معرفتنا بكلمات الله ما صبرنا، وما صبرنا على هذه الفاجعة وعلى فقد الأبناء، الحمدلله رب العالمين.",
@@ -58,7 +58,7 @@
             "start_time": 22.53,
             "end_time": 30.46,
             "text_ar": "معكم الحافظة أم سامي الحواري، سردت القرآن الكريم الحمدلله على جلسة واحدة، مستمرة في مسيرة التثبيت، أم لأربعة شهداء.",
-            "text_en": "With you is the Qur'an memorizer Umm Sami al-Hawari. Praise be to Allah, I recited the Noble Qur'an in one sitting, and I am continuing the journey of تثبيت. I am the mother of four martyrs.",
+            "text_en": "With you is the Qur'an memorizer Umm Sami al-Hawari. Praise be to Allah, I recited the Noble Qur'an in one sitting, and I am continuing the process of consolidating it in memory. I am the mother of four martyrs.",
             "event_frame": {
                 "adversity_description": "The speaker identifies herself as a bereaved mother of four martyrs while also presenting her identity as a Qur'an memorizer.",
                 "response_description": "She foregrounds Qur'an memorization, full recitation, continued revision, and الحمد لله as the frame through which she speaks about loss."
@@ -111,9 +111,9 @@
             "start_time": 30.48,
             "end_time": 39.56,
             "text_ar": "بناتي الحمدلله حافظات كتاب الله وكانوا سايرات على مرحلة التثبيت، الحمدلله رب العالمين، لا توجد صعوبة في إعادة تثبيت الحفظ، لأن الله سبحانه وتعالى ييسر الأمور.",
-            "text_en": "My daughters, praise be to Allah, were memorizers of the Book of Allah and were proceeding through the stage of تثبيت. Praise be to Allah, Lord of the worlds. There is no difficulty in re-consolidating the memorization, because Allah, exalted is He, makes matters easy.",
+            "text_en": "My daughters, praise be to Allah, were memorizers of the Book of Allah [Qur'an] and were proceeding through the stage of consolidating it in memory. Praise be to Allah, Lord of the worlds. There is no difficulty in re-consolidating it in memory, because Allah, exalted is He, makes matters easy.",
             "event_frame": {
-                "adversity_description": "The speaker refers to her martyred daughters as former Qur'an memorizers who had been in the stage of تثبيت before their death.",
+                "adversity_description": "The speaker refers to her martyred daughters as former Qur'an memorizers who had been in the stage of consolidating it in memory before their death.",
                 "response_description": "She interprets the continued memorization process through divine facilitation and repeated الحمد."
             },
             "sabr_frame": {
@@ -148,7 +148,7 @@
                 "dialect_markers": [
                     {
                         "marker": "سايرات",
-                        "note": "Colloquial form of سائرات: proceeding/walking along; here means they were progressing through the تثبيت stage."
+                        "note": "Colloquial form of سائرات: proceeding/walking along; here means they were progressing through the stage of consolidating the Qur'an in memory."
                     },
                     {
                         "marker": "وكانوا",
@@ -158,7 +158,7 @@
                 "cultural_religious_markers": [
                     {
                         "marker": "مرحلة التثبيت",
-                        "note": "Stage of consolidating Qur'an memorization so it remains firm and can be recalled from memory without forgetting."
+                        "note": "Stage of consolidating the Qur'an in memory so it remains firm and can be recalled without forgetting."
                     }
                 ]
             }
@@ -391,7 +391,7 @@
                     "مراجعة الحفظ",
                     "مرحلة الإتقان"
                 ],
-                "meaning_en": "The ongoing journey/stage of consolidating Qur'an memorization so it remains firm."
+                "meaning_en": "The ongoing journey/stage of consolidating the Qur'an in memory so it remains firm."
             },
             "التثبيت": {
                 "variants_ar": [
@@ -399,7 +399,7 @@
                     "إتقان الحفظ",
                     "مراجعة الحفظ حتى لا يُنسى"
                 ],
-                "meaning_en": "Consolidation/reinforcement of Qur'an memorization to prevent forgetting."
+                "meaning_en": "Consolidating the Qur'an in memory to prevent forgetting."
             },
             "أم لأربعة شهداء": {
                 "variants_ar": [
@@ -415,7 +415,7 @@
                     "ماشيين في",
                     "متقدمات في"
                 ],
-                "meaning_en": "Proceeding/walking along; colloquial form used here for progressing through the memorization-revision stage."
+                "meaning_en": "Proceeding/walking along; colloquial form used here for progressing through the stage of consolidating the Qur'an in memory."
             },
             "وكانوا": {
                 "variants_ar": [
@@ -526,7 +526,7 @@
     "analysis_note_for_paper": {
         "theme_tag": "quranic_sabr_mother_of_martyrs_memory_in_hifz",
         "paper_fit_ar": "تمثل هذه الرواية مثالاً مركزياً على الصبر بالقرآن: حفظه، وتثبيته، وتدبر كلماته، وربط الذاكرة الشخصية بآياته. خصوصيتها أن المتحدثة لا تقدم القرآن فقط كمصدر عزاء عام، بل كمكان تفصيلي للذاكرة؛ فهي تجد بناتها في كل صفحة وآية وكلمة ومتشابه. لذلك يعمل القرآن في الرواية بوظيفتين متداخلتين: يثبتها ويعيد إليها القدرة على الصبر، لكنه في الوقت نفسه يستحضر الفقد ويؤثر فيها عاطفياً. كما أن تعريفها لنفسها بوصفها حافظة وأماً لأربعة شهداء يدمج الهوية الدينية بالأمومة المفجوعة، ويجعل الصمود هنا قائماً على الحمد، والتثبيت، واليقين بأن كلمات الله هي ما مكّنها من الصبر على الفاجعة وفقد الأبناء.",
-        "paper_fit_en": "This narrative is a central example of sabr through the Qur'an: memorizing it, consolidating it, knowing its words, and linking personal memory to its verses. Its distinctive feature is that the speaker does not present the Qur'an only as general comfort; she presents it as a detailed memory site where her daughters are present in every page, verse, word, and similar passage. The Qur'an therefore has a dual function: it stabilizes her and enables patience, while also reactivating grief and emotional pain. Her self-identification as both a Qur'an memorizer and mother of four martyrs fuses religious identity with bereaved motherhood, making resilience here depend on hamd, تثبيت, and the conviction that Allah's words made patience possible after the catastrophe and loss of children."
+        "paper_fit_en": "This narrative is a central example of sabr through the Qur'an: memorizing it, consolidating it in memory, knowing its words, and linking personal memory to its verses. Its distinctive feature is that the speaker does not present the Qur'an only as general comfort; she presents it as a detailed memory site where her daughters are present in every page, verse, word, and similar passage. The Qur'an therefore has a dual function: it stabilizes her and enables patience, while also reactivating grief and emotional pain. Her self-identification as both a Qur'an memorizer and mother of four martyrs fuses religious identity with bereaved motherhood, making resilience here depend on hamd, consolidating the Qur'an in memory, and the conviction that Allah's words made patience possible after the catastrophe and loss of children."
     },
     "ethical_note": {
         "risk_level": "high_sensitivity_bereaved_mother_four_martyrs_religious_testimony",
@@ -539,7 +539,7 @@
         ],
         "recommended_public_version": "pseudonymized_or_excerpt_only_with_no_added_identifiers"
     },
-    "text_en_full": "With you is the Qur'an memorizer Umm Sami al-Hawari. Praise be to Allah, I recited the Noble Qur'an in one sitting, and I am continuing the journey of تثبيت. I am the mother of four martyrs. My daughters, praise be to Allah, were memorizers of the Book of Allah and were proceeding through the stage of تثبيت. Praise be to Allah, Lord of the worlds. There is no difficulty in re-consolidating the memorization, because Allah, exalted is He, makes matters easy. But what tires me most is that, praise be to Allah, Lord of the worlds, I find my daughters in every page of the Qur'an. I have memories with them in every verse, every word, and every similar passage. This stabilizes me, but it affects me. Praise be to Allah, Lord of the worlds, who linked the memory of my children to His Book and to memorizing His Book. Memorizing the Book of Allah is one of the greatest blessings Allah grants to a person, because memorizing the Book of Allah protects you. If it were not for our knowledge of Allah’s words, we would not have been patient, and we would not have endured this catastrophe and the loss of children. Praise be to Allah, Lord of the worlds.",
+    "text_en_full": "With you is the Qur'an memorizer Umm Sami al-Hawari. Praise be to Allah, I recited the Noble Qur'an in one sitting, and I am continuing the journey of consolidating it in memory. I am the mother of four martyrs. My daughters, praise be to Allah, were memorizers of the Book of Allah and were proceeding through the stage of consolidating it in memory. Praise be to Allah, Lord of the worlds. There is no difficulty in re-consolidating it in memory, because Allah, exalted is He, makes matters easy. But what tires me most is that, praise be to Allah, Lord of the worlds, I find my daughters in every page of the Qur'an. I have memories with them in every verse, every word, and every similar passage. This stabilizes me, but it affects me. Praise be to Allah, Lord of the worlds, who linked the memory of my children to His Book and to memorizing His Book. Memorizing the Book of Allah is one of the greatest blessings Allah grants to a person, because memorizing the Book of Allah protects you. If it were not for our knowledge of Allah’s words, we would not have been patient, and we would not have endured this catastrophe and the loss of children. Praise be to Allah, Lord of the worlds.",
     "public_release": {
         "intended_use": "public_github",
         "reversibility_in_bundle": false
