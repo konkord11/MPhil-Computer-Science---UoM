@@ -1,0 +1,703 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative29_Pseudonymized",
+    "source_meta": {
+        "source_id": "Narrative29",
+        "source_type": "docx_transcription_with_whisper_timestamps",
+        "source_platform": "public/video source",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (Al-Bureij / Central Gaza dialect)",
+        "reported_context": "An adult young woman artist from Al-Bureij was severely injured during displacement. She lost her right eye and parts of her small intestine, suffered bleeding in the brain, eye, and intestines, and her brother Rami was martyred in the same strike. She describes the collapse of her passion and identity, her attempt to obtain treatment and a prosthetic eye, her mother’s grief, and her struggle to return to drawing despite blurred vision and psychological devastation.",
+        "collection_context_en": "Hiba, an adult young artist, describes the aftermath of being injured while displaced. She opens by saying her passion went out, her life turned black, and she feels buried at the bottom. She recalls the decision to flee as one of the hardest decisions her family made, then explains that on the road she was severely injured, her mother was lightly injured, and her brother Rami was martyred. She details medical injuries including bleeding in the brain, small intestine, and right eye, and says doctors removed and fully emptied the right eye and removed the small intestine to stop the bleeding. She sought a medical report to travel for treatment or a prosthetic eye, but says she was given a low-priority C referral and a report stating she did not need treatment. She insists that she is like other girls: she wants to live, avoid bullying, fit a prosthetic eye, and go out normally. Her mother says she wishes she had lost both her own eyes instead if Hiba had kept hers. Hiba then connects the injury to her artistic identity: the feature she most loved drawing in faces was eyes. She traces her development from drawing on glass, shells, charcoal, portraits, paintings, and oil colours, but now cannot finish drawings because her other eye blurs and she loses focus. She concludes that it is not merely an eye; part of her identity is gone, and their psychological state is destroyed while no one looks at or helps them.",
+        "collection_context_ar": "هبة، فنانة شابة بالغة من البريج، تصف آثار إصابتها الخطيرة أثناء النزوح. تبدأ بقولها إن الشغف انطفأ وحياتها اسودّت بالكامل وأنها وصلت إلى القاع واندفنت فيه. تستعيد قرار النزوح بوصفه أصعب قرار، ثم تروي أنها أُصيبت في الطريق إصابة خطيرة، وأصيبت أمها إصابة خفيفة، واستشهد أخوها رامي. تفصل إصاباتها: نزيف في الدماغ، والأمعاء الدقيقة، والعين اليمنى، واستئصال العين اليمنى وتفريغها بالكامل، واستئصال الأمعاء الدقيقة لوقف النزيف. تطلب تقريراً لتستطيع الخروج للعلاج أو تركيب عين، لكن الطبيب يعطيها تحويلة C ويكتب أنها لا تحتاج علاجاً. تؤكد أنها مثل باقي البنات تريد أن تعيش حياتها، وتركب عيناً، وتخرج بشكل عادي دون تنمر. تتدخل والدتها لتقول إنها تتمنى لو فقدت عينيها الاثنتين وبقيت عين هبة. ثم تعود هبة لتربط الإصابة بهويتها الفنية، إذ كان أكثر ما تحب رسمه في الملامح هو العيون. تستعرض مسيرتها في الرسم على الزجاج والصدف والفحم والبورتريه واللوحات والألوان الزيتية، لكنها الآن لا تستطيع إكمال الرسم بسبب الغباش في العين الأخرى وعدم التركيز. وتختم بأن ما فقدته ليس مجرد عين، بل جزء من هويتها، وأن نفسيتهم في الأرض ولا أحد ينظر إليهم أو يساعدهم."
+    },
+    "anonymization": {
+        "is_pseudonymized": true,
+        "strategy": "name_replacement_pool",
+        "contains_real_names": false,
+        "contains_sensitive_medical_info": true,
+        "contains_deceased_family_member": true,
+        "notes": "Person names and identifying tokens in this tree are replaced using Gaza_NamePool_v1 with dataset-consistent mappings. Original strings are retained only in Narratives_Transcriptions. Follow Project_Research_Documentation/protocols/mphil_uom_ethics_and_governance.txt for storage, consent scope, and thesis use. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "within_dataset_consistent"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Gazan dialect, displacement narratives, disability/visible-injury stigma discourse, and SABR annotation conventions."
+            }
+        ],
+        "adjudication": {
+            "status": "draft_annotation_ready_for_review",
+            "note": "Corrected Arabic transcription supplied in the DOCX is treated as the source of truth. Whisper timestamps are used only for approximate timing. The mother’s short contribution is treated as a separate speaker turn within the same narrative."
+        },
+        "alignment_note": "Timestamps are approximate and mapped from Whisper segment boundaries. The ASR contains several inaccurate forms; the corrected transcript controls wording and interpretation.",
+        "selection_policy": "Segmentation follows discourse shifts: collapse of passion; displacement strike and martyrdom of brother; medical injury and organ/eye removal; blocked treatment and desire for normal life; mother’s protective grief; art identity and impaired drawing; identity loss, psychological destruction, and appeal for help."
+    },
+    "speaker_profile": {
+        "gender": "female",
+        "age_estimate": "adult",
+        "origin": "Al-Bureij, Central Gaza",
+        "role_or_status": [
+            "Injured displacement survivor",
+            "Artist / painter",
+            "Bereaved sister",
+            "Visible-injury survivor",
+            "Public testimony speaker"
+        ]
+    },
+    "approx_context": {
+        "brief_summary_en": "Hiba, an adult young artist from Al-Bureij, describes losing her right eye and parts of her small intestine after being injured during displacement, while her brother Rami was martyred in the same incident. She frames the injury not only as bodily damage but as collapse of passion, identity, dignity, social safety, and future. Her mother wishes she had lost her own eyes instead. Hiba explains that eyes were the feature she loved drawing most, making the loss especially devastating to her artistic self. She pleads for treatment, a prosthetic eye, recognition that her case is serious, and support to escape a life and future that feel unknown.",
+        "brief_summary_ar": "تصف هبة، وهي فنانة شابة بالغة من البريج، فقدان عينها اليمنى وأجزاء من أمعائها بعد إصابة خطيرة أثناء النزوح، واستشهاد أخيها رامي في الحادث نفسه. لا تقدم الإصابة كضرر جسدي فقط، بل كانطفاء للشغف وفقدان لجزء من الهوية والكرامة والأمان الاجتماعي والمستقبل. تقول أمها إنها تتمنى لو فقدت عينيها الاثنتين وبقيت عين هبة. وتوضح هبة أن أكثر ما كانت تحب رسمه في الملامح هو العيون، لذلك يصبح فقد العين ضربة مباشرة لموهبتها وذاتها الفنية. تناشد من أجل العلاج، وتركيب عين، والاعتراف بأن حالتها خطيرة، ومساعدتها على الخروج من معاناة لا ينظر إليها أحد."
+    },
+    "text_ar_full": "الشغف انطفى، حياتي اسودّت بالكامل، فش ولا أي إشي إنه أطلع من القاع إللي أنا فيه، وصلت للقاع اندفنت فيه. وهادا كان أصعب قرار أخدناه يعني و.. قرار النزوح واحنا في الطريق إ.. تصاوبت أنا واستشهد أخوي رامي، الله يرحمه، تصاوبت إصابة خطيرة وإمي تصاوبت إصابة خفيفة الحمدلله واستشهد رامي أخوي. كانت إصابتي أنا ف.. نزيف في الدماغ و.. ك.. كانت الضربة لمن طرت، الضربة كانت في راسي وفي بطني بشكل مباشر و.. في عيني، في عيني اليمنى، صار في نزيف في الدماغ ونزيف في الأمعاء الدقيقة ونزيف في العين، علشان يضطروا إنهم يوقفوا النزيف استأصلوا العين اليمنى، فرغوها تفريغ كامل، واستأصلوا الأمعاء الدقيقة. طلبت تقرير علشان يعني أقدر أطلع أعمل.. عين، أركب عين أو أحاول إنه يكون لي في محاولة إنه أرجع زي زمان، هبة قبل. الدكتور إإإ.. أصر إنه.. إنه في.. ناس أولى منك ف لذلك أعطاني تحويلة سي، ف كتب في التقرير إنه أنا بحتاجش أي علاج ف.. هانا كان.. حياتي كانت واقفة، طب أنا زيي زي باقي البنات بدي أعيش حياتي، وبدي أركب عين، أتعامل.. أ.. بدون ما أتعرض للتنمر، بدي أركب في عين وأطلع عادي. والدة هبة: أنا بتمنى إنه لو.. لو راحوا عيني التنتين وهبة ضلت عينها، هبة صبية ما عاشتش حياتها، ما شافتش إشي لسا، عندها كانت هواية الرسم بتحب الرسم كتير، كانت بتطمح إنها تتخرج وتشتغل و.. تمارس هوايتها وتشوف حياتها. هبة: كنت أكتر إشي أحب أرسمه في الملامح كان العيون، وكان إشي بيقهر لما تصاوبت في عيني، أنا موهبتي الرسم من لما كان عمري صغير وكنت برسم، أولها كنت برسم ع القزاز بعدين.. صرت أرسم على الصَدف بعدين زاد الفضول عندي بالرسم أكتر ف صرت أرسم بالفحم، أرسم بورتريه، أرسم لوحات، أرسم بالألوان الزيتية، حالياً إ.. لما بدي أرسم، برسم ولكن.. ممكن مكملش الرسم، خلص إ.. غباش بيصير في العين التانية أو.. بتصير إنه عدم تركيز. مش مجرد عين، أنا جزء من هويتي راحت، مش الحالات الخطيرة بس اللي بدها تطلع، إحنا كمان خ.. خ.. إحنا كمان حالاتنا خطيرة، نفسيتنا في الأرض صارت، إحنا كل يوم بنموت، ليش؟ لأنه حياتنا مجهولة، مصيرنا مجهول، منحاول نطلع من المعاناة اللي احنا فيها و.. محدش بتطلّع، محدش بيساعد.",
+    "text_en_full": "My passion went out; my life turned completely black. There is nothing at all that can get me out of the bottom I am in. I reached the bottom and was buried in it. That was the hardest decision we took—the decision to be displaced. While we were on the road, I was injured and my brother Rami was martyred, may Allah have mercy on him. I was seriously injured, and my mother was lightly injured, praise be to Allah, and my brother Rami was martyred. My injury was bleeding in the brain, and the blow, when I was thrown by the blast, was directly to my head and abdomen, and to my eye, my right eye. There was bleeding in the brain, bleeding in the small intestine, and bleeding in the eye. In order to stop the bleeding, they removed the right eye; they emptied it completely, and they removed the small intestine. I requested a report so that I could travel to make an eye, fit an eye, or try to have a chance to return to how I used to be, Hiba before. The doctor insisted that there were people with priority over me, so he gave me a C referral and wrote in the report that I did not need any treatment. At that point my life had stopped. I am like other girls; I want to live my life. I want to fit an eye, to deal with people without being bullied. I want to fit an eye and go out normally. Hiba’s mother: I wish that both my eyes had gone and Hiba’s eye had remained. Hiba is a young woman; she has not lived her life, she has not seen anything yet. She had drawing as a hobby; she loved drawing very much. She aspired to graduate, work, practise her hobby, and see her life. Hiba: The thing I loved drawing most in facial features was the eyes, and it was something that causes qahr when I was injured in my eye. My talent for drawing has been with me since I was young. At first I drew on glass, then I started drawing on shells. Then my curiosity about drawing grew, so I started drawing with charcoal, portraits, paintings, and oil colours. Now when I want to draw, I draw, but I might not complete the drawing. Blurriness happens in the other eye, or lack of focus happens. It is not just an eye; part of my identity is gone. It is not only the severe cases that need to leave. We too, our cases are serious. Our mental state has fallen to the ground. Every day we die. Why? Because our life is unknown, our fate is unknown. We are trying to get out of the suffering we are in, and no one looks at us; no one helps.",
+    "segments": [
+        {
+            "segment_id": "Narrative29_s01",
+            "speaker": "Hiba",
+            "start_time": 0.0,
+            "end_time": 8.82,
+            "text_ar": "الشغف انطفى، حياتي اسودّت بالكامل، فش ولا أي إشي إنه أطلع من القاع إللي أنا فيه، وصلت للقاع اندفنت فيه.",
+            "text_en": "My passion went out; my life turned completely black. There is nothing at all that can get me out of the bottom I am in. I reached the bottom and was buried in it.",
+            "event_frame": {
+                "adversity_description": "The speaker opens from the aftermath of severe injury by describing total collapse of passion, life, and future orientation.",
+                "response_description": "She uses darkness, bottom, and burial metaphors to communicate the depth of her psychological and existential state."
+            },
+            "sabr_frame": {
+                "sabr_type": "collapsed_passion_and_buried_self_after_injury",
+                "features": [
+                    "passion_extinguished",
+                    "life_blackened",
+                    "bottom_metaphor",
+                    "burial_metaphor",
+                    "psychological_collapse",
+                    "identity_threat"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "despair_and_identity_collapse",
+                "justification": "Phrases such as 'الشغف انطفى', 'حياتي اسودّت', and 'اندفنت فيه' present a state of despair and buried selfhood."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "فش",
+                        "note": "Gazan/Palestinian negation meaning there is no / nothing."
+                    },
+                    {
+                        "marker": "إشي",
+                        "note": "Thing; common Palestinian colloquial form."
+                    },
+                    {
+                        "marker": "أطلع من القاع",
+                        "note": "To get out of the bottom; metaphor of escaping a collapsed psychological state."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "الشغف انطفى",
+                        "note": "Metaphor of extinguished passion, especially significant because the speaker is an artist."
+                    },
+                    {
+                        "marker": "وصلت للقاع اندفنت فيه",
+                        "note": "Escalates from falling to the bottom to being buried in it; expresses entrapment rather than temporary sadness."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative29_s02",
+            "speaker": "Hiba",
+            "start_time": 14.92,
+            "end_time": 30.86,
+            "text_ar": "وهادا كان أصعب قرار أخدناه يعني و.. قرار النزوح واحنا في الطريق إ.. تصاوبت أنا واستشهد أخوي رامي، الله يرحمه، تصاوبت إصابة خطيرة وإمي تصاوبت إصابة خفيفة الحمدلله واستشهد رامي أخوي.",
+            "text_en": "That was the hardest decision we took—the decision to be displaced. While we were on the road, I was injured and my brother Rami was martyred, may Allah have mercy on him. I was seriously injured, and my mother was lightly injured, praise be to Allah, and my brother Rami was martyred.",
+            "event_frame": {
+                "adversity_description": "During displacement, the speaker is severely injured, her mother is lightly injured, and her brother Rami is martyred.",
+                "response_description": "She recounts the displacement decision as extremely difficult and frames her brother’s death through martyrdom, mercy, and الحمد لله."
+            },
+            "sabr_frame": {
+                "sabr_type": "displacement_route_injury_and_bereavement_under_hamd",
+                "features": [
+                    "forced_displacement",
+                    "road_attack",
+                    "severe_injury",
+                    "brother_martyrdom",
+                    "mother_injury",
+                    "dua_for_deceased",
+                    "hamd"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "traumatic_recall_with_devotional_composure",
+                "justification": "She calls displacement the hardest decision while using 'استشهد', 'الله يرحمه', and 'الحمدلله' to religiously frame loss and injury."
+            },
+            "contextual_markers": {
+                "religious_markers": [
+                    {
+                        "marker": "استشهد",
+                        "note": "Martyrdom framing for Rami’s death."
+                    },
+                    {
+                        "marker": "الله يرحمه",
+                        "note": "Supplication asking Allah to have mercy on the deceased."
+                    },
+                    {
+                        "marker": "الحمدلله",
+                        "note": "Praise formula used after mentioning her mother’s injury as light."
+                    }
+                ],
+                "dialect_markers": [
+                    {
+                        "marker": "تصاوبت",
+                        "note": "Gazan/Palestinian form meaning I was injured/wounded."
+                    },
+                    {
+                        "marker": "إمي",
+                        "note": "My mother; dialectal vowel form."
+                    },
+                    {
+                        "marker": "هادا",
+                        "note": "This; Palestinian/Gazan demonstrative."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "أصعب قرار أخدناه",
+                        "note": "Displacement framed as a morally and emotionally heavy decision, not simple movement."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative29_s03",
+            "speaker": "Hiba",
+            "start_time": 34.48,
+            "end_time": 57.66,
+            "text_ar": "كانت إصابتي أنا ف.. نزيف في الدماغ و.. ك.. كانت الضربة لمن طرت، الضربة كانت في راسي وفي بطني بشكل مباشر و.. في عيني، في عيني اليمنى، صار في نزيف في الدماغ ونزيف في الأمعاء الدقيقة ونزيف في العين، علشان يضطروا إنهم يوقفوا النزيف استأصلوا العين اليمنى، فرغوها تفريغ كامل، واستأصلوا الأمعاء الدقيقة.",
+            "text_en": "My injury was bleeding in the brain, and the blow, when I was thrown by the blast, was directly to my head and abdomen, and to my eye, my right eye. There was bleeding in the brain, bleeding in the small intestine, and bleeding in the eye. In order to stop the bleeding, they removed the right eye; they emptied it completely, and they removed the small intestine.",
+            "event_frame": {
+                "adversity_description": "The speaker details catastrophic bodily injury: blast impact to the head, abdomen, and right eye, bleeding in several organs, removal of the right eye, and removal of the small intestine.",
+                "response_description": "She narrates medical trauma through a precise bodily inventory, showing the scale of bodily loss and the way her body became a site of survival surgery."
+            },
+            "sabr_frame": {
+                "sabr_type": "bodily_fragmentation_and_survival_surgery",
+                "features": [
+                    "blast_throwing",
+                    "brain_bleeding",
+                    "abdominal_injury",
+                    "right_eye_loss",
+                    "intestine_removal",
+                    "medical_survival",
+                    "bodily_inventory"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "somatic_shock_and_controlled_horror",
+                "justification": "The detailed repetition of bleeding and the phrase 'استأصلوا العين اليمنى، فرغوها تفريغ كامل' communicate controlled but severe bodily horror."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "لمن طرت",
+                        "note": "When I was thrown by the blast; 'طرت' describes being propelled by explosion force."
+                    },
+                    {
+                        "marker": "راسي / بطني",
+                        "note": "Colloquial forms of my head / my abdomen."
+                    }
+                ],
+                "medical_markers": [
+                    {
+                        "marker": "نزيف في الدماغ",
+                        "note": "Brain bleeding; severe injury marker."
+                    },
+                    {
+                        "marker": "نزيف في الأمعاء الدقيقة",
+                        "note": "Small-intestine bleeding; severe internal injury."
+                    },
+                    {
+                        "marker": "استأصلوا العين اليمنى / فرغوها تفريغ كامل",
+                        "note": "Right eye removed/emptied; highly sensitive visible-injury and identity-impact marker."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "في عيني، في عيني اليمنى",
+                        "note": "Repetition narrows attention to the eye as central site of bodily and identity loss."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative29_s04",
+            "speaker": "Hiba",
+            "start_time": 61.52,
+            "end_time": 100.0,
+            "text_ar": "طلبت تقرير علشان يعني أقدر أطلع أعمل.. عين، أركب عين أو أحاول إنه يكون لي في محاولة إنه أرجع زي زمان، هبة قبل. الدكتور إإإ.. أصر إنه.. إنه في.. ناس أولى منك ف لذلك أعطاني تحويلة سي، ف كتب في التقرير إنه أنا بحتاجش أي علاج ف.. هانا كان.. حياتي كانت واقفة، طب أنا زيي زي باقي البنات بدي أعيش حياتي، وبدي أركب عين، أتعامل.. أ.. بدون ما أتعرض للتنمر، بدي أركب في عين وأطلع عادي.",
+            "text_en": "I requested a report so that I could travel to make an eye, fit an eye, or try to have a chance to return to how I used to be, Hiba before. The doctor insisted that there were people with priority over me, so he gave me a C-referral and wrote in the report that I did not need any treatment. At that point my life had stopped. I am like other girls; I want to live my life. I want to fit an eye, to deal with people without being bullied. I want to fit an eye and go out normally.",
+            "event_frame": {
+                "adversity_description": "The speaker’s effort to obtain treatment and a prosthetic eye is blocked by low medical priority and a report saying she does not need treatment.",
+                "response_description": "She asserts her right to treatment, normal life, dignity, and freedom from bullying, framing visible injury as a social and identity crisis."
+            },
+            "sabr_frame": {
+                "sabr_type": "dignity_claim_after_denied_medical_exit",
+                "features": [
+                    "medical_referral",
+                    "prosthetic_eye",
+                    "return_to_before_self",
+                    "low_priority_C_referral",
+                    "denial_of_treatment_need",
+                    "bullying_fear",
+                    "normal_life_claim",
+                    "young_womanhood"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "pleading_frustration_and_dignity_assertion",
+                "justification": "Her repeated 'بدي' and statement 'أنا زيي زي باقي البنات' show a plea for ordinary dignity under frustration and institutional neglect."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "أطلع",
+                        "note": "To go out/leave; here refers to being able to travel for medical treatment."
+                    },
+                    {
+                        "marker": "بحتاجش",
+                        "note": "I do not need; Palestinian/Gazan negation with final -sh."
+                    },
+                    {
+                        "marker": "بدي",
+                        "note": "I want; repeated rights claim."
+                    },
+                    {
+                        "marker": "أطلع عادي",
+                        "note": "To go out normally / travel normally / appear normally; carries dignity and social normalcy."
+                    }
+                ],
+                "medical_bureaucratic_markers": [
+                    {
+                        "marker": "تحويلة سي",
+                        "note": "C medical referral; in the source explanation, a low-priority referral for external treatment, while high-priority cases have better chance of travel."
+                    },
+                    {
+                        "marker": "كتب في التقرير إنه أنا بحتاجش أي علاج",
+                        "note": "Medical-bureaucratic denial of treatment need despite severe visible and internal injuries."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "زيي زي باقي البنات",
+                        "note": "Young-womanhood and equal-life claim; injury threatens social participation and ordinary aspirations."
+                    },
+                    {
+                        "marker": "بدون ما أتعرض للتنمر",
+                        "note": "Fear of stigma/bullying due to facial/eye injury."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "هبة قبل",
+                        "note": "Before-self formulation: treatment is framed as a chance to reconnect with pre-injury identity."
+                    },
+                    {
+                        "marker": "حياتي كانت واقفة",
+                        "note": "Life stopped; time and future suspended by medical blockage."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative29_s05",
+            "speaker": "mother",
+            "start_time": 104.82,
+            "end_time": 120.34,
+            "text_ar": "أنا بتمنى إنه لو.. لو راحوا عيني التنتين وهبة ضلت عينها، هبة صبية ما عاشتش حياتها، ما شافتش إشي لسا، عندها كانت هواية الرسم بتحب الرسم كتير، كانت بتطمح إنها تتخرج وتشتغل و.. تمارس هوايتها وتشوف حياتها.",
+            "text_en": "I wish that both my eyes had gone and Hiba’s eye had remained. Hiba is a young woman; she has not lived her life yet, she has not seen anything yet. She had drawing as a hobby; she loved drawing very much. She aspired to graduate, work, practise her hobby, and see her life.",
+            "event_frame": {
+                "adversity_description": "Hiba’s mother witnesses her daughter’s visible injury and interrupted life course.",
+                "response_description": "The mother expresses protective sacrificial grief, wishing the injury had happened to her instead, while naming Hiba’s youth, talent, and future aspirations."
+            },
+            "sabr_frame": {
+                "sabr_type": "maternal_substitutional_grief_for_daughter_identity_loss",
+                "features": [
+                    "mother_speaker",
+                    "wish_to_take_injury",
+                    "daughter_youth",
+                    "unlived_life",
+                    "drawing_hobby",
+                    "future_aspirations",
+                    "protective_grief"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "protective_maternal_grief",
+                "justification": "The mother’s wish that both her eyes had gone instead of Hiba’s expresses substitutional maternal grief and protection."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "التنتين",
+                        "note": "Both two; colloquial form for الاثنتين."
+                    },
+                    {
+                        "marker": "ضلت",
+                        "note": "Remained; here means if Hiba had kept her eye."
+                    },
+                    {
+                        "marker": "عاشتش / شافتش",
+                        "note": "Did not live / did not see; Palestinian/Gazan negation with -sh."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "صبية ما عاشتش حياتها",
+                        "note": "Young woman whose life has not yet unfolded; injury is framed as theft of future."
+                    },
+                    {
+                        "marker": "تتخرج وتشتغل وتمارس هوايتها",
+                        "note": "Ordinary future milestones: graduation, work, and artistic practice."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "لو.. لو",
+                        "note": "Repetition and hesitation intensify maternal pain and impossible wish."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative29_s06",
+            "speaker": "Hiba",
+            "start_time": 123.4,
+            "end_time": 166.18,
+            "text_ar": "كنت أكتر إشي أحب أرسمه في الملامح كان العيون، وكان إشي بيقهر لما تصاوبت في عيني، أنا موهبتي الرسم من لما كان عمري صغير وكنت برسم، أولها كنت برسم ع القزاز بعدين.. صرت أرسم على الصَدف بعدين زاد الفضول عندي بالرسم أكتر ف صرت أرسم بالفحم، أرسم بورتريه، أرسم لوحات، أرسم بالألوان الزيتية، حالياً إ.. لما بدي أرسم، برسم ولكن.. ممكن مكملش الرسم، خلص إ.. غباش بيصير في العين التانية أو.. بتصير إنه عدم تركيز.",
+            "text_en": "The thing I loved drawing most in facial features was the eyes, and it was something that causes qahr when I was injured in my eye. My talent for drawing has been with me since I was young. At first I drew on glass, then I started drawing on shells. Then my curiosity about drawing grew, so I started drawing with charcoal, portraits, paintings, and oil colours. Now when I want to draw, I draw, but I might not complete the drawing. Blurriness happens in the other eye, or lack of focus happens.",
+            "event_frame": {
+                "adversity_description": "The injury strikes the very organ and visual motif most central to Hiba’s artistic passion: the eyes.",
+                "response_description": "She reconstructs her artistic identity and progression, then contrasts it with present impairment, blurriness, and inability to complete drawings."
+            },
+            "sabr_frame": {
+                "sabr_type": "artistic_identity_disrupted_by_eye_loss",
+                "features": [
+                    "artist_identity",
+                    "eyes_as_artistic_focus",
+                    "qahr",
+                    "drawing_history",
+                    "glass_shell_charcoal_portrait_oil",
+                    "blurred_remaining_eye",
+                    "unfinished_drawings",
+                    "loss_of_focus"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "qahr_and_mourned_creative_self",
+                "justification": "Her line 'أكتر إشي أحب أرسمه... كان العيون' followed by 'إشي بيقهر لما تصاوبت في عيني' connects bodily injury to a mourned creative self."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "إشي بيقهر",
+                        "note": "Something that causes qahr; deep crushed pain and injustice."
+                    },
+                    {
+                        "marker": "القزاز",
+                        "note": "Glass; dialectal term for الزجاج."
+                    },
+                    {
+                        "marker": "مكملش",
+                        "note": "I might not complete; colloquial negation with -sh."
+                    },
+                    {
+                        "marker": "غَباش بيصير",
+                        "note": "Blurriness happens; visual impairment marker."
+                    }
+                ],
+                "cultural_identity_markers": [
+                    {
+                        "marker": "العيون",
+                        "note": "Eyes as the artistic motif she most loved; the injury therefore targets both vision and creative identity."
+                    },
+                    {
+                        "marker": "بورتريه / لوحات / ألوان زيتية",
+                        "note": "Artistic practice vocabulary demonstrating skill, identity, and aspiration."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "أرسم... أرسم... أرسم",
+                        "note": "Repetition reconstructs the breadth of her artistic practice before injury."
+                    },
+                    {
+                        "marker": "حالياً",
+                        "note": "Temporal pivot from pre-injury talent to present limitation."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative29_s07",
+            "speaker": "Hiba",
+            "start_time": 170.98,
+            "end_time": 191.7,
+            "text_ar": "مش مجرد عين، أنا جزء من هويتي راحت، مش الحالات الخطيرة بس اللي بدها تطلع، إحنا كمان خ.. خ.. إحنا كمان حالاتنا خطيرة، نفسيتنا في الأرض صارت، إحنا كل يوم بنموت، ليش؟ لأنه حياتنا مجهولة، مصيرنا مجهول، منحاول نطلع من المعاناة اللي احنا فيها و.. محدش بتطلّع، محدش بيساعد.",
+            "text_en": "It is not just an eye; part of my identity is gone. It is not only the severe cases that need to leave. We too, our cases are serious. Our mental state has fallen to the ground. Every day we die. Why? Because our life is unknown, our fate is unknown. We are trying to get out of the suffering we are in, and no one looks at us; no one helps.",
+            "event_frame": {
+                "adversity_description": "The speaker frames the injury as identity loss, psychological collapse, uncertain life/fate, and lack of assistance.",
+                "response_description": "She makes a collective claim that cases like hers are also serious and deserve evacuation, treatment, recognition, and help."
+            },
+            "sabr_frame": {
+                "sabr_type": "identity_loss_as_claim_for_recognition_and_medical_exit",
+                "features": [
+                    "not_just_an_eye",
+                    "identity_loss",
+                    "serious_case_claim",
+                    "psychological_collapse",
+                    "daily_dying",
+                    "unknown_future",
+                    "seeking_exit_from_suffering",
+                    "no_one_helps"
+                ]
+            },
+            "affective_signals": {
+                "affect_type": "desperate_assertion_and_social_invisibility",
+                "justification": "The statement 'جزء من هويتي راحت' and repeated 'محدش' show a desperate need to be seen as serious and worthy of help."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "مش مجرد عين",
+                        "note": "Not just an eye; rejection of reducing the injury to a single organ."
+                    },
+                    {
+                        "marker": "نفسيتنا في الأرض صارت",
+                        "note": "Our mental state is on the ground; colloquial expression for psychological complete and utter destruction."
+                    },
+                    {
+                        "marker": "محدش بتطلّع / محدش بيساعد",
+                        "note": "No one looks [cares about us] / no one helps us; invisibility and abandonment."
+                    },
+                    {
+                        "marker": "بدها تطلع",
+                        "note": "Needs to leave/travel; here refers to medical evacuation/treatment exit."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "جزء من هويتي راحت",
+                        "note": "Identity-loss claim; especially culturally significant because the injury is facial/visible and affects art, social life, dignity, and future prospects."
+                    },
+                    {
+                        "marker": "حالاتنا خطيرة",
+                        "note": "Claim that psychological, visible, and identity-threatening injuries are also serious, not only immediately life-threatening cases."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "ليش؟",
+                        "note": "Rhetorical question opening causal explanation of daily dying through unknown life and fate."
+                    },
+                    {
+                        "marker": "إحنا... إحنا",
+                        "note": "Shift from individual self to collective injured/neglected people."
+                    }
+                ]
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "الشغف انطفى": {
+                "variants_ar": [
+                    "انطفأ الشغف",
+                    "فقدت الشغف",
+                    "راح شغفي"
+                ],
+                "meaning_en": "Passion went out / was extinguished; metaphor of creative and emotional collapse."
+            },
+            "حياتي اسودّت بالكامل": {
+                "variants_ar": [
+                    "حياتي صارت سوداء",
+                    "الدنيا اسودت",
+                    "فقدت معنى الحياة"
+                ],
+                "meaning_en": "My life turned completely black; total darkness/despair metaphor."
+            },
+            "فش": {
+                "variants_ar": [
+                    "ما في",
+                    "لا يوجد"
+                ],
+                "meaning_en": "There is no / nothing; Gazan/Palestinian negation."
+            },
+            "القاع اللي أنا فيه": {
+                "variants_ar": [
+                    "الحالة المنهارة",
+                    "أسفل نقطة",
+                    "القاع النفسي"
+                ],
+                "meaning_en": "The bottom I am in; metaphor for severe psychological collapse."
+            },
+            "اندفنت فيه": {
+                "variants_ar": [
+                    "دُفنت فيه",
+                    "انحبست داخله",
+                    "لم أستطع الخروج"
+                ],
+                "meaning_en": "I was buried in it; entrapment in suffering."
+            },
+            "قرار النزوح": {
+                "variants_ar": [
+                    "قرار الخروج",
+                    "قرار التهجير",
+                    "قرار ترك المكان"
+                ],
+                "meaning_en": "Decision to flee/be displaced; morally and emotionally heavy wartime decision."
+            },
+            "تصاوبت": {
+                "variants_ar": [
+                    "أُصبت",
+                    "انجرحت"
+                ],
+                "meaning_en": "I was injured/wounded; Gazan/Palestinian colloquial form."
+            },
+            "لمن طرت": {
+                "variants_ar": [
+                    "عندما قذفني الانفجار",
+                    "لما طرت من شدة الضربة"
+                ],
+                "meaning_en": "When I was thrown by the blast."
+            },
+            "استأصلوا العين اليمنى / فرغوها تفريغ كامل": {
+                "variants_ar": [
+                    "أزالوا العين",
+                    "أفرغوا العين",
+                    "استئصال العين"
+                ],
+                "meaning_en": "They removed/emptied the right eye completely; severe visible injury marker."
+            },
+            "تحويلة سي": {
+                "variants_ar": [
+                    "تحويلة طبية من نوع C",
+                    "تحويلة ذات أولوية منخفضة"
+                ],
+                "meaning_en": "C referral; low-priority medical referral for evacuation/treatment according to the source explanation."
+            },
+            "هبة قبل": {
+                "variants_ar": [
+                    "هبة كما كانت",
+                    "نفسي قبل الإصابة",
+                    "حياتي السابقة"
+                ],
+                "meaning_en": "Hiba before; pre-injury self/identity."
+            },
+            "أنا زيي زي باقي البنات": {
+                "variants_ar": [
+                    "أنا مثل باقي الفتيات",
+                    "أريد حياة طبيعية"
+                ],
+                "meaning_en": "I am like other girls; claim to ordinary young-womanhood and dignity."
+            },
+            "أتعرض للتنمر": {
+                "variants_ar": [
+                    "يسخروا مني",
+                    "أتعرض للسخرية",
+                    "التنمر بسبب شكلي"
+                ],
+                "meaning_en": "To be bullied; stigma related to visible injury."
+            },
+            "أطلع عادي": {
+                "variants_ar": [
+                    "أخرج بشكل طبيعي",
+                    "أسافر بشكل طبيعي",
+                    "أظهر للناس بلا خوف"
+                ],
+                "meaning_en": "Go out / travel / appear normally; social dignity and mobility."
+            },
+            "القزاز": {
+                "variants_ar": [
+                    "الزجاج"
+                ],
+                "meaning_en": "Glass; dialectal term."
+            },
+            "الصَدف": {
+                "variants_ar": [
+                    "أصداف البحر"
+                ],
+                "meaning_en": "Shells; dialectal term for sea shells, drawing surface in her artistic practice."
+            },
+            "إشي بيقهر": {
+                "variants_ar": [
+                    "شيء يقهر",
+                    "وجع قاهر",
+                    "مؤلم جداً"
+                ],
+                "meaning_en": "Something that causes qahr; deep crushed pain and injustice."
+            },
+            "غباش بيصير": {
+                "variants_ar": [
+                    "يصير تغبيش",
+                    "ضبابية في الرؤية",
+                    "الرؤية تصبح مشوشة"
+                ],
+                "meaning_en": "Blurriness happens; impairment in the remaining eye."
+            },
+            "مش مجرد عين": {
+                "variants_ar": [
+                    "ليست عيناً فقط",
+                    "الأمر أكبر من فقد العين"
+                ],
+                "meaning_en": "It is not just an eye; injury is identity/social/future loss."
+            },
+            "جزء من هويتي راحت": {
+                "variants_ar": [
+                    "فقدت جزءاً من هويتي",
+                    "راح جزء مني",
+                    "تضررت ذاتي"
+                ],
+                "meaning_en": "Part of my identity is gone; key identity-loss phrase."
+            },
+            "نفسيتنا في الأرض صارت": {
+                "variants_ar": [
+                    "نفسيتنا تحطمت",
+                    "انهارت نفسيتنا",
+                    "تعبنا نفسياً جداً"
+                ],
+                "meaning_en": "Our mental state has fallen to the ground; psychological devastation."
+            },
+            "محدش بتطلّع / محدش بيساعد": {
+                "variants_ar": [
+                    "لا أحد ينظر إلينا",
+                    "لا أحد يهتم",
+                    "لا أحد يساعد"
+                ],
+                "meaning_en": "No one looks at us / no one helps; social and institutional abandonment."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "artist_identity_eye_loss_displacement_medical_neglect_qahr",
+        "paper_fit_ar": "تمثل Narrative29 حالة شديدة الأهمية لسابر لأنها لا تعرض الإصابة كأذى جسدي فقط، بل كفقدان للشغف والهوية والمستقبل. تبدأ هبة بعبارات انهيار وجودي: الشغف انطفأ، الحياة اسودّت، والقاع أصبح مكاناً للدفن. ثم تربط هذا الانهيار بقرار النزوح وإصابة الطريق واستشهاد أخيها رامي، فيظهر النزوح هنا كحدث خطر لا كحل آمن. مركز الرواية هو العين: العين عضو بصري، وموضع ظاهر في الوجه، ومصدر تنمر اجتماعي محتمل، لكنها أيضاً مركز موهبتها الفنية لأنها كانت تحب رسم العيون. لذلك تصبح عبارة «مش مجرد عين، أنا جزء من هويتي راحت» مفتاحاً تحليلياً قوياً؛ فهي ترفض اختزال الإصابة إلى معيار طبي ضيق، وتطالب باعتراف اجتماعي ونفسي وثقافي بأن الفقد يطال الذات كلها. كما تكشف الرواية عن صراع مع البيروقراطية الطبية من خلال «تحويلة سي» وتقرير يقول إنها لا تحتاج علاجاً، مقابل إصرارها أنها مثل باقي البنات تريد حياة طبيعية. من منظور SABR، الاستجابة لا تأتي فقط كصبر ديني صريح، بل كاستعادة صوت وحق وكرامة وسط فقدان الجسد والهوية والدعم.",
+        "paper_fit_en": "Narrative29 is highly important for SABR because it does not present injury only as physical harm; it frames injury as loss of passion, identity, dignity, and future. Hiba begins with existential-collapse metaphors: passion extinguished, life blackened, and the bottom becoming a place of burial. She then links this collapse to displacement, injury on the road, and the martyrdom of her brother Rami, showing displacement as danger rather than safety. The eye is the narrative centre: it is a visual organ, a visible part of the face, a potential source of bullying, and the artistic feature she loved drawing most. Thus the phrase 'it is not just an eye; part of my identity is gone' is analytically crucial: it rejects narrow medical reduction and demands social, psychological, and cultural recognition of identity loss. The narrative also exposes medical-bureaucratic struggle through the C referral and a report stating that she does not need treatment, against her insistence that she is like other girls and wants an ordinary life. In SABR terms, the response is not only explicit religious patience; it is also voice, rights-claiming, dignity assertion, and struggle for recognition after bodily and identity loss."
+    },
+    "ethical_note": {
+        "risk_level": "very_high_sensitivity_visible_injury_medical_trauma_bereavement_identity_loss",
+        "notes": [
+            "The narrative includes identifiable names, severe injury, loss/removal of an eye, intestinal removal, brain bleeding, bereavement, visible facial injury implications, and psychological distress.",
+            "For public release, pseudonymize names and avoid images/voice/face identifiers unless explicit informed consent and ethical approval exist.",
+            "The phrase 'مش مجرد عين، أنا جزء من هويتي راحت' should be handled with care because it concerns gendered visible injury, identity, social stigma, work/future opportunities, and possible marriage/social acceptance pressures.",
+            "Do not use this testimony for individual psychological diagnosis. Annotation should focus on discourse structure, adversity framing, response strategies, contextual markers, and affective signal.",
+            "The account includes medical claims from the speaker’s perspective; keep them as narrative testimony unless separately verified."
+        ],
+        "recommended_public_version": "pseudonymized_or_restricted_access_with_short_excerpts_only"
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

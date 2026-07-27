@@ -2,7 +2,6 @@ These narrative folders have no NarrativeXX_Pseudonymized.annotated.json yet (an
 
 Narrative17_Pseudonymized
 Narrative20_Pseudonymized
-Narrative29_Pseudonymized
 Narrative31_Pseudonymized
 Narrative32_Pseudonymized
 Narrative35_Pseudonymized
