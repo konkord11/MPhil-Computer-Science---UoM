@@ -1,12 +1,6 @@
 These narrative folders have no NarrativeXX_Pseudonymized.annotated.json yet (annotations-only export skipped them):
 
-Narrative17_Pseudonymized
 Narrative20_Pseudonymized
-Narrative31_Pseudonymized
-Narrative32_Pseudonymized
-Narrative35_Pseudonymized
-Narrative36_Pseudonymized
-Narrative37_Pseudonymized
-Narrative38_Pseudonymized
-Narrative39_Pseudonymized
-Narrative40_Pseudonymized
+Narrative42_Pseudonymized
+Narrative43_Pseudonymized
+Narrative44_Pseudonymized

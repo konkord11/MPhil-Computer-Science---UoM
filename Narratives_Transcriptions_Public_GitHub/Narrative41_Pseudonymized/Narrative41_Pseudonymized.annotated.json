@@ -1,0 +1,320 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative41_Pseudonymized",
+    "source_meta": {
+        "source_id": "Narrative41",
+        "source_type": "public_journalist_video_transcription_with_whisper_timestamps",
+        "source_platform": "public journalist video",
+        "original_language": "ar",
+        "dialect": "Modern Standard Arabic / formal Arabic recitation style",
+        "location_mentioned": "Gaza",
+        "reported_context": "A child from Gaza delivers a short formal-Arabic statement framing hardship through الحمد لله, prescribed struggle, patience, steadfastness, divine testing, and success by Allah's permission. The phrase 'موطن لا يوجد فيه أحد' is interpreted as a statement of Gaza being singled out for a unique ordeal/station of trial: a hardship that is also framed as a divine blessing because of its great reward in the Hereafter.",
+        "collection_context_en": "A short public journalist video testimony by a child from Gaza. The child speaks in formal Arabic rather than colloquial dialect. The statement frames extreme hardship through a religious-moral register: drowning while saying الحمد لله, struggle written upon them as fasting was written, patience and steadfastness as decreed obligations, continuation despite pain, wounds, and difficulties, and a final test/success frame: 'We are tested, but by Allah's permission we will succeed.' The expression 'موطن لا يوجد فيه أحد' is not treated simply as physical emptiness; it is interpreted as a unique station of ordeal and blessing, where Gaza is understood as being singled out for a test unlike that experienced by most of the world.",
+        "collection_context_ar": "شهادة قصيرة ضمن فيديو صحفي عام لطفل من غزة يتحدث بلغة عربية فصحى. يقدّم الطفل المعاناة في إطار ديني/أخلاقي: الغرق مع قول الحمد لله، وكون الجهاد مكتوباً عليهم كما كُتب الصيام، وكون الصبر والثبات مكتوبين عليهم، والاستمرار رغم الآلام والجراح والصعاب، ثم يختم بإطار الامتحان والنجاح: «نُمتحَن ولكننا بإذن الله ناجحون». تُفهم عبارة «موطن لا يوجد فيه أحد» هنا لا بوصفها فراغاً مكانياً حرفياً، بل بوصفها إشارة إلى أن الله خصّ أهل غزة بموطن ابتلاء ورباط لا يشبه حال أغلب العالم، وأن هذه المحنة تُفهم دينياً أيضاً كنعمة لعِظم أجرها في الآخرة."
+    },
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "child_speaker_not_named; broad_minor_category_only; no personal names_present",
+        "contains_real_names": false,
+        "contains_public_figure_name_only": false,
+        "contains_minors": true,
+        "contains_deceased_or_injured_people": false,
+        "notes": "The child speaker is unnamed. The exact source age is not included in the annotation; only the broad minor/child category is retained for ethical classification. For public release, use text-only, avoid face/voice/video stills, and do not include exact age. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "n/a"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Gazan crisis discourse, Islamic sabr/thabat language, child testimony, and SABR annotation conventions."
+            }
+        ],
+        "adjudication": {
+            "status": "draft_annotation_ready_for_review",
+            "note": "The user-corrected Arabic transcription is treated as the source of truth. Whisper content is not used for wording; it is used only for approximate timestamp mapping. Exact age provided by the user is used only for classification and is not included in the narrative metadata."
+        },
+        "alignment_note": "Whisper timestamps are approximate and contain lexical errors such as misrecognitions of 'نغرق', 'الجهاد', 'الجراح', and 'نُمتحن'. The corrected transcript controls meaning.",
+        "selection_policy": "The narrative is short and functions as one complete meaning-unit: hardship and drowning; religious duty framing; patience/steadfastness; continuation despite pain; Gaza as a uniquely singled-out station of trial/blessing; divine test and success."
+    },
+    "speaker_profile": {
+        "speaker_id": "S1",
+        "gender": "male",
+        "origin": "Gaza Strip",
+        "role_or_status": [
+            "Child civilian speaker",
+            "Public journalist video testimony speaker",
+            "Voice of faith-based endurance and thabat under crisis"
+        ],
+        "speaker_category": "child/minor civilian speaker"
+    },
+    "approx_context": {
+        "brief_summary_ar": "طفل من غزة يتحدث بلغة عربية فصحى ويؤطر المعاناة باعتبارها ابتلاءً دينياً وأخلاقياً. يقول إنهم يغرقون ويقولون الحمد لله، وإن الجهاد كُتب عليهم كما كُتب الصيام، وإن الصبر والثبات كُتبا عليهم أيضاً. رغم الآلام والجراح والصعاب يؤكد أنهم مستمرون، ويحمدون الله لأنهم في موطن لا يوجد فيه أحد، أي في موطن ابتلاء ورباط خصّهم الله به دون كثير من العالم. المحنة هنا تُفهم في الوقت نفسه كنعمة لعظم أجرها في الآخرة، ثم يختم بأنهم يُمتحنون ولكنهم بإذن الله ناجحون.",
+        "brief_summary_en": "A child from Gaza speaks in formal Arabic and frames suffering as a religious and moral test. He says they are drowning while saying الحمد لله, that struggle has been written upon them as fasting was written, and that patience and steadfastness have also been written upon them. Despite pain, wounds, and difficulties, he says they continue and praise Allah because they are in a station/place that no one else occupies: a unique station of trial and ribat that Allah has singled them out for, unlike much of the world. The ordeal is therefore framed not only as hardship but also as a blessing because of its great reward in the Hereafter. He concludes that they are being tested but, by Allah's permission, will succeed."
+    },
+    "text_ar_full": "نغرقُ ونقول الحمدلله، كُتِبَ علينا الجهاد كما كتب علينا الصيام، فكُتب علينا الصبر والثبات، فرغم كل الآلام ورغم كل الجراح ورغم كل الصعاب مستمرون، ونحن نحمد الله أننا في موطن لا يوجد فيه أحد، نُمتحَن ولكننا بإذن الله ناجحون.",
+    "text_en_full": "We drown, and we say: praise be to Allah. Struggle has been written upon us as fasting was written upon us; so patience and steadfastness have been written upon us. Despite all the pains, despite all the wounds, and despite all the difficulties, we continue. And we praise Allah that we are in a station/place that no one else occupies. We are being tested, but by Allah's permission we will succeed.",
+    "segments": [
+        {
+            "segment_id": "Narrative41_s01",
+            "speaker_id": "S1",
+            "start_time": 0.0,
+            "end_time": 21.72,
+            "text_ar": "نغرقُ ونقول الحمدلله، كُتِبَ علينا الجهاد كما كتب علينا الصيام، فكُتب علينا الصبر والثبات، فرغم كل الآلام ورغم كل الجراح ورغم كل الصعاب مستمرون، ونحن نحمد الله أننا في موطن لا يوجد فيه أحد، نُمتحَن ولكننا بإذن الله ناجحون.",
+            "text_en": "We drown, and we say: praise be to Allah. Struggle has been written upon us as fasting was written upon us; so patience and steadfastness have been written upon us. Despite all the pains, despite all the wounds, and despite all the difficulties, we continue. And we praise Allah that we are in a station/place that no one else occupies. We are being tested, but by Allah's permission we will succeed.",
+            "event_frame": {
+                "adversity_description": "The child speaker names overwhelming hardship through images of drowning, pain, wounds, difficulties, isolation from the rest of the world, and being tested.",
+                "response_description": "He responds through a highly religious and formal discourse of الحمد لله, prescribed struggle, patience, steadfastness, continuation, and certainty in success by Allah's permission. The ordeal is framed as both محنة and نعمة: a unique station of trial/ribat singled out for Gaza because its reward is with Allah in the Hereafter."
+            },
+            "sabr_frame": {
+                "sabr_type": "faith_based_child_sabr_as_ribat_trial_and_blessing_frame",
+                "features": [
+                    "child_speaker",
+                    "formal_arabic_register",
+                    "hamd_under_hardship",
+                    "jihad_as_struggle_frame",
+                    "ribat_trial_context",
+                    "patience_and_steadfastness",
+                    "continued_endurance",
+                    "mihna_as_ni'ma",
+                    "afterlife_reward_orientation",
+                    "success_by_allah_permission"
+                ],
+                "explanation": "The span shows sabr as an internalized faith-based framework even in a child speaker: hardship is not denied, but interpreted as a divinely meaningful test. The phrase 'موطن لا يوجد فيه أحد' marks a unique station of ordeal and ribat that sets Gaza apart from much of the world; the crisis is framed as a hardship that also carries the blessing of great reward in the Hereafter."
+            },
+            "affective_signals": {
+                "dominant_affect": "devotional_resolve_with_trial_as_blessing",
+                "affect_type": "devotional_resolve_with_trial_as_blessing",
+                "secondary_affects": [
+                    "steadfastness",
+                    "faith_anchored_certainty",
+                    "controlled_suffering",
+                    "afterlife_orientation",
+                    "communal_responsibility"
+                ],
+                "justification": "The speaker combines 'نغرق' and 'الآلام/الجراح/الصعاب' with 'الحمدلله', 'الصبر والثبات', 'مستمرون', and 'بإذن الله ناجحون'. The phrase 'موطن لا يوجد فيه أحد' adds a meaning of unique divine trial and honourable burden, producing resolve anchored in faith rather than simple optimism."
+            },
+            "contextual_markers": {
+                "dialect_markers": [],
+                "religious_markers": [
+                    {
+                        "marker": "الحمدلله",
+                        "note": "Praise be to Allah; hamd under hardship, not absence of suffering."
+                    },
+                    {
+                        "marker": "كُتِبَ علينا",
+                        "note": "Religious/decretal framing: something prescribed, decreed, or written upon the community."
+                    },
+                    {
+                        "marker": "الجهاد",
+                        "note": "Here annotated as a religious/discursive frame of struggle, endurance, ribat, and burden under crisis; not as an operational instruction."
+                    },
+                    {
+                        "marker": "كما كتب علينا الصيام",
+                        "note": "Analogy to fasting as a decreed/written religious duty, giving hardship a moral-religious frame."
+                    },
+                    {
+                        "marker": "الصبر والثبات",
+                        "note": "Patience and steadfastness; central Islamic and Palestinian endurance vocabulary."
+                    },
+                    {
+                        "marker": "موطن لا يوجد فيه أحد",
+                        "note": "Interpreted as a unique station of divine trial and blessing: Allah has singled out Gaza for an ordeal/ribat unlike that experienced by much of the world."
+                    },
+                    {
+                        "marker": "نُمتحَن",
+                        "note": "We are being tested; divine-test frame. The test is understood as hardship whose reward is sought in the Hereafter."
+                    },
+                    {
+                        "marker": "بإذن الله",
+                        "note": "By Allah's permission; future success is attributed to divine will."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "مستمرون",
+                        "note": "Continuation despite wounds and hardship; collective endurance marker."
+                    },
+                    {
+                        "marker": "موطن لا يوجد فيه أحد",
+                        "note": "Not literal emptiness only; a Gaza-specific self-understanding of being in a singular station of suffering, ribat, and divine selection while much of the world lives away from such war."
+                    },
+                    {
+                        "marker": "المحنة والنعمة",
+                        "note": "User research interpretation: the ordeal is framed as both tribulation and blessing because its reward is great on the Day of Judgment and the Hereafter is the ultimate aim, not the fleeting worldly life."
+                    },
+                    {
+                        "marker": "طفل من غزة يتحدث بهذا الإطار",
+                        "note": "User research interpretation: the statement shows how sabr/thabat and afterlife-oriented meaning can be internalized even by children in Gaza, making the narrative analytically important for culturally grounded resilience."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "فرغم كل... ورغم كل... ورغم كل...",
+                        "note": "Parallel repetition builds a cumulative adversity frame before the response 'مستمرون'."
+                    },
+                    {
+                        "marker": "نغرقُ ونقول الحمدلله",
+                        "note": "Paradoxical construction: drowning is paired with praise, creating a compressed faith-under-suffering frame."
+                    },
+                    {
+                        "marker": "نُمتحَن ولكننا... ناجحون",
+                        "note": "Contrastive test-success structure: adversity is framed as an exam that will be passed by Allah's permission."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "devotional_resolve_with_trial_as_blessing",
+                "sabr_type_label": "faith_based_child_sabr_as_ribat_trial_and_blessing_frame",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": true,
+                "has_cultural_markers": true,
+                "has_dialect_markers": false,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "high_sensitivity_child_wartime_testimony_faith_based_endurance",
+                "contains_real_names": false,
+                "contains_minors": true,
+                "public_safe": false,
+                "note": "The speaker is a minor. Use text-only, avoid face/voice/stills, avoid exact age, and avoid presenting child endurance in a romanticized or militarized way."
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "نغرقُ": {
+                "variants_ar": [
+                    "نغرق",
+                    "نغرق في المعاناة",
+                    "نغرق تحت البلاء"
+                ],
+                "meaning_en": "We drown; literal or metaphorical image of overwhelming crisis."
+            },
+            "الحمدلله": {
+                "variants_ar": [
+                    "الحمد لله",
+                    "نحمد الله"
+                ],
+                "meaning_en": "Praise be to Allah; hamd under hardship."
+            },
+            "كُتِبَ علينا": {
+                "variants_ar": [
+                    "فُرض علينا",
+                    "قُدّر علينا",
+                    "كتب الله علينا"
+                ],
+                "meaning_en": "Was written/decreed upon us."
+            },
+            "الجهاد": {
+                "variants_ar": [
+                    "المجاهدة",
+                    "الكفاح",
+                    "الجهاد في سبيل الله",
+                    "تحمّل البلاء"
+                ],
+                "meaning_en": "Struggle/endurance frame in this context; annotate cautiously as religious discourse, not operational action."
+            },
+            "كما كتب علينا الصيام": {
+                "variants_ar": [
+                    "كما فُرض علينا الصيام",
+                    "مثلما فُرض علينا الصيام"
+                ],
+                "meaning_en": "As fasting was decreed upon us; analogy to religious duty."
+            },
+            "الصبر والثبات": {
+                "variants_ar": [
+                    "الصمود",
+                    "التحمل",
+                    "الاستمرار بثبات"
+                ],
+                "meaning_en": "Patience, resilience, and steadfastness."
+            },
+            "رغم كل الآلام / الجراح / الصعاب": {
+                "variants_ar": [
+                    "رغم الوجع",
+                    "رغم الجراح",
+                    "رغم الصعوبات"
+                ],
+                "meaning_en": "Despite pains, wounds, and difficulties."
+            },
+            "مستمرون": {
+                "variants_ar": [
+                    "سنواصل",
+                    "لن نتوقف",
+                    "ماضون"
+                ],
+                "meaning_en": "We continue; collective endurance."
+            },
+            "موطن لا يوجد فيه أحد": {
+                "variants_ar": [
+                    "موطن ابتلاء لا يشبه غيره",
+                    "موطن خصّ الله أهله بهذا الامتحان",
+                    "موطن الرباط والابتلاء",
+                    "مقام اختبار لا يعيشه باقي العالم"
+                ],
+                "meaning_en": "A unique station/place of divine trial and ribat, not merely a physically empty place. It means Allah has singled out the people of Gaza for an ordeal unlike that experienced by much of the world; this ordeal is also understood as a blessing because of its great reward in the Hereafter."
+            },
+            "نُمتحَن": {
+                "variants_ar": [
+                    "نُبتلى",
+                    "نخضع لاختبار",
+                    "نمر بابتلاء"
+                ],
+                "meaning_en": "We are being tested; divine-test/ordeal frame."
+            },
+            "بإذن الله ناجحون": {
+                "variants_ar": [
+                    "سننجح بإذن الله",
+                    "بمشيئة الله سنجتاز الامتحان"
+                ],
+                "meaning_en": "By Allah's permission, we will succeed/pass the test."
+            },
+            "المحنة والنعمة": {
+                "variants_ar": [
+                    "الابتلاء والنعمة",
+                    "المحنة ذات الأجر العظيم",
+                    "البلاء الذي يحمل ثواباً"
+                ],
+                "meaning_en": "The ordeal as both tribulation and blessing because of its religious meaning and great reward in the Hereafter."
+            },
+            "الجهاد والرباط": {
+                "variants_ar": [
+                    "جهاد الصبر والثبات",
+                    "الرباط في غزة",
+                    "المجاهدة والثبات"
+                ],
+                "meaning_en": "A religious-discursive frame of struggle, steadfastness, and guarding/enduring in Gaza; annotate as meaning-making and not as operational action."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "child_faith_based_sabr_trial_blessing_ribat_afterlife_orientation",
+        "paper_fit_ar": "تصلح Narrative41 كحالة قصيرة لكنها مهمة جداً لأنها تُظهر كيف يمكن لطفل من غزة أن يصوغ المعاناة بلغة فصحى دينية عالية الكثافة. الرواية لا تصف الألم فقط؛ بل تحوّله إلى إطار تكليف وابتلاء: «كُتب علينا الجهاد كما كتب علينا الصيام»، ثم «كُتب علينا الصبر والثبات»، ثم «نُمتحَن ولكننا بإذن الله ناجحون». الأهم في التعديل الدلالي هنا أن عبارة «موطن لا يوجد فيه أحد» لا تُفهم كفراغ مكاني حرفي، بل كإشارة إلى أن الله خصّ أهل غزة بموطن ابتلاء ورباط لا يعيشه أغلب العالم، وأن هذه المحنة تُفهم في الوقت نفسه كنعمة لعظم أجرها في الآخرة. هذا مهم لـ SABR لأنه يكشف أن الصبر في الخطاب الغزي ليس مجرد احتمال سلبي للألم، بل نظام معنى متكامل يربط الألم بالحمد، والثبات، والامتحان، والنجاح بإذن الله، وتفضيل أجر الآخرة على الدنيا الفانية. من الناحية التحليلية، قوة الرواية أنها صادرة عن طفل؛ لذلك يجب التعامل معها بحذر أخلاقي وعدم تحويلها إلى تمجيد لمعاناة الأطفال، لكنها تُظهر بوضوح كيف تُكتسب مفردات الصبر والثبات والرباط والابتلاء مبكراً في سياق جماعي طويل من الحرب والحصار.",
+        "paper_fit_en": "Narrative41 is short but analytically important because it shows how a child from Gaza can frame suffering through a dense formal religious register. The statement does not merely describe pain; it converts pain into a framework of obligation and trial: 'struggle has been written upon us as fasting was written upon us', then 'patience and steadfastness have been written upon us', and finally 'we are being tested, but by Allah's permission we will succeed.' The key interpretive update is that 'موطن لا يوجد فيه أحد' should not be read as literal physical emptiness. It signals Gaza as a unique station of trial and ribat, one that Allah has singled its people out for, unlike much of the world that lives away from such bloody war. The ordeal is therefore also framed as a blessing because of its great reward in the Hereafter. For SABR, this shows that sabr in Gazan discourse is not merely passive tolerance of pain, but a meaning system linking suffering with hamd, steadfastness, divine testing, success by Allah's permission, and the prioritization of the Hereafter over the fleeting worldly life. Analytically, the power of the narrative lies in the fact that it is spoken by a child; ethically, it must not be used to romanticize children's suffering, but it clearly illustrates the early internalization of sabr, thabat, ribat, and divine-test vocabulary within a prolonged collective crisis."
+    },
+    "ethical_note": {
+        "risk_level": "high_sensitivity_minor_wartime_faith_resilience_discourse",
+        "notes": [
+            "The speaker is a child/minor and should be treated as vulnerable.",
+            "The exact age supplied for classification is intentionally not included in the annotation.",
+            "Although the statement is strongly resilient and faith-based, it should not be used to romanticize, militarize, or normalize children's suffering.",
+            "The term 'الجهاد' should be interpreted in context as a religious-discursive frame of struggle/endurance/ribat, not as operational instruction.",
+            "The interpretation of 'موطن لا يوجد فيه أحد' should be handled carefully: it reflects an internal faith-based meaning system in which ordeal can be understood as both trial and blessing because of the Hereafter, not a claim that suffering itself should be celebrated.",
+            "Use text-only in public research outputs; avoid video stills, face, voice, or other identifying features.",
+            "No clinical diagnosis should be inferred. Annotation focuses on discourse, adversity, response strategy, contextual markers, and affective signal."
+        ],
+        "recommended_public_version": "pseudonymized_text_only; broad child/minor classification only; no exact age; no visual/audio identifiers"
+    },
+    "research_update_notes": {
+        "mowtin_interpretation_ar": "«موطن لا يوجد فيه أحد» تعني أن الله خصّ أهل غزة بهذا الابتلاء والرباط بينما ينعم كثير من العالم بعيداً عن حرب دموية كهذه. المحنة هنا تُفهم دينياً أيضاً كنعمة لأن أجرها عظيم في الآخرة، وهي المبتغى لا الدنيا الفانية.",
+        "mowtin_interpretation_en": "'A place/station that no one else occupies' means Gaza is framed as uniquely singled out for this ordeal and ribat while much of the world lives away from such war. The ordeal is understood religiously as both hardship and blessing because of its great reward in the Hereafter, which is the ultimate aim rather than the fleeting worldly life."
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

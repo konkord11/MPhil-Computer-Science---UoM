@@ -3,8 +3,8 @@
     "narrative_id": "Narrative30_Pseudonymized",
     "source_meta": {
         "source_id": "Narrative30",
-        "source_type": "pasted_transcription_with_whisper_timestamps",
-        "source_platform": "public/video source",
+        "source_type": "public_journalist_video_transcription_with_whisper_timestamps",
+        "source_platform": "public journalist video",
         "original_language": "ar",
         "dialect": "Palestinian Arabic (Jabalia dialect)",
         "reported_context": "A bereaved mother and bombing survivor recounts being told that her four daughters and Walid were martyred, describes an unexpected feeling of divine tranquility at the moment of the news, reconstructs the bombing and her own serious injuries, and remembers each daughter through affection, personality, light, and continuing spiritual presence.",

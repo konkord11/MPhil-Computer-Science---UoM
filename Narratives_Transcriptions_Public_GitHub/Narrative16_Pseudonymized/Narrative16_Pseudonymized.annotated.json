@@ -3,8 +3,8 @@
     "narrative_id": "Narrative16_Pseudonymized",
     "source_meta": {
         "source_cluster_id": "SC16_TwinBirthCertificates",
-        "source_type": "video_transcription",
-        "source_platform": "Short Video (public testimony / journalist repost)",
+        "source_type": "public_journalist_video_transcription_with_whisper_timestamps",
+        "source_platform": "public journalist video",
         "original_author": "Public circulation source (archived for research use)",
         "original_language": "ar",
         "dialect": "Palestinian Arabic (Gaza dialect)",

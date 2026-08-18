@@ -3,8 +3,8 @@
     "narrative_id": "Narrative02_Pseudonymized",
     "source_meta": {
         "source_cluster_id": "SC02_ForcedDisplacement_IG",
-        "source_type": "video_transcription",
-        "source_platform": "Instagram",
+        "source_type": "public_journalist_video_transcription_with_whisper_timestamps",
+        "source_platform": "public journalist video",
         "original_author": "Journalist's Archive (provided with consent)",
         "original_language": "ar",
         "dialect": "Palestinian (Northern Gaza: Jabalia / Beit Lahia (Jabalian dialect))",

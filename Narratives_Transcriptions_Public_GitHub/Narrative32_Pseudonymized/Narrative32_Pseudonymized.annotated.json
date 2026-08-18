@@ -1,0 +1,728 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative32_Pseudonymized",
+    "source_meta": {
+        "source_id": "Narrative32",
+        "source_type": "public_journalist_video_transcription_with_whisper_timestamps",
+        "source_platform": "public journalist video",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (Gaza City; religious register with colloquial narration)",
+        "reported_context": "Rami al-Husayni, an adult man from Gaza City and a released prisoner, describes the deprivation of Qur'ans inside prison sections, the prisoners' attempts to recite from memory, the role of Qur'an memorisation as a source of inner refuge and communal support, and his realisation that having the Qur'an preserved in the chest is a blessing no one can take away.",
+        "collection_context_en": "The speaker reflects on prison conditions where most sections lacked a mushaf. Prisoners recited from memory; some only knew short surahs, while others could recite pages before suddenly stopping at a forgotten verse. In those moments, the speaker realised the meaning of Allah's kindness to him because the Qur'an was preserved in his chest. He explains that prisoners called the room containing a memoriser of the Qur'an 'the treasure room'.",
+        "collection_context_ar": "يتأمل رامي الحسيني، وهو أسير محرر من مدينة غزة، تجربة الحرمان من المصاحف داخل السجن. يصف كيف كان الأسرى يقرؤون من صدورهم، وكيف كان بعضهم يتوقف عند آيات شردت من رأسه. في تلك اللحظات أدرك معنى إحسان الله إليه بأن جعل القرآن محفوظاً في صدره. كما يصف الغرفة التي فيها حافظ لكتاب الله بأنها كانت تُسمى الغرفة الكنز."
+    },
+    "anonymization": {
+        "is_pseudonymized": true,
+        "strategy": "name_replacement_pool",
+        "contains_real_names": false,
+        "contains_minors": false,
+        "contains_deceased_children": false,
+        "notes": "Person names and identifying tokens in this tree are replaced using Gaza_NamePool_v1 with dataset-consistent mappings. Original strings are retained only in Narratives_Transcriptions. Follow Project_Research_Documentation/protocols/mphil_uom_ethics_and_governance.txt for storage, consent scope, and thesis use. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "within_dataset_consistent"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Palestinian/Gazan dialect, Islamic discourse, Qur'anic memorisation practices, prison testimony, and SABR annotation conventions."
+            }
+        ],
+        "adjudication": {
+            "status": "draft_annotation_ready_for_review",
+            "note": "Corrected Arabic text supplied by the user is treated as the source of truth. Whisper timestamps are used only for approximate alignment. Obvious ASR noise not present in the corrected transcript is excluded."
+        },
+        "alignment_note": "Timestamps are approximate and mapped from the Whisper output. Corrected transcript controls wording and interpretation.",
+        "selection_policy": "Segmentation follows the speaker's main discourse shifts: deprivation of the mushaf; prisoners reciting from memory and struggling with forgotten verses; the room with a Qur'an memoriser as a communal treasure; Qur'an as safety and companion during imprisonment; present-day abundance of mushafs and the call to recognise the blessing; and the final lesson that internal Qur'an cannot be taken away."
+    },
+    "speaker_profile": {
+        "gender": "male",
+        "age_estimate": "adult",
+        "origin": "Gaza City",
+        "role_or_status": [
+            "Released prisoner",
+            "Religious speaker",
+            "Qur'an memoriser",
+            "Public testimony speaker"
+        ]
+    },
+    "approx_context": {
+        "brief_summary_en": "An adult released prisoner from Gaza City describes how many prison sections lacked a mushaf and how this deprivation became a form of spiritual and emotional hardship. Prisoners recited from memory, sometimes struggling painfully when verses slipped away despite being memorised. The speaker realises that Allah had been kind to him by allowing him to memorise the Qur'an before imprisonment. A room containing a memoriser of the Qur'an became known among prisoners as 'the treasure room'.",
+        "brief_summary_ar": "يروي أسير محرر بالغ من مدينة غزة كيف كانت أغلب أقسام السجن بلا مصحف، وكيف كان هذا الحرمان شكلاً من المعاناة الروحية والنفسية. كان الأسرى يقرؤون من صدورهم، ويتألمون حين تشرد الآيات من الذاكرة رغم أنهم يحفظونها. يدرك المتحدث أن الله أحسن إليه حين يسّر له حفظ القرآن قبل الأسر."
+    },
+    "text_ar_full": "في السجن أغلب الأقسام ما كان فيها مصحف، تخيل انو يمر عليك يوم واتنين وشهر واتنين وسنة وتنتين وانت ما مسكت كتاب الله بإيدك، تخيل انه تكون كل يوم متعود تفتح القرآن تراجع، تقرأ، تسرح بين الآيات، تتدبر وتتأمل وفجأة.. كل هادا يختفي. كان الأسرى يقرؤوا من صدورهم، كل واحد يغمض عينه يحاول استجماع واسترجاع ما يحفظ من الآيات يبدأ بسرد المحفوظ بما استطاع إلى ذلك سبيلاً، لكن بعضهم كان يحفظ قصار السور، والبعض الآخر كان بيمشي صفحات وصفحات فجأة بقف عند بعض الآيات ببساطة لأنها شردت من راسه مش قادر يستجمع ولا يسترجع، ما بيقدر يسترجعها، تضلها تدور في راسه وهو عارف انه حافظها بس مش قادر يسترجعها، يحاول مرة ومرتين وألف، يستعيذ بالله من الشيطان مرة وألف، لكن برضو مش راضية تزبط معه، في تلك اللحظة تماماً، أدركت معنى قوله جل وعلا \"وقد أحسن بي\"، أدركت أن الله عز وجل أحسن بي لما استشعرت بنعمة الله سبحانه وتعالى انه يكون القرآن محفوظ في صدرك. أحكيلكم.. الأسرى كانوا يسمّوا الغرفة إلي حافظ لكتاب الله الغرفة الكنز. لأنه الله سبحانه وتعالى فضّل وميّز هادي الغرفة على باقي الغرف، وتنعّم عليها إنه وضع فيها حافظ لكتاب الله، كل الشباب كل الأسرى بيرجعوا اله، إذا استصعبت عليهم آية أو علقت معهم عند آية معينة، على طول بيفتح عليهم. قديش شعرت بإحسان الله سبحانه وتعالى علي، القرآن ما كان إلا أمان، تثبيت، صاحب، مؤنس، جليس، رفيق في هذا الطريق الصعب، كنت أقول بيني وبين نفسي يا رب وقد أحسنتَ إلَيّ وقد أحسنت بي، لأنك يسّرت لي قبل الأسر أن أحفظ كتابك، لو ما كنت أحفظ القرآن، ما بعرف كيف كان ممكن يمر هذا الليل الطويل. اليوم المصحف بين إيدينا في بيت كل واحد منا بدل المصحف عشرين، احنا كنا عشرين على مصحف واحد، اليوم في البيت الواحد أكتر من عشرين مصحف، في جوال كل واحد مصحف، في المسجد مصحف، في كل وقت في حوالينا مصاحف لكن هل استشعرنا حقيقة هذه النعمة فعلاً؟ السجن علمني انو أعظم ما تملكه قد يكون شيء لا يستطيع أحد أن ينتزعه منك، قد أحسن بي ربي جل وعلا إذ جعل في صدري قرآناً، كان لي وطناً حين ضاقت عليّ الأرض بما رحبت، وقد أحسن بي.",
+    "text_en_full": "In prison, most sections did not have a mushaf. Imagine a day, two days, a month, two months, a year, two years passing over you while you have not held the Book of Allah in your hand. Imagine being used every day to opening the Qur'an, reviewing, reading, wandering among the verses, contemplating and reflecting, and then suddenly all of that disappears. The prisoners used to read from their chests, from memory. Each one would close his eyes and try to gather and retrieve what he had memorised of the verses, beginning to recite what he had preserved as much as he was able. But some only memorised the short surahs, while another could go through pages and pages, then suddenly stop at some verses simply because they had slipped from his head. He could not gather them or retrieve them. He could not bring them back. They would keep turning in his head, and he knew he had memorised them, but he could not retrieve them. He would try once, twice, and a thousand times; he would seek refuge in Allah from Satan once and a thousand times, but still it would not work for him. At exactly that moment, I understood the meaning of His saying, exalted is He: 'And He has been good to me.' I realised that Allah, Mighty and Majestic, had been good to me when I felt the blessing of Allah, exalted is He, that the Qur'an was preserved in your chest. Let me tell you: the prisoners used to call the room that had a memoriser of the Book of Allah 'the treasure room.' That is because Allah, exalted is He, favoured and distinguished this room above the other rooms, and blessed it by placing in it a memoriser of the Book of Allah. All the young men, all the prisoners, returned to him. If a verse became difficult for them, or they got stuck at a certain verse, immediately he would open it for them. How much I felt Allah's kindness to me. The Qur'an was nothing but safety, stability, companion, comforter, intimate companion, and friend on this difficult road. I used to say between myself and myself: My Lord, You have been good to me, and You have been good to me, because You made it easy for me before captivity to memorise Your Book. If I had not memorised the Qur'an, I do not know how this long night could have passed. Today, the mushaf is in our hands. In the house of each one of us there are twenty instead of one. We were twenty people sharing one mushaf. Today, in one house there are more than twenty mushafs; in every person's phone there is a mushaf; in the mosque there is a mushaf; at every time there are mushafs around us. But have we truly felt the reality of this blessing? Prison taught me that the greatest thing you own may be something no one can take away from you. My Lord, exalted is He, has been good to me, for He placed Qur'an in my chest. It was a homeland for me when the earth, vast as it was, became tight around me. And He has been good to me.",
+    "segments": [
+        {
+            "segment_id": "Narrative32_s01",
+            "start_time": 0.0,
+            "end_time": 17.3,
+            "text_ar": "في السجن أغلب الأقسام ما كان فيها مصحف، تخيل انو يمر عليك يوم واتنين وشهر واتنين وسنة وتنتين وانت ما مسكت كتاب الله بإيدك، تخيل انه تكون كل يوم متعود تفتح القرآن تراجع، تقرأ، تسرح بين الآيات، تتدبر وتتأمل وفجأة.. كل هادا يختفي.",
+            "text_en": "In prison, most sections did not have a mushaf. Imagine a day, two days, a month, two months, a year, two years passing over you while you have not held the Book of Allah in your hand. Imagine being used every day to opening the Qur'an, reviewing, reading, wandering among the verses, contemplating and reflecting, and then suddenly all of that disappears.",
+            "event_frame": {
+                "adversity_description": "The speaker describes religious deprivation in prison: most sections lacked a mushaf, and prisoners could go long periods without holding the Qur'an.",
+                "response_description": "He invites the listener to imagine the loss of a daily spiritual routine of reading, reviewing, and contemplating Qur'anic verses."
+            },
+            "sabr_frame": {
+                "sabr_type": "religious_deprivation_and_loss_of_quranic_routine",
+                "features": [
+                    "prison_context",
+                    "no_mushaf",
+                    "religious_deprivation",
+                    "loss_of_daily_quran_routine",
+                    "imaginative_address",
+                    "sudden_spiritual_absence"
+                ],
+                "explanation": "The adversity is not only imprisonment but the sudden disappearance of direct access to the Qur'an as a daily source of orientation, worship, and emotional stability."
+            },
+            "affective_signals": {
+                "dominant_affect": "spiritual_deprivation_and_sober_grief",
+                "secondary_affects": [
+                    "disbelief",
+                    "longing",
+                    "reverent_loss"
+                ],
+                "justification": "The repeated 'تخيل' and the contrast between daily Qur'anic practice and 'فجأة.. كل هادا يختفي' show sober grief over religious deprivation.",
+                "confidence": 0.91
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "اتنين / تنتين",
+                        "note": "Palestinian/Gazan colloquial forms for 'two'."
+                    },
+                    {
+                        "marker": "بإيدك",
+                        "note": "In your hand; colloquial pronunciation/form."
+                    },
+                    {
+                        "marker": "هادا",
+                        "note": "Palestinian/Gazan demonstrative: this."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "مصحف",
+                        "note": "Physical copy of the Qur'an; absence marks religious deprivation."
+                    },
+                    {
+                        "marker": "كتاب الله",
+                        "note": "The Book of Allah; reverential naming of the Qur'an."
+                    },
+                    {
+                        "marker": "تراجع، تقرأ، تسرح بين الآيات، تتدبر وتتأمل",
+                        "note": "Sequence of Qur'anic practices: review, recitation, contemplative wandering among verses, reflection."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "تخيل",
+                        "note": "Direct address asks the listener to inhabit a deprivation hard to imagine outside prison."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "يوم واتنين وشهر واتنين وسنة وتنتين",
+                        "note": "Escalating time scale intensifies the imagined deprivation."
+                    },
+                    {
+                        "marker": "وفجأة.. كل هادا يختفي",
+                        "note": "Abrupt disappearance marks rupture from ordinary religious life."
+                    }
+                ],
+                "gesture_markers": []
+            }
+        },
+        {
+            "segment_id": "Narrative32_s02",
+            "start_time": 17.36,
+            "end_time": 66.6,
+            "text_ar": "كان الأسرى يقرؤوا من صدورهم، كل واحد يغمض عينه يحاول استجماع واسترجاع ما يحفظ من الآيات يبدأ بسرد المحفوظ بما استطاع إلى ذلك سبيلاً، لكن بعضهم كان يحفظ قصار السور، والبعض الآخر كان بيمشي صفحات وصفحات فجأة بقف عند بعض الآيات ببساطة لأنها شردت من راسه مش قادر يستجمع ولا يسترجع، ما بيقدر يسترجعها، تضلها تدور في راسه وهو عارف انه حافظها بس مش قادر يسترجعها، يحاول مرة ومرتين وألف، يستعيذ بالله من الشيطان مرة وألف، لكن برضو مش راضية تزبط معه، في تلك اللحظة تماماً، أدركت معنى قوله جل وعلا \"وقد أحسن بي\"، أدركت أن الله عز وجل أحسن بي لما استشعرت بنعمة الله سبحانه وتعالى انه يكون القرآن محفوظ في صدرك.",
+            "text_en": "The prisoners used to read from their chests, from memory. Each one would close his eyes and try to gather and retrieve what he had memorised of the verses, beginning to recite what he had preserved as much as he was able. But some only memorised the short surahs, while another could go through pages and pages, then suddenly stop at some verses simply because they had slipped from his head. He could not gather them or retrieve them. He could not bring them back. They would keep turning in his head, and he knew he had memorised them, but he could not retrieve them. He would try once, twice, and a thousand times; he would seek refuge in Allah from Satan once and a thousand times, but still it would not work for him. At exactly that moment, I understood the meaning of His saying, exalted is He: 'And He has been good to me.' I realised that Allah, Mighty and Majestic, had been good to me when I felt the blessing of Allah, exalted is He, that the Qur'an was preserved in your chest.",
+            "event_frame": {
+                "adversity_description": "Without mushafs, prisoners rely on memorisation; forgotten verses become a painful spiritual struggle under confinement.",
+                "response_description": "The speaker interprets his ability to carry Qur'an in memory as divine ihsan and a blessing revealed by deprivation."
+            },
+            "sabr_frame": {
+                "sabr_type": "quranic_memory_as_inner_refuge_under_deprivation",
+                "features": [
+                    "reciting_from_memory",
+                    "forgetting_verses",
+                    "repeated_attempts",
+                    "istiadhah",
+                    "quran_in_chest",
+                    "divine_ihsan",
+                    "blessing_discovered_through_prison"
+                ],
+                "explanation": "When physical copies are absent, memorisation becomes a spiritual resource that confinement cannot easily remove."
+            },
+            "affective_signals": {
+                "dominant_affect": "reverent_realisation_after_spiritual_struggle",
+                "secondary_affects": [
+                    "frustration",
+                    "gratitude",
+                    "awe"
+                ],
+                "justification": "The struggle to retrieve verses leads to 'أدركت' and the repeated recognition that Allah 'أحسن بي' by preserving Qur'an in the chest.",
+                "confidence": 0.94
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "يقرؤوا من صدورهم",
+                        "note": "They read from their chests, meaning from memory/by heart."
+                    },
+                    {
+                        "marker": "بيمشي صفحات وصفحات",
+                        "note": "He goes through pages and pages; colloquial description of extended recitation from memory."
+                    },
+                    {
+                        "marker": "شردت من راسه",
+                        "note": "The verse slipped from his head; colloquial expression for sudden forgetting."
+                    },
+                    {
+                        "marker": "مش راضية تزبط معه",
+                        "note": "It still would not work for him; colloquial personification of failed recall."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "قصار السور",
+                        "note": "Short surahs; Qur'anic memorisation category."
+                    },
+                    {
+                        "marker": "يستعيذ بالله من الشيطان",
+                        "note": "Seeking refuge in Allah from Satan during difficulty with recitation."
+                    },
+                    {
+                        "marker": "وقد أحسن بي",
+                        "note": "Qur'anic phrase used as the central theological frame of the narrative."
+                    },
+                    {
+                        "marker": "القرآن محفوظ في صدرك",
+                        "note": "Embodied memorisation frame: the Qur'an is carried internally."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "حافظها بس مش قادر يسترجعها",
+                        "note": "The pain of knowing one has memorised something sacred but being unable to retrieve it."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "مرة ومرتين وألف",
+                        "note": "Formulaic exaggeration indicating repeated attempts."
+                    },
+                    {
+                        "marker": "في تلك اللحظة تماماً، أدركت",
+                        "note": "Reflective pivot from struggle to theological insight."
+                    }
+                ],
+                "gesture_markers": [
+                    {
+                        "marker": "كل واحد يغمض عينه",
+                        "note": "Closing the eyes functions as an embodied attempt to retrieve memorised verses."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "Narrative32_s03",
+            "start_time": 67.64,
+            "end_time": 90.68,
+            "text_ar": "أحكيلكم.. الأسرى كانوا يسمّوا الغرفة إلي حافظ لكتاب الله الغرفة الكنز. لأنه الله سبحانه وتعالى فضّل وميّز هادي الغرفة على باقي الغرف، وتنعّم عليها إنه وضع فيها حافظ لكتاب الله، كل الشباب كل الأسرى بيرجعوا اله، إذا استصعبت عليهم آية أو علقت معهم عند آية معينة، على طول بيفتح عليهم.",
+            "text_en": "Let me tell you: the prisoners used to call the room that had a memoriser of the Book of Allah 'the treasure room.' That is because Allah, exalted is He, favoured and distinguished this room above the other rooms, and blessed it by placing in it a memoriser of the Book of Allah. All the young men, all the prisoners, returned to him. If a verse became difficult for them, or they got stuck at a certain verse, immediately he would open it for them.",
+            "event_frame": {
+                "adversity_description": "In a prison environment with few or no mushafs, access to Qur'anic recall is scarce and collectively needed.",
+                "response_description": "Prisoners create a communal support system around the person who has memorised the Qur'an, naming his room 'the treasure room' and returning to him for help."
+            },
+            "sabr_frame": {
+                "sabr_type": "communal_quranic_support_and_hafiz_as_treasure",
+                "features": [
+                    "hafiz_in_prison_room",
+                    "treasure_room",
+                    "communal_reliance",
+                    "opening_verses_for_others",
+                    "shared_resilience",
+                    "spiritual_resource_distribution"
+                ],
+                "explanation": "The memoriser's internal Qur'an becomes a shared resource for other prisoners."
+            },
+            "affective_signals": {
+                "dominant_affect": "grateful_pride_and_communal_reverence",
+                "secondary_affects": [
+                    "belonging",
+                    "spiritual_respect"
+                ],
+                "justification": "The phrase 'الغرفة الكنز' and the idea that Allah favoured that room convey reverence for Qur'anic memorisation as a communal blessing.",
+                "confidence": 0.92
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "أحكيلكم",
+                        "note": "Let me tell you; colloquial address introducing a vivid anecdote."
+                    },
+                    {
+                        "marker": "هادي",
+                        "note": "This; Palestinian/Gazan demonstrative."
+                    },
+                    {
+                        "marker": "بيرجعوا اله",
+                        "note": "They return to him / go back to him for help."
+                    },
+                    {
+                        "marker": "على طول",
+                        "note": "Immediately."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "حافظ لكتاب الله",
+                        "note": "A memoriser of the Book of Allah; elevated religious role."
+                    },
+                    {
+                        "marker": "الله سبحانه وتعالى فضّل وميّز",
+                        "note": "The room's value is framed as divine favour and distinction."
+                    },
+                    {
+                        "marker": "يفتح عليهم",
+                        "note": "In Qur'anic recitation context, to 'open' on someone means to prompt/remind them of the verse they forgot."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "الغرفة الكنز",
+                        "note": "Metaphor of treasure: a room with a Qur'an memoriser becomes valuable under deprivation."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "كل الشباب كل الأسرى",
+                        "note": "Repetition emphasizes collective dependence on the memoriser."
+                    }
+                ],
+                "gesture_markers": []
+            }
+        },
+        {
+            "segment_id": "Narrative32_s04",
+            "start_time": 91.76,
+            "end_time": 114.86,
+            "text_ar": "قديش شعرت بإحسان الله سبحانه وتعالى علي، القرآن ما كان إلا أمان، تثبيت، صاحب، مؤنس، جليس، رفيق في هذا الطريق الصعب، كنت أقول بيني وبين نفسي يا رب وقد أحسنتَ إلَيّ وقد أحسنت بي، لأنك يسّرت لي قبل الأسر أن أحفظ كتابك، لو ما كنت أحفظ القرآن، ما بعرف كيف كان ممكن يمر هذا الليل الطويل.",
+            "text_en": "How much I felt Allah's kindness to me. The Qur'an was nothing but safety, stability, companion, comforter, intimate companion, and friend on this difficult road. I used to say between myself and myself: My Lord, You have been good to me, and You have been good to me, because You made it easy for me before captivity to memorise Your Book. If I had not memorised the Qur'an, I do not know how this long night could have passed.",
+            "event_frame": {
+                "adversity_description": "The speaker frames captivity as a difficult road and a long night.",
+                "response_description": "He names the Qur'an as safety, stabilisation, companion, comforter, and friend, and turns inwardly to Allah in gratitude."
+            },
+            "sabr_frame": {
+                "sabr_type": "quran_as_companion_and_tathbit_in_long_captivity",
+                "features": [
+                    "quran_as_aman",
+                    "tathbit",
+                    "companion_metaphors",
+                    "inner_dua",
+                    "gratitude_for_hifz",
+                    "long_night_of_captivity"
+                ],
+                "explanation": "The Qur'an functions as affective stabiliser and social-spiritual companion in isolation."
+            },
+            "affective_signals": {
+                "dominant_affect": "devotional_gratitude_and_steadfast_composure",
+                "secondary_affects": [
+                    "relief",
+                    "reverence",
+                    "loneliness_regulated_by_faith"
+                ],
+                "justification": "The list 'أمان، تثبيت، صاحب، مؤنس، جليس، رفيق' shows the Qur'an stabilising loneliness and difficulty; 'وقد أحسنت بي' frames this as gratitude to Allah.",
+                "confidence": 0.96
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "قديش",
+                        "note": "How much; colloquial intensifier."
+                    },
+                    {
+                        "marker": "ما بعرف",
+                        "note": "I do not know; Palestinian/Gazan colloquial form."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "إحسان الله سبحانه وتعالى",
+                        "note": "Divine benevolence/kindness as the interpretive frame."
+                    },
+                    {
+                        "marker": "أمان، تثبيت",
+                        "note": "Qur'an as safety and spiritual stabilisation."
+                    },
+                    {
+                        "marker": "يا رب وقد أحسنت إلي وقد أحسنت بي",
+                        "note": "Direct inward address to Allah, repeating the central Qur'anic/gratitude frame."
+                    },
+                    {
+                        "marker": "أن أحفظ كتابك",
+                        "note": "Memorising Allah's Book before captivity becomes a preparation for endurance."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "صاحب، مؤنس، جليس، رفيق",
+                        "note": "Companionship vocabulary casts the Qur'an as a relational presence in isolation."
+                    },
+                    {
+                        "marker": "هذا الليل الطويل",
+                        "note": "Long night metaphor for captivity and psychological endurance."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "القرآن ما كان إلا...",
+                        "note": "Exclusive construction emphasizes that the Qur'an became the central source of safety and endurance."
+                    }
+                ],
+                "gesture_markers": []
+            }
+        },
+        {
+            "segment_id": "Narrative32_s05",
+            "start_time": 114.86,
+            "end_time": 135.48,
+            "text_ar": "اليوم المصحف بين إيدينا في بيت كل واحد منا بدل المصحف عشرين، احنا كنا عشرين على مصحف واحد، اليوم في البيت الواحد أكتر من عشرين مصحف، في جوال كل واحد مصحف، في المسجد مصحف، في كل وقت في حوالينا مصاحف لكن هل استشعرنا حقيقة هذه النعمة فعلاً؟",
+            "text_en": "Today, the mushaf is in our hands. In the house of each one of us there are twenty instead of one. We were twenty people sharing one mushaf. Today, in one house there are more than twenty mushafs; in every person's phone there is a mushaf; in the mosque there is a mushaf; at every time there are mushafs around us. But have we truly felt the reality of this blessing?",
+            "event_frame": {
+                "adversity_description": "The speaker contrasts prison scarcity, where twenty prisoners shared one mushaf, with present abundance of physical and digital mushafs.",
+                "response_description": "He turns the testimony into moral-religious reflection, asking whether people truly recognise the blessing they have."
+            },
+            "sabr_frame": {
+                "sabr_type": "scarcity_to_blessing_awareness_after_prison",
+                "features": [
+                    "contrast_between_scarcity_and_abundance",
+                    "twenty_prisoners_one_mushaf",
+                    "digital_mushaf",
+                    "moral_reflection",
+                    "blessing_awareness"
+                ],
+                "explanation": "The memory of deprivation produces a renewed perception of ordinary access to the Qur'an as a blessing."
+            },
+            "affective_signals": {
+                "dominant_affect": "reflective_admonition_and_gratitude",
+                "secondary_affects": [
+                    "wonder",
+                    "moral_urgency"
+                ],
+                "justification": "The repeated contrast between 'عشرين على مصحف واحد' and the abundance of mushafs today culminates in the question 'هل استشعرنا حقيقة هذه النعمة؟'",
+                "confidence": 0.89
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "إيدينا",
+                        "note": "Our hands; colloquial pronunciation/form."
+                    },
+                    {
+                        "marker": "احنا",
+                        "note": "We; colloquial form."
+                    },
+                    {
+                        "marker": "أكتر",
+                        "note": "More; colloquial form."
+                    },
+                    {
+                        "marker": "جوال",
+                        "note": "Mobile phone; digital Qur'an access."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "المصحف",
+                        "note": "Physical/digital access to Qur'an as a spiritual blessing."
+                    },
+                    {
+                        "marker": "هذه النعمة",
+                        "note": "The blessing of accessible Qur'ans."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "عشرين على مصحف واحد",
+                        "note": "Scarcity scene: many prisoners sharing one Qur'an."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "اليوم... احنا كنا... اليوم...",
+                        "note": "Temporal contrast between present abundance and prison deprivation."
+                    },
+                    {
+                        "marker": "لكن هل استشعرنا...",
+                        "note": "Rhetorical question transforms testimony into ethical reflection."
+                    }
+                ],
+                "gesture_markers": []
+            }
+        },
+        {
+            "segment_id": "Narrative32_s06",
+            "start_time": 135.88,
+            "end_time": 153.44,
+            "text_ar": "السجن علمني انو أعظم ما تملكه قد يكون شيء لا يستطيع أحد أن ينتزعه منك، قد أحسن بي ربي جل وعلا إذ جعل في صدري قرآناً، كان لي وطناً حين ضاقت عليّ الأرض بما رحبت، وقد أحسن بي.",
+            "text_en": "Prison taught me that the greatest thing you own may be something no one can take away from you. My Lord, exalted is He, has been good to me, for He placed Qur'an in my chest. It was a homeland for me when the earth, vast as it was, became tight around me. And He has been good to me.",
+            "event_frame": {
+                "adversity_description": "Captivity constricts the world and creates a condition where external possessions and freedoms can be taken away.",
+                "response_description": "The speaker concludes that the greatest possession is internal and unseizable: Qur'an in the chest, which became a homeland when the earth narrowed."
+            },
+            "sabr_frame": {
+                "sabr_type": "inner_quran_as_unseizable_homeland_under_captivity",
+                "features": [
+                    "lesson_from_prison",
+                    "unseizable_inner_possession",
+                    "quran_in_chest",
+                    "homeland_metaphor",
+                    "earth_narrowing",
+                    "divine_ihsan_closure"
+                ],
+                "explanation": "Scripture internalised through memorisation becomes a portable homeland and inner possession beyond the jailer's reach."
+            },
+            "affective_signals": {
+                "dominant_affect": "spiritual_certainty_and_meaning_making",
+                "secondary_affects": [
+                    "gratitude",
+                    "steadfastness",
+                    "devotional_calm"
+                ],
+                "justification": "The closing lesson 'أعظم ما تملكه...' and the repeated 'قد أحسن بي' show certainty, gratitude, and meaning-making rather than only suffering.",
+                "confidence": 0.95
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "انو",
+                        "note": "That; colloquial connector."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "قد أحسن بي ربي جل وعلا",
+                        "note": "Direct attribution of the blessing to Allah's kindness."
+                    },
+                    {
+                        "marker": "جعل في صدري قرآناً",
+                        "note": "The Qur'an preserved in the chest as memorised scripture."
+                    },
+                    {
+                        "marker": "ضاقت عليّ الأرض بما رحبت",
+                        "note": "Qur'anic/Islamic phrase of existential constriction; used here to describe captivity."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "كان لي وطناً",
+                        "note": "Homeland metaphor: the Qur'an becomes a place of belonging when physical space is constrained."
+                    },
+                    {
+                        "marker": "شيء لا يستطيع أحد أن ينتزعه منك",
+                        "note": "Internal possession that cannot be confiscated, contrasting with prison control."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "السجن علمني",
+                        "note": "Lesson-frame closure: suffering is converted into reflective wisdom."
+                    },
+                    {
+                        "marker": "وقد أحسن بي",
+                        "note": "Final repetition closes the narrative with devotional gratitude."
+                    }
+                ],
+                "gesture_markers": []
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "مصحف": {
+                "variants_ar": [
+                    "المصحف",
+                    "كتاب الله",
+                    "نسخة من القرآن"
+                ],
+                "meaning_en": "A physical copy of the Qur'an.",
+                "note_ar": "غياب المصحف هنا ليس مجرد نقص كتاب، بل حرمان ديني وروحي داخل السجن."
+            },
+            "يقرؤوا من صدورهم": {
+                "variants_ar": [
+                    "يقرؤون من حفظهم",
+                    "يرتلون عن ظهر قلب",
+                    "يستحضرون الآيات من الذاكرة"
+                ],
+                "meaning_en": "They recited from memory/by heart."
+            },
+            "بيمشي صفحات وصفحات": {
+                "variants_ar": [
+                    "يسرد صفحات كثيرة",
+                    "يقرأ من حفظه صفحات متعددة"
+                ],
+                "meaning_en": "He goes through pages and pages from memory."
+            },
+            "شردت من راسه": {
+                "variants_ar": [
+                    "نسيها",
+                    "غابت عنه",
+                    "فلتت من ذاكرته"
+                ],
+                "meaning_en": "It slipped from his head/memory; sudden failure to recall a verse."
+            },
+            "مرة ومرتين وألف": {
+                "variants_ar": [
+                    "مراراً وتكراراً",
+                    "مرة بعد مرة",
+                    "محاولات كثيرة"
+                ],
+                "meaning_en": "Once, twice, and a thousand times; idiom for repeated attempts."
+            },
+            "يستعيذ بالله من الشيطان": {
+                "variants_ar": [
+                    "يقول أعوذ بالله من الشيطان الرجيم",
+                    "يلجأ إلى الله من وسوسة الشيطان"
+                ],
+                "meaning_en": "He seeks refuge in Allah from Satan."
+            },
+            "مش راضية تزبط معه": {
+                "variants_ar": [
+                    "لم تنجح معه",
+                    "لم يستطع تذكرها",
+                    "لم تضبط معه"
+                ],
+                "meaning_en": "It still would not work for him; colloquial expression for failed recall."
+            },
+            "وقد أحسن بي": {
+                "variants_ar": [
+                    "أحسن الله إلي",
+                    "قد أحسن ربي بي",
+                    "إحسان الله"
+                ],
+                "meaning_en": "He has been good to me; central Qur'anic/gratitude frame."
+            },
+            "القرآن محفوظ في صدرك": {
+                "variants_ar": [
+                    "القرآن في الصدر",
+                    "حفظ القرآن",
+                    "حافظ لكتاب الله"
+                ],
+                "meaning_en": "The Qur'an is preserved in your chest; memorised internally."
+            },
+            "الغرفة الكنز": {
+                "variants_ar": [
+                    "غرفة الكنز",
+                    "الغرفة التي فيها حافظ",
+                    "الغرفة المباركة"
+                ],
+                "meaning_en": "The treasure room; prisoners' name for a room containing a memoriser of the Qur'an."
+            },
+            "يفتح عليهم": {
+                "variants_ar": [
+                    "يلقنهم الآية",
+                    "يذكرهم بالآية",
+                    "يفتح الله عليه"
+                ],
+                "meaning_en": "To prompt someone with a forgotten Qur'anic verse; in recitation culture, 'to open' for them."
+            },
+            "أمان": {
+                "variants_ar": [
+                    "طمأنينة",
+                    "سلام داخلي",
+                    "حماية معنوية"
+                ],
+                "meaning_en": "Safety/security; here the Qur'an as spiritual safety."
+            },
+            "تثبيت": {
+                "variants_ar": [
+                    "ثبات",
+                    "ربط على القلب",
+                    "تقوية"
+                ],
+                "meaning_en": "Stabilisation/steadfastness; spiritual anchoring."
+            },
+            "مؤنس": {
+                "variants_ar": [
+                    "يؤنس الوحشة",
+                    "صاحب",
+                    "رفيق"
+                ],
+                "meaning_en": "Comforter/companion that eases loneliness."
+            },
+            "هذا الليل الطويل": {
+                "variants_ar": [
+                    "ليل الأسر الطويل",
+                    "طول السجن",
+                    "قسوة الليالي"
+                ],
+                "meaning_en": "This long night; metaphor for the prolonged hardship of imprisonment."
+            },
+            "عشرين على مصحف واحد": {
+                "variants_ar": [
+                    "عشرون أسيراً يتشاركون مصحفاً واحداً",
+                    "قلة المصاحف",
+                    "ندرة المصاحف"
+                ],
+                "meaning_en": "Twenty prisoners sharing one mushaf; scarcity of Qur'anic access."
+            },
+            "استشعرنا حقيقة هذه النعمة": {
+                "variants_ar": [
+                    "أدركنا قيمة النعمة",
+                    "شعرنا بعظمة النعمة",
+                    "قدرنا نعمة المصحف"
+                ],
+                "meaning_en": "Have we truly recognised the reality of this blessing?"
+            },
+            "شيء لا يستطيع أحد أن ينتزعه منك": {
+                "variants_ar": [
+                    "نعمة داخلية لا تُصادر",
+                    "شيء في القلب لا يؤخذ",
+                    "ما لا يستطيع السجان أخذه"
+                ],
+                "meaning_en": "Something no one can take away from you; internal unseizable possession."
+            },
+            "كان لي وطناً": {
+                "variants_ar": [
+                    "صار لي وطناً",
+                    "كان مأوى داخلياً",
+                    "كان مكان انتماء"
+                ],
+                "meaning_en": "It was a homeland for me; Qur'an as portable inner belonging."
+            },
+            "ضاقت عليّ الأرض بما رحبت": {
+                "variants_ar": [
+                    "ضاق عليّ المكان",
+                    "شعرت بضيق الأرض",
+                    "الضيق رغم سعة الأرض"
+                ],
+                "meaning_en": "The earth, despite its vastness, became tight around me; existential constriction phrase."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "quranic_hifz_prison_resilience_inner_homeland",
+        "paper_fit_ar": "تمثل Narrative32 حالة مميزة داخل SABR لأنها لا تتمحور حول الفقد الأسري أو الإصابة الجسدية، بل حول الحرمان الديني والمعنوي في الأسر. الشدة هنا هي غياب المصحف وحرمان الأسرى من ممارسة القراءة والمراجعة والتدبر. الاستجابة لا تأتي فقط بالصبر اللفظي، بل عبر تحويل حفظ القرآن إلى مصدر أمان وتثبيت ورفقة داخلية. عبارة الغرفة الكنز تكشف أن الحافظ لا يصبر نفسه فقط، بل يصبح مورداً جماعياً للأسرى الآخرين. أقوى مساهمة للرواية هي فكرة أن أعظم ما يملكه الإنسان قد يكون شيئاً داخلياً لا يستطيع السجان انتزاعه: القرآن في الصدر.",
+        "paper_fit_en": "Narrative32 is a distinctive SABR case because it is not centred on family bereavement or bodily injury, but on religious and moral deprivation during captivity. The adversity is the absence of mushafs and the denial of ordinary Qur'anic practice: reading, review, reflection, and contemplation. The response is the construction of Qur'anic memorisation as safety, stabilisation, companionship, and internal refuge. The phrase 'the treasure room' shows that the memoriser of the Qur'an becomes a communal resource for other prisoners. The key theoretical contribution is that the greatest possession may be internal and unconfiscatable: Qur'an in the chest."
+    },
+    "ethical_note": {
+        "risk_level": "high_sensitivity_released_prisoner_religious_deprivation_captivity",
+        "notes": [
+            "The narrative includes a named public/reported speaker and testimony about imprisonment, deprivation of Qur'ans, and spiritual suffering.",
+            "For public release, consider whether to retain the speaker's name or replace it with a role-based identifier such as 'released prisoner from Gaza City'.",
+            "The narrative should be framed as religious discourse and resilience under confinement, not as a clinical diagnosis.",
+            "Avoid overgeneralising from one prison testimony to all prisoners unless supported by additional data.",
+            "The deprivation of mushafs should be treated as a sensitive religious-rights and dignity issue within the speaker's account."
+        ],
+        "recommended_public_version": "role_based_pseudonymized_speaker_with_no_extra_identifying_details_unless_source_clearance_allows_name_retention"
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

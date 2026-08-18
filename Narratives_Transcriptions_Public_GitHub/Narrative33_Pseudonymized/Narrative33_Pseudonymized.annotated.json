@@ -3,8 +3,8 @@
     "narrative_id": "Narrative33_Pseudonymized",
     "source_meta": {
         "source_id": "N33",
-        "source_type": "pasted_transcription_with_whisper_timestamps",
-        "source_platform": "Unspecified public/video source",
+        "source_type": "public_journalist_video_transcription_with_whisper_timestamps",
+        "source_platform": "public journalist video",
         "original_language": "ar",
         "dialect": "Palestinian Arabic (Gaza City dialect; qaf often realized as hamza in the speaker's style)",
         "reported_context": "A bereaved mother from Gaza City recounts sitting with her three children, preparing dinner and putting them to sleep, then briefly going downstairs to bring something requested by her daughter. During that moment, the third floor was targeted and collapsed onto her children. She survived from under the rubble by what she describes as a miracle, then woke after treatment asking about her children. She was initially told they were alive in the stitching room, but gradually understood from her brother’s silence, crying, and inability to look at her that all three had been martyred together.",

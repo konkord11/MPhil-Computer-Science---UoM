@@ -1,0 +1,589 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative37_Pseudonymized",
+    "source_meta": {
+        "source_id": "N37",
+        "source_type": "public_journalist_video_transcription_with_whisper_timestamps",
+        "source_platform": "public journalist video",
+        "original_language": "ar",
+        "dialect": "Mixed Modern Standard Arabic and clear Palestinian/Gazan colloquial speech",
+        "location_mentioned": "Gaza City, specifically Al-Shuja'iyya",
+        "reported_context": "A Civil Defense spokesperson in Gaza displays unidentified human remains/skulls brought by a citizen from Al-Shuja'iyya. He links the remains to people killed during a military operation in the area, notes that one skull appears to belong to a child and shows clear fracture marks, frames the case as one example among tens of thousands of missing people in Gaza, and appeals to the international community and specialized organizations to act and help identify the fate of the missing.",
+        "collection_context_en": "The speaker, described in the source as a Civil Defense spokesperson in Gaza, presents unidentified remains brought from Al-Shuja'iyya. He describes skulls of citizens killed during the military operation in the area, including one that appears to be a child and is visibly damaged. He then broadens the example to the fate of tens of thousands of missing people in the Gaza Strip, saying that repeated calls have been made for the world to act and for Civil Defense crews to reach targeted locations, but that access continues to be refused. The testimony concludes with an urgent appeal to international organizations and specialized teams to enter Gaza and determine the fate of such cases.",
+        "collection_context_ar": "يتحدث المتحدث باسم الدفاع المدني في غزة وهو يعرض رفاتاً/جماجم مجهولة الهوية أُحضرت من الشجاعية. يصفها بأنها جماجم لمواطنين قُتلوا أثناء العملية العسكرية في المنطقة، ويشير إلى أن إحداها تبدو لطفل وأن الجمجمة مشوّهة وعليها علامات كسر واضحة. ثم يوسع الحالة لتصبح مثالاً على عشرات الآلاف من المفقودين في قطاع غزة ومصيرهم المجهول، مؤكداً أن العالم طُولب أكثر من مرة بالتحرك وبتمكين طواقم الدفاع المدني من الوصول إلى أماكن الاستهدافات، لكن الاحتلال يرفض حتى هذه اللحظة. وتنتهي الرواية بنداء إلى المنظمات والمؤسسات الدولية والفرق المختصة للتحرك إلى غزة لمعرفة مصير مثل هذه الحالات."
+    },
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "no_personal_names_present; official role retained; sensitive remains context minimized in metadata",
+        "contains_real_names": false,
+        "contains_minors": true,
+        "contains_deceased_or_injured_people": true,
+        "contains_human_remains": true,
+        "notes": "No personal names are present. The speaker is identified by public role rather than personal name. The content includes unidentified remains and a possible child victim, so public release should avoid images/video frames and any unnecessary identifying details. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "n/a"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Gazan crisis narratives, Civil Defense/public testimony discourse, and SABR annotation conventions."
+            }
+        ],
+        "adjudication": {
+            "status": "draft_annotation_ready_for_review",
+            "note": "The user-corrected Arabic transcription is treated as the source of truth. Whisper timestamps are used only for approximate time mapping."
+        },
+        "alignment_note": "Whisper output contains ordering and recognition issues, including an opening occurrence of 'هذا مجهول وهذا مجهول...' before the main corrected transcript. The annotation follows the user-corrected transcript for content and uses ASR only to approximate segment timestamps.",
+        "selection_policy": "Segmentation follows discourse function: presentation of remains from Al-Shuja'iyya; forensic description of possible child remains; collective missing-persons framing and blocked access; repeated unknownness; appeal to the world; institutional demand for specialized teams."
+    },
+    "speaker_profile": {
+        "speaker_id": "S1",
+        "gender": "male",
+        "age_estimate": "adult",
+        "speaker_description": "Civil Defense spokesperson in Gaza",
+        "role_or_status": [
+            "Civil Defense spokesperson",
+            "Public institutional speaker",
+            "Witness to unidentified remains and missing-persons crisis"
+        ]
+    },
+    "approx_context": {
+        "brief_summary_ar": "يستعرض متحدث باسم الدفاع المدني في غزة رفاتاً وجماجم مجهولة الهوية أُحضرت من الشجاعية، ويصفها بأنها لمواطنين قُتلوا أثناء العملية العسكرية في المنطقة. يشير إلى أن إحدى الجماجم تبدو لطفل وأنها مشوّهة وعليها علامات كسر واضحة، ثم يربط هذه الحالة بمأساة عشرات الآلاف من المفقودين في قطاع غزة ومصيرهم المجهول. يؤكد أن العالم طُولب مراراً بالتحرك وبتمكين طواقم الدفاع المدني من الوصول إلى أماكن الاستهدافات، لكن الاحتلال يرفض حتى الآن. ويختتم بنداء عاجل إلى المنظمات والمؤسسات الدولية والفرق المختصة للتحرك إلى غزة ومعرفة مصير مثل هذه الحالات.",
+        "brief_summary_en": "A Civil Defense spokesperson in Gaza displays unidentified remains and skulls brought from Al-Shuja'iyya, describing them as belonging to citizens killed during the military operation in the area. He notes that one skull appears to belong to a child and is visibly damaged with clear fracture marks. He then links this case to the wider tragedy of tens of thousands of missing people in the Gaza Strip whose fate remains unknown. He says the world has repeatedly been asked to act and to enable Civil Defense crews to reach targeted locations, but access is still refused. He concludes with an urgent appeal to international organizations, institutions, and specialized teams to enter Gaza and determine the fate of such cases."
+    },
+    "text_ar_full": "أحد المواطنين إي.. في مدينة غزة تحديداً من الشجاعية أحضر لنا هذه الجماجم إ.. جماجم لمواطنين إي.. أثناء العملية العسكرية في منطقة الشجاعية تم قتلهم، وطبعاً هذا على ما يبدو أنه طفل و.. مشوّه طبعاً حتى الجمجمة مشوّهة على.. عليها علامات كسر بشكل واضح وبشكل كبير، إي... هذا واحد.. من عشرات الآلاف في قطاع غزة الذين فُقدوا ومصيرهم مجهول، وطالبنا العالم أكثر من مرة إلى ضرورة التحرك لمعرفة مصير الناس وتحريك طواقمنا إلى أماكن الاستهدافات بكل سهولة، لكن الاحتلال يرفض حتى هذه اللحظة. هذا مجهول وهذا مجهول، وهناك عشرات الآلاف مجهولين. العالم متى سيتحرك ويستفيق لأجل إنهاء هذه المعاناة التي يعيشها أبناء شعبنا في كل لحظة وفي كل مرة. ولذلك نحن نطالب المنظمات والمؤسسات الدولية إلى ضرورة أن تتحرك الفرق المختصة إلى غزة لمعرفة مصير مثل هذه الحالات الموجودة في القطاع.",
+    "text_en_full": "One of the citizens, uh, in Gaza City, specifically from Al-Shuja'iyya, brought us these skulls, uh, skulls of citizens who were killed during the military operation in the Al-Shuja'iyya area. Of course, this one appears to be a child and is disfigured; even the skull is disfigured, with clear and major fracture marks on it. This is one, one of tens of thousands in the Gaza Strip who have been lost and whose fate is unknown. We have demanded more than once that the world must act to know the fate of people and to allow our crews to move easily to the targeted locations, but the occupation refuses until this moment. This one is unknown, and this one is unknown, and there are tens of thousands unknown. When will the world act and wake up in order to end this suffering that our people live through at every moment and every time? Therefore, we call on international organizations and institutions to ensure that specialized teams move into Gaza to determine the fate of cases like these that exist in the Strip.",
+    "segments": [
+        {
+            "segment_id": "N37_s01",
+            "speaker_id": "S1",
+            "start_time": 5.11,
+            "end_time": 17.22,
+            "text_ar": "أحد المواطنين إي.. في مدينة غزة تحديداً من الشجاعية أحضر لنا هذه الجماجم إ.. جماجم لمواطنين إي.. أثناء العملية العسكرية في منطقة الشجاعية تم قتلهم.",
+            "text_en": "One of the citizens, uh, in Gaza City, specifically from Al-Shuja'iyya, brought us these skulls, uh, skulls of citizens who were killed during the military operation in the Al-Shuja'iyya area.",
+            "event_frame": {
+                "adversity_description": "Unidentified skulls/remains of citizens killed during a military operation in Al-Shuja'iyya are brought to Civil Defense.",
+                "response_description": "The spokesperson frames the remains as evidence requiring institutional witnessing and public documentation."
+            },
+            "sabr_frame": {
+                "sabr_type": "institutional_witnessing_of_unidentified_civilian_remains",
+                "features": [
+                    "civil_defense_testimony",
+                    "unidentified_remains",
+                    "citizens_killed",
+                    "al_shujaiyya",
+                    "public_documentation",
+                    "forensic_witnessing"
+                ],
+                "explanation": "The response is testimonial rather than private grief: the speaker documents human remains as part of a wider missing-persons crisis."
+            },
+            "affective_signals": {
+                "dominant_affect": "solemn_moral_witnessing",
+                "affect_type": "solemn_moral_witnessing",
+                "secondary_affects": [
+                    "grave_concern",
+                    "controlled_distress"
+                ],
+                "justification": "The official register and repeated identification of the remains as citizens' skulls convey solemn witnessing and the need to record what happened.",
+                "confidence": null
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "إي..",
+                        "note": "Hesitation/filler marker during public testimony."
+                    }
+                ],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "الشجاعية",
+                        "note": "Place-name anchoring the remains in a specific Gaza City neighbourhood."
+                    },
+                    {
+                        "marker": "مواطنين",
+                        "note": "Civilian identity marker; frames the dead as citizens rather than anonymous casualties."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "أحضر لنا هذه الجماجم",
+                        "note": "Institutional receiving of remains; shifts the scene from private discovery to public documentation."
+                    }
+                ],
+                "gesture_markers": []
+            }
+        },
+        {
+            "segment_id": "N37_s02",
+            "speaker_id": "S1",
+            "start_time": 17.84,
+            "end_time": 27.24,
+            "text_ar": "وطبعاً هذا على ما يبدو أنه طفل و.. مشوّه طبعاً حتى الجمجمة مشوّهة على.. عليها علامات كسر بشكل واضح وبشكل كبير، إي...",
+            "text_en": "Of course, this one appears to be a child and is disfigured; even the skull is disfigured, with clear and major fracture marks on it, uh...",
+            "event_frame": {
+                "adversity_description": "One of the remains appears to belong to a child, and the skull is disfigured with clear fracture marks.",
+                "response_description": "The speaker gives a cautious visual assessment while preserving uncertainty through 'على ما يبدو' and focusing on visible evidence."
+            },
+            "sabr_frame": {
+                "sabr_type": "forensic_description_of_possible_child_remains",
+                "features": [
+                    "possible_child_victim",
+                    "skull_disfigurement",
+                    "fracture_marks",
+                    "visible_evidence",
+                    "cautious_assessment",
+                    "human_remains"
+                ],
+                "explanation": "The span shows an evidentiary response under extreme sensitivity: the speaker names what is visible while avoiding over-certainty."
+            },
+            "affective_signals": {
+                "dominant_affect": "controlled_horror",
+                "affect_type": "controlled_horror",
+                "secondary_affects": [
+                    "grief",
+                    "moral_shock",
+                    "professional_restraint"
+                ],
+                "justification": "The content is deeply disturbing, but the spokesperson maintains a controlled public register, using cautious phrasing while describing visible damage.",
+                "confidence": null
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "إي...",
+                        "note": "Hesitation marker accompanying a difficult description."
+                    }
+                ],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "طفل",
+                        "note": "Possible child victim marker; heightens the ethical and emotional sensitivity of the testimony."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "على ما يبدو",
+                        "note": "Cautious evidentiary phrasing; the speaker signals uncertainty rather than asserting identity conclusively."
+                    },
+                    {
+                        "marker": "مشوّهة / علامات كسر",
+                        "note": "Forensic descriptive language anchoring the testimony in visible damage."
+                    }
+                ],
+                "gesture_markers": [
+                    {
+                        "marker": "displaying or indicating remains",
+                        "note": "Inferred from source description that the spokesperson is presenting remains/skulls while speaking."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N37_s03",
+            "speaker_id": "S1",
+            "start_time": 27.3,
+            "end_time": 45.46,
+            "text_ar": "هذا واحد.. من عشرات الآلاف في قطاع غزة الذين فُقدوا ومصيرهم مجهول، وطالبنا العالم أكثر من مرة إلى ضرورة التحرك لمعرفة مصير الناس وتحريك طواقمنا إلى أماكن الاستهدافات بكل سهولة، لكن الاحتلال يرفض حتى هذه اللحظة.",
+            "text_en": "This is one, one of tens of thousands in the Gaza Strip who have been lost and whose fate is unknown. We have demanded more than once that the world must act to know the fate of people and to allow our crews to move easily to the targeted locations, but the occupation refuses until this moment.",
+            "event_frame": {
+                "adversity_description": "The displayed remains are framed as one case among tens of thousands missing in Gaza, with their fate unknown and access to targeted sites blocked.",
+                "response_description": "The speaker turns the individual case into a collective appeal for action, stressing repeated demands and refusal of access."
+            },
+            "sabr_frame": {
+                "sabr_type": "missing_persons_crisis_under_blocked_rescue_access",
+                "features": [
+                    "tens_of_thousands_missing",
+                    "unknown_fate",
+                    "blocked_access",
+                    "civil_defense_crews",
+                    "repeated_appeal",
+                    "collective_scale"
+                ],
+                "explanation": "Resilience appears through institutional persistence: repeated demands to recover and identify the missing despite blocked access."
+            },
+            "affective_signals": {
+                "dominant_affect": "urgent_moral_frustration",
+                "affect_type": "urgent_moral_frustration",
+                "secondary_affects": [
+                    "grief",
+                    "institutional_urgency",
+                    "moral_indictment"
+                ],
+                "justification": "The contrast between repeated calls to the world and 'الاحتلال يرفض حتى هذه اللحظة' creates a clear tone of urgent frustration and moral indictment.",
+                "confidence": null
+            },
+            "contextual_markers": {
+                "dialect_markers": [],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "عشرات الآلاف",
+                        "note": "Scale marker that moves the testimony from an individual case to a collective missing-persons crisis."
+                    },
+                    {
+                        "marker": "مصيرهم مجهول",
+                        "note": "Unknown fate marker; central to enforced uncertainty and unresolved mourning."
+                    },
+                    {
+                        "marker": "طواقمنا",
+                        "note": "Civil Defense institutional identity marker."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "هذا واحد.. من عشرات الآلاف",
+                        "note": "Exemplification structure: one visible case stands for a much larger crisis."
+                    },
+                    {
+                        "marker": "طالبنا العالم أكثر من مرة",
+                        "note": "Repeated appeal marker showing ongoing institutional effort."
+                    },
+                    {
+                        "marker": "لكن",
+                        "note": "Contrast marker introducing blocked access after calls for action."
+                    }
+                ],
+                "gesture_markers": []
+            }
+        },
+        {
+            "segment_id": "N37_s04",
+            "speaker_id": "S1",
+            "start_time": 45.46,
+            "end_time": 51.42,
+            "text_ar": "هذا مجهول وهذا مجهول، وهناك عشرات الآلاف مجهولين.",
+            "text_en": "This one is unknown, and this one is unknown, and there are tens of thousands unknown.",
+            "timestamp_note": "The same phrase is also detected by ASR at 0.0–5.11 as an opening occurrence; this segment is mapped to the later occurrence that matches the corrected transcript position.",
+            "event_frame": {
+                "adversity_description": "The remains are unidentified, and the speaker links visible unknown individuals to tens of thousands of unknown missing people.",
+                "response_description": "He repeats 'unknown' as a moral and evidentiary marker, refusing to let unidentified remains disappear into abstraction."
+            },
+            "sabr_frame": {
+                "sabr_type": "repetition_of_unknownness_as_dignity_claim",
+                "features": [
+                    "unidentified_remains",
+                    "repetition",
+                    "collective_unknownness",
+                    "dignity_of_the_missing",
+                    "visible_evidence",
+                    "anti_erasure"
+                ],
+                "explanation": "The repeated demonstrative 'هذا' attaches unknownness to specific bodies, turning anonymity itself into a demand for recognition."
+            },
+            "affective_signals": {
+                "dominant_affect": "solemn_grief_and_moral_insistence",
+                "affect_type": "solemn_grief_and_moral_insistence",
+                "secondary_affects": [
+                    "mourning",
+                    "urgency"
+                ],
+                "justification": "The repeated 'هذا مجهول وهذا مجهول' makes the unknown status emotionally and morally salient while remaining controlled and testimonial.",
+                "confidence": null
+            },
+            "contextual_markers": {
+                "dialect_markers": [],
+                "religious_markers": [
+                    {
+                        "marker": "شهداء مجهولين الهوية",
+                        "note": "From the source description: the remains are framed as martyrs whose identities are unknown."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "مجهول / مجهولين",
+                        "note": "Unknown identity marker; central to dignity, burial, family closure, and collective memory."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "هذا مجهول وهذا مجهول",
+                        "note": "Repetition with demonstratives individualizes the unknown remains rather than treating them as a statistic."
+                    }
+                ],
+                "gesture_markers": [
+                    {
+                        "marker": "ممسكاً رفات شهداء مجهولين الهوية",
+                        "note": "Source description notes that the speaker is holding remains while saying 'this one is unknown'."
+                    }
+                ]
+            }
+        },
+        {
+            "segment_id": "N37_s05",
+            "speaker_id": "S1",
+            "start_time": 51.42,
+            "end_time": 59.98,
+            "text_ar": "العالم متى سيتحرك ويستفيق لأجل إنهاء هذه المعاناة التي يعيشها أبناء شعبنا في كل لحظة وفي كل مرة.",
+            "text_en": "When will the world act and wake up in order to end this suffering that our people live through at every moment and every time?",
+            "event_frame": {
+                "adversity_description": "The suffering of Gaza's people is ongoing and repeated, while the world remains inactive.",
+                "response_description": "The speaker addresses the world through a rhetorical question, demanding awakening and action to end the suffering."
+            },
+            "sabr_frame": {
+                "sabr_type": "rhetorical_appeal_to_world_against_continued_suffering",
+                "features": [
+                    "world_address",
+                    "rhetorical_question",
+                    "wake_up_language",
+                    "ongoing_suffering",
+                    "collective_people",
+                    "urgent_appeal"
+                ],
+                "explanation": "The response transforms grief into public advocacy: the speaker calls for recognition and action beyond Gaza."
+            },
+            "affective_signals": {
+                "dominant_affect": "urgent_indignation",
+                "affect_type": "urgent_indignation",
+                "secondary_affects": [
+                    "frustration",
+                    "collective_grief"
+                ],
+                "justification": "The question 'العالم متى سيتحرك ويستفيق' combines urgency, frustration, and moral demand."
+            },
+            "contextual_markers": {
+                "dialect_markers": [],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "أبناء شعبنا",
+                        "note": "Collective national/community framing."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "متى سيتحرك ويستفيق",
+                        "note": "Rhetorical question accusing the world of delay and moral sleep."
+                    },
+                    {
+                        "marker": "في كل لحظة وفي كل مرة",
+                        "note": "Repetition intensifies the sense of ongoing, recurring suffering."
+                    }
+                ],
+                "gesture_markers": []
+            }
+        },
+        {
+            "segment_id": "N37_s06",
+            "speaker_id": "S1",
+            "start_time": 60.5,
+            "end_time": 71.18,
+            "text_ar": "ولذلك نحن نطالب المنظمات والمؤسسات الدولية إلى ضرورة أن تتحرك الفرق المختصة إلى غزة لمعرفة مصير مثل هذه الحالات الموجودة في القطاع.",
+            "text_en": "Therefore, we call on international organizations and institutions to ensure that specialized teams move into Gaza to determine the fate of cases like these that exist in the Strip.",
+            "event_frame": {
+                "adversity_description": "Unidentified remains and missing-persons cases persist in Gaza without specialized access or investigation.",
+                "response_description": "The spokesperson makes an institutional demand for international organizations and specialized teams to act and determine the fate of the missing."
+            },
+            "sabr_frame": {
+                "sabr_type": "institutional_demand_for_forensic_accountability",
+                "features": [
+                    "international_organizations",
+                    "specialized_teams",
+                    "determine_fate",
+                    "forensic_accountability",
+                    "institutional_advocacy",
+                    "missing_persons"
+                ],
+                "explanation": "The span closes with procedural resilience: the response is a demand for mechanisms that restore identity, knowledge, and accountability."
+            },
+            "affective_signals": {
+                "dominant_affect": "procedural_urgency_and_resolve",
+                "affect_type": "procedural_urgency_and_resolve",
+                "secondary_affects": [
+                    "moral_urgency",
+                    "controlled_appeal"
+                ],
+                "justification": "The formal demand structure 'نحن نطالب...' and reference to specialized teams show controlled urgency directed toward action.",
+                "confidence": null
+            },
+            "contextual_markers": {
+                "dialect_markers": [],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "المنظمات والمؤسسات الدولية",
+                        "note": "Appeal to international institutional responsibility."
+                    },
+                    {
+                        "marker": "الفرق المختصة",
+                        "note": "Forensic/specialized-team framing of recovery and identification."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "ولذلك نحن نطالب",
+                        "note": "Conclusion marker converting testimony into a formal demand."
+                    },
+                    {
+                        "marker": "لمعرفة مصير",
+                        "note": "Fate-identification phrase central to missing-persons discourse."
+                    }
+                ],
+                "gesture_markers": []
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "الجماجم": {
+                "variants_ar": [
+                    "جماجم",
+                    "رفات",
+                    "بقايا بشرية"
+                ],
+                "meaning_en": "Skulls/human remains."
+            },
+            "مجهول / مجهولين": {
+                "variants_ar": [
+                    "مجهول الهوية",
+                    "غير معروف الهوية",
+                    "مجهولو الهوية"
+                ],
+                "meaning_en": "Unknown/unidentified; central marker for missing persons and unidentified remains."
+            },
+            "مصيرهم مجهول": {
+                "variants_ar": [
+                    "لا يُعرف مصيرهم",
+                    "مفقودون",
+                    "مصير غير معروف"
+                ],
+                "meaning_en": "Their fate is unknown."
+            },
+            "الشجاعية": {
+                "variants_ar": [
+                    "منطقة الشجاعية",
+                    "الشجاعية"
+                ],
+                "meaning_en": "Al-Shuja'iyya, a neighbourhood in Gaza City."
+            },
+            "العملية العسكرية": {
+                "variants_ar": [
+                    "العملية العسكرية",
+                    "الهجوم العسكري"
+                ],
+                "meaning_en": "Military operation."
+            },
+            "تم قتلهم": {
+                "variants_ar": [
+                    "قُتلوا",
+                    "استشهدوا بحسب السياق المحلي",
+                    "تم قتلهم"
+                ],
+                "meaning_en": "They were killed."
+            },
+            "على ما يبدو": {
+                "variants_ar": [
+                    "يبدو أنه",
+                    "على الأغلب",
+                    "حسب الظاهر"
+                ],
+                "meaning_en": "Apparently/it appears; cautious evidentiary phrasing."
+            },
+            "طفل": {
+                "variants_ar": [
+                    "طفل",
+                    "قاصر",
+                    "طفل شهيد محتمل"
+                ],
+                "meaning_en": "Child; here used cautiously for remains that appear to belong to a child."
+            },
+            "مشوّهة": {
+                "variants_ar": [
+                    "مشوهة",
+                    "متضررة بشدة",
+                    "مشوهة المعالم"
+                ],
+                "meaning_en": "Disfigured/damaged."
+            },
+            "علامات كسر": {
+                "variants_ar": [
+                    "آثار كسر",
+                    "كسور واضحة",
+                    "علامات كسر"
+                ],
+                "meaning_en": "Fracture marks."
+            },
+            "عشرات الآلاف": {
+                "variants_ar": [
+                    "عشرات الآلاف",
+                    "آلاف كثيرة",
+                    "عدد ضخم"
+                ],
+                "meaning_en": "Tens of thousands; scale marker."
+            },
+            "طواقمنا": {
+                "variants_ar": [
+                    "طواقم الدفاع المدني",
+                    "فرقنا",
+                    "فرق الإنقاذ"
+                ],
+                "meaning_en": "Our crews, referring to Civil Defense or rescue teams."
+            },
+            "أماكن الاستهدافات": {
+                "variants_ar": [
+                    "مواقع الاستهداف",
+                    "أماكن القصف",
+                    "أماكن الهجمات"
+                ],
+                "meaning_en": "Targeted locations/strike sites."
+            },
+            "الاحتلال يرفض": {
+                "variants_ar": [
+                    "يرفض الاحتلال",
+                    "يمنع الوصول",
+                    "لا يسمح"
+                ],
+                "meaning_en": "The occupation refuses/blocks access."
+            },
+            "العالم متى سيتحرك ويستفيق": {
+                "variants_ar": [
+                    "متى يتحرك العالم",
+                    "متى يستيقظ العالم",
+                    "متى يتدخل العالم"
+                ],
+                "meaning_en": "When will the world act and wake up?"
+            },
+            "أبناء شعبنا": {
+                "variants_ar": [
+                    "شعبنا",
+                    "أهلنا",
+                    "أبناء شعبنا"
+                ],
+                "meaning_en": "Our people; collective national/community reference."
+            },
+            "الفرق المختصة": {
+                "variants_ar": [
+                    "فرق مختصة",
+                    "فرق فنية/جنائية",
+                    "فرق متخصصة"
+                ],
+                "meaning_en": "Specialized teams, potentially forensic or technical teams."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "unidentified_remains_missing_persons_forensic_accountability",
+        "paper_fit_ar": "تصلح Narrative37 كحالة شديدة الأهمية لتحليل انتقال خطاب الصبر/الصمود من التجربة الفردية إلى الشهادة المؤسسية والحق في معرفة المصير. المتحدث لا يروي فقدانه الشخصي، بل يستخدم موقعه كمتحدث باسم الدفاع المدني لتقديم الرفات المجهولة كدليل مادي على مأساة أوسع: عشرات الآلاف من المفقودين ومصيرهم غير المعروف. التكرار «هذا مجهول وهذا مجهول» ليس مجرد وصف، بل فعل مقاومة ضد محو الهوية؛ فهو يجعل المجهول محدداً ومشاراً إليه، ثم يربطه بجماعة واسعة من المفقودين. في إطار SABR، تظهر الاستجابة لا كتهدئة عاطفية، بل كإصرار أخلاقي وإجرائي على الاسترداد والتعرّف والمساءلة: تحريك الطواقم، الوصول إلى أماكن الاستهدافات، واستقدام الفرق المختصة. هذه الرواية مفيدة لتوسيع مفهوم resilience ليشمل حفظ الكرامة بعد الموت، مقاومة اختفاء الضحايا في الإحصاء، والمطالبة المؤسسية بمعرفة مصير المفقودين.",
+        "paper_fit_en": "Narrative37 is highly relevant for analysing how resilience discourse shifts from individual testimony to institutional witnessing and the right to know the fate of the missing. The speaker does not narrate a private loss; instead, as a Civil Defense spokesperson, he presents unidentified remains as material evidence of a wider catastrophe: tens of thousands of missing people whose fate is unknown. The repetition 'this one is unknown, and this one is unknown' is not merely descriptive; it resists erasure by making unknownness visible and specific, then linking it to a wider collective. In SABR terms, the response is not emotional soothing but ethical and procedural insistence on recovery, identification, and accountability: moving Civil Defense crews, accessing strike sites, and bringing specialized teams into Gaza. This narrative helps expand resilience beyond psychological endurance to include dignity after death, resistance to statistical erasure, and institutional demands to know the fate of the missing."
+    },
+    "ethical_note": {
+        "risk_level": "extreme_sensitivity_human_remains_possible_child_missing_persons",
+        "notes": [
+            "The narrative includes unidentified human remains, skulls, possible child remains, visible physical damage, and mass missing-persons framing.",
+            "Do not publish images, screenshots, or video frames of the remains in any public dataset or paper output.",
+            "The possible child reference should be handled cautiously because the speaker says 'على ما يبدو أنه طفل', indicating visual uncertainty.",
+            "Avoid sensational or graphic framing; preserve the institutional and ethical function of the testimony.",
+            "The phrase 'شهداء مجهولين الهوية' from the source description should be treated as culturally situated martyrdom framing, not as a forensic identification.",
+            "No personal names are present, but place references and official-role references should be reviewed before public release.",
+            "This is not clinical diagnosis. Annotation should focus on discourse, adversity, response strategy, contextual markers, and affective signal."
+        ],
+        "recommended_public_version": "pseudonymized_text_only; no images; consider softening graphic descriptions in public examples while preserving analytic labels"
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

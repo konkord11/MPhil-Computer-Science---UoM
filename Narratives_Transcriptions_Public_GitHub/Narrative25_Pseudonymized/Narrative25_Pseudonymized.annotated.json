@@ -3,8 +3,8 @@
     "narrative_id": "Narrative25_Pseudonymized",
     "source_meta": {
         "source_id": "N25",
-        "source_type": "video_transcription",
-        "source_platform": "Public interview / video testimony",
+        "source_type": "public_journalist_video_transcription_with_whisper_timestamps",
+        "source_platform": "public journalist video",
         "original_language": "ar",
         "dialect": "Palestinian Arabic (Gaza dialect) with religious register",
         "reported_context": "An adult released prisoner from Gaza recounts learning, on the day of his release, that his brother Salim had been martyred the previous day. The testimony moves from the shock of receiving the news to memories of Salim’s care for the narrator’s daughters, his rescue of another person from a burning tent, and the narrator’s final expression of grief without resentment toward Allah’s decree.",

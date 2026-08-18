@@ -1,0 +1,741 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative17_Pseudonymized",
+    "source_meta": {
+        "source_id": "Narrative17",
+        "source_type": "public_journalist_video_transcription_with_whisper_timestamps",
+        "source_platform": "public journalist video",
+        "original_language": "ar",
+        "dialect": "Modern Standard Arabic / formal Arabic speech",
+        "location_mentioned": "Gaza Strip",
+        "reported_context": "A child from Gaza speaks in formal Arabic about hunger, fear, dangerous aid-access routes, deprivation of children, refusal to leave Gaza despite hunger, and the closing assertion that Gaza belongs to its people and will remain theirs. The speaker explicitly names the Gaza Humanitarian Foundation (GHF) alongside aid trucks/routes from Zikim and Netzarim as part of the dangerous food-access landscape.",
+        "collection_context_en": "A public journalist video testimony by a child from Gaza. The speaker frames the present as a forced choice between remaining and dying from hunger or fear, or going to so-called humanitarian areas and dangerous aid routes to obtain food. He specifically names the Gaza Humanitarian Foundation (GHF) and trucks/routes from Zikim and Netzarim as sites/mechanisms through which families are forced to expose themselves to danger in order to obtain food. He describes children in Gaza experiencing hunger, qahr, fear, lack of treatment, loss of education, and deprivation of food. He then shifts to steadfast refusal: they will not leave Gaza, even if hungry, killed, besieged, or facing destruction, because Gaza is theirs and will remain theirs.",
+        "collection_context_ar": "شهادة مصورة عامة ضمن فيديو صحفي لطفل من غزة يتحدث بلغة عربية فصحى. يصف الواقع بوصفه خيارين أحلاهما مر: البقاء مع خطر الموت جوعاً أو خوفاً، أو الذهاب إلى مناطق وممرات مساعدات خطرة للحصول على الطعام. يذكر المتحدث تحديداً «مؤسسة غزة الإنسانية» GHF وشاحنات/مسارات زيكيم ونتساريم كجزء من مشهد الوصول الخطر إلى الطعام، حيث تُجبر العائلات على إلقاء نفسها في الخطر للحصول على الغذاء. يصف معاناة أطفال غزة من الجوع والقهر والخوف والحرمان من العلاج والتعليم والطعام، ثم ينتقل إلى خطاب صمود ورفض للخروج من غزة حتى مع الجوع والقتل والحصار، مؤكداً أن غزة لهم وستبقى لهم."
+    },
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "child_speaker_not_named; age_generalized; no personal names_present",
+        "contains_real_names": false,
+        "contains_public_figure_name_only": false,
+        "contains_minors": true,
+        "contains_deceased_or_injured_people": true,
+        "notes": "The child speaker is unnamed. Age is generalized to child/minor only. For public release, use text-only and avoid face, voice, or video stills. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "n/a"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Gazan crisis discourse, child testimony, Islamic sabr/thabat language, qahr discourse, and SABR annotation conventions."
+            }
+        ],
+        "adjudication": {
+            "status": "draft_annotation_ready_for_review",
+            "note": "The user-corrected Arabic transcription is treated as the source of truth. Whisper content is not used for wording; it is used only for approximate timestamp mapping."
+        },
+        "alignment_note": "Whisper timestamps are approximate and contain recognition errors. Segment timings are mapped to the corrected transcript by discourse order only.",
+        "selection_policy": "Segmentation follows complete discourse units: coerced survival choices and aid danger; child deprivation and qahr; refusal to leave despite hunger; message to the world about repeated dying and unidentifiable bodies; cumulative suffering and patience; final ownership/refusal-to-leave declaration."
+    },
+    "speaker_profile": {
+        "speaker_id": "S1",
+        "gender": "male",
+        "age_estimate": "child",
+        "origin": "Gaza Strip",
+        "role_or_status": [
+            "Child civilian speaker",
+            "Public video testimony speaker",
+            "Voice of hunger, qahr, patience, and land attachment"
+        ]
+    },
+    "approx_context": {
+        "brief_summary_ar": "طفل من غزة يتحدث بالفصحى عن واقع يصفه بأنه خياران أحلاهما مر: البقاء مع الموت جوعاً أو خوفاً، أو الذهاب إلى مناطق وممرات مساعدات خطرة للحصول على الطعام. يذكر أن أطفال غزة عاشوا الجوع، وأن منهم من مات قهراً وجوعاً وخوفاً، وأن مئات الآلاف حُرموا من العلاج والتعليم والطعام. ورغم ذلك يؤكد الصمود: لن يخرجوا إلى أي مكان يحذرهم الاحتلال منه، وهم هنا حتى لو جاعوا. ثم يوجه رسالة للعالم بأنهم يتقطعون جوعاً وخوفاً ويموتون كل يوم ألف مرة بين الجوع والخوف والقتل والدمار، وأنهم صبروا رغم البعد عن البيوت والأحبة والفقد المتكرر، وينهي بقوله إنهم لن يخرجوا وإن غزة لهم وستبقى لهم.",
+        "brief_summary_en": "A child from Gaza speaks in formal Arabic about a reality he describes as two bitter choices: staying and dying from hunger or fear, or going to dangerous humanitarian areas and aid routes to obtain food. He says children in Gaza have lived hunger, that some have died from qahr, hunger, and fear, and that hundreds of thousands have been deprived of treatment, education, and food. Yet he asserts steadfastness: they will not leave for any place the occupation warns them toward, and they will remain even if hungry. He then addresses the world, saying they are being torn apart by hunger and fear and dying a thousand times every day between hunger, fear, killing, destruction, ambulances, martyrs, the wounded, and people reduced to ashes beyond recognition. He ends by saying they endured distance from homes and loved ones, loss after loss, and still remain patient: even if Gaza is annihilated, starved, killed, or besieged, they will not leave; Gaza is theirs and will remain theirs."
+    },
+    "text_ar_full": "نحن الآن نعيش خيارين أحلاهما مر هما البقاء والموت جوعاً أو خوفاً أو الذهاب الى المناطق الإنسانية لكي نحصل على الطعام انها الخيارات التي يخضع لها كل مواطن فلسطيني الآن. حيث تضطر العائلات الفلسطينية بإلقاء نفسها في الخطر في مؤسسة غزة الانسانية او عن طريق الشاحنات التي تاتي إي..من زيكيم أو إي..من..إي..إي..الب.. من نتساريم. هنا في قطاع غزة، عاش الملايين من الأطفال الجوع، الذين.. ومنهم من مات قهراً وجوعاً وخوفاً إي..هنا في قطاع غزة حرم ما يقارب من نصف من إي.. إي.. نصف مليون إلى 700 ألف طفل إي.. إي.. العلاج إي.. حرم حق التعليم حرم حق أن ينال حقه في الطعام كمثله كأي شخص آخر.. هنا في قطاع غزة نبقى صامدون لن نخرج إلى أي مكان يحذرنا الاحتلال منه.. نحن هنا حتى لو جُعنا. ونوجه الرسالة الى كل العالم، اننا هنا نتقطّع جوعاً وخوفاً، أننا هنا نموت كل يوم، ليست مرة بل ألف مرة. ما بين جوع ما بين خوف ما بين قتل ما بين دمار ما بين رؤية الاسعاف وهي تذهب وتنقل الشهداء إ..والمصابين والجرحى بل الذين أصبحوا رماداً لا يَعرفون من هذا ومن هذا.. هنا في قطاع غزة عشنا آياتً غصةً في قلوبنا عشنا حياةً لم يعشها –أعزكم الله– الحيوانات، كنا بعيدين عن بيوتنا وصبرنا، كنا بعيدين عن أحبائنا وصبرنا، فقدنا وفقدنا وفقدنا ولا زلنا صابرين. ونوجه رسالة إلى كل العالم أننا، هنا لو فنيت غزة لو جعنا لو متنا لو قُتلنا، لو حوصرنا لن نخرج، غزة لنا وستبقى لنا.",
+    "text_en_full": "We are now living between two choices, the better of which is bitter: to stay and die from hunger or fear, or to go to the humanitarian areas in order to obtain food. These are the choices to which every Palestinian citizen is now subjected. Palestinian families are forced to throw themselves into danger at the Gaza Humanitarian Foundation, or through the trucks that come from Zikim or from Netzarim. Here in the Gaza Strip, millions of children have lived hunger, and among them are those who died from qahr, hunger, and fear. Here in the Gaza Strip, approximately half a million to 700 thousand children have been deprived of treatment, deprived of the right to education, deprived of the right to receive food like any other person. Here in the Gaza Strip, we remain steadfast. We will not go out to any place the occupation warns us toward. We are here even if we become hungry. And we direct this message to the whole world: we are here being torn apart by hunger and fear; we are here dying every day, not once but a thousand times: between hunger, fear, killing, destruction, and seeing ambulances going and carrying martyrs, the injured, and the wounded, even those who have become ashes, where no one knows who is this and who is that. Here in the Gaza Strip, we lived experiences that became a choking lump in our hearts. We lived a life that, may Allah honor you, even animals have not lived. We were far from our homes and we were patient; we were far from our loved ones and we were patient. We lost, and lost, and lost, and we are still patient. And we send a message to the whole world: here, even if Gaza is annihilated, even if we are starved, even if we die, even if we are killed, even if we are besieged, we will not leave. Gaza is ours and will remain ours.",
+    "segments": [
+        {
+            "segment_id": "Narrative17_s01",
+            "speaker_id": "S1",
+            "start_time": 0.2,
+            "end_time": 27.0,
+            "text_ar": "نحن الآن نعيش خيارين أحلاهما مر هما البقاء والموت جوعاً أو خوفاً أو الذهاب الى المناطق الإنسانية لكي نحصل على الطعام انها الخيارات التي يخضع لها كل مواطن فلسطيني الآن. حيث تضطر العائلات الفلسطينية بإلقاء نفسها في الخطر في مؤسسة غزة الانسانية او عن طريق الشاحنات التي تاتي إي..من زيكيم أو إي..من..إي..إي..الب.. من نتساريم.",
+            "text_en": "We are now living between two choices, the better of which is bitter: to stay and die from hunger or fear, or to go to the humanitarian areas in order to obtain food. These are the choices to which every Palestinian citizen is now subjected. Palestinian families are forced to throw themselves into danger at the Gaza Humanitarian Foundation, or through the trucks that come from Zikim or from Netzarim.",
+            "event_frame": {
+                "adversity_description": "The speaker frames survival as a forced choice between remaining under hunger and fear, or risking dangerous aid routes — including the Gaza Humanitarian Foundation (GHF) and trucks/routes from Zikim and Netzarim — in order to obtain food.",
+                "response_description": "He uses formal collective language to expose the coercive structure of the choices imposed on Palestinian civilians, where even seeking aid becomes a dangerous act."
+            },
+            "sabr_frame": {
+                "sabr_type": "coerced_survival_choices_under_hunger_and_aid_danger",
+                "features": [
+                    "two_bitter_choices",
+                    "hunger",
+                    "fear",
+                    "dangerous_aid_access",
+                    "families_forced_into_danger",
+                    "collective_palestinian_condition",
+                    "GHF_named_as_aid_access_site",
+                    "coerced_movement_for_food",
+                    "aid_access_as_danger"
+                ],
+                "explanation": "The span frames adversity as structured coercion: even obtaining food requires entering danger. The mention of GHF is analytically important because it appears inside a danger frame, not as neutral humanitarian access. The response is public testimony that turns individual hunger into a collective moral indictment."
+            },
+            "affective_signals": {
+                "dominant_affect": "moral_urgency_under_coerced_choice",
+                "affect_type": "moral_urgency_under_coerced_choice",
+                "secondary_affects": [
+                    "fear",
+                    "hunger_distress",
+                    "helplessness",
+                    "indignation"
+                ],
+                "justification": "The proverb-like 'خيارين أحلاهما مر', the phrase 'بإلقاء نفسها في الخطر', and the naming of GHF/aid routes show urgency, coercion, and the collapse of safe options."
+            },
+            "contextual_markers": {
+                "dialect_markers": [],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "خيارين أحلاهما مر",
+                        "note": "Arabic idiom meaning two bitter choices, neither humane or safe."
+                    },
+                    {
+                        "marker": "المناطق الإنسانية",
+                        "note": "So-called humanitarian areas/aid-access areas named as places one must go to obtain food, but framed as part of a dangerous forced-choice structure rather than a secure humanitarian alternative."
+                    },
+                    {
+                        "marker": "مؤسسة غزة الإنسانية",
+                        "note": "Gaza Humanitarian Foundation (GHF), the aid-distribution mechanism named by the speaker. In this testimony it functions as a marker of dangerous, coerced aid access: families are described as throwing themselves into danger to obtain food. For research context, GHF should be described carefully as a private U.S.-/Israel-backed or Israel-approved aid-distribution mechanism criticized by UN/humanitarian actors as militarized/unsafe and outside normal UN-led distribution. Do not describe it as simply safe or neutral humanitarian access, and do not include unsupported operator/ownership claims."
+                    },
+                    {
+                        "marker": "زيكيم / نتساريم",
+                        "note": "Aid-route/place references in Gaza war discourse; in this narrative they are grouped with GHF as dangerous routes/mechanisms for obtaining food."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "نحن الآن",
+                        "note": "Collective present-tense framing; the child speaks as part of a wider Palestinian condition."
+                    },
+                    {
+                        "marker": "إي..من زيكيم أو إي..من..إي..إي..الب.. من نتساريم",
+                        "note": "Hesitation/self-repair while naming routes, reflecting pressure and difficulty in formal testimony."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "moral_urgency_under_coerced_choice",
+                "sabr_type_label": "coerced_survival_choices_under_hunger_and_aid_danger",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": false,
+                "has_cultural_markers": true,
+                "has_dialect_markers": false,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "very_high_sensitivity_child_hunger_aid_access_danger",
+                "contains_real_names": false,
+                "contains_minors": true,
+                "public_safe": false,
+                "note": "Text-only use recommended; do not use visual identifiers of the child."
+            }
+        },
+        {
+            "segment_id": "Narrative17_s02",
+            "speaker_id": "S1",
+            "start_time": 28.7,
+            "end_time": 53.44,
+            "text_ar": "هنا في قطاع غزة، عاش الملايين من الأطفال الجوع، الذين.. ومنهم من مات قهراً وجوعاً وخوفاً إي..هنا في قطاع غزة حرم ما يقارب من نصف من إي.. إي.. نصف مليون إلى 700 ألف طفل إي.. إي.. العلاج إي.. حرم حق التعليم حرم حق أن ينال حقه في الطعام كمثله كأي شخص آخر..",
+            "text_en": "Here in the Gaza Strip, millions of children have lived hunger, and among them are those who died from qahr, hunger, and fear. Here in the Gaza Strip, approximately half a million to 700 thousand children have been deprived of treatment, deprived of the right to education, deprived of the right to receive food like any other person.",
+            "event_frame": {
+                "adversity_description": "Children are described as living hunger, dying from qahr, hunger, and fear, and being deprived of treatment, education, and food.",
+                "response_description": "The speaker enumerates child deprivation as a rights-based and moral testimony, insisting that children have been denied ordinary human entitlements."
+            },
+            "sabr_frame": {
+                "sabr_type": "child_deprivation_and_qahr_as_public_moral_witnessing",
+                "features": [
+                    "children_lived_hunger",
+                    "qahr_hunger_fear",
+                    "deprivation_of_treatment",
+                    "deprivation_of_education",
+                    "deprivation_of_food",
+                    "rights_language"
+                ],
+                "explanation": "The span links child suffering to moral witnessing. The child speaker names deprivation not only as lack, but as denial of rights and normal human life."
+            },
+            "affective_signals": {
+                "dominant_affect": "qahr_over_child_deprivation",
+                "affect_type": "qahr_over_child_deprivation",
+                "secondary_affects": [
+                    "grief",
+                    "fear",
+                    "moral_pain",
+                    "protective_sorrow"
+                ],
+                "justification": "The phrase 'مات قهراً وجوعاً وخوفاً' explicitly marks qahr as part of the affective condition, alongside hunger and fear."
+            },
+            "contextual_markers": {
+                "dialect_markers": [],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "مات قهراً وجوعاً وخوفاً",
+                        "note": "Qahr is not simple anger; here it names a crushing affective condition that can be placed beside hunger and fear as life-destroying."
+                    },
+                    {
+                        "marker": "حق العلاج / حق التعليم / حق الطعام",
+                        "note": "Rights-based formulation of child deprivation."
+                    },
+                    {
+                        "marker": "كمثله كأي شخص آخر",
+                        "note": "Claim to ordinary human equality and normal access to food."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "هنا في قطاع غزة",
+                        "note": "Repetition anchors the testimony spatially and morally in Gaza."
+                    },
+                    {
+                        "marker": "حرم... حرم... حرم",
+                        "note": "Repetition accumulates deprivation across treatment, education, and food."
+                    },
+                    {
+                        "marker": "إي.. إي..",
+                        "note": "Hesitation markers while producing numerical and rights claims."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "qahr_over_child_deprivation",
+                "sabr_type_label": "child_deprivation_and_qahr_as_public_moral_witnessing",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": false,
+                "has_cultural_markers": true,
+                "has_dialect_markers": false,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "very_high_sensitivity_child_hunger_deprivation",
+                "contains_real_names": false,
+                "contains_minors": true,
+                "public_safe": false,
+                "note": "Numerical claims are source-reported and should be treated as testimony unless independently verified."
+            }
+        },
+        {
+            "segment_id": "Narrative17_s03",
+            "speaker_id": "S1",
+            "start_time": 53.58,
+            "end_time": 66.34,
+            "text_ar": "هنا في قطاع غزة نبقى صامدون لن نخرج إلى أي مكان يحذرنا الاحتلال منه.. نحن هنا حتى لو جُعنا.",
+            "text_en": "Here in the Gaza Strip, we remain steadfast. We will not go out to any place the occupation warns us toward. We are here even if we become hungry.",
+            "event_frame": {
+                "adversity_description": "The speaker names hunger and displacement warnings as pressures pushing people toward leaving.",
+                "response_description": "He asserts steadfastness and refusal to leave, presenting remaining in Gaza as a collective stance even under hunger."
+            },
+            "sabr_frame": {
+                "sabr_type": "sumud_as_refusal_to_leave_under_hunger_pressure",
+                "features": [
+                    "sumud",
+                    "refusal_to_leave",
+                    "occupation_warning",
+                    "hunger_pressure",
+                    "collective_we",
+                    "remaining_in_place"
+                ],
+                "explanation": "The response is explicit sumud: the child speaker says the community remains in place and refuses directed displacement even when hunger is used as pressure."
+            },
+            "affective_signals": {
+                "dominant_affect": "steadfast_defiance",
+                "affect_type": "steadfast_defiance",
+                "secondary_affects": [
+                    "resolve",
+                    "hunger_endurance",
+                    "land_attachment"
+                ],
+                "justification": "'نبقى صامدون', 'لن نخرج', and 'حتى لو جُعنا' directly construct endurance as refusal to leave."
+            },
+            "contextual_markers": {
+                "dialect_markers": [],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "صامدون",
+                        "note": "Sumud/steadfastness marker; remaining under pressure rather than leaving."
+                    },
+                    {
+                        "marker": "لن نخرج",
+                        "note": "Refusal of displacement."
+                    },
+                    {
+                        "marker": "حتى لو جُعنا",
+                        "note": "Hunger is framed as a pressure that will not override staying."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "نحن هنا",
+                        "note": "Presence assertion; repeated anchoring of collective identity in place."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "steadfast_defiance",
+                "sabr_type_label": "sumud_as_refusal_to_leave_under_hunger_pressure",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": false,
+                "has_cultural_markers": true,
+                "has_dialect_markers": false,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "high_sensitivity_child_wartime_sumud_discourse",
+                "contains_real_names": false,
+                "contains_minors": true,
+                "public_safe": false,
+                "note": "Do not romanticize a child’s endurance of hunger; annotate as discourse of refusal under coercive conditions."
+            }
+        },
+        {
+            "segment_id": "Narrative17_s04",
+            "speaker_id": "S1",
+            "start_time": 66.34,
+            "end_time": 90.72,
+            "text_ar": "ونوجه الرسالة الى كل العالم، اننا هنا نتقطّع جوعاً وخوفاً، أننا هنا نموت كل يوم، ليست مرة بل ألف مرة. ما بين جوع ما بين خوف ما بين قتل ما بين دمار ما بين رؤية الاسعاف وهي تذهب وتنقل الشهداء إ..والمصابين والجرحى بل الذين أصبحوا رماداً لا يَعرفون من هذا ومن هذا..",
+            "text_en": "And we direct this message to the whole world: we are here being torn apart by hunger and fear; we are here dying every day, not once but a thousand times: between hunger, fear, killing, destruction, and seeing ambulances going and carrying martyrs, the injured, and the wounded, even those who have become ashes, where no one knows who is this and who is that.",
+            "event_frame": {
+                "adversity_description": "The speaker describes repeated dying through hunger, fear, killing, destruction, ambulance scenes, martyrs, the wounded, and bodies reduced to ashes beyond recognition.",
+                "response_description": "He turns suffering into a message to the world, using repetition and accumulation to make the scale of pain legible."
+            },
+            "sabr_frame": {
+                "sabr_type": "message_to_world_about_repeated_dying_and_unrecognizable_dead",
+                "features": [
+                    "address_to_world",
+                    "hunger_and_fear",
+                    "dying_thousand_times",
+                    "ambulance_scene",
+                    "martyrs_and_wounded",
+                    "ashes_unrecognizable",
+                    "accumulated_adversity"
+                ],
+                "explanation": "The response is public witnessing: the child speaker makes repeated dying visible through a cascade of harms, ending with the loss of bodily recognizability."
+            },
+            "affective_signals": {
+                "dominant_affect": "anguished_moral_witnessing",
+                "affect_type": "anguished_moral_witnessing",
+                "secondary_affects": [
+                    "fear",
+                    "qahr",
+                    "grief",
+                    "horror",
+                    "urgency"
+                ],
+                "justification": "'نتقطّع جوعاً وخوفاً' and 'نموت كل يوم... ألف مرة' express living-death anguish, while the ambulance and ashes imagery turns private suffering into moral testimony."
+            },
+            "contextual_markers": {
+                "dialect_markers": [],
+                "religious_markers": [
+                    {
+                        "marker": "الشهداء",
+                        "note": "Martyrdom framing for the dead."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "نتقطّع جوعاً وخوفاً",
+                        "note": "Embodied expression of being torn apart by hunger and fear."
+                    },
+                    {
+                        "marker": "نموت كل يوم، ليست مرة بل ألف مرة",
+                        "note": "Repeated-death metaphor: continuous suffering so severe that it resembles death, or makes death feel easier than living under humiliation, qahr, loss, hunger, and fear."
+                    },
+                    {
+                        "marker": "أصبحوا رماداً",
+                        "note": "Those killed are described as reduced to ashes/remains; source note explains this as no longer identifiable."
+                    },
+                    {
+                        "marker": "لا يعرفون من هذا ومن هذا",
+                        "note": "Loss of bodily identity and recognizability after extreme violence."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "ما بين... ما بين... ما بين...",
+                        "note": "Cumulative listing structure stacks harms: hunger, fear, killing, destruction, ambulances, martyrs, injuries, unidentifiable dead."
+                    },
+                    {
+                        "marker": "ونوجه الرسالة إلى كل العالم",
+                        "note": "Public-address frame: testimony directed outward to a global audience."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "anguished_moral_witnessing",
+                "sabr_type_label": "message_to_world_about_repeated_dying_and_unrecognizable_dead",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": true,
+                "has_cultural_markers": true,
+                "has_dialect_markers": false,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "extreme_sensitivity_child_testimony_graphic_death_unidentifiable_bodies",
+                "contains_real_names": false,
+                "contains_minors": true,
+                "public_safe": false,
+                "note": "Graphic references to people becoming ashes/unidentifiable should be handled without sensationalism."
+            }
+        },
+        {
+            "segment_id": "Narrative17_s05",
+            "speaker_id": "S1",
+            "start_time": 93.16,
+            "end_time": 112.58,
+            "text_ar": "هنا في قطاع غزة عشنا آياتً غصةً في قلوبنا عشنا حياةً لم يعشها –أعزكم الله– الحيوانات، كنا بعيدين عن بيوتنا وصبرنا، كنا بعيدين عن أحبائنا وصبرنا، فقدنا وفقدنا وفقدنا ولا زلنا صابرين.",
+            "text_en": "Here in the Gaza Strip, we lived experiences that became a choking lump in our hearts. We lived a life that, may Allah honor you, even animals have not lived. We were far from our homes and we were patient; we were far from our loved ones and we were patient. We lost, and lost, and lost, and we are still patient.",
+            "event_frame": {
+                "adversity_description": "The speaker describes choking experiences, life below humane conditions, distance from homes and loved ones, and repeated loss.",
+                "response_description": "He repeatedly answers each deprivation with صبر, presenting patience as the structure by which unbearable experiences are endured."
+            },
+            "sabr_frame": {
+                "sabr_type": "repeated_loss_answered_by_sabr",
+                "features": [
+                    "choking_grief",
+                    "life_below_humane_conditions",
+                    "distance_from_homes",
+                    "distance_from_loved_ones",
+                    "repeated_loss",
+                    "continued_patience"
+                ],
+                "explanation": "This span is a clear SABR pattern: adversity is listed in layers, and each layer is answered by sabr. The final repetition of loss intensifies the claim that patience continues despite accumulation."
+            },
+            "affective_signals": {
+                "dominant_affect": "sorrowful_patience",
+                "affect_type": "sorrowful_patience",
+                "secondary_affects": [
+                    "qahr",
+                    "homesickness",
+                    "grief",
+                    "endurance"
+                ],
+                "justification": "The repeated 'وصبرنا' and 'ولا زلنا صابرين' directly mark patience, while 'غصة في قلوبنا' and 'فقدنا وفقدنا وفقدنا' show deep sorrow."
+            },
+            "contextual_markers": {
+                "dialect_markers": [],
+                "religious_markers": [
+                    {
+                        "marker": "أعزكم الله",
+                        "note": "Formula of respect used before mentioning animals, preserving the listener's dignity."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "غصة في قلوبنا",
+                        "note": "Choking grief/lump in the heart; emotional suffering retained inside the body."
+                    },
+                    {
+                        "marker": "حياة لم يعشها الحيوانات",
+                        "note": "Dehumanization marker: life conditions described as worse than what animals endure."
+                    },
+                    {
+                        "marker": "بعيدين عن بيوتنا / بعيدين عن أحبائنا",
+                        "note": "Displacement from home and separation from loved ones."
+                    },
+                    {
+                        "marker": "فقدنا وفقدنا وفقدنا",
+                        "note": "Repetition marks accumulated, ongoing loss."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "كنا بعيدين... وصبرنا / كنا بعيدين... وصبرنا",
+                        "note": "Parallel adversity-response structure: each deprivation is followed by patience."
+                    },
+                    {
+                        "marker": "فقدنا وفقدنا وفقدنا",
+                        "note": "Triple repetition intensifies loss before the final 'ولا زلنا صابرين'."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "sorrowful_patience",
+                "sabr_type_label": "repeated_loss_answered_by_sabr",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": true,
+                "has_cultural_markers": true,
+                "has_dialect_markers": false,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "very_high_sensitivity_child_wartime_loss_and_dehumanization",
+                "contains_real_names": false,
+                "contains_minors": true,
+                "public_safe": false,
+                "note": "The language of strength and patience should not be used to normalize children's exposure to war trauma."
+            }
+        },
+        {
+            "segment_id": "Narrative17_s06",
+            "speaker_id": "S1",
+            "start_time": 113.58,
+            "end_time": 125.32,
+            "text_ar": "ونوجه رسالة إلى كل العالم أننا، هنا لو فنيت غزة لو جعنا لو متنا لو قُتلنا، لو حوصرنا لن نخرج، غزة لنا وستبقى لنا.",
+            "text_en": "And we send a message to the whole world: here, even if Gaza is annihilated, even if we are starved, even if we die, even if we are killed, even if we are besieged, we will not leave. Gaza is ours and will remain ours.",
+            "event_frame": {
+                "adversity_description": "The speaker imagines extreme conditions: annihilation, hunger, death, killing, and siege.",
+                "response_description": "He responds with absolute refusal to leave and a final land-ownership claim: Gaza belongs to us and will remain ours."
+            },
+            "sabr_frame": {
+                "sabr_type": "absolute_sumud_and_land_belonging_despite_annihilation",
+                "features": [
+                    "message_to_world",
+                    "even_if_structure",
+                    "annihilation",
+                    "hunger",
+                    "death",
+                    "siege",
+                    "refusal_to_leave",
+                    "gaza_belongs_to_us"
+                ],
+                "explanation": "The closing turns accumulated suffering into a declarative sumud formula. The repeated 'لو' builds a scale of possible destruction, answered by 'لن نخرج' and 'غزة لنا وستبقى لنا'."
+            },
+            "affective_signals": {
+                "dominant_affect": "unyielding_sumud",
+                "affect_type": "unyielding_sumud",
+                "secondary_affects": [
+                    "defiance",
+                    "land_attachment",
+                    "collective_resolve",
+                    "sacrificial_readiness"
+                ],
+                "justification": "The repeated 'لو' clauses culminate in 'لن نخرج' and 'غزة لنا وستبقى لنا', marking firm refusal of displacement."
+            },
+            "contextual_markers": {
+                "dialect_markers": [],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "لو فنيت غزة",
+                        "note": "Extreme condition: even if Gaza is annihilated/perishes."
+                    },
+                    {
+                        "marker": "لن نخرج",
+                        "note": "Clear refusal of displacement."
+                    },
+                    {
+                        "marker": "غزة لنا وستبقى لنا",
+                        "note": "Land attachment and ownership claim; Gaza as belonging and continuity."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "لو... لو... لو... لو...",
+                        "note": "Anaphoric conditional structure builds escalation: annihilation, hunger, death, killing, siege."
+                    },
+                    {
+                        "marker": "ونوجه رسالة إلى كل العالم",
+                        "note": "Global public-address frame repeated from earlier in the narrative."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "unyielding_sumud",
+                "sabr_type_label": "absolute_sumud_and_land_belonging_despite_annihilation",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": false,
+                "has_cultural_markers": true,
+                "has_dialect_markers": false,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "high_sensitivity_child_sumud_refusal_displacement",
+                "contains_real_names": false,
+                "contains_minors": true,
+                "public_safe": false,
+                "note": "Avoid using child defiance to romanticize exposure to siege, hunger, or death; frame as testimony under coercive displacement pressure."
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "خيارين أحلاهما مر": {
+                "variants_ar": [
+                    "خياران كلاهما صعب",
+                    "لا خيار جيد",
+                    "كل الخيارات مرة"
+                ],
+                "meaning_en": "Two choices, the better of which is bitter; no humane safe option."
+            },
+            "المناطق الإنسانية": {
+                "variants_ar": [
+                    "مناطق المساعدات",
+                    "أماكن الحصول على الطعام"
+                ],
+                "meaning_en": "Humanitarian areas / aid-access areas."
+            },
+            "مؤسسة غزة الإنسانية": {
+                "variants_ar": [
+                    "مؤسسة غزة الإنسانية",
+                    "GHF",
+                    "Gaza Humanitarian Foundation",
+                    "مراكز/نقاط توزيع المساعدات التابعة لـ GHF"
+                ],
+                "meaning_en": "Gaza Humanitarian Foundation (GHF), the aid-distribution mechanism named by the speaker. In this narrative it marks risky/coerced aid access rather than safe relief.",
+                "annotation_note": "Do not gloss GHF simply as a neutral humanitarian institution. Code it under dangerous aid access / coerced survival choice when it appears with 'إلقاء نفسها في الخطر'. Remove unsupported operator/ownership claims about GHF."
+            },
+            "زيكيم / نتساريم": {
+                "variants_ar": [
+                    "زيكيم",
+                    "نتساريم"
+                ],
+                "meaning_en": "Place/route references associated with aid access in the testimony."
+            },
+            "مات قهراً وجوعاً وخوفاً": {
+                "variants_ar": [
+                    "مات من القهر والجوع والخوف",
+                    "قتله القهر والجوع والخوف"
+                ],
+                "meaning_en": "Died from qahr, hunger, and fear; qahr is crushed moral pain, not simply anger."
+            },
+            "حُرم حق التعليم / العلاج / الطعام": {
+                "variants_ar": [
+                    "مُنع من التعليم",
+                    "حُرم من العلاج",
+                    "حُرم من الطعام"
+                ],
+                "meaning_en": "Was deprived of education, treatment, and food rights."
+            },
+            "نبقى صامدون": {
+                "variants_ar": [
+                    "سنبقى صامدين",
+                    "نظل ثابتين",
+                    "لن نغادر"
+                ],
+                "meaning_en": "We remain steadfast."
+            },
+            "لن نخرج": {
+                "variants_ar": [
+                    "لن نرحل",
+                    "لن نغادر",
+                    "لن نُهجّر"
+                ],
+                "meaning_en": "We will not leave."
+            },
+            "حتى لو جُعنا": {
+                "variants_ar": [
+                    "حتى إن جُعنا",
+                    "حتى مع الجوع"
+                ],
+                "meaning_en": "Even if we become hungry / even under starvation pressure."
+            },
+            "نتقطّع جوعاً وخوفاً": {
+                "variants_ar": [
+                    "نتمزق من الجوع والخوف",
+                    "يتقطعنا الجوع والخوف"
+                ],
+                "meaning_en": "We are being torn apart by hunger and fear."
+            },
+            "نموت كل يوم ليست مرة بل ألف مرة": {
+                "variants_ar": [
+                    "نموت كل يوم ألف مرة",
+                    "نعيش موتاً متكرراً"
+                ],
+                "meaning_en": "We die every day not once but a thousand times; a repeated-death metaphor for continuous suffering so severe that it resembles death, or makes death feel preferable to living under humiliation, qahr, loss, hunger, and fear.",
+                "annotation_note": "Do not interpret literally as repeated physical death. It describes extreme ongoing suffering, living death, and cumulative collapse under hunger, fear, qahr, loss, and humiliation."
+            },
+            "أصبحوا رماداً": {
+                "variants_ar": [
+                    "صاروا رماداً",
+                    "لم يعد التعرف عليهم ممكناً",
+                    "تحولت أجسادهم إلى رماد/بقايا"
+                ],
+                "meaning_en": "They became ashes/remains and can no longer be identified."
+            },
+            "غصة في قلوبنا": {
+                "variants_ar": [
+                    "وجع عالق في القلب",
+                    "غصة لا تزول"
+                ],
+                "meaning_en": "A choking lump/grief lodged in the heart."
+            },
+            "أعزكم الله": {
+                "variants_ar": [
+                    "أكرمكم الله",
+                    "حاشاكم"
+                ],
+                "meaning_en": "May Allah honor you; respectful formula used before mentioning animals or degrading comparison."
+            },
+            "فقدنا وفقدنا وفقدنا": {
+                "variants_ar": [
+                    "فقدنا كثيراً",
+                    "تكرر الفقد"
+                ],
+                "meaning_en": "We lost, and lost, and lost; repeated cumulative bereavement."
+            },
+            "لو فنيت غزة": {
+                "variants_ar": [
+                    "حتى لو أُفنيت غزة",
+                    "حتى لو دُمرت غزة"
+                ],
+                "meaning_en": "Even if Gaza is annihilated/perishes."
+            },
+            "غزة لنا وستبقى لنا": {
+                "variants_ar": [
+                    "غزة أرضنا",
+                    "غزة ستظل لنا"
+                ],
+                "meaning_en": "Gaza is ours and will remain ours; land attachment and refusal of displacement."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "child_sumud_hunger_qahr_aid_danger_refusal_displacement",
+        "paper_fit_ar": "تصلح Narrative17 كحالة قوية جداً لتحليل خطاب الصبر والصمود عند طفل يتحدث بالفصحى في سياق الجوع والتهجير القسري وخطر الوصول إلى المساعدات. تبدأ الرواية بإطار «خيارين أحلاهما مر»، حيث تصبح النجاة نفسها محاصرة بين الموت جوعاً أو خوفاً وبين المخاطرة بالذهاب إلى ممرات المساعدات. ذكر «مؤسسة غزة الإنسانية» GHF مهم جداً هنا لأنه لا يظهر كعلامة إغاثة آمنة، بل داخل عبارة «تضطر العائلات الفلسطينية بإلقاء نفسها في الخطر»، أي أن الحصول على الطعام نفسه يصبح فعلاً محفوفاً بالخطر والإذلال والحركة القسرية. ثم ينتقل الطفل إلى وصف حرمان الأطفال من العلاج والتعليم والطعام، ويستخدم صيغة مهمة: «مات قهراً وجوعاً وخوفاً»، ما يجعل القهر هنا إشارة وجدانية مستقلة بجانب الجوع والخوف. عبارة «نموت كل يوم، ليست مرة بل ألف مرة» لا تعني موتاً جسدياً متكرراً، بل تصف استمرار معاناة شديدة تشبه الموت أو تجعل الموت أهون من العيش تحت الذل والقهر والفقد والجوع والخوف. بعد ذلك تظهر بنية SABR بوضوح: «كنا بعيدين عن بيوتنا وصبرنا»، «كنا بعيدين عن أحبائنا وصبرنا»، «فقدنا وفقدنا وفقدنا ولا زلنا صابرين». هذه ليست رواية تفاؤل ساذج؛ بل خطاب طفل يعيش الخوف والجوع والقهر والفقد، ثم يصوغ البقاء في غزة كرفض للتهجير ورباط بالأرض: «لن نخرج، غزة لنا وستبقى لنا». لذلك يمكن استخدامها في الورقة لإظهار كيف تتداخل مشاعر القهر والخوف والجوع مع الصبر والصمود والتمسك بالمكان في خطاب الأطفال في غزة، مع ضرورة الحذر الأخلاقي من تمجيد معاناة الأطفال.",
+        "paper_fit_en": "Narrative17 is a strong case for analysing sabr and sumud discourse in the speech of a child using formal Arabic under hunger, forced-displacement pressure, and dangerous aid access. The narrative begins with the frame of 'two choices, the better of which is bitter': survival itself is trapped between dying from hunger or fear and risking dangerous aid routes. The mention of the Gaza Humanitarian Foundation (GHF) is crucial because it does not appear as safe relief; it appears inside the statement that Palestinian families are forced to throw themselves into danger. This means that obtaining food itself becomes part of a coercive and risky aid-access regime. The child then describes deprivation of treatment, education, and food, using the crucial expression 'died from qahr, hunger, and fear', where qahr functions as a culturally grounded affective signal alongside hunger and fear. The phrase 'we die every day, not once but a thousand times' should not be read as literal repeated physical death; it is a repeated-death metaphor for continuous suffering so severe that it resembles death, or makes death seem easier than living under humiliation, qahr, loss, hunger, and fear. The SABR structure then becomes explicit: 'we were far from our homes and we were patient', 'we were far from our loved ones and we were patient', 'we lost, and lost, and lost, and we are still patient.' This is not naive optimism; it is a child’s discourse of fear, hunger, qahr, loss, and endurance, culminating in a refusal of displacement and land attachment: 'we will not leave; Gaza is ours and will remain ours.' The narrative can therefore support the paper’s argument that Gazan child testimony often combines culturally specific affective pain with sabr, sumud, and attachment to place, while requiring strong ethical care to avoid romanticizing children’s suffering."
+    },
+    "ethical_note": {
+        "risk_level": "extreme_sensitivity_minor_hunger_qahr_forced_displacement_graphic_death",
+        "notes": [
+            "The speaker is a child and should be treated as a vulnerable minor.",
+            "The narrative includes hunger, fear, deprivation of treatment/education/food, qahr, forced aid-route danger, martyrs, wounded people, and bodies described as ashes/unidentifiable.",
+            "No personal names are present, but video/audio identifiers should not be used in public research materials.",
+            "Source-reported numerical claims should be preserved as testimony unless independently verified.",
+            "Do not reduce the narrative to resilience or patriotism only; the text includes hunger, fear, qahr, repeated dying, child deprivation, and graphic death imagery.",
+            "Do not romanticize or normalize children's suffering. The analysis should emphasize coercive conditions and ethical harm alongside sabr and sumud.",
+            "The phrase 'قهر' should not be translated merely as anger; it refers here to crushed moral pain under helplessness, deprivation, and perceived abandonment.",
+            "No clinical diagnosis should be inferred. Annotation focuses on discourse, adversity, response strategy, contextual markers, and affective signal.",
+            "The reference to GHF should be treated as a contextual marker of dangerous aid access in the testimony, not as neutral humanitarian relief.",
+            "External descriptions of GHF should be carefully sourced. Do not include unsupported operator/ownership claims about GHF.",
+            "When discussing GHF in the paper, distinguish the speaker’s testimony from external background: the child states that families throw themselves into danger at/through GHF and aid routes; external sources describe GHF as a controversial private U.S.-/Israel-backed or Israel-approved aid-distribution mechanism criticized by UN/humanitarian actors."
+        ],
+        "recommended_public_version": "pseudonymized_text_only; child age generalized; no visual/audio identifiers; consider softening or contextualizing graphic phrases in public-facing examples"
+    },
+    "research_context_notes": {
+        "ghf_context_note_for_research": {
+            "term": "مؤسسة غزة الإنسانية / Gaza Humanitarian Foundation (GHF)",
+            "annotation_policy": "Code GHF primarily as a contextual marker of dangerous aid access and coerced survival choice in this narrative. The speaker does not present it as neutral relief; it appears inside the phrase 'تضطر العائلات الفلسطينية بإلقاء نفسها في الخطر'.",
+            "external_context_summary": "For background writing, describe GHF cautiously as a private aid-distribution mechanism in Gaza reported by major news sources as U.S.-backed and Israeli-approved/backed, operating outside the ordinary UN-led humanitarian distribution system. UN/OCHA/OHCHR and many humanitarian actors criticized the model as militarized, unsafe, and inconsistent with humanitarian principles. This external context helps explain why the narrative frames going to GHF as exposure to danger rather than ordinary aid access.",
+            "correction_applied": "Removed the earlier unsupported operator-attribution claim. Do not include operator/ownership claims unless independently verified by a reliable source.",
+            "research_significance": "GHF is important for SABR because it turns food-seeking into a culturally and politically charged adversity marker: aid becomes associated with danger, crowd exposure, coercion, humiliation, and forced movement rather than safety. This supports analysis of hunger not only as deprivation, but as a structured and risky aid-access condition."
+        }
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

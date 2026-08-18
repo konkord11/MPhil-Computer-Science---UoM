@@ -3,8 +3,8 @@
     "narrative_id": "Narrative27_Pseudonymized",
     "source_meta": {
         "source_id": "N27",
-        "source_type": "video_transcription",
-        "source_platform": "Public short video testimony / religious memorization context",
+        "source_type": "public_journalist_video_transcription_with_whisper_timestamps",
+        "source_platform": "public journalist video",
         "original_language": "ar",
         "dialect": "Arabic, mostly Modern Standard Arabic / Qur'anic religious register with light Palestinian colloquial forms",
         "reported_context": "An adult Gazan mother, a hafiza of the Qur'an and mother of four martyrs, speaks about continuing Qur'an memorization and revision after the loss of her daughters. She frames Qur'an memorization as a source of patience, divine facilitation, attachment to her children, and endurance through catastrophe.",

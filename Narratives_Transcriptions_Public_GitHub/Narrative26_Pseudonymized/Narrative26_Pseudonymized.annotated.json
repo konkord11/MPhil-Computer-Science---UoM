@@ -3,8 +3,8 @@
     "narrative_id": "Narrative26_Pseudonymized",
     "source_meta": {
         "source_id": "N26",
-        "source_type": "video_transcription",
-        "source_platform": "Public short video testimony",
+        "source_type": "public_journalist_video_transcription_with_whisper_timestamps",
+        "source_platform": "public journalist video",
         "original_language": "ar",
         "dialect": "Arabic, primarily Modern Standard Arabic / formal religious register",
         "reported_context": "A child from Gaza, approximately 10–12 years old, speaks in clear formal Arabic about enduring war through الحمد, الصبر, الثبات, and trust that the hardship is an امتحان from Allah.",

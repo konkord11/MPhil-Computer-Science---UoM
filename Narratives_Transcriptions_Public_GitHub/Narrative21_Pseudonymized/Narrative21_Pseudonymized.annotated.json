@@ -2,8 +2,8 @@
     "schema_version": "SABR_v1.2_prototype",
     "narrative_id": "Narrative21_Pseudonymized",
     "source_meta": {
-        "source_type": "written_public_testimony",
-        "source_platform": "Public social media post / written final will",
+        "source_type": "text",
+        "source_platform": "Facebook",
         "original_author": "كريم النابلسي",
         "original_language": "ar",
         "register": "Modern Standard Arabic with religious, national, and testimonial rhetoric",

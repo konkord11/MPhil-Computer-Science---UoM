@@ -1,0 +1,909 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative36_Pseudonymized",
+    "source_meta": {
+        "source_id": "Narrative36",
+        "source_type": "public_journalist_video_transcription_with_whisper_timestamps",
+        "source_platform": "public journalist video",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (Jabalia / North Gaza dialectal features)",
+        "location_mentioned": "Jabalia, North Gaza Strip",
+        "reported_context": "A public journalist video testimony by an adult male survivor from Jabalia. He describes being the only survivor after the family home was targeted on 21.12.2023. He says 39 family members in the house were killed with no injured survivors inside, including his wife, children, parents, brothers' families, and maternal uncle's family. He focuses on the unresolved pain of relatives still under rubble, the need to retrieve and bury them, and the absence of functioning heavy machinery, vehicles, and civil defence capacity in North Gaza.",
+        "collection_context_en": "A public journalist video testimony by an adult male from Jabalia, North Gaza. The speaker recounts losing his family when the family home was hit shortly after he had left. He repeatedly returns to one central need: to bring out his children and relatives from under the rubble, even if only bones remain, so that they can have graves and he can gain some psychological relief. The testimony also reflects a wider wartime pattern in Gaza: extended relatives often gather in one still-standing house because many homes are destroyed and because being together allows families to comfort and sustain one another, even while increasing the risk of whole-family death. The narrative links grief, burial dignity, lack of functioning machinery and vehicles, destruction of civil defence capacity, and a wound that will never close.",
+        "collection_context_ar": "شهادة مصورة عامة ضمن فيديو صحفي لرجل بالغ من جباليا شمال غزة. يروي المتحدث فقدان عائلته بعد استهداف منزل الأسرة بعد دقائق من خروجه، ويعود مراراً إلى حاجته المركزية: إخراج أطفاله وأقاربه من تحت الأنقاض، حتى لو لم يبقَ منهم إلا العظم، ليكون لهم قبور وليجد شيئاً من الراحة النفسية. تعكس الرواية أيضاً نمطاً حربياً أوسع في غزة: تجمع الأقارب في بيت واحد بقي واقفاً لأن بيوتاً كثيرة دُمّرت، ولأن اجتماع العائلة يخفف الوحشة والخوف ويجعلهم يتواسون رغم خطر استشهاد الجميع دفعة واحدة. تربط الرواية بين الفقد، وكرامة الدفن، وغياب الآليات والسيارات العاملة، وتدمير قدرات الدفاع المدني، والجرح الذي لا ينغلق."
+    },
+    "anonymization": {
+        "is_pseudonymized": true,
+        "strategy": "name_replacement_pool",
+        "contains_real_names": false,
+        "contains_public_figure_name_only": false,
+        "contains_minors": true,
+        "contains_deceased_or_injured_people": true,
+        "notes": "Person names and identifying tokens in this tree are replaced using Gaza_NamePool_v1 with dataset-consistent mappings. Original strings are retained only in Narratives_Transcriptions. Follow Project_Research_Documentation/protocols/mphil_uom_ethics_and_governance.txt for storage, consent scope, and thesis use. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "within_dataset_consistent"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Palestinian/Gazan dialect, North Gaza war testimony, burial practices, rubble-retrieval discourse, and SABR annotation conventions."
+            }
+        ],
+        "adjudication": {
+            "status": "draft_annotation_ready_for_review",
+            "note": "The user-corrected Arabic transcription is treated as the source of truth. Whisper content is not used for wording; it is used only for approximate timestamp mapping."
+        },
+        "alignment_note": "Whisper timestamps are approximate and contain many lexical errors. Segment timings are mapped to the corrected transcript by discourse order only.",
+        "selection_policy": "Segmentation follows complete meaning-units: longing to retrieve and embrace children; attack and total family death; family-line erasure and fragmented remains; ongoing retrieval and burial need; lack of machinery/civil defence capacity; irreversible grief and existential loss."
+    },
+    "speaker_profile": {
+        "speaker_id": "S1",
+        "gender": "male",
+        "age_estimate": "adult",
+        "origin": "Jabalia, North Gaza Strip",
+        "role_or_status": [
+            "Civilian survivor",
+            "Bereaved father and husband",
+            "Sole survivor from family home according to testimony",
+            "Family member seeking to retrieve relatives from under rubble"
+        ]
+    },
+    "approx_context": {
+        "brief_summary_ar": "رجل بالغ من جباليا يروي أنه فقد عائلته في قصف منزل الأسرة، وأن 39 شخصاً في البيت استشهدوا دون أي إصابات أو ناجين داخله. يركز على رغبته في إخراج أطفاله وأقاربه من تحت الأنقاض، حتى لو بقي منهم العظم، ليحضنهم ويدفنهم ويجد شيئاً من الراحة النفسية. يذكر أن زوجته وأطفاله ووالديه وإخوةً له بعائلاتهم وخاله بعائلته استشهدوا، وأن بعض العائلات مُسحت من السجل المدني. تكشف الرواية أيضاً عن نمط تجمع الأقارب في بيت واحد في غزة بسبب دمار البيوت والحاجة إلى التآنس والتواسي. يشرح أن المنزل كان أصلاً من خمسة طوابق، وأن أغلب الجثامين بقيت في الطابق الأرضي بعد تسوية البيت بالأرض، فصار فوقهم خمسة طوابق من الردم والخرسانة. يذكر أن 24 شهيداً ما زالوا تحت البيت بسبب غياب الجرافات والبواقر وتدمير معدات الدفاع المدني. تنتهي الرواية بتعب جسدي ونفسي قاتل، وبجرح لا ينغلق بعد فقد الأب والأخ والولد وكل السند العائلي.",
+        "brief_summary_en": "An adult man from Jabalia recounts losing his family when the family home was bombed, saying that 39 people inside were martyred with no injured survivors inside the house. He focuses on his wish to bring his children and relatives out from under the rubble, even if only bones remain, so that he can hold them, bury them, and gain some psychological relief. He lists his wife, children, parents, brothers with their families, and his maternal uncle al-Khalil's family among those killed, saying some family lines were erased from the civil registry. The narrative also reveals a wider Gaza pattern of extended relatives gathering in one house because homes are destroyed and family togetherness offers consolation. He explains that the house originally had five floors and that most bodies remained on the ground floor after the house was flattened, leaving five floors of rubble and concrete above them. He says 24 martyrs remain under the house because there are no bulldozers, hydraulic breakers, or functioning civil defence equipment. The narrative ends with lethal physical and psychological exhaustion and a wound that cannot close after the loss of father, brother, children, and family support."
+    },
+    "text_ar_full": "نفسي أطْلِّع ولادي وأشوفهم، أنا إجاني ولد بعد 11 سنة، كان معي ولد وبنت بعد 11 سنة إجاني ولد. كان عمره 40 يوم، طَبَق 40 استشهد انضربت الدار يوم 40 بدي أشوفه بدي أحضنه لو عضم بدي آخِد..بدي آخِد عضمه وأحضنه.. مشتاقلهم اه.. تم استهداف منزلنا ب21.12.2023، اليوم ال75 كان للحرب تقريباً، استهدفوا دارن .. بيتنا 39 شهيد أنا بإيديا بطلع 24 شهيد من تحت الأنقاض من تحت 5 طوابق، 24 شهيد من ضمنهم زوجتي وأطفالي كل اللي بالبيت استشهدوا فش ولا إصابة 39، 39 شهيد كانوا 39 واستشهدوا 39 فش ولا إصابة بالبيت، أنا بس كنت طالع مليش دقايق طالع من البيت وانضرب البيت.. زوجتي وولادي تلاتة، أبوي وإمي، أخوي فهد مرته وولاده انمسحوا من السجل المدني وأخوي ياسر انمسح من السجل المدني هو ومرته وولاده، خالي فهد الخليل انمسح من السجل المدني، اللي طلع منهم أشلاء قَدّرناهم الصحة و..والجيران وال هاذ، قدرناهم حوالي 14 واحد 18 والباقي تحت الدار، الطابق الأرضي كله كان، واللي كانوا بالطابق التالت طاروا أشلاء، يعني جبنا أشلاء عن بعد 500 متر ما يقارب، 24 شهيد تحت الأنقاض لحتى الآن تحت البيت بالطابق الأرضي تحت خمس طوابق بدي أرفعهم بدي أرتاح، فشي بواقر فشي جرافات، جبنا عمال وع الإيد قاعدين بدها شهر، وبتكلف مبلغ كبير بس مش مشكلة الواحد بيرتاح نفسياً لما يطلع ولاده، يصير يروح ع قبر يروح يلاقي قبر لأبوه يلاقي لأولاده قبر، يلاقي لأمه قبر، يلاقي لأخوه قبر، بس هلقيت كلهم تحت الدار، اللي اله شهيد تحت الدار بينامش ع الفاضي، فش إمكانيات بسبب الحرب، الاحتلال دمّر كل الآليات، فش سيارة .. الدفاع المدني شمال غزة فش اله الا سيارة وحدة فش اله سيارات فش اله الا اسعاف وسيارة، جرافاته ضربوهم، بواقره ضربوهم كل اشي ضربوه، الاحتلال مخلاش اشي، تعب .. أقولك مش تعب يااااه .. تعب .. تعب موت .. عارف ايش موت؟ موت، بس أنا بدي أرتاح. جرح بيسكرش بس زاد فتحه، بسكرش واحد عايش لا أب ولا أخ ولا حدا ولا ولد ولا .. ايش هو؟ كيف بده يسكر الجرح؟ عمروش بسكّر.",
+    "text_en_full": "I want to bring my children out and see them. I had a son after eleven years; I had a boy and a girl, and after eleven years a son came to me. He was forty days old. He completed forty days when he was martyred; the house was hit on his fortieth day. I want to see him, I want to hold him. Even if he is bones, I want to take... I want to take his bones and hold them. I miss them, yes. Our home was targeted on 21.12.2023, approximately the seventy-fifth day of the war. They targeted our home, our house: 39 martyrs. With my own hands, I am trying to bring out 24 martyrs from under the rubble, from beneath five collapsed floors; 24 martyrs, including my wife and my children. Everyone in the house was martyred; there was not a single injured survivor. Thirty-nine, thirty-nine martyrs: they were 39 in the house and 39 were martyred; there was not a single injured survivor in the house. I had only just gone out, only a few minutes after I left the house, and the house was hit. My wife and my three children, my father and my mother, my brother Fahd, his wife and his children were erased from the civil registry; my brother Yasser was erased from the civil registry, he and his wife and children; my maternal uncle Fahd al-Khalil's family was erased from the civil registry. Those whose remains came out, the health workers and the neighbours and others estimated them, around 14 or 18, and the rest are under the house. They were all on the ground floor, and those who were on the third floor were blown into fragmented body parts. I mean, we brought remains from almost 500 metres away. Twenty-four martyrs are still under the rubble until now, under the house on the ground floor beneath five collapsed floors of rubble and concrete. I want to lift them out; I want to rest. There are no hydraulic breakers, no bulldozers. We brought workers and they are working by hand; it needs a month, and it costs a large amount of money, but that is not a problem. A person rests psychologically when he brings out his children, when he can go to a grave, find a grave for his father, find a grave for his children, find a grave for his mother, find a grave for his brother. But now they are all under the house. Whoever has a martyr under the house cannot sleep peacefully. There are no capabilities because of the war. The occupation destroyed all the machinery. There is no functioning vehicle... Civil Defence in North Gaza has only one functioning vehicle; it has no functioning fleet, only an ambulance and a vehicle. They [IDF] struck its bulldozers, they struck its hydraulic breakers, they struck everything. The occupation left nothing. Exhaustion... I tell you, it is not ordinary exhaustion — ohhh — exhaustion... lethal, death-like exhaustion. Do you know what I mean by death? Death. But I want to rest. A wound that does not close; it only opened wider. It does not close. A person living with no father, no brother, no one, no child — what is he? How can the wound close? It will never close.",
+    "segments": [
+        {
+            "segment_id": "Narrative36_s01",
+            "speaker_id": "S1",
+            "start_time": 0.0,
+            "end_time": 18.82,
+            "text_ar": "نفسي أطْلِّع ولادي وأشوفهم، أنا إجاني ولد بعد 11 سنة، كان معي ولد وبنت بعد 11 سنة إجاني ولد. كان عمره 40 يوم، طَبَق 40 استشهد انضربت الدار يوم 40 بدي أشوفه بدي أحضنه لو عضم بدي آخِد..بدي آخِد عضمه وأحضنه.. مشتاقلهم اه..",
+            "text_en": "I want to bring my children out and see them. I had a son after eleven years; I had a boy and a girl, and after eleven years a son came to me. He was forty days old. He completed forty days and was martyred; the house was hit on his fortieth day. I want to see him, I want to hold him. Even if he is bones, I want to take... I want to take his bones and hold them. I miss them, yes.",
+            "event_frame": {
+                "adversity_description": "The speaker’s children, including a 40-day-old baby born after eleven years, remain under rubble after the house was hit.",
+                "response_description": "He expresses a bodily and emotional need to retrieve and hold them, even if only bones remain, turning recovery of remains into an act of farewell and parental care."
+            },
+            "sabr_frame": {
+                "sabr_type": "parental_longing_for_retrieval_and_last_embrace",
+                "features": [
+                    "unretrieved_children",
+                    "newborn_loss",
+                    "after_eleven_years",
+                    "bones_as_loved_remains",
+                    "last_embrace",
+                    "parental_yearning"
+                ],
+                "explanation": "Resilience appears as a father’s insistence on restoring a minimal form of contact and dignity after total physical loss: seeing, holding, and retrieving his child even as bones."
+            },
+            "affective_signals": {
+                "dominant_affect": "aching_parental_longing",
+                "affect_type": "aching_parental_longing",
+                "secondary_affects": [
+                    "grief",
+                    "yearning",
+                    "tenderness",
+                    "shock"
+                ],
+                "justification": "The repeated 'بدي أشوفه / بدي أحضنه' and 'مشتاقلهم' foreground longing and the need for a final embrace."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "نفسي أطْلِّع",
+                        "note": "I wish/I want to bring out; colloquial desire + retrieval formulation."
+                    },
+                    {
+                        "marker": "إجاني ولد",
+                        "note": "A son came to me / I had a son; colloquial birth expression."
+                    },
+                    {
+                        "marker": "طَبَق 40",
+                        "note": "Completed forty days; local expression used with age."
+                    },
+                    {
+                        "marker": "عضم",
+                        "note": "Dialectal pronunciation of عظم, bones."
+                    },
+                    {
+                        "marker": "مشتاقلهم",
+                        "note": "I miss them; intimate bereavement marker."
+                    },
+                    {
+                        "marker": "آخِد",
+                        "note": "In Jabalia/North Gaza speech the خ may be pronounced with kasra in آخِد, while many other Palestinian dialects say آخُد with ḍamma."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "استشهد",
+                        "note": "Martyrdom framing for the child’s death."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "أحضنه لو عضم",
+                        "note": "Desire for a final embrace even with bodily remains; culturally salient mourning and farewell need."
+                    },
+                    {
+                        "marker": "ولد بعد 11 سنة",
+                        "note": "Emphasizes the child’s preciousness after a long wait."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "بدي... بدي",
+                        "note": "Repetition conveys urgent emotional fixation on retrieval and embrace."
+                    },
+                    {
+                        "marker": "بدي آخِد..بدي آخِد",
+                        "note": "Self-interruption and repetition show the difficulty of articulating the wish."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "aching_parental_longing",
+                "sabr_type_label": "parental_longing_for_retrieval_and_last_embrace",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": true,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "very_high_sensitivity_family_annihilation_unretrieved_bodies",
+                "contains_real_names": true,
+                "contains_minors": true,
+                "public_safe": false,
+                "note": "Use only in internal/pseudonymized research form unless names and identifying family details are removed."
+            }
+        },
+        {
+            "segment_id": "Narrative36_s02",
+            "speaker_id": "S1",
+            "start_time": 25.1,
+            "end_time": 57.5,
+            "text_ar": "تم استهداف منزلنا ب21.12.2023، اليوم ال75 كان للحرب تقريباً، استهدفوا دارن .. بيتنا 39 شهيد أنا بإيديا بطلع 24 شهيد من تحت الأنقاض من تحت 5 طوابق، 24 شهيد من ضمنهم زوجتي وأطفالي كل اللي بالبيت استشهدوا فش ولا إصابة 39، 39 شهيد كانوا 39 واستشهدوا 39 فش ولا إصابة بالبيت، أنا بس كنت طالع مليش دقايق طالع من البيت وانضرب البيت..",
+            "text_en": "Our home was targeted on 21.12.2023, approximately the seventy-fifth day of the war. They targeted our home, our house: 39 martyrs. With my own hands, I am trying to bring out 24 martyrs from under the rubble, from beneath five collapsed floors; 24 martyrs, including my wife and my children. Everyone in the house was martyred; there was not a single injured survivor. Thirty-nine, thirty-nine martyrs: they were 39 in the house and 39 were martyred; there was not a single injured survivor in the house. I had only just gone out, only a few minutes after I left the house, and the house was hit.",
+            "event_frame": {
+                "adversity_description": "The family home was targeted, killing everyone inside according to the speaker: 39 people were inside and all 39 were martyred, with not even injured survivors remaining in the house, while he survived because he had just left.",
+                "response_description": "He gives an evidentiary account through the exact date, the war-day count, numbers, repetition, and the insistence that there were no injuries; the lack of even one injured survivor intensifies his loneliness because no living relative remains to share grief with him."
+            },
+            "sabr_frame": {
+                "sabr_type": "sole_survivor_testimony_after_total_household_death",
+                "features": [
+                    "targeted_home",
+                    "date_marker",
+                    "thirty_nine_martyrs",
+                    "no_injuries",
+                    "sole_survival_by_minutes",
+                    "rubble_under_five_floors"
+                ],
+                "explanation": "The response is testimonial accounting: he tries to impose order on catastrophic loss through exact numbers and sequence, while marking the unbearable accident of his own survival."
+            },
+            "affective_signals": {
+                "dominant_affect": "traumatic_disbelief_and_survivor_shock",
+                "affect_type": "traumatic_disbelief_and_survivor_shock",
+                "secondary_affects": [
+                    "grief",
+                    "numbness",
+                    "urgency",
+                    "survivor_guilt_context"
+                ],
+                "justification": "The repeated '39' means that there were 39 in the house and 39 were martyred. The repeated 'فش ولا إصابة' stresses that there were no injured survivors, while 'مليش دقايق' shows the unbearable closeness of his survival."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "دارنا",
+                        "note": "Our house/home; North Gaza dialectal form."
+                    },
+                    {
+                        "marker": "فش ولا إصابة",
+                        "note": "There was not a single injury: i.e., no injured survivors inside the house. The phrase implies the speaker almost wishes there had been injuries, because an injured person would at least be alive and could share the grief."
+                    },
+                    {
+                        "marker": "مليش دقايق",
+                        "note": "Only a few minutes / I had barely left; marks sudden temporal proximity."
+                    },
+                    {
+                        "marker": "انضرب البيت",
+                        "note": "The house was hit [struck by the IDF]; colloquial war-event phrasing."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "شهيد / استشهدوا",
+                        "note": "Martyrdom framing for those killed."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "39 شهيد",
+                        "note": "Numerical accounting of mass family loss."
+                    },
+                    {
+                        "marker": "أنا بإيديا",
+                        "note": "With my own hands; conveys personal involvement in recovery from rubble."
+                    },
+                    {
+                        "marker": "اليوم ال75 / تاريخ الاستهداف",
+                        "note": "Counting the exact day of loss and the date since loss is a bereavement marker: the speaker continues to count time until he can retrieve and bury them."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "39، 39",
+                        "note": "The repetition means: there were 39 people in the house and all 39 were martyred."
+                    },
+                    {
+                        "marker": "فش ولا إصابة",
+                        "note": "Repeated categorical contrast: not injured survivors, only martyrs."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "traumatic_disbelief_and_survivor_shock",
+                "sabr_type_label": "sole_survivor_testimony_after_total_household_death",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": true,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "very_high_sensitivity_family_annihilation_unretrieved_bodies",
+                "contains_real_names": true,
+                "contains_minors": true,
+                "public_safe": false,
+                "note": "Use only in internal/pseudonymized research form unless names and identifying family details are removed."
+            }
+        },
+        {
+            "segment_id": "Narrative36_s03",
+            "speaker_id": "S1",
+            "start_time": 57.86,
+            "end_time": 96.56,
+            "text_ar": "زوجتي وولادي تلاتة، أبوي وإمي، أخوي فهد مرته وولاده انمسحوا من السجل المدني وأخوي ياسر انمسح من السجل المدني هو ومرته وولاده، خالي فهد الخليل انمسح من السجل المدني، اللي طلع منهم أشلاء قَدّرناهم الصحة و..والجيران وال هاذ، قدرناهم حوالي 14 واحد 18 والباقي تحت الدار، الطابق الأرضي كله كان، واللي كانوا بالطابق التالت طاروا أشلاء، يعني جبنا أشلاء عن بعد 500 متر ما يقارب،",
+            "text_en": "My wife and my three children, my father and my mother, my brother Fahd, his wife and his children were erased from the civil registry; my brother Yasser was erased from the civil registry, he and his wife and children; my maternal uncle Fahd al-Khalil's family was erased from the civil registry. Those whose remains came out, the health workers and the neighbours and others estimated them, around 14 or 18, and the rest are under the house. They were all on the ground floor, and those who were on the third floor were blown into fragmented body parts. I mean, we brought remains from almost 500 metres away.",
+            "event_frame": {
+                "adversity_description": "Multiple family branches gathered in the family home were killed, including wife, children, parents, brothers' households, and maternal uncle Fahd al-Khalil's family; some bodies emerged only as scattered, fragmented remains.",
+                "response_description": "The speaker enumerates kinship losses and uses the Gaza expression 'erased from the civil registry' to describe entire family lines cut off, while recounting the estimation of fragmented remains."
+            },
+            "sabr_frame": {
+                "sabr_type": "family_line_erasure_and_fragmented_remains_accounting",
+                "features": [
+                    "kinship_enumeration",
+                    "civil_registry_erasure",
+                    "entire_households_killed",
+                    "fragmented_remains",
+                    "remains_estimation",
+                    "scattered_body_parts",
+                    "extended_family_co_sheltering_under_war"
+                ],
+                "explanation": "The response is kinship-based accounting. He resists anonymity by naming family relations and describing how entire family branches ceased to continue."
+            },
+            "affective_signals": {
+                "dominant_affect": "devastating_kinship_grief",
+                "affect_type": "devastating_kinship_grief",
+                "secondary_affects": [
+                    "horror",
+                    "disbelief",
+                    "moral_injury",
+                    "bereaved_pride_in_naming",
+                    "shock_at_family_line_erasure"
+                ],
+                "justification": "The list of relatives and repeated 'انمسح من السجل المدني' transforms loss into a record of erased family continuity."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "تلاتة",
+                        "note": "Three; colloquial form."
+                    },
+                    {
+                        "marker": "أبوي وإمي",
+                        "note": "My father and my mother; colloquial kinship forms."
+                    },
+                    {
+                        "marker": "مرته وولاده",
+                        "note": "His wife and his children; colloquial family enumeration."
+                    },
+                    {
+                        "marker": "طلع منهم أشلاء",
+                        "note": "What came out of them were fragmented body parts/remains, bodies torn into pieces by blast force."
+                    },
+                    {
+                        "marker": "الطابق التالت",
+                        "note": "Third floor; colloquial pronunciation."
+                    }
+                ],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "انمسحوا من السجل المدني",
+                        "note": "A Gazan cultural expression meaning an entire family/household line was killed and will no longer continue in civil records."
+                    },
+                    {
+                        "marker": "قدّرناهم",
+                        "note": "Estimating number of victims from remains, often by size/weight/context under mass-casualty conditions."
+                    },
+                    {
+                        "marker": "أشلاء عن بعد 500 متر",
+                        "note": "Scattered fragmented body parts as evidence of blast severity and bodily destruction."
+                    },
+                    {
+                        "marker": "تجمّع الأقارب في بيت واحد",
+                        "note": "Contextual inference from the kinship list: under war, relatives often gather in one still-standing family home because many houses are destroyed and because togetherness provides consolation despite danger."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "زوجتي... أبوي... أخوي... خالي",
+                        "note": "Kinship list structure preserves relational identity of the dead."
+                    },
+                    {
+                        "marker": "انمسح... انمسح... انمسح",
+                        "note": "Repetition emphasizes erased family continuity."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "devastating_kinship_grief",
+                "sabr_type_label": "family_line_erasure_and_fragmented_remains_accounting",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": false,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "very_high_sensitivity_family_annihilation_unretrieved_bodies",
+                "contains_real_names": true,
+                "contains_minors": true,
+                "public_safe": false,
+                "note": "Use only in internal/pseudonymized research form unless names and identifying family details are removed."
+            }
+        },
+        {
+            "segment_id": "Narrative36_s04",
+            "speaker_id": "S1",
+            "start_time": 96.98,
+            "end_time": 123.26,
+            "text_ar": "24 شهيد تحت الأنقاض لحتى الآن تحت البيت بالطابق الأرضي تحت خمس طوابق بدي أرفعهم بدي أرتاح، فشي بواقر فشي جرافات، جبنا عمال وع الإيد قاعدين بدها شهر، وبتكلف مبلغ كبير بس مش مشكلة الواحد بيرتاح نفسياً لما يطلع ولاده، يصير يروح ع قبر يروح يلاقي قبر لأبوه يلاقي لأولاده قبر، يلاقي لأمه قبر، يلاقي لأخوه قبر، بس هلقيت كلهم تحت الدار،",
+            "text_en": "Twenty-four martyrs are still under the rubble until now, under the house on the ground floor beneath five collapsed floors of rubble and concrete. I want to lift them out; I want to rest. There are no hydraulic breakers, no bulldozers. We brought workers and they are working by hand; it needs a month, and it costs a large amount, but that is not a problem. A person rests psychologically when he brings out his children, when he can go to a grave, find a grave for his father, find a grave for his children, find a grave for his mother, find a grave for his brother. But now they are all under the house.",
+            "event_frame": {
+                "adversity_description": "Twenty-four martyrs remain on the original ground floor, now buried beneath five collapsed floors of rubble and concrete, with no heavy machinery available to retrieve them.",
+                "response_description": "The speaker frames retrieval and burial as the condition for psychological rest: a grave for each loved one is a necessary form of dignity, memory, and closure."
+            },
+            "sabr_frame": {
+                "sabr_type": "burial_dignity_as_psychological_rest_after_rubble_loss",
+                "features": [
+                    "unretrieved_martyrs",
+                    "burial_dignity",
+                    "grave_as_place_of_rest",
+                    "manual_rubble_removal",
+                    "no_heavy_machinery",
+                    "psychological_relief"
+                ],
+                "explanation": "Resilience is expressed through the effort to restore burial dignity. The speaker does not claim healing; he seeks the minimum psychological relief of knowing where each loved one is buried."
+            },
+            "affective_signals": {
+                "dominant_affect": "restless_grief_seeking_burial_closure",
+                "affect_type": "restless_grief_seeking_burial_closure",
+                "secondary_affects": [
+                    "exhaustion",
+                    "love",
+                    "duty",
+                    "yearning_for_rest"
+                ],
+                "justification": "The repeated 'بدي أرتاح' and the listing of graves for father, children, mother, and brother show grief structured around burial and visitation."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "لحتى الآن",
+                        "note": "Until now; ongoing unresolved state."
+                    },
+                    {
+                        "marker": "بدي أرفعهم بدي أرتاح",
+                        "note": "I want to lift/bring them out; I want to rest."
+                    },
+                    {
+                        "marker": "فشي",
+                        "note": "There is no; North Gaza/Gazan negation."
+                    },
+                    {
+                        "marker": "بواقر",
+                        "note": "Hydraulic breakers; local plural."
+                    },
+                    {
+                        "marker": "ع الإيد قاعدين",
+                        "note": "They are working by hand with simple tools instead of machinery."
+                    },
+                    {
+                        "marker": "هلقيت",
+                        "note": "Now; colloquial form."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "شهيد",
+                        "note": "Martyrdom framing for those under rubble."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "قبر لأبوه / لأولاده / لأمه / لأخوه",
+                        "note": "The grave as a site of recognition, mourning, visitation, and dignity."
+                    },
+                    {
+                        "marker": "بيرتاح نفسياً",
+                        "note": "Psychological relief linked to retrieving and burying loved ones, not forgetting them or achieving full closure."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "يلاقي قبر... يلاقي... يلاقي",
+                        "note": "Repetition creates a rhythm of desired burial recognition for each family relation."
+                    },
+                    {
+                        "marker": "بس مش مشكلة",
+                        "note": "Cost is minimized compared with the moral and emotional duty of retrieval."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "restless_grief_seeking_burial_closure",
+                "sabr_type_label": "burial_dignity_as_psychological_rest_after_rubble_loss",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": true,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "very_high_sensitivity_family_annihilation_unretrieved_bodies",
+                "contains_real_names": true,
+                "contains_minors": true,
+                "public_safe": false,
+                "note": "Use only in internal/pseudonymized research form unless names and identifying family details are removed."
+            },
+            "cultural_context_note_not_direct_marker": {
+                "note_ar": "«إكرام الميت دفنه» ليست عبارة واردة في كلام الراوي هنا، لكنها تفسّر إلحاحه الثقافي والديني على إخراج الجثامين ودفنها. تعجيل الجنازة والدفن يُفهم محلياً كواجب إنساني ومسؤولية مجتمعية واستحباب ديني.",
+                "note_en": "The phrase 'honouring the dead is burying them' is not a direct quote from the speaker here, but explains the cultural and religious urgency behind retrieving and burying bodies. Prompt burial is locally understood as a human duty, communal responsibility, and religiously preferred practice."
+            }
+        },
+        {
+            "segment_id": "Narrative36_s05",
+            "speaker_id": "S1",
+            "start_time": 123.26,
+            "end_time": 141.06,
+            "text_ar": "اللي اله شهيد تحت الدار بينامش ع الفاضي، فش إمكانيات بسبب الحرب، الاحتلال دمّر كل الآليات، فش سيارة .. الدفاع المدني شمال غزة فش اله الا سيارة وحدة فش اله سيارات فش اله الا اسعاف وسيارة، جرافاته ضربوهم، بواقره ضربوهم كل اشي ضربوه، الاحتلال مخلاش اشي،",
+            "text_en": "Whoever has a martyr under the house cannot sleep peacefully. There are no capabilities because of the war. The occupation destroyed all the machinery. There is no functioning vehicle... Civil Defence in North Gaza has only one functioning vehicle; it has no functioning fleet, only an ambulance and a vehicle. They struck its bulldozers, they struck its hydraulic breakers, they struck everything. The occupation left nothing.",
+            "event_frame": {
+                "adversity_description": "The inability to retrieve the dead is compounded by destroyed machinery, lack of functioning vehicles, and severely limited civil defence capacity in North Gaza.",
+                "response_description": "The speaker moves from private bereavement to structural explanation, showing that his inability to bury relatives is tied to the destruction of rescue infrastructure."
+            },
+            "sabr_frame": {
+                "sabr_type": "blocked_burial_due_to_destroyed_rescue_infrastructure",
+                "features": [
+                    "no_equipment",
+                    "destroyed_machinery",
+                    "civil_defence_capacity_collapse",
+                    "no_bulldozers",
+                    "no_hydraulic_breakers",
+                    "structural_blockage"
+                ],
+                "explanation": "The response identifies structural causes of prolonged grief: the dead remain under rubble not because families lack will, but because the machinery and rescue capacity have been destroyed."
+            },
+            "affective_signals": {
+                "dominant_affect": "frustrated_structural_helplessness",
+                "affect_type": "frustrated_structural_helplessness",
+                "secondary_affects": [
+                    "anger",
+                    "grief",
+                    "restlessness",
+                    "exhaustion"
+                ],
+                "justification": "The repeated 'فش' and 'ضربوهم' along with 'مخلاش اشي' convey blocked action and anger at destroyed rescue capacity."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "اللي اله شهيد",
+                        "note": "Whoever has a martyr; colloquial possession construction."
+                    },
+                    {
+                        "marker": "بينامش",
+                        "note": "Does not sleep; negation with final -sh."
+                    },
+                    {
+                        "marker": "فش",
+                        "note": "There is no; categorical Gazan negation."
+                    },
+                    {
+                        "marker": "فش اله الا",
+                        "note": "It has nothing except; scarcity construction, here referring to the lack of well-functioning vehicles/equipment."
+                    },
+                    {
+                        "marker": "مخلاش اشي",
+                        "note": "Left nothing; destroyed everything."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "شهيد",
+                        "note": "Martyrdom framing of the unretrieved dead."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "الدفاع المدني شمال غزة",
+                        "note": "Civil Defence as the institution expected to retrieve bodies and rescue the living, here described as structurally incapacitated."
+                    },
+                    {
+                        "marker": "الآليات / جرافات / بواقر",
+                        "note": "Heavy machinery needed for rubble removal and body retrieval."
+                    },
+                    {
+                        "marker": "سيارة / سيارة وحدة",
+                        "note": "In context, 'no vehicle' means no sufficient well-functioning vehicle fleet for civil defence and rubble-retrieval work, not literal absence of every single vehicle."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "فش... فش... فش",
+                        "note": "Repetition of absence creates a discourse of total infrastructural deprivation."
+                    },
+                    {
+                        "marker": "ضربوهم... ضربوهم... ضربوه",
+                        "note": "Repetition marks systematic destruction of equipment."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "frustrated_structural_helplessness",
+                "sabr_type_label": "blocked_burial_due_to_destroyed_rescue_infrastructure",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": true,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "very_high_sensitivity_family_annihilation_unretrieved_bodies",
+                "contains_real_names": true,
+                "contains_minors": true,
+                "public_safe": false,
+                "note": "Use only in internal/pseudonymized research form unless names and identifying family details are removed."
+            },
+            "quote_for_paper": {
+                "starred": true,
+                "quote_ar": "اللي إله شهيد تحت الدار بينامش ع الفاضي.",
+                "quote_en": "Whoever has a martyr under the house cannot sleep peacefully.",
+                "reason": "Concise formulation of unresolved grief and sleeplessness while loved ones remain under rubble."
+            }
+        },
+        {
+            "segment_id": "Narrative36_s06",
+            "speaker_id": "S1",
+            "start_time": 141.26,
+            "end_time": 160.54,
+            "text_ar": "تعب .. أقولك مش تعب يااااه .. تعب .. تعب موت .. عارف ايش موت؟ موت، بس أنا بدي أرتاح. جرح بيسكرش بس زاد فتحه، بسكرش واحد عايش لا أب ولا أخ ولا حدا ولا ولد ولا .. ايش هو؟ كيف بده يسكر الجرح؟ عمروش بسكّر.",
+            "text_en": "Exhaustion... I tell you, it is not ordinary exhaustion — ohhh — exhaustion... lethal, death-like exhaustion. Do you know what I mean by death? Death. But I want to rest. A wound that does not close; it only opened wider. It does not close. A person living with no father, no brother, no one, no child — what is he? How can the wound close? It will never close.",
+            "event_frame": {
+                "adversity_description": "After the loss of family and continued inability to retrieve them, the speaker describes life as lethal, death-like exhaustion and an unhealable wound.",
+                "response_description": "He rejects ordinary language as insufficient, intensifying 'tired' into death-like physical and psychological exhaustion, then concludes that the wound can never close when all family bonds are gone."
+            },
+            "sabr_frame": {
+                "sabr_type": "unclosed_wound_after_total_family_loss",
+                "features": [
+                    "death_like_exhaustion",
+                    "desire_for_rest",
+                    "unhealed_wound",
+                    "loss_of_family_support",
+                    "existential_question",
+                    "no_closure",
+                    "physical_exhaustion",
+                    "psychological_exhaustion",
+                    "lethal_tiredness"
+                ],
+                "explanation": "This is not a recovery narrative. SABR captures a boundary case where response is the articulation of impossible closure: endurance continues, but the wound is declared permanent."
+            },
+            "affective_signals": {
+                "dominant_affect": "exhausted_existential_grief",
+                "affect_type": "exhausted_existential_grief",
+                "secondary_affects": [
+                    "despair",
+                    "numbness",
+                    "yearning_for_rest",
+                    "irreparable_loss",
+                    "physical_exhaustion",
+                    "psychological_exhaustion"
+                ],
+                "justification": "The phrases 'تعب موت', 'بدي أرتاح', 'جرح بيسكرش', and 'عمروش بسكّر' show grief as permanent, while repeated 'موت' intensifies exhaustion into lethal physical and psychological tiredness."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "تعب موت",
+                        "note": "Lethal/death-like exhaustion; the speaker means extreme physical and psychological tiredness, not literal death at that moment."
+                    },
+                    {
+                        "marker": "بدي أرتاح",
+                        "note": "I want to rest; here connected to retrieval/burial and relief from unbearable grief."
+                    },
+                    {
+                        "marker": "جرح بيسكرش",
+                        "note": "A wound that does not close/heal; 'يسكر' means closes or heals."
+                    },
+                    {
+                        "marker": "حدا",
+                        "note": "Anyone; colloquial form."
+                    },
+                    {
+                        "marker": "عمروش بسكّر",
+                        "note": "It will never close; emphatic never construction."
+                    }
+                ],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "لا أب ولا أخ ولا حدا ولا ولد",
+                        "note": "Family relations as the structure that gives life meaning and continuity."
+                    },
+                    {
+                        "marker": "ايش هو؟",
+                        "note": "Rhetorical question implying life without family has become emptied of meaning."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "تعب.. مش تعب.. يااااه",
+                        "note": "Self-correction and elongated exclamation show ordinary words failing to capture the pain."
+                    },
+                    {
+                        "marker": "موت؟ موت",
+                        "note": "Question-answer repetition intensifies exhaustion into death-like, killing tiredness."
+                    },
+                    {
+                        "marker": "بسكرش... بسكرش... عمروش بسكّر",
+                        "note": "Repetition of non-closure frames the wound as permanent."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "exhausted_existential_grief",
+                "sabr_type_label": "unclosed_wound_after_total_family_loss",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": false,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "very_high_sensitivity_family_annihilation_unretrieved_bodies",
+                "contains_real_names": true,
+                "contains_minors": true,
+                "public_safe": false,
+                "note": "Use only in internal/pseudonymized research form unless names and identifying family details are removed."
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "طَبَق 40 يوم": {
+                "variants_ar": [
+                    "أتم 40 يوماً",
+                    "كمل أربعين يوم"
+                ],
+                "meaning_en": "He completed forty days of age."
+            },
+            "عضم": {
+                "variants_ar": [
+                    "عظم",
+                    "بقايا عظمية"
+                ],
+                "meaning_en": "Bones; the speaker wants to hold even the bones/remains of his child."
+            },
+            "مليش دقايق": {
+                "variants_ar": [
+                    "لم تمر إلا دقائق",
+                    "يا دوب طلعت"
+                ],
+                "meaning_en": "Only a few minutes had passed / I had barely left."
+            },
+            "فش ولا إصابة": {
+                "variants_ar": [
+                    "لا توجد أي إصابة",
+                    "لا ناجين داخل البيت"
+                ],
+                "meaning_en": "There was not a single injury; no injured survivors inside the house. The speaker emphasizes that everyone inside was martyred, leaving him no living relative to grieve with."
+            },
+            "انمسح من السجل المدني": {
+                "variants_ar": [
+                    "انقطعت ذريته",
+                    "استشهد هو وكل أسرته"
+                ],
+                "meaning_en": "Erased from the civil registry; a Gazan expression for an entire family/household line being killed."
+            },
+            "قدّرناهم": {
+                "variants_ar": [
+                    "خمّنا عددهم",
+                    "قُدّر عددهم من حجم الأشلاء"
+                ],
+                "meaning_en": "Estimated the number of victims from remains/body parts under mass-casualty conditions."
+            },
+            "أشلاء": {
+                "variants_ar": [
+                    "قطع صغيرة",
+                    "قطع ممزقة من الجسد",
+                    "قطع من الجسد"
+                ],
+                "meaning_en": "Fragmented human remains/body parts; bodies torn into pieces by blast force."
+            },
+            "بواقر": {
+                "variants_ar": [
+                    "باقر",
+                    "كسارات هيدروليكية"
+                ],
+                "meaning_en": "Hydraulic breakers used to break concrete/rubble."
+            },
+            "جرافات": {
+                "variants_ar": [
+                    "بلدوزرات",
+                    "معدات رفع الردم",
+                    "كبّاشات",
+                    "آليات رفع الردم"
+                ],
+                "meaning_en": "Bulldozers/heavy machinery."
+            },
+            "ع الإيد قاعدين": {
+                "variants_ar": [
+                    "يعملون يدوياً",
+                    "بالأدوات البسيطة"
+                ],
+                "meaning_en": "They are working by hand, without proper machinery."
+            },
+            "اللي اله شهيد تحت الدار بينامش ع الفاضي": {
+                "variants_ar": [
+                    "من له شهيد تحت الأنقاض لا يستطيع النوم براحة",
+                    "لا راحة لمن له شهيد تحت البيت"
+                ],
+                "meaning_en": "Whoever has a martyr under the house cannot sleep peacefully. A highly quotable line for the paper about unresolved grief and unretrieved bodies."
+            },
+            "مخلاش اشي": {
+                "variants_ar": [
+                    "لم يترك شيئاً",
+                    "دمّر كل شيء"
+                ],
+                "meaning_en": "Left nothing; destroyed everything."
+            },
+            "تعب موت": {
+                "variants_ar": [
+                    "تعب قاتل",
+                    "تعب فوق الوصف"
+                ],
+                "meaning_en": "Lethal/death-like exhaustion: extreme physical and psychological tiredness."
+            },
+            "جرح بيسكرش": {
+                "variants_ar": [
+                    "جرح لا يلتئم",
+                    "جرح لا يبرأ ولا يلتئم",
+                    "جرح لا يغلق"
+                ],
+                "meaning_en": "A wound that does not close/heal."
+            },
+            "عمروش بسكّر": {
+                "variants_ar": [
+                    "لن يغلق أبداً",
+                    "لن يلتئم أبدا"
+                ],
+                "meaning_en": "It will never close/heal."
+            },
+            "آخِد": {
+                "variants_ar": [
+                    "آخُد",
+                    "أخذ"
+                ],
+                "meaning_en": "I take; Jabalia/North Gaza pronunciation often breaks the خ with kasra in آخِد, while many other Palestinian dialects pronounce it آخُد."
+            },
+            "تجمّع الأقارب في بيت واحد": {
+                "variants_ar": [
+                    "تجمع العائلة في بيت واحد",
+                    "تجمع الأحبة للتواسي",
+                    "الموت مع الجماعة رحمة"
+                ],
+                "meaning_en": "Extended relatives gathering in one house for shelter and consolation under war, even while risking whole-family death."
+            },
+            "الموت مع الجماعة رحمة": {
+                "variants_ar": [
+                    "إما نعيش معاً أو نموت معاً",
+                    "الموت مع الأحبة أهون"
+                ],
+                "meaning_en": "Local/social principle that facing danger together may feel less unbearable than surviving or dying alone."
+            },
+            "إكرام الميت دفنه": {
+                "variants_ar": [
+                    "تعجيل الدفن",
+                    "كرامة الدفن",
+                    "دفن الميت بما يليق"
+                ],
+                "meaning_en": "Not a direct quote in this narrative; a cultural-religious principle explaining the urgency of retrieving and burying the dead."
+            },
+            "فش اله الا سيارة": {
+                "variants_ar": [
+                    "لا يملك إلا سيارة واحدة صالحة",
+                    "لا توجد سيارات/آليات عاملة كافية"
+                ],
+                "meaning_en": "It has only one functioning vehicle / no adequate functioning vehicle fleet."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "sole_survivor_family_annihilation_burial_dignity_unclosed_wound",
+        "paper_fit_ar": "تصلح Narrative36 كحالة محورية لتحليل العلاقة بين الفقد العائلي الكامل وكرامة الدفن في خطاب غزة. لا يطلب المتحدث النجاة ولا التعويض، بل يطلب الحد الأدنى من الراحة: أن يُخرج أبناءه وأهله من تحت الأنقاض، ولو كانوا عظاماً، وأن يكون لكل واحد منهم قبر. المنزل كان في الأصل من خمسة طوابق، وأغلب الضحايا كانوا في الطابق الأرضي، وبعد تسوية المنزل بالأرض أصبح فوق الجثامين خمس طوابق من الردم والخرسانة. كذلك تكشف الرواية عن سبب مهم لتجمع الأقارب في بيت واحد رغم الخطر: دمار بيوت كثيرة يجعل البيت القائم مأوى للعائلة، كما أن التآنس والتواسي بين الأقارب يخفف الخوف والوحشة، وفق مبدأ اجتماعي متداول: «الموت مع الجماعة رحمة». هنا يتحول القبر إلى بنية اعتراف وكرامة واستمرار علاقة، لا إلى نهاية عاطفية. تكرار الأرقام 39 و24، وتكرار «فش ولا إصابة»، وقائمة القرابة الطويلة، كلها تعمل كأدوات مقاومة للنسيان والاختفاء. عبارة «39، 39» تعني أن من كانوا في البيت 39 وأن الشهداء 39؛ أي لا ناجي ولا حتى مصاب. و«فش ولا إصابة» تحمل وجعاً خاصاً لأن وجود مصاب واحد كان سيعني وجود حيّ يواسيه ويحزن معه. تعبير «انمسح من السجل المدني» شديد الأهمية لأنه يحوّل الفقد من موت أفراد إلى انقطاع خط عائلي كامل. وفي إطار SABR، تظهر resilience هنا كنمط اضطراري مؤلم: الإصرار على استعادة الجثامين ودفنهم بما يليق بهم، رغم غياب الآليات وتدمير الدفاع المدني. لكنها ليست resilience تفاؤلية؛ النهاية تؤكد أن التعب «تعب موت» جسدياً ونفسياً، وأن الجرح «بيسكرش»، وأن الحياة بلا أب ولا أخ ولا ولد صارت سؤالاً وجودياً مفتوحاً. العبارة الأكثر قابلية للاقتباس في الورقة: «اللي إله شهيد تحت الدار بينامش ع الفاضي».",
+        "paper_fit_en": "Narrative36 is a central case for analysing the relationship between total family loss and burial dignity in Gaza discourse. The speaker does not ask for recovery or compensation; he asks for the minimum form of rest: to bring his children and relatives out from under the rubble, even if only bones remain, and to give each of them a grave. The house originally had five floors, and most victims were on the ground floor; after the house was flattened, five floors of rubble and concrete remained above the bodies. The narrative also reveals an important reason why relatives gather in one house despite danger: many homes have been destroyed, so a still-standing house becomes shelter for extended family, and family togetherness offers consolation under fear and loss, captured by the social principle 'death with the group is mercy.' The grave becomes a structure of recognition, dignity, and continuing relational presence, not emotional closure. The repeated numbers 39 and 24, the repeated phrase 'no injuries', and the long kinship list all function as resistance to disappearance and forgetting. The phrase '39, 39' means that 39 people were in the house and all 39 were martyred; there was not even one injured survivor. 'No injuries' carries a specific pain because even an injured survivor would have meant someone alive to mourn with him. The expression 'erased from the civil registry' is especially important because it converts loss from individual death into the ending of entire family lines. Within SABR, resilience appears here as painful forced endurance: insisting on retrieving and burying the dead despite the absence of machinery and the destruction of civil defence capacity. This is not optimistic resilience; the ending insists on lethal physical and psychological exhaustion, a wound that will not close, and life without father, brother, children, or family support as an open existential question. The strongest quote for the research paper is: 'Whoever has a martyr under the house cannot sleep peacefully.'"
+    },
+    "ethical_note": {
+        "risk_level": "extreme_sensitivity_family_annihilation_children_unretrieved_bodies_fragmented_remains",
+        "notes": [
+            "The narrative includes children, a 40-day-old baby, family annihilation, named relatives, fragmented remains, unretrieved bodies under rubble, and severe bereavement.",
+            "The speaker appears in a public journalist video, but research use should still minimize identifying details in public materials.",
+            "For public release, pseudonymize family names and avoid combining exact date, location, family count, and visible/video identifiers unless rights and safety have been reviewed.",
+            "Do not use video stills, face, voice, or identifiable family details in public materials without explicit clearance.",
+            "The expression 'انمسح من السجل المدني' should be treated as a cultural-linguistic marker of family-line erasure, not merely a bureaucratic phrase.",
+            "The repeated wish to hold bones/remains should be interpreted as mourning, burial dignity, and farewell need; it should not be sensationalized.",
+            "No clinical diagnosis should be inferred. Annotation focuses on discourse, adversity, response strategy, contextual markers, and affective signal.",
+            "The contextual idea 'إكرام الميت دفنه' is included only as researcher cultural explanation and should not be presented as a direct quote from the speaker.",
+            "The family name al-Khalil appears in the transcript as a family identifier mainly associated with Jabalia; public versions should pseudonymize it with other names.",
+            "The explanation of relatives gathering in one house is contextual analysis, not a claim that the speaker explicitly explained this motivation in the quoted segment."
+        ],
+        "recommended_public_version": "pseudonymized_text_only; generalize names and exact age; consider reducing exact date/location/count combinations if re-identification risk is high"
+    },
+    "contextual_research_notes": [
+        {
+            "topic": "extended_family_gathering_in_one_house",
+            "note_ar": "تجمع عدد كبير من الأقارب في بيت واحد لا يعني بالضرورة تجاهلاً للخطر. في سياق الحرب، كثير من البيوت دُمّر، فيستضيف البيت الذي بقي قائماً أكبر عدد ممكن من العائلة بدلاً من الخيام أو الشوارع أو مراكز الإيواء المختلطة والمزدحمة.",
+            "note_en": "The presence of many relatives in one house should not be read simply as disregard for danger. In wartime Gaza, many homes were destroyed, so a still-standing family home often sheltered as many relatives as possible instead of tents, streets, or overcrowded mixed shelters."
+        },
+        {
+            "topic": "family_togetherness_under_risk",
+            "note_ar": "كما أن الناس كانوا يتونسون ببعضهم ويتواسون في الخوف والجوع والفقد؛ فتجمع الأحبة يجعل مرور الوقت أقل قسوة، حتى مع خطر استشهاد الجميع دفعة واحدة. يلخّص هذا مبدأ شعبي متداول: «الموت مع الجماعة رحمة».",
+            "note_en": "Families also gathered because being together offered companionship and mutual consolation under fear, hunger, and loss. Even with the risk of whole-family death, shared suffering could feel less unbearable than isolation. This is captured by the local principle: 'death with the group is mercy.'"
+        },
+        {
+            "topic": "burial_dignity_context",
+            "note_ar": "عبارة «إكرام الميت دفنه» ليست من كلام الراوي في هذه الرواية، لكنها تشرح السياق الثقافي والديني لإصراره على إخراج الجثامين ودفنها بسرعة. في التصور الإسلامي والاجتماعي المحلي، تعجيل الجنازة والدفن واجب إنساني ومجتمعي ومستحب دينياً.",
+            "note_en": "The phrase 'honouring the dead is burying them' is not part of the speaker's transcript here, but it explains the cultural and religious context behind his insistence on retrieving and burying the bodies quickly. In local Islamic and social practice, prompt burial is a human, communal, and religiously preferred duty."
+        }
+    ],
+    "highlighted_quotes_for_paper": [
+        {
+            "quote_ar": "اللي إله شهيد تحت الدار بينامش ع الفاضي.",
+            "quote_en": "Whoever has a martyr under the house cannot sleep peacefully.",
+            "importance": "A compact, quotable formulation of unresolved grief when loved ones remain under rubble. It links burial dignity, psychological rest, and the impossibility of ordinary sleep before retrieval."
+        }
+    ],
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

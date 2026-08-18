@@ -3,8 +3,8 @@
     "narrative_id": "Narrative24_Pseudonymized",
     "source_meta": {
         "source_id": "N24",
-        "source_type": "video_transcription",
-        "source_platform": "Public short video testimony",
+        "source_type": "public_journalist_video_transcription_with_whisper_timestamps",
+        "source_platform": "public journalist video",
         "original_language": "ar",
         "dialect": "Palestinian Arabic (Gaza dialect) with elevated political rhetoric",
         "reported_context": "A Palestinian man speaks beside the rubble of his recently bombed home, where many civilians were reportedly present. He refers to people taken to hospital, people still under the rubble, and declares refusal to be humiliated, broken, or displaced.",

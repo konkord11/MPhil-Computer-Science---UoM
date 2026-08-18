@@ -1,0 +1,511 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative39_Pseudonymized",
+    "source_meta": {
+        "source_id": "Narrative39",
+        "source_type": "public_journalist_video_transcription_with_whisper_timestamps",
+        "source_platform": "public journalist video",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (Tal Al-Zaatar / North Gaza refugee dialectal features)",
+        "location_mentioned": "Tal Al-Zaatar, North Gaza Strip",
+        "reported_context": "A child/adolescent speaker from Tal Al-Zaatar addresses journalist كريم النابلسي in a public journalist video and describes the humiliation of aid being dropped by parachutes into the sea. He says people are made to run to the sea like racing dogs to try to obtain food. He came only to get one meal for his younger siblings, who cry from hunger, but he received nothing. He questions why aid is not secured and delivered directly to poor families, especially widowed households with hungry children.",
+        "collection_context_en": "A young speaker from Tal Al-Zaatar in North Gaza speaks in a highly emotional public journalist video about parachute aid drops into the sea. The narrative frames the aid mechanism as humiliation rather than relief: the speaker says they were degraded by parachutes and made to run toward the sea 'like saluki dogs'. He explains that he came only to obtain a meal for his younger siblings, who are crying from hunger, but he swears that he received nothing. The final part turns from personal failure to moral questioning: why are supplies not secured and delivered to poor families, especially widows who must struggle to provide food, shelter, and the means of life for their small hungry children?",
+        "collection_context_ar": "يتحدث طفل/يافع من تل الزعتر شمال قطاع غزة في فيديو صحفي عام، موجهاً كلامه إلى كريم النابلسي، عن الإهانة التي يشعر بها الناس بسبب إسقاط المساعدات بالمظلات إلى البحر. يصف المشهد بأنهم يركضون إلى البحر «زي كلاب السلق» من أجل وجبة طعام. يوضح أنه ذهب فقط ليحصل على وجبة لإخوته الصغار الذين يبكون من الجوع، لكنه يقسم أنه لم يحصل على شيء. ثم يطرح سؤالاً أخلاقياً عن سبب عدم تأمين هذه المساعدات وإيصالها للعائلات الفقيرة، خصوصاً الأرامل اللواتي يجرين على أولادهن بمعنى يعِلْنهم ويتعبن لتأمين الغذاء والمأوى ومقومات الحياة لهم.",
+        "source_safety_category": "public_journalist_video"
+    },
+    "anonymization": {
+        "is_pseudonymized": true,
+        "strategy": "name_replacement_pool",
+        "contains_real_names": false,
+        "contains_public_figure_name_only": true,
+        "contains_minors": true,
+        "contains_deceased_or_injured_people": false,
+        "notes": "Person names and identifying tokens in this tree are replaced using Gaza_NamePool_v1 with dataset-consistent mappings. Original strings are retained only in Narratives_Transcriptions. Follow Project_Research_Documentation/protocols/mphil_uom_ethics_and_governance.txt for storage, consent scope, and thesis use. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "within_dataset_consistent"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Palestinian/Gazan dialect, North Gaza displacement discourse, child testimony, and SABR annotation conventions."
+            }
+        ],
+        "adjudication": {
+            "status": "draft_annotation_ready_for_review",
+            "note": "The user-corrected Arabic transcription is treated as the source of truth. Whisper content is not used for wording because the user explicitly requested using it only for approximate timestamp mapping."
+        },
+        "alignment_note": "Whisper timestamps are used only to align approximate segment times. ASR content contains errors such as 'أناسة شريف' for 'كريم النابلسي', 'كرمونا' for 'يرمولنا', and 'تل الزاتة' for 'تل الزعتر'; corrected transcript controls meaning.",
+        "selection_policy": "Segmentation follows complete discourse units: public address and humiliation through parachute aid drops; child responsibility and failed food retrieval; moral questioning about direct delivery to poor families, widows' burden of provision, and hungry children.",
+        "source_policy_note": "All narratives in this project are treated as sourced from public journalist videos for research-safety documentation."
+    },
+    "speaker_profile": {
+        "speaker_id": "S1",
+        "gender": "male",
+        "age_estimate": "youth",
+        "origin": "Tal Al-Zaatar, North Gaza Strip",
+        "role_or_status": [
+            "Child/adolescent civilian speaker",
+            "Older sibling trying to obtain food",
+            "Witness to humiliating aid access conditions"
+        ]
+    },
+    "approx_context": {
+        "brief_summary_ar": "طفل/يافع من تل الزعتر شمال غزة يشتكي في فيديو صحفي عام من طريقة إسقاط المساعدات بالمظلات إلى البحر، ويراها إهانة لكرامة الناس لأنها تجعلهم يركضون نحو البحر كأنهم في سباق من أجل الطعام. يوضح أنه ذهب فقط ليحصل على وجبة لإخوته الصغار الذين يبكون من الجوع، لكنه يقسم أنه لم يأخذ شيئاً. ثم يسأل لماذا لا يتم تأمين المساعدات وإرسالها مباشرة للعائلات الفقيرة، خصوصاً الأرامل اللواتي يجرين على أولادهن بمعنى يعِلْنهم ويتعبن لتأمين الغذاء والمأوى ومقومات الحياة لهم، وأطفالهن الجائعين الذين لا يجدون ما يأكلون.",
+        "brief_summary_en": "A child/adolescent from Tal Al-Zaatar in North Gaza complains in a public journalist video about aid being dropped by parachutes into the sea, framing it as humiliation because people are made to run toward the sea as if in a race for food. He explains that he went only to get a meal for his younger siblings, who cry from hunger, but swears he received nothing. He then asks why aid is not secured and delivered directly to poor families, especially widows who must struggle to provide food, shelter, and the means of life for their children, and whose hungry children cannot find food."
+    },
+    "text_ar_full": "يا كريم النابلسي زلّونا بالمظلات يرمولنا ع البحر، في تل الزعتر احنا ساكنين. بيرمولنا ع البحر زي كلاب السَلق نيجي هان، بس عشان آخد وجبة لإخواتي الصغار، لإخواتي الصغار اللي بصيحولي قاعد أنا جوعان جوعان، والله ولا حاجة ما أخذت، أقسم بالله ولا حاجة ما أخذت. ليش ما يأمنوهم ويودوهم للعائلات الفقيرة؟ اللي جوزها.. أرملة، أرملة لمين بدها تي..تروح تجري لولادها؟ لولادها الصغار الأطفال اللي مش راضيين يوكلوا جعانين، مش ملاقيين ياكلوا كمان.",
+    "text_en_full": "كريم النابلسي, they humiliated us with the parachutes, dropping them for us into the sea. We live in Tal Al-Zaatar. They drop them for us into the sea, like saluki dogs, so we come here only so I can get a meal for my younger siblings, for my younger siblings who cry to me, saying: I am hungry, hungry. By Allah, I did not take anything. I swear by Allah, I did not take anything. Why do they not secure it and deliver it to the poor families? The woman whose husband... a widow, a widow — who is she supposed to go out and struggle to provide for? For her small children, the children who cannot find food to eat, who are hungry and cannot find anything to eat either.",
+    "segments": [
+        {
+            "segment_id": "Narrative39_s01",
+            "speaker_id": "S1",
+            "start_time": 0.0,
+            "end_time": 7.74,
+            "text_ar": "يا كريم النابلسي زلّونا بالمظلات يرمولنا ع البحر، في تل الزعتر احنا ساكنين. بيرمولنا ع البحر زي كلاب السَلق نيجي هان.",
+            "text_en": "كريم النابلسي, they humiliated us with the parachutes, dropping them for us into the sea. We live in Tal Al-Zaatar. They drop them for us into the sea, like saluki dogs, so we come here.",
+            "event_frame": {
+                "adversity_description": "Aid is described as being dropped by parachutes into the sea, forcing hungry civilians to run toward it in a way the child speaker experiences as humiliation.",
+                "response_description": "The speaker publicly names the experience as degradation, using the striking comparison 'like saluki dogs' to reject the loss of human dignity in the aid access process."
+            },
+            "sabr_frame": {
+                "sabr_type": "dignity_wound_under_humiliating_aid_access",
+                "features": [
+                    "parachute_aid_drop",
+                    "aid_into_sea",
+                    "public_address_to_journalist",
+                    "humiliation",
+                    "dehumanizing_comparison",
+                    "dignity_claim"
+                ],
+                "explanation": "The span constructs adversity not only as hunger but as a violation of dignity: survival aid is accessed through a humiliating race-like scene."
+            },
+            "affective_signals": {
+                "dominant_affect": "humiliated_anger",
+                "affect_type": "humiliated_anger",
+                "secondary_affects": [
+                    "dignity_wound",
+                    "frustration",
+                    "desperation"
+                ],
+                "justification": "The phrase 'زلّونا' directly names humiliation, while 'زي كلاب السلق' turns aid access into a dehumanizing comparison."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "زلّونا",
+                        "note": "They humiliated/degraded us; strong dignity injury marker."
+                    },
+                    {
+                        "marker": "يرمولنا ع البحر / بيرمولنا ع البحر",
+                        "note": "They throw/drop them for us into the sea; colloquial phrasing of aid drop location."
+                    },
+                    {
+                        "marker": "احنا ساكنين",
+                        "note": "We live; colloquial self-location marker."
+                    },
+                    {
+                        "marker": "نيجي هان",
+                        "note": "We come here; northern/Gazan colloquial deictic 'هان' = here."
+                    }
+                ],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "يا كريم النابلسي",
+                        "note": "Direct address to a public journalist figure, turning the child’s complaint into a public appeal."
+                    },
+                    {
+                        "marker": "تل الزعتر",
+                        "note": "Local North Gaza place identity anchoring the speaker’s testimony."
+                    },
+                    {
+                        "marker": "زي كلاب السَلق",
+                        "note": "Powerful dehumanizing comparison: people forced to run quickly for dropped aid like racing dogs."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "تكرار البحر",
+                        "note": "Repeating that aid is dropped into the sea emphasizes the humiliating and impractical access route."
+                    }
+                ],
+                "gesture_markers": []
+            }
+        },
+        {
+            "segment_id": "Narrative39_s02",
+            "speaker_id": "S1",
+            "start_time": 8.52,
+            "end_time": 17.5,
+            "text_ar": "بس عشان آخد وجبة لإخواتي الصغار، لإخواتي الصغار اللي بصيحولي قاعد أنا جوعان جوعان، والله ولا حاجة ما أخذت، أقسم بالله ولا حاجة ما أخذت.",
+            "text_en": "Only so I can get a meal for my younger siblings, for my younger siblings who cry to me, saying: I am hungry, hungry. By Allah, I did not take [get] anything. I swear by Allah, I did not take anything.",
+            "event_frame": {
+                "adversity_description": "The child speaker carries responsibility to obtain food for younger siblings who are crying from hunger, but returns without receiving anything.",
+                "response_description": "He justifies his attempt as sibling care and reinforces his failure to obtain food through repeated oaths."
+            },
+            "sabr_frame": {
+                "sabr_type": "child_sibling_responsibility_under_hunger",
+                "features": [
+                    "child_caretaking_role",
+                    "younger_siblings_hungry",
+                    "search_for_meal",
+                    "failed_aid_access",
+                    "oath_repetition",
+                    "family_responsibility"
+                ],
+                "explanation": "Resilience appears as premature responsibility: a young speaker tries to feed younger siblings, but the aid mechanism fails him."
+            },
+            "affective_signals": {
+                "dominant_affect": "desperate_protective_responsibility",
+                "affect_type": "desperate_protective_responsibility",
+                "secondary_affects": [
+                    "shame_of_failure",
+                    "distress",
+                    "urgency",
+                    "care"
+                ],
+                "justification": "He repeatedly frames the effort as 'لإخواتي الصغار' and intensifies the truth of failure through 'والله' and 'أقسم بالله'."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "بس عشان آخد وجبة",
+                        "note": "Only to get a meal; frames the action as minimal survival need."
+                    },
+                    {
+                        "marker": "إخواتي الصغار",
+                        "note": "My younger siblings; familial responsibility marker."
+                    },
+                    {
+                        "marker": "بصيحولي",
+                        "note": "They cry/call out to me; in this context, crying from hunger."
+                    },
+                    {
+                        "marker": "جوعان / جعان",
+                        "note": "Hungry; dialectal variants."
+                    },
+                    {
+                        "marker": "ولا حاجة ما أخذت",
+                        "note": "Double-negative-like [ولا and ما] emphatic structure meaning he took nothing at all."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "والله",
+                        "note": "Oath by Allah used to authenticate the claim of receiving nothing."
+                    },
+                    {
+                        "marker": "أقسم بالله",
+                        "note": "I swear by Allah; repeated oath intensifying sincerity, honesty and distress."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "الأخ الأكبر/الأكبر سناً كمسؤول",
+                        "note": "The child/adolescent positions himself as responsible for younger siblings’ food after the death of his father."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "إخواتي الصغار، لإخواتي الصغار",
+                        "note": "Repetition foregrounds the siblings as the moral reason for his risky effort."
+                    },
+                    {
+                        "marker": "جوعان جوعان",
+                        "note": "Repetition conveys children’s persistent hunger."
+                    },
+                    {
+                        "marker": "والله... أقسم بالله",
+                        "note": "Escalating oath sequence defending the truth of his failure to obtain food."
+                    }
+                ],
+                "gesture_markers": []
+            }
+        },
+        {
+            "segment_id": "Narrative39_s03",
+            "speaker_id": "S1",
+            "start_time": 17.84,
+            "end_time": 29.56,
+            "text_ar": "ليش ما يأمنوهم ويودوهم للعائلات الفقيرة؟ اللي جوزها.. أرملة، أرملة لمين بدها تي..تروح تجري لولادها؟ لولادها الصغار الأطفال اللي مش راضيين يوكلوا جعانين، مش ملاقيين ياكلوا كمان.",
+            "text_en": "Why do they not secure it and deliver it to the poor families? The woman whose husband... a widow, a widow — who is she supposed to go out and struggle to provide for? For her small children, the children who cannot find food to eat, who are hungry and cannot find anything to eat either.",
+            "event_frame": {
+                "adversity_description": "Poor families, widows, and small children are presented as especially vulnerable to hunger, unsafe aid access, and lack of food.",
+                "response_description": "The speaker shifts from personal testimony to moral critique, asking why aid is not secured and delivered directly to vulnerable families, and foregrounding the widow's burden of striving to provide for her children."
+            },
+            "sabr_frame": {
+                "sabr_type": "moral_critique_of_aid_distribution_for_widows_and_hungry_children",
+                "features": [
+                    "moral_questioning",
+                    "poor_families",
+                    "widows",
+                    "maternal_provision_burden",
+                    "hungry_children",
+                    "lack_of_food",
+                    "unsafe_aid_access",
+                    "demand_for_direct_delivery",
+                    "survival_need"
+                ],
+                "explanation": "The response is a moral demand for dignified and safe distribution: the child critiques a system that leaves vulnerable households, especially widows caring for hungry children, to struggle for the basic means of life."
+            },
+            "affective_signals": {
+                "dominant_affect": "moral_indignation_with_protective_sorrow",
+                "affect_type": "moral_indignation_with_protective_sorrow",
+                "secondary_affects": [
+                    "protective_concern",
+                    "frustration",
+                    "desperation",
+                    "helplessness",
+                    "moral_urgency"
+                ],
+                "justification": "The repeated question 'ليش' and the focus on widows, poor families, and hungry children show an evaluative moral critique grounded in protective sorrow and urgency."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "ليش",
+                        "note": "Why; begins a moral challenge/question."
+                    },
+                    {
+                        "marker": "يأمنوهم",
+                        "note": "Secure/protect/organize them; here refers to making aid safely and directly available."
+                    },
+                    {
+                        "marker": "يودوهم",
+                        "note": "Send/deliver them; colloquial verb for directing aid to families."
+                    },
+                    {
+                        "marker": "جوزها",
+                        "note": "Her husband; colloquial form introducing the widowhood context."
+                    },
+                    {
+                        "marker": "تروح تجري لولادها",
+                        "note": "Idiomatic expression meaning she goes out and struggles for her children: supporting them, seeking food, shelter, and the basic means of a dignified life, not merely physically running."
+                    },
+                    {
+                        "marker": "مش راضيين يوكلوا",
+                        "note": "In the source explanation, this means they cannot find food to eat, not refusal to eat."
+                    },
+                    {
+                        "marker": "جعانين",
+                        "note": "Hungry; dialectal form equivalent to جوعانين."
+                    },
+                    {
+                        "marker": "مش ملاقيين ياكلوا",
+                        "note": "They cannot find anything to eat; colloquial scarcity expression."
+                    },
+                    {
+                        "marker": "كمان",
+                        "note": "Also/as well; adds to the accumulation of deprivation."
+                    }
+                ],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "العائلات الفقيرة",
+                        "note": "Poor families as the morally appropriate recipients of aid."
+                    },
+                    {
+                        "marker": "أرملة",
+                        "note": "Widowhood as a culturally salient marker of vulnerability, household burden, and provision responsibility."
+                    },
+                    {
+                        "marker": "لولادها",
+                        "note": "Maternal responsibility for children under hunger and deprivation."
+                    },
+                    {
+                        "marker": "الأطفال",
+                        "note": "Child vulnerability as the moral center of the appeal."
+                    },
+                    {
+                        "marker": "لولادها الصغار",
+                        "note": "Small children under a widowed mother's care."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "أرملة، أرملة",
+                        "note": "Repetition sharpens the speaker's focus on widowed mothers."
+                    },
+                    {
+                        "marker": "تي..تروح",
+                        "note": "Self-repair/hesitation reflects emotional intensity while describing a widow's burden of seeking provision for her children."
+                    },
+                    {
+                        "marker": "جعانين، مش ملاقيين ياكلوا",
+                        "note": "Sequential intensification from hunger to total lack of food access."
+                    }
+                ],
+                "gesture_markers": []
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "يا كريم النابلسي": {
+                "variants_ar": [
+                    "يا صحفي",
+                    "صحفي - كريم النابلسي"
+                ],
+                "meaning_en": "Direct address to public journalist كريم النابلسي."
+            },
+            "زلّونا": {
+                "variants_ar": [
+                    "ذلونا",
+                    "أهانونا",
+                    "أهانوا كرامتنا"
+                ],
+                "meaning_en": "They humiliated/degraded us."
+            },
+            "بالمظلات": {
+                "variants_ar": [
+                    "اسقاط المساعدات بالمظلات",
+                    "إسقاط المساعدات جواً"
+                ],
+                "meaning_en": "By parachutes / through parachute aid drops."
+            },
+            "يرمولنا ع البحر": {
+                "variants_ar": [
+                    "يلقونها في البحر",
+                    "يسقطونها على البحر",
+                    "يرموها ع البحر"
+                ],
+                "meaning_en": "They drop/throw it into the sea for us."
+            },
+            "تل الزعتر": {
+                "variants_ar": [
+                    "تل الزعتر - شمال غزة",
+                    "منطقة تل الزعتر"
+                ],
+                "meaning_en": "Tal Al-Zaatar, North Gaza."
+            },
+            "زي كلاب السلق": {
+                "variants_ar": [
+                    "كأننا كلاب سباق",
+                    "مثل كلاب السلق"
+                ],
+                "meaning_en": "Like saluki/racing dogs; dehumanizing comparison about racing for aid."
+            },
+            "نيجي هان": {
+                "variants_ar": [
+                    "نأتي إلى هنا",
+                    "نيجي هون"
+                ],
+                "meaning_en": "We come here."
+            },
+            "إخواتي الصغار": {
+                "variants_ar": [
+                    "إخوتي الصغار",
+                    "أشقائي الصغار"
+                ],
+                "meaning_en": "My younger siblings."
+            },
+            "بصيحولي": {
+                "variants_ar": [
+                    "يبكون لي",
+                    "ينادونني وهم يبكون",
+                    "يصرخون من الجوع"
+                ],
+                "meaning_en": "They cry/call out to me; contextually from hunger."
+            },
+            "جوعان / جعان / جعانين": {
+                "variants_ar": [
+                    "جائع",
+                    "جائعون"
+                ],
+                "meaning_en": "Hungry."
+            },
+            "والله ولا حاجة ما أخذت": {
+                "variants_ar": [
+                    "والله ولا حاجة أخذت",
+                    "والله ما أخذت شيئاً"
+                ],
+                "meaning_en": "By Allah, I did not take anything; emphatic non-standard/double-negative structure."
+            },
+            "أقسم بالله": {
+                "variants_ar": [
+                    "أحلف بالله",
+                    "والله"
+                ],
+                "meaning_en": "I swear by Allah."
+            },
+            "يأمنوهم": {
+                "variants_ar": [
+                    "يؤمّنوهم",
+                    "ينظموا وصولهم بأمان",
+                    "يضمنوا وصولهم"
+                ],
+                "meaning_en": "Secure them / make them safely available."
+            },
+            "يودوهم": {
+                "variants_ar": [
+                    "يرسلوهم",
+                    "يوصلوهم"
+                ],
+                "meaning_en": "Send/deliver them."
+            },
+            "العائلات الفقيرة": {
+                "variants_ar": [
+                    "الأسر الفقيرة",
+                    "العائلات المحتاجة"
+                ],
+                "meaning_en": "Poor/needy families."
+            },
+            "أرملة": {
+                "variants_ar": [
+                    "المرأة الأرملة",
+                    "التي استشهد زوجها/فقدت زوجها"
+                ],
+                "meaning_en": "A widowed woman / a woman whose husband is lost/dead, carrying responsibility for her children."
+            },
+            "مش راضيين يوكلوا": {
+                "variants_ar": [
+                    "لا يجدون ما يأكلونه",
+                    "غير قادرين على الأكل لعدم وجود طعام"
+                ],
+                "meaning_en": "They cannot find food to eat; not refusal to eat."
+            },
+            "مش ملاقيين ياكلوا": {
+                "variants_ar": [
+                    "لا يجدون طعاماً",
+                    "مش لاقيين أكل"
+                ],
+                "meaning_en": "They cannot find food."
+            },
+            "تجري لولادها": {
+                "variants_ar": [
+                    "تجري ع اولادها",
+                    "تسعى لإعالة أولادها",
+                    "تتعب لتأمين حياة أولادها",
+                    "تبحث لهم عن مقومات الحياة"
+                ],
+                "meaning_en": "An idiom meaning she strives/runs around to provide for her children: securing food, shelter, support, and the basic means of a dignified life."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "child_hunger_humiliating_aid_distribution_sibling_responsibility",
+        "paper_fit_ar": "تصلح Narrative39 كحالة قوية لتحليل تقاطع الجوع مع الكرامة والمسؤولية المبكرة للأطفال في سياق الحصار والنزوح. لا يصف الطفل الجوع فقط، بل يصف آلية الحصول على الطعام بوصفها إهانة: «زلّونا بالمظلات» و«زي كلاب السلق». هنا يتحول الغذاء من مساعدة إنسانية إلى مشهد سباق مهين، حيث يفوز الأسرع والأقوى بينما يعود الضعفاء بلا شيء. تظهر الاستجابة في تحمل الطفل/اليافع مسؤولية أخلاقية تجاه إخوته الصغار: «بس عشان آخد وجبة لإخواتي الصغار»، ثم يكرّر الأيمان ليؤكد أنه فشل في الحصول على أي شيء. التحول الأخير من تجربته الشخصية إلى سؤال عن الأرامل والعائلات الفقيرة يوسّع الخطاب من جوع فردي إلى نقد أخلاقي لنظام توزيع المساعدات. ومعنى «تجري لولادها» هنا ليس الجري الحرفي فقط، بل السعي والتعب لإعالة الأطفال وتأمين الغذاء والمأوى ومقومات الحياة الكريمة لهم. في إطار SABR، تكشف الرواية عن نمط استجابة قائم على حماية الأسرة، حفظ الكرامة، والمطالبة بتوزيع عادل وآمن للمساعدة، مع affect مركّب من الإهانة والغضب والحزن الوقائي.",
+        "paper_fit_en": "Narrative39 is a strong case for analysing the intersection of hunger, dignity, and premature child responsibility under siege and displacement. The child does not describe hunger alone; he frames the aid mechanism itself as humiliation: 'they humiliated us with parachutes' and 'like saluki dogs'. Food aid becomes a degrading race in which the fastest and strongest may obtain something while weaker families return empty-handed. The response is shaped by family protection: the child says he came only to get a meal for his younger siblings, then repeats oaths to authenticate that he obtained nothing. The final shift from his own failed attempt to widows and poor families expands the testimony from personal hunger to moral critique of aid distribution. Here, 'تجري لولادها' does not only mean physically running; it means striving and struggling to support children and secure food, shelter, and the basic means of dignified life. In SABR terms, the narrative shows a response pattern built around family care, dignity assertion, and demand for safe/direct distribution, with an affective profile combining humiliation, anger, protective sorrow, and desperation."
+    },
+    "ethical_note": {
+        "risk_level": "very_high_sensitivity_child_hunger_humanitarian_aid_humiliation",
+        "notes": [
+            "The narrative is sourced from a public journalist video; this should be recorded for research-safety provenance.",
+            "The speaker is a child/adolescent and should be treated as a vulnerable minor.",
+            "The narrative concerns hunger, food deprivation, aid access, poor families, widows, and younger children.",
+            "The text includes a public figure name as an addressee; consider generalizing it for stricter public release.",
+            "Do not use video stills, face, voice, or identifiable child features in public materials.",
+            "Avoid reducing the narrative to 'food insecurity' only; dignity injury and humiliating aid access are central.",
+            "The phrase 'زي كلاب السلق' is a dehumanizing comparison used by the speaker to describe humiliation; it should be contextualized, not reproduced sensationally.",
+            "No clinical diagnosis should be inferred. The annotation focuses on discourse, adversity, response strategy, contextual markers, and affective signal."
+        ],
+        "recommended_public_version": "pseudonymized_text_only; public_journalist_video_source; generalize child age; consider replacing direct public-figure address with a generic journalist address if needed"
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

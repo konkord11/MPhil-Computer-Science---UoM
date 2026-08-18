@@ -1,0 +1,829 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative31_Pseudonymized",
+    "source_meta": {
+        "source_id": "Narrative31",
+        "source_title": "Sabr Icon",
+        "source_type": "public_journalist_video_transcription_with_whisper_timestamps",
+        "source_platform": "public journalist video",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (Gaza City dialect)",
+        "location_mentioned": "Gaza City",
+        "reported_context": "An older adult religious man consoles relatives after the martyrdom of his son, urging sabr, rida, istirja, forgiveness, acceptance of Allah's decree, and prayer of gratitude The testimony explicitly frames Gaza as a land of jihad and ribat, functioning as a religious-cultural frame for sabr, rida, steadfastness on the land, and hope for reward from Allah.",
+        "collection_context_ar": "شهادة مصورة عامة لرجل متدين من مدينة غزة يواسي أقاربه بعد استشهاد ابنه. يهدئ الآخرين ويدعوهم إلى الصبر والرضا بقضاء الله وقدره، ويستحضر الاسترجاع والدعاء عند المصيبة، ويؤكد أن الموت حق وأن الجميع عابرون، ثم يقول إنه يريد صلاة ركعتين شكراً لله لأن الله أنعم على ابنه بالشهادة وتُعد عبارة «أرض جهاد هادي وأرض رباط» مركزية بحثياً لأنها لا تعمل كزينة لغوية، بل كإطار ديني لتثبيت الناس وحثهم على الصمود في أرضهم رغم القصف والفقد والحصار، طمعاً في الأجر والثواب عند الله.",
+        "collection_context_en": "A public journalist video testimony in which a bereaved religious father becomes a consolation figure. He calms mourners, invokes mercy, istirja'a, supplication after calamity, martyrdom, divine decree, forgiveness, and finally gratitude-prayer for his son's martyrdom The phrase 'this is a land of jihad and a land of ribat' is analytically central because it functions as a religious-cultural frame that stabilizes mourners, urges steadfastness on the land despite loss and danger, and connects endurance to reward from Allah."
+    },
+    "anonymization": {
+        "is_pseudonymized": true,
+        "strategy": "name_replacement_pool",
+        "contains_real_names": false,
+        "contains_minors": true,
+        "contains_deceased_or_injured_people": true,
+        "notes": "Person names and identifying tokens in this tree are replaced using Gaza_NamePool_v1 with dataset-consistent mappings. Original strings are retained only in Narratives_Transcriptions. Follow Project_Research_Documentation/protocols/mphil_uom_ethics_and_governance.txt for storage, consent scope, and thesis use. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "within_dataset_consistent"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Gazan dialect, Islamic mourning discourse, sabr/rida terminology, and SABR conventions."
+            }
+        ],
+        "adjudication": {
+            "status": "draft_annotation_ready_for_review",
+            "note": "The user-corrected Arabic transcription is the source of truth. Whisper is used only for approximate timestamp mapping."
+        },
+        "alignment_note": "Whisper contains severe lexical errors and a repeated/glitched phrase in the final prayer section. Corrected transcript controls wording and meaning. No confidence values are retained.",
+        "selection_policy": "Segments follow complete meaning-units: immediate consolation and istirja; martyrdom/reward framing; explicit rida; previous child loss and forgiveness; prophetic mortality; gratitude-prayer after the son's martyrdom."
+    },
+    "speaker_profile": {
+        "speaker_id": "S1",
+        "gender": "male",
+        "age_estimate": "older_adult",
+        "origin": "Gaza City",
+        "role_or_status": [
+            "Bereaved father",
+            "Religious consolation figure",
+            "Family elder calming relatives"
+        ]
+    },
+    "other_speakers": [
+        {
+            "speaker_id": "J1",
+            "role_or_status": [
+                "Journalist/interviewer"
+            ],
+            "note": "Asks short questions in the later continuation."
+        }
+    ],
+    "approx_context": {
+        "brief_summary_ar": "رجل متدين من مدينة غزة يواسي أقاربه بعد استشهاد ابنه، ويدعوهم إلى الصبر والرضا بقضاء الله، ويذكرهم بأن الموت حق وأن الجميع مشاريع شهداء. يستحضر الاسترجاع والدعاء عند المصيبة، ويؤكد أن غزة أرض جهاد ورباط؛ أي أرض ثبات ومرابطة دينية وأخلاقية يُحثّ الناس فيها على الصمود في أرضهم رغم كل الظروف طمعاً في الأجر والثواب. ثم يروي أنه فقد ولداً سابقاً في حادث، ومع ذلك سامح المتسببة ووجّهها دينياً. وفي النهاية يقول إنه يريد صلاة ركعتين شكر لله لأن الله أنعم على ابنه بالشهادة.",
+        "brief_summary_en": "A religious man from Gaza City consoles relatives after his son's martyrdom, calling them to sabr and rida. He invokes istirja, supplication after calamity, Gaza as a land of jihad and ribat, martyr intercession, divine decree, prior forgiveness after a previous child death, and finally gratitude-prayer because Allah blessed his son with martyrdom. Here, ribat frames Gaza as a land of steadfast religious-moral presence: remaining, enduring, and holding the land despite danger in hope of reward from Allah."
+    },
+    "text_ar_full": "الله يرحمهم، بس هي ال..ال.. هي الشهدا، الله يرحمهم، الله يقبلهم، متعيطش يا زلمة، أنتَ زلمة، كلنا شهدا، كلنا مشاريع شهدا .. كلنا مشاريع شهدا، قول: \"إنا لله وإنا إليه راجعون\"، \"اللهم أجرني في مصيبتي واخلفني من خيرا منها\"، سامحه ابن عمك، سامحه!\nمالكوا يا عمي شدوا حيلكوا، أرض جهاد هادي وأرض رباط، كلنا في سبيل الله. إحنا ليش عايشين؟ بكرا بياخدك من إيدك وبيخششك الفردوس الأعلى، الشهيد بيتشفع لسبعين واحد من أهل بيته، لسبعين واحد بيتشفع. كرهان؟ مش خسارة في ربنا، الله خلقنا والله بياخدنا والله يفعل ما يريد وإحنا الحمدلله صابرين، صابرين ومنرضى قضاء الله وقدره، بنرضى فيه بنعترضش على أمر الله.\nقبل هيك استشهدلك حد؟\nتوفى لي ولد إ.. الله يرحمه، إنفعص بنت فعصته، قلت لها مسامحك، تحجبي ومسامحك، في نفس اليوم والله في نفس اليوم، عمره أربعة..تلات سنين، الحمدلله.\nكان تخلّد أعظم رجل على وجه الأرض محمد -صلى الله عليه وسلم-، احنا بدنا نتخلّد؟\nبتتوضأ تصلي؟\nبدي أصلي ركعتين شكر لله.\nوالله؟\nآه. ركعتين شكر لأنه الله أنعم على ابني الشهادة.\nالله أكبر.",
+    "text_en_full": "May Allah have mercy on them. These are the martyrs; may Allah have mercy on them, may Allah accept them. Do not cry, man; you are a man. We are all martyrs, we are all projects of martyrdom. Say: 'Indeed, we belong to Allah, and indeed, to Him we will return.' Say: 'O Allah, reward me in my calamity and replace it for me with something better than it.' Forgive him, your cousin; forgive him. What is wrong with you, my uncle? Strengthen yourselves. This is a land of jihad and a land of ribat. We are all in the path of Allah. Why are we alive? Tomorrow he will take you by your hand and admit you into the highest Paradise. The martyr intercedes for seventy people from his household. Don't you love  that? It is not a loss with our Lord. Allah created us and Allah takes us, and Allah does whatever He wills. We, praise be to Allah, are patient, and we accept Allah's decree and destiny. We accept it; we do not object to Allah's command. A son of mine died, may Allah have mercy on him. He was run over by a girl. I said to her: I forgive you; wear hijab and I forgive you. On the same day, by Allah, on the same day. He was four... three years old. Praise be to Allah. If the greatest man on earth, Mohammad — peace and blessings be upon him — was not made immortal, are we going to be immortal? I want to pray two rak'ahs of gratitude to Allah. Yes, two rak'ahs of gratitude because Allah blessed my son with martyrdom. Allah is greater.",
+    "segments": [
+        {
+            "segment_id": "Narrative31_s01",
+            "speaker_id": "S1",
+            "start_time": 0.0,
+            "end_time": 23.99,
+            "text_ar": "الله يرحمهم، بس هي ال..ال.. هي الشهدا، الله يرحمهم، الله يقبلهم، متعيطش يا زلمة، أنتَ زلمة، كلنا شهدا، كلنا مشاريع شهدا .. كلنا مشاريع شهدا، قول: \"إنا لله وإنا إليه راجعون\"، \"اللهم أجرني في مصيبتي واخلفني من خيرا منها\"، سامحه ابن عمك، سامحه!",
+            "text_en": "May Allah have mercy on them. These are the martyrs; may Allah have mercy on them, may Allah accept them. Do not cry, man; you are a man. We are all martyrs, we are all projects of martyrdom. Say: 'Indeed, we belong to Allah, and indeed, to Him we return.' Say: 'O Allah, reward me in my calamity and replace it for me with something better than it.' Forgive him, your cousin; forgive him!",
+            "event_frame": {
+                "adversity_description": "Relatives are facing the death/martyrdom of loved ones and immediate communal grief.",
+                "response_description": "The speaker turns the first shock of bereavement into structured religious consolation: mercy, acceptance, istirja, supplication, and forgiveness."
+            },
+            "sabr_frame": {
+                "sabr_type": "immediate_istirja_and_forgiveness_as_communal_consolation",
+                "features": [
+                    "mercy_prayer",
+                    "martyrdom_acceptance",
+                    "do_not_cry_exhortation",
+                    "istirja",
+                    "calamity_supplication",
+                    "forgiveness"
+                ],
+                "explanation": "The speaker turns the first shock of bereavement into structured religious consolation: mercy, acceptance, istirja, supplication, and forgiveness."
+            },
+            "affective_signals": {
+                "dominant_affect": "composed_devotional_consolation",
+                "affect_type": "composed_devotional_consolation",
+                "secondary_affects": [],
+                "justification": "The wording and discourse markers in this span directly support this affective reading."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "متعيطش",
+                        "note": "Do not cry; Gazan/Palestinian negated imperative."
+                    },
+                    {
+                        "marker": "يا زلمة / أنت زلمة",
+                        "note": "Man / you are a man; cultural call to strength."
+                    },
+                    {
+                        "marker": "سامحه",
+                        "note": "Forgive him; direct imperative."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "الله يرحمهم",
+                        "note": "Prayer for Allah's mercy on the martyrs."
+                    },
+                    {
+                        "marker": "الله يقبلهم",
+                        "note": "Prayer that Allah accepts them as martyrs."
+                    },
+                    {
+                        "marker": "إنا لله وإنا إليه راجعون",
+                        "note": "Istirja, Qur'anic formula at calamity."
+                    },
+                    {
+                        "marker": "اللهم أجرني في مصيبتي واخلفني من خيرا منها",
+                        "note": "Supplication asking Allah for reward and better replacement after calamity."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "أنت زلمة",
+                        "note": "Gendered/cultural expectation of public strength; analysed as discourse, not endorsed as a rule about grief."
+                    },
+                    {
+                        "marker": "سامحه ابن عمك",
+                        "note": "Kinship-framed forgiveness within communal mourning."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "كلنا مشاريع شهدا .. كلنا مشاريع شهدا",
+                        "note": "Repetition universalizes mortality under war."
+                    },
+                    {
+                        "marker": "قول:",
+                        "note": "Instructional religious speech; the speaker teaches the utterance for calamity."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "composed_devotional_consolation",
+                "sabr_type_label": "immediate_istirja_and_forgiveness_as_communal_consolation",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": true,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "very_high_sensitivity_bereavement_martyrdom_religious_consolation",
+                "contains_real_names": false,
+                "contains_minors": false,
+                "public_safe": true,
+                "note": "Avoid using the segment to prescribe how men should grieve; analyse it as the speaker's cultural-religious discourse."
+            }
+        },
+        {
+            "segment_id": "Narrative31_s02",
+            "speaker_id": "S1",
+            "start_time": 23.99,
+            "end_time": 41.6,
+            "text_ar": "مالكوا يا عمي شدوا حيلكوا، أرض جهاد هادي وأرض رباط، كلنا في سبيل الله. إحنا ليش عايشين؟ بكرا بياخدك من إيدك وبيخششك الفردوس الأعلى، الشهيد بيتشفع لسبعين واحد من أهل بيته، لسبعين واحد بيتشفع. كرهان؟ مش خسارة في ربنا،",
+            "text_en": "What is wrong with you, my uncle? Strengthen yourselves. This is a land of jihad and a land of ribat. We are all in the path of Allah. Why are we alive? Tomorrow he will take you by your hand and admit you into the highest Paradise. The martyr intercedes for seventy people from his household. Do you dislike that? It is not a loss with our Lord.",
+            "event_frame": {
+                "adversity_description": "The community is grieving martyrdom and struggling with the emotional shock.",
+                "response_description": "The speaker reinterprets death and grief through Gaza as a land of jihad and ribat, martyr intercession, Paradise, and the idea that a loved one taken by Allah is not lost in vain. The ribat frame functions to strengthen mourners, encourage steadfastness on the land, and connect endurance under danger with reward from Allah."
+            },
+            "sabr_frame": {
+                "sabr_type": "ribat_and_martyrdom_reward_frame_as_grief_stabilization",
+                "features": [
+                    "land_of_jihad",
+                    "land_of_ribat",
+                    "path_of_allah",
+                    "highest_paradise",
+                    "martyr_intercession",
+                    "not_a_loss_with_allah",
+                    "steadfastness_on_the_land",
+                    "reward_from_allah",
+                    "communal_firmness",
+                    "sabr_under_siege"
+                ],
+                "explanation": "The speaker reinterprets death through Gaza as a land of jihad and ribat, martyr intercession, Paradise, and the idea that a loved one taken by Allah is not lost in vain. In this testimony, describing Gaza as أرض رباط is a religious-cultural method of تثبيت: it steadies mourners, urges them to remain steadfast in their land despite calamity, and frames endurance as seeking Allah's reward."
+            },
+            "affective_signals": {
+                "dominant_affect": "faith_anchored_rida_and_ribat_resolve",
+                "affect_type": "faith_anchored_rida_and_ribat_resolve",
+                "secondary_affects": [
+                    "communal_consolation",
+                    "steadfastness",
+                    "hope_for_reward",
+                    "protective_moral_firmness"
+                ],
+                "justification": "The phrases 'أرض جهاد هادي وأرض رباط', 'كلنا في سبيل الله', 'الفردوس الأعلى', and 'مش خسارة في ربنا' frame grief through rida, ribat, afterlife reward, and steadfast presence on the land."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "مالكوا يا عمي",
+                        "note": "What is wrong with you? colloquial challenge to regain composure."
+                    },
+                    {
+                        "marker": "شدوا حيلكوا",
+                        "note": "Hold yourselves together."
+                    },
+                    {
+                        "marker": "بيخششك",
+                        "note": "Admits/enters you; Gazan colloquial 'خش'."
+                    },
+                    {
+                        "marker": "كرهان؟",
+                        "note": "Do you dislike that? won't you be satisfied with that? Colloquial question."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "أرض جهاد",
+                        "note": "Islamic religious-cultural framing of Gaza as a land of struggle, sacrifice, worshipful endurance, and faith-based commitment under oppression and calamity."
+                    },
+                    {
+                        "marker": "أرض رباط",
+                        "note": "Islamic religious-cultural frame of ribat: steadfast holding of the land and remaining firm in Gaza despite fear, loss, siege, and displacement pressure, seeking reward and thawab from Allah."
+                    },
+                    {
+                        "marker": "الفردوس الأعلى",
+                        "note": "Highest Paradise; afterlife reward."
+                    },
+                    {
+                        "marker": "الشهيد بيتشفع لسبعين واحد من أهل بيته",
+                        "note": "Martyr intercession belief as used for consolation."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "مش خسارة في ربنا",
+                        "note": "Cultural consolation phrase: what returns to Allah is not wasted."
+                    },
+                    {
+                        "marker": "تثبيت الناس على الأرض",
+                        "note": "The phrase أرض رباط functions as تثبيت: strengthening people emotionally and religiously to stay connected to their land and remain steadfast despite extreme danger and loss."
+                    },
+                    {
+                        "marker": "طمعاً في الأجر والثواب",
+                        "note": "Endurance is framed not as mere survival but as worshipful steadfastness for reward from Allah."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "لسبعين واحد... لسبعين واحد",
+                        "note": "Repetition emphasizes reward/intercession for family."
+                    },
+                    {
+                        "marker": "إحنا ليش عايشين؟",
+                        "note": "Existential question shifting focus to afterlife purpose."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "faith_anchored_rida_and_ribat_resolve",
+                "sabr_type_label": "ribat_and_martyrdom_reward_frame_as_grief_stabilization",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": true,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "very_high_sensitivity_bereavement_martyrdom_religious_consolation",
+                "contains_real_names": false,
+                "contains_minors": false,
+                "public_safe": true,
+                "note": "Interpret jihad and ribat respectfully as Islamic religious-cultural meaning frames in the testimony: worship, steadfastness, sabr, moral struggle, endurance, duty, staying firm on the land, and seeking reward from Allah as expressed by the speaker."
+            }
+        },
+        {
+            "segment_id": "Narrative31_s03",
+            "speaker_id": "S1",
+            "start_time": 41.64,
+            "end_time": 54.2,
+            "text_ar": "الله خلقنا والله بياخدنا والله يفعل ما يريد وإحنا الحمدلله صابرين، صابرين ومنرضى قضاء الله وقدره، بنرضى فيه بنعترضش على أمر الله.",
+            "text_en": "Allah created us and Allah takes us, and Allah does whatever He wills. And we, praise be to Allah, are patient; patient, and we accept Allah's decree and destiny. We accept it; we do not object to Allah's command.",
+            "event_frame": {
+                "adversity_description": "Death and loss are placed under Allah's sovereignty and the shock of bereavement.",
+                "response_description": "The speaker articulates explicit sabr and rida: Allah gives life and takes it, and believers accept His decree without objection."
+            },
+            "sabr_frame": {
+                "sabr_type": "explicit_rida_and_non_objection_to_divine_decree",
+                "features": [
+                    "allah_created_us",
+                    "allah_takes_us",
+                    "allah_wills",
+                    "hamd",
+                    "sabr",
+                    "rida",
+                    "qada_and_qadar",
+                    "non_objection"
+                ],
+                "explanation": "The speaker articulates explicit sabr and rida: Allah gives life and takes it, and believers accept His decree without objection."
+            },
+            "affective_signals": {
+                "dominant_affect": "devotional_acceptance",
+                "affect_type": "devotional_acceptance",
+                "secondary_affects": [],
+                "justification": "The wording and discourse markers in this span directly support this affective reading."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "بياخدنا",
+                        "note": "He takes us; colloquial verb form."
+                    },
+                    {
+                        "marker": "منرضى / بنرضى",
+                        "note": "We accept."
+                    },
+                    {
+                        "marker": "بنعترضش",
+                        "note": "We do not object; negation with final -sh."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "الله خلقنا والله بياخدنا",
+                        "note": "Allah as giver and taker of life."
+                    },
+                    {
+                        "marker": "الله يفعل ما يريد",
+                        "note": "Divine sovereignty."
+                    },
+                    {
+                        "marker": "الحمدلله",
+                        "note": "Praise under calamity."
+                    },
+                    {
+                        "marker": "قضاء الله وقدره",
+                        "note": "Allah's decree and destiny."
+                    },
+                    {
+                        "marker": "أمر الله",
+                        "note": "Allah's command; non-objection defines rida."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "صابرين ومنرضى",
+                        "note": "Local religious-moral ideal of standing firm at the first shock of calamity."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "صابرين، صابرين",
+                        "note": "Repetition explicitly performs steadfastness."
+                    },
+                    {
+                        "marker": "الله... والله... والله",
+                        "note": "Parallel theological structure reinforces divine ownership and agency."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "devotional_acceptance",
+                "sabr_type_label": "explicit_rida_and_non_objection_to_divine_decree",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": true,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "very_high_sensitivity_bereavement_martyrdom_religious_consolation",
+                "contains_real_names": false,
+                "contains_minors": false,
+                "public_safe": true,
+                "note": "Analyse as rida and non-objection discourse, not proof of absence of pain."
+            }
+        },
+        {
+            "segment_id": "Narrative31_s04",
+            "speaker_id": "S1",
+            "start_time": 54.2,
+            "end_time": 68.5,
+            "text_ar": "قبل هيك استشهدلك حد؟ توفى لي ولد إ.. الله يرحمه، إنفعص بنت فعصته، قلت لها مسامحك، تحجبي ومسامحك، في نفس اليوم والله في نفس اليوم، عمره أربعة..تلات سنين، الحمدلله.",
+            "text_en": "'Before this, did you have anyone martyred?' A son of mine died, may Allah have mercy on him. He was run over; a girl ran him over. I said to her: I forgive you; wear hijab and I forgive you. On the same day, by Allah, on the same day. He was four... three years old. Praise be to Allah.",
+            "event_frame": {
+                "adversity_description": "The speaker recalls a previous child death in an accident, distinguishing it from war martyrdom by saying the son died rather than was martyred.",
+                "response_description": "He frames the earlier loss through forgiveness and religious concern, saying he forgave the person responsible on the same day while advising her to wear hijab."
+            },
+            "sabr_frame": {
+                "sabr_type": "prior_child_loss_forgiveness_and_religious_priority",
+                "features": [
+                    "previous_child_death",
+                    "death_vs_martyrdom_distinction",
+                    "forgiveness",
+                    "same_day_forgiveness",
+                    "religious_advice",
+                    "hamd_after_loss"
+                ],
+                "explanation": "He frames the earlier loss through forgiveness and religious concern, saying he forgave the person responsible on the same day while advising her to wear hijab."
+            },
+            "affective_signals": {
+                "dominant_affect": "serene_forgiveness_under_repeated_loss",
+                "affect_type": "serene_forgiveness_under_repeated_loss",
+                "secondary_affects": [],
+                "justification": "The wording and discourse markers in this span directly support this affective reading."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "استشهدلك حد؟",
+                        "note": "Gaza wartime phrasing: has someone been martyred for you? [Colloquial question - has anyone you know been martyred?]"
+                    },
+                    {
+                        "marker": "توفى لي ولد",
+                        "note": "The speaker answers 'died' because the earlier loss was an accident not a martyrdom during war."
+                    },
+                    {
+                        "marker": "إنفعص / فعصته",
+                        "note": "Was run over / she ran him over; colloquial accident term."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "الله يرحمه",
+                        "note": "Prayer for mercy upon the deceased child."
+                    },
+                    {
+                        "marker": "تحجبي ومسامحك",
+                        "note": "Forgiveness tied to religious advice in the speaker's worldview."
+                    },
+                    {
+                        "marker": "الحمدلله",
+                        "note": "Praise after recalling a previous child death."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "المسامحة في القتل غير العمد",
+                        "note": "Source note frames forgiveness in accidental death as culturally observed in Gaza; not universalized."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "في نفس اليوم والله في نفس اليوم",
+                        "note": "Repetition emphasizes immediacy of forgiveness."
+                    },
+                    {
+                        "marker": "أربعة..تلات سنين",
+                        "note": "Self-repair around the child's age reflects spontaneous recollection under strain."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "serene_forgiveness_under_repeated_loss",
+                "sabr_type_label": "prior_child_loss_forgiveness_and_religious_priority",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": true,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "very_high_sensitivity_bereavement_martyrdom_religious_consolation",
+                "contains_real_names": false,
+                "contains_minors": true,
+                "public_safe": false,
+                "note": "Do not include exact child age in public outputs; avoid presenting forgiveness as required for all bereaved people."
+            }
+        },
+        {
+            "segment_id": "Narrative31_s05",
+            "speaker_id": "S1",
+            "start_time": 68.5,
+            "end_time": 72.66,
+            "text_ar": "كان تخلّد أعظم رجل على وجه الأرض محمد -صلى الله عليه وسلم-، احنا بدنا نتخلّد؟",
+            "text_en": "If the greatest man on earth, Mohammad — peace and blessings be upon him — was not made immortal, are we going to be immortal?",
+            "event_frame": {
+                "adversity_description": "Human beings face the inevitability of death, including loved ones and the speaker himself.",
+                "response_description": "The speaker uses the mortality of the Prophet Mohammad ﷺ as the strongest example that no human being is immortal, thereby reframing death as universal and divinely ordered."
+            },
+            "sabr_frame": {
+                "sabr_type": "prophetic_mortality_as_acceptance_frame",
+                "features": [
+                    "prophet_Mohammad_reference",
+                    "no_human_immortality",
+                    "rhetorical_question",
+                    "death_as_universal",
+                    "religious_reasoning"
+                ],
+                "explanation": "The speaker uses the mortality of the Prophet Mohammad ﷺ as the strongest example that no human being is immortal, thereby reframing death as universal and divinely ordered."
+            },
+            "affective_signals": {
+                "dominant_affect": "reflective_religious_certainty",
+                "affect_type": "reflective_religious_certainty",
+                "secondary_affects": [],
+                "justification": "The wording and discourse markers in this span directly support this affective reading."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "احنا بدنا نتخلّد؟",
+                        "note": "Are we going to be immortal? colloquial rhetorical question."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "محمد صلى الله عليه وسلم",
+                        "note": "Reference to the Prophet Mohammad ﷺ as the highest human example."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "أعظم رجل على وجه الأرض",
+                        "note": "Exalted description of the Prophet used to strengthen the mortality argument."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "كان تخلّد... احنا بدنا نتخلّد؟",
+                        "note": "Contrastive reasoning: if the greatest human was not immortal, neither are we."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "reflective_religious_certainty",
+                "sabr_type_label": "prophetic_mortality_as_acceptance_frame",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": true,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "very_high_sensitivity_bereavement_martyrdom_religious_consolation",
+                "contains_real_names": false,
+                "contains_minors": false,
+                "public_safe": true,
+                "note": "Analyse as religious meaning-making, not as emotional absence."
+            }
+        },
+        {
+            "segment_id": "Narrative31_s06",
+            "speaker_id": "S1",
+            "start_time": 72.66,
+            "end_time": 111.99,
+            "text_ar": "بتتوضأ تصلي؟ بدي أصلي ركعتين شكر لله. والله؟ آه. ركعتين شكر لأنه الله أنعم على ابني الشهادة. الله أكبر.",
+            "text_en": "'Are you making ablution to pray?' I want to pray two rak'ahs of gratitude to Allah. 'Really?' Yes. Two rak'ahs of gratitude because Allah blessed my son with martyrdom. Allah is greater.",
+            "event_frame": {
+                "adversity_description": "The son has been killed/martyred, creating a moment of severe bereavement.",
+                "response_description": "The speaker performs gratitude through prayer, interpreting his son's martyrdom as a divine blessing and moving from speech to worship."
+            },
+            "sabr_frame": {
+                "sabr_type": "shukr_prayer_after_sons_martyrdom",
+                "features": [
+                    "ablution",
+                    "two_rakats",
+                    "gratitude_prayer",
+                    "martyrdom_as_blessing",
+                    "takbir",
+                    "embodied_worship_response"
+                ],
+                "explanation": "The speaker performs gratitude through prayer, interpreting his son's martyrdom as a divine blessing and moving from speech to worship."
+            },
+            "affective_signals": {
+                "dominant_affect": "devotional_gratitude_under_bereavement",
+                "affect_type": "devotional_gratitude_under_bereavement",
+                "secondary_affects": [],
+                "justification": "The wording and discourse markers in this span directly support this affective reading."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "بدي أصلي",
+                        "note": "I want to pray; colloquial desire construction."
+                    },
+                    {
+                        "marker": "آه",
+                        "note": "Yes; colloquial affirmation."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "بتتوضأ",
+                        "note": "Ablution before prayer."
+                    },
+                    {
+                        "marker": "ركعتين شكر لله",
+                        "note": "Two prayer units of gratitude to Allah."
+                    },
+                    {
+                        "marker": "الله أنعم على ابني الشهادة",
+                        "note": "Martyrdom framed as a blessing Allah granted to the son."
+                    },
+                    {
+                        "marker": "الله أكبر",
+                        "note": "Takbir marking awe, worship, and divine greatness."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "الشكر عند المصيبة",
+                        "note": "Exceptional faith-based sabr/rida: calamity is met through gratitude-prayer because of perceived honour of martyrdom."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "والله؟ آه",
+                        "note": "Interviewer surprise followed by calm confirmation."
+                    },
+                    {
+                        "marker": "ركعتين شكر... ركعتين شكر",
+                        "note": "Repetition emphasizes prayer as the chosen response."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "devotional_gratitude_under_bereavement",
+                "sabr_type_label": "shukr_prayer_after_sons_martyrdom",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": true,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "very_high_sensitivity_bereavement_martyrdom_religious_consolation",
+                "contains_real_names": false,
+                "contains_minors": false,
+                "public_safe": true,
+                "note": "Do not romanticize bereavement; analyse this as the speaker's own religious response."
+            },
+            "timestamp_note": "Whisper output glitches and repeats the prayer-question phrase through the end. Start/end are approximate; corrected transcript controls content."
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "متعيطش": {
+                "variants_ar": [
+                    "لا تبكِ",
+                    "ما تعيطش",
+                    "لا تعيط"
+                ],
+                "meaning_en": "Do not cry."
+            },
+            "كلنا مشاريع شهدا": {
+                "variants_ar": [
+                    "كلنا جنازات مؤجلة",
+                    "كلنا ميتون"
+                ],
+                "meaning_en": "We are all potential martyrs / deferred funerals under war."
+            },
+            "إنا لله وإنا إليه راجعون": {
+                "variants_ar": [
+                    "الاسترجاع"
+                ],
+                "meaning_en": "Istirja; Qur'anic formula at calamity."
+            },
+            "أرض جهاد": {
+                "variants_ar": [
+                    "أرض ابتلاء وجهاد",
+                    "أرض جهاد وصبر",
+                    "أرض ابتلاء ومجاهدة"
+                ],
+                "meaning_en": "Land of jihad in the speaker's Islamic discourse: religiously framed struggle, sacrifice, worshipful endurance, and commitment in the path of Allah under calamity."
+            },
+            "أرض رباط": {
+                "variants_ar": [
+                    "أرض ثبات",
+                    "أرض مرابطة",
+                    "أرض صمود وثبات",
+                    "أرض مرابطة وثواب",
+                    "أرض رباط وصبر"
+                ],
+                "meaning_en": "Land of ribat: a religious-cultural frame for steadfastly holding the land, remaining firm in Gaza despite danger, and seeking reward/thawab from Allah."
+            },
+            "بيخششك": {
+                "variants_ar": [
+                    "يدخلك"
+                ],
+                "meaning_en": "He admits/enters you."
+            },
+            "بيتشفع": {
+                "variants_ar": [
+                    "يشفع"
+                ],
+                "meaning_en": "Intercedes; afterlife intercession."
+            },
+            "كرهان؟": {
+                "variants_ar": [
+                    "ألا ترضى بذلك؟",
+                    "ألا يعجبك هذا؟"
+                ],
+                "meaning_en": "Do you dislike that? won't you be satisfied with that? Colloquial question."
+            },
+            "مش خسارة في ربنا": {
+                "variants_ar": [
+                    "ليس خسارة عند الله",
+                    "ما ضاع عند الله"
+                ],
+                "meaning_en": "It is not a loss with Allah; what returns to Allah is not wasted."
+            },
+            "منرضى قضاء الله وقدره": {
+                "variants_ar": [
+                    "نرضى بقضاء الله وقدره"
+                ],
+                "meaning_en": "We accept Allah's decree and destiny."
+            },
+            "بنعترضش على أمر الله": {
+                "variants_ar": [
+                    "لا نعترض على أمر الله",
+                    "نرضى بأمر الله"
+                ],
+                "meaning_en": "We do not object to Allah's command."
+            },
+            "فعصته": {
+                "variants_ar": [
+                    "دهسته",
+                    "صدمته بالسيارة"
+                ],
+                "meaning_en": "She ran him over."
+            },
+            "ركعتين شكر لله": {
+                "variants_ar": [
+                    "صلاة شكر",
+                    "ركعتا شكر"
+                ],
+                "meaning_en": "Two rak'ahs of gratitude to Allah."
+            },
+            "الله أنعم على ابني الشهادة": {
+                "variants_ar": [
+                    "أكرم ابني بالشهادة",
+                    "رزق ابني الشهادة"
+                ],
+                "meaning_en": "Allah blessed/honoured my son with martyrdom."
+            },
+            "في سبيل الله": {
+                "variants_ar": [
+                    "لله",
+                    "ابتغاء وجه الله",
+                    "طمعاً في الأجر والثواب",
+                    "احتساباً عند الله"
+                ],
+                "meaning_en": "In the path of Allah; frames endurance, loss, and steadfastness as religiously meaningful and reward-bearing."
+            },
+            "طمعاً في الأجر والثواب": {
+                "variants_ar": [
+                    "طلباً للأجر",
+                    "احتساباً للأجر",
+                    "طلباً للثواب عند الله"
+                ],
+                "meaning_en": "Seeking reward/thawab from Allah; a religious motivation for sabr, ribat, and steadfastness under hardship."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "sabr_icon_rida_martyrdom_gratitude_prayer",
+        "paper_fit_ar": "تمثل Narrative31 واحدة من أوضح حالات الصبر الديني الصريح في corpus غزة. المتحدث لا يكتفي بالتعبير عن الصبر، بل يؤديه اجتماعياً أمام الآخرين: يهدئ الباكين، يعلّمهم ماذا يقولون عند المصيبة، يطلب منهم المسامحة، ثم يعيد تفسير الموت كله من خلال قضاء الله وقدره والشهادة والآخرة. أهمية الرواية أنها تعرض الصبر كفعل جماعي وتنظيم وجداني للآخرين، لا كحالة داخلية فقط. وتُعد عبارة «أرض جهاد هادي وأرض رباط» مركزية لأنها تربط الحزن الفردي بإطار ديني-جمعي يهدف إلى تثبيت الناس على أرضهم وحثهم على الصمود رغم القصف والفقد والحصار والنزوح، طمعاً في الأجر والثواب عند الله. لحظة «ركعتين شكر لأنه الله أنعم على ابني الشهادة» تجعل الرواية حالة أيقونية لفهم كيف يمكن للحزن في الخطاب الغزي المتدين أن يتحول إلى عبادة ومعنى، مع ضرورة الحذر الأخلاقي من تحويل هذا إلى تمجيد للفقد أو وصفه كاستجابة مفروضة على الجميع.",
+        "paper_fit_en": "Narrative31 is one of the clearest cases of explicit religious sabr in the Gaza corpus. The speaker does not merely describe patience; he performs it socially in front of others: calming mourners, teaching the correct supplication at calamity, urging forgiveness, and reinterpreting death through Allah's decree, martyrdom, and the afterlife. It presents sabr as communal affect regulation, not only as an internal state. The phrase 'this is a land of jihad and a land of ribat' is central because it connects individual grief to a collective Islamic frame intended to steady people, encourage steadfastness on their land despite bombing, loss, siege, and displacement, and orient endurance toward reward from Allah. The moment 'two rak'ahs of gratitude because Allah blessed my son with martyrdom' makes this an iconic case for how grief in Gazan religious discourse can be transformed into worship and meaning, while requiring ethical caution against romanticizing loss or treating this response as obligatory for everyone."
+    },
+    "research_notes": {
+        "sabr_icon_reason": "This narrative is a prototypical positive case because it explicitly names sabr/rida and performs a full religious response sequence: mercy prayer, istirja, calamity supplication, forgiveness, reward frame, divine decree, non-objection, and gratitude prayer.",
+        "methodological_warning": "This unusually explicit case should not define all Gaza narratives. Other narratives may contain partial, fragile, absent, or non-explicit response patterns.",
+        "translation_policy": {
+            "sabr": "Retain 'sabr' where analytically important; translate as patience/endurance only with explanation.",
+            "rida": "Retain 'rida' where analytically important; translate as acceptance/pleased acceptance of Allah's decree.",
+            "jihad": "Retain or gloss as jihad where analytically important; in this testimony it means Islamic religiously framed struggle, sacrifice, worshipful endurance, and commitment in the path of Allah.",
+            "ribat": "Retain ribat where analytically important; gloss as steadfast religious-moral holding of the land, remaining firm under danger, and seeking reward/thawab from Allah.",
+            "shahada": "Translate as martyrdom with contextual note that this is the speaker's religious framing.",
+            "thawab": "Translate as reward from Allah or thawab depending on analytic context; often linked to sabr, ribat, martyrdom, and enduring calamity."
+        },
+        "ribat_in_gaza_research_note": {
+            "core_claim_ar": "في خطاب غزة، وصف غزة بأنها «أرض رباط» يعمل كإطار تثبيت وصمود: يذكّر الناس بأن بقاءهم في أرضهم، واحتمالهم للخوف والفقد والحصار، ليس مجرد بقاء مادي بل مرابطة ذات معنى ديني وأخلاقي، تُحتسب عند الله ويُرجى بها الأجر والثواب.",
+            "core_claim_en": "In Gazan discourse, describing Gaza as a 'land of ribat' functions as a frame of تثبيت (steadfast reassurance/anchoring) and sumud. It presents remaining on the land under fear, loss, siege, and displacement pressure not as mere physical survival, but as religiously meaningful steadfast presence for which reward is sought from Allah.",
+            "why_it_matters_for_SABR": "This allows SABR to distinguish generic resilience from culturally grounded Islamic resilience: the speaker's response is not simply optimism or emotion regulation, but a religiously structured way of making grief bearable, stabilizing others, and sustaining communal attachment to land.",
+            "annotation_guideline_ar": "عند ظهور «أرض رباط» أو ما يقاربها، تُعلَّم كـ religious marker و cultural marker معاً، لأنها تجمع بين المعنى الشرعي، والصمود المكاني، والمسؤولية الجماعية، والاحتساب.",
+            "annotation_guideline_en": "When 'land of ribat' or similar phrases appear, annotate them as both religious and cultural markers because they combine Islamic meaning, place-based steadfastness, communal responsibility, and reward-oriented endurance."
+        },
+        "islamic_terms_annotation_policy": {
+            "ar": "تُعامل مصطلحات الجهاد والرباط والشهادة والصبر والرضا والاحتساب بوصفها مفاهيم إسلامية أصلية داخل خطاب المتحدث. لا تُختزل إلى تصنيفات وجدانية غربية عامة، ولا تُفصل عن سياقها الإيماني والغزي. يصف التحليل وظيفة المصطلح في الرواية: تثبيت، مواساة، معنى، احتساب، صمود، أو تنظيم وجداني جماعي.",
+            "en": "Terms such as jihad, ribat, shahada, sabr, rida, and ihtisab are treated as native Islamic concepts within the speaker's discourse. They should not be reduced to generic Western affect categories or detached from their faith-based and Gazan context. The analysis should describe the term's function in the narrative: anchoring, consolation, meaning-making, reward-seeking, steadfastness, or communal affect regulation."
+        },
+        "paper_insert_on_ribat_ar": "تُظهر Narrative31 أن الصبر في خطاب غزة لا يُبنى فقط بوصفه تحملاً فردياً، بل بوصفه رباطاً مكانياً ودينياً. فقول المتحدث «أرض جهاد هادي وأرض رباط» يعمل على تثبيت الحاضرين وربط الفقد بمعنى أوسع: البقاء في الأرض، والصمود رغم الخطر، واحتساب ذلك عند الله. بهذا المعنى، يصبح الرباط جسراً بين العاطفة والمكان والعقيدة؛ فهو يحوّل الحزن إلى التزام جماعي بالثبات، دون إنكار الألم أو إلغائه.",
+        "paper_insert_on_ribat_en": "Narrative31 shows that sabr in Gazan discourse is not constructed only as individual endurance, but as place-based and religious ribat. The speaker's phrase 'this is a land of jihad and a land of ribat' steadies those present and connects bereavement to a wider meaning: remaining on the land, enduring danger, and seeking reward from Allah. In this sense, ribat links affect, place, and faith; it transforms grief into a collective commitment to steadfastness without denying the pain of loss."
+    },
+    "ethical_note": {
+        "risk_level": "very_high_sensitivity_bereavement_martyrdom_child_death_religious_response",
+        "notes": [
+            "The narrative contains bereavement, martyrdom, prior child death, religious consolation, and intense public grief.",
+            "The source notes identify the speaker; public outputs should pseudonymize unless rights/safety are reviewed.",
+            "Do not use video stills, face, voice, or identifying details in public materials without explicit clearance.",
+            "Do not present the speaker's composure as the only correct way to grieve; many Gaza narratives show grief, qahr, collapse, silence, anger, or absence of sabr.",
+            "The gratitude prayer after martyrdom should be analysed as the speaker's religious meaning-making, not romanticized as desirable suffering.",
+            "Terms such as jihad and ribat should be handled respectfully as Islamic religious-cultural concepts that structure the speaker's meaning-making, consolation, steadfastness, and hope for reward from Allah.",
+            "The phrase 'أرض رباط' should be analysed as a Gaza-specific religious and place-based frame of تثبيت and sumud: encouraging people to remain steadfast on their land despite danger, without treating this as a universal or forced response for all bereaved people."
+        ],
+        "recommended_public_version": "pseudonymized_text_only; generalize speaker name; avoid exact visual/audio identifiers; keep religious terms with careful glosses"
+    },
+    "revision_history": [
+        {
+            "revision_id": "ribat_jihad_research_note_update_2026-08-17",
+            "summary": "Reframed jihad and ribat notes respectfully as Islamic religious-cultural concepts; expanded Gaza-as-land-of-ribat interpretation for research use; removed defensive wording from analytic notes."
+        }
+    ],
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

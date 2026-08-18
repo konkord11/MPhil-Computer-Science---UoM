@@ -3,8 +3,8 @@
     "narrative_id": "Narrative19_Pseudonymized",
     "source_meta": {
         "source_id": "N19",
-        "source_type": "video_transcription",
-        "source_platform": "Public short video testimony / journalist interview",
+        "source_type": "public_journalist_video_transcription_with_whisper_timestamps",
+        "source_platform": "public journalist video",
         "original_language": "ar",
         "dialect": "Palestinian Arabic (Jabalia / North Gaza dialect)",
         "reported_context": "A civilian man from Jabalia, speaks after multiple massacres affecting members of his family. He stresses that the victims were civilians, describes people being killed while beginning an ordinary dawn routine, and recounts the extreme difficulty of identifying and burying fragmented remains.",

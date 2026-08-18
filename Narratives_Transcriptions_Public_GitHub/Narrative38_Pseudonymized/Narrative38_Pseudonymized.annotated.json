@@ -1,0 +1,582 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative38_Pseudonymized",
+    "source_meta": {
+        "source_id": "N38",
+        "source_type": "public_journalist_video_transcription_with_whisper_timestamps",
+        "source_platform": "public journalist video",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (Gaza City dialect)",
+        "location_mentioned": "Muntazah Al-Mahatta area, Al-Tuffah neighbourhood, eastern Gaza City",
+        "reported_context": "Two eyewitnesses from the same report speak after shelling of the Muntazah Al-Mahatta area in Al-Tuffah, eastern Gaza City, a displacement area near the yellow line. The first speaker describes people sheltering there because they had nowhere else to go, hearing F-16 aircraft at night, then shelling with more than twenty projectiles. He says people tried to flee but could not, and that martyrs and injured people remained in place because no one could retrieve them. The second speaker expresses confusion, helplessness, and lack of options, ending with حسبي الله ونعم الوكيل.",
+        "collection_context_en": "The narrative consists of two speakers in the same report. A young adult male describes the Muntazah Al-Mahatta area in Al-Tuffah, eastern Gaza City, as a crowded displacement area and a dangerous shelter near the yellow line, but says people had no alternative place to go. Around 1 a.m. they heard F-16 aircraft, and after 2 a.m. shells began falling in the Muntazah Al-Mahatta area, reportedly more than twenty shells. People tried to flee but could not, leaving martyrs and injured people in the area with no one able to retrieve them. A second adult male then voices disorientation and despair: they do not understand why this is happening, where they should go, or what they should do. He concludes that this is not life and ends with حسبي الله ونعم الوكيل, marking entrustment of the situation to Allah.",
+        "collection_context_ar": "تتكون الرواية من شاهدين في نفس التقرير. يصف الشاب منتزه المحطة في حي التفاح شرق مدينة غزة باعتباره منطقة نازحين ومأوى خطيراً قرب الخط الأصفر، لكن الناس لا يجدون مكاناً آخر يذهبون إليه. حوالي الساعة الواحدة ليلاً سمعوا صوت طيران F-16، وبعد الساعة الثانية بدأت القذائف تسقط في منطقة منتزه المحطة، ويتحدث عن أكثر من عشرين قذيفة في المكان. حاول الناس أن يهربوا من المكان لكنهم لم يستطيعوا، وبقي شهداء ومصابون في المكان دون قدرة أحد على انتشالهم. ثم يتحدث رجل أكبر سناً معبّراً عن التيه وفقدان الخيارات: لا يفهمون لماذا يحدث لهم هذا، ولا أين يذهبون ولا ماذا يفعلون، ويختم بأن هذه ليست حياة وبقول حسبي الله ونعم الوكيل."
+    },
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "no_personal_names_present; ages_generalized",
+        "contains_real_names": false,
+        "contains_minors": false,
+        "contains_deceased_or_injured_people": true,
+        "notes": "No personal names are present. Numeric age ranges from the source are generalized to adult in speaker metadata for safer public use. The place name is retained as part of the eyewitness context and should be reviewed before public release if geolocation risk is a concern. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "n/a"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Gazan dialect, displacement discourse, wartime eyewitness narratives, and SABR annotation conventions."
+            }
+        ],
+        "adjudication": {
+            "status": "draft_annotation_ready_for_review",
+            "note": "The user-corrected Arabic transcription is treated as the source of truth. Whisper timestamps are approximate. The two speakers are separated in segment metadata."
+        },
+        "alignment_note": "Whisper timestamps are used only for approximate time alignment and segment mapping. The corrected user-provided Arabic transcription controls wording, translation, and analysis.",
+        "selection_policy": "Segmentation follows speaker and discourse shifts: dangerous displacement shelter; nighttime aircraft and shelling; failed escape and unretrieved martyrs/injured; older speaker's confusion and blocked options; final religious entrustment."
+    },
+    "speaker_profiles": [
+        {
+            "speaker_id": "S1",
+            "gender": "male",
+            "age_estimate": "adult",
+            "speaker_description": "Young adult eyewitness from the area",
+            "role_or_status": [
+                "Eyewitness",
+                "Civilian speaker",
+                "Area resident or displaced-context observer"
+            ]
+        },
+        {
+            "speaker_id": "S2",
+            "gender": "male",
+            "age_estimate": "adult",
+            "speaker_description": "Older adult eyewitness in the same report",
+            "role_or_status": [
+                "Eyewitness",
+                "Civilian speaker",
+                "Community member expressing collective distress"
+            ]
+        }
+    ],
+    "approx_context": {
+        "brief_summary_ar": "يتحدث شاهدان من مدينة غزة عن قصف طال منتزه المحطة في حي التفاح شرق مدينة غزة، وهي منطقة مكتظة بالنازحين رغم خطورتها وقربها من الخط الأصفر. يشرح الشاهد الأول أن الناس لجؤوا إلى المكان لأنهم لا يجدون أماكن يسكنون فيها، ثم سمعوا طيران F-16 ليلاً قبل أن تبدأ القذائف بعد الساعة الثانية، ويقدّرها بأكثر من عشرين قذيفة. حاول الناس الهرب لكنهم لم يستطيعوا، وبقي شهداء ومصابون دون قدرة أحد على انتشالهم. الشاهد الثاني يعبّر عن التيه وفقدان الخيارات: لا يفهمون لماذا يحدث لهم هذا، ولا أين يذهبون ولا ماذا يفعلون، ثم يختم بقوله: حسبي الله ونعم الوكيل بس.",
+        "brief_summary_en": "Two male eyewitnesses from Gaza City describe shelling of the Muntazah Al-Mahatta area in Al-Tuffah, eastern Gaza City, a crowded displacement area that is dangerous and near the yellow line. The first speaker explains that people had taken shelter there because they could not find places to live. At around 1 a.m. they heard F-16 aircraft, and after 2 a.m. shells began falling in the area, reportedly more than twenty. People tried to flee but could not, and martyrs and injured people remained there because no one could retrieve them. The second speaker expresses disorientation and blocked options: they do not understand why this is happening, where to go, or what to do. He ends with 'حسبي الله ونعم الوكيل بس', entrusting the matter to Allah."
+    },
+    "text_ar_full": "منتزه المحطة في حي التفاح شرق مدينة غزة، منطقة النازحين منطقة مليانة نازحين يعني مأوى خطير يعني عند الخط الأصفر، لكن الناس وين بدها تروح؟ الوضع صعب ف.. يعني التجأت لهادا المكان، المكان خطر بس الناس مش ملاقية أماكن تسكن فيها، فتقريباً الساعة تقريباً وحدة بالليل سمعنا احنا صوت طيران إِي.. أف 16 إِي.. بعد الساعة 2 طبّوا قزايف اللي هو في منتزه المحطة، قزايف إ.. طبعاً يمكن بتحكي عن أكتر من 20 قزيفة في المكان، فحاولوا إنهم يشردوا هما من المكان ما قدروا، ف.. ضلهم غاد مستشهدين و... في كانوا متصاوبين هما أصلاً كانوا متصاوبين بس م.. بس محدش قادر يجيبهم. مش فاهمين أنا ايش.. ليش بصير فينا هيكاد؟ ايش.. ايش بدنا نسوي وين نروح؟ ايش نعمل؟ مش عارفين ايش بدنا نعمل، هادي مش عيشة هادي، حسبي الله ونعم الوكيل بس.",
+    "text_en_full": "The Muntazah Al-Mahatta area in Al-Tuffah, eastern Gaza City, the displaced people's area, an area full of displaced people, I mean a dangerous shelter near the yellow line. But where are people supposed to go? The situation is difficult, so they took refuge in this place. The place is dangerous, but people cannot find places to live. At around, approximately, one o'clock at night, we heard the sound of aircraft, F-16s. After two o'clock, shells began falling in the Muntazah Al-Mahatta area, shells. Of course, you could be talking about more than twenty shells in the place. They tried to flee from the place, but they could not. So they remained there as martyrs, and there were injured people; they were already injured, but no one was able to bring them out. We do not understand what is happening to us like this. Why is this happening to us? What are we supposed to do? Where should we go? What should we do? We do not know what we should do. This is not life, this is not a life. Allah is sufficient for me, and He is the best disposer of affairs, that is all.",
+    "segments": [
+        {
+            "segment_id": "N38_s01",
+            "speaker_id": "S1",
+            "start_time": 0.0,
+            "end_time": 13.92,
+            "text_ar": "منتزه المحطة في حي التفاح شرق مدينة غزة، منطقة النازحين منطقة مليانة نازحين يعني مأوى خطير يعني عند الخط الأصفر، لكن الناس وين بدها تروح؟ الوضع صعب ف.. يعني التجأت لهادا المكان، المكان خطر بس الناس مش ملاقية أماكن تسكن فيها.",
+            "text_en": "The Muntazah Al-Mahatta area in Al-Tuffah, eastern Gaza City, the displaced people's area, an area full of displaced people, I mean a dangerous shelter near the yellow line. But where are people supposed to go? The situation is difficult, so they took refuge in this place. The place is dangerous, but people cannot find places to live.",
+            "event_frame": {
+                "adversity_description": "Displaced people are sheltering in a dangerous area near the yellow line in eastern Gaza City because they lack safe alternatives.",
+                "response_description": "The speaker frames the sheltering decision as forced necessity rather than choice, repeatedly asking where people can go."
+            },
+            "sabr_frame": {
+                "sabr_type": "forced_shelter_in_dangerous_displacement_zone",
+                "features": [
+                    "displacement",
+                    "dangerous_shelter",
+                    "no_safe_options",
+                    "yellow_line_proximity",
+                    "crowded_idp_area",
+                    "forced_refuge"
+                ],
+                "explanation": "Resilience here is not heroic endurance but constrained survival: people knowingly remain in a dangerous area because safer housing options are unavailable."
+            },
+            "affective_signals": {
+                "dominant_affect": "helpless_displacement_anxiety",
+                "affect_type": "helpless_displacement_anxiety",
+                "secondary_affects": [
+                    "fear",
+                    "resignation",
+                    "concern_for_civilians"
+                ],
+                "justification": "The repeated contrast between 'المكان خطر' and 'الناس وين بدها تروح' shows anxiety under forced displacement and blocked options.",
+                "confidence": null
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "وين بدها تروح؟",
+                        "note": "Where are people supposed to go? Gaza/Palestinian colloquial question expressing absence of alternatives."
+                    },
+                    {
+                        "marker": "مش ملاقية",
+                        "note": "Cannot find; colloquial negative form marking scarcity of shelter."
+                    },
+                    {
+                        "marker": "هادا",
+                        "note": "Gazan/Palestinian demonstrative: this."
+                    }
+                ],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "منطقة النازحين",
+                        "note": "Displacement-camp framing; the space is defined by civilian displacement rather than ordinary residence."
+                    },
+                    {
+                        "marker": "الخط الأصفر",
+                        "note": "Locally salient danger/boundary reference; signals proximity to a hazardous zone."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "يعني",
+                        "note": "Repeated explanation/filler marker used while reconstructing the situation."
+                    },
+                    {
+                        "marker": "المكان خطر بس...",
+                        "note": "Contrastive structure: danger is acknowledged, then overridden by lack of alternatives."
+                    }
+                ],
+                "gesture_markers": []
+            }
+        },
+        {
+            "segment_id": "N38_s02",
+            "speaker_id": "S1",
+            "start_time": 14.36,
+            "end_time": 25.86,
+            "text_ar": "فتقريباً الساعة تقريباً وحدة بالليل سمعنا احنا صوت طيران إِي.. أف 16 إِي.. بعد الساعة 2 طبّوا قزايف اللي هو في منتزه المحطة، قزايف إ.. طبعاً يمكن بتحكي عن أكتر من 20 قزيفة في المكان.",
+            "text_en": "At around, approximately, one o'clock at night, we heard the sound of aircraft, F-16s. After two o'clock, shells began falling in the Muntazah Al-Mahatta area, shells. Of course, you could be talking about more than twenty shells in the place.",
+            "event_frame": {
+                "adversity_description": "Nighttime aircraft presence is followed by intense shelling of the Muntazah Al-Mahatta area where displaced people had taken shelter.",
+                "response_description": "The speaker reconstructs the sequence and scale of the attack through time markers, aircraft sound, and an estimate of more than twenty shells."
+            },
+            "sabr_frame": {
+                "sabr_type": "night_attack_sequence_reconstruction",
+                "features": [
+                    "nighttime_aircraft",
+                    "f16_sound",
+                    "shelling",
+                    "more_than_twenty_shells",
+                    "witness_reconstruction",
+                    "idp_area_shelled"
+                ],
+                "explanation": "The response is testimonial sequencing: the speaker creates an evidentiary account of the timing, sound, and scale of what happened under shock."
+            },
+            "affective_signals": {
+                "dominant_affect": "alarmed_witnessing",
+                "affect_type": "alarmed_witnessing",
+                "secondary_affects": [
+                    "shock",
+                    "urgency"
+                ],
+                "justification": "The sequence from hearing F-16s to 'طبّوا قزايف' and 'أكتر من 20 قزيفة' conveys alarm and the need to testify to scale.",
+                "confidence": null
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "وحدة بالليل",
+                        "note": "One o'clock at night; colloquial time expression."
+                    },
+                    {
+                        "marker": "طبّوا قزايف",
+                        "note": "Gaza City colloquial expression meaning they began dropping/launching shells suddenly and violently."
+                    },
+                    {
+                        "marker": "قزايف / قزيفة",
+                        "note": "Gaza City dialectal pronunciation for قذائف/قذيفة."
+                    },
+                    {
+                        "marker": "بتحكي عن أكتر من",
+                        "note": "You are talking about more than; colloquial way to estimate scale."
+                    }
+                ],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "أف 16",
+                        "note": "Reference to F-16 aircraft as a recognizable sign of military threat in local war discourse."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "تقريباً الساعة تقريباً",
+                        "note": "Repetition signals approximate recall under stress while preserving chronological testimony."
+                    },
+                    {
+                        "marker": "إي..",
+                        "note": "Hesitation marker during reconstruction of the attack."
+                    }
+                ],
+                "gesture_markers": []
+            }
+        },
+        {
+            "segment_id": "N38_s03",
+            "speaker_id": "S1",
+            "start_time": 25.9,
+            "end_time": 34.8,
+            "text_ar": "فحاولوا إنهم يشردوا هما من المكان ما قدروا، ف.. ضلهم غاد مستشهدين و... في كانوا متصاوبين هما أصلاً كانوا متصاوبين بس م.. بس محدش قادر يجيبهم.",
+            "text_en": "They tried to flee from the place, but they could not. So they remained there as martyrs, and there were injured people; they were already injured, but no one was able to bring them out.",
+            "event_frame": {
+                "adversity_description": "People attempted to escape but could not; martyrs and injured people remained in the strike area because retrieval was impossible.",
+                "response_description": "The speaker emphasizes inability: inability to flee and inability to retrieve the dead and injured, making helplessness central to the testimony."
+            },
+            "sabr_frame": {
+                "sabr_type": "failed_escape_and_unretrieved_martyrs_under_fire",
+                "features": [
+                    "attempted_escape",
+                    "blocked_flight",
+                    "martyrs_left_in_place",
+                    "injured_unretrieved",
+                    "rescue_impossibility",
+                    "collective_helplessness"
+                ],
+                "explanation": "The span models adversity through immobilization and blocked rescue: even after injury or martyrdom, bodies remain inaccessible."
+            },
+            "affective_signals": {
+                "dominant_affect": "helpless_horror",
+                "affect_type": "helpless_horror",
+                "secondary_affects": [
+                    "grief",
+                    "fear",
+                    "moral_distress"
+                ],
+                "justification": "The phrases 'ما قدروا', 'ضلهم غاد مستشهدين', and 'محدش قادر يجيبهم' all stress paralysis and inability to rescue.",
+                "confidence": null
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "يشردوا",
+                        "note": "To run away/flee in panic; here describes attempted escape from shelling."
+                    },
+                    {
+                        "marker": "ما قدروا",
+                        "note": "They could not; blocked action marker."
+                    },
+                    {
+                        "marker": "ضلهم غاد",
+                        "note": "They remained there; 'غاد' = there, a Gazan/Palestinian locative form."
+                    },
+                    {
+                        "marker": "متصاوبين",
+                        "note": "Injured; Gazan colloquial form related to إصابة."
+                    },
+                    {
+                        "marker": "محدش قادر يجيبهم",
+                        "note": "No one is able to bring/retrieve them; strong helplessness marker."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "مستشهدين",
+                        "note": "Martyrdom framing of those killed in the attack."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "يجيبهم",
+                        "note": "Retrieval of the dead/injured as an urgent social and moral duty that has become impossible."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "بس م.. بس",
+                        "note": "Self-interruption and repetition show difficulty completing the thought under distress."
+                    }
+                ],
+                "gesture_markers": []
+            }
+        },
+        {
+            "segment_id": "N38_s04",
+            "speaker_id": "S2",
+            "start_time": 34.92,
+            "end_time": 39.12,
+            "text_ar": "مش فاهمين أنا ايش.. ليش بصير فينا هيكاد؟ ايش.. ايش بدنا نسوي وين نروح؟ ايش نعمل؟ مش عارفين ايش بدنا نعمل.",
+            "text_en": "We do not understand what is happening to us like this. Why is this happening to us? What are we supposed to do? Where should we go? What should we do? We do not know what we should do.",
+            "event_frame": {
+                "adversity_description": "The older speaker voices disorientation under repeated violence and displacement, with no clear route to safety or action.",
+                "response_description": "He responds through a chain of unanswered questions, turning the testimony into an expression of collective bewilderment and blocked agency."
+            },
+            "sabr_frame": {
+                "sabr_type": "existential_disorientation_and_blocked_options",
+                "features": [
+                    "why_is_this_happening",
+                    "where_should_we_go",
+                    "what_should_we_do",
+                    "blocked_agency",
+                    "collective_confusion",
+                    "displacement_dead_end"
+                ],
+                "explanation": "The response is not solution-seeking but articulation of a social condition: every practical option appears closed."
+            },
+            "affective_signals": {
+                "dominant_affect": "bewildered_helplessness",
+                "affect_type": "bewildered_helplessness",
+                "secondary_affects": [
+                    "despair",
+                    "fear",
+                    "exhaustion"
+                ],
+                "justification": "The repeated questions 'ليش', 'وين نروح', and 'ايش نعمل' show confusion and the collapse of actionable choices.",
+                "confidence": null
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "هيكاد",
+                        "note": "Gazan/Palestinian emphatic form meaning like this / in this way."
+                    },
+                    {
+                        "marker": "بدنا نسوي",
+                        "note": "What are we supposed to do? Colloquial phrasing of blocked options."
+                    },
+                    {
+                        "marker": "وين نروح؟",
+                        "note": "Where should we go? Recurrent displacement question in Gaza narratives."
+                    }
+                ],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "وين نروح؟",
+                        "note": "A central displacement marker: the speaker frames the crisis as loss of place and absence of refuge."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "ايش.. ايش",
+                        "note": "Repeated question structure and hesitation convey confusion and emotional overload."
+                    },
+                    {
+                        "marker": "مش فاهمين / مش عارفين",
+                        "note": "Parallel negated cognition markers showing inability to comprehend and inability to plan."
+                    }
+                ],
+                "gesture_markers": []
+            }
+        },
+        {
+            "segment_id": "N38_s05",
+            "speaker_id": "S2",
+            "start_time": 40.1,
+            "end_time": 42.46,
+            "text_ar": "هادي مش عيشة هادي، حسبي الله ونعم الوكيل بس.",
+            "text_en": "This is not life, this is not a life. Allah is sufficient for me, and He is the best disposer of affairs, that is all.",
+            "event_frame": {
+                "adversity_description": "The speaker concludes that the current conditions have fallen below the threshold of livable life.",
+                "response_description": "He ends with حسبي الله ونعم الوكيل, entrusting the matter to Allah when no worldly solution is visible."
+            },
+            "sabr_frame": {
+                "sabr_type": "hasbana_as_final_entrustment_after_blocked_options",
+                "features": [
+                    "not_a_life",
+                    "religious_entrustment",
+                    "hasbana",
+                    "finality_marker",
+                    "no_remaining_worldly_option",
+                    "faith_after_bewilderment"
+                ],
+                "explanation": "The final 'بس' after the hasbana closes the discourse: after all questions and blocked options, only appeal to Allah remains."
+            },
+            "affective_signals": {
+                "dominant_affect": "resigned_grief_with_religious_entrustment",
+                "affect_type": "resigned_grief_with_religious_entrustment",
+                "secondary_affects": [
+                    "despair",
+                    "devotional_resignation"
+                ],
+                "justification": "The phrase 'هادي مش عيشة' marks despair about present conditions, while 'حسبي الله ونعم الوكيل بس' shifts toward religious entrustment.",
+                "confidence": null
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "هادي مش عيشة",
+                        "note": "This is not a life; colloquial expression of unlivability."
+                    },
+                    {
+                        "marker": "بس",
+                        "note": "Finality marker; after the hasbana, it signals that nothing remains to say or do except entrusting the matter to Allah."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "حسبي الله ونعم الوكيل",
+                        "note": "Islamic formula of entrustment and appeal to Allah as sufficient disposer of affairs, especially under injustice and helplessness."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "حسبي الله ونعم الوكيل بس",
+                        "note": "A culturally recognizable closing of helpless complaint through religious reliance."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "هادي... هادي",
+                        "note": "Repetition emphasizes the judgment that current life conditions are unlivable."
+                    }
+                ],
+                "gesture_markers": []
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "منتزه المحطة": {
+                "variants_ar": [
+                    "منتزه المحطة",
+                    "منطقة منتزه المحطة",
+                    "منتزه المحطة في حي التفاح"
+                ],
+                "meaning_en": "Muntazah Al-Mahatta area in Al-Tuffah, eastern Gaza City."
+            },
+            "حي التفاح": {
+                "variants_ar": [
+                    "حي التفاح",
+                    "التفاح",
+                    "حي التفاح شرق مدينة غزة"
+                ],
+                "meaning_en": "Al-Tuffah neighbourhood in eastern Gaza City."
+            },
+            "منطقة مليانة نازحين": {
+                "variants_ar": [
+                    "منطقة مكتظة بالنازحين",
+                    "مليئة بالنازحين"
+                ],
+                "meaning_en": "An area full of displaced people."
+            },
+            "مأوى خطير": {
+                "variants_ar": [
+                    "مكان إيواء خطر",
+                    "ملجأ غير آمن"
+                ],
+                "meaning_en": "A dangerous shelter."
+            },
+            "الخط الأصفر": {
+                "variants_ar": [
+                    "منطقة خطرة/قريبة من خط فاصل",
+                    "الخط الأصفر"
+                ],
+                "meaning_en": "Locally salient boundary/danger reference; preserve without over-explaining unless verified."
+            },
+            "وين بدها تروح؟": {
+                "variants_ar": [
+                    "إلى أين تذهب الناس؟",
+                    "لا يوجد مكان آخر للذهاب"
+                ],
+                "meaning_en": "Where are people supposed to go? Marker of displacement dead-end."
+            },
+            "طبّوا قزايف": {
+                "variants_ar": [
+                    "بدأوا يطلقون/يسقطون القذائف",
+                    "انهالت القذائف"
+                ],
+                "meaning_en": "They suddenly began dropping/launching shells; Gaza City colloquial expression implying abrupt heavy attack."
+            },
+            "قزايف / قزيفة": {
+                "variants_ar": [
+                    "قذائف",
+                    "قذيفة"
+                ],
+                "meaning_en": "Shells/projectiles; Gaza City dialectal pronunciation."
+            },
+            "يشردوا": {
+                "variants_ar": [
+                    "يهربوا",
+                    "يفرّوا"
+                ],
+                "meaning_en": "To flee/run away, often in panic."
+            },
+            "ما قدروا": {
+                "variants_ar": [
+                    "لم يستطيعوا",
+                    "لم يتمكنوا"
+                ],
+                "meaning_en": "They could not; blocked action."
+            },
+            "ضلهم غاد": {
+                "variants_ar": [
+                    "بقوا هناك",
+                    "ظلوا هناك"
+                ],
+                "meaning_en": "They remained there; 'غاد' means there."
+            },
+            "متصاوبين": {
+                "variants_ar": [
+                    "مصابين",
+                    "جرحى"
+                ],
+                "meaning_en": "Injured."
+            },
+            "محدش قادر يجيبهم": {
+                "variants_ar": [
+                    "لا أحد يستطيع إخراجهم",
+                    "لا أحد قادر على انتشالهم"
+                ],
+                "meaning_en": "No one can retrieve or bring them out."
+            },
+            "هيكاد": {
+                "variants_ar": [
+                    "هكذا",
+                    "بهذا الشكل"
+                ],
+                "meaning_en": "Like this / in this way; emphatic colloquial form."
+            },
+            "بدنا نسوي / ايش نعمل": {
+                "variants_ar": [
+                    "ماذا نفعل؟",
+                    "ما الذي يجب أن نفعله؟"
+                ],
+                "meaning_en": "What are we supposed to do?"
+            },
+            "هادي مش عيشة": {
+                "variants_ar": [
+                    "هذه ليست حياة",
+                    "هذه ظروف لا تُطاق"
+                ],
+                "meaning_en": "This is not a life; expression of unlivability."
+            },
+            "حسبي الله ونعم الوكيل": {
+                "variants_ar": [
+                    "الله كافيني وهو نعم الوكيل",
+                    "نفوض أمرنا لله"
+                ],
+                "meaning_en": "Allah is sufficient for me and He is the best disposer of affairs; formula of entrustment under injustice."
+            },
+            "بس": {
+                "variants_ar": [
+                    "فقط",
+                    "لا شيء آخر"
+                ],
+                "meaning_en": "Only/that is all; after hasbana it marks final entrustment to Allah."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "displacement_dead_end_unretrieved_victims_hasbana",
+        "paper_fit_ar": "تصلح Narrative38 كحالة قوية لتحليل التيه المكاني وفقدان الأمان في خطاب النازحين. لا يُقدَّم الصمود هنا كقوة بطولية مباشرة، بل كحالة بقاء قسرية: الناس يعرفون أن منطقة منتزه المحطة في حي التفاح شرق مدينة غزة خطرة وقريبة من الخط الأصفر، لكن السؤال المركزي هو «الناس وين بدها تروح؟». هذا السؤال يحوّل المكان من خيار إلى مأزق. في القسم الثاني، تصبح الشهادة مرتبطة بالعجز عن الهرب والعجز عن الانتشال: «ما قدروا»، «ضلهم غاد مستشهدين»، «محدش قادر يجيبهم». أما المتحدث الثاني فيحوّل الحدث إلى خطاب تيه وجودي عبر تكرار «ليش»، «وين نروح»، «ايش نعمل»، وينتهي بماركر ديني شديد الأهمية: «حسبي الله ونعم الوكيل بس». كلمة «بس» بعد الحسبنة تغلق الخطاب وتؤشر إلى أن الخيارات الأرضية انتهت ولم يبق إلا التفويض لله. في إطار SABR، هذه الرواية مهمة لأنها تكشف نمط resilience سلبي/اضطراري: الاستمرار تحت انعدام البدائل، ثم تثبيت المعنى عبر التفويض الديني لا عبر التفاؤل.",
+        "paper_fit_en": "Narrative38 is a strong case for analysing spatial disorientation and the collapse of safety in displacement discourse. Resilience is not presented here as straightforward heroic strength, but as forced survival: people know that the Muntazah Al-Mahatta area in Al-Tuffah, eastern Gaza City is dangerous and near the yellow line, yet the central question is 'where are people supposed to go?' This turns place from a choice into a trap. The second part links martyrdom and injury to failed escape and failed retrieval: 'they could not', 'they remained there as martyrs', and 'no one could bring them out'. The second speaker then transforms the event into existential bewilderment through repeated questions: why is this happening, where should we go, what should we do? The closing 'حسبي الله ونعم الوكيل بس' is crucial: the final 'بس' after the hasbana closes the discourse, indicating that worldly options have ended and only entrustment to Allah remains. In SABR terms, the narrative demonstrates a negative/forced resilience pattern: endurance under no alternatives, stabilized through religious entrustment rather than optimism."
+    },
+    "ethical_note": {
+        "risk_level": "high_sensitivity_mass_casualty_displacement_unretrieved_victims",
+        "notes": [
+            "The narrative includes displaced civilians, shelling of a shelter area, martyrs, injured people, and inability to retrieve bodies or wounded people.",
+            "No personal names are present, but location details such as Muntazah Al-Mahatta, Al-Tuffah, and eastern Gaza City may be sensitive if paired with video or time-specific reporting.",
+            "Numeric ages provided in the source have been generalized to adult in the annotation metadata.",
+            "The phrase 'حسبي الله ونعم الوكيل' should be understood as a religious formula of entrustment and moral appeal, not as a threat.",
+            "Do not reduce the affective signal to fear only; the narrative contains displacement anxiety, helplessness, bewilderment, grief, and religious entrustment.",
+            "This is not clinical diagnosis. Annotation should focus on discourse, adversity, response strategy, contextual markers, and affective signal."
+        ],
+        "recommended_public_version": "pseudonymized_text_only; review exact location and report-specific details before public release"
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

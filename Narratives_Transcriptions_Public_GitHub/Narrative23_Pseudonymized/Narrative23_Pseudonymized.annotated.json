@@ -3,8 +3,8 @@
     "narrative_id": "Narrative23_Pseudonymized",
     "source_meta": {
         "source_cluster_id": "SC23_Fighter_FinalFarewell_SelfRecorded_UnderSiege",
-        "source_type": "video_transcription",
-        "source_platform": "Self-recorded short video / public circulation source",
+        "source_type": "public_journalist_video_transcription_with_whisper_timestamps",
+        "source_platform": "public journalist video",
         "original_author": "Unspecified Palestinian fighter in the provided text",
         "original_language": "ar",
         "dialect": "Palestinian Arabic (Gaza dialect)",

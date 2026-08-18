@@ -3,8 +3,8 @@
     "narrative_id": "Narrative28_Pseudonymized",
     "source_meta": {
         "source_id": "N28",
-        "source_type": "video_transcription",
-        "source_platform": "Public interview / video testimony",
+        "source_type": "public_journalist_video_transcription_with_whisper_timestamps",
+        "source_platform": "public journalist video",
         "original_language": "ar",
         "dialect": "Palestinian Arabic (Gaza City dialect)",
         "reported_context": "A child from Gaza City, estimated age 12–15, recounts surviving after being presumed dead, shrouded, and prayed over while still alive. He then describes being taken into surgery and later being shot while injured in hospital, followed by humiliation when he asked for water.",

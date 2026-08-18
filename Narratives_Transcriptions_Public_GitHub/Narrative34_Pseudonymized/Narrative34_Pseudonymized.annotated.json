@@ -3,8 +3,8 @@
     "narrative_id": "Narrative34_Pseudonymized",
     "source_meta": {
         "source_id": "N34",
-        "source_type": "pasted_transcription_with_whisper_timestamps",
-        "source_platform": "Unspecified public/video source",
+        "source_type": "public_journalist_video_transcription_with_whisper_timestamps",
+        "source_platform": "public journalist video",
         "original_language": "ar",
         "dialect": "Palestinian Arabic (Gaza City dialect)",
         "reported_context": "An adult speaker from Gaza City speaks in a state of qahr under war, loss, fire, deprivation, and perceived abandonment. He addresses silent external actors and, according to the source note, also directs his anger toward Gaza leaders outside the Strip, while ultimately turning the scene into collective supplication to Allah.",

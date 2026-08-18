@@ -2,11 +2,12 @@
     "schema_version": "SABR_v1.2_prototype",
     "narrative_id": "Narrative22_Pseudonymized",
     "source_meta": {
-        "source_type": "video_testimony",
+        "source_type": "public_journalist_video_transcription_with_whisper_timestamps",
         "original_language": "ar",
         "dialect": "Palestinian Gazan Arabic (urban Gazan register)",
         "temporal_proximity": "immediate_post_loss",
-        "collection_context_en": "A mother (approx. 40–45 years old) speaks immediately after losing her second son. The speech occurs beside his body, indicating acute temporal proximity to the event."
+        "collection_context_en": "A mother (approx. 40–45 years old) speaks immediately after losing her second son. The speech occurs beside his body, indicating acute temporal proximity to the event.",
+        "source_platform": "public journalist video"
     },
     "speaker_profile": {
         "gender": "female",

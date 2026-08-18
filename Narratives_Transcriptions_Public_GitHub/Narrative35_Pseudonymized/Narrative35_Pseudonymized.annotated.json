@@ -1,0 +1,742 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative35_Pseudonymized",
+    "source_meta": {
+        "source_id": "Narrative35",
+        "source_type": "public_journalist_video_transcription_with_whisper_timestamps",
+        "source_platform": "public journalist video",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (Gaza City dialect)",
+        "reported_context": "An adult young woman from Gaza City recounts being given the choice to view the bodies of her parents and sister after they were martyred, despite being warned that the bodies were charred and difficult to recognize. She decides to see them because she had previously not seen or farewelled her martyred siblings and did not want to carry the same hasra. She describes the horror of seeing burned and fragmented bodies, then ends with hamd and a martyrdom frame.",
+        "collection_context_en": "The speaker describes being warned that the bodies were charred and may not be recognizable, then being asked whether she still wanted to see them. She refuses to avoid the scene, saying that whatever their condition, they are her parents and sister, and that she already carries the regret of not seeing and not farewelling her previously martyred siblings. She then describes the sight as terrifying and almost beyond words. Her sister, who had been in the car with them, had no recognizable trace and appeared as pieces/remains. Her mother’s face was burned. She remembers her father as a dignified, beautiful man with presence, and contrasts that memory with the state in which she saw him. The narrative ends with 'الحمدلله' and the statement that they no longer feel the condition of their bodies and that they attained the martyrdom they had wished for.",
+        "collection_context_ar": "تروي المتحدثة أنهم خُيّروا في رؤية أجساد والديها وأختها بعد تحذيرهم بأن الأجساد مفحمة وربما لا تُعرف. لكنها رفضت ألّا تراهم، لأن والدها ووالدتها وأختها يبقون أهلها مهما كان شكلهم، ولأنها تحمل حسرة سابقة لعدم رؤية إخوتها الشهداء وعدم وداعهم. ثم تصف المشهد بأنه مروع ومخيف ويعجز اللسان عن وصفه. أختها التي كانت في السيارة معهم لم يبق لها أثر واضح وكانت أشلاء وقطعاً بلا ملامح ظاهرة. ووالدتها كان وجهها محروقاً. أما والدها فتتذكره كرجل عظيم صاحب هيبة ووجه جميل، ثم تصدم برؤيته في هذا المنظر. وتختم بالحمد لله وبإعادة تأطير ديني بأنهم لا يشعرون بشكلهم الآن وأنهم نالوا الشهادة التي كانوا يتمنونها."
+    },
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "role_based_family_reference_no_personal_names",
+        "contains_real_names": false,
+        "contains_minors": false,
+        "contains_deceased_family_members": true,
+        "notes": "No personal names appear in the transcript. The narrative includes highly identifying family-role details and graphic descriptions of deceased family members. Public release should avoid video imagery, faces, exact location, or searchable context. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "n/a"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Gazan dialect, martyrdom/farewell discourse, traumatic bereavement narratives, and SABR annotation conventions."
+            }
+        ],
+        "adjudication": {
+            "status": "draft_annotation_ready_for_review",
+            "note": "Corrected Arabic text supplied by the user is treated as the source of truth. Whisper timestamps are used only for approximate timing. The speaker’s stuttering, hesitations, and self-repairs are analytically relevant and preserved through discourse markers."
+        },
+        "alignment_note": "Timestamps are approximate and mapped from the Whisper segment boundaries. Some ASR forms are inaccurate; corrected transcript controls wording and meaning.",
+        "selection_policy": "Segmentation follows discourse shifts: being warned about the bodies; decision to see them despite fear; hasra over not seeing earlier martyred siblings; viewing the bodies and failing to describe the weapon/effect; description of the sister’s remains; mother’s burned face; father’s remembered dignity contrasted with the altered body; hamd and martyrdom reframing."
+    },
+    "speaker_profile": {
+        "gender": "female",
+        "age_estimate": "adult",
+        "origin": "Gaza City",
+        "role_or_status": [
+            "Bereaved daughter",
+            "Bereaved sister",
+            "Family member of martyrs",
+            "Public testimony speaker"
+        ]
+    },
+    "approx_context": {
+        "brief_summary_en": "An adult young woman from Gaza City recounts choosing to see the bodies of her parents and sister after being warned that they were charred and possibly unrecognizable. She insists on seeing them because she had not seen or farewelled her previously martyred siblings and did not want to carry the same regret. She describes the scene as horrifying and beyond words, with her sister reduced to unrecognizable fragments, her mother’s face burned, and her father’s dignified living image painfully contrasted with his altered body. The narrative closes with hamd and a martyrdom frame: they do not feel the state of their bodies now, and they attained the shahada they had wished for.",
+        "brief_summary_ar": "تروي شابة بالغة من مدينة غزة أنها اختارت رؤية أجساد والديها وأختها رغم تحذيرها بأن الأجساد مفحمة وربما لا يمكن التعرف عليها. تصر على رؤيتهم لأنها لم ترَ إخوتها الشهداء سابقاً ولم تودّعهم، ولا تريد أن تحمل الحسرة نفسها. تصف المشهد بأنه مروع ويعجز اللسان عن وصفه، حيث كانت أختها أشلاء بلا ملامح واضحة، ووجه والدتها محروقاً، وصورة والدها الحيّ صاحب الهيبة والجمال تصطدم بمنظره بعد الاستشهاد. وتختم بالحمد لله وبإطار الشهادة: هم لا يشعرون بشكل أجسادهم الآن وقد نالوا الشهادة التي تمنوها."
+    },
+    "text_ar_full": "إ.. إذا بدكوا تشوفوهم ال... عشان تكونوا عارفين إنه ال.. أجسادهم إ... مفحَّمة و.. ممكن إنكم ما تعرفوهم أو ء..ف.. يعني.. بدكوا تشوفوهم أو لأ يعني خيّرونا. قلنالهم يعني قالولنا ح تخافوا، قلتلهم لأ ما بخاف يعني هو بالأول و بالآخر والدي إيش ما يكون ما بدي أخاف يعني، أنا إخوتي ما شفتهم، ما شفتهم إ.. و هما شهدا، ما ودعتهم، ف ما بدي يصير نفس الإشي إ.. مع والدي و والدتي و أختي. إيش ما يكون يكون بدي أشوفهم كيف ما يكونوا إ.. لأنه بتضلها حسرة ف..في في قلبي إني أنا ما شفت إ..إ.. إخوتي اللي استشهدوا قبل وما ودعتهم و.. رحنا و بالفعل شفناهم. طبعاً المنظر مروع بخوف إ... الك.. الصواريخ اللي رامينها صواريخ يعني.. مش عارفة إيش أحكيلك. آه محرمة دولياً طبعاً، أكيد محرمة دولياً لأنه ما فشي إ..إ.. أختي أختي اللي كانت في السيارة معهم إ.. ملهاش أي أثر، قطع، أشلاء قطع، يعني لا وجهها مبين، لا إيد مبينة ولا رجل مبينة م.. يعني منظرها بيخوّف. إ.. والدتي إ.. كانت إ.. وجهها محروق يعني حرق حرق يعني م.. مش فاهمة أنا إيش اللي منزلينه عليهم هاد اللي مخليهم هيك. والدي.. يعني.. أنا والدي ب الن.. يعني لما بشوفه رجل عظيم هيك إ.. جهامة إ.. شخصية إ.. و.. وجهه جميل، ء..ء..ء شخص من الآخر يعني بيجنن يعني.. منظره. بس لما إني شفته في هادا المنظر!! إ.. الحمدلله إيش الواحد بده يحكي؟ بالآخر إ.. هما مش راح بحسوا في كيف منظرهم، بس نالوا الشهادة اللي هما متمنينها.",
+    "text_en_full": "Uh... if you want to see them... so that you know that their bodies are charred and that you may not recognize them, or... so, I mean, do you want to see them or not? They gave us the choice. We told them, I mean, they said to us, 'You will be afraid.' I told them, 'No, I am not afraid. In the end, he is my father. Whatever he is like, I do not want to be afraid.' I did not see my siblings. I did not see them when they were martyrs. I did not farewell them, so I did not want the same thing to happen with my father, my mother, and my sister. Whatever they look like, I want to see them however they are, because it remains a hasra in my heart that I did not see my siblings who were martyred before and did not farewell them. So we went, and we did indeed see them. Of course, the sight was terrifying, frightening. The missiles they fired were missiles... I do not know what to tell you. Yes, internationally prohibited, of course, definitely internationally prohibited, because there was nothing... my sister, my sister who was in the car with them, had no trace at all: pieces, remains, pieces. I mean, her face was not visible, no hand was visible, and no leg was visible. I mean, her appearance was frightening. My mother, her face was burned, I mean burned, burned. I do not understand what they dropped on them that made them like this. My father... I mean, my father, when I see him, he is a great man, with such presence, personality, and a beautiful face. A person, honestly, he was wonderful in appearance. But when I saw him in this state... praise be to Allah, what can one say? In the end, they will not feel how they look. They attained the martyrdom they had wished for.",
+    "segments": [
+        {
+            "segment_id": "Narrative35_s01",
+            "start_time": 0.0,
+            "end_time": 15.92,
+            "text_ar": "إ.. إذا بدكوا تشوفوهم ال... عشان تكونوا عارفين إنه ال.. أجسادهم إ... مفحَّمة و.. ممكن إنكم ما تعرفوهم أو ء..ف.. يعني.. بدكوا تشوفوهم أو لأ يعني خيّرونا.",
+            "text_en": "Uh... if you want to see them... so that you know that their bodies are charred and that you may not recognize them, or... so, I mean, do you want to see them or not? They gave us the choice.",
+            "event_frame": {
+                "adversity_description": "The family is warned that the bodies are charred and may be unrecognizable before they decide whether to view them.",
+                "response_description": "The speaker frames the moment as a painful forced choice: to see the bodies despite horror, or not to see them and risk lasting regret."
+            },
+            "sabr_frame": {
+                "sabr_type": "choice_to_witness_unrecognizable_martyr_bodies",
+                "features": [
+                    "charred_bodies_warning",
+                    "possible_non_recognition",
+                    "forced_choice",
+                    "viewing_the_dead",
+                    "hesitation",
+                    "family_farewell_context"
+                ],
+                "explanation": "The span establishes the core adversity as bodily destruction and the response as the decision point around witnessing/farewell."
+            },
+            "affective_signals": {
+                "dominant_affect": "anticipatory_dread_and_moral_necessity",
+                "secondary_affects": [
+                    "shock",
+                    "fear",
+                    "hesitation"
+                ],
+                "justification": "The repeated hesitations and warning that the bodies are 'مفحمة' and may not be recognized create dread, while the choice to see them is treated as necessary.",
+                "confidence": null
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "بدكوا",
+                        "note": "Gazan/Palestinian plural: you want."
+                    },
+                    {
+                        "marker": "تشوفوهم",
+                        "note": "Colloquial form: to see them."
+                    },
+                    {
+                        "marker": "خيّرونا",
+                        "note": "They gave us the choice; marks a painful decision rather than ordinary permission."
+                    }
+                ],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "رؤية الجثامين قبل الدفن",
+                        "note": "Seeing/farewelling the dead is culturally and emotionally important, even when the body is altered."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "إ.. ال... إ... و.. أو ء..ف.. يعني",
+                        "note": "Frequent hesitation and broken speech reflect difficulty approaching the memory."
+                    },
+                    {
+                        "marker": "ممكن إنكم ما تعرفوهم",
+                        "note": "Non-recognition warning intensifies the horror of bodily destruction."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": false,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true,
+                "dominant_affect_label": "anticipatory_dread_and_moral_necessity",
+                "sabr_type_label": "choice_to_witness_unrecognizable_martyr_bodies"
+            }
+        },
+        {
+            "segment_id": "Narrative35_s02",
+            "start_time": 16.34,
+            "end_time": 44.74,
+            "text_ar": "قلنالهم يعني قالولنا ح تخافوا، قلتلهم لأ ما بخاف يعني هو بالأول و بالآخر والدي إيش ما يكون ما بدي أخاف يعني، أنا إخوتي ما شفتهم، ما شفتهم إ.. و هما شهدا، ما ودعتهم، ف ما بدي يصير نفس الإشي إ.. مع والدي و والدتي و أختي. إيش ما يكون يكون بدي أشوفهم كيف ما يكونوا إ.. لأنه بتضلها حسرة ف..في في قلبي إني أنا ما شفت إ..إ.. إخوتي اللي استشهدوا قبل وما ودعتهم.",
+            "text_en": "We told them, I mean, they said to us, 'You will be afraid.' I told them, 'No, I am not afraid. In the end, he is my father. Whatever he is like, I do not want to be afraid.' I did not see my siblings. I did not see them when they were martyrs. I did not farewell them, so I did not want the same thing to happen with my father, my mother, and my sister. Whatever they look like, I want to see them however they are, because it remains a hasra [heartbreak] in my heart that I did not see my siblings who were martyred before and did not farewell them.",
+            "event_frame": {
+                "adversity_description": "The speaker carries prior regret because she did not see or farewell earlier martyred siblings, and now faces the same possibility with her parents and sister.",
+                "response_description": "She insists on seeing her parents and sister regardless of their condition, using kinship duty and refusal of repeated hasra as the basis for her decision."
+            },
+            "sabr_frame": {
+                "sabr_type": "farewell_decision_to_prevent_lifelong_hasra",
+                "features": [
+                    "refusal_to_avoid_viewing",
+                    "kinship_duty",
+                    "previous_unfarewelled_siblings",
+                    "hasra",
+                    "martyrdom_context",
+                    "fear_overridden_by_need_for_farewell"
+                ],
+                "explanation": "Resilience here is not emotional calm; it is the painful decision to witness traumatic bodies to avoid carrying an unresolved farewell regret."
+            },
+            "affective_signals": {
+                "dominant_affect": "hasra_driven_resolve",
+                "secondary_affects": [
+                    "fear",
+                    "grief",
+                    "familial_duty"
+                ],
+                "justification": "The speaker repeats that she did not see or farewell her martyred siblings and says she does not want the same 'حسرة' with her parents and sister.",
+                "confidence": null
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "ح تخافوا",
+                        "note": "You will be afraid; colloquial future construction."
+                    },
+                    {
+                        "marker": "ما بدي",
+                        "note": "I do not want; repeated to mark active refusal."
+                    },
+                    {
+                        "marker": "إيش ما يكون",
+                        "note": "Whatever it is / whatever they look like."
+                    },
+                    {
+                        "marker": "بتضلها",
+                        "note": "It remains/stays; colloquial persistence marker."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "شهدا / استشهدوا",
+                        "note": "Martyrdom framing for the deceased siblings."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "ما ودعتهم",
+                        "note": "Not farewelling the dead becomes an enduring hasra and motivates the decision to witness."
+                    },
+                    {
+                        "marker": "والدي ووالدتي وأختي",
+                        "note": "Kinship terms anchor the duty to see them despite horror."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "ما شفتهم، ما شفتهم",
+                        "note": "Repetition intensifies unresolved regret."
+                    },
+                    {
+                        "marker": "ف..في في قلبي",
+                        "note": "Stuttering before locating hasra in the heart indexes emotional difficulty."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": true,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true,
+                "dominant_affect_label": "hasra_driven_resolve",
+                "sabr_type_label": "farewell_decision_to_prevent_lifelong_hasra"
+            }
+        },
+        {
+            "segment_id": "Narrative35_s03",
+            "start_time": 45.66,
+            "end_time": 64.22,
+            "text_ar": "ورحنا و بالفعل شفناهم. طبعاً المنظر مروع بخوف إ...الك..الصواريخ اللي رامينها صواريخ يعني.. مش عارفة إيش أحكيلك. آه محرمة دولياً طبعاً، أكيد محرمة دولياً لأنه ما فشي إ..إ..",
+            "text_en": "So we went, and we did indeed see them. Of course, the sight was terrifying, frightening. The missiles they fired were missiles... I do not know what to tell you. Yes, internationally prohibited, of course, definitely internationally prohibited, because there was nothing...",
+            "event_frame": {
+                "adversity_description": "The speaker confronts the actual visual scene of burned and mutilated bodies, which she describes as terrifying and nearly indescribable.",
+                "response_description": "She attempts to name the weapon effect and frames it as internationally prohibited, but her speech repeatedly breaks down because the scene exceeds description."
+            },
+            "sabr_frame": {
+                "sabr_type": "indescribable_visual_horror_and_moral_condemnation",
+                "features": [
+                    "body_viewing",
+                    "horror_scene",
+                    "speech_failure",
+                    "weapon_effect",
+                    "moral_legal_condemnation",
+                    "visual_trauma"
+                ],
+                "explanation": "The response combines attempted testimony, inability to describe, and moral-legal condemnation of the attack as experienced by the speaker."
+            },
+            "affective_signals": {
+                "dominant_affect": "horror_and_speechless_qahr",
+                "secondary_affects": [
+                    "fear",
+                    "moral_outrage",
+                    "shock"
+                ],
+                "justification": "The phrases 'المنظر مروع بخوف' and 'مش عارفة إيش أحكيلك' show terror and speechlessness.",
+                "confidence": null
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "بخوف",
+                        "note": "It is frightening; colloquial affective description."
+                    },
+                    {
+                        "marker": "ما فشي",
+                        "note": "There is nothing/no thing; Gazan/Palestinian negation."
+                    }
+                ],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "محرمة دولياً",
+                        "note": "Speaker’s moral/legal framing of the weapon effect; should be treated as a speaker claim unless independently verified."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "مش عارفة إيش أحكيلك",
+                        "note": "Language fails before the horror of the scene."
+                    },
+                    {
+                        "marker": "إ...الك..",
+                        "note": "Broken speech and self-interruption while trying to describe the missiles."
+                    },
+                    {
+                        "marker": "محرمة دولياً طبعاً، أكيد محرمة دولياً",
+                        "note": "Repetition intensifies moral condemnation."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": false,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true,
+                "dominant_affect_label": "horror_and_speechless_qahr",
+                "sabr_type_label": "indescribable_visual_horror_and_moral_condemnation"
+            }
+        },
+        {
+            "segment_id": "Narrative35_s04",
+            "start_time": 64.24,
+            "end_time": 74.92,
+            "text_ar": "أختي أختي اللي كانت في السيارة معهم إ.. ملهاش أي أثر، قطع، أشلاء قطع، يعني لا وجهها مبين، لا إيد مبينة ولا رجل مبينة م.. يعني منظرها بيخوّف.",
+            "text_en": "My sister, my sister who was in the car with them, had no trace at all: pieces, remains, pieces. I mean, her face was not visible, no hand was visible, and no leg was visible. I mean, her appearance was frightening.",
+            "event_frame": {
+                "adversity_description": "The speaker describes her sister’s body as fragmented and unrecognizable, with no visible face, hand, or leg.",
+                "response_description": "She repeats 'my sister' and lists absent body parts, preserving relational recognition even when bodily recognition is impossible."
+            },
+            "sabr_frame": {
+                "sabr_type": "relational_recognition_against_bodily_fragmentation",
+                "features": [
+                    "sister_in_car",
+                    "no_trace",
+                    "body_fragmentation",
+                    "unrecognizable_remains",
+                    "repetition_of_kinship",
+                    "visual_fear"
+                ],
+                "explanation": "The speaker resists total erasure by naming the deceased as 'my sister' even while describing the collapse of recognizable bodily form."
+            },
+            "affective_signals": {
+                "dominant_affect": "terror_and_relational_grief",
+                "secondary_affects": [
+                    "shock",
+                    "disbelief",
+                    "protective_memory"
+                ],
+                "justification": "The repetition 'أختي أختي' and the list of absent body parts combine relational grief with terror at bodily destruction.",
+                "confidence": null
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "ملهاش",
+                        "note": "She had no; Palestinian/Gazan negation with -sh."
+                    },
+                    {
+                        "marker": "مبين / مبينة",
+                        "note": "Visible/apparent; repeated to mark the absence of recognizable features."
+                    },
+                    {
+                        "marker": "بيخوّف",
+                        "note": "It frightens; colloquial affective marker."
+                    }
+                ],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "أختي أختي",
+                        "note": "Repeated kinship naming preserves relational identity amid bodily fragmentation."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "قطع، أشلاء قطع",
+                        "note": "Repetition and listing communicate the shock of fragmentation."
+                    },
+                    {
+                        "marker": "لا وجهها... لا إيد... ولا رجل",
+                        "note": "Negative enumeration of missing recognizable body parts."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": false,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true,
+                "dominant_affect_label": "terror_and_relational_grief",
+                "sabr_type_label": "relational_recognition_against_bodily_fragmentation"
+            }
+        },
+        {
+            "segment_id": "Narrative35_s05",
+            "start_time": 75.56,
+            "end_time": 86.16,
+            "text_ar": "إ.. والدتي إ.. كانت إ.. وجهها محروق يعني حرق حرق يعني م..مش فاهمة أنا إيش اللي منزلينه عليهم هاد اللي مخليهم هيك.",
+            "text_en": "My mother, her face was burned, I mean burned, burned. I do not understand what they dropped on them that made them like this.",
+            "event_frame": {
+                "adversity_description": "The speaker describes her mother’s burned face and the incomprehensible severity of the damage.",
+                "response_description": "She responds through repetition and a question of incomprehension, trying to make sense of what could have produced such burns."
+            },
+            "sabr_frame": {
+                "sabr_type": "incomprehension_before_burned_maternal_body",
+                "features": [
+                    "mother_body",
+                    "burned_face",
+                    "repetition",
+                    "incomprehension",
+                    "weapon_effect_question",
+                    "maternal_grief"
+                ],
+                "explanation": "This span captures the speaker’s attempt to cognitively process the burned body of her mother through repeated words and unanswered questions."
+            },
+            "affective_signals": {
+                "dominant_affect": "stunned_incomprehension",
+                "secondary_affects": [
+                    "grief",
+                    "horror",
+                    "qahr"
+                ],
+                "justification": "The repeated 'حرق حرق' and 'مش فاهمة' show stunned inability to understand the severity of the burning.",
+                "confidence": null
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "مش فاهمة",
+                        "note": "I do not understand; colloquial negation."
+                    },
+                    {
+                        "marker": "هاد / هيك",
+                        "note": "This / like this; Gazan/Palestinian demonstratives."
+                    },
+                    {
+                        "marker": "منزلينه عليهم",
+                        "note": "What they dropped on them; colloquial phrasing for munitions/attack."
+                    }
+                ],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "والدتي",
+                        "note": "The formal kinship term intensifies the dignity and intimacy of the description."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "حرق حرق",
+                        "note": "Repetition emphasizes severity and disbelief."
+                    },
+                    {
+                        "marker": "إ.. كانت إ..",
+                        "note": "Hesitation before naming the mother’s burned face."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": false,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true,
+                "dominant_affect_label": "stunned_incomprehension",
+                "sabr_type_label": "incomprehension_before_burned_maternal_body"
+            }
+        },
+        {
+            "segment_id": "Narrative35_s06",
+            "start_time": 86.16,
+            "end_time": 112.18,
+            "text_ar": "والدي.. يعني.. أنا والدي ب الن.. يعني لما بشوفه رجل عظيم هيك إ.. جهامة إ.. شخصية إ.. و..وجهه جميل، ء..ء..ء شخص من الآخر يعني بيجنن يعني.. منظره. بس لما إني شفته في هادا المنظر!! إ.. الحمدلله إيش الواحد بده يحكي؟ بالآخر إ.. هما مش راح بحسوا في كيف منظرهم، بس نالوا الشهادة اللي هما متمنينها.",
+            "text_en": "My father... I mean, my father, when I see him, he is a great man, with such presence, personality, and a beautiful face. A person, honestly, he was wonderful in appearance. But when I saw him in this state... praise be to Allah, what can one say? In the end, they will not feel how they look. They attained the martyrdom they had wished for.",
+            "event_frame": {
+                "adversity_description": "The speaker contrasts her father’s remembered dignity, beauty, and presence with the altered state in which she saw him after martyrdom.",
+                "response_description": "She turns to الحمدلله and reframes the horror by saying the dead do not feel their bodily appearance and that they attained the martyrdom they wished for."
+            },
+            "sabr_frame": {
+                "sabr_type": "dignified_memory_and_shahada_reframing_after_body_horror",
+                "features": [
+                    "father_dignity_memory",
+                    "contrast_with_altered_body",
+                    "hamd",
+                    "the_dead_do_not_feel_appearance",
+                    "martyrdom_attainment",
+                    "devotional_reframing"
+                ],
+                "explanation": "The speaker preserves the father’s dignified living image, then uses hamd and shahada framing to regulate the unbearable visual contrast."
+            },
+            "affective_signals": {
+                "dominant_affect": "grief_regulated_by_hamd_and_shahada",
+                "secondary_affects": [
+                    "shock",
+                    "love",
+                    "devotional_acceptance",
+                    "protective_reframing"
+                ],
+                "justification": "After describing the painful contrast between her father's dignity and his altered body, she says 'الحمدلله' and reframes the death through martyrdom.",
+                "confidence": null
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "جهامة",
+                        "note": "Physical presence, strength, and dignified bearing."
+                    },
+                    {
+                        "marker": "شخصية",
+                        "note": "Presence/character; said of someone with strong social presence."
+                    },
+                    {
+                        "marker": "بيجنن",
+                        "note": "Very beautiful/wonderful in positive Gazan colloquial usage."
+                    },
+                    {
+                        "marker": "من الآخر",
+                        "note": "Colloquial intensifier meaning 'honestly / in short / truly'."
+                    },
+                    {
+                        "marker": "هادا المنظر",
+                        "note": "This appearance/state; colloquial demonstrative."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "الحمدلله",
+                        "note": "Praise formula used at the point where words fail."
+                    },
+                    {
+                        "marker": "نالوا الشهادة",
+                        "note": "Martyrdom attainment frame."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "رجل عظيم / وجهه جميل",
+                        "note": "Dignifying memory of the father’s living personhood counters the degraded visual state of the body."
+                    },
+                    {
+                        "marker": "هما مش راح بحسوا في كيف منظرهم",
+                        "note": "Protective cultural-religious reasoning: the dead do not feel the condition of their bodies."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "والدي.. يعني.. أنا والدي",
+                        "note": "Repeated re-entry into the father’s description shows emotional difficulty."
+                    },
+                    {
+                        "marker": "إيش الواحد بده يحكي؟",
+                        "note": "Formula of speechlessness and surrender before unbearable reality."
+                    },
+                    {
+                        "marker": "بس",
+                        "note": "Pivot from horror to religious reframing through shahada."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": true,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true,
+                "dominant_affect_label": "grief_regulated_by_hamd_and_shahada",
+                "sabr_type_label": "dignified_memory_and_shahada_reframing_after_body_horror"
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "مفحَّمة": {
+                "variants_ar": [
+                    "محترقة بالكامل",
+                    "متفحمة",
+                    "محروقة"
+                ],
+                "meaning_en": "Charred/burned beyond ordinary recognition.",
+                "note_ar": "تستخدم لوصف الأجساد بعد حرق شديد."
+            },
+            "بدكوا": {
+                "variants_ar": [
+                    "بدكم",
+                    "تريدون"
+                ],
+                "meaning_en": "You want; Gazan/Palestinian plural."
+            },
+            "خيّرونا": {
+                "variants_ar": [
+                    "أعطونا خياراً",
+                    "تركوا لنا القرار"
+                ],
+                "meaning_en": "They gave us the choice."
+            },
+            "ح تخافوا": {
+                "variants_ar": [
+                    "ستخافون",
+                    "رح تخافوا"
+                ],
+                "meaning_en": "You will be afraid."
+            },
+            "إيش ما يكون": {
+                "variants_ar": [
+                    "مهما كان",
+                    "أيّاً كان حاله"
+                ],
+                "meaning_en": "Whatever it is / whatever the condition is."
+            },
+            "ما ودعتهم": {
+                "variants_ar": [
+                    "لم أودّعهم",
+                    "لم ألقِ عليهم نظرة الوداع"
+                ],
+                "meaning_en": "I did not farewell them."
+            },
+            "حسرة": {
+                "variants_ar": [
+                    "ندم موجع",
+                    "وجع باقٍ",
+                    "حرقة في القلب"
+                ],
+                "meaning_en": "Hasra; lasting painful regret or heart-sorrow over something unresolved."
+            },
+            "مش عارفة إيش أحكيلك": {
+                "variants_ar": [
+                    "لا أعرف كيف أصف لك",
+                    "يعجز الكلام عن الوصف"
+                ],
+                "meaning_en": "I do not know what to tell you; speechlessness before horror."
+            },
+            "محرمة دولياً": {
+                "variants_ar": [
+                    "ممنوعة دولياً",
+                    "محظورة دولياً"
+                ],
+                "meaning_en": "Internationally prohibited; speaker’s moral/legal description of the weapons/effects.",
+                "note_ar": "تُعامل في التحليل كادعاء/تأطير من المتحدثة ما لم يتم التحقق خارجياً."
+            },
+            "ما فشي": {
+                "variants_ar": [
+                    "لا يوجد شيء",
+                    "ما في شيء"
+                ],
+                "meaning_en": "There is nothing / no recognizable thing."
+            },
+            "ملهاش أي أثر": {
+                "variants_ar": [
+                    "لم يبق لها أثر",
+                    "لا أثر واضح لها"
+                ],
+                "meaning_en": "She had no trace at all. No recognizable remains."
+            },
+            "أشلاء": {
+                "variants_ar": [
+                    "متقطعة لقطع ممزقة",
+                    "بقايا جسدية",
+                    "أجزاء ممزقة"
+                ],
+                "meaning_en": "Remains/body fragments."
+            },
+            "لا وجهها مبين، لا إيد مبينة ولا رجل مبينة": {
+                "variants_ar": [
+                    "لا تظهر ملامحها",
+                    "لا تظهر اليد ولا الرجل"
+                ],
+                "meaning_en": "Her face was not visible, no hand or leg was visible."
+            },
+            "بيخوّف / بخوف": {
+                "variants_ar": [
+                    "مخيف",
+                    "مرعب"
+                ],
+                "meaning_en": "Frightening/terrifying."
+            },
+            "منزلينه عليهم": {
+                "variants_ar": [
+                    "ألقوه عليهم",
+                    "ضربوهم به",
+                    "استهدفوهم به"
+                ],
+                "meaning_en": "What they dropped/fired on them."
+            },
+            "جهامة": {
+                "variants_ar": [
+                    "هيبة",
+                    "قوة حضور",
+                    "ضخامة وهيبة"
+                ],
+                "meaning_en": "Dignified physical presence, strength, or imposing bearing."
+            },
+            "شخصية": {
+                "variants_ar": [
+                    "حضور",
+                    "هيبة",
+                    "كاريزما"
+                ],
+                "meaning_en": "Presence/character/charisma."
+            },
+            "بيجنن": {
+                "variants_ar": [
+                    "جميل جداً",
+                    "رائع",
+                    "فوق الوصف"
+                ],
+                "meaning_en": "Very beautiful/wonderful in positive colloquial usage."
+            },
+            "إيش الواحد بده يحكي؟": {
+                "variants_ar": [
+                    "ماذا يمكن للإنسان أن يقول؟",
+                    "يعجز الكلام"
+                ],
+                "meaning_en": "What can one say? Formula of speechlessness/surrender."
+            },
+            "نالوا الشهادة": {
+                "variants_ar": [
+                    "حازوا الشهادة",
+                    "استشهدوا",
+                    "أكرموا بالشهادة"
+                ],
+                "meaning_en": "They attained martyrdom/shahada [died for their faith/religious cause]."
+            },
+            "هما مش راح بحسوا في كيف منظرهم": {
+                "variants_ar": [
+                    "الميت لا يشعر بما جرى لجسده",
+                    "لن يتألموا من شكل أجسادهم"
+                ],
+                "meaning_en": "They will not feel the state of their bodies; protective reframing after bodily mutilation."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "farewell_hasra_body_horror_hamd_shahada_reframing",
+        "paper_fit_ar": "تمثل رواية35 مثالاً شديد الحساسية على قرار رؤية أجساد الشهداء رغم التحذير من تفحمها وعدم إمكانية التعرف عليها. القيمة البحثية هنا ليست فقط في وصف الفقد، بل في منطق الوداع والحسرة: المتحدثة لم ترَ إخوتها الشهداء سابقاً ولم تودعهم، ولذلك تُصر على رؤية والدها ووالدتها وأختها مهما كان شكلهم. يظهر هنا أن الصبر لا يعني غياب الخوف؛ بل يعني تحمل رؤية مشهد مروع لتجنب حسرة أخلاقية/عائلية دائمة. في منتصف الرواية تتكسر اللغة أمام المشهد: «مش عارفة إيش أحكيلك»، مع وصف الأشلاء وغياب الملامح. وفي النهاية تنتقل المتحدثة إلى إطار ديني يحاول تنظيم الألم: «الحمدلله»، «هما مش راح بحسوا في كيف منظرهم»، و«نالوا الشهادة». هذه الرواية مهمة جداً لاختبار النماذج لأنها تحتوي على تعارض عاطفي شديد: رعب بصري، حسرة، حب عائلي، حفظ كرامة الميت، وحمد/شهادة دون أن يعني ذلك اختفاء الصدمة.",
+        "paper_fit_en": "Narrative35 is a highly sensitive example of choosing to view the bodies of martyrs despite warnings that they were charred and potentially unrecognizable. Its research value lies not only in loss description, but in the logic of farewell and hasra: the speaker did not see or farewell her previously martyred siblings, so she insists on seeing her father, mother, and sister regardless of their condition. Sabr here does not mean absence of fear; it means enduring a horrific scene to avoid lifelong moral and familial regret. In the middle of the narrative, language breaks before the visual horror: 'I do not know what to tell you,' followed by descriptions of fragments and absent features. At the end, the speaker shifts into a religious frame that regulates the pain: hamd, the belief that the dead do not feel the state of their bodies, and martyrdom attainment. This narrative is especially valuable for model evaluation because it contains intense affective conflict: visual horror, hasra, family love, preservation of the dignity of the dead, and devotional shahada reframing without erasing trauma."
+    },
+    "ethical_note": {
+        "risk_level": "very_high_sensitivity_graphic_deceased_family_members_body_fragmentation",
+        "notes": [
+            "The narrative contains graphic descriptions of burned and fragmented bodies of close family members.",
+            "No personal names appear, but family roles and visual descriptions are highly sensitive.",
+            "For public release, avoid images, video stills, faces, exact geolocation, or searchable contextual details.",
+            "The phrase 'محرمة دولياً' should be treated as the speaker’s moral/legal framing unless independently verified.",
+            "Do not over-normalize hesitation and stuttering; they are important discourse evidence of traumatic speech difficulty.",
+            "Do not interpret 'الحمدلله' or 'نالوا الشهادة' as absence of trauma. They function as religious reframing after horror and grief.",
+            "This testimony must not be used for individual psychological diagnosis. Analysis should focus on discourse structure, adversity framing, response strategies, contextual markers, and affective signal."
+        ],
+        "recommended_public_version": "pseudonymized_restricted_access_or_short_excerpts_only_no_visual_material"
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}
