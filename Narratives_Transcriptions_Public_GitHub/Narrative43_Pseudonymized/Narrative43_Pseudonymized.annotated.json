@@ -1,0 +1,331 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative43_Pseudonymized",
+    "source_meta": {
+        "source_id": "Narrative43",
+        "source_type": "public_journalist_video_transcription_with_whisper_timestamps",
+        "source_platform": "public journalist video",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (Gaza refugee dialect with some MSA features)",
+        "location_mentioned": "Gaza",
+        "reported_context": "An adolescent granddaughter describes her older grandmother, who travelled to Egypt for treatment during the war, vowing to return to Gaza barefoot once she recovered. The granddaughter waits with shoes for her grandmother to put on once she reaches the land of Gaza.",
+        "collection_context_ar": "تروي حفيدة يافعة أن جدتها الستينية كانت قد خرجت إلى مصر للعلاج أثناء الحرب، وبعد شفائها أقسمت ونذرت أن تعود إلى غزة حافية القدمين لتروي شوقها من تراب غزة وأهلها. رغم أن البقاء في مصر أكثر أماناً مادياً، تُقدَّم العودة إلى غزة هنا كحاجة وجدانية ووطنية وكشكل من أشكال الصمود والارتباط بالأرض.",
+        "collection_context_en": "An adolescent granddaughter recounts that her older grandmother, who had gone to Egypt for medical treatment during the war, swore and vowed to return to Gaza barefoot so that she could quench her longing with Gaza's soil and people. Although remaining in Egypt would be materially safer, the return to Gaza is framed here as an emotional, homeland-based need and a form of steadfast attachment to the land."
+    },
+    "anonymization": {
+        "is_pseudonymized": false,
+        "strategy": "no_personal_names_present; ages generalized for public safety",
+        "contains_real_names": false,
+        "contains_public_figure_name_only": false,
+        "contains_minors": true,
+        "contains_deceased_or_injured_people": false,
+        "notes": "The granddaughter is an adolescent and the grandmother is an older adult. No names are present. For public release, avoid face, voice, exact crossing/location visuals, and any identifiable family details. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "n/a"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Palestinian/Gazan refugee dialects, place-attachment discourse, homeland longing, and SABR annotation conventions."
+            }
+        ],
+        "adjudication": {
+            "status": "draft_annotation_ready_for_review",
+            "note": "The user-corrected Arabic transcription is treated as the source of truth. Whisper content is used only for approximate timestamp mapping."
+        },
+        "alignment_note": "Whisper timestamps are approximate. ASR content contains lexical inaccuracies such as 'الحزاق' for 'الحذاء'. Corrected transcript controls wording and meaning. No confidence values are retained.",
+        "selection_policy": "The user requested one span only. The entire utterance is kept as a single complete meaning-unit because the vow, barefoot return, longing for Gaza's soil/people, and granddaughter's waiting with shoes form one coherent scene."
+    },
+    "speaker_profile": {
+        "speaker_id": "S1",
+        "gender": "female",
+        "age_estimate": "youth",
+        "age_source_note": "exact age omitted for public release; broad age category retained",
+        "origin_or_dialect_background": "Gaza refugee dialectal background",
+        "role_or_status": [
+            "Granddaughter",
+            "Family witness",
+            "Young speaker narrating grandmother's vowed return"
+        ]
+    },
+    "referenced_persons": [
+        {
+            "person_id": "P1",
+            "role_or_status": [
+                "Grandmother",
+                "Older adult woman",
+                "Returned from Egypt after treatment",
+                "Person who vowed to return to Gaza barefoot"
+            ],
+            "age_estimate": "older_adult",
+            "public_release_note": "Keep generalized; do not identify visually or by name."
+        }
+    ],
+    "approx_context": {
+        "brief_summary_ar": "حفيدة يافعة تروي أن جدتها نذرت أن تعود إلى غزة حافية القدمين بعد أن كانت في مصر للعلاج أثناء الحرب. تقول إن جدتها جاءت لتروي شوقها من تراب غزة وأهلها، وأنها تنتظرها بالحذاء لتلبسه عندما تطأ أرض غزة. الرواية تقدم العودة إلى غزة لا كقرار مادي آمن، بل كصمود وجداني وارتباط عميق بالأرض والوطن.",
+        "brief_summary_en": "An adolescent granddaughter says that her grandmother vowed to return to Gaza barefoot after being in Egypt for treatment during the war. She explains that her grandmother came to quench her longing with Gaza's soil and people, and that she is waiting with shoes for her grandmother to wear once she steps onto the land of Gaza. The narrative frames return to Gaza not as a materially safe choice, but as emotional steadfastness and deep attachment to homeland and land."
+    },
+    "text_ar_full": "ستي حلفت إي..إنو تيجي على غزة تبل شوقها من تراب غزة وأهلها اللي في غزة، إنها تيجي نادرة ندر حافية وأنا هيني قاعدة منتظرة بدي أجيبلها الحذاء تلبسه في أرض غزة.",
+    "text_en_full": "My grandmother swore—uh—that she would come to Gaza to quench her longing with the soil of Gaza and its people who are in Gaza. She made a vow to come barefoot, and here I am waiting; I want to bring her the shoes so she can put them on in the land of Gaza.",
+    "segments": [
+        {
+            "segment_id": "Narrative43_s01",
+            "speaker_id": "S1",
+            "start_time": 0.0,
+            "end_time": 16.74,
+            "text_ar": "ستي حلفت إي..إنو تيجي على غزة تبل شوقها من تراب غزة وأهلها اللي في غزة، إنها تيجي نادرة ندر حافية وأنا هيني قاعدة منتظرة بدي أجيبلها الحذاء تلبسه في أرض غزة.",
+            "text_en": "My grandmother swore—uh—that she would come to Gaza to quench her longing with the soil of Gaza and its people who are in Gaza. She made a vow to come barefoot, and here I am waiting; I want to bring her the shoes so she can put them on in the land of Gaza.",
+            "event_frame": {
+                "adversity_description": "The grandmother had been away from Gaza in Egypt for treatment during the war, separated from homeland, family, soil, and people while Gaza remains unsafe.",
+                "response_description": "She vows to return to Gaza barefoot, turning return into an embodied act of longing, fidelity to homeland, and place-based sumud. The granddaughter waits with shoes, completing the scene as intergenerational care and welcome."
+            },
+            "sabr_frame": {
+                "sabr_type": "barefoot_vowed_return_as_place_based_sumud",
+                "features": [
+                    "vow_to_return",
+                    "barefoot_return",
+                    "homeland_longing",
+                    "soil_of_gaza",
+                    "people_of_gaza",
+                    "intergenerational_waiting",
+                    "return_despite_danger",
+                    "emotional_safety_of_homeland"
+                ],
+                "explanation": "This span shows a non-combat, place-based form of resilience: the grandmother chooses return to Gaza despite danger because the land itself functions as emotional belonging and spiritual/homeplace security. The barefoot vow intensifies the depth of longing and the desire to reconnect directly with Gaza."
+            },
+            "affective_signals": {
+                "dominant_affect": "homesick_steadfast_longing",
+                "affect_type": "homesick_steadfast_longing",
+                "secondary_affects": [
+                    "tender_anticipation",
+                    "hopeful_return",
+                    "place_attachment",
+                    "intergenerational_affection"
+                ],
+                "justification": "The phrase 'تبل شوقها من تراب غزة وأهلها' directly frames return as thirst-like longing, while 'نادرة ندر حافية' makes the return an embodied vow. The granddaughter's 'هيني قاعدة منتظرة' adds care and anticipation."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "ستي",
+                        "note": "My grandmother; intimate family term used in Palestinian/Gazan speech."
+                    },
+                    {
+                        "marker": "حَلْفت",
+                        "note": "She swore. In Gaza refugee dialect the lam may be held/sukūn-like, unlike the more common 'حَلَفت' with a clearer short vowel."
+                    },
+                    {
+                        "marker": "إي..إنو",
+                        "note": "Hesitation followed by colloquial complementizer 'that'."
+                    },
+                    {
+                        "marker": "تيجي",
+                        "note": "She comes/would come; colloquial future/subjunctive form."
+                    },
+                    {
+                        "marker": "اللي في غزة",
+                        "note": "Who are in Gaza; colloquial relative clause."
+                    },
+                    {
+                        "marker": "نادرة ندر",
+                        "note": "Dialectal rendering of 'نذرت نذراً' / made a vow."
+                    },
+                    {
+                        "marker": "هيني",
+                        "note": "Here I am; deictic self-positioning."
+                    },
+                    {
+                        "marker": "قاعدة منتظرة",
+                        "note": "I am sitting/waiting; 'قاعدة' marks ongoing duration and anticipation."
+                    },
+                    {
+                        "marker": "بدي أجيبلها",
+                        "note": "I want to bring for her; colloquial desire + benefactive construction."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "نادرة ندر",
+                        "note": "Vow/nadhr frame: a serious religious-social commitment to perform an act, here returning barefoot to Gaza."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "تبل شوقها",
+                        "note": "To quench/satiate her longing; Arabic metaphor of longing as thirst that needs to be watered."
+                    },
+                    {
+                        "marker": "تراب غزة",
+                        "note": "Cultural metonymy: Gaza's soil/dust stands for Gaza as homeland, people, memory, belonging, and emotional safety."
+                    },
+                    {
+                        "marker": "أهلها اللي في غزة",
+                        "note": "Belonging is tied to both land and people; return is social and emotional, not only geographical."
+                    },
+                    {
+                        "marker": "حافية",
+                        "note": "Barefoot return as an embodied sign of vow, longing, humility, and desire for direct contact with the land."
+                    },
+                    {
+                        "marker": "أرض غزة",
+                        "note": "Land of Gaza as the place where the vow is fulfilled and where the grandmother can put her shoes on after touching/entering the homeland."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "غزة... تراب غزة... أهلها... أرض غزة",
+                        "note": "Repetition of Gaza and its associated elements makes homeland the central affective object."
+                    },
+                    {
+                        "marker": "وأنا هيني قاعدة منتظرة",
+                        "note": "The granddaughter positions herself as the welcoming witness, turning the return into a family and intergenerational event."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "homesick_steadfast_longing",
+                "sabr_type_label": "barefoot_vowed_return_as_place_based_sumud",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": true,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "high_sensitivity_minor_speaker_displacement_return_during_war",
+                "contains_real_names": false,
+                "contains_minors": true,
+                "public_safe": false,
+                "note": "The speaker is an adolescent. Use pseudonymized text only; do not publish video stills, voice, crossing details, or identifiable family visuals."
+            },
+            "timestamp_note": "Whisper provides two broad segments from 0.0 to 16.74. The user requested one annotated span; therefore the span covers the full utterance."
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "ستي": {
+                "variants_ar": [
+                    "جدتي",
+                    "سِتّي"
+                ],
+                "meaning_en": "My grandmother."
+            },
+            "حَلْفت": {
+                "variants_ar": [
+                    "أقسمت",
+                    "حلفت"
+                ],
+                "meaning_en": "She swore; in Gaza refugee dialect the lam may be held with a sukūn-like pronunciation."
+            },
+            "تبل شوقها": {
+                "variants_ar": [
+                    "تروي شوقها",
+                    "تطفئ عطش الشوق",
+                    "تشبع حنينها"
+                ],
+                "meaning_en": "To quench/satiate her longing; longing is metaphorically treated as thirst."
+            },
+            "تراب غزة": {
+                "variants_ar": [
+                    "أرض غزة",
+                    "غزة كلها",
+                    "البلد وأهلها"
+                ],
+                "meaning_en": "The soil of Gaza; a metonym for Gaza as homeland, people, memory, and belonging."
+            },
+            "أهلها اللي في غزة": {
+                "variants_ar": [
+                    "أهل غزة",
+                    "أقاربها اللي في غزة",
+                    "أحبتها في غزة"
+                ],
+                "meaning_en": "Her people / relatives who remain in Gaza."
+            },
+            "نادرة ندر": {
+                "variants_ar": [
+                    "نذرت نذراً",
+                    "عاملة نذر",
+                    "ناذرة"
+                ],
+                "meaning_en": "She made a vow."
+            },
+            "حافية": {
+                "variants_ar": [
+                    "حافية القدمين",
+                    "بدون حذاء"
+                ],
+                "meaning_en": "Barefoot; an embodied sign of vow and intense longing."
+            },
+            "هيني": {
+                "variants_ar": [
+                    "ها أنا",
+                    "أنا هنا"
+                ],
+                "meaning_en": "Here I am."
+            },
+            "قاعدة منتظرة": {
+                "variants_ar": [
+                    "ما زلت أنتظر",
+                    "أنتظر منذ مدة"
+                ],
+                "meaning_en": "I am waiting / I have been waiting; ongoing-duration marker."
+            },
+            "بدي أجيبلها": {
+                "variants_ar": [
+                    "أريد أن أحضر لها",
+                    "سأحضر لها"
+                ],
+                "meaning_en": "I want to bring for her."
+            },
+            "أرض غزة": {
+                "variants_ar": [
+                    "تراب غزة",
+                    "الوطن",
+                    "البلد"
+                ],
+                "meaning_en": "The land of Gaza; homeland as a place of affective belonging."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "barefoot_return_homeland_longing_place_based_sumud",
+        "paper_fit_ar": "تصلح Narrative43 كحالة دقيقة لتحليل الصمود بوصفه عودة وجدانية إلى المكان، لا مجرد بقاء جسدي تحت الخطر. الجدة، رغم أنها كانت في مصر للعلاج وكان البقاء هناك أكثر أماناً من الناحية المادية، تنذر أن تعود إلى غزة حافية القدمين حتى «تبل شوقها من تراب غزة وأهلها». هذا التعبير يجعل الشوق عطشاً لا يرويه إلا الوطن، ويجعل «تراب غزة» مجازاً عن غزة كلها: الأرض، الناس، الذاكرة، والانتماء. في إطار SABR، تكشف الرواية عن شكل من الصمود مرتبط بالعودة، الحنين، والارتباط بالأرض: غزة ليست فقط مكان خطر، بل أمان عاطفي وروحي لا يستطيع أهلها الابتعاد عنه طويلاً. وجود الحفيدة المنتظرة بالحذاء يضيف بعداً بين-جيلياً: العودة ليست فعل الجدة وحدها، بل لحظة استقبال عائلية تُعيد وصل المنفى المؤقت بالوطن.",
+        "paper_fit_en": "Narrative43 is a concise but powerful case for analysing sumud as affective return to place, not merely physical survival under danger. Although the grandmother had been in Egypt for treatment and remaining there would be materially safer, she vows to return to Gaza barefoot so that she can 'quench her longing from the soil of Gaza and its people.' The phrase turns longing into thirst and makes 'Gaza's soil' a metonym for Gaza as a whole: land, people, memory, and belonging. Within SABR, the narrative shows resilience through return, homesickness, and attachment to land. Gaza is not only a dangerous place; for its people it remains an emotional and spiritual home that cannot be replaced by external safety. The granddaughter waiting with shoes adds an intergenerational dimension: return becomes a family act of welcome, reconnecting temporary exile with homeland."
+    },
+    "research_notes": {
+        "why_one_span": "The whole utterance forms one integrated meaning-unit: vow, barefoot return, longing for Gaza's soil and people, and the granddaughter waiting with shoes.",
+        "place_based_sumud_note": "This narrative expands SABR's treatment of resilience beyond suffering and survival. It shows return itself as a response strategy: a commitment to Gaza as homeland even when external safety is available.",
+        "barefoot_return_note": "Barefootness should be interpreted as an embodied vow and sign of intense longing, not as poverty or lack of shoes. The granddaughter's shoe-waiting confirms that the barefootness is purposeful and vow-based.",
+        "soil_metonymy_note": "The phrase 'تراب غزة' should not be translated as literal dust only. It functions as a metonym for Gaza's land, people, memory, dignity, and belonging.",
+        "affective_home_note": "The narrative captures the distinction between material safety and emotional safety: Egypt may be safer materially, but Gaza remains the grandmother's emotional home.",
+        "translation_policy": {
+            "تبل شوقها": "Translate as 'quench/satiate her longing', with a note that the Arabic metaphor treats longing as thirst.",
+            "تراب غزة": "Translate as 'Gaza's soil' but gloss as metonymy for homeland, people, memory, and belonging.",
+            "نادرة ندر": "Translate as 'she made a vow'; retain note about nadhr/vow as a serious religious-social commitment.",
+            "حافية": "Translate as 'barefoot' and contextualize as an embodied vow and longing marker.",
+            "أرض غزة": "Translate as 'the land of Gaza' to preserve place-attachment."
+        },
+        "suggested_paper_sentence_en": "Narrative43 demonstrates that Gazan resilience may appear not only as endurance within Gaza but also as the insistence on returning to Gaza: the grandmother's barefoot vow transforms homeland longing into an embodied act of sumud, where the soil of Gaza functions as a metonym for land, people, memory, and emotional safety.",
+        "suggested_paper_sentence_ar": "تُظهر Narrative43 أن الصمود الغزي لا يظهر فقط في البقاء داخل غزة، بل أيضاً في الإصرار على العودة إليها؛ فالنذر بالعودة حافية يحوّل الحنين إلى الوطن إلى فعل جسدي من أفعال الصمود، حيث يصبح «تراب غزة» مجازاً للأرض والناس والذاكرة والأمان العاطفي."
+    },
+    "ethical_note": {
+        "risk_level": "high_sensitivity_minor_speaker_displacement_return_during_war",
+        "notes": [
+            "The speaker is an adolescent girl and should be treated as a vulnerable minor.",
+            "The grandmother is an older adult who travelled for treatment during war; avoid identifying medical-route details.",
+            "No personal names are present, but video imagery could identify both granddaughter and grandmother.",
+            "Do not use faces, voices, exact crossing visuals, or identifiable location cues in public outputs.",
+            "Avoid romanticizing return under danger; analyse the speaker's framing as homeland longing and place-based sumud while acknowledging that the material conditions remain unsafe.",
+            "The barefoot vow should be contextualized as an embodied religious-cultural promise and affective return marker, not as spectacle."
+        ],
+        "recommended_public_version": "pseudonymized_text_only; one-span annotation; generalize age and avoid visual identifiers"
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}

@@ -1,0 +1,886 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative42_Pseudonymized",
+    "source_meta": {
+        "source_id": "Narrative42",
+        "source_type": "public_journalist_video_transcription_with_whisper_timestamps",
+        "source_platform": "public journalist video",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (Jabalia / North Gaza dialectal features, with Beit Lahia-Jabalia mixture)",
+        "location_mentioned": "Jabalia / North Gaza; eastern Gaza lands; yellow-line area mentioned",
+        "reported_context": "An adult father from Jabalia/North Gaza cries while narrating how his young son Majed was killed during famine conditions. According to the testimony, the child had not eaten breakfast and went to collect fuel/fire-starting material so his mother could cook. The father says Majed was directly shot in the neck, with an entry and exit wound, while he had not crossed or approached the yellow line. The testimony presents the yellow line as a declared eastern boundary that civilians could not cross or approach. When bystanders could not evacuate the child under danger and gunfire, the child's brother called their father, the person most likely to risk his life to retrieve him.",
+        "collection_context_ar": "شهادة مصورة عامة ضمن فيديو صحفي يروي فيها أب بالغ من شمال غزة/جباليا وهو يبكي كيف استشهد ابنه ماجد، وهو طفل كان جائعاً ولم يفطر صباحاً. ذهب ماجد أولاً بحثاً عن تكية/طعام، ثم بسبب عدم توفر الطعام المجاني وغلاء الحطب وعدم قدرة الأب على شراء الوقيد، خرج ليجمع البلاستيك أو الحطب أو أي وقيد للنار حتى تطبخ له أمه الطعام. كان معه أخوه، وعندما تعذر على الموجودين إسعافه بسبب الخطر وإطلاق النار، اتصل الأخ بالأب لأنه الوحيد الذي قد يخاطر بحياته لإنقاذ ابنه أو استعادته. ذهب الأب راكضاً وزحف حتى أحضره، ثم حمله وهو مغطى بالدماء إلى ثلاجات الموتى. تؤكد الرواية أن الطفل لم يتجاوز الخط الأصفر ولم يقترب منه، وأن طفولته خلال عامين من الحرب تحولت إلى تعب يومي: تعبئة مياه الشرب من شاحنات التوزيع، تكايا، جمع وقيد، برد، وانقطاع عن التعليم.",
+        "collection_context_en": "A public journalist video testimony in which an adult father from Jabalia/North Gaza cries while recounting how his young son Majed was killed. The child had not eaten breakfast and first sought a free cooked meal; when none was available and the family could not afford firewood, he went to collect plastic, wood, or any material that could be used as fuel so his mother could cook. His brother was with him. When bystanders could not evacuate the child because of danger and gunfire, the brother called their father, the person most likely to risk his life to rescue or retrieve his son. The father ran, crawled forward, brought the child back, and carried him blood-soaked to the morgue refrigerators. The testimony stresses that the child had not crossed or approached the yellow line, described in the source context as an eastern declared boundary civilians could not cross or approach, and that two years of war had replaced childhood with filling drinking water from distribution trucks, takiyas, fuel-gathering, cold, and loss of schooling."
+    },
+    "anonymization": {
+        "is_pseudonymized": true,
+        "strategy": "name_replacement_pool",
+        "contains_real_names": false,
+        "contains_public_figure_name_only": false,
+        "contains_minors": true,
+        "contains_deceased_or_injured_people": true,
+        "notes": "Person names and identifying tokens in this tree are replaced using Gaza_NamePool_v1 with dataset-consistent mappings. Original strings are retained only in Narratives_Transcriptions. Follow Project_Research_Documentation/protocols/mphil_uom_ethics_and_governance.txt for storage, consent scope, and thesis use. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "within_dataset_consistent"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Palestinian/Gazan dialect, North Gaza speech, famine/displacement discourse, child testimony through parental narration, and SABR annotation conventions."
+            }
+        ],
+        "adjudication": {
+            "status": "draft_annotation_ready_for_review",
+            "note": "The user-corrected Arabic transcription is treated as the source of truth. Whisper content is not used for wording and is used only for approximate timestamp mapping. No confidence values are retained."
+        },
+        "alignment_note": "Whisper timestamps are approximate and contain severe lexical errors, especially around the child's name, 'رحل بشربة مية', 'التكية', 'التلاجات', and the final moral question. Segment boundaries are mapped by discourse order only.",
+        "selection_policy": "Segments follow complete meaning-units: death by hunger-related exposure and shooting; failed takiya access and unaffordable fuel; emergency call and retrieval under danger; carrying the bloodied child and yellow-line innocence claim; two years of displaced child labour, cold, lost schooling, and the final moral qahr question.",
+        "revision_note": "Reviewed after user notes on 'يابا', the yellow line, bystander inability to evacuate under danger, and water-filling as a daily drinking-water distribution task. Arabic corrected transcript remains the source of truth; Whisper is used only for approximate timestamps."
+    },
+    "speaker_profile": {
+        "speaker_id": "S1",
+        "gender": "male",
+        "age_estimate": "adult",
+        "origin": "Jabalia / North Gaza",
+        "role_or_status": [
+            "Bereaved father",
+            "Civilian survivor",
+            "Parent narrating the killing of his child",
+            "Displaced family member under famine conditions"
+        ],
+        "delivery_note": "The source note states that the father narrates while crying."
+    },
+    "other_speakers": [
+        {
+            "speaker_id": "S2",
+            "role_or_status": [
+                "Child brother reported indirectly through father's narration"
+            ],
+            "note": "The brother's emergency phone call is embedded in the father's reported speech, not transcribed as a separate directly recorded speaker."
+        }
+    ],
+    "approx_context": {
+        "brief_summary_ar": "أب من جباليا/شمال غزة يروي باكياً استشهاد ابنه الطفل ماجد خلال الحرب والمجاعة. يقول إن ماجد استشهد جائعاً ولم يفطر، وإنه ذهب يبحث عن الطعام أو الوقيد اللازم للطبخ بعد أن لم يجد تكية وبعد أن عجز الأب عن شراء الحطب. كان معه أخوه، وعندما عجز الموجودون عن إسعافه بسبب الخطر وإطلاق النار، اتصل الأخ بأبيه لأن الأب هو الوحيد المستعد للمخاطرة بحياته لإنقاذ ابنه أو استعادته. ذهب الأب راكضاً وزحف حتى أحضره، ثم حمله بيديه وهو مغطى بالدماء إلى ثلاجات الموتى. يشدد الأب على أن ماجد لم يتجاوز الخط الأصفر ولم يقترب منه، وأن حياته خلال عامين من النزوح تحولت إلى تعب بين تعبئة مياه الشرب من شاحنات التوزيع والتكايا وجمع الوقيد والبرد وانقطاع الدراسة، ثم يختم بسؤال قهري متكرر: بأي ذنب؟",
+        "brief_summary_en": "A father from Jabalia/North Gaza cries while recounting the martyrdom of his young son Majed during war and famine. He says the child died hungry and had not eaten breakfast; he had gone to seek food or fuel needed for cooking after no takiya meal was available and the father could not afford firewood. His brother was with him, and when bystanders could not evacuate him because of danger and gunfire, the brother called their father because the father was the only person expected to risk his own life to rescue or retrieve his son. The father ran and crawled forward to retrieve him, then carried him in his own hands, covered in blood, to the morgue refrigerators. He stresses that Majed had not crossed or approached the yellow line and that two years of displacement turned the child's life into labour: filling drinking water from distribution trucks, waiting for takiyas, gathering fuel, enduring cold, and being deprived of schooling. The narrative ends in the repeated moral-qahr question: by what sin?"
+    },
+    "text_ar_full": "ماجد رحل بشربة مية، طلق مدخل مخرج في رقبته، ماجد استشهد جعان، ماجد استشهد الصُبِح ما افطرش عشان بده يفطر راح يجيب الأكل.. راح يجيب الوقيد اللي حيطبخن عليه.\n راح أخد الطنجرة ماجد راح على المندوب قاله لأ فش تكيّة، مش يوم يوم بتيجي، يوم بعد يوم. قلتله يابا في بطاطا..في بطاطا يابا، وفي بيض، إن شاء الله بس بدهن وقيد، يابا بدهن حطب، ومعيش أجيبله حطب، حق الحطب عشرة شيكل، عشرة شيكل حق الحطب معيش أجيب حطب يابا، روح يابا لفلك لفة لِم بلاستيك لِم حطب لِم وقيد للنار..\nكان معاه أخوه التاني، أجاني اتصال، إجاني اتصال يابا من أخوه يابا ماخد جوال ال م..م..جار..م..م..جار.. جوال من حد من الموجودين، قال يابا الحق أخويا تصاوب أكل طلق ومش قادرين نسعفه تعال اسعفه تعال جيبه يابا، رحت بسرعة جراي على ابني لقيت الولد ماكل طلق مدخل ومخرج من رقبته، مرمي في الشارع، شلِحت أواعيا وقدمت وزحفت وجبت ماجد.\n حملته أنا أبوه حملته ع إيديا وهو مغرّق بدمه ووديته ع التلاجات، ماجد متجاوزش الخط الأصفر أنا اللي جبته. ماجد تعب، ماجد شِقِي معانا سنتين. كان طفلاً لما بلشت الحرب. وإلو سنتين في النزوح بين تعبّي المية وبين التكيات وبين لم الوقيد بدون علم بدون دراسة في البرد القارس.. بشكيلي بقولي يابا سقعان.. بقولي يابا سقعان.. بأي دنب يابا؟ بأي دنب يا حبيبي؟ بأي دنب يا قلبي؟",
+    "text_en_full": "Majed left us as easily as a sip of water — for nothing. A bullet entered and exited through his neck. Majed was martyred hungry. Majed was martyred in the morning without having eaten breakfast, because he wanted to eat breakfast; he went to get food... he went to get the fuel they would cook on. Majed went and took the cooking pot; he went to the camp representative. He told him: no, there is no takiya today; it does not come every day, it comes every other day. I told him: my son, there are potatoes... there are potatoes, my son, and there are eggs, Allah willing, but they need fuel. My son, they need firewood, and I do not have money to buy him firewood. The price of firewood is ten shekels. Ten shekels is the price of firewood, and I do not have money to buy firewood, my son. Go, my son, take a round; collect plastic, collect wood, collect fuel for the fire. His other brother was with him. I received a call, I received a call — 'Dad' — from his brother, who had taken a phone from a neighbour, from someone who was there. He said: Dad, come quickly, my brother has been injured; he was shot and we cannot evacuate him. Come evacuate him, come get him, Dad. I ran quickly to my son and found the boy shot, a bullet entering and exiting through his neck, thrown in the street. I took off my clothes, moved forward, crawled, and brought Majed. I carried him — I, his father — I carried him in my hands while he was soaked in his blood, and I took him to the morgue refrigerators. Majed did not cross or approach the yellow line; I am the one who brought him. Majed suffered. Majed struggled with us for two years. He was a child when the war began. For two years in displacement, he was between filling drinking water from distribution trucks, takiyas, and collecting fuel, without education, without study, in the bitter cold. He used to complain to me and say: Dad, I am cold... he would say to me: Dad, I am cold. By what sin, my son? By what sin, my beloved? By what sin, my heart?",
+    "segments": [
+        {
+            "segment_id": "Narrative42_s01",
+            "speaker_id": "S1",
+            "start_time": 0.0,
+            "end_time": 13.92,
+            "text_ar": "ماجد رحل بشربة مية، طلق مدخل مخرج في رقبته، ماجد استشهد جعان، ماجد استشهد الصُبِح ما افطرش عشان بده يفطر راح يجيب الأكل.. راح يجيب الوقيد اللي حيطبخن عليه.",
+            "text_en": "Majed left us as easily as a sip of water — for nothing. A bullet entered and exited through his neck. Majed was martyred hungry. Majed was martyred in the morning without having eaten breakfast, because he wanted to eat breakfast; he went to get food... he went to get the fuel they would cook on.",
+            "event_frame": {
+                "adversity_description": "The father reports that his young son was shot in the neck and died while hungry, before eating breakfast, after going out to obtain food/fuel for cooking.",
+                "response_description": "He frames the death as morally absurd and coldly easy through 'رحل بشربة مية', repeatedly naming the child and emphasizing hunger as the reason he went out."
+            },
+            "sabr_frame": {
+                "sabr_type": "child_hunger_death_as_moral_absurdity",
+                "features": [
+                    "child_martyrdom",
+                    "hunger_before_breakfast",
+                    "direct_gunshot_to_neck",
+                    "entry_exit_wound",
+                    "fuel_for_cooking",
+                    "cold_blooded_ease_phrase",
+                    "repetition_of_child_name"
+                ],
+                "explanation": "The father's response is not acceptance here but moral witnessing: he insists that the child was killed while trying to satisfy the most basic need, food."
+            },
+            "affective_signals": {
+                "dominant_affect": "qahr_and_shattered_paternal_grief",
+                "affect_type": "qahr_and_shattered_paternal_grief",
+                "secondary_affects": [
+                    "shock",
+                    "moral_incomprehension",
+                    "anger_at_injustice",
+                    "protective_sorrow"
+                ],
+                "justification": "The phrase 'رحل بشربة مية' and repetition of 'ماجد استشهد جعان' frame the death as unbearable qahr: a child killed for seeking breakfast."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "رحل بشربة مية",
+                        "note": "In Gazan usage, 'like a sip of water' indicates ease/simplicity; with death, it means he was killed coldly, for nothing, with no meaningful reason."
+                    },
+                    {
+                        "marker": "طلق مدخل مخرج",
+                        "note": "War-time Gazan expression for a bullet that entered and exited the body."
+                    },
+                    {
+                        "marker": "ما افطرش",
+                        "note": "He had not eaten breakfast; Gazan negation with final -sh."
+                    },
+                    {
+                        "marker": "الوقيد",
+                        "note": "Fuel/fire-starting material used for cooking, including wood, plastic, paper, or other burnable materials."
+                    },
+                    {
+                        "marker": "حيطبخن عليه",
+                        "note": "They would cook on it; final -n marks feminine plural in the local phrasing."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "استشهد",
+                        "note": "Martyrdom framing for the child's death."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "استشهد جعان",
+                        "note": "Hunger is not background context but the cause shaping the child's movement into danger."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "ماجد... ماجد... ماجد",
+                        "note": "Name repetition preserves the child's personhood and shows the father's grief fixation."
+                    },
+                    {
+                        "marker": "راح يجيب الأكل.. راح يجيب الوقيد",
+                        "note": "Self-repair from 'food' to 'fuel' clarifies that the child sought the means to cook."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "qahr_and_shattered_paternal_grief",
+                "sabr_type_label": "child_hunger_death_as_moral_absurdity",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": true,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "extreme_sensitivity_child_killing_hunger_famine_bereaved_parent",
+                "contains_real_names": true,
+                "contains_minors": true,
+                "public_safe": false,
+                "note": "Public release should pseudonymize the child and avoid face, voice, exact video identifiers, or sensationalized injury details."
+            }
+        },
+        {
+            "segment_id": "Narrative42_s02",
+            "speaker_id": "S1",
+            "start_time": 19.6,
+            "end_time": 45.4,
+            "text_ar": "راح أخد الطنجرة ماجد راح على المندوب قاله لأ فش تكيّة، مش يوم يوم بتيجي، يوم بعد يوم. قلتله يابا في بطاطا..في بطاطا يابا، وفي بيض، إن شاء الله بس بدهن وقيد، يابا بدهن حطب، ومعيش أجيبله حطب، حق الحطب عشرة شيكل، عشرة شيكل حق الحطب معيش أجيب حطب يابا، روح يابا لفلك لفة لِم بلاستيك لِم حطب لِم وقيد للنار..",
+            "text_en": "Majed went and took the cooking pot; he went to the camp representative. He told him: no, there is no takiya today; it does not come every day, it comes every other day. I told him: my son, there are potatoes... there are potatoes, my son, and there are eggs, Allah willing, but they need fuel. My son, they need firewood, and I do not have money to buy him firewood. The price of firewood is ten shekels. Ten shekels is the price of firewood, and I do not have money to buy firewood, my son. Go, my son, take a round; collect plastic, collect wood, collect fuel for the fire.",
+            "event_frame": {
+                "adversity_description": "Food insecurity is compounded by the absence of a daily takiya meal, inability to afford firewood, lack of cooking gas, and dependence on scavenged fuel.",
+                "response_description": "The father reconstructs the impossible household calculus: there is some food to cook, but no fuel and no money, so he tenderly tells his son to search for burnable material."
+            },
+            "sabr_frame": {
+                "sabr_type": "famine_household_calculus_and_child_fuel_gathering",
+                "features": [
+                    "takiya_dependency",
+                    "no_daily_food_distribution",
+                    "unaffordable_firewood",
+                    "absence_of_cooking_gas",
+                    "child_sent_to_collect_fuel",
+                    "potatoes_and_eggs_need_fuel",
+                    "survival_labour",
+                    "tender_yaba_address_from_father_to_son"
+                ],
+                "explanation": "The span shows how famine transforms ordinary cooking into a chain of risk: food exists but cannot be prepared without fuel, and the child becomes part of the survival infrastructure. The repeated 'يابا' from father to son functions as an affectionate, helpless 'my son' rather than a literal 'Dad'."
+            },
+            "affective_signals": {
+                "dominant_affect": "desperate_provider_guilt",
+                "affect_type": "desperate_provider_guilt",
+                "secondary_affects": [
+                    "helplessness",
+                    "poverty_shame",
+                    "protective_care",
+                    "survival_urgency"
+                ],
+                "justification": "The repeated 'معيش أجيب حطب' and affectionate 'يابا' from father to son show paternal care under deprivation and a painful inability to provide the fuel needed for cooking."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "الطنجرة",
+                        "note": "Cooking pot; material sign of waiting for distributed cooked food or preparing food."
+                    },
+                    {
+                        "marker": "المندوب",
+                        "note": "Camp/shelter/displacement-site representative responsible for distribution or local aid coordination."
+                    },
+                    {
+                        "marker": "فش تكية",
+                        "note": "There is no takiya/free cooked meal today."
+                    },
+                    {
+                        "marker": "مش يوم يوم",
+                        "note": "Not every day; indicates irregular distribution."
+                    },
+                    {
+                        "marker": "بدهن وقيد / بدهن حطب",
+                        "note": "They need fuel/firewood; feminine plural suffix refers to the food items needing fuel to be cooked."
+                    },
+                    {
+                        "marker": "معيش أجيبله حطب",
+                        "note": "I do not have money to buy him firewood."
+                    },
+                    {
+                        "marker": "لفلك لفة",
+                        "note": "Go take a round/look around; colloquial instruction to search."
+                    },
+                    {
+                        "marker": "لِم",
+                        "note": "Collect/gather."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "إن شاء الله",
+                        "note": "Allah willing; a small faith marker embedded in household survival planning."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "تكية",
+                        "note": "Historically a charitable food-provision term; in Gaza during the war it became a common name for free cooked meals distributed to displaced/hungry people."
+                    },
+                    {
+                        "marker": "حق الحطب عشرة شيكل",
+                        "note": "The price of wood becomes a famine marker; even cooking fuel is unaffordable."
+                    },
+                    {
+                        "marker": "لِم بلاستيك / لِم حطب / لِم وقيد",
+                        "note": "Scavenging burnable material as a survival practice when gas and fuel are unavailable."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "في بطاطا.. في بطاطا",
+                        "note": "Repetition shows the father trying to reassure the child that food exists despite lack of fuel."
+                    },
+                    {
+                        "marker": "عشرة شيكل، عشرة شيكل",
+                        "note": "Cost repetition emphasizes how a small amount becomes impossible under war poverty."
+                    },
+                    {
+                        "marker": "يا بابا",
+                        "note": "Here the father addresses his son with 'يابا/يا بابا', meaning 'my son / my dear son' in affectionate Gazan usage. The meaning changes by speaker direction: from child to father it means 'Dad'; from father to child it means 'my son'."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "desperate_provider_guilt",
+                "sabr_type_label": "famine_household_calculus_and_child_fuel_gathering",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": true,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "extreme_sensitivity_child_hunger_famine_bereaved_parent",
+                "contains_real_names": true,
+                "contains_minors": true,
+                "public_safe": false,
+                "note": "Avoid treating the father's instruction as blame; the segment documents structural famine and impossible survival choices."
+            }
+        },
+        {
+            "segment_id": "Narrative42_s03",
+            "speaker_id": "S1",
+            "start_time": 50.98,
+            "end_time": 82.04,
+            "text_ar": "كان معاه أخوه التاني، أجاني اتصال، إجاني اتصال يابا من أخوه يابا ماخد جوال ال م..م..جار..م..م..جار.. جوال من حد من الموجودين، قال يابا الحق أخويا تصاوب أكل طلق ومش قادرين نسعفه تعال اسعفه تعال جيبه يابا، رحت بسرعة جراي على ابني لقيت الولد ماكل طلق مدخل ومخرج من رقبته، مرمي في الشارع، شلِحت أواعيا وقدمت وزحفت وجبت ماجد.",
+            "text_en": "His other brother was with him. I received a call, I received a call — 'Dad' — from his brother, who had taken a phone from a neighbour, from someone who was there. He said: Dad, come quickly, my brother has been injured; he was shot and we cannot evacuate him. Come evacuate him, come get him, Dad. I ran quickly to my son and found the boy shot, a bullet entering and exiting through his neck, thrown in the street. I took off my clothes, moved forward, crawled, and brought Majed.",
+            "event_frame": {
+                "adversity_description": "The child is shot and left in the street; those present cannot evacuate him because of danger, ongoing fire, and limited ability to risk their lives for someone outside their immediate family.",
+                "response_description": "The child's brother calls their father because the father is the one most expected to risk his own life for his son; the father responds immediately, running and crawling forward to retrieve Majed himself."
+            },
+            "sabr_frame": {
+                "sabr_type": "paternal_body_risk_to_retrieve_shot_child",
+                "features": [
+                    "emergency_phone_call",
+                    "brother_witness",
+                    "shot_child",
+                    "unable_to_evacuate",
+                    "father_runs",
+                    "father_crawls",
+                    "retrieval_under_danger",
+                    "brother_calls_father",
+                    "bystanders_unable_to_risk_lives",
+                    "father_as_extreme_rescue_risk_taker",
+                    "active_danger_context"
+                ],
+                "explanation": "The father's response is embodied and immediate: he physically enters danger, sheds clothing, advances, crawls, and retrieves the child. The call from the child's brother shows a social boundary of risk: bystanders may help as much as they can, but under live danger the father becomes the person most willing to sacrifice himself for the child."
+            },
+            "affective_signals": {
+                "dominant_affect": "panic_driven_paternal_rescue_under_active_danger",
+                "affect_type": "panic_driven_paternal_rescue_under_active_danger",
+                "secondary_affects": [
+                    "terror",
+                    "protective_urgency",
+                    "shock",
+                    "desperation"
+                ],
+                "justification": "The repeated 'أجاني اتصال', urgent reported speech 'الحق', inability phrase 'مش قادرين نسعفه', and action sequence 'جراي... زحفت... وجبت' show panic transformed into a father's rescue action under danger."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "أجاني اتصال",
+                        "note": "I received a call; repeated to mark the shock of sudden news."
+                    },
+                    {
+                        "marker": "يا بابا إلحق",
+                        "note": "Here the son/brother addresses the father: 'Dad, come quickly/right now.' In Gazan usage, 'يابا' means Dad when a child speaks to his father, but can mean 'my son' when a father addresses his child."
+                    },
+                    {
+                        "marker": "تصاوب",
+                        "note": "He was injured."
+                    },
+                    {
+                        "marker": "أكل طلق / ماكل طلق",
+                        "note": "He got shot; in Gaza Arabic 'اكل' can mark being hit/struck by a bullet, missile, or blow."
+                    },
+                    {
+                        "marker": "مش قادرين نسعفه",
+                        "note": "We cannot evacuate/rescue/transport him for aid. In this context, the inability is shaped by danger and ongoing fire; bystanders cannot risk what a father may risk for his son."
+                    },
+                    {
+                        "marker": "جراي",
+                        "note": "Running."
+                    },
+                    {
+                        "marker": "شلِحت أواعيا",
+                        "note": "I took off my clothes; pronounced with kasra in this dialectal context, with user note that other Gazan dialects may say شَلَحِت."
+                    }
+                ],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "مرمي في الشارع",
+                        "note": "Thrown/lying in the street; indicates abandonment and danger around the body."
+                    },
+                    {
+                        "marker": "قدمت وزحفت",
+                        "note": "Moving forward and crawling suggests danger of being exposed while trying to retrieve the child."
+                    },
+                    {
+                        "marker": "الأب كآخر من يخاطر لأجل الابن",
+                        "note": "The brother's call reflects a social and emotional reality: under active danger, bystanders may be unable to risk their lives, while the father is expected to make the extreme sacrifice to retrieve or save his child."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "أجاني اتصال، أجاني اتصال",
+                        "note": "Repetition conveys shock and re-entry into the moment of receiving the news."
+                    },
+                    {
+                        "marker": "تعال اسعفه تعال جيبه",
+                        "note": "Repeated imperative sequence conveys inability of bystanders and urgent appeal to the father."
+                    },
+                    {
+                        "marker": "م..م..جار",
+                        "note": "Stutter/self-repair while reconstructing whose phone was used, showing emotional strain."
+                    },
+                    {
+                        "marker": "يا بابا... تعال اسعفه تعال جيبه",
+                        "note": "The child's brother frames the father as the only remaining possible rescuer after those present cannot evacuate Majed."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "panic_driven_paternal_rescue_under_active_danger",
+                "sabr_type_label": "paternal_body_risk_to_retrieve_shot_child",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": false,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "extreme_sensitivity_child_killing_bereaved_parent_body_retrieval",
+                "contains_real_names": true,
+                "contains_minors": true,
+                "public_safe": false,
+                "note": "Do not sensationalize the injury or retrieval; analysis should focus on embodied parental rescue under danger."
+            }
+        },
+        {
+            "segment_id": "Narrative42_s04",
+            "speaker_id": "S1",
+            "start_time": 85.64,
+            "end_time": 95.84,
+            "text_ar": "حملته أنا أبوه حملته ع إيديا وهو مغرّق بدمه ووديته ع التلاجات، ماجد متجاوزش الخط الأصفر أنا اللي جبته.",
+            "text_en": "I carried him — I, his father — I carried him in my hands while he was soaked in his blood, and I took him to the morgue refrigerators. Majed did not cross or approach the yellow line; I am the one who brought him.",
+            "event_frame": {
+                "adversity_description": "The father carries his blood-soaked child to the morgue and asserts that the child had not crossed or approached the yellow line.",
+                "response_description": "He foregrounds his role as father and witness, using the retrieval of the body as proof that the child remained outside the prohibited boundary and was not a threat."
+            },
+            "sabr_frame": {
+                "sabr_type": "father_as_witness_to_child_innocence_and_body_retrieval",
+                "features": [
+                    "father_carries_child",
+                    "blood_soaked_body",
+                    "morgue_refrigerators",
+                    "yellow_line_not_crossed",
+                    "witness_claim",
+                    "child_innocence",
+                    "yellow_line_not_approached",
+                    "declared_eastern_boundary_context"
+                ],
+                "explanation": "The father combines grief with testimony: carrying the child becomes both a final paternal act and evidentiary proof against any justification for the killing. The yellow line functions in the testimony as a declared prohibited eastern boundary, and the father stresses that Majed neither crossed nor approached it."
+            },
+            "affective_signals": {
+                "dominant_affect": "moral_witnessing_through_bereaved_fatherhood",
+                "affect_type": "moral_witnessing_through_bereaved_fatherhood",
+                "secondary_affects": [
+                    "grief",
+                    "protective_defence",
+                    "shock",
+                    "outrage"
+                ],
+                "justification": "The phrase 'أنا أبوه', the insistence 'أنا اللي جبته', and the denial that Majed crossed or approached the yellow line make fatherhood itself the basis of witness, grief, and moral defence."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "ع إيديا",
+                        "note": "In my hands; colloquial form."
+                    },
+                    {
+                        "marker": "مغرّق بدمه",
+                        "note": "Soaked/covered in his blood."
+                    },
+                    {
+                        "marker": "التلاجات",
+                        "note": "Hospital morgue refrigerators."
+                    },
+                    {
+                        "marker": "متجاوزش",
+                        "note": "He did not cross; negation with final -sh."
+                    }
+                ],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "أنا أبوه",
+                        "note": "Fatherhood as moral authority and witness."
+                    },
+                    {
+                        "marker": "الخط الأصفر",
+                        "note": "According to the source context, the yellow line is a declared boundary running through eastern Gaza, dividing the Strip lengthwise; civilians were told not to cross or approach it, and the father stresses that Majed did neither."
+                    },
+                    {
+                        "marker": "أنا اللي جبته",
+                        "note": "The father presents his retrieval as direct evidence of the child's location."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "حملته... حملته",
+                        "note": "Repetition intensifies the embodied burden of carrying the dead child."
+                    },
+                    {
+                        "marker": "ماجد متجاوزش الخط الأصفر",
+                        "note": "Negated claim functions as moral/legal defence: the child did not cross or approach the declared boundary."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "moral_witnessing_through_bereaved_fatherhood",
+                "sabr_type_label": "father_as_witness_to_child_innocence_and_body_retrieval",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": false,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "extreme_sensitivity_child_killing_blood_body_retrieval",
+                "contains_real_names": true,
+                "contains_minors": true,
+                "public_safe": false,
+                "note": "Public outputs should avoid graphic visual material and minimize injury detail unless analytically essential."
+            },
+            "response_description": ""
+        },
+        {
+            "segment_id": "Narrative42_s05",
+            "speaker_id": "S1",
+            "start_time": 95.84,
+            "end_time": 126.42,
+            "text_ar": "ماجد تعب، ماجد شِقِي معانا سنتين. كان طفلاً لما بلشت الحرب. وإلو سنتين في النزوح بين تعبّي المية وبين التكيات وبين لم الوقيد بدون علم بدون دراسة في البرد القارس.. بشكيلي بقولي يابا سقعان.. بقولي يابا سقعان.. بأي دنب يابا؟ بأي دنب يا حبيبي؟ بأي دنب يا قلبي؟",
+            "text_en": "Majed suffered. Majed struggled with us for two years. He was a child when the war began. For two years in displacement, he was between filling drinking water from distribution trucks, takiyas, and collecting fuel, without education, without study, in the bitter cold. He used to complain to me and say: Dad, I am cold... he would say to me: Dad, I am cold. By what sin, my son? By what sin, my beloved? By what sin, my heart?",
+            "event_frame": {
+                "adversity_description": "The child's two years of war and displacement are described as stolen childhood: filling drinking water from distribution trucks, takiya queues, fuel-gathering, no schooling, and exposure to bitter cold.",
+                "response_description": "The father turns the child's suffering into moral testimony, ending with the repeated question 'by what sin?' and affectionate address to the dead child."
+            },
+            "sabr_frame": {
+                "sabr_type": "stolen_childhood_and_moral_qahr_question",
+                "features": [
+                    "child_suffering",
+                    "two_years_of_displacement",
+                    "drinking_water_distribution_trucks",
+                    "takiya_dependency",
+                    "fuel_gathering",
+                    "no_schooling",
+                    "bitter_cold",
+                    "by_what_sin_refrain",
+                    "affectionate_address_to_dead_child",
+                    "water_filling_daily_task"
+                ],
+                "explanation": "This span transforms the child's daily survival labour into evidence of stolen childhood. Filling drinking water from distribution trucks, takiya queues, and fuel-gathering replace school, warmth, and play. The final refrain is qahr: a moral question that cannot be answered within ordinary language."
+            },
+            "affective_signals": {
+                "dominant_affect": "moral_qahr_and_paternal_devastation",
+                "affect_type": "moral_qahr_and_paternal_devastation",
+                "secondary_affects": [
+                    "helpless_love",
+                    "sorrow",
+                    "rage_at_injustice",
+                    "guilt",
+                    "bereaved_tenderness"
+                ],
+                "justification": "The repeated 'بأي دنب' and affectionate vocatives 'يا حبيبي / يا قلبي' turn grief into a culturally grounded moral protest against the killing of a child who had only known hardship."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "تعب / شِقِي",
+                        "note": "In colloquial speech here, these are terms of appreciation and recognition of how much the child struggled and helped the family."
+                    },
+                    {
+                        "marker": "بلشت الحرب",
+                        "note": "The war began; colloquial verb."
+                    },
+                    {
+                        "marker": "إلو سنتين",
+                        "note": "He had been / it had been two years for him."
+                    },
+                    {
+                        "marker": "تعبّي المية",
+                        "note": "Filling/carrying drinking water, usually from water-distribution trucks; a daily survival task for Gaza families across ages and genders."
+                    },
+                    {
+                        "marker": "لم الوقيد",
+                        "note": "Collecting fuel/fire-starting materials."
+                    },
+                    {
+                        "marker": "بشكيلي / بقولي",
+                        "note": "He complains/tells me."
+                    },
+                    {
+                        "marker": "سقعان",
+                        "note": "Cold/freezing; North Gaza/Gazan colloquial for بردان."
+                    },
+                    {
+                        "marker": "بأي دنب",
+                        "note": "By what sin; dialectal softening of ذنب to دنب."
+                    }
+                ],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "بدون علم بدون دراسة",
+                        "note": "The absence of education marks the inversion of what childhood should be."
+                    },
+                    {
+                        "marker": "بين تعبّي المية وبين التكيات وبين لم الوقيد",
+                        "note": "Sequence of survival tasks replacing school and ordinary childhood: filling drinking water from distribution trucks, waiting for food distribution, and gathering cooking fuel."
+                    },
+                    {
+                        "marker": "يا حبيبي / يا قلبي",
+                        "note": "Affectionate address to the child, preserving tenderness inside the moral protest."
+                    },
+                    {
+                        "marker": "بأي دنب",
+                        "note": "A Qur'anic-style moral question echoing the innocence of a child killed without wrongdoing; culturally it functions as qahr and accusation of injustice."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "ماجد تعب، ماجد شقي",
+                        "note": "Name repetition plus paired verbs honour the child's effort and suffering."
+                    },
+                    {
+                        "marker": "بين... وبين... وبين",
+                        "note": "Parallel structure accumulates the child's displaced survival burdens."
+                    },
+                    {
+                        "marker": "بقولي يابا سقعان.. بقولي يابا سقعان",
+                        "note": "Repeated memory of the child's complaint intensifies paternal helplessness."
+                    },
+                    {
+                        "marker": "بأي دنب... بأي دنب... بأي دنب",
+                        "note": "Refrain of moral qahr: a repeated accusation in question form."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "moral_qahr_and_paternal_devastation",
+                "sabr_type_label": "stolen_childhood_and_moral_qahr_question",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": false,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "extreme_sensitivity_child_killing_stolen_childhood_bereaved_parent",
+                "contains_real_names": true,
+                "contains_minors": true,
+                "public_safe": false,
+                "note": "Do not infer clinical diagnosis. Analyse the father's crying and repeated questions as grief/qahr discourse and moral witnessing."
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "رحل بشربة مية": {
+                "variants_ar": [
+                    "رحل بلا سبب",
+                    "قُتل بسهولة وببرود",
+                    "مات ببلاش"
+                ],
+                "meaning_en": "He was killed as easily as a sip of water; coldly, for nothing, without a clear reason."
+            },
+            "طلق مدخل مخرج": {
+                "variants_ar": [
+                    "رصاصة دخلت وخرجت",
+                    "إصابة دخول وخروج"
+                ],
+                "meaning_en": "A bullet entered and exited the body."
+            },
+            "ما افطرش / مفطرش": {
+                "variants_ar": [
+                    "لم يفطر",
+                    "لم يأكل فطوره"
+                ],
+                "meaning_en": "He had not eaten breakfast."
+            },
+            "الوقيد": {
+                "variants_ar": [
+                    "حطب",
+                    "ما توقد به النار",
+                    "مواد قابلة للاشتعال للطبخ"
+                ],
+                "meaning_en": "Fuel/fire-starting material used for cooking."
+            },
+            "حيطبخن عليه": {
+                "variants_ar": [
+                    "سيطبخن عليه",
+                    "ستطبخ عليه النساء/العائلة"
+                ],
+                "meaning_en": "They would cook on it; the final -n is a feminine plural marker."
+            },
+            "الطنجرة": {
+                "variants_ar": [
+                    "وعاء الطبخ",
+                    "قدر الطبخ"
+                ],
+                "meaning_en": "Cooking pot."
+            },
+            "المندوب": {
+                "variants_ar": [
+                    "مسؤول مركز الإيواء",
+                    "مندوب المخيم",
+                    "مسؤول التوزيع"
+                ],
+                "meaning_en": "The shelter/camp representative or distribution coordinator."
+            },
+            "تكيّة": {
+                "variants_ar": [
+                    "طعام مجاني مطبوخ",
+                    "وجبة خيرية",
+                    "تكية إغاثية"
+                ],
+                "meaning_en": "Free cooked meal/charitable food distribution; a term revived in Gaza during the war because of hunger and displacement."
+            },
+            "مش يوم يوم": {
+                "variants_ar": [
+                    "ليست يومية",
+                    "مش كل يوم"
+                ],
+                "meaning_en": "Not every day / not daily."
+            },
+            "حق الحطب عشرة شيكل": {
+                "variants_ar": [
+                    "سعر الحطب عشرة شواكل",
+                    "ثمن الحطب عشرة شيكل"
+                ],
+                "meaning_en": "The price of firewood was ten shekels, beyond the family's means."
+            },
+            "معيش أجيب": {
+                "variants_ar": [
+                    "لا أملك مالاً لأشتري",
+                    "ليس معي ما أشتري به"
+                ],
+                "meaning_en": "I do not have money to buy it."
+            },
+            "لفلك لفة": {
+                "variants_ar": [
+                    "اذهب وابحث",
+                    "خدلك لفة",
+                    "اعمل جولة"
+                ],
+                "meaning_en": "Go around/search for something."
+            },
+            "لِم": {
+                "variants_ar": [
+                    "اجمع",
+                    "لمّ"
+                ],
+                "meaning_en": "Collect/gather."
+            },
+            "أكل طلق": {
+                "variants_ar": [
+                    "أصابته رصاصة",
+                    "انضرب برصاصة"
+                ],
+                "meaning_en": "He got shot; literally 'ate a bullet' in colloquial Gazan usage."
+            },
+            "يا بابا إلحق": {
+                "variants_ar": [
+                    "يا أبي إلحق",
+                    "تعال فوراً",
+                    "أسرع بالحضور"
+                ],
+                "meaning_en": "Dad, come quickly/right now. Here it is the child/brother addressing the father."
+            },
+            "مش قادرين نسعفه": {
+                "variants_ar": [
+                    "لا نستطيع إسعافه",
+                    "لا نستطيع نقله/إخلاءه"
+                ],
+                "meaning_en": "We cannot evacuate/rescue/transport him for medical help."
+            },
+            "شلِحت أواعيا": {
+                "variants_ar": [
+                    "خلعت ملابسي",
+                    "شلحت أواعيي"
+                ],
+                "meaning_en": "I took off my clothes; in this Jabalia/North Gaza pronunciation, the vowel is closer to kasra."
+            },
+            "مغرّق بدمه": {
+                "variants_ar": [
+                    "مغطى بالدم",
+                    "غرقان بدمه"
+                ],
+                "meaning_en": "Covered/soaked in his blood."
+            },
+            "التلاجات": {
+                "variants_ar": [
+                    "ثلاجات الموتى",
+                    "ثلاجات المستشفى"
+                ],
+                "meaning_en": "Morgue refrigerators where dead bodies are stored after death and before burial."
+            },
+            "الخط الأصفر": {
+                "variants_ar": [
+                    "الحد/الخط المعلن",
+                    "خط لا يجوز تجاوزه أو الاقتراب منه بحسب الرواية",
+                    "الحد الشرقي المعلن"
+                ],
+                "meaning_en": "The yellow line/boundary mentioned by the speaker; source context describes it as a declared eastern line dividing Gaza lengthwise, which civilians were told not to cross or approach."
+            },
+            "تعب معانا / شقي معانا": {
+                "variants_ar": [
+                    "تعب وساعدنا",
+                    "غلب معنا",
+                    "تحمل معنا"
+                ],
+                "meaning_en": "He struggled with us/helped us through hardship; an appreciative acknowledgement of effort."
+            },
+            "تعبّي المية": {
+                "variants_ar": [
+                    "تعبئة المياه",
+                    "جلب مياه الشرب",
+                    "تعبئة الماء من شاحنات التوزيع"
+                ],
+                "meaning_en": "Filling/carrying drinking water from distribution trucks; a daily survival task in Gaza during displacement."
+            },
+            "سقعان": {
+                "variants_ar": [
+                    "بردان",
+                    "يشعر بالبرد الشديد"
+                ],
+                "meaning_en": "Cold/freezing."
+            },
+            "بأي دنب": {
+                "variants_ar": [
+                    "بأي ذنب",
+                    "لماذا قُتل؟",
+                    "ما ذنبه؟"
+                ],
+                "meaning_en": "By what sin? A moral-qahr question marking child innocence and injustice."
+            },
+            "يابا / يا بابا": {
+                "variants_ar": [
+                    "يا أبي",
+                    "يا بابا",
+                    "يا ابني",
+                    "يا بُني"
+                ],
+                "meaning_en": "Context-dependent affectionate address. From son/child to father it means 'Dad/father'. From father to son it means 'my son/my dear son'. Gazan dialects vary in exact form and usage."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "child_hunger_fuel_gathering_yellow_line_qahr_stolen_childhood",
+        "paper_fit_ar": "تمثل Narrative42 حالة شديدة الأهمية لتحليل تقاطع الجوع مع الطفولة المسروقة والقهر الأخلاقي في غزة. الطفل لا يُقتل أثناء فعل قتالي أو تهديدي، بل أثناء محاولة الحصول على أبسط شروط الأكل: وجبة أو وقيد للنار حتى تطبخ الأسرة بطاطا وبيضاً. لذلك تصبح كلمات مثل «التكية»، «الوقيد»، «حق الحطب عشرة شيكل»، و«معيش أجيبله حطب» مفاتيح لفهم كيف حوّلت المجاعة الطبخ نفسه إلى مخاطرة قاتلة. تعبير «رحل بشربة مية» يلخص قسوة الموت العبثي والقتل البارد، بينما تكرار اسم «ماجد» يحافظ على شخصنة الطفل ضد الاختزال إلى رقم. كذلك تكشف الرواية عن حدود النجدة تحت الخطر: عندما عجز الموجودون عن إسعافه بسبب الخطر وإطلاق النار، اتصل أخوه بالأب لأنه الوحيد الذي قد يخاطر بحياته لإنقاذ ابنه أو استعادته. ويصبح تأكيد الأب أن ماجد لم يتجاوز الخط الأصفر ولم يقترب منه جزءاً من دفاع أخلاقي وقانوني عن براءة الطفل. في نهاية الرواية، يتحول السرد من واقعة القتل إلى سرد طفولة مسروقة: سنتان من تعبئة مياه الشرب من شاحنات التوزيع، والتكايا، وجمع الوقيد، بلا علم ولا دراسة، وفي البرد القارس. السؤال المتكرر «بأي دنب؟» يمثل qahr مركزياً: ليس غضباً فقط، بل ألم أخلاقي عاجز أمام قتل طفل كان جائعاً وبارداً ويبحث عن طعام.",
+        "paper_fit_en": "Narrative42 is a highly important case for analysing the intersection of hunger, stolen childhood, and moral qahr in Gaza. The child is not killed while performing any combatant or threatening act; he is killed while seeking the basic conditions of eating: a meal or fuel for the fire so the family can cook potatoes and eggs. Terms such as 'takiya', 'fuel', 'the price of firewood is ten shekels', and 'I do not have money to buy firewood' become key to understanding how famine turns cooking itself into lethal risk. The expression 'he left as easily as a sip of water' captures the cruelty of cold, meaningless death, while the repeated name 'Majed' preserves the child's personhood against reduction to a statistic. The narrative also reveals the limits of rescue under danger: when those present could not evacuate him because of danger and gunfire, his brother called their father, the person most likely to risk his life to save or retrieve his child. The father's insistence that Majed neither crossed nor approached the yellow line functions as a moral/legal defence of the child's innocence. By the end, the narrative shifts from the killing itself to a stolen childhood: two years of filling drinking water from distribution trucks, takiya queues, fuel-gathering, no schooling, and bitter cold. The repeated question 'by what sin?' is a central qahr marker: not merely anger, but helpless moral pain before the killing of a child who was hungry, cold, and searching for food."
+    },
+    "research_notes": {
+        "source_safety_note": "The source is treated as a public journalist video for research safety, but public visibility does not remove obligations to pseudonymize minors and avoid identifiable visual/audio materials.",
+        "qahr_note": "The final refrain 'بأي دنب؟' should be annotated as qahr: a culturally grounded affective signal combining moral injury, helpless anger, grief, and the pain of an injustice that cannot be answered. It should not be flattened to anger alone.",
+        "childhood_note": "The narrative contrasts what childhood should involve—education, warmth, food, parental protection—with what wartime displacement imposes: water collection, food distribution queues, fuel gathering, cold, and hunger.",
+        "famine_cooking_note": "This testimony shows that hunger is not only lack of food; it includes lack of fuel, unaffordable firewood, irregular takiya distribution, and the dangerous labour required to make food cookable.",
+        "yellow_line_note": "In the testimony, the yellow line functions as a moral/legal innocence frame. The source context describes it as a declared eastern line dividing Gaza lengthwise; civilians were told not to cross or approach it, and the father insists Majed did not cross or approach it. The annotation should preserve this as the father's evidentiary claim.",
+        "translation_policy": {
+            "qahr": "Retain 'qahr' where analytically important; gloss as helpless moral pain, crushed anger, and grief under injustice.",
+            "takiya": "Retain as 'takiya' with explanation: free cooked food distribution/charitable meal provision in wartime Gaza.",
+            "waqid": "Translate as fuel/fire-starting material; explain that it may include wood, plastic, paper, or any burnable material used due to lack of gas.",
+            "بأي دنب": "Translate as 'by what sin?' rather than only 'why', because it carries moral innocence and accountability.",
+            "يابا": "Translate according to speaker direction: child-to-father = 'Dad'; father-to-child = 'my son/my dear son'.",
+            "yellow_line": "Translate as 'yellow line' with a note that the father treats it as a declared prohibited boundary that the child did not cross or approach.",
+            "تعبّي المية": "Translate as 'filling drinking water from distribution trucks', not merely 'filling water'."
+        },
+        "yaba_address_note": "The meaning of 'يابا/يا بابا' depends on speaker direction. When a son or child speaks to his father, it means 'Dad/father'. When a father addresses his son, it means 'my son/my dear son'. This is an affectionate, relational Gazan address, and different Gaza dialects use different forms.",
+        "paternal_risk_note": "The call from Majed's brother is important: once those present could not evacuate the wounded child because of danger and gunfire, the brother called their father. The narrative implies that bystanders may help within limits, but the father is the person most likely to risk his life to save or retrieve his child.",
+        "water_distribution_note": "تعبئة المياه refers to filling drinking water from distribution trucks, a daily task for Gaza families across ages and genders. In this narrative it is part of the stolen-childhood sequence alongside takiyas and fuel-gathering."
+    },
+    "ethical_note": {
+        "risk_level": "extreme_sensitivity_child_killing_hunger_famine_bereaved_parent_graphic_injury",
+        "notes": [
+            "The narrative includes a deceased child, hunger/famine, a gunshot injury to the neck, blood, body retrieval, morgue refrigerators, parental crying, and a named minor.",
+            "Public outputs should pseudonymize the child and father/family details unless rights and safety have been reviewed.",
+            "Do not use the video still, face, voice, or exact identifiers in public materials.",
+            "Avoid blaming the father for sending the child to gather fuel; the annotation should foreground structural famine, unaffordable fuel, lack of gas, and impossible survival choices.",
+            "Avoid sensationalizing graphic injury details; mention them only where analytically necessary for the father's moral testimony.",
+            "No clinical diagnosis should be inferred from crying, repetition, or grief. Annotation focuses on discourse, adversity, response strategy, contextual markers, and affective signal.",
+            "The phrase 'بأي دنب' should be treated as a moral-qahr question and a child-innocence frame.",
+            "The brother's emergency call should not be read as abandonment by bystanders; it reflects active danger and the extreme degree of risk a father may take for his child.",
+            "The yellow-line claim should be presented as the father's evidentiary framing in the testimony: Majed did not cross or approach the declared boundary."
+        ],
+        "recommended_public_version": "pseudonymized_text_only; generalize names and exact child age; remove video identifiers; retain dialectal markers with explanatory glosses"
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}
