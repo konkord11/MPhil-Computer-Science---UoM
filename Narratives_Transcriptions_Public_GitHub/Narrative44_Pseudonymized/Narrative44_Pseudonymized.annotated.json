@@ -8,9 +8,9 @@
         "original_language": "ar",
         "dialect": "Palestinian Arabic (Rafah / Rafah Bedouin-influenced dialectal features)",
         "location_mentioned": "Rafah, Gaza Strip",
-        "reported_context": "A child/adolescent from Rafah recounts the targeting of his family home shortly after the attack, while in hospital at night. He describes being asleep, waking to find himself half outside and half inside the destroyed house, fearing the scene of destruction and bodies, being rescued by neighbours, and later identifying the bodies of family members. One sister remains missing and her fate is unknown.",
+        "reported_context": "A child/adolescent from Rafah recounts the targeting of his family home shortly after the attack, while in hospital at night. He describes being asleep, waking to find himself half outside and half inside the destroyed house, fearing the scene of destruction and bodies, being rescued by neighbours, and later identifying family bodies. One sister remains missing and her fate is unknown.",
         "collection_context_ar": "شهادة مصورة عامة لطفل/يافع من رفح بعد استهداف منزل عائلته مباشرة. يروي بذاكرة صورية متقطعة أنه نام بأمر من أمه، ثم استيقظ ليجد نصف جسده خارج المنزل ونصفه داخله على حافة مكان خطير، فصرخ خوفاً من المنظر حتى أنقذه الجيران. بعد ذلك ذهب إلى المستشفى وتعرّف على جثامين أهله، ويذكر أن أمه وأباه وعدداً من إخوته وأخواته استشهدوا، بينما بقيت إحدى أخواته مفقودة ولا يعرف مصيرها.",
-        "collection_context_en": "A public journalist video testimony by a child/adolescent from Rafah shortly after the family home was targeted. He narrates in a fragmented visual sequence: his mother told him to sleep, he woke to find himself half outside and half inside the damaged house, cried out in fear of the scene, was rescued by neighbours, and then went to the hospital where he identified the bodies of his family members. He says his mother, father, siblings, and one brother were martyred, while one sister remains missing and her fate is unknown."
+        "collection_context_en": "A public journalist video testimony by a child/adolescent from Rafah shortly after the family home was targeted. He narrates in a fragmented visual sequence: his mother told him to sleep, he woke to find himself half outside and half inside the damaged house, cried out in fear of the scene, was rescued by neighbours, and then went to the hospital where he identified family bodies. He says his mother, father, several sisters, and brother were martyred, while one sister remains missing and her fate is unknown."
     },
     "anonymization": {
         "is_pseudonymized": false,
@@ -36,7 +36,8 @@
             "note": "The user-corrected Arabic transcription is treated as the source of truth. Whisper content is used only for approximate timestamp mapping."
         },
         "alignment_note": "Whisper timestamps are approximate and contain many lexical errors due to dialect and audio conditions. The repeated ASR phrase after the final meaning-unit is treated as a transcription glitch and is not used as spoken content.",
-        "selection_policy": "Segments follow complete meaning-units: sudden awakening and trapped survival; precarious rubble and neighbour rescue with hospital identification; family martyrdom and unresolved missing sister."
+        "selection_policy": "Segments follow complete meaning-units: sudden awakening and trapped survival; precarious rubble and neighbour rescue with hospital identification; family martyrdom and unresolved missing sister.",
+        "revision_note": "Reviewed from the user-edited version. Arabic wording is preserved as source of truth; English translation and notes were made consistent, especially around the missing sister, kinship listing, Rafah/Bedouin-influenced dialect markers, and the child’s fragmented visual reconstruction. No confidence values are retained."
     },
     "speaker_profile": {
         "speaker_id": "S1",
@@ -46,17 +47,17 @@
         "origin": "Rafah, Gaza Strip",
         "role_or_status": [
             "Child/adolescent civilian survivor",
-            "Sole known surviving speaker from the scene",
+            "Child/adolescent survivor with one sister still missing at the time of testimony",
             "Bereaved family member",
             "Witness to destroyed home and family bodies"
         ]
     },
     "approx_context": {
         "brief_summary_ar": "طفل/يافع من رفح يروي أنه كان نائماً عندما استُهدف منزل عائلته، فاستيقظ ليجد نفسه على حافة مكان خطير، نصفه خارج المنزل ونصفه داخله. صرخ خوفاً من المنظر ومن خطر السقوط حتى أنقذه الجيران وأعطاه أحدهم ملابس ورافقوه إلى المستشفى. هناك تعرّف على جثامين أهله وقال: «الله يرحمهم». يذكر أن أمه وأباه وعدداً من إخوته وأخواته استشهدوا، وأن إحدى أخواته ما زالت مفقودة ولا يعرف أين هي.",
-        "brief_summary_en": "A child/adolescent from Rafah says he was asleep when his family home was targeted. He woke to find himself in a dangerous position, half outside and half inside the house. He screamed in fear of the scene and the risk of falling until neighbours rescued him, gave him clothes, and took him to the hospital. There he identified the bodies of his family members and said, 'may Allah have mercy on them.' He says his mother, father, and several siblings were martyred, while one sister remains missing and he does not know where she is."
+        "brief_summary_en": "A child/adolescent from Rafah says he was asleep when his family home was targeted. He woke to find himself in a dangerous position, half outside and half inside the house. He screamed in fear of the scene and the risk of falling until neighbours rescued him, gave him clothes, and took him to the hospital. There he identified family bodies and said, 'may Allah have mercy on them.' He says his mother, father, brother, and several sisters were martyred, while one sister remains missing and he does not know where she is."
     },
     "text_ar_full": "أمي قالتلي روح نام، رحت نمت في الغرفة الأخرانية في الأو.. في الدار، عاد وأنا نايم صحيت لقيت نصي برا ونص جوا عاد إ.. بالعافية طلعت و..ونزلت تحت السقف وقعدت أزعَق عشان يطلعوني عشان خايف من المنظر.\nكان الحيطة يعني طايحة و..وتحتي كله... لو تحركت شوية لكان طحت، بزعق بزعق أجوا طلعوني من فوق السُطِح أجوا اتنين شالوني ونزلونا أجا جاري، إي.. أعطاني أواعي وقالي ع ل..و..و رحنا ع المستشفى وتعرفت ع الجثث اللي هان الله يرحمهم و..خلص هي القصة كلها..\nاستشهد أمي وأبوي وأختي الصغيرة وأختي المتو.. وأختي الأكبر من الصغيرة بسنة وأخت.. وأخوي وأختي الكبيرة .. الكبيرة أصغر مني بسنتين مفقودة للحين، كلها ذهبت شهداء إلا وحدة مفقودة بس أنا.. وأختي مش عارف وين.",
-    "text_en_full": "My mother told me, 'Go sleep.' I went and slept in the last room, in the fir... in the house. Then, while I was asleep, I woke up and found half of me outside and half inside. Then, with difficulty, I got out and went down under the ceiling, and I kept shouting so they would get me out because I was afraid of the scene.\nThe wall was, I mean, collapsed, and everything under me... if I moved a little, I would have fallen. I kept shouting, shouting. They came and got me out from above the roof. Two people came, carried me and brought me down. My neighbour came, yes, gave me clothes, and said to me... and we went to the hospital, and I identified the bodies here, may Allah have mercy on them. And that is it, that is the whole story.\nMy mother, my father, my little sister, my middle... my sister who is one year older than the little one, and my brother, and my older sister — the older one who is two years younger than me — are martyred/missing until now. All of them went as martyrs except one who is missing. Only I... and my sister, I do not know where she is.",
+    "text_en_full": "My mother told me, 'Go sleep.' I went and slept in the last room, in the fir... in the house. Then, while I was asleep, I woke up and found half of me outside and half inside. Then, with difficulty, I got out and went down under the ceiling, and I kept shouting so they would get me out because I was afraid of the scene.\nThe wall was, I mean, collapsed, and everything under me... if I moved a little, I would have fallen. I kept shouting, shouting. They came and got me out from above the roof. Two people came, carried me and brought me down. My neighbour came, yes, gave me clothes, and said to me... and we went to the hospital, and I identified the bodies that were here; may Allah have mercy on them. And that is it, that is the whole story.\nMy mother, my father, my little sister, my middle... my sister who is one year older than the little one, and my brother were martyred; and my older sister — the older one who is two years younger than me — is missing until now. All of them went as martyrs except one who is missing. Only I... and my sister — I do not know where she is.",
     "segments": [
         {
             "segment_id": "Narrative44_s01",
@@ -104,7 +105,7 @@
                     },
                     {
                         "marker": "عاد",
-                        "note": "Narrative connective in Rafah/Bedouin-influenced speech; here functions like 'then/while'."
+                        "note": "Narrative connective in Gaza dialect speech; here functions like 'then/while'."
                     },
                     {
                         "marker": "نصي برا ونص جوا",
@@ -166,10 +167,10 @@
             "start_time": 17.87,
             "end_time": 37.92,
             "text_ar": "كان الحيطة يعني طايحة و..وتحتي كله... لو تحركت شوية لكان طحت، بزعق بزعق أجوا طلعوني من فوق السُطِح أجوا اتنين شالوني ونزلونا أجا جاري، إي.. أعطاني أواعي وقالي ع ل..و..و رحنا ع المستشفى وتعرفت ع الجثث اللي هان الله يرحمهم و..خلص هي القصة كلها..",
-            "text_en": "The wall was, I mean, collapsed, and everything under me... if I moved a little, I would have fallen. I kept shouting, shouting. They came and got me out from above the roof. Two people came, carried me and brought me down. My neighbour came, yes, gave me clothes, and said to me... and we went to the hospital, and I identified the bodies here, may Allah have mercy on them. And that is it, that is the whole story.",
+            "text_en": "The wall was, I mean, collapsed, and everything under me... if I moved a little, I would have fallen. I kept shouting, shouting. They came and got me out from above the roof. Two people came, carried me and brought me down. My neighbour came, yes, gave me clothes, and said to me... and we went to the hospital, and I identified the bodies that were here; may Allah have mercy on them. And that is it, that is the whole story.",
             "event_frame": {
                 "adversity_description": "The child is exposed to a dangerous collapsed structure and later to the bodies of his family members at the hospital.",
-                "response_description": "He calls for help until neighbours rescue him, clothe him, and accompany him, while he uses a brief mercy prayer when referring to the bodies."
+                "response_description": "He calls for help until neighbours rescue him, clothe him, and accompany him to the hospital, where he identifies the bodies and uses a brief mercy prayer."
             },
             "sabr_frame": {
                 "sabr_type": "neighbour_rescue_and_minimal_mercy_prayer_after_family_bodies",
@@ -199,7 +200,7 @@
                 "dialect_markers": [
                     {
                         "marker": "الحيطة طايحة",
-                        "note": "The wall was fallen/collapsed."
+                        "note": "The wall was fallen/collapsed. in Rafah / Rafah Bedouin-influenced dialectal, this is a common phrase to describe a collapsed wall."
                     },
                     {
                         "marker": "وتحتي كله...",
@@ -225,7 +226,7 @@
                 "religious_markers": [
                     {
                         "marker": "الله يرحمهم",
-                        "note": "May Allah have mercy on them; mercy prayer for the bodies/family members he identified."
+                        "note": "May Allah have mercy on them; mercy prayer for the family bodies he identified, functioning as a minimal dignity/mercy marker under shock."
                     }
                 ],
                 "cultural_markers": [
@@ -253,7 +254,7 @@
                     },
                     {
                         "marker": "خلص هي القصة كلها",
-                        "note": "Abrupt closure/minimization that may indicate shock, exhaustion, or inability to narrate more."
+                        "note": "Abrupt closure/minimization that may indicate shock, exhaustion, or inability to narrate more immediately after the event."
                     }
                 ],
                 "gesture_markers": []
@@ -282,17 +283,18 @@
             "start_time": 38.5,
             "end_time": 52.66,
             "text_ar": "استشهد أمي وأبوي وأختي الصغيرة وأختي المتو.. وأختي الأكبر من الصغيرة بسنة وأخت.. وأخوي وأختي الكبيرة .. الكبيرة أصغر مني بسنتين مفقودة للحين، كلها ذهبت شهداء إلا وحدة مفقودة بس أنا.. وأختي مش عارف وين.",
-            "text_en": "My mother, my father, my little sister, my middle... my sister who is one year older than the little one, and my brother, and my older sister — the older one who is two years younger than me — are martyred/missing until now. All of them went as martyrs except one who is missing. Only I... and my sister, I do not know where she is.",
+            "text_en": "My mother, my father, my little sister, my middle... my sister who is one year older than the little one, and my brother were martyred; and my older sister — the older one who is two years younger than me — is missing until now. All of them went as martyrs except one who is missing. Only I... and my sister — I do not know where she is.",
             "event_frame": {
-                "adversity_description": "The child lists the martyrdom of his mother, father, siblings, and brother, while one sister remains missing and her fate is unresolved.",
-                "response_description": "He tries to account for the family by kinship order, but hesitations and repairs reveal the difficulty of narrating total family loss while the missing sister keeps grief suspended."
+                "adversity_description": "The child lists the martyrdom of his mother, father, brother, and several sisters, while one sister remains missing and her fate is unresolved.",
+                "response_description": "He tries to account for the family by kinship order, but hesitations and repairs reveal the difficulty of narrating family loss while the missing sister keeps grief suspended."
             },
             "sabr_frame": {
                 "sabr_type": "child_kinship_accounting_under_missing_sibling_uncertainty",
                 "features": [
                     "mother_martyred",
                     "father_martyred",
-                    "siblings_martyred",
+                    "brother_martyred",
+                    "sisters_martyred",
                     "missing_sister",
                     "kinship_enumeration",
                     "uncertain_fate",
@@ -323,11 +325,15 @@
                     },
                     {
                         "marker": "للحين",
-                        "note": "Until now; unresolved present."
+                        "note": "Until now / so far / still; unresolved present. commonly used in Rafah and Gazan refugees dialects to describe an ongoing situation."
                     },
                     {
                         "marker": "مش عارف وين",
                         "note": "I do not know where [she is]; incomplete/elliptical expression of uncertainty."
+                    },
+                    {
+                        "marker": "أختي الكبيرة .. الكبيرة أصغر مني بسنتين",
+                        "note": "Here 'الكبيرة' appears to mean the older/larger sister among the sisters being listed, while she is still two years younger than the speaker."
                     }
                 ],
                 "religious_markers": [
@@ -344,6 +350,10 @@
                     {
                         "marker": "وحدة مفقودة",
                         "note": "Missing-person status creates suspended grief and the possibility of another traumatic confirmation."
+                    },
+                    {
+                        "marker": "كلها ذهبت شهداء إلا وحدة مفقودة",
+                        "note": "The child separates confirmed martyrdom from missing-person uncertainty, keeping one part of the family loss unresolved."
                     }
                 ],
                 "discourse_markers": [
@@ -357,7 +367,11 @@
                     },
                     {
                         "marker": "بس أنا..",
-                        "note": "Abrupt self-reference suggests loneliness/survivor isolation."
+                        "note": "Abrupt self-reference suggests survivor isolation while the missing sister remains unresolved."
+                    },
+                    {
+                        "marker": "كلها... إلا وحدة",
+                        "note": "All/except structure attempts to make a complete family account, but the missing sister prevents narrative closure."
                     }
                 ],
                 "gesture_markers": []
@@ -393,18 +407,17 @@
             },
             "عاد": {
                 "variants_ar": [
-                    "ثم",
                     "وبينما",
                     "أثناء"
                 ],
-                "meaning_en": "Narrative connective: then/while/at that point."
+                "meaning_en": "Narrative connective: while/at that point."
             },
             "نصي برا ونص جوا": {
                 "variants_ar": [
                     "نص جسمي خارج ونصه داخل",
                     "كنت على الحافة"
                 ],
-                "meaning_en": "Half of my body was outside and half inside; dangerous edge after collapse."
+                "meaning_en": "Half of my body was outside and half inside; dangerous edge after explosion and collapse."
             },
             "بالعافية طلعت": {
                 "variants_ar": [
@@ -425,7 +438,7 @@
                     "ساقطة",
                     "منهارة"
                 ],
-                "meaning_en": "Fallen/collapsed."
+                "meaning_en": "Fallen/collapsed. commonly used in Rafah / Rafah Bedouin-influenced dialectal to describe a collapsing / falling."
             },
             "وتحتي كله...": {
                 "variants_ar": [
@@ -451,11 +464,12 @@
                     "الجثامين الموجودة هنا",
                     "جثث أهلي هنا"
                 ],
-                "meaning_en": "The bodies here, likely at the hospital."
+                "meaning_en": "The bodies here, at the hospital."
             },
             "الله يرحمهم": {
                 "variants_ar": [
-                    "رحمهم الله"
+                    "رحمهم الله",
+                    "دعاء للميت بالرحمة"
                 ],
                 "meaning_en": "May Allah have mercy on them."
             },
@@ -468,9 +482,10 @@
             "للحين": {
                 "variants_ar": [
                     "حتى الآن",
-                    "لحد الآن"
+                    "لحد الآن",
+                    "لهلقيت"
                 ],
-                "meaning_en": "Until now."
+                "meaning_en": "Until now / so far / still; unresolved present. commonly used in Rafah and Gazan refugees dialects to describe an ongoing situation."
             },
             "مفقودة": {
                 "variants_ar": [
@@ -478,13 +493,34 @@
                     "مفقودة تحت الأنقاض أو في مكان مجهول"
                 ],
                 "meaning_en": "Missing; fate unknown."
+            },
+            "أختي الكبيرة .. الكبيرة أصغر مني بسنتين": {
+                "variants_ar": [
+                    "الأخت الأكبر بين الأخوات المذكورات",
+                    "الأخت الأكبر من بعض الأخوات لكنها أصغر من الراوي"
+                ],
+                "meaning_en": "The older/larger sister among the sisters being listed; she is still two years younger than the speaker."
+            },
+            "كلها ذهبت شهداء إلا وحدة مفقودة": {
+                "variants_ar": [
+                    "كلهم استشهدوا إلا واحدة مفقودة",
+                    "الجميع شهداء عدا أخت مفقودة"
+                ],
+                "meaning_en": "All were martyred except one who remains missing; confirmed death and unresolved disappearance are kept distinct."
+            },
+            "خلص هي القصة كلها": {
+                "variants_ar": [
+                    "هذه هي القصة كلها",
+                    "انتهت القصة"
+                ],
+                "meaning_en": "That is the whole story; abrupt closure that may signal shock, exhaustion, or inability to narrate more."
             }
         }
     },
     "analysis_note_for_paper": {
         "theme_tag": "child_survivor_visual_memory_family_martyrdom_missing_sister",
-        "paper_fit_ar": "تمثل Narrative44 حالة شديدة الحساسية عن صدمة الطفل الناجي الوحيد تقريباً بعد استهداف منزل العائلة. تبدأ الرواية بتفصيل منزلي عادي: «أمي قالتلي روح نام»، ثم تنهار الحياة الطبيعية فجأة إلى مشهد بصري مرعب: «نصي برا ونص جوا». هذا الانتقال مهم لأنه يوضح كيف تتحول الطفولة في غزة من النوم والأمان العائلي إلى النجاة وسط الركام والجثث خلال لحظة واحدة. يتحدث الطفل بذاكرة صورية ومحاولات ترتيب متقطعة، وتظهر علامات الصدمة في التردد، الإصلاح الذاتي، والجمل الناقصة. وجود الجيران الذين أخرجوه وأعطوه ملابس يبرز دور السند الاجتماعي المحلي في لحظات الانهيار، بينما عبارة «الله يرحمهم» تُظهر محاولة دينية مختصرة لمنح الجثامين الرحمة والكرامة. أهم نقطة بحثية هي أن الفقد لم يُغلق: وجود أخت مفقودة يجعل الحزن معلقاً، فالطفل لا يعرف هل نجا أحد من عائلته أم أنه على موعد مع صدمة جديدة.",
-        "paper_fit_en": "Narrative44 is an extremely sensitive case of a child survivor after the targeting of a family home. It begins with an ordinary domestic detail, 'my mother told me to sleep,' and then childhood normality collapses into a terrifying visual scene: 'half of me outside and half inside.' This transition is analytically important because it shows how childhood in Gaza can move from sleep and family safety to survival among rubble and bodies in a single moment. The child narrates through visual memory and fragmented sequencing; hesitation, self-repair, and unfinished clauses function as discourse markers of shock. Neighbours who rescue him and provide clothes show local social support in the immediate aftermath, while the phrase 'may Allah have mercy on them' offers a brief religious frame of mercy and dignity for the dead. The key research point is that grief remains suspended: the missing sister keeps the loss unresolved, so the child does not know whether anyone else survived or whether another traumatic confirmation is still to come."
+        "paper_fit_ar": "تمثل Narrative44 حالة شديدة الحساسية عن طفل ناجٍ بعد استهداف منزل العائلة في رفح. تبدأ الرواية بتفصيل منزلي عادي: «أمي قالتلي روح نام»، ثم تنهار الحياة الطبيعية فجأة إلى مشهد بصري مرعب: «نصي برا ونص جوا». هذا الانتقال مهم لأنه يوضح كيف تتحول الطفولة في غزة من النوم والأمان العائلي إلى النجاة وسط الركام والجثث خلال لحظة واحدة. يتحدث الطفل بذاكرة صورية ومحاولات ترتيب متقطعة، وتظهر علامات الصدمة في التردد، الإصلاح الذاتي، والجمل الناقصة. وجود الجيران الذين أخرجوه وأعطوه ملابس يبرز دور السند الاجتماعي المحلي في لحظات الانهيار، بينما عبارة «الله يرحمهم» تُظهر محاولة دينية مختصرة لمنح الجثامين الرحمة والكرامة. أهم نقطة بحثية هي أن الفقد لم يُغلق: وجود أخت مفقودة يجعل الحزن معلقاً، فالطفل فصل بين من تأكد أنهم شهداء وبين أخت لا يعرف مصيرها، وهذا يتركه داخل انتظار صدمة محتملة جديدة.",
+        "paper_fit_en": "Narrative44 is an extremely sensitive case of a child survivor after the targeting of a family home in Rafah. It begins with an ordinary domestic detail, 'my mother told me to sleep,' and then childhood normality collapses into a terrifying visual scene: 'half of me outside and half inside.' This transition is analytically important because it shows how childhood in Gaza can move from sleep and family safety to survival among rubble and bodies in a single moment. The child narrates through visual memory and fragmented sequencing; hesitation, self-repair, and unfinished clauses function as discourse markers of shock. Neighbours who rescue him and provide clothes show local social support in the immediate aftermath, while the phrase 'may Allah have mercy on them' offers a brief religious frame of mercy and dignity for the dead. The key research point is that grief remains suspended: the child distinguishes confirmed martyrs from one sister whose fate remains unknown, leaving the narrative emotionally unfinished and open to a possible new shock."
     },
     "research_notes": {
         "child_trauma_note": "The narrative should not be read as a fully organized retrospective story. It appears to be an immediate post-attack account in which the child is still reconstructing events through visual fragments and body-position memory.",
@@ -494,8 +530,11 @@
             "martyrdom": "Translate 'استشهد/شهداء' as martyrdom/martyrs when representing the speaker’s religious and cultural framing.",
             "الله يرحمهم": "Translate as 'may Allah have mercy on them' rather than replacing Allah with God.",
             "narrative_connectors": "Retain notes for dialectal narrative connectors such as 'عاد' because they structure the child’s event reconstruction.",
-            "missing": "Translate 'مفقودة' as 'missing' and avoid implying death without confirmation."
-        }
+            "missing": "Translate 'مفقودة' as 'missing' and avoid implying death without confirmation.",
+            "kinship_listing": "Keep kinship roles precise. When 'الكبيرة' conflicts with 'أصغر مني بسنتين', gloss it as older/larger among the sisters being listed, not older than the speaker."
+        },
+        "kinship_accounting_note": "The child's listing of mother, father, sisters, and brother functions as kinship accounting. It preserves the family relationally while showing how difficult it is for a child to organize loss immediately after the event.",
+        "abrupt_closure_note": "The phrase 'خلص هي القصة كلها' should not be read as emotional completion. It is better treated as abrupt narrative closure under shock or exhaustion."
     },
     "ethical_note": {
         "risk_level": "extreme_sensitivity_child_survivor_family_bodies_missing_sibling",
@@ -506,7 +545,8 @@
             "Do not infer clinical diagnosis. The annotation focuses on discourse, adversity, response strategy, contextual markers, and affective signal.",
             "Avoid graphic description beyond what is needed for analysis; preserve the child's dignity and minimize searchable details.",
             "The missing sister should not be described as dead unless later confirmed by a verified source.",
-            "Public release should be text-only and pseudonymized, with age generalized and scene identifiers minimized."
+            "Public release should be text-only and pseudonymized, with age generalized and scene identifiers minimized.",
+            "Keep the missing sister distinct from confirmed martyrs; do not collapse unresolved disappearance into death."
         ],
         "recommended_public_version": "pseudonymized_text_only; generalize child age and location; avoid image/voice/source identifiers; retain only necessary dialect and religious markers"
     },
