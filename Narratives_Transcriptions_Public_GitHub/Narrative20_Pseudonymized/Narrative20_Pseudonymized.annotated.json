@@ -1,0 +1,637 @@
+{
+    "schema_version": "SABR_v1.2_prototype",
+    "narrative_id": "Narrative20_Pseudonymized",
+    "source_meta": {
+        "source_id": "Narrative20",
+        "source_type": "public_journalist_video_transcription_with_whisper_timestamps",
+        "source_platform": "public journalist video",
+        "original_language": "ar",
+        "dialect": "Palestinian Arabic (North Gaza / Beit Lahia old fallahi dialectal features)",
+        "location_mentioned": "North Gaza Strip / Beit Lahia dialectal context",
+        "reported_context": "A grandmother and grandfather speak about Omar, a very young child and the only survivor of his family after the building where he was with his parents and brother was targeted at night. The child survived with severe brain/skull injury, loss of speech, partial paralysis, behavioural deterioration, and no available treatment in Gaza according to the speakers."
+    },
+    "anonymization": {
+        "is_pseudonymized": true,
+        "strategy": "name_replacement_pool",
+        "contains_real_names": false,
+        "contains_public_figure_name_only": false,
+        "contains_minors": true,
+        "contains_deceased_or_injured_people": true,
+        "notes": "Person names and identifying tokens in this tree are replaced using Gaza_NamePool_v1 with dataset-consistent mappings. Original strings are retained only in Narratives_Transcriptions. Follow Project_Research_Documentation/protocols/mphil_uom_ethics_and_governance.txt for storage, consent scope, and thesis use. Public-release bundle: reversibility metadata stripped for GitHub.",
+        "pool_id": "Gaza_NamePool_v1",
+        "replacement_scope": "within_dataset_consistent"
+    },
+    "annotation_meta": {
+        "annotators": [
+            {
+                "annotator_id": "A1",
+                "role": "Primary annotator",
+                "profile_note": "Arabic speaker familiar with Gazan dialectal variation, old North Gaza/Beit Lahia fallahi features, child-survivor narratives, medical-abandonment discourse, and SABR conventions."
+            }
+        ],
+        "adjudication": {
+            "status": "draft_annotation_ready_for_review",
+            "note": "The user-corrected Arabic transcription is the source of truth. Whisper is used only for approximate timestamp mapping. No confidence values are retained."
+        },
+        "alignment_note": "Whisper timestamps are approximate and contain lexical errors due to dialect/audio conditions. Corrected transcript controls wording and meaning.",
+        "selection_policy": "Segments follow complete meaning-units: sole survivor framing and targeting context; phone call/hospital discovery/sibling death; speech loss and brain injury; daily deterioration and no available treatment."
+    },
+    "speaker_profiles": [
+        {
+            "speaker_id": "S1",
+            "speaker_role": "grandmother",
+            "gender": "female",
+            "age_estimate": "adult",
+            "origin": "North Gaza / Beit Lahia dialectal context",
+            "role_or_status": [
+                "Grandmother of injured child",
+                "Bereaved mother",
+                "Family caregiver/witness"
+            ]
+        },
+        {
+            "speaker_id": "S2",
+            "speaker_role": "grandfather",
+            "gender": "male",
+            "age_estimate": "adult",
+            "origin": "North Gaza / Beit Lahia dialectal context",
+            "role_or_status": [
+                "Grandfather of injured child",
+                "Bereaved father",
+                "Family caregiver/witness"
+            ]
+        },
+        {
+            "speaker_id": "Y1",
+            "speaker_role": "injured child referenced by speakers",
+            "gender": "male",
+            "age_estimate": "child",
+            "role_or_status": [
+                "Sole surviving child according to testimony",
+                "Severely injured child"
+            ]
+        }
+    ],
+    "approx_context": {
+        "brief_summary_ar": "تروي الجدّة والجدّ حالة الطفل عمر، الناجي الوحيد من عائلته بعد استهداف المبنى الذي كان فيه مع والديه وأخيه. فقد الطفل والديه وأخاه، وبقي هو على قيد الحياة بعد إصابة شديدة. يقول الجدّ إن عمر كان يتكلم، أما الآن فلا نطق لديه، ويعاني من شلل في يد ورجل، وقطعة من جمجمته غير موجودة لأن الشظية أخذت من المخ. تضيف الجدّة أنه كان يتكلم كل شيء، أما الآن فيأكل أي شيء يجده على الأرض ويتسخ إذا غفلوا عنه. تنتهي الرواية بتأكيد أن العلاج غير موجود في غزة وأنه سيعود كما هو بعد انتهاء وجوده في المستشفى.",
+        "brief_summary_en": "The grandmother and grandfather describe Omar, a very young child and the only survivor of his family after the building where he was with his parents and brother was targeted. He lost his parents and brother and survived with severe injury. The grandfather says Omar used to speak, but now has no speech, paralysis in one hand and leg, and a missing skull piece because shrapnel took part of the brain. The grandmother adds that he used to speak normally, but now eats anything he finds on the ground and gets himself dirty if they look away. The narrative ends with the statement that treatment is not available in Gaza and he will return as he is after his hospital stay."
+    },
+    "text_ar_full": "-طبعا هاضا الناجي الوحيد لا في أبو ولا في أم ولا في أيا حدا\n=تم استهداف المبنى الذي كان موجود فيه عمر وأبوه وأَمه وأخوه الساعة 12.30 بالليل.\n-رنوا علينا حكولنا إنه...أ... بنتك استشهدت هي و..جوزها وولادها ف رُحنا ع المستشفى إي.. لقينا اللي هي بنتي وجوزها مستشهدين طبعاً وهاظا و..وأخوه محطوطين على السَرير ولقينا هاضا فيه نبض وهضاك فيه يعني نبض شويةِ، فا.. هضاكا وهو في الإسعاف بدهم يودوه على المعمداني استشهد وضل هاظا، هاظا هوّا، من يوميتها لليوم وهو في .. قعد 17 يوم في مستشفى الشفا.\n= عمر كان يحكي، اليوم لا نطق ب.. شلل.. يد ورجل، إي..في قطعة من الجمجمة من رأسه مش موجودة، لأنه الشظية أخدت من المخ.\n-عمر في الأول إنه..إي.. كل إشي كل إشي يحكي كل إشي يقول، اليوم أي حاجة بلاقيها ع الأرظ بيوكلها، إبعد عنه بوسّخ على حاله.\n=فش علاج لأنه بكرا قلت آخر يوم في المستشفى وخلّصنا هيروّح هيك فش علاج إله هان مش موجود.",
+    "text_en_full": "- So, this is the only survivor. He has no father, no mother, no one at all.\n= The building where Omar, his father, his mother, and his brother were present was targeted at 12:30 at night.\n- They called us and told us that... uh... your daughter was martyred, she and her husband and her children. So we went to the hospital, yes. We found my daughter and her husband martyred, of course, and this one and his brother were placed on the bed. We found that this one had a pulse, and that one had, I mean, a little pulse. Then that one, while in the ambulance, as they were going to take him to Al-Ahli Arab Baptist Hospital, was martyred, and this one remained. This is him. From that day until today he has been... he stayed 17 days in Al-Shifa Hospital.\n= Omar used to speak. Today there is no speech... paralysis... hand and leg. Yes, a piece of the skull from his head is missing, because the shrapnel took from the brain.\n- Omar at first, yes, everything, everything he would speak, everything he would say. Today, anything he finds on the ground, he eats it. Move away from him and he gets himself dirty.\n= There is no treatment, because tomorrow, I told you, is the last day in the hospital, and we are done. He will go home like this. There is no treatment for him here; it is not available.",
+    "segments": [
+        {
+            "segment_id": "Narrative20_s01",
+            "speaker_ids": [
+                "S1",
+                "S2"
+            ],
+            "start_time": 0.0,
+            "end_time": 18.68,
+            "text_ar": "طبعا هاضا الناجي الوحيد لا في أبو ولا في أم ولا في أيا حدا. تم استهداف المبنى الذي كان موجود فيه عمر وأبوه وأَمه وأخوه الساعة 12.30 بالليل.",
+            "text_en": "So, this is the only survivor. He has no father, no mother, no one at all. The building where Omar, his father, his mother, and his brother were present was targeted at 12:30 at night.",
+            "speaker_turns": [
+                {
+                    "speaker_id": "S1",
+                    "text_ar": "طبعا هاضا الناجي الوحيد لا في أبو ولا في أم ولا في أيا حدا",
+                    "text_en": "So, this is the only survivor. He has no father, no mother, no one at all."
+                },
+                {
+                    "speaker_id": "S2",
+                    "text_ar": "تم استهداف المبنى الذي كان موجود فيه عمر وأبوه وأَمه وأخوه الساعة 12.30 بالليل.",
+                    "text_en": "The building where Omar, his father, his mother, and his brother were present was targeted at 12:30 at night."
+                }
+            ],
+            "event_frame": {
+                "adversity_description": "A very young child is framed as the only survivor after the building containing him, his parents, and brother was targeted at night.",
+                "response_description": "The grandparents define the child through relational absence: no father, no mother, and no one left, before giving the attack context."
+            },
+            "sabr_frame": {
+                "sabr_type": "sole_child_survivor_after_family_loss",
+                "features": [
+                    "sole_survivor",
+                    "no_father",
+                    "no_mother",
+                    "no_one_left",
+                    "night_targeting",
+                    "family_in_building"
+                ],
+                "explanation": "Survival is framed as relational devastation. The child remains alive, but the family structure that should protect and define him has been destroyed."
+            },
+            "affective_signals": {
+                "dominant_affect": "grandparental_shock_and_relational_devastation",
+                "affect_type": "grandparental_shock_and_relational_devastation",
+                "secondary_affects": [
+                    "grief",
+                    "alarm",
+                    "protective_sorrow",
+                    "helplessness"
+                ],
+                "justification": "The phrase 'لا في أبو ولا في أم ولا في أيا حدا' foregrounds total relational absence and grandparental shock."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "هاضا",
+                        "note": "This; old North Gaza/Beit Lahia fallahi dialectal form, equivalent to هذا."
+                    },
+                    {
+                        "marker": "أيا حدا",
+                        "note": "Anyone at all; colloquial intensification of total absence."
+                    }
+                ],
+                "religious_markers": [],
+                "cultural_markers": [
+                    {
+                        "marker": "الناجي الوحيد",
+                        "note": "The only survivor; identifies the child through survival after family annihilation."
+                    },
+                    {
+                        "marker": "لا في أبو ولا في أم",
+                        "note": "Parental loss as destruction of the child's support system and kinship protection."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "لا في... ولا في... ولا في",
+                        "note": "Repetition accumulates absence: father, mother, and any caregiver."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "grandparental_shock_and_relational_devastation",
+                "sabr_type_label": "sole_child_survivor_after_family_loss",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": false,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "extreme_sensitivity_minor_sole_survivor_family_death_severe_injury",
+                "contains_real_names": true,
+                "contains_minors": true,
+                "public_safe": false,
+                "note": "Use pseudonymized text only in public outputs; avoid child image, voice, and exact identifiers."
+            }
+        },
+        {
+            "segment_id": "Narrative20_s02",
+            "speaker_ids": [
+                "S1"
+            ],
+            "start_time": 18.94,
+            "end_time": 44.44,
+            "text_ar": "رنوا علينا حكولنا إنه...أ... بنتك استشهدت هي و..جوزها وولادها ف رُحنا ع المستشفى إي.. لقينا اللي هي بنتي وجوزها مستشهدين طبعاً وهاظا و..وأخوه محطوطين على السَرير ولقينا هاضا فيه نبض وهضاك فيه يعني نبض شويةِ، فا.. هضاكا وهو في الإسعاف بدهم يودوه على المعمداني استشهد وضل هاظا، هاظا هوّا، من يوميتها لليوم وهو في .. قعد 17 يوم في مستشفى الشفا.",
+            "text_en": "They called us and told us that... uh... your daughter was martyred, she and her husband and her children. So we went to the hospital, yes. We found my daughter and her husband martyred, of course, and this one and his brother were placed on the bed. We found that this one had a pulse, and that one had, I mean, a little pulse. Then that one, while in the ambulance, as they were going to take him to Al-Ahli Arab Baptist Hospital, was martyred, and this one remained. This is him. From that day until today he has been... he stayed 17 days in Al-Shifa Hospital.",
+            "event_frame": {
+                "adversity_description": "The grandmother receives news that her daughter, son-in-law, and children were martyred, then finds two injured children in hospital; one child dies during ambulance transfer and one remains alive.",
+                "response_description": "She narrates the event through hospital discovery, pulse-checking, and the survival of only one child."
+            },
+            "sabr_frame": {
+                "sabr_type": "fragile_survival_after_hospital_discovery_and_sibling_death",
+                "features": [
+                    "phone_call_news",
+                    "daughter_and_son_in_law_martyred",
+                    "children_on_hospital_bed",
+                    "pulse_as_life_sign",
+                    "sibling_dies_in_ambulance",
+                    "one_child_remains"
+                ],
+                "explanation": "Survival appears as fragile and unstable: the grandparents encounter life only as pulse, ambulance transfer, hospital movement, and the loss of one child while the other remains."
+            },
+            "affective_signals": {
+                "dominant_affect": "shocked_bereavement_with_fragile_hope",
+                "affect_type": "shocked_bereavement_with_fragile_hope",
+                "secondary_affects": [
+                    "grief",
+                    "fear",
+                    "despair",
+                    "numb_recounting"
+                ],
+                "justification": "The pulse references and repeated pointing terms 'هاظا/هضاك/هضاكا' reconstruct a scene between life and death."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "رنوا علينا حكولنا",
+                        "note": "They called us and told us; colloquial phone-call reporting."
+                    },
+                    {
+                        "marker": "هاظا / هاضا",
+                        "note": "This one; old North Gaza/Beit Lahia fallahi demonstrative."
+                    },
+                    {
+                        "marker": "هضاك / هضاكا",
+                        "note": "That one; old North Gaza/Beit Lahia fallahi demonstrative."
+                    },
+                    {
+                        "marker": "من يوميتها لليوم",
+                        "note": "From that day until today; dialectal temporal marker of continued suffering."
+                    }
+                ],
+                "religious_markers": [
+                    {
+                        "marker": "استشهدت / مستشهدين / استشهد",
+                        "note": "Martyrdom framing for deceased family members and sibling."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "المعمداني",
+                        "note": "Al-Ahli Arab Baptist Hospital."
+                    },
+                    {
+                        "marker": "مستشفى الشفا",
+                        "note": "Al-Shifa Hospital, where the child stayed for 17 days according to the testimony."
+                    },
+                    {
+                        "marker": "نبض شوية",
+                        "note": "A faint pulse becomes the threshold between hope and death."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "إنه...أ...",
+                        "note": "Hesitation before reporting the death of the daughter and family."
+                    },
+                    {
+                        "marker": "هاظا... هضاك... هضاكا... هاظا هوّا",
+                        "note": "Pointing sequence reconstructs the hospital scene around the two children."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "shocked_bereavement_with_fragile_hope",
+                "sabr_type_label": "fragile_survival_after_hospital_discovery_and_sibling_death",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": true,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "extreme_sensitivity_family_death_minor_survivor_hospital_scene",
+                "contains_real_names": true,
+                "contains_minors": true,
+                "public_safe": false,
+                "note": "Avoid identifying hospital footage or exact visual scene. Keep discussion text-based and pseudonymized in public outputs."
+            }
+        },
+        {
+            "segment_id": "Narrative20_s03",
+            "speaker_ids": [
+                "S2"
+            ],
+            "start_time": 49.04,
+            "end_time": 62.02,
+            "text_ar": "عمر كان يحكي، اليوم لا نطق ب.. شلل.. يد ورجل، إي..في قطعة من الجمجمة من رأسه مش موجودة، لأنه الشظية أخدت من المخ.",
+            "text_en": "Omar used to speak. Today there is no speech... paralysis... hand and leg. Yes, a piece of the skull from his head is missing, because the shrapnel took from the brain.",
+            "event_frame": {
+                "adversity_description": "The child survives with severe reported neurological and physical injury: loss of speech, paralysis of a hand and leg, missing skull piece, and brain injury from shrapnel.",
+                "response_description": "The grandfather contrasts the child's previous speech with his present impairment, using stark bodily facts to witness survival without restoration."
+            },
+            "sabr_frame": {
+                "sabr_type": "survival_without_recovery_after_brain_injury",
+                "features": [
+                    "lost_speech",
+                    "partial_paralysis",
+                    "missing_skull_piece",
+                    "shrapnel_brain_injury",
+                    "before_after_contrast"
+                ],
+                "explanation": "This is not recovery. The child remains alive, but speech, movement, and bodily integrity have been profoundly disrupted."
+            },
+            "affective_signals": {
+                "dominant_affect": "devastated_medical_grief",
+                "affect_type": "devastated_medical_grief",
+                "secondary_affects": [
+                    "shock",
+                    "helplessness",
+                    "mourning_for_lost_function",
+                    "fear_for_future"
+                ],
+                "justification": "The contrast 'كان يحكي، اليوم لا نطق' and fragments 'شلل.. يد ورجل' convey grief over the child's changed body and capacities."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "كان يحكي",
+                        "note": "He used to speak; colloquial speech verb."
+                    },
+                    {
+                        "marker": "اليوم لا نطق",
+                        "note": "Today there is no speech; stark before/after marker."
+                    },
+                    {
+                        "marker": "مش موجودة",
+                        "note": "Not present/missing; colloquial negation."
+                    },
+                    {
+                        "marker": "أخدت من المخ",
+                        "note": "The shrapnel took from the brain; local embodied phrasing of tissue loss/injury."
+                    }
+                ],
+                "religious_markers": [],
+                "medical_markers": [
+                    {
+                        "marker": "لا نطق",
+                        "note": "Loss of speech as reported by the speaker; do not infer a clinical diagnosis beyond the testimony."
+                    },
+                    {
+                        "marker": "شلل يد ورجل",
+                        "note": "Partial paralysis affecting a hand and leg as reported by the speaker."
+                    },
+                    {
+                        "marker": "قطعة من الجمجمة من رأسه مش موجودة",
+                        "note": "A missing piece of skull as described in the testimony."
+                    },
+                    {
+                        "marker": "الشظية أخدت من المخ",
+                        "note": "Shrapnel removed/damaged part of the brain according to the testimony."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "كان يحكي / اليوم لا نطق",
+                        "note": "A before/after contrast that turns medical injury into a loss of childhood voice and presence."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "ب.. شلل.. يد ورجل",
+                        "note": "Fragmented medical listing reflects difficulty describing severe injury."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "devastated_medical_grief",
+                "sabr_type_label": "survival_without_recovery_after_brain_injury",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": false,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "extreme_sensitivity_minor_severe_brain_injury_medical_details",
+                "contains_real_names": true,
+                "contains_minors": true,
+                "public_safe": false,
+                "note": "Do not infer diagnosis or prognosis beyond the testimony. Public outputs should minimize identifiable medical details."
+            }
+        },
+        {
+            "segment_id": "Narrative20_s04",
+            "speaker_ids": [
+                "S1",
+                "S2"
+            ],
+            "start_time": 62.76,
+            "end_time": 77.98,
+            "text_ar": "عمر في الأول إنه..إي.. كل إشي كل إشي يحكي كل إشي يقول، اليوم أي حاجة بلاقيها ع الأرظ بيوكلها، إبعد عنه بوسّخ على حاله. فش علاج لأنه بكرا قلت آخر يوم في المستشفى وخلّصنا هيروّح هيك فش علاج إله هان مش موجود.",
+            "text_en": "Omar at first, yes, everything, everything he would speak, everything he would say. Today, anything he finds on the ground, he eats it. Move away from him and he gets himself dirty. There is no treatment, because tomorrow, I told you, is the last day in the hospital, and we are done. He will go home like this. There is no treatment for him here; it is not available.",
+            "speaker_turns": [
+                {
+                    "speaker_id": "S1",
+                    "text_ar": "عمر في الأول إنه..إي.. كل إشي كل إشي يحكي كل إشي يقول، اليوم أي حاجة بلاقيها ع الأرظ بيوكلها، إبعد عنه بوسّخ على حاله.",
+                    "text_en": "Omar at first, yes, everything, everything he would speak, everything he would say. Today, anything he finds on the ground, he eats it. Move away from him and he gets himself dirty."
+                },
+                {
+                    "speaker_id": "S2",
+                    "text_ar": "فش علاج لأنه بكرا قلت آخر يوم في المستشفى وخلّصنا هيروّح هيك فش علاج إله هان مش موجود.",
+                    "text_en": "There is no treatment, because tomorrow, I told you, is the last day in the hospital, and we are done. He will go home like this. There is no treatment for him here; it is not available."
+                }
+            ],
+            "event_frame": {
+                "adversity_description": "The child's daily functioning has deteriorated after the injury, and the speakers say no adequate treatment is available in Gaza; he will leave hospital as he is.",
+                "response_description": "The grandparents describe continuous caregiving burden, developmental/behavioural change, and medical abandonment, framing survival as an ongoing crisis rather than resolution."
+            },
+            "sabr_frame": {
+                "sabr_type": "medical_abandonment_and_caregiving_after_survival",
+                "features": [
+                    "loss_of_previous_speech",
+                    "eating_objects_from_ground",
+                    "constant_supervision_needed",
+                    "no_treatment_available",
+                    "hospital_stay_ending",
+                    "returning_without_recovery"
+                ],
+                "explanation": "The span shows survival becoming long-term dependency without recovery. The family must care for a severely injured child where needed treatment is unavailable."
+            },
+            "affective_signals": {
+                "dominant_affect": "helpless_caregiving_despair",
+                "affect_type": "helpless_caregiving_despair",
+                "secondary_affects": [
+                    "frustration",
+                    "fear",
+                    "exhaustion",
+                    "protective_tenderness"
+                ],
+                "justification": "The contrast between 'كل إشي يحكي' and 'اليوم أي حاجة... بيوكلها', followed by repeated 'فش علاج', shows despair over deterioration and blocked treatment."
+            },
+            "contextual_markers": {
+                "dialect_markers": [
+                    {
+                        "marker": "كل إشي كل إشي يحكي كل إشي يقول",
+                        "note": "He used to speak/say everything normally; repeated to stress prior normal function."
+                    },
+                    {
+                        "marker": "ع الأرظ",
+                        "note": "On the ground; old fallahi/North Gaza pronunciation of الأرض."
+                    },
+                    {
+                        "marker": "بيوكلها",
+                        "note": "He eats it; in some Gaza dialects, especially refugee/fallahi speech, بيوكل is used where others may say بياكل."
+                    },
+                    {
+                        "marker": "إبعد عنه بوسّخ على حاله",
+                        "note": "As soon as you move away or look away, he gets himself dirty through uncontrolled/random play on the ground."
+                    },
+                    {
+                        "marker": "فش علاج",
+                        "note": "There is no treatment; categorical Gazan negation."
+                    },
+                    {
+                        "marker": "هيروّح هيك",
+                        "note": "He will go home/return like this, without meaningful treatment or recovery."
+                    },
+                    {
+                        "marker": "إله هان",
+                        "note": "For him here; local deixis locating absence of treatment in Gaza."
+                    }
+                ],
+                "religious_markers": [],
+                "medical_markers": [
+                    {
+                        "marker": "فش علاج إله هان مش موجود",
+                        "note": "Treatment is not available locally according to the speaker; implies local healthcare incapacity and need for advanced treatment outside Gaza."
+                    },
+                    {
+                        "marker": "آخر يوم في المستشفى",
+                        "note": "Hospital stay ending without adequate treatment."
+                    }
+                ],
+                "cultural_markers": [
+                    {
+                        "marker": "بيوكلها / بوسّخ على حاله",
+                        "note": "Everyday caregiving language describing post-injury behavioural deterioration and constant supervision."
+                    },
+                    {
+                        "marker": "هيروّح هيك",
+                        "note": "Painful resignation: returning home/tent with injury unchanged because treatment is unavailable."
+                    }
+                ],
+                "discourse_markers": [
+                    {
+                        "marker": "كل إشي كل إشي",
+                        "note": "Repetition intensifies the before/after contrast between prior speech and current impairment."
+                    },
+                    {
+                        "marker": "فش علاج... فش علاج",
+                        "note": "Repetition of absence frames medical abandonment as the final unresolved adversity."
+                    }
+                ],
+                "gesture_markers": []
+            },
+            "labels": {
+                "dominant_affect_label": "helpless_caregiving_despair",
+                "sabr_type_label": "medical_abandonment_and_caregiving_after_survival",
+                "adversity_present": true,
+                "response_present": true,
+                "has_religious_markers": false,
+                "has_cultural_markers": true,
+                "has_dialect_markers": true,
+                "has_discourse_markers": true
+            },
+            "ethics": {
+                "risk_level": "extreme_sensitivity_minor_severe_disability_no_treatment_caregiver_distress",
+                "contains_real_names": true,
+                "contains_minors": true,
+                "public_safe": false,
+                "note": "Avoid stigmatizing the child's behaviour. Frame details as caregiver testimony about injury, deterioration, and lack of treatment."
+            }
+        }
+    ],
+    "lexicon_hints": {
+        "expected_variants": {
+            "هاظا / هاضا": {
+                "variants_ar": [
+                    "هذا"
+                ],
+                "meaning_en": "This; old North Gaza/Beit Lahia fallahi demonstrative."
+            },
+            "هضاك / هضاكا": {
+                "variants_ar": [
+                    "هداك",
+                    "ذلك"
+                ],
+                "meaning_en": "That one; old North Gaza/Beit Lahia fallahi demonstrative."
+            },
+            "المعمداني": {
+                "variants_ar": [
+                    "المستشفى الأهلي العربي المعمداني"
+                ],
+                "meaning_en": "Al-Ahli Arab Baptist Hospital."
+            },
+            "هوّا": {
+                "variants_ar": [
+                    "هو"
+                ],
+                "meaning_en": "He / this is him; emphatic/pronounced form."
+            },
+            "يوميتها": {
+                "variants_ar": [
+                    "يومها",
+                    "ذلك اليوم"
+                ],
+                "meaning_en": "That day / from that day."
+            },
+            "كل إشي كل إشي يحكي": {
+                "variants_ar": [
+                    "كان يتكلم بشكل طبيعي",
+                    "كان يقول كل شيء"
+                ],
+                "meaning_en": "He used to speak normally / say everything."
+            },
+            "الأرظ": {
+                "variants_ar": [
+                    "الأرض"
+                ],
+                "meaning_en": "The ground; old fallahi/North Gaza pronunciation."
+            },
+            "بيوكلها": {
+                "variants_ar": [
+                    "بيأكلها",
+                    "بياكلها"
+                ],
+                "meaning_en": "He eats it; common in some Gaza refugee/fallahi speech."
+            },
+            "إبعد عنه بوسّخ على حاله": {
+                "variants_ar": [
+                    "إذا ابتعدت عنه يتوسخ",
+                    "إذا غفلت عنه يتسخ من اللعب على الأرض"
+                ],
+                "meaning_en": "If you move away or look away, he gets himself dirty through uncontrolled/random play on the ground."
+            },
+            "فش علاج": {
+                "variants_ar": [
+                    "لا يوجد علاج"
+                ],
+                "meaning_en": "There is no treatment."
+            },
+            "هيروّح هيك": {
+                "variants_ar": [
+                    "سيعود كما هو",
+                    "سيخرج من المستشفى دون علاج كافٍ"
+                ],
+                "meaning_en": "He will go home/return as he is, without meaningful treatment."
+            },
+            "هان": {
+                "variants_ar": [
+                    "هنا"
+                ],
+                "meaning_en": "Here; local deictic form."
+            }
+        }
+    },
+    "analysis_note_for_paper": {
+        "theme_tag": "sole_child_survivor_brain_injury_medical_abandonment_survival_without_recovery",
+        "paper_fit_ar": "تمثل Narrative20 حالة مهمة جداً داخل corpus غزة لأنها تبيّن أن النجاة لا تعني الخلاص. عمر لا يموت في القصف، لكنه يخرج من الحدث كناجٍ وحيد بلا أب ولا أم ولا أخ، وبإصابة دماغية وجسدية شديدة: فقد النطق، شلل في يد ورجل، وقطعة من الجمجمة غير موجودة لأن الشظية أخذت من المخ. لذلك لا تنتمي الرواية فقط إلى ثيمة الفقد العائلي، بل إلى ثيمة «النجاة بلا تعافٍ» أو survival without recovery. كما تكشف الرواية وجهاً آخر من المعاناة: الرعاية اليومية بعد الإصابة في ظل انهيار العلاج، حيث يتحول الطفل من طفل كان يحكي كل شيء إلى طفل يحتاج مراقبة مستمرة ويأكل ما يجده على الأرض. النهاية «فش علاج إله هان مش موجود» تجعل الغياب الطبي جزءاً من الحدث العاطفي نفسه: القصف لا ينتهي عند لحظة الإصابة، بل يستمر في جسد الطفل وحياة جدّيه عبر غياب العلاج وصعوبة السفر للعلاج المناسب. لغوياً، تحمل الرواية قيمة خاصة بسبب لهجتها الفلاحية القديمة في شمال غزة/بيت لاهيا، بما فيها «هاظا/هضاك/هضاكا» و«الأرظ» و«بيوكلها»، وهي تؤكد ضرورة الحفاظ على اللهجة بدل تسطيحها إلى عربية معيارية.",
+        "paper_fit_en": "Narrative20 is a highly important case in the Gaza corpus because it shows that survival does not mean rescue or recovery. Omar does not die in the bombing, but he emerges as the only survivor, without father, mother, or brother, and with severe brain and bodily injury: loss of speech, paralysis in a hand and leg, and a missing piece of skull because shrapnel took from the brain. The narrative therefore belongs not only to family-loss discourse but to the theme of 'survival without recovery.' It also exposes another layer of suffering: everyday caregiving after injury under medical collapse, where a child who used to speak normally now requires constant supervision and eats things he finds on the ground. The final statement, 'there is no treatment for him here; it is not available,' makes medical absence part of the affective event itself. The bombing does not end at the moment of injury; it continues in the child's body and the grandparents' lives through the absence of treatment and the difficulty of travel abroad for appropriate care. Linguistically, the narrative is valuable because it preserves older North Gaza/Beit Lahia fallahi dialectal forms, reinforcing the need to preserve dialect rather than flattening testimony into standard Arabic."
+    },
+    "research_notes": {
+        "source_safety_note": "The source is treated as a public journalist video for research safety, but public visibility does not remove obligations to pseudonymize minors and minimize identifying medical details.",
+        "survival_without_recovery_note": "This narrative is a key example of survival without recovery: the child survives the attack but remains in prolonged bodily, neurological, social, and medical crisis.",
+        "medical_abandonment_note": "The phrase 'فش علاج إله هان مش موجود' should be annotated as medical abandonment/healthcare-collapse discourse, not merely as a logistical statement. The speakers describe the absence of advanced and sufficient local treatment and the difficulty of leaving Gaza for appropriate care.",
+        "intergenerational_care_note": "The speakers are grandparents. Their testimony captures intergenerational grief and caregiving burden after the death of their daughter, son-in-law, and another grandchild.",
+        "dialect_note": "The narrative has high dialectal value because it contains older Beit Lahia/North Gaza fallahi features that may be less common in contemporary urban speech. It is useful for testing whether models preserve dialectal meaning instead of normalizing away key forms.",
+        "translation_policy": {
+            "martyrdom": "Translate 'استشهد/مستشهدين' as martyrdom/martyred when representing the speakers' religious and cultural framing.",
+            "haza_hadak_forms": "Preserve or gloss as dialectal demonstratives where analytically important: هاظا/هاضا=this, هضاك/هضاكا=that one.",
+            "medical_details": "Translate medical injury details carefully as speaker-reported facts, not clinical diagnosis.",
+            "survival": "Avoid framing survival as a positive resolution. In this narrative, survival is prolonged injury and unmet care."
+        }
+    },
+    "ethical_note": {
+        "risk_level": "extreme_sensitivity_minor_sole_survivor_severe_brain_injury_no_treatment_family_death",
+        "notes": [
+            "The narrative includes a very young injured child, death of parents and sibling, severe brain/skull injury, partial paralysis, loss of speech, behavioural deterioration, and absence of treatment.",
+            "Public outputs should pseudonymize the child's name and avoid face, voice, hospital imagery, or exact source identifiers.",
+            "Do not infer clinical diagnosis or prognosis beyond what speakers report.",
+            "Avoid stigmatizing descriptions of post-injury behaviour; frame them as caregiver testimony about injury, deterioration, and lack of treatment.",
+            "Do not romanticize this as resilience simply because the child survived. Survival here is ongoing crisis without recovery.",
+            "The old fallahi dialect should be preserved respectfully and not treated as an error or low-quality language."
+        ],
+        "recommended_public_version": "pseudonymized_text_only; generalize child age; remove visual/audio identifiers; minimize medical details while preserving the survival-without-recovery analysis"
+    },
+    "public_release": {
+        "intended_use": "public_github",
+        "reversibility_in_bundle": false
+    }
+}
